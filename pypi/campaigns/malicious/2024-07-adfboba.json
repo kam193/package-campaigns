@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "packages": [
-        "openai-py3",
+        "deepseek-api",
         "hugchats",
-        "deepseek-api"
+        "openai-py3"
     ],
     "references": []
 }

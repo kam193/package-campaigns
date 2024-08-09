@@ -6,11 +6,11 @@
         "files_exfiltration"
     ],
     "packages": [
+        "a-oder",
+        "ebe",
         "ebell",
         "soal",
-        "soali",
-        "ebe",
-        "a-oder"
+        "soali"
     ],
     "ioc": [],
     "references": []

@@ -6,9 +6,9 @@
         "remote_executable"
     ],
     "packages": [
-        "pyfetcher-vaaai",
+        "netfetcher",
         "pyfetcher",
-        "netfetcher"
+        "pyfetcher-vaaai"
     ],
     "ioc": [
         "http://194.163.191.205:6963/api",

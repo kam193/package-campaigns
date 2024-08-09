@@ -4,8 +4,8 @@
     "category": "malicious",
     "abuse_categories": [
         "basic_exfiltration",
-        "script-kid",
-        "override_install"
+        "override_install",
+        "script-kid"
     ],
     "packages": [
         "gandon-pidar1"

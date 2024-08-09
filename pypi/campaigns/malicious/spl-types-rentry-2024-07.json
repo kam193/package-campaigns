@@ -7,11 +7,11 @@
     ],
     "packages": [
         "python-guild",
+        "raydium",
         "raydium-sdk",
         "sol-instruct",
-        "spl-types",
         "sol-structs",
-        "raydium"
+        "spl-types"
     ],
     "references": []
 }

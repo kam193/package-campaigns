@@ -4,8 +4,8 @@
     "category": "malicious",
     "abuse_categories": [
         "exfiltration_generic",
-        "webhook_discord",
-        "infostealer"
+        "infostealer",
+        "webhook_discord"
     ],
     "packages": [
         "pybanners"

@@ -6,8 +6,8 @@
         "remote_executable"
     ],
     "packages": [
-        "strongkong",
-        "kongstrong"
+        "kongstrong",
+        "strongkong"
     ],
     "ioc": [
         "ok-omega-eight.vercel.app",

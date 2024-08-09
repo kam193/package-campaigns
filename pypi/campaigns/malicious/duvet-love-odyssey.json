@@ -6,10 +6,10 @@
         "infostealer"
     ],
     "packages": [
-        "better-gradient",
         "Discord-EmbedBuilder",
-        "whoisbuild",
-        "discord-embedbuilder"
+        "better-gradient",
+        "discord-embedbuilder",
+        "whoisbuild"
     ],
     "references": []
 }
