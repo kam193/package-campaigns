@@ -15,7 +15,5 @@
         "194.163.191.205",
         "http://194.163.191.205:6963/builds/Netflix_Checker.exe"
     ],
-    "references": [
-        ""
-    ]
+    "references": []
 }

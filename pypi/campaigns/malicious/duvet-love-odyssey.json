@@ -11,7 +11,5 @@
         "whoisbuild",
         "discord-embedbuilder"
     ],
-    "references": [
-        ""
-    ]
+    "references": []
 }

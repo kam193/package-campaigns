@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
-        "peristence_autorun",
+        "webhook_discord",
         "clipboard_stealing",
-        "webhook_discord"
+        "peristence_autorun"
     ],
     "packages": [
         "testjsonn2",
@@ -14,10 +14,6 @@
         "gentorqkkh",
         "testjson3"
     ],
-    "ioc": [
-        ""
-    ],
-    "references": [
-        ""
-    ]
+    "ioc": [],
+    "references": []
 }

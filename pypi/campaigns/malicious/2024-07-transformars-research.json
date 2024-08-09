@@ -8,7 +8,5 @@
     "packages": [
         "transformars"
     ],
-    "references": [
-        ""
-    ]
+    "references": []
 }

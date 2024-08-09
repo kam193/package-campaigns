@@ -5,7 +5,5 @@
     "packages": [
         "text-adventure-game"
     ],
-    "references": [
-        ""
-    ]
+    "references": []
 }

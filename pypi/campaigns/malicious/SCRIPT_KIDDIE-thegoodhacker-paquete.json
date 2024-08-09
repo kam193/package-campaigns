@@ -3,16 +3,14 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
-        "override_install",
+        "basic_exfiltration",
         "script-kid",
-        "basic_exfiltration"
+        "override_install"
     ],
     "packages": [
         "gandon-pidar1"
     ],
-    "ioc": [
-        ""
-    ],
+    "ioc": [],
     "references": [
         "https://github.com/thegoodhackertv/malpip"
     ]

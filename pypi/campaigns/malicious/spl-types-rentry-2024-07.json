@@ -13,7 +13,5 @@
         "sol-structs",
         "raydium"
     ],
-    "references": [
-        ""
-    ]
+    "references": []
 }

@@ -11,7 +11,5 @@
     "ioc": [
         "https://github.com/gptsol/gptsol/releases/download/1.0/solgptwin.zip"
     ],
-    "references": [
-        ""
-    ]
+    "references": []
 }
