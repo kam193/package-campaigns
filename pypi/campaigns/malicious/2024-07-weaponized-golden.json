@@ -1,0 +1,21 @@
+{
+    "name": "2024-07-weaponized-golden",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "ebell",
+        "soal",
+        "soali",
+        "ebe",
+        "a-oder"
+    ],
+    "ioc": [
+        ""
+    ],
+    "references": [
+        ""
+    ]
+}

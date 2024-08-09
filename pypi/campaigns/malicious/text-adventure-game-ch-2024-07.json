@@ -1,0 +1,11 @@
+{
+    "name": "text-adventure-game-ch-2024-07",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "packages": [
+        "text-adventure-game"
+    ],
+    "references": [
+        ""
+    ]
+}

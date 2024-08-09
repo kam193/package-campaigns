@@ -1,0 +1,19 @@
+{
+    "name": "2024-07-strongkong",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "strongkong",
+        "kongstrong"
+    ],
+    "ioc": [
+        "ok-omega-eight.vercel.app",
+        "https://ok-omega-eight.vercel.app/Qgshqlgel.exe"
+    ],
+    "references": [
+        ""
+    ]
+}

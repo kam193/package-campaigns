@@ -1,0 +1,23 @@
+{
+    "name": "2024-07-ronnyfredd-exfiltr-clipboard",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "peristence_autorun",
+        "clipboard_stealing",
+        "webhook_discord"
+    ],
+    "packages": [
+        "testjsonn2",
+        "gentorqkkh1",
+        "testjsonn1",
+        "gentorqkkh",
+        "testjson3"
+    ],
+    "ioc": [
+        ""
+    ],
+    "references": [
+        ""
+    ]
+}

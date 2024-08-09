@@ -1,0 +1,17 @@
+{
+    "name": "duvet-love-odyssey",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "better-gradient",
+        "Discord-EmbedBuilder",
+        "whoisbuild",
+        "discord-embedbuilder"
+    ],
+    "references": [
+        ""
+    ]
+}

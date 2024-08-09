@@ -1,0 +1,14 @@
+{
+    "name": "2024-07-transformars-research",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "cryptominer"
+    ],
+    "packages": [
+        "transformars"
+    ],
+    "references": [
+        ""
+    ]
+}

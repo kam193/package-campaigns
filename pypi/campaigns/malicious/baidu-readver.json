@@ -1,0 +1,15 @@
+{
+    "name": "baidu-readver",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "importlib-metadate",
+        "nt4padyp3"
+    ],
+    "references": [
+        ""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "2024-07-blazesquad",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "webhook_discord",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "pybanners"
+    ],
+    "ioc": [
+        "https://github.com/BlazeSquad666/discord-injection/blob/main/injection.js",
+        "https://filetransfer.io/data-package/c4MTYWw8/download"
+    ],
+    "references": [
+        "https://github.com/BlazeSquad666/blazestealer"
+    ]
+}

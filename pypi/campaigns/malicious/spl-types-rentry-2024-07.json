@@ -1,0 +1,19 @@
+{
+    "name": "spl-types-rentry-2024-07",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "python-guild",
+        "raydium-sdk",
+        "sol-instruct",
+        "spl-types",
+        "sol-structs",
+        "raydium"
+    ],
+    "references": [
+        ""
+    ]
+}

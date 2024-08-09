@@ -1,0 +1,19 @@
+{
+    "name": "SCRIPT_KIDDIE-thegoodhacker-paquete",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "script-kid",
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "gandon-pidar1"
+    ],
+    "ioc": [
+        ""
+    ],
+    "references": [
+        "https://github.com/thegoodhackertv/malpip"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "2024-07-solgpt-exe-zip-miner",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "cryptominer"
+    ],
+    "packages": [
+        "solgpt"
+    ],
+    "ioc": [
+        "https://github.com/gptsol/gptsol/releases/download/1.0/solgptwin.zip"
+    ],
+    "references": [
+        ""
+    ]
+}

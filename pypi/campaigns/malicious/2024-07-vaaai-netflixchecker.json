@@ -1,0 +1,21 @@
+{
+    "name": "2024-07-vaaai-netflixchecker",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "pyfetcher-vaaai",
+        "pyfetcher",
+        "netfetcher"
+    ],
+    "ioc": [
+        "http://194.163.191.205:6963/api",
+        "194.163.191.205",
+        "http://194.163.191.205:6963/builds/Netflix_Checker.exe"
+    ],
+    "references": [
+        ""
+    ]
+}

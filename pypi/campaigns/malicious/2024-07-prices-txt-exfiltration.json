@@ -1,0 +1,14 @@
+{
+    "name": "2024-07-prices-txt-exfiltration",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "fasdghjkhjafsd"
+    ],
+    "references": [
+        ""
+    ]
+}

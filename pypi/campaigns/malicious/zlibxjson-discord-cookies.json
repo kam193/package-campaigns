@@ -1,0 +1,14 @@
+{
+    "name": "zlibxjson-discord-cookies",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "zlibxjson"
+    ],
+    "references": [
+        ""
+    ]
+}

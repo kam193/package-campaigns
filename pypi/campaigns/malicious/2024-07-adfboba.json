@@ -1,0 +1,13 @@
+{
+    "name": "2024-07-adfboba",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "packages": [
+        "openai-py3",
+        "hugchats",
+        "deepseek-api"
+    ],
+    "references": [
+        ""
+    ]
+}

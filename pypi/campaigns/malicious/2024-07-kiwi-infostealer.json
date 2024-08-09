@@ -1,0 +1,14 @@
+{
+    "name": "2024-07-kiwi-infostealer",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "pystlete"
+    ],
+    "references": [
+        ""
+    ]
+}
