@@ -1,0 +1,24 @@
+{
+    "name": "2024-08-sleipnirbrowser-web3",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "dependency-confusion",
+        "impersonation",
+        "modify-system-without-consent",
+        "remote_executable"
+    ],
+    "packages": [
+        "jupiterhelper"
+    ],
+    "ioc": [
+        "sleipnirbrowser.org",
+        "https://sleipnirbrowser.org/api/python/14526470/win"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/22463611269abfdfca5d7dca9f77b113ab8b0d687e1059f7ef700c455880902e/detection",
+        "https://lookyloo.circl.lu/tree/43955986-8758-452c-ace6-d6a01f15131b"
+    ],
+    "description": "Pretends to be a helper for Jupiter, but once run, downloads and install from sleipnirbrowser[.]org a suspicious executable pretending to be a webbrowser. This website appears to be a scam using some kind of crypto tokens, and trying to impersonate a legitimate Slepnir web browser (https://en.wikipedia.org/wiki/Sleipnir_(web_browser)). "
+}
