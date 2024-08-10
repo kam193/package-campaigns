@@ -1,0 +1,18 @@
+{
+    "name": "2024-08-app-url-to-telegram",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "clons_real_package",
+        "dependency-confusion"
+    ],
+    "packages": [
+        "aiohttp-libscss"
+    ],
+    "ioc": [
+        "https://api.telegram.org/bot7168168551:AAEmMGUSJ_Pd7l6YAMQs-ySXM1FXueUOJtY/sendMessage?chat_id=6977902769&text="
+    ],
+    "references": [],
+    "description": "Imitate legit package, when used, sends out the URL of web application using the package"
+}
