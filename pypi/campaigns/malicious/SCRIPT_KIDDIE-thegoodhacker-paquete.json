@@ -8,7 +8,8 @@
         "script-kid"
     ],
     "packages": [
-        "gandon-pidar1"
+        "gandon-pidar1",
+        "paquete-5"
     ],
     "ioc": [],
     "references": [

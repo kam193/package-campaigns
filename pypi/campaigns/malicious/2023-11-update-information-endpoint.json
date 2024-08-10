@@ -1,0 +1,19 @@
+{
+    "name": "2023-11-update-information-endpoint",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "override_install",
+        "typosquatting"
+    ],
+    "packages": [
+        "httprequesthub",
+        "libproxy",
+        "libsock",
+        "libsocks5",
+        "pyhttpproxifier"
+    ],
+    "ioc": [],
+    "references": []
+}

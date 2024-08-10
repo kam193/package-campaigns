@@ -1,0 +1,13 @@
+{
+    "name": "2023-11-decrypt-from-readme",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "ethercheck"
+    ],
+    "ioc": [],
+    "references": []
+}
