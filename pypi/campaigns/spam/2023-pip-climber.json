@@ -1,0 +1,17 @@
+{
+    "name": "2023-pip-climber",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "advertisement"
+    ],
+    "packages": [
+        "1000-pip-climber-system-cracked",
+        "1000-pip-climber-system-download",
+        "1000pipclimbersystem-free-download"
+    ],
+    "ioc": [
+        "https://156544mlxov28levev7grc9v9g.hop.clickbank.net/?tid=py"
+    ],
+    "references": []
+}
