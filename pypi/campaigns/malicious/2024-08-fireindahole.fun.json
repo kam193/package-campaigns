@@ -1,0 +1,23 @@
+{
+    "name": "2024-08-fireindahole.fun",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "backdoor",
+        "clons_real_package",
+        "dependency-confusion",
+        "obfuscation"
+    ],
+    "packages": [
+        "audio-separator-fork"
+    ],
+    "ioc": [
+        "fireindahole.fun",
+        "http://main.fireindahole.fun/script4separator.sh",
+        "http://main.fireindahole.fun/script3separator.sh",
+        "https://grabify.link/IFKU0H"
+    ],
+    "references": [],
+    "description": "Clones real package and hoddens an obfuscated code trying to run remote scripts as well as establish backdoor through SSH."
+}

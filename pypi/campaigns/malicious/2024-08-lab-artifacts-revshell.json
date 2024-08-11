@@ -1,0 +1,16 @@
+{
+    "name": "2024-08-lab-artifacts-revshell",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "artifact-lab-3-package-392c6acd",
+        "artifact-lab-3-package-b9485a2f",
+        "artifact-lab-3-package-f0727516"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Packages showing simple variants of revshell with targets to ngrok. Most probably experiments. "
+}
