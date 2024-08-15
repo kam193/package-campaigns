@@ -1,0 +1,25 @@
+{
+    "name": "2024-08-uconst-old",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "infostealer",
+        "remote_executable",
+        "through_dependency"
+    ],
+    "packages": [
+        "aiotrans",
+        "uconst"
+    ],
+    "ioc": [
+        "http://89.23.105.103:809/lin",
+        "http://89.23.105.103:809/win",
+        "http://89.23.105.103/eny",
+        "89.23.105.103",
+        "https://lucky-tubes.000webhostapp.com/log.php?data=sent",
+        "lucky-tubes.000webhostapp.com"
+    ],
+    "references": [],
+    "description": "Package \"uconst\" is the package containing malicious code with multiple stage, exfiltrating basic info as well as browser data. It's put into others as dependency."
+}
