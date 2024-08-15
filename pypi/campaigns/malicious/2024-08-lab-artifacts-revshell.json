@@ -3,14 +3,19 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "basic_exfiltration",
+        "override_install",
         "revshell"
     ],
     "packages": [
         "artifact-lab-3-package-392c6acd",
+        "artifact-lab-3-package-b6920ef4",
         "artifact-lab-3-package-b9485a2f",
-        "artifact-lab-3-package-f0727516"
+        "artifact-lab-3-package-d7d52d45",
+        "artifact-lab-3-package-f0727516",
+        "artifact-lab-3-package-f70fc6dd"
     ],
     "ioc": [],
     "references": [],
-    "description": "Packages showing simple variants of revshell with targets to ngrok. Most probably experiments. "
+    "description": "Packages showing simple variants of revshell with targets to ngrok. Most probably experiments. Later versions moved to use Burp Collaborator to exfiltrate simple data. Pentest? An artifact from some red team curse? "
 }
