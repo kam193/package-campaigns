@@ -1,0 +1,16 @@
+{
+    "name": "2024-08-old-anonimtest-putty",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "anonim",
+        "anonimtest",
+        "anonimtwst"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Packages contain automated downloading and starting of an executable, which seems to be just a putty instance from a URL controlled by the author. It does not appear to have any harmful activity, but the downloading & starting of the application happens without user clear consent."
+}
