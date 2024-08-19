@@ -1,0 +1,19 @@
+{
+    "name": "2024-08-old-threading-assistant",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "typosquatting",
+        "webhook_discord"
+    ],
+    "packages": [
+        "assistant-threader",
+        "assisting-threading",
+        "thethreadingassistant",
+        "threading-assistant"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Infostealer exfiltrating cookies, history and passwords from the Google Chrome browser, as well as attempting to do a webcam photo. Data are sent to a Discord webhook. Malicious code is split over multiple files."
+}
