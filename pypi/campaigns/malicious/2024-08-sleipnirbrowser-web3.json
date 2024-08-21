@@ -12,6 +12,7 @@
     "packages": [
         "juphelp",
         "juphelper",
+        "jupihelp",
         "jupiter-helper",
         "jupiterhelper"
     ],
