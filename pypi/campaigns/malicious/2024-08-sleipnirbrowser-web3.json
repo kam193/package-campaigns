@@ -14,7 +14,8 @@
         "juphelper",
         "jupihelp",
         "jupiter-helper",
-        "jupiterhelper"
+        "jupiterhelper",
+        "jupphelp"
     ],
     "ioc": [
         "sleipnirbrowser.org",
