@@ -1,0 +1,20 @@
+{
+    "name": "2024-08-koalabuilder",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "pyunzip",
+        "unrartest"
+    ],
+    "ioc": [
+        "https://filetransfer.io/data-package/X3ykbFZq/download"
+    ],
+    "references": [
+        "https://tria.ge/240823-sxpmlavdnk/behavioral2"
+    ],
+    "description": "Packages downloads remote executable. The final behaviour is unknown, but starts with bypassing UAC and other security controls. Some package clones are obfuscated."
+}
