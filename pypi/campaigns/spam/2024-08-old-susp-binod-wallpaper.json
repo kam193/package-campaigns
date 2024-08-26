@@ -1,0 +1,18 @@
+{
+    "name": "2024-08-old-susp-binod-wallpaper",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "modify-system-without-consent"
+    ],
+    "packages": [
+        "binod-binod",
+        "binod-desk",
+        "binod-magic"
+    ],
+    "ioc": [
+        "https://i.ibb.co/QktFXHD/binod.png"
+    ],
+    "references": [],
+    "description": "Packages do nothing behind changing the background to a specific image."
+}
