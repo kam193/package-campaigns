@@ -1,0 +1,23 @@
+{
+    "name": "2024-08-invokehttp",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "infostealer",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "invokehttp"
+    ],
+    "ioc": [
+        "https://github.com/user-attachments/files/16791956/marshal.txt",
+        "https://github.com/user-attachments/files/16791996/trezznor.txt"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/84ccffd89ef262ce8475801bfc751fec381ee613f38f78b1c0974716ad32bab8",
+        "https://www.virustotal.com/gui/file/6c2fb04f81fe0631d6765720af92aa9969f10766281fbc32b6f77889b50b87cd"
+    ],
+    "description": "The __init__.py contains obfuscated code attempting to download and run one of two executables. They are identified as malicious by VT and the tracks of Telegram URLs suggests attempting data exfiltration. The package itself looks like a copy of requests."
+}
