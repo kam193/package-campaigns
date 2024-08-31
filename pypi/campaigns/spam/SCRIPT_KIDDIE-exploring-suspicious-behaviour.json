@@ -1,0 +1,17 @@
+{
+    "name": "SCRIPT_KIDDIE-exploring-suspicious-behaviour",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "48484efej8id",
+        "ffefesaewad",
+        "muehdhaoie",
+        "testerpackage123"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)"
+}
