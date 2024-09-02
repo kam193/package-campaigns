@@ -1,0 +1,21 @@
+{
+    "name": "2024-08-pojang-resorter",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "infostealer",
+        "obfuscation",
+        "override_install",
+        "remote_executable",
+        "webhook_discord"
+    ],
+    "packages": [
+        "pojang-resorter"
+    ],
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/3d30ffd98e870abc0e09fb3af94d65fc8efd391ede958dd0365007a7ae020ec0"
+    ],
+    "description": "Early versions used overriding install command to take screenshots, then it moved to automated installing an infostealer. Later the behaviour was changed and looks like being a toolkit to install malware, yet, depending on version, containing an automated infostealer installation. The exact code is partially hidden behind different obfuscation methods."
+}
