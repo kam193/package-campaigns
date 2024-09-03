@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "crypto-related",
         "infostealer"
     ],
     "packages": [
@@ -13,5 +14,9 @@
         "sol-structs",
         "spl-types"
     ],
-    "references": []
+    "ioc": [],
+    "references": [
+        "https://checkmarx.com/blog/stackexchange-abused-to-spread-malicious-python-package-that-drains-victims-crypto-wallets/"
+    ],
+    "description": ""
 }
