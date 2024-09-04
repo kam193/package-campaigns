@@ -1,0 +1,20 @@
+{
+    "name": "2024-08-embeds",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "remote_executable"
+    ],
+    "packages": [
+        "embeds"
+    ],
+    "ioc": [
+        "https://github.com/holdthatcode/host/raw/main/howl.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/249c91245c949e8e7cc7f4bd3d6aef9b354c1d249fc3097b0363862ed7269886",
+        "https://tria.ge/240904-zj4b6awckl/behavioral1"
+    ],
+    "description": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes."
+}
