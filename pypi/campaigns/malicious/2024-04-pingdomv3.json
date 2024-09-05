@@ -1,0 +1,17 @@
+{
+    "name": "2024-04-pingdomv3",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "reuse-removed-name"
+    ],
+    "packages": [
+        "pingdomv3"
+    ],
+    "ioc": [],
+    "references": [
+        "https://jfrog.com/blog/revival-hijack-pypi-hijack-technique-exploited-22k-packages-at-risk/#real-world-revival-hijack-pingdomv3"
+    ],
+    "description": ""
+}
