@@ -1,0 +1,18 @@
+{
+    "name": "2024-08-dirutils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "webhook_discord"
+    ],
+    "packages": [
+        "dirutils"
+    ],
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/f754903e1fec996a10be31f9654f159354f0de1d17de9325cbd468f66ee69cd2/behavior",
+        "https://tria.ge/240906-nzwrgavapk/behavioral2"
+    ],
+    "description": "Package contains a compiled infostealer that is started instead of listing directories"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "mlc-llm-nightly",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest"
+}

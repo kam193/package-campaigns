@@ -10,7 +10,9 @@
     ],
     "packages": [
         "flophttp",
-        "invokehttp"
+        "invokehttp",
+        "modernreqs",
+        "utilhttp"
     ],
     "ioc": [
         "https://github.com/user-attachments/files/16791956/marshal.txt",
