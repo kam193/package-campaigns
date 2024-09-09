@@ -1,0 +1,20 @@
+{
+    "name": "2024-09-hyperreq",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "hyperreq"
+    ],
+    "ioc": [
+        "https://webhook.lewisakura.moe/api/webhooks/1060926349793050725/11cIlB9OtDMuZbxqAHDnST4LuzQkR9CzTsFuCYJMCYnns028ZyPvupSs76pYktLfqpij",
+        "webhook.lewisakura.moe",
+        "https://discord.com/api/webhooks/1063474064779386930/XoGeQXfBC2uTbBafVTuUDn3oGz5hXYDwSxRhxy4Tk1fkvyba611Fnm_Ozfw-5RptAgDl"
+    ],
+    "references": [],
+    "description": "May be similar to the kiwi infostealer."
+}
