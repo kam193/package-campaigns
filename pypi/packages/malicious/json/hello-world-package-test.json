@@ -1,0 +1,5 @@
+{
+    "name": "hello-world-package-test",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "2024-08-old-colourfulls",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "colourfulls"
+    ],
+    "ioc": [
+        "https://cdn.discordapp.com/attachments/941400716956799106/942268626843619348/malveillant.exe"
+    ],
+    "references": [],
+    "description": "Once imported, the module attempts to download an executable, put into Discord directory and most probably trick discord to start it. The download link does not work any more, so it's not possible to say what exactly the remote file did."
+}

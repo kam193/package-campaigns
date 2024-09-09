@@ -1,0 +1,23 @@
+{
+    "name": "2024-08-old-colorbytes",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "infostealer",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "colorbytes"
+    ],
+    "ioc": [
+        "https://pastebin.com/raw/mWyKKzeT",
+        "https://pastebin.com/raw/gwC6eetW",
+        "https://pastebin.com/raw/cbjzwued",
+        "https://pastebin.com/raw/PXPtuhz3",
+        "https://pastebin.com/raw/KV3GS6Js"
+    ],
+    "references": [],
+    "description": "Extremely obfuscated code starts when importing the module, and then downloads the next stages and configuration from pastebin. They include a whole range of infostealer activity, from exfiltrating browser files up to a keylogger and registering mouse clicks."
+}
