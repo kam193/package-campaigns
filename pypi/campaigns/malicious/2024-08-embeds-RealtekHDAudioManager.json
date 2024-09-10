@@ -11,7 +11,8 @@
         "embeds",
         "modeflow",
         "pyadd",
-        "pyloy"
+        "pyloy",
+        "uidesign"
     ],
     "ioc": [
         "https://github.com/holdthatcode/host/raw/main/howl.exe",
