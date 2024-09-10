@@ -1,0 +1,29 @@
+{
+    "name": "2024-08-embeds-RealtekHDAudioManager",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "remote_executable"
+    ],
+    "packages": [
+        "dahood",
+        "embeds",
+        "modeflow",
+        "pyadd",
+        "pyloy"
+    ],
+    "ioc": [
+        "https://github.com/holdthatcode/host/raw/main/howl.exe",
+        "https://github.com/holdthatcode/host/raw/main/menu.exe",
+        "https://raw.githubusercontent.com/bloodstainedvvs/host/main/code.exe",
+        "https://github.com/bloodstainedvvs/host/raw/main/zwerve.exe",
+        "https://cdn.discordapp.com/attachments/1276975489780809812/1282787632082059359/zwerve.exe?ex=66e0a094&is=66df4f14&hm=f4604d9783911e770716516e30d4f665214449f46aa2c5a59afc4bda7042bfba&"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/249c91245c949e8e7cc7f4bd3d6aef9b354c1d249fc3097b0363862ed7269886",
+        "https://tria.ge/240904-zj4b6awckl/behavioral1",
+        "https://www.virustotal.com/gui/file/62a7ed6c03d5e519cc5121fe8ad967bdadbbda106a3250b03ab50fb10457ed37"
+    ],
+    "description": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes.\n\nRealtekHDAudioManager.exe"
+}
