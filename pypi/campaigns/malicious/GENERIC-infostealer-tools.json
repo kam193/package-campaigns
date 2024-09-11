@@ -1,0 +1,14 @@
+{
+    "name": "GENERIC-infostealer-tools",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "stealerdiscord"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Tools to build infostealers"
+}
