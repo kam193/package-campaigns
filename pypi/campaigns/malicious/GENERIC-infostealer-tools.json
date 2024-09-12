@@ -6,6 +6,7 @@
         "infostealer"
     ],
     "packages": [
+        "d1scordx",
         "stealerdiscord"
     ],
     "ioc": [],
