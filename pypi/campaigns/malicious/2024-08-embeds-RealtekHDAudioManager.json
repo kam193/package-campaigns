@@ -15,6 +15,8 @@
         "modeflow",
         "pyadd",
         "pyloy",
+        "rodll",
+        "roinject",
         "rolib",
         "uidesign"
     ],
@@ -30,7 +32,8 @@
     "references": [
         "https://www.virustotal.com/gui/file/249c91245c949e8e7cc7f4bd3d6aef9b354c1d249fc3097b0363862ed7269886",
         "https://tria.ge/240904-zj4b6awckl/behavioral1",
-        "https://www.virustotal.com/gui/file/62a7ed6c03d5e519cc5121fe8ad967bdadbbda106a3250b03ab50fb10457ed37"
+        "https://www.virustotal.com/gui/file/62a7ed6c03d5e519cc5121fe8ad967bdadbbda106a3250b03ab50fb10457ed37",
+        "https://tria.ge/240913-pcqgls1cna"
     ],
     "description": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes.\n\nRealtekHDAudioManager.exe"
 }
