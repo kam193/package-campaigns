@@ -7,6 +7,7 @@
         "remote_executable"
     ],
     "packages": [
+        "antibyfron",
         "artindex",
         "automsg",
         "dahood",
@@ -35,5 +36,5 @@
         "https://www.virustotal.com/gui/file/62a7ed6c03d5e519cc5121fe8ad967bdadbbda106a3250b03ab50fb10457ed37",
         "https://tria.ge/240913-pcqgls1cna"
     ],
-    "description": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes.\n\nRealtekHDAudioManager.exe"
+    "description": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes."
 }
