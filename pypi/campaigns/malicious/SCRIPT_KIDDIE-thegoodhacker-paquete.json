@@ -10,10 +10,16 @@
     "packages": [
         "advdef01",
         "gandon-pidar1",
+        "mecit1",
+        "mecit2",
+        "mecit3",
         "paquete-5"
     ],
-    "ioc": [],
+    "ioc": [
+        "https://github.com/thegoodhackertv/malpip"
+    ],
     "references": [
         "https://github.com/thegoodhackertv/malpip"
-    ]
+    ],
+    "description": "Package uses the template from https://github.com/thegoodhackertv/malpip to explore building malicious PyPI packages."
 }
