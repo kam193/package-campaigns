@@ -7,12 +7,13 @@
         "webhook_discord"
     ],
     "packages": [
+        "browser-cookies1",
         "browser-cookies3",
         "dirutils"
     ],
     "ioc": [
         "https://discord.com/api/webhooks/1280529043107614733/woxM-qRJ5KY4nkCILD9TFi0VuJwN-ewQ52ZqbAoeLMaYxfP7hRUErYIMusugirIWB42D",
-        "https://discordapp.com/api/webhooks/1284874320556064859/IRz_BFstxKu2-8cHHoF5xEXV4QYYQXkOAI8RwZJ317fJQGRxtbcPcYBeEnwv4dNM9NbZc"
+        "https://discordapp.com/api/webhooks/1284874320556064859/IRz_BFstxKu2-8cHHoF5xEXV4QYYQXkOAI8RwZJ317fJQGRxtbcPcYBeEnwv4dNM9NbZ"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/f754903e1fec996a10be31f9654f159354f0de1d17de9325cbd468f66ee69cd2/behavior",
