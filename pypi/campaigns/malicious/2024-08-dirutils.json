@@ -7,12 +7,17 @@
         "webhook_discord"
     ],
     "packages": [
+        "browser-cookies3",
         "dirutils"
     ],
-    "ioc": [],
+    "ioc": [
+        "https://discord.com/api/webhooks/1280529043107614733/woxM-qRJ5KY4nkCILD9TFi0VuJwN-ewQ52ZqbAoeLMaYxfP7hRUErYIMusugirIWB42D",
+        "https://discordapp.com/api/webhooks/1284874320556064859/IRz_BFstxKu2-8cHHoF5xEXV4QYYQXkOAI8RwZJ317fJQGRxtbcPcYBeEnwv4dNM9NbZc"
+    ],
     "references": [
         "https://www.virustotal.com/gui/file/f754903e1fec996a10be31f9654f159354f0de1d17de9325cbd468f66ee69cd2/behavior",
-        "https://tria.ge/240906-nzwrgavapk/behavioral2"
+        "https://tria.ge/240906-nzwrgavapk/behavioral2",
+        "https://www.virustotal.com/gui/file/d7e3402341dcba66a6ed3e92889c655aa08d5103d1a65133f0a05f12d9390bb4"
     ],
-    "description": "Package contains a compiled infostealer that is started instead of listing directories"
+    "description": "Package contains a compiled infostealer that is started instead of promised functionality"
 }
