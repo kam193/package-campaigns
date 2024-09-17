@@ -1,0 +1,22 @@
+{
+    "name": "2024-09-cstealer",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "infostealer:cstealer"
+    ],
+    "packages": [
+        "sendtowev"
+    ],
+    "ioc": [
+        "https://rentry.co/u4tup/raw",
+        "https://rentry.co/u7hcdw7r/raw",
+        "https://rentry.co/n9t3khws/raw",
+        "https://rentry.co/5uu99/raw"
+    ],
+    "references": [
+        "https://github.com/can-kat/cstealer"
+    ],
+    "description": "Package contains CStealer, a known infostealer, starting on importing the module."
+}
