@@ -1,0 +1,5 @@
+{
+    "name": "test-packages2",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest"
+}
