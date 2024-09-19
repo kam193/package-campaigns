@@ -1,0 +1,21 @@
+{
+    "name": "2024-09-pdf2doc",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "clons_real_package",
+        "dependency-confusion",
+        "obfuscation",
+        "override_install",
+        "typosquatting"
+    ],
+    "packages": [
+        "pdf2doc"
+    ],
+    "ioc": [
+        "partywave.site"
+    ],
+    "references": [],
+    "description": "During installation, the code attempts to exfiltrate basic data (username, host name) and send to the attacker. The package looks to be a clone of an existing one"
+}
