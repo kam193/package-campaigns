@@ -1,0 +1,19 @@
+{
+    "name": "2024-09-sampleuser123-asciidrawing",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "clons_real_package",
+        "dependency-confusion",
+        "impersonation",
+        "override_install",
+        "webhook_discord"
+    ],
+    "packages": [
+        "asciidrawing"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "During installation, a Discord webhook is used to exfiltrate basic data. The package seems to attempt impersonating the \"asciidraw\" package (some files and description in setup.py are copied).\n\nThe other package, pdf2doc, as well as time correlation suggests the uploader is related to the 2024-09-bondonioanderas-cryptominer campaign as well. "
+}
