@@ -1,0 +1,18 @@
+{
+    "name": "2024-09-old-easypydb",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic",
+        "webhook_discord"
+    ],
+    "packages": [
+        "easypydb"
+    ],
+    "ioc": [
+        "https://discord.com/api/webhooks/846019171992862750/t3AJQZ-fE-TrUlnE5tMm1FFw9KrAIJ6MkaokcCz4YP8sRDwy9g9z8VSMdCeXwUF4UwUv"
+    ],
+    "references": [],
+    "description": "The package is a wrapper around \"s1db\" package, which offers some kind of easy online database. However, this package silently exfiltrates credentials given by people and sends them to a Discord webhook, effectively allowing stealing data."
+}

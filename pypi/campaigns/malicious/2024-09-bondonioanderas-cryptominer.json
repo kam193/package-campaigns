@@ -8,6 +8,8 @@
         "override_install"
     ],
     "packages": [
+        "bo3to",
+        "botoceor",
         "kersa",
         "seabonr",
         "setuptolos",
