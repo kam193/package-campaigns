@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "",
         "action-hidden-in-lib-usage",
-        "exfiltration_generic",
-        "webhook_discord"
+        "exfiltration_generic"
     ],
     "packages": [
         "easypydb"

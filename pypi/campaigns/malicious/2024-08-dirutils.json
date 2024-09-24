@@ -3,8 +3,8 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
-        "infostealer",
-        "webhook_discord"
+        "",
+        "infostealer"
     ],
     "packages": [
         "browser-cookies1",

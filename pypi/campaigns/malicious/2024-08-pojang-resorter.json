@@ -3,12 +3,12 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "",
         "exfiltration_generic",
         "infostealer",
         "obfuscation",
         "override_install",
-        "remote_executable",
-        "webhook_discord"
+        "remote_executable"
     ],
     "packages": [
         "pojang-resorter"

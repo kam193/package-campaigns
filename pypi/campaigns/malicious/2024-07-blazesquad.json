@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "",
         "exfiltration_generic",
-        "infostealer",
-        "webhook_discord"
+        "infostealer"
     ],
     "packages": [
         "pybanners"

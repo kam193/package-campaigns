@@ -3,12 +3,12 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "",
         "basic_exfiltration",
         "clons_real_package",
         "dependency-confusion",
         "impersonation",
-        "override_install",
-        "webhook_discord"
+        "override_install"
     ],
     "packages": [
         "asciidrawing"

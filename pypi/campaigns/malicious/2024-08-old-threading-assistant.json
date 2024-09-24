@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "",
         "infostealer",
-        "typosquatting",
-        "webhook_discord"
+        "typosquatting"
     ],
     "packages": [
         "assistant-threader",
