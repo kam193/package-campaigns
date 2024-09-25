@@ -1,0 +1,20 @@
+{
+    "name": "2024-09-old-faest",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "faest"
+    ],
+    "ioc": [
+        "https://donkeyback.glitch.me/metrics/collect",
+        "donkeyback.glitch.me",
+        "https://git.sr.ht/~wsmith/faest"
+    ],
+    "references": [],
+    "description": "When using this library to do any request, a \"validate_origin\" function is called (L1320 in _client.py). This method, located in _utils.py, collects all request data, tries also read /etc/shadow using Docker container, and sends them to an endpoint controlled by the package author.\n\nThe package seems to be a clone of httpx and also informs in the README that it's a malicious library, as so, it seems to be a malicious research attempts."
+}
