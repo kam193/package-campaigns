@@ -1,0 +1,16 @@
+{
+    "name": "2024-09-sunrequests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "infostealer",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "sunrequests"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Running the module starts an infostealer attempting to exfiltrate credentials from webbrowsers"
+}
