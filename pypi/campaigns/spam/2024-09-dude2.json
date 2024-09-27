@@ -1,0 +1,26 @@
+{
+    "name": "2024-09-dude2",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "dud111222",
+        "dude1112",
+        "saywh111",
+        "saywh122",
+        "saywh222",
+        "saywhu",
+        "saywhut01",
+        "saywhut11",
+        "saywhut111",
+        "saywhut1112",
+        "saywhut11122",
+        "saywhut111222",
+        "saywhut221"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "This package is a spam - it has no real purpose and was created together with many similar packages by the same user. Some of them additionally call a webhook when run."
+}
