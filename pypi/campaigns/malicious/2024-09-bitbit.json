@@ -1,0 +1,15 @@
+{
+    "name": "2024-09-bitbit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "bibit"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "When running the module, this package attempts - depending on the version - to exfiltrate user files, a screenshot, or crypto wallets data (8.1.4)."
+}
