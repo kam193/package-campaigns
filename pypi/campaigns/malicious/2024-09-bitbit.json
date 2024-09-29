@@ -7,9 +7,13 @@
         "files_exfiltration"
     ],
     "packages": [
-        "bibit"
+        "bibit",
+        "bitforger"
     ],
-    "ioc": [],
+    "ioc": [
+        "https://raw.githubusercontent.com/skibiditoiletfan1123/someting23/refs/heads/main/fishrelease.pyw",
+        "https://github.com/skibiditoiletfan1123/someting23"
+    ],
     "references": [],
-    "description": "When running the module, this package attempts - depending on the version - to exfiltrate user files, a screenshot, or crypto wallets data (8.1.4)."
+    "description": "When running the module, this package attempts - depending on the version - to exfiltrate user files, a screenshot, or crypto wallets data (8.1.4).\n\nLater continued under different package names."
 }
