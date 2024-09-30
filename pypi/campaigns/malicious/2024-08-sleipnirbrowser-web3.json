@@ -15,11 +15,14 @@
         "jupihelp",
         "jupiter-helper",
         "jupiterhelper",
-        "jupphelp"
+        "jupphelp",
+        "jupsolhelp"
     ],
     "ioc": [
         "sleipnirbrowser.org",
-        "https://sleipnirbrowser.org/api/python/14526470/win"
+        "https://sleipnirbrowser.org/api/python/14526470/win",
+        "https://sleipnirbrowser.org/api/python/79D83767/mac",
+        "https://sleipnirbrowser.org/api/python/79D83767/win"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/22463611269abfdfca5d7dca9f77b113ab8b0d687e1059f7ef700c455880902e/detection",
