@@ -10,6 +10,7 @@
         "antibyfron",
         "artindex",
         "automsg",
+        "cblines",
         "dahood",
         "embeds",
         "ezauto",
@@ -31,7 +32,8 @@
         "https://github.com/bloodstainedvvs/host/raw/main/zwerve.exe",
         "https://cdn.discordapp.com/attachments/1276975489780809812/1282787632082059359/zwerve.exe?ex=66e0a094&is=66df4f14&hm=f4604d9783911e770716516e30d4f665214449f46aa2c5a59afc4bda7042bfba&",
         "https://github.com/holdthatcode/e/raw/main/code.exe",
-        "https://github.com/holdthatcode/e/raw/main/zwerve.exe"
+        "https://github.com/holdthatcode/e/raw/main/zwerve.exe",
+        "https://github.com/holdthatcode/e/raw/main/CBLines.exe"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/249c91245c949e8e7cc7f4bd3d6aef9b354c1d249fc3097b0363862ed7269886",
