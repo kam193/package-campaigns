@@ -1,0 +1,18 @@
+{
+    "name": "2024-09-website-scanner",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "website-scanner"
+    ],
+    "ioc": [
+        "https://api.telegram.org/bot7140748891:AAER8n1iFArAAMlK1dUdPeAs6sRi8vK6QgU/sendMessage"
+    ],
+    "references": [],
+    "description": "The obfuscated code in setup.py on installation collects information about the system (all possible about hardware, available resources, IP, names, etc.) and sends to a telegram webhook."
+}
