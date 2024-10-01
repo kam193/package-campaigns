@@ -24,7 +24,8 @@
         "rodll",
         "roinject",
         "rolib",
-        "uidesign"
+        "uidesign",
+        "websend"
     ],
     "ioc": [
         "https://github.com/holdthatcode/host/raw/main/howl.exe",
