@@ -8,11 +8,12 @@
     ],
     "packages": [
         "discord-token-lib",
-        "osint-tool"
+        "osint-tool",
+        "titan-osint"
     ],
     "ioc": [
         "https://discord.com/api/webhooks/1271645951026659339/wWCSAlPG3TuhycH7ex6h9O48nKdFn4G55WUk4-lgay4RQTpCbbt-DYuo9jLIHYEReQKj"
     ],
     "references": [],
-    "description": "It suggests being a library for Discord exfiltration, what is suspicious on its own, but in addition the entry point located in main.py exfiltrate local Discord tokens to a hardcoded webhook."
+    "description": "*osint* packages promise to be OSINT tool, however, when providing the username to search for, the package attempts to exfiltrate Discord tokens from the user.\n\nThe original package suggests being a library for Discord exfiltration, what is suspicious on its own, but in addition, the entry point located in main.py exfiltrate local Discord tokens to a hardcoded webhook."
 }
