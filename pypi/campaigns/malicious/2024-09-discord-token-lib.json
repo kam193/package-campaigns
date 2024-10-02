@@ -1,0 +1,17 @@
+{
+    "name": "2024-09-discord-token-lib",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "discord-token-lib"
+    ],
+    "ioc": [
+        "https://discord.com/api/webhooks/1271645951026659339/wWCSAlPG3TuhycH7ex6h9O48nKdFn4G55WUk4-lgay4RQTpCbbt-DYuo9jLIHYEReQKj"
+    ],
+    "references": [],
+    "description": "It suggests being a library for Discord exfiltration, what is suspicious on its own, but in addition the entry point located in main.py exfiltrate local Discord tokens to a hardcoded webhook."
+}

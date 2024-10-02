@@ -1,0 +1,19 @@
+{
+    "name": "2024-09-spider-ai",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "spider-ai",
+        "spy-ai"
+    ],
+    "ioc": [
+        "01d73592-4d64-43f7-b664-ecd679686756-00-30a5f50srzeko.janeway.replit.dev"
+    ],
+    "references": [],
+    "description": "Every time the user sends a message to the AI, the user IP, message as well as the response are exfiltrated to a hardcoded telegram channel. This behaviour is not mentioned in the package description. Instead, the description lures to offer advanced features."
+}
