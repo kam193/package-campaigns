@@ -9,6 +9,8 @@
         "remote_executable"
     ],
     "packages": [
+        "assaulthimars",
+        "assulthimars",
         "asyncmodules",
         "flophttp",
         "invokehttp",
