@@ -1,0 +1,17 @@
+{
+    "name": "2024-10-alfooou",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "obfuscation"
+    ],
+    "packages": [
+        "alfooou"
+    ],
+    "ioc": [
+        "http://ec2-3-84-149-132.compute-1.amazonaws.com:3232/windows_dll"
+    ],
+    "references": [],
+    "description": "Running the module triggers obfuscated code that downloads a DLL containing reverse shell and injects it to a benign process. "
+}

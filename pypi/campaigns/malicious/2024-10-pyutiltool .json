@@ -1,0 +1,17 @@
+{
+    "name": "2024-10-pyutiltool ",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "pyutiltool"
+    ],
+    "ioc": [
+        "blockatlaspro.com",
+        "https://blockatlaspro.com/application.py"
+    ],
+    "references": [],
+    "description": "When importing the module, obfuscated code download and starts the next stage of obfuscated code. "
+}
