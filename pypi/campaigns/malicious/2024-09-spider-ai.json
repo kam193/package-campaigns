@@ -9,6 +9,7 @@
     ],
     "packages": [
         "spider-ai",
+        "spiderai",
         "spy-ai"
     ],
     "ioc": [
