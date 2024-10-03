@@ -7,11 +7,15 @@
         "obfuscation"
     ],
     "packages": [
-        "alfooou"
+        "alfooou",
+        "viplotlib",
+        "vizplotlib"
     ],
     "ioc": [
         "http://ec2-3-84-149-132.compute-1.amazonaws.com:3232/windows_dll"
     ],
-    "references": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/042a7518512ab61a1ed52cc16c637905c70ebbab55a766fa63ced504ba61945b"
+    ],
     "description": "Running the module triggers obfuscated code that downloads a DLL containing reverse shell and injects it to a benign process. "
 }
