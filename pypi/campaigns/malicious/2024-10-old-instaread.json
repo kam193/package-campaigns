@@ -1,0 +1,17 @@
+{
+    "name": "2024-10-old-instaread",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "advertisement"
+    ],
+    "packages": [
+        "instaread"
+    ],
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/bf7d5b37aa1365e5e79376921304dde4767d1055fc62cc898f5b6b02b5607614/detection"
+    ],
+    "description": "The file bc2556d1c1ea2a2d00.js contains an AdWare LNKR, this file is included in read_article.html template and effectively used when the user requests to see the downloaded article in the webbrowser (function \"read\" from instaread.py). Note: the template may have been copied from the website, so 'maybe' including adware is unintentional. "
+}
