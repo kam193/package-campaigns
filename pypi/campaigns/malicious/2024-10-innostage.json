@@ -1,0 +1,25 @@
+{
+    "name": "2024-10-innostage",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "cyberart",
+        "innostage",
+        "innostage-group",
+        "maxpatrol",
+        "posi",
+        "ptsecurity"
+    ],
+    "ioc": [
+        "files.pythonhosted.ru",
+        "pythonhosted.ru",
+        "http://files.pythonhosted.ru/56788.txt",
+        "http://files.pythonhosted.ru/56789.txt",
+        "files.inostage.ru"
+    ],
+    "references": [],
+    "description": "When imported, the package download and runs a remote stage - a reverse shell. To mask activity, the remote domain is made to mimic PyPI host: files[.]pythonhosted[.]ru"
+}
