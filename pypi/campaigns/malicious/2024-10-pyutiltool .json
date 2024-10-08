@@ -9,7 +9,8 @@
     ],
     "packages": [
         "exflibrary",
-        "pyutiltool"
+        "pyutiltool",
+        "upllib"
     ],
     "ioc": [
         "blockatlaspro.com",
