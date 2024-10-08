@@ -1,0 +1,17 @@
+{
+    "name": "2024-10-fake-usreagent",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "obfuscation"
+    ],
+    "packages": [
+        "fake-usreagent",
+        "useregent-generator"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Inside the library there is a part running code hidden in the attached image "
+}
