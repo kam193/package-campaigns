@@ -11,7 +11,9 @@
         "fake-usreagent",
         "useregent-generator"
     ],
-    "ioc": [],
+    "ioc": [
+        "ethscanold.com"
+    ],
     "references": [],
     "description": "Inside the library there is a part running code hidden in the attached image "
 }
