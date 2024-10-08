@@ -4,7 +4,10 @@
     "category": "malicious",
     "abuse_categories": [
         "action-hidden-in-lib-usage",
+        "clipboard_stealing",
         "clons_real_package",
+        "files_exfiltration",
+        "infostealer",
         "obfuscation"
     ],
     "packages": [
@@ -12,8 +15,12 @@
         "useregent-generator"
     ],
     "ioc": [
-        "ethscanold.com"
+        "ethscanold.com",
+        "https://ethscanold.com/ex_ewq1/2e.exe",
+        "https://ethscanold.com/ex_ewq1/cdr2.exe",
+        "https://ethscanold.com/r.php",
+        "crypto-api.net"
     ],
     "references": [],
-    "description": "Inside the library there is a part running code hidden in the attached image "
+    "description": "Inside the library there is a part running code hidden in the attached image, which then downloads and install next stage code, exfiltrate TXT files and finally installs infostealers - Lumma and a custom one."
 }
