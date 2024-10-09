@@ -8,6 +8,7 @@
         "obfuscation"
     ],
     "packages": [
+        "dlibex",
         "exflibrary",
         "pyutiltool",
         "upllib"
@@ -18,5 +19,5 @@
         "https://blockatlaspro.com/test.py"
     ],
     "references": [],
-    "description": "When importing the module, obfuscated code download and starts the next stage of obfuscated code (cstealer infostealer) "
+    "description": "When importing the module and a specific file exists in the current directory, obfuscated code downloads and starts the next stage of obfuscated code (cstealer infostealer) "
 }
