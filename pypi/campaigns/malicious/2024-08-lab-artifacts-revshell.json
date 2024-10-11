@@ -8,6 +8,7 @@
         "revshell"
     ],
     "packages": [
+        "artifact-lab-3-package",
         "artifact-lab-3-package-1f7a39bc",
         "artifact-lab-3-package-2387a34d",
         "artifact-lab-3-package-2387cbf7",
@@ -34,7 +35,8 @@
         "artifact-lab-3-package-e7ffd2ef",
         "artifact-lab-3-package-f0727516",
         "artifact-lab-3-package-f70fc6dd",
-        "artifact-lab-3-package-f9dafccc"
+        "artifact-lab-3-package-f9dafccc",
+        "lab-3-package-438d82fc"
     ],
     "ioc": [],
     "references": [],
