@@ -12,7 +12,10 @@
     ],
     "packages": [
         "agent-user-generate",
+        "crypto-regex-checker",
+        "crypto-regex-gener",
         "fake-usreagent",
+        "sol-regex-gener",
         "ua-agent-generator",
         "useregent-generator"
     ],
@@ -24,5 +27,5 @@
         "crypto-api.net"
     ],
     "references": [],
-    "description": "Inside the library there is a part running code hidden in the attached image, which then downloads and install next stage code, exfiltrate TXT files and finally installs infostealers - Lumma and a custom one."
+    "description": "Inside the library there is a part running code hidden in the attached image, which then exfiltrate user-provided data, downloads and install next stage code, exfiltrate TXT files and finally installs infostealers - Lumma and a custom one. Arround L110"
 }
