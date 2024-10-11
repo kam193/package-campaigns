@@ -11,7 +11,9 @@
         "obfuscation"
     ],
     "packages": [
+        "agent-user-generate",
         "fake-usreagent",
+        "ua-agent-generator",
         "useregent-generator"
     ],
     "ioc": [
