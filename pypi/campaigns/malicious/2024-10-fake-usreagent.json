@@ -12,6 +12,7 @@
     ],
     "packages": [
         "agent-user-generate",
+        "crypto-format-checking",
         "crypto-regex-checker",
         "crypto-regex-gener",
         "fake-usreagent",
