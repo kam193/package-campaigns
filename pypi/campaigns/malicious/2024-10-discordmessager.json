@@ -7,7 +7,8 @@
         "obfuscation"
     ],
     "packages": [
-        "discordmessager"
+        "discordmessager",
+        "robloxrequestsss"
     ],
     "ioc": [
         "https://www.dropbox.com/scl/fi/vckgtlr6pq92uspoj3bku/634364.pyw?rlkey=w2st1zif9lbd4oxz44utimsuv&st=ptdwmi5d&dl=1"
