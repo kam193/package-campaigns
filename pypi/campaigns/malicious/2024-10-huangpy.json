@@ -1,0 +1,15 @@
+{
+    "name": "2024-10-huangpy",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "huangpy"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts an infostealer attempting to exfiltrate webbrowsers' data to a Telegram webhook."
+}
