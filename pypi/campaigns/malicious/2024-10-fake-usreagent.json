@@ -18,6 +18,7 @@
         "fake-usreagent",
         "sol-regex-gener",
         "ua-agent-generator",
+        "user-gen-agent-random",
         "useregent-generator"
     ],
     "ioc": [
