@@ -1,0 +1,5 @@
+{
+    "name": "flag-leak-r",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest"
+}
