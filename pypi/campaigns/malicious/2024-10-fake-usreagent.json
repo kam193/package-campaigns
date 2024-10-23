@@ -16,6 +16,7 @@
         "crypto-regex-checker",
         "crypto-regex-gener",
         "fake-usreagent",
+        "gen-user-random-agent",
         "sol-regex-gener",
         "ua-agent-generator",
         "user-gen-agent-random",
