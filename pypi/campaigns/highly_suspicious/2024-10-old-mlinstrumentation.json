@@ -1,0 +1,16 @@
+{
+    "name": "2024-10-old-mlinstrumentation",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "mlinstrumentation"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Highly obfuscated package containing suspicious kind of telemetry - it looks like reporting almost all called methods and it's parameters"
+}
