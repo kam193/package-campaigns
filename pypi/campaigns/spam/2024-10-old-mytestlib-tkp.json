@@ -1,0 +1,11 @@
+{
+    "name": "2024-10-old-mytestlib-tkp",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "mytestlib-tkp"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Package has no real functionality, but the given homepage URL is a Slack webhook"
+}
