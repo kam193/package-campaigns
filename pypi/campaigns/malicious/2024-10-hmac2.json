@@ -1,0 +1,19 @@
+{
+    "name": "2024-10-hmac2",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "dependency-confusion",
+        "exfiltration_generic",
+        "obfuscation"
+    ],
+    "packages": [
+        "hmac2"
+    ],
+    "ioc": [
+        "38.54.57.42"
+    ],
+    "references": [],
+    "description": "The package contains obfuscated code that exfiltrate basic data, and then executes commands delivered from remote server"
+}
