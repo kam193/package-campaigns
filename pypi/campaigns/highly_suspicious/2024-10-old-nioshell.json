@@ -1,0 +1,14 @@
+{
+    "name": "2024-10-old-nioshell",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "nioshell"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Package contains only a revshell. As the IP is local, the risk is limited."
+}
