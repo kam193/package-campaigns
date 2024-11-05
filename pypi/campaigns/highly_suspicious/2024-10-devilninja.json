@@ -1,0 +1,14 @@
+{
+    "name": "2024-10-devilninja",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "nasrpy"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Highly obfuscated packages, containing an encoded zip file with executables. Behaviour unknown."
+}
