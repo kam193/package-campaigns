@@ -6,6 +6,8 @@
         "obfuscation"
     ],
     "packages": [
+        "base4",
+        "devilpy",
         "nasrpy"
     ],
     "ioc": [],

@@ -1,0 +1,18 @@
+{
+    "name": "2024-11-rkpairip",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "bugbounty",
+        "rkpairip"
+    ],
+    "ioc": [
+        "https://t.me/rktechnoindians",
+        "https://t.me/RK_TECHNO_INDIA"
+    ],
+    "references": [],
+    "description": "Series of suspicious, highly obfuscated packages"
+}
