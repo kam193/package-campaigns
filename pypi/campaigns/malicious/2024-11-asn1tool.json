@@ -1,0 +1,22 @@
+{
+    "name": "2024-11-asn1tool",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "dependency-confusion",
+        "infostealer",
+        "obfuscation",
+        "typosquatting"
+    ],
+    "packages": [
+        "asn1tool"
+    ],
+    "ioc": [
+        "https://tinyurl.com/1atestver",
+        "https://tinyurl.com/l4kr0sr4t",
+        "https://tinyurl.com/w1ngfjs"
+    ],
+    "references": [],
+    "description": "Package clones a legitimate package. In the call to check the current version, the obfuscated remote code is downloaded and executed. It appears to be an infostealer"
+}
