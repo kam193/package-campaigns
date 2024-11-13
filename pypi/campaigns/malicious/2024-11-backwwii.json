@@ -1,0 +1,18 @@
+{
+    "name": "2024-11-backwwii",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "remote_executable"
+    ],
+    "packages": [
+        "backwwi",
+        "backwwii"
+    ],
+    "ioc": [
+        "89.23.113.83"
+    ],
+    "references": [],
+    "description": "When importing the module, the obfuscated code downloads and runs a remote executable "
+}
