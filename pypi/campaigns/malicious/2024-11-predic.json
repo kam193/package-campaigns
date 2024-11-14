@@ -1,0 +1,14 @@
+{
+    "name": "2024-11-predic",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "reverse4343"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "The package contains only a reverse shell started on installation "
+}
