@@ -1,0 +1,18 @@
+{
+    "name": "2024-11-zebo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "keylogger",
+        "peristence_autorun"
+    ],
+    "packages": [
+        "zebo"
+    ],
+    "ioc": [
+        "project-runnner-default-rtdb.firebaseio.com"
+    ],
+    "references": [],
+    "description": "Package automatically installs a script with keylogger and screenshots extraction, and sets it for an autostart."
+}

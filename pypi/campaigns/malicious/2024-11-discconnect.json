@@ -1,0 +1,22 @@
+{
+    "name": "2024-11-discconnect",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "modify-system-without-consent",
+        "override_install",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "discconnect"
+    ],
+    "ioc": [
+        "https://filetransfer.io/data-package/MG85ggQt/download"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/Y2IyYmNjMjNlNjdmNzYwMmM0M2RkYjk4ZTliODllN2Y6MTczMTc5NzYxMg==",
+        "https://tria.ge/241116-2zm18awbpe"
+    ],
+    "description": "During installation, a remote, obfuscated executable is downloaded and started. The executable at least disables automated updates, malware protection and other security mechanisms. "
+}
