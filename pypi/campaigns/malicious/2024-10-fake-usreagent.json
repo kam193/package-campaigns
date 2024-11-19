@@ -20,6 +20,7 @@
         "sol-regex-gener",
         "ua-agent-generator",
         "user-gen-agent-random",
+        "user-random-agent-user",
         "useregent-generator"
     ],
     "ioc": [
