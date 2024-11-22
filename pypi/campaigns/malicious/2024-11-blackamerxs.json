@@ -1,0 +1,14 @@
+{
+    "name": "2024-11-blackamerxs",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "blackamerxs"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "If run, the code in the package exfiltrates all files from the current directory tree."
+}
