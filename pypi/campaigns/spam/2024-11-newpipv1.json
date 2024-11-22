@@ -1,0 +1,16 @@
+{
+    "name": "2024-11-newpipv1",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "newpipv1",
+        "newpipv3",
+        "sysconx4"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module triggers a request to the author. The package has no other purpose."
+}
