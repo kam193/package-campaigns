@@ -9,7 +9,8 @@
         "typosquatting"
     ],
     "packages": [
-        "discconnect"
+        "discconnect",
+        "pycalculater"
     ],
     "ioc": [
         "https://filetransfer.io/data-package/MG85ggQt/download"
