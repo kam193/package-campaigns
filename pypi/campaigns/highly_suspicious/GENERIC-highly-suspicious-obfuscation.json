@@ -1,0 +1,14 @@
+{
+    "name": "GENERIC-highly-suspicious-obfuscation",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "paolog-pynecraft"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Packages that look highly suspicious, with the main concern being the obfuscation and lack of clear signs that they are legit. This makes the false positive rate relatively high."
+}
