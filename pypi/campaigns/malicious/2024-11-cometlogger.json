@@ -1,0 +1,26 @@
+{
+    "name": "2024-11-cometlogger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_stealing",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "files_exfiltration",
+        "infostealer",
+        "peristence_autorun",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "cometlogger"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/Blank-c/Discord-Injection-BG/main/injection-obfuscated.js",
+        "https://raw.githubusercontent.com/justforExela/injection/main/injection.js",
+        "https://raw.githubusercontent.com/addi00000/empyrean-injection/main/obfuscated.js",
+        "https://t.me/Comet"
+    ],
+    "references": [],
+    "description": "Multi-purpose infostealer, including grabbing cookies, files, information from cryptowallets; injecting code into discord application. This package is a builder for the actual malware"
+}
