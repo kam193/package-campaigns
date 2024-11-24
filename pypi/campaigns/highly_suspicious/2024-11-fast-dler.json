@@ -1,0 +1,14 @@
+{
+    "name": "2024-11-fast-dler",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "fast-dler"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Obviously LLM-generated package that let you download and execute file from the URL. While the package itself doesn't have any malicious content, it could be used by malware to hide the action."
+}
