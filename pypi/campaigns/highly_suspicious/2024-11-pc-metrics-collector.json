@@ -1,0 +1,16 @@
+{
+    "name": "2024-11-pc-metrics-collector",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "pc-metrics-collector"
+    ],
+    "ioc": [
+        "114.236.93.153"
+    ],
+    "references": [],
+    "description": "Package sends e.g. list of the process names to a hardcoded server. However, it could also be a first version of a package dedicated for PC monitoring "
+}
