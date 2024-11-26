@@ -1,0 +1,19 @@
+{
+    "name": "2024-11-taoreg",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "crypto-related",
+        "obfuscation"
+    ],
+    "packages": [
+        "taoreg"
+    ],
+    "ioc": [
+        "taoreg.com",
+        "64.247.206.58",
+        "83.143.115.105"
+    ],
+    "references": [],
+    "description": "Suspicious package offering registration in the bittensor blockchain network. The code is obfuscated, the website newly registered and still empty. Code looks like doing what it's supposed to by calling some IPs. It may be a legit, but just starting service, or something malicious."
+}
