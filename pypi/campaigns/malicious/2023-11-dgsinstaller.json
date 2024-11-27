@@ -1,0 +1,17 @@
+{
+    "name": "2023-11-dgsinstaller",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "override_install",
+        "remote_script"
+    ],
+    "packages": [
+        "ccsinstaller",
+        "dgsinstaller"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Installing package downloads and install an infostealer"
+}
