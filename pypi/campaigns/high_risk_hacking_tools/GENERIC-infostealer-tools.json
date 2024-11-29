@@ -1,0 +1,15 @@
+{
+    "name": "GENERIC-infostealer-tools",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "d1scordx",
+        "stealerdiscord"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Tools to build infostealers"
+}
