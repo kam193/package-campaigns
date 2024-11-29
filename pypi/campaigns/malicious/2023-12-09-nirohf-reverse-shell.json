@@ -1,0 +1,14 @@
+{
+    "name": "2023-12-09-nirohf-reverse-shell",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "nirohf-reverse-shell"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Installing starts a reverse shell"
+}
