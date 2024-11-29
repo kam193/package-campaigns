@@ -21,6 +21,8 @@ Currently, I publish following categories:
 * _pentest_ - packages with high confidence of being created for a pentest (actually used rarerly, with the _probably_pentest_ taking most of pentesting packages);
 * _probably_pentest_ - packages looking like typical pentest packages, but also anything that looks like testing, exploring pre-prepared kits, **research** & co, with clearly low-harm possibilities;
 * _highly_suspicious_ - packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.
+* _high_risk_hacking_tools_ - packages that are very likely to be used to build or as part of a malware, in most cases. They are **not** malicious on their own, but are quite a good indicator of someting
+  suspicious.
 
 In my opinion, you should not have any of those packages in your environment.
 
