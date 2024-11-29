@@ -1,0 +1,14 @@
+{
+    "name": "2024-11-nizzix",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "sandbox-detection"
+    ],
+    "packages": [
+        "nizzix"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Collection of helpers, including detecting debugging"
+}
