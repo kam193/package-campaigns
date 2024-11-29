@@ -1,0 +1,18 @@
+{
+    "name": "2023-12-09-papiculo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "catme",
+        "driftme"
+    ],
+    "ioc": [
+        "papiculo.net",
+        "https://gitlab.com/fajarranz19/work/-/raw/main/lol1.78"
+    ],
+    "references": [],
+    "description": "Importing the module starts executing a remote script, as well as leaves a persitance in the .bashrc"
+}
