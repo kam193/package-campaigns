@@ -1,0 +1,16 @@
+{
+    "name": "2024-11-soeasypack",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "malware"
+    ],
+    "packages": [
+        "soeasypack"
+    ],
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/e8eee38aca119e7874404866dea397f37043956ff68c5e39caea772821557389/detection"
+    ],
+    "description": "Included binary file \"SC.exe\" is highly recognized as malicious by AV solutions. However, the detection is very generic and there is no exact information, what the file does. The linked repository does not contain the source code"
+}
