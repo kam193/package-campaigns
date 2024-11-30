@@ -1,0 +1,19 @@
+{
+    "name": "2023-12-bananasquad",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_generic",
+        "infostealer"
+    ],
+    "packages": [
+        "pipcolorpkgv2",
+        "pycryptographylibv3"
+    ],
+    "ioc": [
+        "bananasquad.ru"
+    ],
+    "references": [],
+    "description": "Importing the module starts an infostealer"
+}
