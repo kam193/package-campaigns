@@ -11,9 +11,12 @@
         "sandbox-detection"
     ],
     "packages": [
+        "my-main-manager",
         "my-service-manager"
     ],
-    "ioc": [],
+    "ioc": [
+        "https://github.com/yesjdnke/manager/releases/download/love/system_service.exe"
+    ],
     "references": [
         "https://www.virustotal.com/gui/file/3edb49a97efb63a1cdfb5c42459972bdb1d339083365372b24fd9c6d780a04b5/detection",
         "https://tria.ge/241201-t1e31awlbw/behavioral2"
