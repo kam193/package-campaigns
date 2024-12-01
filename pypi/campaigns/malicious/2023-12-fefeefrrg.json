@@ -1,0 +1,20 @@
+{
+    "name": "2023-12-fefeefrrg",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_generic",
+        "infostealer",
+        "override_install",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "brrerrere",
+        "fef3434334dwrg",
+        "fefeefrrg"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Installing the package starts an infostealer"
+}
