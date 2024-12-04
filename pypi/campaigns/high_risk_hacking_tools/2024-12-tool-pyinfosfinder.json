@@ -1,0 +1,17 @@
+{
+    "name": "2024-12-tool-pyinfosfinder",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer"
+    ],
+    "packages": [
+        "pyinfosfinder"
+    ],
+    "ioc": [],
+    "references": [
+        "https://github.com/EuroMH/PyMalWare"
+    ],
+    "description": "Apparently, a tool to build infostealers. Their description is highly discouraging unethical usage, but the tool looks still suspicious."
+}
