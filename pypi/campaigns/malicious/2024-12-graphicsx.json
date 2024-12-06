@@ -1,0 +1,21 @@
+{
+    "name": "2024-12-graphicsx",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer",
+        "obfuscation",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "graphicsx",
+        "intgraphx"
+    ],
+    "ioc": [
+        "https://filetransfer.io/data-package/hDzFXztO/download"
+    ],
+    "references": [],
+    "description": "Installing the package starts downloading and installing an Infostealer "
+}
