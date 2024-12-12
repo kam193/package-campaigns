@@ -1,0 +1,22 @@
+{
+    "name": "2024-12-python-bitget-api",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "crypto-related",
+        "dependency-confusion",
+        "impersonation",
+        "obfuscation",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "python-bitget-api"
+    ],
+    "ioc": [
+        "https://dl.dropboxusercontent.com/scl/fi/bkhek6zqbo0cqgboteegj/1.txt?rlkey=yn18m53jayba4e3m5bdi02czm&st=eh1edmf0&dl=0"
+    ],
+    "references": [],
+    "description": "Importing the module starts an obfuscated PowerShell code, which downloads and executes a remote script. At the time of check, it was just starting calculator. Package impersonate the legitimate  \"python-bitget\"."
+}
