@@ -13,12 +13,15 @@
     ],
     "packages": [
         "python-bitget-api",
-        "python-bitget-request"
+        "python-bitget-request",
+        "python-bitget-wrapper"
     ],
     "ioc": [
         "https://dl.dropboxusercontent.com/scl/fi/bkhek6zqbo0cqgboteegj/1.txt?rlkey=yn18m53jayba4e3m5bdi02czm&st=eh1edmf0&dl=0",
         "https://dl.dropboxusercontent.com/scl/fi/6hg0a8fg9m36eahv88rwo/template?rlkey=0vkaw44mh3gak6y82l4ht39zg&st=ygbc7qgh&dl=0"
     ],
-    "references": [],
-    "description": "Importing the module starts an obfuscated PowerShell code, which downloads and executes a remote script. At the time of check, it was just starting calculator. Package impersonate the legitimate  \"python-bitget\"."
+    "references": [
+        "https://www.virustotal.com/gui/file/a3b25b30a607645efefa26180baf183695c97c58b06aa6a67af1332cd3fe582e/"
+    ],
+    "description": "Importing the module starts an obfuscated PowerShell code, which downloads and executes a remote script. On Windows, the script appears to just start the calculator. On MacOS, the file is identified as a Spark RAT by multiple vendors. Package impersonate the legitimate  \"python-bitget\"."
 }
