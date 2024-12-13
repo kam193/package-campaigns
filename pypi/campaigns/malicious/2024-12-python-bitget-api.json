@@ -12,10 +12,12 @@
         "typosquatting"
     ],
     "packages": [
-        "python-bitget-api"
+        "python-bitget-api",
+        "python-bitget-request"
     ],
     "ioc": [
-        "https://dl.dropboxusercontent.com/scl/fi/bkhek6zqbo0cqgboteegj/1.txt?rlkey=yn18m53jayba4e3m5bdi02czm&st=eh1edmf0&dl=0"
+        "https://dl.dropboxusercontent.com/scl/fi/bkhek6zqbo0cqgboteegj/1.txt?rlkey=yn18m53jayba4e3m5bdi02czm&st=eh1edmf0&dl=0",
+        "https://dl.dropboxusercontent.com/scl/fi/6hg0a8fg9m36eahv88rwo/template?rlkey=0vkaw44mh3gak6y82l4ht39zg&st=ygbc7qgh&dl=0"
     ],
     "references": [],
     "description": "Importing the module starts an obfuscated PowerShell code, which downloads and executes a remote script. At the time of check, it was just starting calculator. Package impersonate the legitimate  \"python-bitget\"."
