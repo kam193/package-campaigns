@@ -13,6 +13,7 @@
     ],
     "packages": [
         "python-bitget-api",
+        "python-bitget-connect",
         "python-bitget-request",
         "python-bitget-wrapper"
     ],
