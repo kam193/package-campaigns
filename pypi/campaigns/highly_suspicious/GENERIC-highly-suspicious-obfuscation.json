@@ -6,7 +6,8 @@
         "obfuscation"
     ],
     "packages": [
-        "paolog-pynecraft"
+        "paolog-pynecraft",
+        "utils-hex"
     ],
     "ioc": [],
     "references": [],
