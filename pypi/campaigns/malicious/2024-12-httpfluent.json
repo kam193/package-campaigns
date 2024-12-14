@@ -1,0 +1,18 @@
+{
+    "name": "2024-12-httpfluent",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "modify-system-without-consent",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "httpfluent"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/Red-haired-shanks-1337/repuests/refs/heads/main/puts.py"
+    ],
+    "references": [],
+    "description": "The package contains highly obfuscated content, that install another, downloaded from a remote location obfuscated script in the installation path of the 'requests' package, and marks it as a hidden system file. In addition, another file contains a code that imitates doing some meaningful activity."
+}
