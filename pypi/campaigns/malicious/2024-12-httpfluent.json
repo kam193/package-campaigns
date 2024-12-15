@@ -9,11 +9,12 @@
     ],
     "packages": [
         "httpfluent",
-        "threadfluent"
+        "threadfluent",
+        "websynapse"
     ],
     "ioc": [
         "https://raw.githubusercontent.com/Red-haired-shanks-1337/repuests/refs/heads/main/puts.py"
     ],
     "references": [],
-    "description": "The package contains highly obfuscated content, that install another, downloaded from a remote location obfuscated script in the installation path of the 'requests' package, and marks it as a hidden system file. In addition, another file contains a code that imitates doing some meaningful activity."
+    "description": "The package contains highly obfuscated content, that install another, downloaded from a remote location obfuscated script in the installation path of the 'requests' package, and marks it as a hidden system file. In addition, another file contains a code that imitates doing some meaningful activity.\n\nLater attempts hide the malicious code in a separated package, downloaded from Test PyPI."
 }
