@@ -1,0 +1,5 @@
+{
+    "name": "lan-clean",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest"
+}

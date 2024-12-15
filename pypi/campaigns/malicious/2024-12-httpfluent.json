@@ -8,7 +8,8 @@
         "remote_script"
     ],
     "packages": [
-        "httpfluent"
+        "httpfluent",
+        "threadfluent"
     ],
     "ioc": [
         "https://raw.githubusercontent.com/Red-haired-shanks-1337/repuests/refs/heads/main/puts.py"
