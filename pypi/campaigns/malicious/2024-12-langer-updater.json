@@ -8,6 +8,7 @@
         "sandbox-detection"
     ],
     "packages": [
+        "code-beautifyer",
         "lan-clean",
         "langer-updater",
         "noway-back"
