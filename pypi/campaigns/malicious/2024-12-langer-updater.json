@@ -1,0 +1,18 @@
+{
+    "name": "2024-12-langer-updater",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "override_install",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "lan-clean",
+        "langer-updater",
+        "noway-back"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the package collects quite extensive information about the host and has no other purpose. To avoid detection, the real code is put in a ZIP archive and includes also some VM-detection techniques."
+}

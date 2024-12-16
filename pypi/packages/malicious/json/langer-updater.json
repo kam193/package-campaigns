@@ -1,5 +1,5 @@
 {
     "name": "langer-updater",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-standard-pypi-install-pentest"
+    "campaign": "2024-12-langer-updater"
 }
