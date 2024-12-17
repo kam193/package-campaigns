@@ -1,0 +1,20 @@
+{
+    "name": "2024-12-discordbotstatus",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "infostealer",
+        "remote_executable"
+    ],
+    "packages": [
+        "discordbotstatus"
+    ],
+    "ioc": [
+        "https://github.com/RivalsTheBest/rezxo/raw/refs/heads/main/Client.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/85d1f3ef084cc8ce90585965e287f0f14f87cbc744c25aafa5557074ddd9c70a"
+    ],
+    "description": "Package clones another package and hides a code to download and run a malicious exe file (an infostealer with high VT detection)"
+}
