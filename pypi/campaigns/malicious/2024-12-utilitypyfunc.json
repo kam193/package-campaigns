@@ -1,0 +1,14 @@
+{
+    "name": "2024-12-utilitypyfunc",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_commands"
+    ],
+    "packages": [
+        "utilitypyfunc"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Importing the package starts the thread that gets and executes code from the remote server. The package description suggests a rather spam than malicious intentions."
+}
