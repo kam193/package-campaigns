@@ -8,6 +8,7 @@
         "remote_executable"
     ],
     "packages": [
+        "discordbotpresence",
         "discordbotstatus"
     ],
     "ioc": [
