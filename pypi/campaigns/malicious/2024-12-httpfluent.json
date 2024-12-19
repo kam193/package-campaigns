@@ -9,12 +9,14 @@
     ],
     "packages": [
         "httpfluent",
+        "rwoka",
         "threadfluent",
         "websynapse"
     ],
     "ioc": [
         "https://raw.githubusercontent.com/Red-haired-shanks-1337/repuests/refs/heads/main/puts.py",
-        "https://test.pypi.org/simple/httpfluent/"
+        "https://test.pypi.org/simple/httpfluent/",
+        "https://github.com/Red-haired-shanks-1337/Rwoka/raw/main/v0.1.0/httpfluent-0.1.tar.gz"
     ],
     "references": [],
     "description": "The package contains highly obfuscated content, that install another, downloaded from a remote location obfuscated script in the installation path of the 'requests' package, and marks it as a hidden system file. In addition, another file contains a code that imitates doing some meaningful activity.\n\nLater attempts hide the malicious code in a separated package, downloaded from Test PyPI."
