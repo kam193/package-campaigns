@@ -1,0 +1,17 @@
+{
+    "name": "2024-12-piepunk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_generic",
+        "infostealer"
+    ],
+    "packages": [
+        "piepunk"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "This is a clone of \"pymunk\" package. In the space.py file there is a code that attempts to exfiltrate data from the Discord client during initialization. L101:129"
+}
