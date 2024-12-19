@@ -4,11 +4,13 @@
     "category": "malicious",
     "abuse_categories": [
         "basic_exfiltration",
+        "exfiltration_env_variables",
         "override_install",
         "sandbox-detection"
     ],
     "packages": [
         "code-beautifyer",
+        "code-suggester",
         "lan-clean",
         "langer-updater",
         "noway-back"
