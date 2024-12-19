@@ -1,0 +1,14 @@
+{
+    "name": "2024-12-fhetalib",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "fhetalib"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Before starting the local application, the package sends the external IP to a static remote address, without the user confirmation."
+}
