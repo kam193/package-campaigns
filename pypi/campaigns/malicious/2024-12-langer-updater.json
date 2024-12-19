@@ -13,7 +13,8 @@
         "code-suggester",
         "lan-clean",
         "langer-updater",
-        "noway-back"
+        "noway-back",
+        "presudo-generate"
     ],
     "ioc": [],
     "references": [],
