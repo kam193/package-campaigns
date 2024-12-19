@@ -9,14 +9,17 @@
         "sandbox-detection"
     ],
     "packages": [
+        "clean-packager",
         "code-beautifyer",
         "code-suggester",
+        "code-tracker",
         "lan-clean",
         "langer-updater",
         "noway-back",
-        "presudo-generate"
+        "presudo-generate",
+        "zip-me"
     ],
     "ioc": [],
     "references": [],
-    "description": "During installation, the package collects quite extensive information about the host and has no other purpose. To avoid detection, the real code is put in a ZIP archive and includes also some VM-detection techniques."
+    "description": "During installation, the package collects quite extensive information about the host and has no other purpose. To avoid detection, the real code is put in a ZIP archive and includes also some VM-detection techniques. The malicious code is activated via metaclass set for the \"install\" command class in setup.py\n\nOver the time, techniques used in packages are slightly changing, including that some of marked packages don't have malicious part, but rather are used only for tests. "
 }
