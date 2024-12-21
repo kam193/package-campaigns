@@ -1,0 +1,14 @@
+{
+    "name": "2024-12-txtstorage",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "txtstorage"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Package can only send data to a hardcoded Discord webhook. It appears to be a preparation for a malicious usage"
+}
