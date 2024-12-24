@@ -16,7 +16,8 @@
     "packages": [
         "reqesst",
         "reqest",
-        "requeszs"
+        "requeszs",
+        "rreqest"
     ],
     "ioc": [],
     "references": [
