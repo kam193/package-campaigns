@@ -1,0 +1,26 @@
+{
+    "name": "2024-12-reqesst",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "dependency-confusion",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "infostealer",
+        "peristence_autorun",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "reqesst",
+        "reqest",
+        "requeszs"
+    ],
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/0736a1f176f081a076b2cba3b54e1cb1462fe1a01be16144397bbc0d4739d01a"
+    ],
+    "description": "Importing the module downloads and starts an infostealer attempting to exfiltrate data and establishing persistence through autorun directory."
+}

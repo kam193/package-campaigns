@@ -1,0 +1,15 @@
+{
+    "name": "2024-12-handyfiles",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "handyfiles"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "During the installation, the package iterates its files and attempts to import a hidden module - which is embedded as ZIP archive in the image file "
+}
