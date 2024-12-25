@@ -1,0 +1,11 @@
+{
+    "name": "GENERIC-other-risky",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "packages": [
+        "headersupdate"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage."
+}
