@@ -14,6 +14,10 @@
         "typosquatting"
     ],
     "packages": [
+        "falask",
+        "fflask",
+        "fkask",
+        "flasl",
         "reqesst",
         "reqest",
         "reqeuts",
@@ -23,9 +27,12 @@
         "reqzest",
         "rreqest"
     ],
-    "ioc": [],
+    "ioc": [
+        "https://www.dropbox.com/scl/fi/d4ftoxxvovr12f4tjh0mc/H7Glqp2Vy.exe?rlkey=z323u7r1ipm2tegn2dqlqzv9l&st=9gg48qpa&dl=1"
+    ],
     "references": [
-        "https://www.virustotal.com/gui/file/0736a1f176f081a076b2cba3b54e1cb1462fe1a01be16144397bbc0d4739d01a"
+        "https://www.virustotal.com/gui/file/0736a1f176f081a076b2cba3b54e1cb1462fe1a01be16144397bbc0d4739d01a",
+        "https://www.virustotal.com/gui/file/56ed3b8ca17b00ee8e7a1cb13298e5b12fd1771c24b33b9a84ba92b0610279e5"
     ],
     "description": "Importing the module downloads and starts an infostealer attempting to exfiltrate data and establishing persistence through autorun directory."
 }
