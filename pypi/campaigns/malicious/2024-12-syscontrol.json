@@ -1,0 +1,27 @@
+{
+    "name": "2024-12-syscontrol",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "infostealer:kiwi",
+        "obfuscation"
+    ],
+    "packages": [
+        "opshub",
+        "syscontrol"
+    ],
+    "ioc": [
+        "http://45.142.115.225:8000/grab/DaTDTcxiSvq9OA6r",
+        "http://45.142.115.225:8000/inject/DaTDTcxiSvq9OA6r",
+        "http://45.142.115.225:8000/grab/DaTDTcxiSvq9OA6r",
+        "http://45.142.115.225:8000/repeter/DaTDTcxiSvq9OA6r",
+        "https://cdn.discordapp.com/attachments/1086668425797058691/1113770559688413245/app.asar",
+        "https://cdn.discordapp.com/attachments/1135684724585681039/1143224080603037827/app.asar"
+    ],
+    "references": [],
+    "description": "In the package there is a hidden line triggering downloading and running an infostealer"
+}
