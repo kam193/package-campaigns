@@ -12,6 +12,7 @@
     ],
     "packages": [
         "opshub",
+        "subsys-client",
         "syscontrol"
     ],
     "ioc": [
