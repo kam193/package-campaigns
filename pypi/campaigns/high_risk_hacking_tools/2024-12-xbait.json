@@ -1,0 +1,18 @@
+{
+    "name": "2024-12-xbait",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "ilovenyxx",
+        "ilovenyxxbait",
+        "xbait",
+        "xxbait"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "A series of similar packages dedicated to collect sensitive data, although looks like designed for manual use"
+}
