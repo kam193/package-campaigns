@@ -12,6 +12,7 @@
     ],
     "packages": [
         "opshub",
+        "oscontrol",
         "subsys-client",
         "syscontrol",
         "sysfunc"
