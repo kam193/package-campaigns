@@ -13,7 +13,8 @@
     "packages": [
         "opshub",
         "subsys-client",
-        "syscontrol"
+        "syscontrol",
+        "sysfunc"
     ],
     "ioc": [
         "http://45.142.115.225:8000/grab/DaTDTcxiSvq9OA6r",
@@ -21,8 +22,9 @@
         "http://45.142.115.225:8000/grab/DaTDTcxiSvq9OA6r",
         "http://45.142.115.225:8000/repeter/DaTDTcxiSvq9OA6r",
         "https://cdn.discordapp.com/attachments/1086668425797058691/1113770559688413245/app.asar",
-        "https://cdn.discordapp.com/attachments/1135684724585681039/1143224080603037827/app.asar"
+        "https://cdn.discordapp.com/attachments/1135684724585681039/1143224080603037827/app.asar",
+        "45.142.115.225"
     ],
     "references": [],
-    "description": "In the package there is a hidden line triggering downloading and running an infostealer"
+    "description": "Importing the module starts downloading and executing an Infostealer targeting browsers' and Discord data\n\nIn first packages, there was a hidden line triggering downloading and running an infostealer"
 }
