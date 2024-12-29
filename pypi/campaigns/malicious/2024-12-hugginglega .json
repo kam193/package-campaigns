@@ -1,0 +1,19 @@
+{
+    "name": "2024-12-hugginglega ",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "remote_executable",
+        "remote_script"
+    ],
+    "packages": [
+        "hugginglega"
+    ],
+    "ioc": [
+        "http://192.3.209.43/favicon.txt",
+        "192.3.209.43"
+    ],
+    "references": [],
+    "description": "Importing the module downloads a script that then download and run an infected executable"
+}
