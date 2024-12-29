@@ -3,7 +3,8 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "packages": [
-        "headersupdate"
+        "headersupdate",
+        "python123eto"
     ],
     "ioc": [],
     "references": [],
