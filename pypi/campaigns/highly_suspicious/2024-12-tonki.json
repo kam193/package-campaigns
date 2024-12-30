@@ -1,0 +1,19 @@
+{
+    "name": "2024-12-tonki",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_crypto",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "fgh",
+        "toneo",
+        "tonki"
+    ],
+    "ioc": [
+        "https://t.me/pozozal"
+    ],
+    "references": [],
+    "description": "Package suggest assisting by smart contracts, but the only feature is asking for a secure phrase and sending it to the author. The package itself looks not attractive enough to be malicious alone, but at the moment the full scenario isn't known.\n\nHowever, creating a few similar packages and the random users name looks enough suspicious to assume the malicious intention. "
+}
