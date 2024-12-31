@@ -9,7 +9,8 @@
     "packages": [
         "fgh",
         "toneo",
-        "tonki"
+        "tonki",
+        "tonvia"
     ],
     "ioc": [
         "https://t.me/pozozal"
