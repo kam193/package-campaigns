@@ -1,0 +1,16 @@
+{
+    "name": "2025-01-wdwq",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "wdwq"
+    ],
+    "ioc": [
+        "https://t.me/pozozal"
+    ],
+    "references": [],
+    "description": "Starting the module starts a Telegram bot client capable of exfiltrating files when requested"
+}
