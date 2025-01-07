@@ -1,0 +1,20 @@
+{
+    "name": "2025-01-Sajode",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "newencsajad",
+        "sajadnewenc",
+        "sajadnewninja",
+        "sajadninja-sajad",
+        "sajodecrypto"
+    ],
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/9471d2e4600b5fb5641b2c8a228bc5de9f0b647d7351ad17b589067293e84159/detection"
+    ],
+    "description": "A series of obfuscated packages with a hidden binary code (Python compiled to ARM). Hard to determine, what exactly their purpose is. Importing the package starts the code (L4+) that saves the embedded ZIP and runs it through Python. The __main__ file in the ZIP is also obfuscated attempts to run the compiled ARM-code."
+}
