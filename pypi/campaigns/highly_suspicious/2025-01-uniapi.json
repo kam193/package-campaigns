@@ -1,0 +1,17 @@
+{
+    "name": "2025-01-uniapi",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "remote_script"
+    ],
+    "packages": [
+        "uniapi"
+    ],
+    "ioc": [
+        "irapi.inruan.com"
+    ],
+    "references": [],
+    "description": "When importing, the code runs a separated thread that silently downloads and runs a remote script. The content of the remote script collects username and current directory, at the time of check. This looks to be introduced in 1.0.7, so maybe the intention wasn't entirely malicious, but this kind of behaviour is dangerous and clearly intended to be hidden from the user."
+}
