@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "packages": [
+        "bob13th-soohyun",
         "headersupdate",
         "python123eto"
     ],
