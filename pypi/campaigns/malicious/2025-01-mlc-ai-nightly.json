@@ -1,0 +1,22 @@
+{
+    "name": "2025-01-mlc-ai-nightly",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "dependency-confusion",
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "mlc-ai-nightly",
+        "mlc-ai-nightly-cu123",
+        "mlc-ai-nightly-rocm62",
+        "mlc-llm-nightly-cu123"
+    ],
+    "ioc": [
+        "depcon.buzz"
+    ],
+    "references": [],
+    "description": "Installing the package exfiltrates information about the host, including environmental variables."
+}

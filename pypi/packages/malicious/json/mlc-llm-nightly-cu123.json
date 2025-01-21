@@ -1,0 +1,5 @@
+{
+    "name": "mlc-llm-nightly-cu123",
+    "ecosystem": "pypi",
+    "campaign": "2025-01-mlc-ai-nightly"
+}

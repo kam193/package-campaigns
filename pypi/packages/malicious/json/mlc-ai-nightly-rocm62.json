@@ -1,0 +1,5 @@
+{
+    "name": "mlc-ai-nightly-rocm62",
+    "ecosystem": "pypi",
+    "campaign": "2025-01-mlc-ai-nightly"
+}
