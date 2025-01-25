@@ -1,0 +1,19 @@
+{
+    "name": "2025-01-superline",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "infostealer",
+        "peristence_autorun",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "superline"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Importing the package starts an advanced Infostealer, probably Blank Grabber, exfiltrating browser data, wifi passwords, discord and games tokens, crypto wallets etc. "
+}
