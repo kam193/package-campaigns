@@ -1,0 +1,21 @@
+{
+    "name": "2025-01-rqsts ",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "dependency-confusion"
+    ],
+    "packages": [
+        "reque",
+        "reques",
+        "requesra",
+        "requestsa",
+        "requesttss",
+        "rqsts"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Clone of the requests package that modified the code to send all get and post requests to a hardcoded URL"
+}
