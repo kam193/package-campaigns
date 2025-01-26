@@ -7,9 +7,10 @@
         "override_install"
     ],
     "packages": [
+        "getpublicip",
         "markitanalysis"
     ],
     "ioc": [],
     "references": [],
-    "description": "If installed using source package, the package collects selected environment variables, including GITHUB_TOKEN if set, and sends to an external service. As the package doesn't hide its actions at all, it may have unintentionally created the danger of exfiltration during some kind of tests."
+    "description": "If installed using source package, the package collects selected environment variables, including GITHUB_TOKEN if set, and sends to an external service. The package doesn't hide its actions at all, but there are already multiple different packages with the same code."
 }
