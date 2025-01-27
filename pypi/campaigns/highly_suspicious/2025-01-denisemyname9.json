@@ -1,0 +1,19 @@
+{
+    "name": "2025-01-denisemyname9",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "backdoor",
+        "exfiltration_browser_data",
+        "exfiltration_generic",
+        "remote_commands",
+        "revshell"
+    ],
+    "packages": [
+        "justanotherpackage",
+        "thispackagedoesnotexist"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Packages contain potentially malicious, RAT-like functionality (creating reverse shell, stealing cookies, etc.), but do not run it. It could be a preparation for something or building a red-team-like tools"
+}
