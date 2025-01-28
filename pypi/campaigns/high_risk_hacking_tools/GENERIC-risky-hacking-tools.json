@@ -1,0 +1,11 @@
+{
+    "name": "GENERIC-risky-hacking-tools",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "packages": [
+        "ransomware"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Hacking tools with a quite high risk"
+}
