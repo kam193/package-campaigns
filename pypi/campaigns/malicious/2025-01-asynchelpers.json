@@ -1,0 +1,22 @@
+{
+    "name": "2025-01-asynchelpers",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "asynchelpers"
+    ],
+    "ioc": [
+        "104.194.151.19",
+        "https://github.com/asynchelpers/asynchelpers/raw/refs/heads/main/configs/main/security_profiles/functionality.zip"
+    ],
+    "references": [
+        "https://app.any.run/tasks/f4f95dff-ac96-47f1-bc14-76e2745ecb3d",
+        "https://www.virustotal.com/gui/file/265ef544887043fb158f2049a4e77ccf6119e28e3aebcde66b28db70795b5ee6"
+    ],
+    "description": "Importing the module starts (through __init__.py) the code that download, extracts and starts a remote executable. This has been identified by any.run as a AsyncRAT. The VirtusTotal detection rate was originally at the edge of false positive, but increased significantly during a few hours."
+}
