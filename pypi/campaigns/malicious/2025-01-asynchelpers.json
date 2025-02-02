@@ -8,7 +8,8 @@
         "remote_executable"
     ],
     "packages": [
-        "asynchelpers"
+        "asynchelpers",
+        "web3imports"
     ],
     "ioc": [
         "104.194.151.19",

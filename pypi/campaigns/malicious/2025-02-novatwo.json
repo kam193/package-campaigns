@@ -1,0 +1,23 @@
+{
+    "name": "2025-02-novatwo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "novatwo"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/sandraajvab/a/refs/heads/main/x.txt",
+        "https://audacityrecorder.org/suhub",
+        "https://audacityrecorder.org/donald"
+    ],
+    "references": [
+        "https://tria.ge/250202-13vd2askfn",
+        "https://www.virustotal.com/gui/file/775dfface00c9bac01640dd7b36b01102759389e122c19b3062cecdee45946aa/detection"
+    ],
+    "description": "Code hidden in setup.py downloads and executes multi-stage malicious code. Encrypted code from Github downloads a batch script, which then downloads and starts a next executable, which appears to be some kind of infostealer."
+}
