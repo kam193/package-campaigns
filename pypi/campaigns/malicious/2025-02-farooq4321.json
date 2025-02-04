@@ -1,0 +1,17 @@
+{
+    "name": "2025-02-farooq4321",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "revshell"
+    ],
+    "packages": [
+        "farooq4321"
+    ],
+    "ioc": [
+        "electronics-affiliate.gl.at.ply.gg"
+    ],
+    "references": [],
+    "description": "Code in setup.py attempts to call a webhook, but most importantly to execute a revshell"
+}
