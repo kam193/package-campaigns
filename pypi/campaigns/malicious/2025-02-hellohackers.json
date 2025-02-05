@@ -1,0 +1,14 @@
+{
+    "name": "2025-02-hellohackers",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "hellohackers"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "File contains a metapreter beacon that runs in the setup.py. Analysed version uses a local IP as the target."
+}
