@@ -1,0 +1,22 @@
+{
+    "name": "2025-02-astronomio",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "astrono2mio",
+        "astronomio",
+        "astronomios"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/antivirusevasion23/injection/main/injection.js"
+    ],
+    "references": [],
+    "description": "setup.py contains highly obfuscated infostealer"
+}
