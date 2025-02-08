@@ -1,0 +1,14 @@
+{
+    "name": "2025-02-server-operator",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "server-operator"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Package is designed to look for Solana private keys and send them to a callback.  The first version also included the seed values. However, it requires explicit starting with a given callback."
+}
