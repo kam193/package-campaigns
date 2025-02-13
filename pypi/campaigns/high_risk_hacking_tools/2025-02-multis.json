@@ -1,0 +1,14 @@
+{
+    "name": "2025-02-multis",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "multis"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Infostealer with multiple possibilities, but not auto-activating on installation. So far looks like a framework to build infostealers"
+}
