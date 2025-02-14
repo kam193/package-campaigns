@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "high_risk_hacking_tools",
     "packages": [
+        "ihack",
         "instahack-cli",
         "pymalwaremk",
         "ransomware"
