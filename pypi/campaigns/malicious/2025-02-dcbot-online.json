@@ -1,0 +1,18 @@
+{
+    "name": "2025-02-dcbot-online",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer"
+    ],
+    "packages": [
+        "dcbot-online"
+    ],
+    "ioc": [
+        "http://178.208.187.105/qweqweqwe.txt",
+        "178.208.187.105"
+    ],
+    "references": [],
+    "description": "Starting the module runs an infostealer targeting browsers and Discord data"
+}
