@@ -7,7 +7,8 @@
         "infostealer"
     ],
     "packages": [
-        "dcbot-online"
+        "dcbot-online",
+        "dcbotoffline3"
     ],
     "ioc": [
         "http://178.208.187.105/qweqweqwe.txt",
