@@ -1,0 +1,17 @@
+{
+    "name": "2025-02-network-utils-simple",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "network-utils-simple"
+    ],
+    "ioc": [
+        "ip-database-netutils.pages.dev"
+    ],
+    "references": [],
+    "description": "During installation, there is an attempt to download and execute code. The package has no real functionality."
+}
