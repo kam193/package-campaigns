@@ -1,0 +1,18 @@
+{
+    "name": "2025-02-pydantickits",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "typosquatting"
+    ],
+    "packages": [
+        "pydantic-kit",
+        "pydantickits"
+    ],
+    "ioc": [
+        "https://f74.workupload.com/download/S2F9ARfsjg3"
+    ],
+    "references": [],
+    "description": "Typosquatting packages with obfuscated code downloading an image. It can be dangerous if the remote file were changed, in current form more like spam."
+}
