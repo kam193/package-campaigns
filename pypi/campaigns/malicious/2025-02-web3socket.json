@@ -1,0 +1,18 @@
+{
+    "name": "2025-02-web3socket",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "impersonation",
+        "remote_script"
+    ],
+    "packages": [
+        "web3socket"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/pypi-org/DynamicLibs/refs/heads/main/web3config.pyc"
+    ],
+    "references": [],
+    "description": "In the class there is a hidden code that loads a binary Python code from a remote location impersonating PyPI Github account"
+}
