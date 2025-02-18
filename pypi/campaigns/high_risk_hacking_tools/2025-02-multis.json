@@ -7,6 +7,8 @@
     ],
     "packages": [
         "compute-st-speed",
+        "computestpspeedcomp",
+        "computestpspeedcompcomp",
         "multis"
     ],
     "ioc": [],
