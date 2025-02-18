@@ -6,9 +6,10 @@
         "infostealer"
     ],
     "packages": [
+        "compute-st-speed",
         "multis"
     ],
     "ioc": [],
     "references": [],
-    "description": "Infostealer with multiple possibilities, but not auto-activating on installation. So far looks like a framework to build infostealers"
+    "description": "Infostealer with multiple possibilities, but not auto-activating on installation. So far looks like a framework to build infostealers. There are already multiple attempts to publish it, with different innocent-looking names"
 }
