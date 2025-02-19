@@ -11,7 +11,8 @@
         "web3socket"
     ],
     "ioc": [
-        "https://raw.githubusercontent.com/pypi-org/DynamicLibs/refs/heads/main/web3config.pyc"
+        "https://raw.githubusercontent.com/pypi-org/DynamicLibs/refs/heads/main/web3config.pyc",
+        "https://github.com/pypi-org/web3sockcet"
     ],
     "references": [],
     "description": "In the class there is a hidden code that loads a binary Python code from a remote location impersonating PyPI Github account"
