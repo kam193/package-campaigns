@@ -9,7 +9,8 @@
         "compute-st-speed",
         "computestpspeedcomp",
         "computestpspeedcompcomp",
-        "multis"
+        "multis",
+        "speedtestpython"
     ],
     "ioc": [],
     "references": [],
