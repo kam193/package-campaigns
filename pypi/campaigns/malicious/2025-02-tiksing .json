@@ -9,14 +9,18 @@
     ],
     "packages": [
         "singtok",
+        "sintok",
         "tiksing"
     ],
     "ioc": [
         "kuruptd.ink",
-        "https://kuruptd.ink/fiaegjnkaegjhiageaij0geajb8387r5315gvvassdgvaknldv7at6.php"
+        "https://kuruptd.ink/fiaegjnkaegjhiageaij0geajb8387r5315gvvassdgvaknldv7at6.php",
+        "# C2",
+        "185.118.79.24",
+        "https://shorturl.at/pL5qZ"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/c79b02b155cc374c36acec0550ce3f66dc139eb7fa2bf84c7f9f8bcf45526be9"
     ],
-    "description": "Importing the module starts Obfuscated code that downloads a well-recognized malware "
+    "description": "Importing the module starts Obfuscated code that downloads a well-recognized malware. In the further variations, the code that download and starts the malicious code is now a little more hidden in the functionality and starts after presenting some allegedly expected activity"
 }
