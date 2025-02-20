@@ -6,6 +6,7 @@
         "infostealer"
     ],
     "packages": [
+        "asynctestpython",
         "compute-st-speed",
         "computestpspeedcomp",
         "computestpspeedcompcomp",
