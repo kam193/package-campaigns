@@ -12,5 +12,5 @@
     ],
     "ioc": [],
     "references": [],
-    "description": "The only thing the package does is send out all the given data about a cryptocurrency transaction, including the private key, to a hardcoded webhook. There is a possibility it's just a WIP project awaiting for further development, but in the current state it poses a risk of exfiltrating user's secrets."
+    "description": "The only thing the package does is send out all the given data about a cryptocurrency transaction, including the private key, to a hardcoded webhook.\n\nFeedback from PyPI Team: the package may also exploit a known pip behavior to overwrite files of an existing legitime package and replace it with malicious content. "
 }
