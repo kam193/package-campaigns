@@ -1,0 +1,16 @@
+{
+    "name": "2025-02-transaction-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "crypto-related",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "transaction-utils"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "The only thing the package does is send out all the given data about a cryptocurrency transaction, including the private key, to a hardcoded webhook. There is a possibility it's just a WIP project awaiting for further development, but in the current state it poses a risk of exfiltrating user's secrets."
+}
