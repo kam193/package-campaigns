@@ -1,0 +1,24 @@
+{
+    "name": "2025-02-coinanalyze",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "clons_real_package",
+        "crypto-related",
+        "obfuscation",
+        "remote_commands",
+        "typosquatting"
+    ],
+    "packages": [
+        "coinanalyze"
+    ],
+    "ioc": [
+        "https://wonderchristmas.store/jupdate.php",
+        "wonderchristmas.store",
+        "http://netupdates.info/board/board.php",
+        "netupdates.info"
+    ],
+    "references": [],
+    "description": "Package contains obfuscated code that exfiltrate basic data and awaits for commands from the remote server to execute them. This is a malicious copy of legitimate https://pypi.org/project/coinanalyse/ package."
+}
