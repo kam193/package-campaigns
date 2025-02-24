@@ -11,7 +11,8 @@
         "typosquatting"
     ],
     "packages": [
-        "coinanalyze"
+        "coinanalyze",
+        "coingenerator"
     ],
     "ioc": [
         "https://wonderchristmas.store/jupdate.php",
