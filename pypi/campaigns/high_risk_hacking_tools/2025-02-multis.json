@@ -8,6 +8,7 @@
     "packages": [
         "aiosignalasync",
         "asyncaiosignal",
+        "asyncconfigreader",
         "asynctestpython",
         "compute-st-speed",
         "computestpspeedcomp",
