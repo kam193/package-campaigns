@@ -11,6 +11,7 @@
         "typosquatting"
     ],
     "packages": [
+        "coinanalysis",
         "coinanalyze",
         "coingenerator"
     ],

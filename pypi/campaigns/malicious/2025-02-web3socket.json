@@ -15,5 +15,5 @@
         "https://github.com/pypi-org/web3sockcet"
     ],
     "references": [],
-    "description": "In the class there is a hidden code that loads a binary Python code from a remote location impersonating PyPI Github account"
+    "description": "web3socket: In the class there is a hidden code that loads a binary Python code from a remote location impersonating PyPI Github account\nweb3node: The package is used to download and run remote code by other packages. Files darwin.py, gnu.py and win32.py contain code that adds executing remote code to the crontab as well as an attempt to escalate privileges.\nw3socket: It uses web3node to start remote code in config.py"
 }
