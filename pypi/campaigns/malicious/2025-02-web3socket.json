@@ -8,12 +8,18 @@
         "remote_script"
     ],
     "packages": [
+        "w3socket",
+        "web3node",
         "web3socket"
     ],
     "ioc": [
         "https://raw.githubusercontent.com/pypi-org/DynamicLibs/refs/heads/main/web3config.pyc",
-        "https://github.com/pypi-org/web3sockcet"
+        "https://github.com/pypi-org/web3sockcet",
+        "https://saboreysecretos.com/wp-includes/assets/script-modules-packages.win.php?u=2",
+        "saboreysecretos.com"
     ],
-    "references": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/237d1bca6e056df5bb16a1216a434634109478f882d3b1d58344c801d184f95d"
+    ],
     "description": "web3socket: In the class there is a hidden code that loads a binary Python code from a remote location impersonating PyPI Github account\nweb3node: The package is used to download and run remote code by other packages. Files darwin.py, gnu.py and win32.py contain code that adds executing remote code to the crontab as well as an attempt to escalate privileges.\nw3socket: It uses web3node to start remote code in config.py"
 }
