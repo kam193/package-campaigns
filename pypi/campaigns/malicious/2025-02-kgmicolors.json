@@ -1,0 +1,22 @@
+{
+    "name": "2025-02-kgmicolors",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "remote_script"
+    ],
+    "packages": [
+        "kgmicolors"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/Uwu-Kagami/multi-tool/refs/heads/main/modules/base_modules/requirements/load_modules.py",
+        "https://github.com/Uwu-Kagami/ConfigSecurityPolicy/raw/refs/heads/main/WinSysDrivers.zip",
+        "https://github.com/Uwu-Kagami"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/ZWU5OThlMWFlZWU3NTFhOGIwOGZmYzExMWU1MTk1MzM6MTc0MDUxNjgxMw=="
+    ],
+    "description": "Package contains hidden code that downloads a next stage script, which finally downloads and starts a malware from XWORM family as well as an infostealer"
+}

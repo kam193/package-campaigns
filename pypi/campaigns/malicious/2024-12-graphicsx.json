@@ -10,11 +10,13 @@
         "remote_executable"
     ],
     "packages": [
+        "dbsxrchpro",
         "graphicsx",
         "intgraphx"
     ],
     "ioc": [
-        "https://filetransfer.io/data-package/hDzFXztO/download"
+        "https://filetransfer.io/data-package/hDzFXztO/download",
+        "http://173.208.142.174:8080/files/notinfected/Intel%20Graphics.exe"
     ],
     "references": [],
     "description": "Installing the package starts downloading and installing an Infostealer "
