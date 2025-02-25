@@ -1,0 +1,21 @@
+{
+    "name": "2025-02-alicloud-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_cloud_tokens",
+        "through_dependency"
+    ],
+    "packages": [
+        "alicloud-client",
+        "time-check-server"
+    ],
+    "ioc": [
+        "https://api.checktimeserver.org/",
+        "checktimeserver.org"
+    ],
+    "references": [],
+    "description": "This campaign is built from two parts:\n1) package time-check-server contains an innocent-looking code that sends \"date\" to a remote server,\n2) package alicloud-client is a clone of legitim aliyun-python-sdk-core package, with a small change in the client.py code, where it imports the time-check-server and calls it, but instead of a date, the credentials to the cloud are exfiltrated."
+}
