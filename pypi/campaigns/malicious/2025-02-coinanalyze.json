@@ -13,7 +13,8 @@
     "packages": [
         "coinanalysis",
         "coinanalyze",
-        "coingenerator"
+        "coingenerator",
+        "transaction-analyze"
     ],
     "ioc": [
         "https://wonderchristmas.store/jupdate.php",
