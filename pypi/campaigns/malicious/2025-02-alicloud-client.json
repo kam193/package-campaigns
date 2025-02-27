@@ -9,8 +9,10 @@
         "through_dependency"
     ],
     "packages": [
+        "acloud-clients",
         "alicloud-client",
-        "time-check-server"
+        "time-check-server",
+        "time-check-server-get"
     ],
     "ioc": [
         "https://api.checktimeserver.org/",
