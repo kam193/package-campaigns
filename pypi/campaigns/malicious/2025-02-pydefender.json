@@ -1,0 +1,22 @@
+{
+    "name": "2025-02-pydefender",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "override_install",
+        "remote_script"
+    ],
+    "packages": [
+        "pydefender"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/baledreamer/payload/refs/heads/main/smegma.bat"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/0877653f6a24639bb02b547c94f670597c3c0cd96df910a2ac891eaeaa9cc5f3/behavior",
+        "https://tria.ge/250301-sdh1pstrz7/behavioral1",
+        "https://app.any.run/tasks/0fbdb4f9-0497-4272-baf0-872e8d6e50bc"
+    ],
+    "description": "setup.py is prepared to download and run an obfuscated batch script. While the script is not detected by any AV currently, in the sandbox analysis it reveals behaviour like adding exclusions to Windows Defender"
+}
