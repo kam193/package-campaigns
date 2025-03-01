@@ -8,6 +8,7 @@
         "remote_script"
     ],
     "packages": [
+        "piedefender",
         "pydefender"
     ],
     "ioc": [
