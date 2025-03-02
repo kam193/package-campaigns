@@ -11,6 +11,7 @@
     ],
     "packages": [
         "dbsxrchpro",
+        "flamepro",
         "graphicsx",
         "intgraphx"
     ],
@@ -18,6 +19,8 @@
         "https://filetransfer.io/data-package/hDzFXztO/download",
         "http://173.208.142.174:8080/files/notinfected/Intel%20Graphics.exe"
     ],
-    "references": [],
-    "description": "Installing the package starts downloading and installing an Infostealer "
+    "references": [
+        "https://www.virustotal.com/gui/file/8fd0a5ee03bc21cfb2fb7308ef4f673d7483f50ef8efcbe7b2444721478bd71c"
+    ],
+    "description": "Installing the package starts downloading and installing an Infostealer"
 }
