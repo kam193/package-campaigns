@@ -1,0 +1,14 @@
+{
+    "name": "2025-02-mirage-rce",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "mirage-rce"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Setup.py contains a reverse shell"
+}
