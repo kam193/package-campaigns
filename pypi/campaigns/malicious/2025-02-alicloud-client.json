@@ -9,15 +9,25 @@
         "through_dependency"
     ],
     "packages": [
+        "acloud-client-uses",
         "acloud-clients",
         "alicloud-client",
+        "alicloud-client-sdk",
+        "awscloud-clients-core",
+        "enumer-iam",
+        "snapshot-photo",
         "time-check-server",
-        "time-check-server-get"
+        "time-check-server-get",
+        "time-server-test"
     ],
     "ioc": [
         "https://api.checktimeserver.org/",
-        "checktimeserver.org"
+        "checktimeserver.org",
+        "https://api.aliyun-sdk-requests.xyz/",
+        "aliyun-sdk-requests.xyz"
     ],
-    "references": [],
-    "description": "This campaign is built from two parts:\n1) package time-check-server contains an innocent-looking code that sends \"date\" to a remote server,\n2) package alicloud-client is a clone of legitim aliyun-python-sdk-core package, with a small change in the client.py code, where it imports the time-check-server and calls it, but instead of a date, the credentials to the cloud are exfiltrated."
+    "references": [
+        "https://github.com/pypi-data/pypi-mirror-238/blob/code/packages/snapshot-photo/snapshot_photo-0.0.3-py3-none-any.whl/snapshot_photo/date_format.py"
+    ],
+    "description": "This campaign is built from two parts:\n1) packages named like time-check-server, snapshot-photo contain an innocent-looking code that sends \"date\" to a remote server,\n2) packages named like alicloud-client are clones of legit aliyun-python-sdk-core package, with a small change in the client.py code, where it imports the time-check-server and calls it, but instead of a date, the credentials to the cloud are exfiltrated. There are also variations with AWS clients\n\nApparently, the campaign started at least 2 years ago with the snapshot-photo package containing the same functionality as the newer time-check-server (see https://github.com/pypi-data/pypi-mirror-238/blob/code/packages/snapshot-photo/snapshot_photo-0.0.3-py3-none-any.whl/snapshot_photo/date_format.py)."
 }
