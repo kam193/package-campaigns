@@ -6,6 +6,7 @@
         "ihack",
         "instahack-cli",
         "pymalwaremk",
+        "pyracore",
         "ransomware"
     ],
     "ioc": [],
