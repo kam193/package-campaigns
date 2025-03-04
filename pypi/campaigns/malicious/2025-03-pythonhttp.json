@@ -1,0 +1,17 @@
+{
+    "name": "2025-03-pythonhttp",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "malware",
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "pythonhttp"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Installing the package starts a heavily obfuscated Powershell Script that attempts to (at least) overwrite copied crypto wallets"
+}
