@@ -1,0 +1,15 @@
+{
+    "name": "2025-03-certifications",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "certifications",
+        "enquiry-exam"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Package contains a reverse shell."
+}

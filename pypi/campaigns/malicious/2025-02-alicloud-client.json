@@ -9,17 +9,20 @@
         "through_dependency"
     ],
     "packages": [
+        "aclient-sdk",
         "acloud-client-uses",
         "acloud-clients",
         "alicloud-client",
         "alicloud-client-sdk",
+        "amzclients-sdk",
         "awscloud-clients-core",
         "enumer-iam",
         "snapshot-photo",
         "tclients-sdk",
         "time-check-server",
         "time-check-server-get",
-        "time-server-test"
+        "time-server-test",
+        "time-service-checker"
     ],
     "ioc": [
         "https://api.checktimeserver.org/",
