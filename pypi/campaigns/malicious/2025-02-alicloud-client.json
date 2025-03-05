@@ -16,6 +16,7 @@
         "awscloud-clients-core",
         "enumer-iam",
         "snapshot-photo",
+        "tclients-sdk",
         "time-check-server",
         "time-check-server-get",
         "time-server-test"
