@@ -1,0 +1,17 @@
+{
+    "name": "2025-03-colorizetext",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "colorizetext"
+    ],
+    "ioc": [
+        "https://github.com/Uwu-Kagami"
+    ],
+    "references": [],
+    "description": "Package has a hidden code starting an infostealer"
+}
