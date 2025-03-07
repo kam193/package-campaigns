@@ -21,6 +21,7 @@
         "tclients-sdk",
         "time-check-server",
         "time-check-server-get",
+        "time-server-analyzer",
         "time-server-test",
         "time-service-checker"
     ],
