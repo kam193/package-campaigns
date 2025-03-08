@@ -1,0 +1,19 @@
+{
+    "name": "2025-03-heroku-tl",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package"
+    ],
+    "packages": [
+        "heroku-tl"
+    ],
+    "ioc": [
+        "https://banlist.heroku-ub.top/get_ids",
+        "banlist.heroku-ub.top",
+        "heroku-ub.top"
+    ],
+    "references": [],
+    "description": "Clone of a legit Telegram client, with a hidden code that, under some conditions, can attempt to destroy the Linux OS."
+}
