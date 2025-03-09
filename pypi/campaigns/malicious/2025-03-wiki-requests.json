@@ -1,0 +1,18 @@
+{
+    "name": "2025-03-wiki-requests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "override_install",
+        "revshell"
+    ],
+    "packages": [
+        "wiki-requests"
+    ],
+    "ioc": [
+        "38.181.219.70"
+    ],
+    "references": [],
+    "description": "Setup.py attempts to exfiltrate information about the system and span a reverse shell"
+}
