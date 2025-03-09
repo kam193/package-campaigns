@@ -1,0 +1,14 @@
+{
+    "name": "2025-03-voipms-service",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data"
+    ],
+    "packages": [
+        "voipms-service"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "The package pretends to do something meaningful, but in fact, just exfiltrates users' cookies from the browser"
+}
