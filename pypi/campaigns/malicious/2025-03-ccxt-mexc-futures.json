@@ -1,0 +1,22 @@
+{
+    "name": "2025-03-ccxt-mexc-futures",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "ccxt-mexc-futures"
+    ],
+    "ioc": [
+        "https://v3.mexc.workers.dev/describe.json",
+        "https://update.mexc.workers.dev/",
+        "update.mexc.workers.dev",
+        "v3.mexc.workers.dev",
+        "mexc.workers.dev"
+    ],
+    "references": [],
+    "description": "There is a hidden code that overwrites the default method and downloads remote data, which contains the dictionary pretending to be the right value, and a hidden code to exfiltrate machine ID and download and run a remote code. "
+}
