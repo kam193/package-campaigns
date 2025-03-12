@@ -1,0 +1,14 @@
+{
+    "name": "2025-03- khuangxt",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "typosquatting"
+    ],
+    "packages": [
+        "solama"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Typo squatting packages, without any confirmed harmful behaviour, but from a user who already attempted to create malicious packages."
+}

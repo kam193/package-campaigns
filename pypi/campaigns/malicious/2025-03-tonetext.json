@@ -1,0 +1,17 @@
+{
+    "name": "2025-03-tonetext",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "tonetext"
+    ],
+    "ioc": [
+        "https://tinyurl.com/ttxP1107"
+    ],
+    "references": [],
+    "description": "When imported, the code embedded into the exception class downloads a remote file, and runs it by importing, and attempts to cover tracks by overwriting itself, removing caches and other related files."
+}
