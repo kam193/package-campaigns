@@ -8,6 +8,7 @@
         "remote_script"
     ],
     "packages": [
+        "asynchttpx",
         "httpx-client"
     ],
     "ioc": [
@@ -23,5 +24,5 @@
         "https://www.virustotal.com/gui/file/08a2072bf8e155457afe84d61a9d2e077183b7b8413c9c601c9cf30454c2f4a0",
         " https://tria.ge/250316-s2sj2sxmx7"
     ],
-    "description": "Importing the module starts downloading and executing first a script, and then a widely identified malware"
+    "description": "Importing the module starts downloading and executing first a script, and then a widely identified malware\n\nPackages are used as dependencies in a GitHub project https://github.com/ToolParadiseDrako/Nuker-Tool-Paradise"
 }
