@@ -1,0 +1,15 @@
+{
+    "name": "2025-03-bsb-family-bot",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation"
+    ],
+    "packages": [
+        "bsb-family-bot"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Obfuscated package that can collect different information from mobile devices, including monitoring incoming text messages, taken photos and installed applications. The package itself does not look like doing it without consent, but may be used for such purposes."
+}
