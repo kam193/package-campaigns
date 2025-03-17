@@ -1,0 +1,27 @@
+{
+    "name": "2025-03-httpx-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable",
+        "remote_script"
+    ],
+    "packages": [
+        "httpx-client"
+    ],
+    "ioc": [
+        "https://zetolacs-cloud.top/Stb/Retev.php?bl=Uic2YYQdDhtfiKAZnULCW012.txt",
+        "zetolacs-cloud.top",
+        "https://raw.githubusercontent.com/mrunknown12321/1234/refs/heads/main/1234",
+        "# from sandboxes",
+        "# this has a current C2 domain",
+        "https://raw.githubusercontent.com/VinieClara/FN-Manfiestes/main/SdkVersion.txt",
+        "contorosa.space"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/08a2072bf8e155457afe84d61a9d2e077183b7b8413c9c601c9cf30454c2f4a0",
+        " https://tria.ge/250316-s2sj2sxmx7"
+    ],
+    "description": "Importing the module starts downloading and executing first a script, and then a widely identified malware"
+}
