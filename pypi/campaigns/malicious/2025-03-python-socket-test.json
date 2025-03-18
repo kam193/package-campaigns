@@ -1,0 +1,14 @@
+{
+    "name": "2025-03-python-socket-test",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_commands"
+    ],
+    "packages": [
+        "python-socket-test"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Importing the package starts a script that takes commands from remote server and executes locally"
+}
