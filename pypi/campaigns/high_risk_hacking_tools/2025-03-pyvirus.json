@@ -1,0 +1,16 @@
+{
+    "name": "2025-03-pyvirus",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "pyvirus"
+    ],
+    "ioc": [
+        "https://pypi.org/project/PyVirus"
+    ],
+    "references": [],
+    "description": "A library to build potentially malicious code. The code may potentially be destructive, but the package does not trigger it and documents the functionality"
+}
