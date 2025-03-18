@@ -9,7 +9,8 @@
     ],
     "packages": [
         "asynchttpx",
-        "httpx-client"
+        "httpx-client",
+        "xcepthttp"
     ],
     "ioc": [
         "https://zetolacs-cloud.top/Stb/Retev.php?bl=Uic2YYQdDhtfiKAZnULCW012.txt",
