@@ -28,7 +28,8 @@
         "time-server-analysis",
         "time-server-analyzer",
         "time-server-test",
-        "time-service-checker"
+        "time-service-checker",
+        "timekeeper-verifier"
     ],
     "ioc": [
         "https://api.checktimeserver.org/",
