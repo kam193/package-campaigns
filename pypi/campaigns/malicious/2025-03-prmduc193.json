@@ -1,0 +1,16 @@
+{
+    "name": "2025-03-prmduc193",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "prmduc193"
+    ],
+    "ioc": [
+        "103.252.137.168"
+    ],
+    "references": [],
+    "description": "Importing the package starts a revshell"
+}
