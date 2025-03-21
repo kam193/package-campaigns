@@ -5,6 +5,7 @@
     "packages": [
         "ihack",
         "instahack-cli",
+        "pyhack",
         "pymalwaremk",
         "pyracore",
         "ransomware"
