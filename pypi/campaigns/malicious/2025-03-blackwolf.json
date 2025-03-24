@@ -8,7 +8,9 @@
         "remote_script"
     ],
     "packages": [
-        "bbllaacckkwwoollff"
+        "bbllaacckkwwoollff",
+        "bbllaacckkwwoollff-6ad8f762-1a91-45d7-a9c5-356bd858356a",
+        "bbllaacckkwwoollff6ad8f762"
     ],
     "ioc": [
         "blackwolf.obs.cn-north-4.myhuaweicloud.com"
