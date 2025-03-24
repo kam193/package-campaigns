@@ -10,9 +10,10 @@
         "remote_commands"
     ],
     "packages": [
+        "codeoptimizer",
         "yolov8mini"
     ],
     "ioc": [],
     "references": [],
-    "description": "On importing the module, there is an automated start of a Telegram bot capable of exfiltrating passwords from browsers, executing arbitrary commands and so on. While the description states it's a monitoring tool, the automated start, capabilities targeting secret values, and the name (interestingly similar to YOLOv8) suggest malicious intentions. "
+    "description": "On importing the module, there is an automated start of a Telegram bot capable of exfiltrating passwords from browsers, executing arbitrary commands and so on. While the description states it's a monitoring tool, the automated start, capabilities targeting secret values suggest malicious intentions. "
 }
