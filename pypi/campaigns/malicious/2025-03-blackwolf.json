@@ -10,7 +10,12 @@
     "packages": [
         "bbllaacckkwwoollff",
         "bbllaacckkwwoollff-6ad8f762-1a91-45d7-a9c5-356bd858356a",
-        "bbllaacckkwwoollff6ad8f762"
+        "bbllaacckkwwoollff6ad8f751",
+        "bbllaacckkwwoollff6ad8f752",
+        "bbllaacckkwwoollff6ad8f753",
+        "bbllaacckkwwoollff6ad8f762",
+        "f2d5cfdc642c3d4",
+        "f2d5cfdc642c3d5"
     ],
     "ioc": [
         "blackwolf.obs.cn-north-4.myhuaweicloud.com"
