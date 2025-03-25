@@ -6,9 +6,12 @@
         "exfiltration_generic"
     ],
     "packages": [
+        "quickcolors",
         "quicolor"
     ],
-    "ioc": [],
+    "ioc": [
+        "https://api.telegram.org/bot7866811532:AAHWBkH7NH7XheqQBRIdfoCk4psEr0BBrjg/sendDocument"
+    ],
     "references": [],
     "description": "Importing the module starts a code that exfiltrates data from local Telegram application"
 }
