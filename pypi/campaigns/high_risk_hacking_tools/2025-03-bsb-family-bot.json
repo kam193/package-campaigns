@@ -10,6 +10,8 @@
         "bsb-family-bot"
     ],
     "ioc": [],
-    "references": [],
+    "references": [
+        "https://github.com/ossf/malicious-packages/commit/8585e7801190c2d22c06a65dc8df44a9b529829b"
+    ],
     "description": "Obfuscated package that can collect different information from mobile devices, including monitoring incoming text messages, taken photos and installed applications. The package itself does not look like doing it without consent, but may be used for such purposes."
 }
