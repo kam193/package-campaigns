@@ -6,6 +6,7 @@
         "exfiltration_generic"
     ],
     "packages": [
+        "coloryi",
         "quickcolors",
         "quicolor"
     ],
