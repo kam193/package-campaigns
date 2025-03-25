@@ -1,0 +1,14 @@
+{
+    "name": "2025-03-quicolor",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "quicolor"
+    ],
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts a code that exfiltrates data from local Telegram application"
+}
