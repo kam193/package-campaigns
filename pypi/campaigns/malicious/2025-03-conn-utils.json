@@ -1,0 +1,18 @@
+{
+    "name": "2025-03-conn-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation"
+    ],
+    "packages": [
+        "conn-utils"
+    ],
+    "ioc": [
+        "m.yubitusoft.com",
+        "yubitusoft.com"
+    ],
+    "references": [],
+    "description": "Already during the installation, the file with slightly obfuscated code is loaded and starts exfiltrating information about the host. It especially targets information about additional indexes configured for pip. Data is exfiltrated using DNS queries"
+}
