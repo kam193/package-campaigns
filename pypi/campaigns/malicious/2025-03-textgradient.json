@@ -1,0 +1,17 @@
+{
+    "name": "2025-03-textgradient",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "textgradient"
+    ],
+    "ioc": [
+        "https://raw.githubusercontent.com/imsoprime/w/refs/heads/main/server.py"
+    ],
+    "references": [],
+    "description": "Highly obfuscated code that during import downloads a remote script with another obfuscated code"
+}
