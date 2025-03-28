@@ -10,8 +10,11 @@
         "textgradient"
     ],
     "ioc": [
-        "https://raw.githubusercontent.com/imsoprime/w/refs/heads/main/server.py"
+        "https://raw.githubusercontent.com/imsoprime/w/refs/heads/main/server.py",
+        "https://raw.githubusercontent.com/imsoprime/w/refs/heads/main/server2.py",
+        "https://github.com/imsoprime/w/",
+        "https://t.me/sliverbulletpro2"
     ],
     "references": [],
-    "description": "Highly obfuscated code that during import downloads a remote script with another obfuscated code"
+    "description": "Highly obfuscated code that during import downloads a remote script with another obfuscated code. The repository with remote script also contains clearly infostealer code"
 }
