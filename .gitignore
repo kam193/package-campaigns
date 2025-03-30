@@ -1,0 +1,7 @@
+.cache/
+docs/pypi/campaign/
+!docs/pypi/campaign/.gitkeep
+docs/pypi/package/
+!docs/pypi/package/.gitkeep
+docs/pypi/abuse_category/
+!docs/pypi/abuse_category/.gitkeep

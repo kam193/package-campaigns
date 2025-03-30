@@ -1,0 +1,33 @@
+---
+title: {{ package["name"] }}
+tags:
+    - campaign:{{ campaign["name"] | trim }}
+---
+**{{ campaign["category"] | upper }}** (1) package from Python Package Index.
+{.annotate }
+
+1. {% if campaign["category"] in categories %}{{ categories[campaign["category"]] }}{% else %}{{ campaign["category"] }}{% endif %}
+
+# {{ package["name"] }}
+
+<div class="annotate" markdown>
+* _Metadata_(1) Check in [pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ package["name"][0] }}/{{ package["name"][1] }}/{{ package["name"] }}.json)
+* _Affected versions(2)_ unspecified
+</div>
+
+1. May not be available. See more in [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repository.
+2. Version numbers are currently not tracked. Assume all versions are affected.
+
+{% if "description" in package.keys() %}{{ package["description"] }}{% endif %}
+
+## Campaign data
+_Campaign information may not always be 100% accurate for every related package._
+!!! info "Campaign description"
+    {{ campaign.get("description", "") | indent(4) }}
+
+    _See more details on the [campaign page](../campaign/{{ campaign["name"] | trim }}.md)._
+
+{% for abuse in campaign["abuse_categories"] %}{% if abuse %}{% set info = abuse_categories.get(abuse, {}) %}
+??? {{ info.get("theme", "danger") }} "{{ abuse }}"
+    {% if "description" in info.keys() %}{{ info["description"] | indent(4) }}{% else %}Campaign targets {{ abuse }}.{% endif %}
+{% endif %}{% endfor %}

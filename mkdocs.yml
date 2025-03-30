@@ -1,0 +1,52 @@
+site_name: Malicious and suspicious packages
+site_description: Malicious and suspicious package campaigns in PyPI environment
+repo_url: https://github.com/kam193/package-campaigns
+repo_name: kam193/package-campaigns
+
+copyright: |
+  Collected & analysed by Kamil Mańkowski. Data presented as-is without any guarantee. By using it, always link the source.
+
+theme:
+  name: material
+  icon:
+    logo: material/package-variant-closed-remove
+  features:
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.footer
+    - content.action.edit
+    - content.tooltips
+
+  palette:
+    primary: orange
+    accent: red
+  font:
+    text: Exo 2
+
+plugins:
+  - privacy
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kam193
+      name: Github
+
+markdown_extensions:
+  - pymdownx.details
+  - admonition
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      title: On this page
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
