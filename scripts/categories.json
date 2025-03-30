@@ -1,0 +1,8 @@
+{
+  "high_risk_hacking_tools": "Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious",
+  "highly_suspicious": "Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.",
+  "malicious": "The campaign has clearly malicious intent, like infostealers.",
+  "pentest": "Packages with high confidence of being created for a pentest.",
+  "spam": "advertisements, spam packages etc.",
+  "probably_pentest": "Packages looking like typical pentest packages, but also anything that looks like testing, exploring pre-prepared kits, research & co, with clearly low-harm possibilities."
+}

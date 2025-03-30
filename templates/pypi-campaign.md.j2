@@ -1,0 +1,54 @@
+---
+title: {{ campaign["name"] | trim }}
+tags:
+    - {{ campaign["category"] | upper }}
+{% for abuse in campaign["abuse_categories"] %}{% if abuse %}
+    - {{ abuse }}
+{% endif %}{% endfor %}
+---
+
+**{{ campaign["category"] | upper }}** (1) campaign cataloged at {{ campaign.get("created_at", "n/a") }}(2).
+{ .annotate }
+
+1. {% if campaign["category"] in categories %}{{ categories[campaign["category"]] }}{% else %}{{ campaign["category"] }}{% endif %}
+2. This is just the date of creating the catalog entry. It may not reflect the date of
+   creation of the campaign itself.
+
+# {{ campaign["name"] | trim }}
+
+{{ campaign["description"] }}
+
+## Abuse categories
+
+{% for abuse in campaign["abuse_categories"] %}{% set info = abuse_categories.get(abuse, {}) %}
+??? {{ info.get("theme", "danger") }} "{{ abuse }}"
+    {% if "description" in info.keys() %}{{ info["description"] | indent(4) }}{% else %}Campaign uses {{ abuse }}.{% endif %}
+{% endfor %}
+
+{% if "references" in campaign.keys() and campaign["references"] %}
+## References
+_Referenced resources may include blog posts about the campaign,
+malware analysis, sandbox reports, or other relevant information._
+
+{% for reference in campaign["references"] %}{% if reference %}
+{% if reference.startswith("https://www.virustotal.com/gui/file/") %}
+  - [:simple-virustotal: VirusTotal results]({{ reference }})
+{% elif reference.startswith("https://tria.ge") %}
+  - [:fontawesome-solid-box-open: tria.ge report]({{ reference }})
+{% elif reference.startswith("https://www.hybrid-analysis.com/sample/") %}
+  - [:fontawesome-solid-box-open: Hybrid Analysis report]({{ reference }})
+{% elif reference.startswith("https://any.run/") %}
+  - [:fontawesome-solid-box-open: ANY.RUN report]({{ reference }})
+{% else %}
+  - [{{ reference }}]({{ reference }})
+{% endif %}{% endif %}{% endfor %}{% endif %}{% if "iocs" in campaign.keys() and campaign["iocs"] %}
+## IoCs & related URLs
+_URLs, characteristic domains, IPs, or other indicators of compromise._
+
+{% for ioc in campaign["iocs"] %}
+* `{{ ioc | replace("https://", "hxxps://") | replace("http://", "hxxp://") }}`
+{% endfor %}{% endif %}
+
+## Packages in the campaign
+
+<!-- material/tags { include: [campaign:{{ campaign["name"] | trim }}] }-->
