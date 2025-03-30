@@ -1,0 +1,20 @@
+{
+    "name": "2025-03-bitcoinlibdbfix",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_crypto",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "bitcoinlibdbfix"
+    ],
+    "ioc": [
+        "https://5fde88fde64f4682c2fc1e10e6c.vercel.app/api/send",
+        "https://discord.com/api/webhooks/1329712636807610379/eU6AZ5oBM_12FIkwvtiasyjywx7WYW7wzuWJwWU3u2kadKko7QKpXcl3Kd0fJspPhM4w"
+    ],
+    "references": [
+        "https://github.com/1200wd/bitcoinlib/issues/455#issuecomment-2764513104"
+    ],
+    "description": "It overwrites the 'clw' command from legit bitconinlib package and attempts to exfiltrate its database on the usage.\n\nAs a context, it appears to be created to lure users seeking for help with the bitconinlib package: https://github.com/1200wd/bitcoinlib/issues/455#issuecomment-2764513104"
+}
