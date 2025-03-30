@@ -43,11 +43,11 @@ malware analysis, sandbox reports, or other relevant information._
   - [:material-sticker-text-outline: CERT.at blog/information]({{ reference }})
 {% else %}
   - [{{ reference }}]({{ reference }})
-{% endif %}{% endif %}{% endfor %}{% endif %}{% if "iocs" in campaign.keys() and campaign["iocs"] %}
+{% endif %}{% endif %}{% endfor %}{% endif %}{% if "ioc" in campaign.keys() and campaign["ioc"] %}
 ## IoCs & related URLs
-_URLs, characteristic domains, IPs, or other indicators of compromise._
+_URLs with payloads, characteristic domains, C&C IPs, repositories with malicious code, etc._
 
-{% for ioc in campaign["iocs"] %}
+{% for ioc in campaign["ioc"] %}
 * `{{ ioc | replace("https://", "hxxps://") | replace("http://", "hxxp://") }}`
 {% endfor %}{% endif %}
 
