@@ -9,6 +9,7 @@
     "packages": [
         "instaread"
     ],
+    "created_at": "2024-10-06",
     "ioc": [],
     "references": [
         "https://www.virustotal.com/gui/file/bf7d5b37aa1365e5e79376921304dde4767d1055fc62cc898f5b6b02b5607614/detection"

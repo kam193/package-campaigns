@@ -10,6 +10,7 @@
     "packages": [
         "pybanners"
     ],
+    "created_at": "2024-07-24",
     "ioc": [
         "https://github.com/BlazeSquad666/discord-injection/blob/main/injection.js",
         "https://filetransfer.io/data-package/c4MTYWw8/download"

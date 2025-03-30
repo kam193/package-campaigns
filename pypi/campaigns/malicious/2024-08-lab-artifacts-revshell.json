@@ -44,6 +44,7 @@
         "artifact-lab-3-package-f9dafccc",
         "lab-3-package-438d82fc"
     ],
+    "created_at": "2024-08-10",
     "ioc": [],
     "references": [],
     "description": "Packages showing simple variants of revshell with targets to ngrok. Most probably experiments. Later versions moved to use Burp Collaborator to exfiltrate simple data. Pentest? An artifact from some red team curse? "

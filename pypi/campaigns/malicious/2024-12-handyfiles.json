@@ -10,6 +10,7 @@
         "filecraft",
         "handyfiles"
     ],
+    "created_at": "2024-12-24",
     "ioc": [],
     "references": [],
     "description": "During the installation, the package iterates its files and attempts to import a hidden module - which is embedded as ZIP archive in the image file "

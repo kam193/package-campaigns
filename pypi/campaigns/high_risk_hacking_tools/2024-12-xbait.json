@@ -12,6 +12,7 @@
         "xbait",
         "xxbait"
     ],
+    "created_at": "2024-12-27",
     "ioc": [],
     "references": [],
     "description": "A series of similar packages dedicated to collect sensitive data, although looks like designed for manual use"

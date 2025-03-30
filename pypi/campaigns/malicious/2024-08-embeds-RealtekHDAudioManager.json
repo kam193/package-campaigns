@@ -48,6 +48,7 @@
         "websend",
         "xsilyxd"
     ],
+    "created_at": "2024-09-04",
     "ioc": [
         "https://github.com/holdthatcode/host/raw/main/howl.exe",
         "https://github.com/holdthatcode/host/raw/main/menu.exe",

@@ -13,6 +13,7 @@
     "packages": [
         "pojang-resorter"
     ],
+    "created_at": "2024-09-02",
     "ioc": [],
     "references": [
         "https://www.virustotal.com/gui/file/3d30ffd98e870abc0e09fb3af94d65fc8efd391ede958dd0365007a7ae020ec0"

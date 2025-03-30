@@ -11,6 +11,7 @@
     "packages": [
         "pythonhttp"
     ],
+    "created_at": "2025-03-04",
     "ioc": [],
     "references": [],
     "description": "Installing the package starts a heavily obfuscated Powershell Script that attempts to (at least) overwrite copied crypto wallets"

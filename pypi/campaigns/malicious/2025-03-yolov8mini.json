@@ -13,6 +13,7 @@
         "codeoptimizer",
         "yolov8mini"
     ],
+    "created_at": "2025-03-23",
     "ioc": [],
     "references": [],
     "description": "On importing the module, there is an automated start of a Telegram bot capable of exfiltrating passwords from browsers, executing arbitrary commands and so on. While the description states it's a monitoring tool, the automated start, capabilities targeting secret values suggest malicious intentions. "

@@ -10,6 +10,7 @@
         "quickcolors",
         "quicolor"
     ],
+    "created_at": "2025-03-25",
     "ioc": [
         "https://api.telegram.org/bot7866811532:AAHWBkH7NH7XheqQBRIdfoCk4psEr0BBrjg/sendDocument"
     ],

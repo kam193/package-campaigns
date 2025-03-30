@@ -9,6 +9,7 @@
     "packages": [
         "bsb-family-bot"
     ],
+    "created_at": "2025-03-17",
     "ioc": [],
     "references": [
         "https://github.com/ossf/malicious-packages/commit/8585e7801190c2d22c06a65dc8df44a9b529829b"

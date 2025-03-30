@@ -11,6 +11,7 @@
         "browser-cookies3",
         "dirutils"
     ],
+    "created_at": "2024-09-06",
     "ioc": [
         "https://discord.com/api/webhooks/1280529043107614733/woxM-qRJ5KY4nkCILD9TFi0VuJwN-ewQ52ZqbAoeLMaYxfP7hRUErYIMusugirIWB42D",
         "https://discordapp.com/api/webhooks/1284874320556064859/IRz_BFstxKu2-8cHHoF5xEXV4QYYQXkOAI8RwZJ317fJQGRxtbcPcYBeEnwv4dNM9NbZ"

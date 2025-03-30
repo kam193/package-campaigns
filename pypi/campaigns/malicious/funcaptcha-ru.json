@@ -168,6 +168,7 @@
         "wweb3",
         "wweb3-py"
     ],
+    "created_at": "2024-06-28",
     "references": [
         "https://www.cert.at/en/blog/2024/3/hobby-hunter-notes-pypi-under-attack",
         "https://blog.phylum.io/typosquatting-campaign-targets-python-developers/"

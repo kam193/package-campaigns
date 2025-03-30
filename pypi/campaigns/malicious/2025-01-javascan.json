@@ -12,6 +12,7 @@
     "packages": [
         "javascan"
     ],
+    "created_at": "2025-01-10",
     "ioc": [
         "https://slack-dw-javabackend-109783.s3.us-west-1.amazonaws.com/packages/package.json",
         "slack-dw-javabackend-109783.s3.us-west-1.amazonaws.com"

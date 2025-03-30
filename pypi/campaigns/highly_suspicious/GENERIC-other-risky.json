@@ -12,6 +12,7 @@
         "tintumon",
         "xf-xf"
     ],
+    "created_at": "2024-12-25",
     "ioc": [],
     "references": [],
     "description": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage."

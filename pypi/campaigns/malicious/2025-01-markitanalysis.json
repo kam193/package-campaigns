@@ -10,6 +10,7 @@
         "getpublicip",
         "markitanalysis"
     ],
+    "created_at": "2025-01-26",
     "ioc": [],
     "references": [],
     "description": "If installed using source package, the package collects selected environment variables, including GITHUB_TOKEN if set, and sends to an external service. The package doesn't hide its actions at all, but there are already multiple different packages with the same code."

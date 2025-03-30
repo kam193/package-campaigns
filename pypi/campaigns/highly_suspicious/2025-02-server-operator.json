@@ -8,6 +8,7 @@
     "packages": [
         "server-operator"
     ],
+    "created_at": "2025-02-08",
     "ioc": [],
     "references": [],
     "description": "Package is designed to look for Solana private keys and send them to a callback.  The first version also included the seed values. However, it requires explicit starting with a given callback."

@@ -10,6 +10,7 @@
         "pyracore",
         "ransomware"
     ],
+    "created_at": "2025-01-28",
     "ioc": [],
     "references": [],
     "description": "Hacking tools with a quite high risk"

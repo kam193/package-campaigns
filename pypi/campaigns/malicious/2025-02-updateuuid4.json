@@ -8,6 +8,7 @@
     "packages": [
         "updateuuid4"
     ],
+    "created_at": "2025-02-08",
     "ioc": [],
     "references": [],
     "description": "The package, with an innocent looking name, has as the only functionality reporting to a Telegram channel given username and password. The functionality is in the \"HeadersUpdate\" class, that also looks like attempting to look innocent. The code does nothing more than reporting given credentials through a bot using the name \"hitlercute_bot\". "

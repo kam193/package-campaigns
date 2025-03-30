@@ -9,6 +9,7 @@
     "packages": [
         "requetses"
     ],
+    "created_at": "2024-12-31",
     "ioc": [],
     "references": [],
     "description": "Under a typosquatting name there is a package prepared to exfiltrate photos from a phone, although it requires external trigger."

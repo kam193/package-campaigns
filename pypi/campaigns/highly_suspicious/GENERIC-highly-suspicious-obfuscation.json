@@ -9,6 +9,7 @@
         "paolog-pynecraft",
         "utils-hex"
     ],
+    "created_at": "2024-11-23",
     "ioc": [],
     "references": [],
     "description": "Packages that look highly suspicious, with the main concern being the obfuscation and lack of clear signs that they are legit. This makes the false positive rate relatively high."

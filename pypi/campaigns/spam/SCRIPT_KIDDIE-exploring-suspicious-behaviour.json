@@ -13,6 +13,7 @@
         "muehdhaoie",
         "testerpackage123"
     ],
+    "created_at": "2024-08-30",
     "ioc": [],
     "references": [],
     "description": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)"

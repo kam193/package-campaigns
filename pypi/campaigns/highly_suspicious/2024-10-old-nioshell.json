@@ -8,6 +8,7 @@
     "packages": [
         "nioshell"
     ],
+    "created_at": "2024-10-31",
     "ioc": [],
     "references": [],
     "description": "Package contains only a revshell. As the IP is local, the risk is limited."

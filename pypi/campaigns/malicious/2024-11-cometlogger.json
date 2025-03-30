@@ -15,6 +15,7 @@
     "packages": [
         "cometlogger"
     ],
+    "created_at": "2024-11-24",
     "ioc": [
         "https://raw.githubusercontent.com/Blank-c/Discord-Injection-BG/main/injection-obfuscated.js",
         "https://raw.githubusercontent.com/justforExela/injection/main/injection.js",

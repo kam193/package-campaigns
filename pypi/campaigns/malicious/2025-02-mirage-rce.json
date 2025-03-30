@@ -8,6 +8,7 @@
     "packages": [
         "mirage-rce"
     ],
+    "created_at": "2025-03-02",
     "ioc": [],
     "references": [],
     "description": "Setup.py contains a reverse shell"

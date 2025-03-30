@@ -8,6 +8,7 @@
     "packages": [
         "txtstorage"
     ],
+    "created_at": "2024-12-21",
     "ioc": [],
     "references": [],
     "description": "Package can only send data to a hardcoded Discord webhook. It appears to be a preparation for a malicious usage"

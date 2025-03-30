@@ -8,6 +8,7 @@
     "packages": [
         "blackamerxs"
     ],
+    "created_at": "2024-11-22",
     "ioc": [],
     "references": [],
     "description": "If run, the code in the package exfiltrates all files from the current directory tree."

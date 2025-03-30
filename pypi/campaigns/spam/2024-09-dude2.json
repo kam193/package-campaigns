@@ -23,6 +23,7 @@
         "saywhut111222",
         "saywhut221"
     ],
+    "created_at": "2024-09-27",
     "ioc": [],
     "references": [],
     "description": "This package is a spam - it has no real purpose and was created together with many similar packages by the same user. Some of them additionally call a webhook when run."

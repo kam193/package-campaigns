@@ -11,6 +11,7 @@
         "discordbotpresence",
         "discordbotstatus"
     ],
+    "created_at": "2024-12-17",
     "ioc": [
         "https://github.com/RivalsTheBest/rezxo/raw/refs/heads/main/Client.exe"
     ],

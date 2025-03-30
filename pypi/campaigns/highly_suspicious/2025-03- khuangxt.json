@@ -8,6 +8,7 @@
     "packages": [
         "solama"
     ],
+    "created_at": "2025-03-12",
     "ioc": [],
     "references": [],
     "description": "Typo squatting packages, without any confirmed harmful behaviour, but from a user who already attempted to create malicious packages."

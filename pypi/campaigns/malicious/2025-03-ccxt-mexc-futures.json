@@ -10,6 +10,7 @@
     "packages": [
         "ccxt-mexc-futures"
     ],
+    "created_at": "2025-03-10",
     "ioc": [
         "https://v3.mexc.workers.dev/describe.json",
         "https://update.mexc.workers.dev/",

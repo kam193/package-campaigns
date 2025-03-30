@@ -9,6 +9,7 @@
         "d1scordx",
         "stealerdiscord"
     ],
+    "created_at": "2024-09-11",
     "ioc": [],
     "references": [],
     "description": "Tools to build infostealers"

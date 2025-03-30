@@ -13,6 +13,7 @@
         "justanotherpackage",
         "thispackagedoesnotexist"
     ],
+    "created_at": "2025-01-27",
     "ioc": [],
     "references": [],
     "description": "Packages contain potentially malicious, RAT-like functionality (creating reverse shell, stealing cookies, etc.), but do not run it. It could be a preparation for something or building a red-team-like tools"

@@ -10,6 +10,7 @@
     "packages": [
         "mlinstrumentation"
     ],
+    "created_at": "2024-10-27",
     "ioc": [],
     "references": [],
     "description": "Highly obfuscated package containing suspicious kind of telemetry - it looks like reporting almost all called methods and it's parameters"

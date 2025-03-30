@@ -15,6 +15,7 @@
         "requesttss",
         "rqsts"
     ],
+    "created_at": "2025-01-25",
     "ioc": [],
     "references": [],
     "description": "Clone of the requests package that modified the code to send all get and post requests to a hardcoded URL"

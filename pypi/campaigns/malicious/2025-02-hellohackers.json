@@ -8,6 +8,7 @@
     "packages": [
         "hellohackers"
     ],
+    "created_at": "2025-02-05",
     "ioc": [],
     "references": [],
     "description": "File contains a metapreter beacon that runs in the setup.py. Analysed version uses a local IP as the target."

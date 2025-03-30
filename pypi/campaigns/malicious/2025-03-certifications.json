@@ -9,6 +9,7 @@
         "certifications",
         "enquiry-exam"
     ],
+    "created_at": "2025-03-05",
     "ioc": [],
     "references": [],
     "description": "Package contains a reverse shell."

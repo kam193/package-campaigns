@@ -12,6 +12,7 @@
         "web3node",
         "web3socket"
     ],
+    "created_at": "2025-02-17",
     "ioc": [
         "https://raw.githubusercontent.com/pypi-org/DynamicLibs/refs/heads/main/web3config.pyc",
         "https://github.com/pypi-org/web3sockcet",

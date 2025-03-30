@@ -8,6 +8,7 @@
     "packages": [
         "voipms-service"
     ],
+    "created_at": "2025-03-09",
     "ioc": [],
     "references": [],
     "description": "The package pretends to do something meaningful, but in fact, just exfiltrates users' cookies from the browser"

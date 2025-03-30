@@ -8,6 +8,7 @@
     "packages": [
         "nizzix"
     ],
+    "created_at": "2024-11-29",
     "ioc": [],
     "references": [],
     "description": "Collection of helpers, including detecting debugging"

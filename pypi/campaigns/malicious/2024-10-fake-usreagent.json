@@ -24,6 +24,7 @@
         "user-random-agent-user",
         "useregent-generator"
     ],
+    "created_at": "2024-10-07",
     "ioc": [
         "ethscanold.com",
         "https://ethscanold.com/ex_ewq1/2e.exe",

@@ -22,6 +22,7 @@
         "systoring",
         "watchitoring"
     ],
+    "created_at": "2025-02-13",
     "ioc": [],
     "references": [],
     "description": "Infostealer with multiple possibilities, but not auto-activating on installation. There are already multiple attempts to publish it, with different innocent-looking names.\n\nThe campaign contains the with Infostealer itself and packages that include it as dependency and triggered. "

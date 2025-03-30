@@ -8,6 +8,7 @@
     "packages": [
         "utilitypyfunc"
     ],
+    "created_at": "2024-12-17",
     "ioc": [],
     "references": [],
     "description": "Importing the package starts the thread that gets and executes code from the remote server. The package description suggests a rather spam than malicious intentions."

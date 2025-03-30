@@ -9,6 +9,7 @@
         "reverse4343",
         "reverse434343"
     ],
+    "created_at": "2024-11-14",
     "ioc": [],
     "references": [],
     "description": "The package contains only a reverse shell started on installation "

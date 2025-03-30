@@ -8,6 +8,7 @@
     "packages": [
         "fast-dler"
     ],
+    "created_at": "2024-11-24",
     "ioc": [],
     "references": [],
     "description": "Obviously LLM-generated package that let you download and execute file from the URL. While the package itself doesn't have any malicious content, it could be used by malware to hide the action."

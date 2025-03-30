@@ -11,6 +11,7 @@
         "ccsinstaller",
         "dgsinstaller"
     ],
+    "created_at": "2024-11-27",
     "ioc": [],
     "references": [],
     "description": "Installing package downloads and install an infostealer"

@@ -15,6 +15,7 @@
         "setuptolos",
         "torhc"
     ],
+    "created_at": "2024-09-20",
     "ioc": [
         "https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh"
     ],

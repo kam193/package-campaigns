@@ -12,6 +12,7 @@
         "sajadninja-sajad",
         "sajodecrypto"
     ],
+    "created_at": "2025-01-07",
     "ioc": [],
     "references": [
         "https://www.virustotal.com/gui/file/9471d2e4600b5fb5641b2c8a228bc5de9f0b647d7351ad17b589067293e84159/detection"

@@ -14,6 +14,7 @@
         "sol-structs",
         "spl-types"
     ],
+    "created_at": "2024-07-03",
     "ioc": [],
     "references": [
         "https://checkmarx.com/blog/stackexchange-abused-to-spread-malicious-python-package-that-drains-victims-crypto-wallets/"

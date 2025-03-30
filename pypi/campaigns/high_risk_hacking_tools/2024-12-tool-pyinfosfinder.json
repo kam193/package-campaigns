@@ -9,6 +9,7 @@
     "packages": [
         "pyinfosfinder"
     ],
+    "created_at": "2024-12-04",
     "ioc": [],
     "references": [
         "https://github.com/EuroMH/PyMalWare"

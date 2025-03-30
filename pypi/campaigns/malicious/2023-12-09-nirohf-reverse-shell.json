@@ -8,6 +8,7 @@
     "packages": [
         "nirohf-reverse-shell"
     ],
+    "created_at": "2024-11-29",
     "ioc": [],
     "references": [],
     "description": "Installing starts a reverse shell"

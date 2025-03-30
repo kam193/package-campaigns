@@ -9,6 +9,7 @@
     "packages": [
         "pingdomv3"
     ],
+    "created_at": "2024-09-05",
     "ioc": [],
     "references": [
         "https://jfrog.com/blog/revival-hijack-pypi-hijack-technique-exploited-22k-packages-at-risk/#real-world-revival-hijack-pingdomv3"

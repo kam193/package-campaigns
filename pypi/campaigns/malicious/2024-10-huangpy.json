@@ -9,6 +9,7 @@
     "packages": [
         "huangpy"
     ],
+    "created_at": "2024-10-20",
     "ioc": [],
     "references": [],
     "description": "Importing the module starts an infostealer attempting to exfiltrate webbrowsers' data to a Telegram webhook."
