@@ -7,6 +7,7 @@ CAMPAIGN_PAGES = "docs/pypi/campaign"
 CAMPAIGN_PAGES_TEMPLATE = "templates/pypi-campaign.md.j2"
 ABUSE_PAGES = "docs/pypi/abuse_category"
 PACKAGE_PAGES = "docs/pypi/package"
+PYPI_INDEX = "docs/pypi/index.md"
 
 CAMPAIGN_JSONS = "pypi/campaigns"
 PACKAGE_JSON = "pypi/packages"
@@ -14,7 +15,10 @@ PACKAGE_JSON = "pypi/packages"
 ABUSE_JSON = "scripts/abuse.json"
 CATEGORIES_JSON = "scripts/categories.json"
 
-CATEGORIES = {"MALICIOUS": ""}
+STATS = {
+    "campaigns": [],
+    "categories": {},
+}
 
 
 def generate_campaign_pages(limit=None):
@@ -42,6 +46,21 @@ def generate_campaign_pages(limit=None):
                 with open(os.path.join(root, file), "r") as f:
                     campaign = json.load(f)
                     campaigns[campaign["name"].strip()] = campaign
+                    if campaign["category"] not in STATS["categories"]:
+                        STATS["categories"][campaign["category"]] = {
+                            "campaigns": 0,
+                            "packages": 0,
+                        }
+                    STATS["categories"][campaign["category"]]["campaigns"] += 1
+                    if "created_at" in campaign:
+                        STATS["campaigns"].append(
+                            (
+                                campaign["created_at"],
+                                campaign["name"].strip(),
+                                campaign["category"],
+                            )
+                        )
+
                     # Generate the campaign page
                     output = template.render(
                         campaign=campaign,
@@ -116,8 +135,31 @@ def generate_packages(campaigns: dict, limit=None):
                         os.makedirs(os.path.dirname(output_file), exist_ok=True)
                         with open(output_file, "w") as out_f:
                             out_f.write(output)
+                        STATS["categories"][campaigns[campaign_name]["category"]][
+                            "packages"
+                        ] += 1
+
+
+def generate_pypi_index():
+    newest_campaigns = sorted(STATS["campaigns"], key=lambda x: x[0], reverse=True)[:10]
+    category_stats = sorted(
+        STATS["categories"].items(), key=lambda x: x[0], reverse=False
+    )
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath="."))
+    template = env.get_template("templates/pypi-index.md.j2")
+
+    output = template.render(
+        campaigns=newest_campaigns,
+        categories=category_stats,
+    )
+    # Write the output to a file
+    output_file = os.path.join(PYPI_INDEX)
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    with open(output_file, "w") as out_f:
+        out_f.write(output)
 
 
 if __name__ == "__main__":
     cpgs = generate_campaign_pages(limit=20 if "--test" in sys.argv else None)
     generate_packages(cpgs, limit=20 if "--test" in sys.argv else None)
+    generate_pypi_index()

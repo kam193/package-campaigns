@@ -6,12 +6,14 @@ Currently, data are sourced only from what I've seen in my analysing lab and are
 
 Published are information about campaigns as well as list of identified package names. This repository does not (and will not) contain the source code of mentioned packages.
 
+**Web representation: [bad-packages.kam193.eu](https://bad-packages.kam193.eu/)**
+
 ## Repository Structure
 
 * `pypi/` - automatically extracted data about packages from PyPI ecosystem.
   * `campaigns/<category>` - list of campaigns in a category, each one as JSON file
   * `packages/<category>/json/` - alternative structure with basic package info as JSON files.
- 
+
 ## Campaign Categories
 
 Currently, I publish following categories:

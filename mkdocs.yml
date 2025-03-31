@@ -1,5 +1,5 @@
-site_name: Malicious and suspicious packages
-site_description: Malicious and suspicious package campaigns in PyPI environment
+site_name: Bad packages
+site_description: Malicious and suspicious package campaigns
 repo_url: https://github.com/kam193/package-campaigns
 repo_name: kam193/package-campaigns
 
@@ -29,12 +29,16 @@ plugins:
   - privacy
   - search
   - tags
+  - awesome-nav
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kam193
       name: Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/kamilmankowski/
+      name: LinkedIn
 
 markdown_extensions:
   - pymdownx.details

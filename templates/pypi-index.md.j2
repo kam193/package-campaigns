@@ -1,0 +1,18 @@
+# Python Package Index (PyPI)
+
+Bad packages in Python Package Index (PyPI).
+
+## Newest campaigns
+
+|Creation date | Name | Category |
+|:---|:---|:---|
+{%- for campaign in campaigns %}
+|{{ campaign[0] }}|[{{ campaign[1] }}](campaign/{{ campaign[1] }}.md)|{{ campaign[2] }}|
+{%- endfor %}
+
+## Statistics
+| Category | Campaigns | Packages |
+|:---|:---|:---|
+{%- for name, data in categories %}
+|[{{ name }}](campaign_category/{{ name }}.md)|{{ data["campaigns"] }}|{{ data["packages"] }}|
+{%- endfor %}

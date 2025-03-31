@@ -5,3 +5,4 @@ docs/pypi/package/
 !docs/pypi/package/.gitkeep
 docs/pypi/abuse_category/
 !docs/pypi/abuse_category/.gitkeep
+docs/pypi/index.md

@@ -1,7 +1,7 @@
 ---
 title: Start
 ---
-# Collection of malicious & suspicious packages
+# Malicious & suspicious packages
 
 This is a collection of campaigns targeting package ecosystems, currently
 limited to [PyPI](https://pypi.org).
