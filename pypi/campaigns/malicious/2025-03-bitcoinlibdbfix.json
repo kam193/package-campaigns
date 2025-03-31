@@ -3,6 +3,8 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "crypto-related",
         "exfiltration_crypto",
         "files_exfiltration"
     ],
