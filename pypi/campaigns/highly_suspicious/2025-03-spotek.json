@@ -1,0 +1,15 @@
+{
+    "name": "2025-03-spotek",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "spotek"
+    ],
+    "created_at": "2025-03-31",
+    "ioc": [],
+    "references": [],
+    "description": "Code is capable of exfiltrating files from a given folder, but requires supplying with the Telegram token etc., what isn't included in the package. Names are hiding the real functionality"
+}
