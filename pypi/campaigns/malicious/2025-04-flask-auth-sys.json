@@ -1,0 +1,19 @@
+{
+    "name": "2025-04-flask-auth-sys",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "obfuscation",
+        "revshell"
+    ],
+    "packages": [
+        "flask-auth-sys"
+    ],
+    "created_at": "2025-04-02",
+    "ioc": [
+        "beacon.kubershell.io"
+    ],
+    "references": [],
+    "description": "On importing the module, the code attempts to span a reverse shell. In the current version, the remote domain does not exist"
+}
