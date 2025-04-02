@@ -1,0 +1,15 @@
+{
+    "name": "2025-04-norsodikin",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "backdoor"
+    ],
+    "packages": [
+        "norsodikin"
+    ],
+    "created_at": "2025-04-02",
+    "ioc": [],
+    "references": [],
+    "description": "Package allows creating SSH users and sends credentials to a hardcoded telegram channel. However, there is currently no known malicious usage."
+}
