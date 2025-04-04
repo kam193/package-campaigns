@@ -1,0 +1,20 @@
+{
+    "name": "2025-04-fastgram",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "fastgram",
+        "ultrafasttelethon"
+    ],
+    "created_at": "2025-04-04",
+    "ioc": [
+        "a1091388.xsph.ru"
+    ],
+    "references": [],
+    "description": "Clone of Telethon package that exfiltrates credentials. See client/telegrambaseclient.py L608-626 (exfiltration function) and client/auth.py L163 (usage). "
+}
