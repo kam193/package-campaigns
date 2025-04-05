@@ -1,0 +1,15 @@
+{
+    "name": "2025-04-hyper-request",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data"
+    ],
+    "packages": [
+        "hyper-request"
+    ],
+    "created_at": "2025-04-05",
+    "ioc": [],
+    "references": [],
+    "description": "The only functionality is to exfiltrated Roblox cookies. However, the current version does not contain the webhook url yet (see reqhandler.py)"
+}
