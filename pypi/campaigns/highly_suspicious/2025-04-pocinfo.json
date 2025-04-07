@@ -1,0 +1,15 @@
+{
+    "name": "2025-04-pocinfo",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "pocinfo"
+    ],
+    "created_at": "2025-04-07",
+    "ioc": [],
+    "references": [],
+    "description": "Package collects the discord cookies. However, it does not exfiltrate them as of the analysis time"
+}
