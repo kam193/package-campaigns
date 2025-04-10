@@ -1,0 +1,16 @@
+{
+    "name": "2025-04-colorina",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_browser_data"
+    ],
+    "packages": [
+        "colorina"
+    ],
+    "created_at": "2025-04-10",
+    "ioc": [],
+    "references": [],
+    "description": "Using the \"color\" function will exfiltrated data like discord tokens, browser-saved passwords and Minecraft access tokens"
+}
