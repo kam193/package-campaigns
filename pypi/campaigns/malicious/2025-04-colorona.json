@@ -1,0 +1,17 @@
+{
+    "name": "2025-04-colorona",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_browser_data",
+        "typosquatting"
+    ],
+    "packages": [
+        "colorona"
+    ],
+    "created_at": "2025-04-12",
+    "ioc": [],
+    "references": [],
+    "description": "If the method \"SetTerminalColor\", imitating colorama package, is called, then the code exfiltrated browser, discord and Minecraft passwords/tokens. "
+}
