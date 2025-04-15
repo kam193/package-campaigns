@@ -6,6 +6,7 @@
         "iritating-computer-activity"
     ],
     "packages": [
+        "hkr",
         "kql",
         "kwp",
         "rgp",
