@@ -1,0 +1,24 @@
+{
+    "name": "2025-04-zscaner",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "target:telegram",
+        "through_dependency"
+    ],
+    "packages": [
+        "pyapiepo",
+        "reqinstall",
+        "zmaker",
+        "zscaner",
+        "zsender"
+    ],
+    "created_at": "2025-04-20",
+    "ioc": [
+        "http://77.91.76.45:100/OPEN",
+        "77.91.76.45"
+    ],
+    "references": [],
+    "description": "Campaign is split into multiple packages that altogether exfiltrates data from desktop Telegram application.\n\n1. \"pyapiepo\" is a cover package that provides some useless features BUT also imports \"zscaner\"\n2. \"zscaner\", when imported, automatically runs a function that is an entry point to the whole process; it uses the \"scan\" from \"reqinstall\" to walk through directories. The package also provides main logic: filtering files, triggering archiving directories and exfiltrating them. \n3. \"reqinstall\" ensures \"requests\" are installed and provides a directory tree scanning function.\n4. \"zmaker\" provides functions to build archives from collected files.\n5. \"zsender\" provides functions to exfiltrate data, the remote URL and a function to deobfuscate configuration in other packages.\n\nAltogether, they look for \"Telegram Desktop\" folder, archive user data stored there and exfiltrate to a remote location."
+}
