@@ -1,0 +1,17 @@
+{
+    "name": "2025-04-aiolitesql",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "aiolitesql"
+    ],
+    "created_at": "2025-04-22",
+    "ioc": [],
+    "references": [],
+    "description": "Clone of aiosqlite with hidden exfiltration of selected data during \"executeall\" query (see L59-97)"
+}
