@@ -1,0 +1,17 @@
+{
+    "name": "2025-04-s3transfer-sl",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "exfiltration_cloud_tokens",
+        "typosquatting"
+    ],
+    "packages": [
+        "s3transfer-sl"
+    ],
+    "created_at": "2025-04-23",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the package attempts to exfiltrate env variables and tokens from Azure metadata API. It's a malicious clon of s3transfer"
+}
