@@ -1,0 +1,26 @@
+{
+    "name": "2025-04-tensorflowlitex",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer",
+        "malware",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "tensorflowlitex"
+    ],
+    "created_at": "2025-04-25",
+    "ioc": [
+        "https://raw.githubusercontent.com/maheswede/min/main/aur.exe",
+        "# in the malicious file",
+        "https://raw.githubusercontent.com/maheswede/kilo/main/Fwmdlz.mp4"
+    ],
+    "references": [
+        "https://app.any.run/tasks/873a1b14-7bab-4d85-bcc0-b7bd281d9640",
+        "https://tria.ge/250425-nqzrrssxht"
+    ],
+    "description": "Importing the module (__init__.py) starts downloading and executing a remote exectuable, which has been identified by any.run and tria.ge as a malicious infostealer"
+}
