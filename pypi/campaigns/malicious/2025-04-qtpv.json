@@ -1,0 +1,17 @@
+{
+    "name": "2025-04-qtpv",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "target:telegram"
+    ],
+    "packages": [
+        "pytzv",
+        "qtpv"
+    ],
+    "created_at": "2025-04-25",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts exfiltration of \".session\" files, which appear to be used at least by one Telegram library (https://docs.telethon.dev/en/stable/concepts/sessions.html#what-are-sessions) to store credentials"
+}
