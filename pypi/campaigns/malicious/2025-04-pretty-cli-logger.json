@@ -1,0 +1,20 @@
+{
+    "name": "2025-04-pretty-cli-logger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "pretty-cli-logger"
+    ],
+    "created_at": "2025-04-26",
+    "ioc": [
+        "https://i88za2.pages.dev/msulzlw.txt",
+        "https://i88za2.pages.dev/ei2ghzc.txt",
+        "i88za2.pages.dev"
+    ],
+    "references": [],
+    "description": "Contains an obfuscated code that will download and run a remote script. At the time of the analysis, the remote URLs were delivering empty results"
+}
