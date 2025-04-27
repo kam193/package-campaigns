@@ -9,6 +9,8 @@
     ],
     "packages": [
         "alchemyrpcs",
+        "walletrpcs",
+        "web3automation",
         "web3yrpcs"
     ],
     "created_at": "2025-04-27",
