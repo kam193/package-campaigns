@@ -1,0 +1,22 @@
+{
+    "name": "2025-04-alchemyrpcs",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto",
+        "through_dependency"
+    ],
+    "packages": [
+        "alchemyrpcs",
+        "web3yrpcs"
+    ],
+    "created_at": "2025-04-27",
+    "ioc": [
+        "web3check-api.netlify.app"
+    ],
+    "references": [
+        "https://github.com/taikoyaki/MegaEth-Auto-Bot/blob/772b4591daaa0b200d1bd1fd3be3d48b8433f084/cap/cap.py#L49"
+    ],
+    "description": "Package contains just a function to send out data. It (or a package sharing the same IoCs) is used in a malicious GitHub project to exfiltrate crypto currency private keys, e.g. https://github.com/taikoyaki/MegaEth-Auto-Bot/blob/772b4591daaa0b200d1bd1fd3be3d48b8433f084/cap/cap.py#L49"
+}
