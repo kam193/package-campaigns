@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "abuse_categories": [
-        "basic_exfiltration"
+        "exfiltration_generic"
     ],
     "packages": [
         "tronix",
@@ -13,6 +13,8 @@
     "ioc": [
         "68076f26e81df7060eba3e58.mockapi.io"
     ],
-    "references": [],
-    "description": "Package appears to be designed for private key exfiltration, but no known usage"
+    "references": [
+        "https://en.wikipedia.org/wiki/Tron_(blockchain)"
+    ],
+    "description": "Package appears to be designed for private key exfiltration, but no known usage. The name appears to be related to the cryptocurrency TRX (Tron / Tronix)"
 }
