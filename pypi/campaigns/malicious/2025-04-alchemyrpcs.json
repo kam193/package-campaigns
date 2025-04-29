@@ -10,6 +10,7 @@
     "packages": [
         "alchemyrpcs",
         "walletrpcs",
+        "web3author",
         "web3automation",
         "web3yrpcs"
     ],
