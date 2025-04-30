@@ -1,0 +1,28 @@
+{
+    "name": "2025-04-telepycore",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "peristence_autorun",
+        "remote_executable"
+    ],
+    "packages": [
+        "telepycore"
+    ],
+    "created_at": "2025-04-30",
+    "ioc": [
+        "https://alo.ne/file/xfznnz",
+        "185.208.159.245",
+        "https://alo.ne/file/vwbpd6",
+        "https://alo.ne/file/03xolo"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/34d499a6ccf6634ab8eda9424111cf56c872ec426c1f9de03054569508f17367/detection",
+        "https://www.virustotal.com/gui/file/1493cafd2842330835f48cbebfcdd4bf24be8dd5125dcc3e9ee746d0063f23c8/detection",
+        "https://www.virustotal.com/gui/file/3f516fdb7c101f60b01bd482c51ac458c06c5df08d0b9e6d87e4d89e74449630",
+        "https://tria.ge/250430-1emz2shk4x/behavioral1",
+        "https://tria.ge/250430-1h1qbaylt9/",
+        "https://tria.ge/250430-1njc8ahl9y/behavioral1"
+    ],
+    "description": "Package can only be used (requires additional triggering) to install a remote executable, ensure it starts on logon and name mimic network service. Though different versions contain different executables, they are mostly identified as malicious by multiple AVs and sandboxes, highlighting adding Defender exclusions and downloading further executables."
+}
