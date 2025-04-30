@@ -1,0 +1,16 @@
+{
+    "name": "2025-04-helmet-fastapi",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "obfuscation"
+    ],
+    "packages": [
+        "helmet-fastapi"
+    ],
+    "created_at": "2025-04-30",
+    "ioc": [],
+    "references": [],
+    "description": "Package contains hidden code adding a backdoor - a WebSocket path handler which will execute commands sent by an attacker knowing the path. In addition, it adds a log handler to remove related access logs."
+}
