@@ -10,7 +10,8 @@
     ],
     "packages": [
         "meowsapi",
-        "rblxfando"
+        "rblxfando",
+        "timsingapi"
     ],
     "created_at": "2025-05-03",
     "ioc": [
