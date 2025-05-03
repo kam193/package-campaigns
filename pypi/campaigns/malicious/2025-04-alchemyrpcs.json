@@ -10,6 +10,7 @@
     "packages": [
         "alchemyrpcs",
         "walletrpcs",
+        "walletweb3",
         "web3author",
         "web3automation",
         "web3yrpcs",
@@ -17,7 +18,8 @@
     ],
     "created_at": "2025-04-27",
     "ioc": [
-        "web3check-api.netlify.app"
+        "web3check-api.netlify.app",
+        "dapper-flan-46eb5a.netlify.app"
     ],
     "references": [
         "https://github.com/taikoyaki/MegaEth-Auto-Bot/blob/772b4591daaa0b200d1bd1fd3be3d48b8433f084/cap/cap.py#L49"
