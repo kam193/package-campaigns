@@ -1,0 +1,23 @@
+{
+    "name": "2025-05-rblxfando",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "infostealer:blankgrabber",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "meowsapi",
+        "rblxfando"
+    ],
+    "created_at": "2025-05-03",
+    "ioc": [
+        "https://www.dropbox.com/scl/fi/ob1loh3prx2ylkyy3yesd/Built.exe?rlkey=9qgzvt2nuwf7nr6pkj2jsp98d&st=h0vqjsbu&dl=1"
+    ],
+    "references": [
+        "https://tria.ge/250503-njy7na1zgs/static1"
+    ],
+    "description": "Importing the module starts delayed downloading and starting a remote executable identified as BlankGrabber infostealer."
+}

@@ -6,6 +6,7 @@
         "exfiltration_browser_data",
         "exfiltration_generic",
         "infostealer",
+        "infostealer:blankgrabber",
         "obfuscation"
     ],
     "packages": [
