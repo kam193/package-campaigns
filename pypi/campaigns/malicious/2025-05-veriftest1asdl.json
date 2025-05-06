@@ -1,0 +1,20 @@
+{
+    "name": "2025-05-veriftest1asdl",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "override_install"
+    ],
+    "packages": [
+        "veriftest1asdl",
+        "veriftest1asdla",
+        "veriftest1asdlaa"
+    ],
+    "created_at": "2025-05-06",
+    "ioc": [
+        "https://webhook.site/bed8144a-900b-498a-a451-1b14dc19fb39"
+    ],
+    "references": [],
+    "description": "During installation, the package attempts to exfiltrate cloud tokens"
+}

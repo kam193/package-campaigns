@@ -1,0 +1,22 @@
+{
+    "name": "2024-08-old-coffins-tunnel",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related"
+    ],
+    "packages": [
+        "coffin-codes-2022",
+        "coffin-codes-net",
+        "coffin-codes-net2",
+        "coffin-codes-pro",
+        "coffin-grave",
+        "coffin2022"
+    ],
+    "created_at": "2024-09-08",
+    "ioc": [],
+    "references": [
+        "https://socket.dev/blog/using-trusted-protocols-against-you-gmail-as-a-c2-mechanism"
+    ],
+    "description": "So far, it looks like a legit  tunneling software, but in tcp.py there is an attempt to send a strange email using gmail. Update: Identified as malicious by socket.dev team"
+}
