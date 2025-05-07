@@ -9,6 +9,7 @@
     ],
     "packages": [
         "alchemyrpcs",
+        "ora3",
         "walletrpcs",
         "walletweb3",
         "web3author",
