@@ -8,6 +8,7 @@
     "packages": [
         "tronix",
         "tronlibpy",
+        "tronlid",
         "tronlix",
         "trxone",
         "trxtwo"
