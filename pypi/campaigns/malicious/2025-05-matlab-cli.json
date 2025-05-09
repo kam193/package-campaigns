@@ -1,0 +1,19 @@
+{
+    "name": "2025-05-matlab-cli",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "obfuscation",
+        "revshell"
+    ],
+    "packages": [
+        "matlab-cli"
+    ],
+    "created_at": "2025-05-09",
+    "ioc": [
+        "35.219.55.10"
+    ],
+    "references": [],
+    "description": "Importing the module starts a reverse shell"
+}
