@@ -1,0 +1,19 @@
+{
+    "name": "2025-05-pyiniter",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "pyiniter"
+    ],
+    "created_at": "2025-05-09",
+    "ioc": [
+        "https://raw.githubusercontent.com/Sierftgddfgrth/win32dll/main/win32dll.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/fbb53fbf45d3ec579d4273ae95e8c833f12d66a2111633d65edb1e42513addc6"
+    ],
+    "description": "File is designed to download, hide under system-like name, and run a remote executable, widely identified as malicious."
+}
