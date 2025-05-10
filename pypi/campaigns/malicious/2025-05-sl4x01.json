@@ -1,0 +1,25 @@
+{
+    "name": "2025-05-sl4x01",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables",
+        "impersonation"
+    ],
+    "packages": [
+        "badgerdoc-storage",
+        "dial-xl",
+        "document-inference",
+        "iconnect",
+        "program-admin"
+    ],
+    "created_at": "2025-05-10",
+    "ioc": [
+        "sl4x0.xyz"
+    ],
+    "references": [
+        "https://github.com/sl4x0"
+    ],
+    "description": "Packages that seem to be created by a legit bug bounty hunter. Designed to look like created by different organisations, they contain a couple of data exfiltration (including all env variables) and potential remote code execution (though the URL seems not to serve any code)."
+}
