@@ -11,8 +11,10 @@
         "badgerdoc-storage",
         "dial-xl",
         "document-inference",
+        "glean-indexing-api-client",
         "iconnect",
-        "program-admin"
+        "program-admin",
+        "solana-test-suite"
     ],
     "created_at": "2025-05-10",
     "ioc": [
