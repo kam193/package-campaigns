@@ -6,7 +6,8 @@
         "remote_executable"
     ],
     "packages": [
-        "pyiniter"
+        "pyiniter",
+        "pyinitialyze"
     ],
     "created_at": "2025-05-09",
     "ioc": [
