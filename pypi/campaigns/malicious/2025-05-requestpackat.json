@@ -1,0 +1,23 @@
+{
+    "name": "2025-05-requestpackat",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "peristence_autorun",
+        "remote_executable"
+    ],
+    "packages": [
+        "requestpackat"
+    ],
+    "created_at": "2025-05-15",
+    "ioc": [
+        "https://github.com/FaresEI3RAB/Fares/raw/refs/heads/main/svchost.exe",
+        "https://pastebin.com/raw/hxAQV6Nq",
+        "https://pastebin.com/raw/Z4VMbzLP"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/b9a07b5b22c1f49f2f28e5cb4c9854557e3ac8bf9d1a7c348236f6f226f7f9ab"
+    ],
+    "description": "Code download and runs an executable, which is widely recognized as malware. The system is also configured to run it on startup, and the file is saved in paths attempting to look as a system file."
+}
