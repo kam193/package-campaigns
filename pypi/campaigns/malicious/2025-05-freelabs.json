@@ -1,0 +1,17 @@
+{
+    "name": "2025-05-freelabs",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "obfuscation",
+        "target:telegram"
+    ],
+    "packages": [
+        "freelabs"
+    ],
+    "created_at": "2025-05-16",
+    "ioc": [],
+    "references": [],
+    "description": "Once imported, the package scans the disk looking for Telegram Desktop files and exfiltrate them to a hardcoded remote target."
+}
