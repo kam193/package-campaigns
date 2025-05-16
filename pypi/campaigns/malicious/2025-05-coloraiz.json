@@ -1,0 +1,22 @@
+{
+    "name": "2025-05-coloraiz",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "backdoor",
+        "clons_real_package",
+        "impersonation",
+        "remote_script"
+    ],
+    "packages": [
+        "coloraiz"
+    ],
+    "created_at": "2025-05-16",
+    "ioc": [
+        "https://mp14dea413c69b2bf527.free.beeceptor.com/code",
+        "free.beeceptor.com"
+    ],
+    "references": [],
+    "description": "The package imitates colorama, and places a proxy object over the original colorama module that on every usage executes a remote code. The remote script installs a backdoor through legitimate tunnelling software and upload access credentials to the attacker. "
+}
