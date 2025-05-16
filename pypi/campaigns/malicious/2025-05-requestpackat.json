@@ -9,6 +9,7 @@
     ],
     "packages": [
         "netpackat",
+        "netspear",
         "requestpackat"
     ],
     "created_at": "2025-05-15",
