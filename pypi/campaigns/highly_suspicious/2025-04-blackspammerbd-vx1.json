@@ -9,10 +9,11 @@
     ],
     "packages": [
         "blackspammerbd-vx1",
+        "blackspammerbd-xd",
         "bsb-2025"
     ],
     "created_at": "2025-04-07",
     "ioc": [],
     "references": [],
-    "description": "The obfuscated code is prepared to send files from given directories to a telegram channel. This is described as backup, and the current code does not contain triggers nor any hardcoded Telegram credentials. "
+    "description": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials."
 }
