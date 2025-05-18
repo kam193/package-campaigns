@@ -7,9 +7,11 @@
         "remote_executable"
     ],
     "packages": [
+        "coloramapkgs",
         "coloramapkgsdow",
         "coloramapkgsw",
-        "coloramashowtemp"
+        "coloramashowtemp",
+        "readmecolorama"
     ],
     "created_at": "2025-05-18",
     "ioc": [
