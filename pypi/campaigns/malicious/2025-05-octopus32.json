@@ -1,0 +1,21 @@
+{
+    "name": "2025-05-octopus32",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "octopus32"
+    ],
+    "created_at": "2025-05-20",
+    "ioc": [
+        "https://github.com/portunaa/ProtonPP/raw/refs/heads/main/LastActivity.exe",
+        "https://raw.githubusercontent.com/portunaa/ProtonPP/refs/heads/main/LastActivity.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/ed1e4e19d366e74a0d156e8187fa2606ed3ae74254c558d6b6af54168745b811/detection"
+    ],
+    "description": "The obfuscated code downloads and starts a remote executable. The remote file has limited detection in VT, but contains at least code to add Defender exclusion paths."
+}
