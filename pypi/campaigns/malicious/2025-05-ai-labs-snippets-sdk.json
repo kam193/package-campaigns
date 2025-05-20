@@ -1,0 +1,20 @@
+{
+    "name": "2025-05-ai-labs-snippets-sdk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_generic",
+        "impersonation"
+    ],
+    "packages": [
+        "ai-labs-snippets-sdk",
+        "aliyun-ai-labs-snippets-sdk"
+    ],
+    "created_at": "2025-05-19",
+    "ioc": [
+        "aksjdbajkb2jeblad.oss-cn-hongkong.aliyuncs.com"
+    ],
+    "references": [],
+    "description": "During the importing, it loads a file pretending to an AI model. This file contains pickle-serialized code that exfiltrates data (basic IP/username info, as well as .gitconfig) to a remote target."
+}
