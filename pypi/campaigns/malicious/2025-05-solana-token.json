@@ -9,13 +9,16 @@
         "impersonation"
     ],
     "packages": [
+        "dexscreener-charts",
         "solana-coin",
         "solana-token"
     ],
     "created_at": "2025-05-16",
     "ioc": [
         "http://84.54.44.100:3000/nodes/register",
-        "84.54.44.100"
+        "84.54.44.100",
+        "http://89.110.96.251/client",
+        "89.110.96.251"
     ],
     "references": [
         "https://thehackernews.com/2025/05/malicious-pypi-package-posing-as-solana.html"
