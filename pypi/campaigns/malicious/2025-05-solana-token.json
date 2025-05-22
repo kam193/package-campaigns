@@ -13,7 +13,8 @@
         "dexscreener-data",
         "sol-prices",
         "solana-coin",
-        "solana-token"
+        "solana-token",
+        "solana-trade"
     ],
     "created_at": "2025-05-16",
     "ioc": [
