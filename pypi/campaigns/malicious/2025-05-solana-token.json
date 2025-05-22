@@ -11,6 +11,7 @@
     "packages": [
         "dexscreener-charts",
         "dexscreener-data",
+        "sol-prices",
         "solana-coin",
         "solana-token"
     ],
