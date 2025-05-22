@@ -1,0 +1,17 @@
+{
+    "name": "2025-05-invoke-agent",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage"
+    ],
+    "packages": [
+        "invoke-agent"
+    ],
+    "created_at": "2025-05-22",
+    "ioc": [
+        "wandering-tooth.cooper-c79.workers.dev"
+    ],
+    "references": [],
+    "description": "Under some conditions, a requested web request is not being made locally, but routed through an external worker (including all eventual credentials). This happens only when the auth_code ends with \"::i\". Hard to say if it is malicious or not"
+}
