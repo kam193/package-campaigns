@@ -9,11 +9,16 @@
     ],
     "packages": [
         "advdef01",
+        "crypt0graphyy",
+        "fsspecc",
         "gandon-pidar1",
         "mecit1",
         "mecit2",
         "mecit3",
-        "paquete-5"
+        "paquete-5",
+        "s3ffs",
+        "whee11",
+        "whel"
     ],
     "created_at": "2024-08-05",
     "ioc": [
