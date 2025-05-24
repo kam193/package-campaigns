@@ -1,0 +1,15 @@
+{
+    "name": "2025-05-EmbedUtils",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "embedutils"
+    ],
+    "created_at": "2025-05-24",
+    "ioc": [],
+    "references": [],
+    "description": "Package contains methods to upload messages and files to a hardcoded Slack channels. This is usually used in infostealers; however, this package does not contain any malicious code and there is no known usage of it"
+}
