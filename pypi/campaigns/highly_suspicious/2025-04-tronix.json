@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "abuse_categories": [
+        "crypto-related",
         "exfiltration_generic"
     ],
     "packages": [
@@ -13,15 +14,17 @@
         "tronlid",
         "tronlix",
         "trxone",
-        "trxtwo"
+        "trxtwo",
+        "wallettronpy"
     ],
     "created_at": "2025-04-28",
     "ioc": [
         "68076f26e81df7060eba3e58.mockapi.io",
-        "66c0dc0bba6f27ca9a57c4bf.mockapi.io"
+        "66c0dc0bba6f27ca9a57c4bf.mockapi.io",
+        "67b9f37c51192bd378dee810.mockapi.io"
     ],
     "references": [
         "https://en.wikipedia.org/wiki/Tron_(blockchain)"
     ],
-    "description": "Package appears to be designed for private key exfiltration, but no known usage. The name appears to be related to the cryptocurrency TRX (Tron / Tronix)"
+    "description": "Package appears to be designed for private key exfiltration, but no known usage. The name appears to be related to the cryptocurrency TRX (Tron / Tronix). Some packages additionally clone the readme of other, legit libraries"
 }
