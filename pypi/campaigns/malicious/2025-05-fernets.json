@@ -8,10 +8,12 @@
         "exfiltration_crypto",
         "exfiltration_generic",
         "infostealer",
-        "obfuscation"
+        "obfuscation",
+        "typosquatting"
     ],
     "packages": [
-        "fernets"
+        "fernets",
+        "pyfernet"
     ],
     "created_at": "2025-05-27",
     "ioc": [
