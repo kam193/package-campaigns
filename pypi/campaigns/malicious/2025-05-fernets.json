@@ -12,6 +12,7 @@
         "typosquatting"
     ],
     "packages": [
+        "fernetpy",
         "fernets",
         "pyfernet"
     ],
