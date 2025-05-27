@@ -1,0 +1,27 @@
+{
+    "name": "2025-05-fernets",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_stealing",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "fernets"
+    ],
+    "created_at": "2025-05-27",
+    "ioc": [
+        "http://196.251.81.229:6969/1.txt",
+        "196.251.81.229",
+        "http://196.251.81.229:6969/download/svchost.bat",
+        "http://196.251.81.229:6969/clippa.txt",
+        "http://196.251.81.229:6969/2.txt",
+        "http://196.251.81.229:8000/repeter/viiZ8YGt0HnubnyN"
+    ],
+    "references": [],
+    "description": "If imported, the module starts a multi-stage infostealer, exfiltrating browser data as well as crypto wallets, and also attempts to monitor clipboard looking for crypto wallets addresses"
+}
