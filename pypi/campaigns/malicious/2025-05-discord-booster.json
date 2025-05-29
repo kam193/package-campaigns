@@ -1,0 +1,18 @@
+{
+    "name": "2025-05-discord-booster",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "remote_executable"
+    ],
+    "packages": [
+        "discord-booster"
+    ],
+    "created_at": "2025-05-29",
+    "ioc": [
+        "edef4.pcloud.com"
+    ],
+    "references": [],
+    "description": "Code downloads and runs the remote executable. While the current link seems not to work, the previous versions had an embedded infostealer instead."
+}

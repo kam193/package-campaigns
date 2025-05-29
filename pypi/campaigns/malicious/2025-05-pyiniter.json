@@ -3,9 +3,11 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "infostealer",
         "remote_executable"
     ],
     "packages": [
+        "pyinite",
         "pyiniter",
         "pyinitialyze"
     ],
@@ -14,7 +16,8 @@
         "https://raw.githubusercontent.com/Sierftgddfgrth/win32dll/main/win32dll.exe"
     ],
     "references": [
-        "https://www.virustotal.com/gui/file/fbb53fbf45d3ec579d4273ae95e8c833f12d66a2111633d65edb1e42513addc6"
+        "https://www.virustotal.com/gui/file/fbb53fbf45d3ec579d4273ae95e8c833f12d66a2111633d65edb1e42513addc6",
+        "https://www.virustotal.com/gui/file-analysis/M2YwMDg3ZDUyOWFlZjIxY2RlMTE2ODQwMmJmMmU2MDE6MTc0ODU2MTExMQ=="
     ],
     "description": "File is designed to download, hide under system-like name, and run a remote executable, widely identified as malicious."
 }
