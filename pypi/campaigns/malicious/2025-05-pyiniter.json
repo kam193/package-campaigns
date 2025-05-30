@@ -7,6 +7,7 @@
         "remote_executable"
     ],
     "packages": [
+        "initer",
         "pyinite",
         "pyiniter",
         "pyinitialyze"
