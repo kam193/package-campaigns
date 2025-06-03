@@ -1,0 +1,19 @@
+{
+    "name": "2025-05-pyobfuscation",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "pyobfuscation"
+    ],
+    "created_at": "2025-06-03",
+    "ioc": [
+        "https://raw.githubusercontent.com/aydendev0/cd4afc0d20c6/refs/heads/main/llama"
+    ],
+    "references": [],
+    "description": "During installation, an executable is downloaded and started. It's been identified to contain Brute Ratel C4 components"
+}
