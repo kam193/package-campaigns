@@ -1,0 +1,5 @@
+{
+    "name": "grpc-google-bigtable-v2",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest"
+}
