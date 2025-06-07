@@ -8,6 +8,7 @@
         "peristence_autorun"
     ],
     "packages": [
+        "blackspammerbd-termux",
         "blackspammerbd-vx1",
         "blackspammerbd-workout",
         "blackspammerbd-xd",
