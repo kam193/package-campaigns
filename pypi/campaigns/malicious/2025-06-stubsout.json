@@ -1,0 +1,20 @@
+{
+    "name": "2025-06-stubsout",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "stubsout",
+        "tableausdk"
+    ],
+    "created_at": "2025-06-07",
+    "ioc": [
+        "api.diar.ai",
+        "https://api.diar.ai/pyvac"
+    ],
+    "references": [],
+    "description": "While described as telemetry, importing the package attempts to send out some basic info as well as quite sensitive environmental variables."
+}
