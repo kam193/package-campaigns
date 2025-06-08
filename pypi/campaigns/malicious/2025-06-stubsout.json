@@ -9,9 +9,11 @@
     "packages": [
         "feature-gen-dt",
         "pyximport",
+        "spyderlib",
         "stubsout",
         "stubsoutagn",
-        "tableausdk"
+        "tableausdk",
+        "win32con"
     ],
     "created_at": "2025-06-07",
     "ioc": [
