@@ -7,6 +7,8 @@
         "exfiltration_env_variables"
     ],
     "packages": [
+        "feature-gen-dt",
+        "pyximport",
         "stubsout",
         "stubsoutagn",
         "tableausdk"
