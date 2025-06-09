@@ -1,0 +1,20 @@
+{
+    "name": "2025-06-robloxextra",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "peristence_autorun",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "robloxextra"
+    ],
+    "created_at": "2025-06-09",
+    "ioc": [
+        "carterforyou.pythonanywhere.com"
+    ],
+    "references": [],
+    "description": "Importing the module starts downloading multiple stages of obfuscated code, that e.g. adds itself to autostart. \n"
+}
