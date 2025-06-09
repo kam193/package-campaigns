@@ -1,0 +1,16 @@
+{
+    "name": "2025-06-my-fun-tools",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "my-fun-tools"
+    ],
+    "created_at": "2025-06-09",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the obfuscated code attempts to insert a modified Python DLL and runs a code."
+}
