@@ -3,7 +3,6 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "packages": [
-        "akamai-api",
         "bob13th-soohyun",
         "bsb-backup",
         "headersupdate",

@@ -1,0 +1,21 @@
+{
+    "name": "2025-06-akamai-packages",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "impersonation",
+        "other",
+        "typosquatting"
+    ],
+    "packages": [
+        "akamai-api",
+        "akamai-papi",
+        "akamaisdk"
+    ],
+    "created_at": "2025-06-10",
+    "ioc": [
+        "http://fe3d100797da.o3n.io/files/gmi7hhdoknwhu9zojf3j9xzkc/doc.gif"
+    ],
+    "references": [],
+    "description": "Very suspicious packages, looking like an attempt to impersonate Akamai. During import, there is a call to canary token URL, but no other visible malicious activity. They contain some small helpers that can be useful, but do not look like a normal SDK.\n\nPackages were created by a different account than any previous official Akamai packages (e.g. https://pypi.org/project/edgegrid-python/) and the corresponding GitHub account (https://github.com/akamai-packages) although it claims to be the official one, is 1) user not an org, 2) different from the  Akamai organisation hosting previous Akamai repositories (https://github.com/akamai)"
+}
