@@ -19,6 +19,7 @@
         "awscloud-clients-core",
         "credential-python-sdk",
         "enumer-iam",
+        "serverkeeper-verifier",
         "snapshot-photo",
         "tclients-sdk",
         "tcloud-python-sdks",
