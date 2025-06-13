@@ -1,20 +1,24 @@
 {
     "name": "2025-06-justanything",
     "ecosystem": "pypi",
-    "category": "probably_pentest",
+    "category": "malicious",
     "abuse_categories": [
+        "infostealer",
         "override_install",
+        "remote_executable",
         "remote_script"
     ],
     "packages": [
+        "doverius",
         "justanything"
     ],
     "created_at": "2025-06-13",
     "ioc": [
         "https://fastobfuscate.run/1.txt",
         "https://fastobfuscate.run/main.py",
+        "https://fastobfuscate.run/python.exe",
         "fastobfuscate.run"
     ],
     "references": [],
-    "description": "Code is designed to download and run remote scripts during installation. At the moment, the content is not very malicious and looks like a demonstration, as the package descryption states."
+    "description": "Code is designed to download and run remote scripts during installation, which finally downloads and starts an infostealer"
 }
