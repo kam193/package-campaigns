@@ -8,6 +8,7 @@
         "exfiltration_credentials"
     ],
     "packages": [
+        "sorex",
         "zamino"
     ],
     "created_at": "2025-06-14",
