@@ -1,0 +1,17 @@
+{
+    "name": "2025-06-sorex",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "zamino"
+    ],
+    "created_at": "2025-06-14",
+    "ioc": [],
+    "references": [],
+    "description": "Clones of libraries to access Aminoapps (e.g. legitimate package amino.fix) with added exfiltration of the given credentials"
+}
