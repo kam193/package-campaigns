@@ -1,0 +1,20 @@
+{
+    "name": "2025-06-browser-history-analytics",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "browser-history-analytics"
+    ],
+    "created_at": "2025-06-15",
+    "ioc": [
+        "https://arpy8-bha-dubious-backend.hf.space/set",
+        "arpy8-bha-dubious-backend.hf.space"
+    ],
+    "references": [],
+    "description": "When starting the server with expected functionality with potentially sensitive content, the package silently sends the location (external IP) to a remote location. If the computer is directly exposed to the Internet, it allows the uploader to get access to the data."
+}
