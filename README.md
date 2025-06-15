@@ -1,8 +1,8 @@
 # Package Campaigns Collection
 
-This is a collection of campaigns targeting package ecosystems, currently limited to PyPI.
+This is a collection of (mostly) malicious campaigns targeting package ecosystems, currently limited to PyPI.
 
-Currently, data are sourced only from what I've seen in my analysing lab and are exported here periodically. The classification is mostly arbitrary and may not follow any strict criteria.
+Data are sourced only from what I've seen in my analysing lab and are exported here periodically. The classification is mostly arbitrary and may not follow any strict criteria.
 
 Published are information about campaigns as well as list of identified package names. This repository does not (and will not) contain the source code of mentioned packages.
 
@@ -30,3 +30,7 @@ In my opinion, you should not have any of those packages in your environment.
 
 ## Disclaimer
 Data are presented as-is without any guarantee. Detection, classification, analyse & co. are done as a hobby activity, you use the information at your own risk. There are possible mistakes or highly opinionated classifications.
+
+## License
+
+You're free to use data exposed here as long as you attribute the source. 
