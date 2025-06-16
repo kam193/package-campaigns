@@ -13,6 +13,8 @@
     "ioc": [
         "chimerasandbox.workers.dev"
     ],
-    "references": [],
+    "references": [
+        "https://jfrog.com/blog/chimera-sandbox-extensions-malware-threatens-pypi-users/"
+    ],
     "description": "When started, the code attempts to access multiple domains based on the generating algorithm. Once one valid is found, it downloads a script and executes it. The script collects data about the environment (e.g. attempts to get cloud tokens from the metadata URLs, collects some env variables) and sends them further to the remote target, which then decides about next stage code.\n\nIt may be targetting https://engineering.grab.com/chimera-sandbox"
 }
