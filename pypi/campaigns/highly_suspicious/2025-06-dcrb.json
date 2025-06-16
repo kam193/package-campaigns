@@ -12,7 +12,9 @@
     "ioc": [],
     "references": [
         "https://www.virustotal.com/gui/file/bc6d9a1e418b20d25349050031a7da1e2807fbd1d8b6c5ad302a6ef28b0ab30b/",
-        "https://www.pylingual.io/view_chimera?identifier=6e6155076af26e72c216172630e3991188c63f22637ca2dcd7338830e4175fc4"
+        "https://www.pylingual.io/view_chimera?identifier=6e6155076af26e72c216172630e3991188c63f22637ca2dcd7338830e4175fc4",
+        "https://www.pylingual.io/view_chimera?identifier=0b075fcf3e2037a34fc2329e10ac9bb233f4f12fb0662f409f0d3f4b34c293cf",
+        "https://www.virustotal.com/gui/file/9cfe03b19ed2a2748b67a598d6a02125050a61e4c1086c30080049eeabb158e5/detection"
     ],
     "description": "Included executable, which is run by a command, implements a Discord bot designed to control the computer (including executing arbitrary commands). While such things can be used in legitimate cases, this executable has an embedded bot credentials, so it will join the server controlled by the uploader"
 }
