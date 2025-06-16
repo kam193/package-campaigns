@@ -1,0 +1,15 @@
+{
+    "name": "2025-06-encryptionyg",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "encryptionyg"
+    ],
+    "created_at": "2025-06-16",
+    "ioc": [],
+    "references": [],
+    "description": "Package with very advanced obfuscation and anty-sandbox techniques. The deobfuscated code appears not to have some suspicious activities, but no obvious malicious actions against the user - looks like a client to some online service, eventually designed to abuse it."
+}
