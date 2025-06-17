@@ -6,7 +6,8 @@
         "remote_commands"
     ],
     "packages": [
-        "dcrb"
+        "dcrb",
+        "dcrbo"
     ],
     "created_at": "2025-06-15",
     "ioc": [],
