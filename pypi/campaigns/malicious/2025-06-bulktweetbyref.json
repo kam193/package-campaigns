@@ -1,0 +1,19 @@
+{
+    "name": "2025-06-bulktweetbyref",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "bulktweetbyref"
+    ],
+    "created_at": "2025-06-18",
+    "ioc": [
+        "https://github.com/kokochatgpcod/akaak/releases/download/nothinfgg/allinone.exe"
+    ],
+    "references": [],
+    "description": "Using the function simulates some behavior, but then download and runs an Infostealer "
+}
