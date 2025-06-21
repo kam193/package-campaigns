@@ -1,0 +1,17 @@
+{
+    "name": "2025-06-pythondm32",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware"
+    ],
+    "packages": [
+        "pythondm32"
+    ],
+    "created_at": "2025-06-21",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/3b6ddc32b800a18b21a819e842cbfdd57cb065fd92cc69545e0ef29b97cfd389/detection"
+    ],
+    "description": "The embedded dm3.1233.dll has a very high recognition as malware"
+}
