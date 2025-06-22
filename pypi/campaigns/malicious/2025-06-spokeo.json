@@ -1,0 +1,22 @@
+{
+    "name": "2025-06-spokeo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "spokeo"
+    ],
+    "created_at": "2025-06-22",
+    "ioc": [
+        "http://194.26.192.145/siproute.exe",
+        "194.26.192.145"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/ac13cfd6701a8ed975e386b9fac6442700f6feaeb4e4c2329a6d504488649f93"
+    ],
+    "description": "Installing source package or importing the module starts downloading and running an external executable, which is widely recognized as malware"
+}
