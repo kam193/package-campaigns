@@ -1,0 +1,16 @@
+{
+    "name": "2025-06-hashidf",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "typosquatting"
+    ],
+    "packages": [
+        "hashidf"
+    ],
+    "created_at": "2025-06-22",
+    "ioc": [],
+    "references": [],
+    "description": "If ran as a module, the package silently starts a binary hidden in a txt file in the background. At the moment, it appears to be PuTTy, and without additional instruction it does not do anything, but it is clearly a preparation for malicious actions."
+}
