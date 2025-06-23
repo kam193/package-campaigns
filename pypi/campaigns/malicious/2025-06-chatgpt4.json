@@ -1,0 +1,19 @@
+{
+    "name": "2025-06-chatgpt4",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "malware",
+        "shellcode"
+    ],
+    "packages": [
+        "chatgpt4"
+    ],
+    "created_at": "2025-06-23",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/8184b83b66956a896cd2de44d7ee4ae0b053157725b0214d835ef19013063d60"
+    ],
+    "description": "Importing the module starts shell code execution"
+}
