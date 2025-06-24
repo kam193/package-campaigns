@@ -1,0 +1,21 @@
+{
+    "name": "2025-06-mainx",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "infostealer",
+        "obfuscation",
+        "peristence_autorun",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "mainx"
+    ],
+    "created_at": "2025-06-24",
+    "ioc": [],
+    "references": [],
+    "description": "While described as educational package to simulate post-exploitation environment, the malware is active and once started, automatically attempts to exfiltrate sensitive data (credentials, cookies, etc.) and places a Discord implant. The remote target is hard coded in the code. "
+}
