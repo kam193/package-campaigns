@@ -1,0 +1,15 @@
+{
+    "name": "2025-06-sqiul83",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "sqiul83"
+    ],
+    "created_at": "2025-06-26",
+    "ioc": [],
+    "references": [],
+    "description": "During installation of the source package, it attempts to silently download and start a remote executable. At the time of analysis, the downloading link did not work."
+}
