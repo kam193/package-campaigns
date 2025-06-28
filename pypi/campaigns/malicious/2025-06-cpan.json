@@ -1,0 +1,22 @@
+{
+    "name": "2025-06-cpan",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "remote_script",
+        "revshell"
+    ],
+    "packages": [
+        "cpan",
+        "managment"
+    ],
+    "created_at": "2025-06-28",
+    "ioc": [
+        "http://124.221.175.251/11.sh",
+        "124.221.175.251",
+        "http://124.221.175.251/start.sh"
+    ],
+    "references": [],
+    "description": "Installing the package starts a revshell and download and starts a remote script (depending on version, different malicious functionality). The name seems to imitate CPAN.org"
+}
