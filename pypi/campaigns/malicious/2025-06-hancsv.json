@@ -1,0 +1,25 @@
+{
+    "name": "2025-06-hancsv",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "remote_executable",
+        "remote_script"
+    ],
+    "packages": [
+        "hancsv"
+    ],
+    "created_at": "2025-06-29",
+    "ioc": [
+        "13.125.103.41",
+        "http://13.125.103.41:8000/download?f=exe",
+        "http://13.125.103.41:8000/download?f=powershell",
+        "http://13.125.103.41:8000/report"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/c22722265e701d355ff1affdc306fb57162ded59690f15efded6bf7f30de2ba5/detection",
+        "https://tria.ge/250629-vd4crawnx2"
+    ],
+    "description": "Importing the module triggers downloading and executing Powershell script. The script collects information about the host (including e.g. startup applications) and also downloads the next stage executable. \n\nWhile the package contains a security disclaimer, the behaviour is still malicious and crosses the researching line."
+}
