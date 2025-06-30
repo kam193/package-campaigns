@@ -1,0 +1,15 @@
+{
+    "name": "2025-06-exorigsim",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "cryptominer"
+    ],
+    "packages": [
+        "exorigsim"
+    ],
+    "created_at": "2025-06-30",
+    "ioc": [],
+    "references": [],
+    "description": "Package installs and starts a hidden cryptominer for a hardcoded wallet. However, the package states it clear in the description as well as requires a confirmation (Press enter to continue...) by default."
+}
