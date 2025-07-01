@@ -3,12 +3,14 @@
     "ecosystem": "pypi",
     "category": "high_risk_hacking_tools",
     "packages": [
+        "adscan",
         "ihack",
         "instahack-cli",
         "pyhack",
         "pymalwaremk",
         "pyracore",
-        "ransomware"
+        "ransomware",
+        "smscallbomber"
     ],
     "created_at": "2025-01-28",
     "ioc": [],

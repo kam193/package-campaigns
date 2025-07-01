@@ -10,6 +10,7 @@
     "packages": [
         "utilswallet",
         "wallet-utils",
+        "walletsdk",
         "walletsutils",
         "walletutility"
     ],
