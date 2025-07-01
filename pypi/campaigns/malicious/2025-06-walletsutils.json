@@ -1,0 +1,23 @@
+{
+    "name": "2025-06-walletsutils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "crypto-related",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "utilswallet",
+        "wallet-utils",
+        "walletsutils",
+        "walletutility"
+    ],
+    "created_at": "2025-07-01",
+    "ioc": [
+        "http://89.23.98.149:5000/checkseed",
+        "89.23.98.149"
+    ],
+    "references": [],
+    "description": "Package silently exfiltrates the provided mnemonic"
+}

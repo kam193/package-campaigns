@@ -1,0 +1,20 @@
+{
+    "name": "2025-06-rehttps",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "override_install"
+    ],
+    "packages": [
+        "rehttps"
+    ],
+    "created_at": "2025-07-01",
+    "ioc": [
+        "https://raw.githubusercontent.com/testingguys36/testing/main/ConsoleApplication3.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/08ba6289e5c338b446a9551cec8e818321299c72c844d13cf2a0601a37fb8e52/detection"
+    ],
+    "description": "During installation, package attempts to download and starts an executable. The package itself is a clone of requests"
+}
