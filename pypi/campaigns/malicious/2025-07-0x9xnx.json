@@ -1,0 +1,34 @@
+{
+    "name": "2025-07-0x9xnx",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "confighum",
+        "fonafx",
+        "hellodista",
+        "hellotesthim",
+        "malipkghehe",
+        "pypiion",
+        "simple-mali-pkg",
+        "sinontop-utils",
+        "solana-sdkpy"
+    ],
+    "created_at": "2025-07-04",
+    "ioc": [
+        "https://chrome-data-receiver.up.railway.app/upload",
+        "chrome-data-receiver.up.railway.app",
+        "https://chrome-extract.up.railway.app/upload",
+        "chrome-extract.up.railway.app",
+        "https://vell-production.up.railway.app/upload",
+        "vell-production.up.railway.app"
+    ],
+    "references": [],
+    "description": "Series of packages mostly with an obfuscated infostealer attempting to collect Chrome data. While discord webhook is usually set to an example, there are other, correct uploading URLs \n\nSome of related packages only test partial malicious code, like webhooks from overwritten setup.py"
+}
