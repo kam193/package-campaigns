@@ -1,0 +1,15 @@
+{
+    "name": "2025-07-reade",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "remote_script"
+    ],
+    "packages": [
+        "reade"
+    ],
+    "created_at": "2025-07-04",
+    "ioc": [],
+    "references": [],
+    "description": "If imported, the package attempts to execute code from a URL hidden in the README file. However, the file is not included in the package, which indicates either an issue during packaging or preparing for a usage as dependency. \n\nDue to lack of the file, it's not possible to 100% determine intentions."
+}
