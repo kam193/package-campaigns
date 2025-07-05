@@ -1,0 +1,16 @@
+{
+    "name": "2025-07-callistopy",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "callistopy"
+    ],
+    "created_at": "2025-07-05",
+    "ioc": [],
+    "references": [],
+    "description": "Package creates a telegram client which silently exfiltrate user's Telegram data, including sessions and configuration, to a hardcoded remote target"
+}
