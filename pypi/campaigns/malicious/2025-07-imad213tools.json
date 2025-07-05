@@ -1,0 +1,21 @@
+{
+    "name": "2025-07-imad213tools",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "imad213tools"
+    ],
+    "created_at": "2025-07-05",
+    "ioc": [
+        "https://imad213-py-rsa.ct.ws/imad.txt",
+        "https://imad213-py-rsa.ct.ws/fuck.txt",
+        "imad213-py-rsa.ct.ws"
+    ],
+    "references": [],
+    "description": "Encrypted code offering massive sending Instagram followers.\n\n1) besides of using some shady services to achieve the goal, it also exfiltrates saved Instagram credentials to a remote server;\n2) the project page offers selling an \"exploit\" for Instagram servers"
+}
