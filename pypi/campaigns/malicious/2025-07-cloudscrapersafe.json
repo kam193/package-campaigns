@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-cloudscrapersafe",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "cloudscrapersafe"
+    ],
+    "created_at": "2025-07-06",
+    "ioc": [],
+    "references": [],
+    "description": "During processing the user requests, the package looks for URLs related to checkouts using services:\n- credomatic.compassmerchantsolutions.com\n- checkout.baccredomatic.com\nand exfiltrates given credit card numbers, verification codes etc. Interestingly, it checks even 3DS responses.\n\nClone of the legitimate \"cloudscraper\" package."
+}
