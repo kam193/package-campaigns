@@ -4,19 +4,20 @@
 #
 #    pip-compile
 #
+
 annotated-types==0.7.0
     # via pydantic
 babel==2.17.0
     # via mkdocs-material
-backrefs==5.8
+backrefs==5.9
     # via mkdocs-material
-bracex==2.5.post1
+bracex==2.6
     # via wcmatch
-certifi==2025.1.31
+certifi==2025.6.15
     # via requests
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
     # via requests
-click==8.1.8
+click==8.2.1
     # via mkdocs
 colorama==0.4.6
     # via mkdocs-material
@@ -29,7 +30,7 @@ jinja2==3.1.6
     #   -r requirements.in
     #   mkdocs
     #   mkdocs-material
-markdown==3.7
+markdown==3.8.2
     # via
     #   mkdocs
     #   mkdocs-material
@@ -46,31 +47,31 @@ mkdocs==1.6.1
     # via
     #   mkdocs-awesome-nav
     #   mkdocs-material
-mkdocs-awesome-nav==3.1.0
+mkdocs-awesome-nav==3.1.2
     # via -r requirements.in
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-material==9.6.9
+mkdocs-material==9.6.15
     # via -r requirements.in
 mkdocs-material-extensions==1.3.1
     # via mkdocs-material
 natsort==8.4.0
     # via mkdocs-awesome-nav
-packaging==24.2
+packaging==25.0
     # via mkdocs
 paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
-platformdirs==4.3.7
+platformdirs==4.3.8
     # via mkdocs-get-deps
-pydantic==2.11.1
+pydantic==2.11.7
     # via mkdocs-awesome-nav
-pydantic-core==2.33.0
+pydantic-core==2.33.2
     # via pydantic
-pygments==2.19.1
+pygments==2.19.2
     # via mkdocs-material
-pymdown-extensions==10.14.3
+pymdown-extensions==10.16
     # via
     #   -r requirements.in
     #   mkdocs-material
@@ -82,22 +83,22 @@ pyyaml==6.0.2
     #   mkdocs-get-deps
     #   pymdown-extensions
     #   pyyaml-env-tag
-pyyaml-env-tag==0.1
+pyyaml-env-tag==1.1
     # via mkdocs
-requests==2.32.3
+requests==2.32.4
     # via mkdocs-material
 six==1.17.0
     # via python-dateutil
-typing-extensions==4.13.0
+typing-extensions==4.14.1
     # via
     #   pydantic
     #   pydantic-core
     #   typing-inspection
-typing-inspection==0.4.0
+typing-inspection==0.4.1
     # via pydantic
-urllib3==2.3.0
+urllib3==2.5.0
     # via requests
 watchdog==6.0.0
     # via mkdocs
-wcmatch==10.0
+wcmatch==10.1
     # via mkdocs-awesome-nav
