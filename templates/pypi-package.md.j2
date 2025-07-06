@@ -11,12 +11,10 @@ tags:
 # {{ package["name"] }}
 
 <div class="annotate" markdown>
-* _Metadata_(1) Check in [pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ package["name"][0] }}/{{ package["name"][1] }}/{{ package["name"] }}.json)
-* _Affected versions(2)_ unspecified
+_Affected versions:_ unspecified (1)
 </div>
 
-1. May not be available. See more in [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repository.
-2. Version numbers are currently not tracked. Assume all versions are affected.
+1. Version numbers are currently not tracked. Assume all versions are affected.
 
 {% if "description" in package.keys() %}{{ package["description"] }}{% endif %}
 
@@ -31,3 +29,17 @@ _Campaign information may not always be 100% accurate for every related package.
 ??? {{ info.get("theme", "danger") }} "{{ abuse }}"
     {% if "description" in info.keys() %}{{ info["description"] | indent(4) }}{% else %}Campaign targets {{ abuse }}.{% endif %}
 {% endif %}{% endfor %}
+
+## Look up in other services
+
+<div class="annotate" markdown>
+* Check metadata in [:material-open-in-new: pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ package["name"][0] }}/{{ package["name"][1] }}/{{ package["name"] }}.json) (1)
+* Search for the package in [ :material-open-in-new: deps.dev](https://deps.dev/pypi/{{ package["name"] }})(2)
+* Search for the package in [ :material-open-in-new: socket.dev](https://socket.dev/pypi/package/{{ package["name"] }}) (3)
+* Search for the package in [ :material-open-in-new: secure.software](https://secure.software/pypi/packages/{{ package["name"] }}) (4)
+</div>
+
+1. May not be available. See more in [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repository.
+2. Open Source Insights project, provided by Google.
+3. Service from Socket.dev, a cybersecurity company.
+4. Spectra Assure Community, a service from ReversingLabs, a cybersecurity company.
