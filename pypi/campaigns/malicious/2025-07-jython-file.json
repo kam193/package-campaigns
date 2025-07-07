@@ -1,0 +1,16 @@
+{
+    "name": "2025-07-jython-file",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "modify-system-without-consent",
+        "obfuscation"
+    ],
+    "packages": [
+        "jython-file"
+    ],
+    "created_at": "2025-07-07",
+    "ioc": [],
+    "references": [],
+    "description": "Package attempts to load in an obfuscated way a code from a file (not included in the package) as well as inject a dynamic library to the Python dynamic libs directories."
+}
