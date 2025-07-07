@@ -6,6 +6,7 @@
         "exfiltration_credentials"
     ],
     "packages": [
+        "ase-jreq",
         "jsonreq-ase"
     ],
     "created_at": "2025-07-07",
