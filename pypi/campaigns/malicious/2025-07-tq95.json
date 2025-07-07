@@ -1,0 +1,19 @@
+{
+    "name": "2025-07-tq95",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "files_exfiltration",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "tq95"
+    ],
+    "created_at": "2025-07-07",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts an infostealer exfiltrating browser data, passwords, crypto wallets and implants a Discord stealer."
+}
