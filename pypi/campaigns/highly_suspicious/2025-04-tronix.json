@@ -8,6 +8,7 @@
     ],
     "packages": [
         "tronapinet",
+        "tronapipy",
         "trongridlib",
         "tronix",
         "tronlib",
