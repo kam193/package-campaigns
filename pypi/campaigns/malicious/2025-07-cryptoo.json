@@ -1,0 +1,21 @@
+{
+    "name": "2025-07-cryptoo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "cryptob",
+        "cryptoo"
+    ],
+    "created_at": "2025-07-09",
+    "ioc": [],
+    "references": [],
+    "description": "Importing starts an infostealer"
+}
