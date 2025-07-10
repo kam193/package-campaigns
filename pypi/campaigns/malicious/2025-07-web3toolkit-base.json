@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-web3toolkit-base",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_modify",
+        "crypto-related",
+        "obfuscation"
+    ],
+    "packages": [
+        "web3toolkit-base"
+    ],
+    "created_at": "2025-07-10",
+    "ioc": [],
+    "references": [],
+    "description": "Code monitors the clipboard and when detects a cryptocurrency wallet, attempts to overwrite it with the own address."
+}
