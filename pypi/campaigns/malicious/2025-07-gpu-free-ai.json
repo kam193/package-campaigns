@@ -1,0 +1,15 @@
+{
+    "name": "2025-07-gpu-free-ai",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "gpu-free-ai"
+    ],
+    "created_at": "2025-07-10",
+    "ioc": [],
+    "references": [],
+    "description": "Code attempts to exfiltrate any env variable containing \"key\" in name. This action is triggered on multiple occasions thanks to overwriting module loading and patching. "
+}
