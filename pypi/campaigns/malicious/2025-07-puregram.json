@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-puregram",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "remote_commands"
+    ],
+    "packages": [
+        "gramapi",
+        "puregram"
+    ],
+    "created_at": "2025-07-11",
+    "ioc": [],
+    "references": [],
+    "description": "The code is automatically starting, calling a Telegram channel with basic info, and waits for remote code to execute"
+}
