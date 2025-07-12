@@ -1,0 +1,23 @@
+{
+    "name": "2025-07-crpt",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_crypto",
+        "infostealer",
+        "malware",
+        "remote_executable",
+        "remote_script"
+    ],
+    "packages": [
+        "crpt"
+    ],
+    "created_at": "2025-07-12",
+    "ioc": [
+        "https://raw.githubusercontent.com/cmderr11/cryptu/refs/heads/main/cryptu.py"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/eb7f339a21ac7d8a5f530ba0d7278e2e5f64ee039b200c2f4ee9b98bbfad1ba6"
+    ],
+    "description": "Importing the module starts downloading and executing an executable being a wide recognized malware/infostealer"
+}
