@@ -1,0 +1,19 @@
+{
+    "name": "2025-07-vtk-osmesa",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "vtk-osmesa"
+    ],
+    "created_at": "2025-07-14",
+    "ioc": [
+        "deadly-polished-snail.ngrok-free.app"
+    ],
+    "references": [],
+    "description": "During the installation, sensitive information are exfiltrated (incl. env variables)"
+}
