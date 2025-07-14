@@ -1,0 +1,15 @@
+{
+    "name": "2025-07-test-package-avinav",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "test-package-avinav"
+    ],
+    "created_at": "2025-07-14",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, a heavily obfuscated code is executed. Exact behaviour unclear"
+}
