@@ -1,0 +1,16 @@
+{
+    "name": "2025-07-aminobot",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "aminobot"
+    ],
+    "created_at": "2025-07-15",
+    "ioc": [],
+    "references": [],
+    "description": "Clearly prepared for exfiltrating login data, but no known usage"
+}
