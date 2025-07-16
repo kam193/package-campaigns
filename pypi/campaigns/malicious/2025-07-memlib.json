@@ -1,0 +1,24 @@
+{
+    "name": "2025-07-memlib",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "memlib",
+        "memorylib",
+        "memtools",
+        "vramx"
+    ],
+    "created_at": "2025-07-16",
+    "ioc": [
+        "https://image-logo-popup-files.vercel.app/public/image.jpg"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/0fc1e062c521184f7e0c9f23dfdeb5431414e35cb55886e87c5ff5ec92ff4603"
+    ],
+    "description": "Installing the package triggers a code that looks like downloading a picture, but in fact downloads and starts an executable with malware. Note that file supplied from the URL differs depending on the presence of the special header"
+}

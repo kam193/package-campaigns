@@ -1,0 +1,19 @@
+{
+    "name": "2025-07-logghelper",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "infostealer",
+        "malware"
+    ],
+    "packages": [
+        "logghelper"
+    ],
+    "created_at": "2025-07-16",
+    "ioc": [
+        "http://89.23.97.112:8080/Python.exe"
+    ],
+    "references": [],
+    "description": "Code attempts to download and run malware, as well as keeps ability to execute files sent via Telegram C2 channel"
+}

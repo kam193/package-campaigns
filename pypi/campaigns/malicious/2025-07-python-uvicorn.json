@@ -1,0 +1,16 @@
+{
+    "name": "2025-07-python-uvicorn",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package"
+    ],
+    "packages": [
+        "python-uvicorn"
+    ],
+    "created_at": "2025-07-16",
+    "ioc": [],
+    "references": [],
+    "description": "Malicious copy of uvicorn package with added healthcheck endpoint that exfiltrates application settings/env vars "
+}
