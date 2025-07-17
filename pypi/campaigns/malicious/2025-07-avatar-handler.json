@@ -1,0 +1,16 @@
+{
+    "name": "2025-07-avatar-handler",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "avatar-handler"
+    ],
+    "created_at": "2025-07-17",
+    "ioc": [],
+    "references": [],
+    "description": "Code pretending to handling downloading an image, but in fact is prepared to download and execute a Powershell script image properties. No known usage"
+}
