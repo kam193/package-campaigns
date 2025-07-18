@@ -1,0 +1,21 @@
+{
+    "name": "2025-07-svcmanager",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "remote_executable"
+    ],
+    "packages": [
+        "svcmanager"
+    ],
+    "created_at": "2025-07-18",
+    "ioc": [
+        "https://github.com/deshamed/manager/releases/download/love/system_service.exe",
+        "https://raw.githubusercontent.com/deshamed/manager/refs/heads/main/version.txt"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/f1bf511ab38a42a2c4c870deb1cd049f56862683471cb103cb845a134e65d82b?nocache=1"
+    ],
+    "description": "Package attempts to download an executable and install it as a privileged service. The executable seems to be modified remote access tool"
+}
