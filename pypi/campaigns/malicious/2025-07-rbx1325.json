@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-rbx1325",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer"
+    ],
+    "packages": [
+        "rbx1325",
+        "rbx1325382"
+    ],
+    "created_at": "2025-07-18",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, package attempts to exfiltrate browser data"
+}
