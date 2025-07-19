@@ -1,0 +1,20 @@
+{
+    "name": "2025-07-talbat",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_commands",
+        "revshell"
+    ],
+    "packages": [
+        "aphorism-lib",
+        "hekamhelp",
+        "hkmat",
+        "lazmat",
+        "talbat"
+    ],
+    "created_at": "2025-07-19",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts a telegram bot that connects to a chat and executes provided commands "
+}

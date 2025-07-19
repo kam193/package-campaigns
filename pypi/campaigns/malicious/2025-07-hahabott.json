@@ -1,0 +1,16 @@
+{
+    "name": "2025-07-hahabott",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "destructive-actions",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "hahabott"
+    ],
+    "created_at": "2025-07-19",
+    "ioc": [],
+    "references": [],
+    "description": "If run as module, it attempts to automatically destroy user's and system's files. Some versions also exfiltrate them."
+}
