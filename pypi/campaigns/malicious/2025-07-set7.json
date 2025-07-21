@@ -1,0 +1,20 @@
+{
+    "name": "2025-07-set7",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto",
+        "infostealer",
+        "remote_script"
+    ],
+    "packages": [
+        "set7"
+    ],
+    "created_at": "2025-07-21",
+    "ioc": [
+        "https://raw.githubusercontent.com/flashwe12/fkashwe2/refs/heads/main/flasher2.py"
+    ],
+    "references": [],
+    "description": "Package downloads and suggest opening an obfuscated script, which is an infostealer"
+}
