@@ -1,0 +1,18 @@
+{
+    "name": "2025-07-m5tlprovetomegz",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "m5tlprovetomegz"
+    ],
+    "created_at": "2025-07-24",
+    "ioc": [
+        "https://github.com/GrayHATGroupx69/Simple-Obsfacture/raw/refs/heads/main/x695test.exe"
+    ],
+    "references": [],
+    "description": "Importing the module starts downloading and executing a file recognized as malicious by AVs"
+}
