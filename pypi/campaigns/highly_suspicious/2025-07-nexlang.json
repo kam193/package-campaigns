@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-nexlang",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "modify-system-without-consent",
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "nexlang"
+    ],
+    "created_at": "2025-07-25",
+    "ioc": [],
+    "references": [],
+    "description": "When importing the module, the package puts own dynamic library to be loaded with Python, and even after that the module seems not to have methods described on the page. In addition, while it's hard to check what exactly the library is doing, it references the Github gist page"
+}
