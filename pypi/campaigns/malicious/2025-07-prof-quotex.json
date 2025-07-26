@@ -10,6 +10,7 @@
     "packages": [
         "prof-qu",
         "prof-quotex",
+        "prof-qux",
         "prof-qx",
         "prof-tgqu"
     ],
