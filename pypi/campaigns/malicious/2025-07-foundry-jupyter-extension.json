@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-foundry-jupyter-extension",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "foundry-jupyter-extension"
+    ],
+    "created_at": "2025-07-26",
+    "ioc": [],
+    "references": [],
+    "description": "Installing or importing the module triggers exfiltration of environmental variables"
+}
