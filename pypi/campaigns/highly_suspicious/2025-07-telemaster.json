@@ -1,0 +1,17 @@
+{
+    "name": "2025-07-telemaster",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation",
+        "other",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "telemaster"
+    ],
+    "created_at": "2025-07-29",
+    "ioc": [],
+    "references": [],
+    "description": "Obfuscated library that allows spanning a bot delivering local files to a Telegram channel. While it can be used in this legitimate use case of delivering logs to an administrator, the obfuscation of the code may suggest hidden intentions. The code does not run automatically and does not include any hardcoded Telegram credentials, so there is no clear threat directly here."
+}
