@@ -9,6 +9,7 @@
     "packages": [
         "greater-than",
         "requires-python",
+        "triple-equal",
         "triple-equals"
     ],
     "created_at": "2025-07-28",
