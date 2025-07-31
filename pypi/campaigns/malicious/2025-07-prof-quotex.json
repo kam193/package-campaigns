@@ -12,10 +12,17 @@
         "prof-quotex",
         "prof-qux",
         "prof-qx",
+        "prof-tg-dggrto-qu",
+        "prof-tg-gdghho-qu",
+        "prof-tg-gjho-qu",
+        "prof-tg-go-qu",
+        "prof-tg-to-qu",
         "prof-tgqu"
     ],
     "created_at": "2025-07-25",
     "ioc": [],
-    "references": [],
-    "description": "Package silently exfiltrates user's credentials ahead of starting the promised functionality"
+    "references": [
+        "https://tria.ge/250731-lnhpcsfk9x/behavioral1"
+    ],
+    "description": "Package silently exfiltrates user's credentials ahead of starting the promised functionality. First batch used simple code, the newer attempt to hide functionality by using compiled modules"
 }
