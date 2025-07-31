@@ -1,0 +1,25 @@
+{
+    "name": "2025-07-backtradingbot",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "crypto-related",
+        "exfiltration_browser_data",
+        "peristence_autorun",
+        "remote_script"
+    ],
+    "packages": [
+        "backtradingbot"
+    ],
+    "created_at": "2025-07-31",
+    "ioc": [
+        "https://api.etherjs.pro/sockets?type=2",
+        "https://api.etherjs.pro/sockets?type=2&cid=ft",
+        "etherjs.pro"
+    ],
+    "references": [
+        "https://bad-packages.kam193.eu/pypi/campaign/2025-07-db-indicator/"
+    ],
+    "description": "Running the installed entry point downloads and executes remote code. During the analysis, the code was switching to websockets, adding a startup script and downloading next stages, which finally looked for browser and crypto wallet data. Currently, they seem not to attempt exfiltration of very sensitive data but rather a presence of different webbrowsers and wallets.\n\nIt uses the same remote domain as campaign 2025-07-db-indicator, but significantly different payload."
+}
