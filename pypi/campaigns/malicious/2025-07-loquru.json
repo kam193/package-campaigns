@@ -17,6 +17,8 @@
         "https://loguru.guru/version/code",
         "loguru.guru"
     ],
-    "references": [],
+    "references": [
+        "https://github.com/Delgan/loguru/issues/1363"
+    ],
     "description": "It's a clone of \"loguru\" package which on import loads a second-stage script from loguru[.]guru. This makes a few checks and downloads the next stage, which is a code obfuscated with PyArmor with unclear behaviour.\n\nThe way the malicious code has been embedded could be called a \"sophisticated\" threat. The code is in the _logger.py in two places: the payload in L2242 as a long string constraint of only whitespaces, which are then transformed into bits and bytes, and later compiled and executed using \"types.FunctionType\" during initialisation of Core class."
 }
