@@ -9,6 +9,7 @@
         "typosquatting"
     ],
     "packages": [
+        "loggerex",
         "loquru"
     ],
     "created_at": "2025-08-01",
