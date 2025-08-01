@@ -1,0 +1,22 @@
+{
+    "name": "2025-07-loquru",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "obfuscation",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "loquru"
+    ],
+    "created_at": "2025-08-01",
+    "ioc": [
+        "https://loguru.guru/version/is_match_revision",
+        "https://loguru.guru/version/code",
+        "loguru.guru"
+    ],
+    "references": [],
+    "description": "It's a clone of \"loguru\" package which on import loads a second-stage script from loguru[.]guru. This makes a few checks and downloads the next stage, which is a code obfuscated with PyArmor with unclear behaviour.\n\nThe way the malicious code has been embedded could be called a \"sophisticated\" threat. The code is in the _logger.py in two places: the payload in L2242 as a long string constraint of only whitespaces, which are then transformed into bits and bytes, and later compiled and executed using \"types.FunctionType\" during initialisation of Core class."
+}
