@@ -1,0 +1,19 @@
+{
+    "name": "2025-07-web3dummycti",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "remote_script",
+        "revshell"
+    ],
+    "packages": [
+        "web3dummycti"
+    ],
+    "created_at": "2025-08-02",
+    "ioc": [
+        "https://github.com/brojafox/hehe/raw/refs/heads/main/hehe.txt"
+    ],
+    "references": [],
+    "description": "If the method from the module is called, it attempts to download a malicious code (identified as msf payload) and save it locally. In the analysed version, the code starting the malicious code was commented out."
+}
