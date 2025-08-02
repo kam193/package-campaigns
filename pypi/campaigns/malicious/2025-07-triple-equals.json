@@ -10,7 +10,8 @@
         "greater-than",
         "requires-python",
         "triple-equal",
-        "triple-equals"
+        "triple-equals",
+        "tsesyx"
     ],
     "created_at": "2025-07-28",
     "ioc": [
