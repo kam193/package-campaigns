@@ -1,0 +1,20 @@
+{
+    "name": "2025-08-dsidelib",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer",
+        "remote_script",
+        "target:telegram"
+    ],
+    "packages": [
+        "dsidelib"
+    ],
+    "created_at": "2025-08-03",
+    "ioc": [
+        "https://raw.githubusercontent.com/hellyth1337/dfree/main/crasherBypass.py"
+    ],
+    "references": [],
+    "description": "Package is runs an Infostealer targeting telegram and Discord credentials. Depending on version, the infostealer is either downloaded from an URL or embedded in the package"
+}
