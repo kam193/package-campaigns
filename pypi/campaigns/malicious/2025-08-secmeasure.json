@@ -1,0 +1,20 @@
+{
+    "name": "2025-08-secmeasure",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "infostealer",
+        "remote_script"
+    ],
+    "packages": [
+        "secmeasure"
+    ],
+    "created_at": "2025-08-03",
+    "ioc": [
+        "https://pastebin.com/raw/jaH2uRE1",
+        "200.58.107.25"
+    ],
+    "references": [],
+    "description": "Calling a method starts downloading and starting an infostealer script"
+}
