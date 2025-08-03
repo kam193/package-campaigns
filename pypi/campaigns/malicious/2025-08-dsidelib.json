@@ -9,11 +9,14 @@
         "target:telegram"
     ],
     "packages": [
-        "dsidelib"
+        "dsidelib",
+        "dsodelib",
+        "dziplib"
     ],
     "created_at": "2025-08-03",
     "ioc": [
-        "https://raw.githubusercontent.com/hellyth1337/dfree/main/crasherBypass.py"
+        "https://raw.githubusercontent.com/hellyth1337/dfree/main/crasherBypass.py",
+        "https://discord.com/api/webhooks/1400046440088342641/SDsNfGaWeR9dpGIfRUzHGZPBboYzcUqY2gQBhCXpc9eWmRhknG0QQGkcXWaFle-9J5U6"
     ],
     "references": [],
     "description": "Package is runs an Infostealer targeting telegram and Discord credentials. Depending on version, the infostealer is either downloaded from an URL or embedded in the package"
