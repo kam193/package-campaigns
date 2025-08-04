@@ -9,6 +9,7 @@
         "target:telegram"
     ],
     "packages": [
+        "discordsync",
         "dsidelib",
         "dsodelib",
         "dziplib",
