@@ -7,6 +7,7 @@
     ],
     "packages": [
         "ase-jreq",
+        "bh-25-req-ase",
         "bh-usa-automate-req-ase",
         "bh-usa-req-ase",
         "jsonreq-ase",
