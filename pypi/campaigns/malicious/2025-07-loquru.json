@@ -9,6 +9,7 @@
         "typosquatting"
     ],
     "packages": [
+        "flashsimplelogger",
         "loggerex",
         "loquru"
     ],
