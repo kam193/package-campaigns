@@ -9,6 +9,7 @@
     "packages": [
         "tronapinet",
         "tronapipy",
+        "trongridapi",
         "trongridlib",
         "trongridperm",
         "tronix",
