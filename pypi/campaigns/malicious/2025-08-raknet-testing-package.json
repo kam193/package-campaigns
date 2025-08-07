@@ -1,0 +1,19 @@
+{
+    "name": "2025-08-raknet-testing-package",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "modify-system-without-consent"
+    ],
+    "packages": [
+        "raknet-testing-package"
+    ],
+    "created_at": "2025-08-07",
+    "ioc": [
+        "196.251.86.48",
+        "https://www.dropbox.com/scl/fi/6pwocr2yfcaqztfoxkwqm/mitmproxy-ca-cert.pem?rlkey=irl7718in0yr3pwnhgftcm0sm&st=fnll7kc5&dl=1"
+    ],
+    "references": [],
+    "description": "During installation, the package attempts to install the own MITM proxy without user's consent and hijack all requests"
+}
