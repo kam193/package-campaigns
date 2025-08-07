@@ -1,0 +1,15 @@
+{
+    "name": "2025-08-ai-mesh-sdk",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "packages": [
+        "ai-mesh-sdk"
+    ],
+    "created_at": "2025-08-07",
+    "ioc": [
+        "f6a97ab0c30b.ngrok-free.app",
+        "d2rg0qhl0argzt.cloudfront.net"
+    ],
+    "references": [],
+    "description": "Package references \"AI Mesh Platform\" but it's difficult to identify such a service (there is nothing that use exactly that name). It uses a cloudfront domain as a backend service and does not have proper author's email or repository URL, although it's said to be MIT-licensed. \n\nThe package looks like an attempt to collect credentials to a platform, but it's impossible to identify the targeted service or to conclude that it's a legit SDK."
+}
