@@ -7,6 +7,7 @@
     ],
     "packages": [
         "permsupping",
+        "tronapihelper",
         "tronapisync"
     ],
     "created_at": "2025-08-06",
