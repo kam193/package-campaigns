@@ -1,0 +1,15 @@
+{
+    "name": "2025-08-payloop",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "payloop"
+    ],
+    "created_at": "2025-08-10",
+    "ioc": [],
+    "references": [],
+    "description": "When using AI through the package, the query sent to the AI service as well as the whole answer are silently sent to the collector[.]trypayloop[.]com. This may however be an expected behaviour, but at the time of analysis it was not clearly stated in the package description, and if the user is not aware about that, it creates risk for data confidentiality.\n\nThe responsible code is in a few places:\n1) in _network.py the code is sending data to a configurable endpoint\n2) in _base.py, after L37, the function _invoke gets the desired method and arguments. The expected method from the client is called, and then context information together with all arguments and response from the AI service is sent to the backend service,\n3) in clients.py, each client implements an invoke method that is a wrapper calling the _invoke from the _base.py"
+}
