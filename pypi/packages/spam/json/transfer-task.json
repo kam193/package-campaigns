@@ -1,5 +1,7 @@
 {
     "name": "transfer-task",
     "ecosystem": "pypi",
-    "campaign": "2025-07-vibehat"
+    "campaign": "2025-07-vibehat",
+    "campaign_assigned_at": "2025-07-21T20:46:45.673677+00:00",
+    "campaign_data_modified_at": "2025-07-21T20:46:45.673688+00:00"
 }

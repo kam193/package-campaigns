@@ -1,5 +1,7 @@
 {
     "name": "logging-loki",
     "ecosystem": "pypi",
-    "campaign": "2025-07-vibehat"
+    "campaign": "2025-07-vibehat",
+    "campaign_assigned_at": "2025-07-21T20:39:31.846356+00:00",
+    "campaign_data_modified_at": "2025-07-21T20:39:31.846367+00:00"
 }

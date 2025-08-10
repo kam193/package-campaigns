@@ -1,5 +1,7 @@
 {
     "name": "gpu-free-ai",
     "ecosystem": "pypi",
-    "campaign": "2025-07-gpu-free-ai"
+    "campaign": "2025-07-gpu-free-ai",
+    "campaign_assigned_at": "2025-07-10T23:09:35.817719+00:00",
+    "campaign_data_modified_at": "2025-07-10T23:09:35.817730+00:00"
 }

@@ -1,5 +1,7 @@
 {
     "name": "telemaster",
     "ecosystem": "pypi",
-    "campaign": "2025-07-telemaster"
+    "campaign": "2025-07-telemaster",
+    "campaign_assigned_at": "2025-07-29T13:39:37.078495+00:00",
+    "campaign_data_modified_at": "2025-07-29T13:39:37.078511+00:00"
 }

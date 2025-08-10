@@ -1,5 +1,7 @@
 {
     "name": "supersafepackage",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest"
+    "campaign": "GENERIC-questionable-pentest",
+    "campaign_assigned_at": "2025-08-02T20:21:46.685382+00:00",
+    "campaign_data_modified_at": "2025-08-02T20:21:46.685393+00:00"
 }

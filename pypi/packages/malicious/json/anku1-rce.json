@@ -1,5 +1,7 @@
 {
     "name": "anku1-rce",
     "ecosystem": "pypi",
-    "campaign": "2025-07-anku2-rce"
+    "campaign": "2025-07-anku2-rce",
+    "campaign_assigned_at": "2025-07-16T10:52:30.180223+00:00",
+    "campaign_data_modified_at": "2025-07-16T10:52:30.180233+00:00"
 }

@@ -1,5 +1,7 @@
 {
     "name": "greater-than",
     "ecosystem": "pypi",
-    "campaign": "2025-07-triple-equals"
+    "campaign": "2025-07-triple-equals",
+    "campaign_assigned_at": "2025-07-28T19:01:21.153427+00:00",
+    "campaign_data_modified_at": "2025-07-28T19:01:21.153440+00:00"
 }

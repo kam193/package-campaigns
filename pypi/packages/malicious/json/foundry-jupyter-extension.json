@@ -1,5 +1,7 @@
 {
     "name": "foundry-jupyter-extension",
     "ecosystem": "pypi",
-    "campaign": "2025-07-foundry-jupyter-extension"
+    "campaign": "2025-07-foundry-jupyter-extension",
+    "campaign_assigned_at": "2025-07-26T12:26:59.241809+00:00",
+    "campaign_data_modified_at": "2025-07-26T12:26:59.241844+00:00"
 }

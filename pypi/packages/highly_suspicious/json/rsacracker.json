@@ -1,5 +1,7 @@
 {
     "name": "rsacracker",
     "ecosystem": "pypi",
-    "campaign": "2025-08-rsacracker"
+    "campaign": "2025-08-rsacracker",
+    "campaign_assigned_at": "2025-08-03T07:33:35.453939+00:00",
+    "campaign_data_modified_at": "2025-08-03T07:33:35.453956+00:00"
 }

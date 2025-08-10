@@ -1,5 +1,7 @@
 {
     "name": "requires-python",
     "ecosystem": "pypi",
-    "campaign": "2025-07-triple-equals"
+    "campaign": "2025-07-triple-equals",
+    "campaign_assigned_at": "2025-07-28T19:00:15.058531+00:00",
+    "campaign_data_modified_at": "2025-07-28T19:00:15.058550+00:00"
 }

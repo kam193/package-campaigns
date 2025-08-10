@@ -1,5 +1,7 @@
 {
     "name": "engine-eval",
     "ecosystem": "pypi",
-    "campaign": "2025-07-vibehat"
+    "campaign": "2025-07-vibehat",
+    "campaign_assigned_at": "2025-07-21T20:48:20.817274+00:00",
+    "campaign_data_modified_at": "2025-07-21T20:48:20.817283+00:00"
 }

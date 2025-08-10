@@ -1,5 +1,7 @@
 {
     "name": "package-publisher",
     "ecosystem": "pypi",
-    "campaign": "2025-07-vibehat"
+    "campaign": "2025-07-vibehat",
+    "campaign_assigned_at": "2025-07-21T20:50:17.713488+00:00",
+    "campaign_data_modified_at": "2025-07-21T20:50:17.713497+00:00"
 }

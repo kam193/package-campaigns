@@ -1,5 +1,7 @@
 {
     "name": "paradox-pydevdeps",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest"
+    "campaign": "GENERIC-questionable-pentest",
+    "campaign_assigned_at": "2025-07-14T19:10:19.218164+00:00",
+    "campaign_data_modified_at": "2025-07-14T19:10:19.218211+00:00"
 }

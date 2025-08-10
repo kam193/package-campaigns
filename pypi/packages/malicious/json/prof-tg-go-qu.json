@@ -1,5 +1,7 @@
 {
     "name": "prof-tg-go-qu",
     "ecosystem": "pypi",
-    "campaign": "2025-07-prof-quotex"
+    "campaign": "2025-07-prof-quotex",
+    "campaign_assigned_at": "2025-07-31T10:01:27.674750+00:00",
+    "campaign_data_modified_at": "2025-07-31T10:01:27.674769+00:00"
 }

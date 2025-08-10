@@ -1,5 +1,7 @@
 {
     "name": "maxload",
     "ecosystem": "pypi",
-    "campaign": "2025-07-maxload"
+    "campaign": "2025-07-maxload",
+    "campaign_assigned_at": "2025-07-30T01:11:45.673946+00:00",
+    "campaign_data_modified_at": "2025-07-30T01:11:45.673964+00:00"
 }

@@ -1,5 +1,7 @@
 {
     "name": "prof-qux",
     "ecosystem": "pypi",
-    "campaign": "2025-07-prof-quotex"
+    "campaign": "2025-07-prof-quotex",
+    "campaign_assigned_at": "2025-07-26T15:02:22.743614+00:00",
+    "campaign_data_modified_at": "2025-07-26T15:02:22.743626+00:00"
 }

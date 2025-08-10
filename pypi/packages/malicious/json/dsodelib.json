@@ -1,5 +1,7 @@
 {
     "name": "dsodelib",
     "ecosystem": "pypi",
-    "campaign": "2025-08-dsidelib"
+    "campaign": "2025-08-dsidelib",
+    "campaign_assigned_at": "2025-08-03T18:01:42.735232+00:00",
+    "campaign_data_modified_at": "2025-08-03T18:01:42.735250+00:00"
 }

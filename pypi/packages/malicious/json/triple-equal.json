@@ -1,5 +1,7 @@
 {
     "name": "triple-equal",
     "ecosystem": "pypi",
-    "campaign": "2025-07-triple-equals"
+    "campaign": "2025-07-triple-equals",
+    "campaign_assigned_at": "2025-07-29T08:39:13.190584+00:00",
+    "campaign_data_modified_at": "2025-07-29T08:39:13.190594+00:00"
 }

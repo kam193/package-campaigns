@@ -1,5 +1,7 @@
 {
     "name": "avatar-handler",
     "ecosystem": "pypi",
-    "campaign": "2025-07-avatar-handler"
+    "campaign": "2025-07-avatar-handler",
+    "campaign_assigned_at": "2025-07-17T19:19:10.544577+00:00",
+    "campaign_data_modified_at": "2025-07-17T19:19:10.544588+00:00"
 }

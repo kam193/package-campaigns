@@ -1,5 +1,7 @@
 {
     "name": "aphorism-lib",
     "ecosystem": "pypi",
-    "campaign": "2025-07-talbat"
+    "campaign": "2025-07-talbat",
+    "campaign_assigned_at": "2025-07-19T22:01:29.394382+00:00",
+    "campaign_data_modified_at": "2025-07-19T22:01:29.394400+00:00"
 }

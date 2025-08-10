@@ -1,5 +1,7 @@
 {
     "name": "aminobot",
     "ecosystem": "pypi",
-    "campaign": "2025-07-aminobot"
+    "campaign": "2025-07-aminobot",
+    "campaign_assigned_at": "2025-07-15T21:39:45.083654+00:00",
+    "campaign_data_modified_at": "2025-07-15T21:39:45.083665+00:00"
 }

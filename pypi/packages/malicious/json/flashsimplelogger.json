@@ -1,5 +1,7 @@
 {
     "name": "flashsimplelogger",
     "ecosystem": "pypi",
-    "campaign": "2025-07-loquru"
+    "campaign": "2025-07-loquru",
+    "campaign_assigned_at": "2025-08-05T16:11:02.979587+00:00",
+    "campaign_data_modified_at": "2025-08-05T16:11:02.979601+00:00"
 }
