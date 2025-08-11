@@ -5,7 +5,7 @@
     "packages": [
         "bob13th-soohyun",
         "bsb-backup",
-        "flask-tdg-cyber",
+        "captchasolvertiktokt",
         "fortyseven-secrets",
         "headersupdate",
         "heroku-tl-new",
@@ -17,6 +17,7 @@
         "python123eto",
         "raydiumsdk",
         "screenconnect-installer",
+        "signertiktokt",
         "telelogs",
         "tintumon",
         "tronclient",
