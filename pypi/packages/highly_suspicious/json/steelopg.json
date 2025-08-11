@@ -1,0 +1,11 @@
+{
+    "name": "steelopg",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package downloads and execute remote code, what is typical for malicious packages. However, during the analysis the code was consistent with the package description and did not contain malicious parts",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-08-11T21:31:00.616291+00:00",
+    "campaign_data_modified_at": "2025-08-11T21:31:00.616323+00:00"
+}
