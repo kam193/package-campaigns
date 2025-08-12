@@ -1,0 +1,22 @@
+{
+    "name": "2025-08-aws-enumerate",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_credentials",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "aws-enumerate",
+        "iamenumer"
+    ],
+    "created_at": "2025-08-12",
+    "ioc": [
+        "https://api.aliyun-sdk-requests.xyz/aws",
+        "api.aliyun-sdk-requests.xyz",
+        "aliyun-sdk-requests.xyz"
+    ],
+    "references": [],
+    "description": "Before creating the boto3 client, package exfiltrates user's credentials"
+}

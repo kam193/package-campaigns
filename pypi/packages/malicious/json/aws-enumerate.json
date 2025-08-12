@@ -1,0 +1,11 @@
+{
+    "name": "aws-enumerate",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-aws-enumerate",
+    "description": "Package for enumeratin IAM",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-08-12T10:49:02.968010+00:00",
+    "campaign_data_modified_at": "2025-08-12T10:49:02.968025+00:00"
+}

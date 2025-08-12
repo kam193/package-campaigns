@@ -1,0 +1,20 @@
+{
+    "name": "2025-08-kertash",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic",
+        "obfuscation",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "kertash"
+    ],
+    "created_at": "2025-08-12",
+    "ioc": [
+        "https://raw.githubusercontent.com/0xPwnme/kertash/refs/heads/main/kertash.py"
+    ],
+    "references": [],
+    "description": "When using methods from the package, it downloads an obfuscated code from Github and puts it in multiple localisation. While it appears that this code is used to perform action user requested, deobfuscation reveals exfiltrating user's data instead."
+}
