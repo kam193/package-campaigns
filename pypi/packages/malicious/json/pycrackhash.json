@@ -3,8 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-08-kertash",
     "affected_versions": [
-        "0.1.1"
+        "0.1.1",
+        "0.1.2"
     ],
     "campaign_assigned_at": "2025-08-13T05:15:27.148964+00:00",
-    "campaign_data_modified_at": "2025-08-13T05:15:27.148977+00:00"
+    "campaign_data_modified_at": "2025-08-13T06:58:13.670213+00:00"
 }
