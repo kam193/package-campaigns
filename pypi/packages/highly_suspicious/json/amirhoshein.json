@@ -1,0 +1,10 @@
+{
+    "name": "amirhoshein",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.4.4"
+    ],
+    "campaign_assigned_at": "2025-08-14T22:58:41.174561+00:00",
+    "campaign_data_modified_at": "2025-08-14T22:58:41.174586+00:00"
+}

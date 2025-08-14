@@ -1,0 +1,10 @@
+{
+    "name": "jsonist",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-secmeasure",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-08-14T22:30:01.857193+00:00",
+    "campaign_data_modified_at": "2025-08-14T22:30:01.857323+00:00"
+}
