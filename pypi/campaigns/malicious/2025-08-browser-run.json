@@ -1,0 +1,20 @@
+{
+    "name": "2025-08-browser-run",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "backdoor",
+        "dependency-confusion"
+    ],
+    "packages": [
+        "browser-run"
+    ],
+    "created_at": "2025-08-14",
+    "ioc": [
+        "http://18.144.73.108:3000/add-sshkey",
+        "18.144.73.108"
+    ],
+    "references": [],
+    "description": "Package uses the name as popular NPM package (https://www.npmjs.com/package/browser-run), but the only thing it does is adding a hardcoded public SSH key and then calling back. This may allow the threat actor to remotely access the machine. "
+}
