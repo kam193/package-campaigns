@@ -3,7 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "2025-04-norsodikin",
     "affected_versions": [
-        "1.0.4"
+        "1.0.4",
+        "1.0.5"
     ],
-    "campaign_data_modified_at": "2025-08-12T15:13:44.847285+00:00"
+    "campaign_data_modified_at": "2025-08-17T01:53:19.525053+00:00"
 }
