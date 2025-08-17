@@ -1,0 +1,13 @@
+{
+    "name": "flask-tdg-cyberx",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-flask-tdg-cyber",
+    "affected_versions": [
+        "3.300.40",
+        "3.300.39",
+        "3.100.2",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2025-08-17T19:39:48.295017+00:00",
+    "campaign_data_modified_at": "2025-08-17T19:39:48.295036+00:00"
+}

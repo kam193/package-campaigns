@@ -1,0 +1,22 @@
+{
+    "name": "2025-08-pytensorlite",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_generic",
+        "infostealer",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "pytensorlite"
+    ],
+    "created_at": "2025-08-17",
+    "ioc": [
+        "https://raw.githubusercontent.com/93dk99-ui/pytensorlite/main/main.b64"
+    ],
+    "references": [],
+    "description": "Importing the module downloads and starts an infostealer"
+}
