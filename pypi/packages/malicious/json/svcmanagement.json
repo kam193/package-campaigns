@@ -1,0 +1,10 @@
+{
+    "name": "svcmanagement",
+    "ecosystem": "pypi",
+    "campaign": "2025-07-svcmanager",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-08-18T16:25:24.490335+00:00",
+    "campaign_data_modified_at": "2025-08-18T16:25:24.490353+00:00"
+}
