@@ -1,0 +1,10 @@
+{
+    "name": "tronwalletpy",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-08-19T16:05:24.777267+00:00",
+    "campaign_data_modified_at": "2025-08-19T16:05:24.777284+00:00"
+}
