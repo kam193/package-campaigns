@@ -1,0 +1,20 @@
+{
+    "name": "2025-08-k7eel",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "k7eel"
+    ],
+    "created_at": "2025-08-20",
+    "ioc": [
+        "https://github.com/mtlnewacc6-sys/adadad/raw/refs/heads/main/x69.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/243dcfb04a7d3729ccdd58bf7e764ff1b39a8d8f886528d633cca2230797e799/detection"
+    ],
+    "description": "Importing the module downloads and executes widely recognized malware"
+}
