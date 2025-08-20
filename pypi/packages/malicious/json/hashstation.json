@@ -1,0 +1,10 @@
+{
+    "name": "hashstation",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-kertash",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2025-08-20T16:17:59.371441+00:00",
+    "campaign_data_modified_at": "2025-08-20T16:17:59.371464+00:00"
+}

@@ -9,6 +9,7 @@
         "webhook:telegram"
     ],
     "packages": [
+        "hashstation",
         "kertash",
         "pycrackhash"
     ],
