@@ -1,0 +1,19 @@
+{
+    "name": "2025-08-etherweb3",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "crypto-related",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "etherweb3"
+    ],
+    "created_at": "2025-08-21",
+    "ioc": [
+        "https://v1.nocodeapi.com/lionelphp/telegram/ZSkmODfnkodNVXwR/sendText"
+    ],
+    "references": [],
+    "description": "Malicious clone of a legitimate \"web3\" package. During importing, a code aiming to exfiltrate private keys is executed"
+}
