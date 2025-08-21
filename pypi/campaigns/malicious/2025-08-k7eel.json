@@ -8,10 +8,13 @@
     ],
     "packages": [
         "buildpeople",
+        "hacktool",
+        "importsetup",
         "k7eeel",
         "k7eel",
         "k7eel2-ss",
         "k7eela",
+        "lolcrazy",
         "medoen",
         "nukecount",
         "pacakegenow",
