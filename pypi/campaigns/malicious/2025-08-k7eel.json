@@ -16,7 +16,9 @@
         "k7eela",
         "lolcrazy",
         "medoen",
+        "nukebount",
         "nukecount",
+        "nukeport",
         "pacakegenow",
         "randar303",
         "woowoowo"
@@ -25,7 +27,8 @@
     "ioc": [
         "https://github.com/mtlnewacc6-sys/adadad/raw/refs/heads/main/x69.exe",
         "https://github.com/byebyeeeeeeaaa/turbo-guide/raw/refs/heads/main/Payload.exe",
-        "https://github.com/deprosinal/legendary-funicular/raw/refs/heads/main/helo.exe"
+        "https://github.com/deprosinal/legendary-funicular/raw/refs/heads/main/helo.exe",
+        "https://github.com/deprosinal/didactic-octo-funicular/raw/refs/heads/main/Payload.exe"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/243dcfb04a7d3729ccdd58bf7e764ff1b39a8d8f886528d633cca2230797e799/detection",
