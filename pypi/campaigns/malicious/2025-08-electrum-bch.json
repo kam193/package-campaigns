@@ -1,0 +1,22 @@
+{
+    "name": "2025-08-electrum-bch",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clons_real_package",
+        "crypto-related",
+        "exfiltration_crypto",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "electrum-bch"
+    ],
+    "created_at": "2025-08-23",
+    "ioc": [
+        "http://136.243.103.253:8080/upload",
+        "136.243.103.253"
+    ],
+    "references": [],
+    "description": "The modification of https://github.com/spesmilo/electrum (not clear which version or fork) that during usage will exfiltrate files from the current directory, presumably wanting to collect sensitive data."
+}
