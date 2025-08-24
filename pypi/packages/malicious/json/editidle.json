@@ -1,0 +1,10 @@
+{
+    "name": "editidle",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-k7eel",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2025-08-24T08:29:29.213187+00:00",
+    "campaign_data_modified_at": "2025-08-24T08:29:29.213201+00:00"
+}

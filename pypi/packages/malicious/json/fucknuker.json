@@ -1,0 +1,10 @@
+{
+    "name": "fucknuker",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-k7eel",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2025-08-24T08:31:35.811905+00:00",
+    "campaign_data_modified_at": "2025-08-24T08:31:35.811917+00:00"
+}
