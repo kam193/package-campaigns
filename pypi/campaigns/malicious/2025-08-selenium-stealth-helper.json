@@ -9,12 +9,14 @@
         "remote_executable"
     ],
     "packages": [
-        "selenium-stealth-helper"
+        "selenium-stealth-helper",
+        "selenium-stealth-utils"
     ],
     "created_at": "2025-08-23",
     "ioc": [
         "https://google.flicxd2.com/dell/DELL_GLOBAL-TOUCH-MONITOR_A00-00_R1.py",
-        "flicxd2.com"
+        "flicxd2.com",
+        "https://raw.githubusercontent.com/security-research/web-automation-tools/main/enhanced_bypass.py"
     ],
     "references": [
         "https://app.any.run/tasks/dbccedd5-77ed-4ccc-937a-55c7d0b984ca",

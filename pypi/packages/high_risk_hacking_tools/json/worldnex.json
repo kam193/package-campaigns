@@ -5,8 +5,9 @@
     "description": "Open-source RAT controlled by Discord bot. Another variant of nexworld",
     "affected_versions": [
         "1.0.3",
-        "1.0.2"
+        "1.0.2",
+        "1.0.4"
     ],
     "campaign_assigned_at": "2025-08-25T09:24:59.353054+00:00",
-    "campaign_data_modified_at": "2025-08-25T09:24:59.353070+00:00"
+    "campaign_data_modified_at": "2025-08-25T11:19:43.571450+00:00"
 }
