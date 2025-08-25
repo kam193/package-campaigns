@@ -9,6 +9,7 @@
     ],
     "packages": [
         "aws-enumerate",
+        "enumeratiam",
         "iamenumer",
         "iamenumerate"
     ],

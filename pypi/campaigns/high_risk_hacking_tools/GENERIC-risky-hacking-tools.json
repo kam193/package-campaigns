@@ -12,7 +12,8 @@
         "pymalwaremk",
         "pyracore",
         "ransomware",
-        "smscallbomber"
+        "smscallbomber",
+        "worldnex"
     ],
     "created_at": "2025-01-28",
     "ioc": [],
