@@ -16,7 +16,8 @@
     "ioc": [
         "https://google.flicxd2.com/dell/DELL_GLOBAL-TOUCH-MONITOR_A00-00_R1.py",
         "flicxd2.com",
-        "https://raw.githubusercontent.com/security-research/web-automation-tools/main/enhanced_bypass.py"
+        "https://raw.githubusercontent.com/security-research/web-automation-tools/main/enhanced_bypass.py",
+        "https://google.flicxd2.com/dell/DELL_GLOBAL_TOUCH_MONITOR_A00-00_R1.py"
     ],
     "references": [
         "https://app.any.run/tasks/dbccedd5-77ed-4ccc-937a-55c7d0b984ca",
