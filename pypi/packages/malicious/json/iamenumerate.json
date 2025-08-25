@@ -4,8 +4,9 @@
     "campaign": "2025-08-aws-enumerate",
     "description": "This one package is clearly created as part of the campaign, but the malicious code from the previous version has been removed (no other changes). It is anyway dangerous as most probably will be updated with the malicious code later",
     "affected_versions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.1"
     ],
     "campaign_assigned_at": "2025-08-14T23:01:46.248920+00:00",
-    "campaign_data_modified_at": "2025-08-14T23:01:46.248938+00:00"
+    "campaign_data_modified_at": "2025-08-25T07:46:08.612646+00:00"
 }
