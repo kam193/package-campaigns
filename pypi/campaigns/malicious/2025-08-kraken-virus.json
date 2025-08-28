@@ -1,0 +1,20 @@
+{
+    "name": "2025-08-kraken-virus",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_generic",
+        "malware"
+    ],
+    "packages": [
+        "kraken-virus",
+        "krakenvirus"
+    ],
+    "created_at": "2025-08-28",
+    "ioc": [
+        "azure-monitor.org"
+    ],
+    "references": [],
+    "description": "As even described, the package contains a malicious code collecting large amount of data. The description suggests educational use, yet, the code can cause real harm. Specifically, the C2 servers defined in the package seems to be selected as trusted domains that would ignore the data sent. However, among them is at least one domain available for sale at the time of analysis - opening the room for collecting data by the uploader."
+}

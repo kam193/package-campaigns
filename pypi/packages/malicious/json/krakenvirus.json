@@ -1,0 +1,10 @@
+{
+    "name": "krakenvirus",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-kraken-virus",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-08-28T22:07:34.524471+00:00",
+    "campaign_data_modified_at": "2025-08-28T22:07:34.524487+00:00"
+}
