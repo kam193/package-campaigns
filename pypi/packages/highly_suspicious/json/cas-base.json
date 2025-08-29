@@ -2,6 +2,9 @@
     "name": "cas-base",
     "ecosystem": "pypi",
     "campaign": "2025-07-cas-base",
+    "affected_versions": [
+        "1.5.2"
+    ],
     "campaign_assigned_at": "2025-07-14T15:15:50.598392+00:00",
-    "campaign_data_modified_at": "2025-07-14T15:15:50.598403+00:00"
+    "campaign_data_modified_at": "2025-08-29T15:48:51.924476+00:00"
 }
