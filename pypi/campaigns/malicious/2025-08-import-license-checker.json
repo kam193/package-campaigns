@@ -6,7 +6,8 @@
         "basic_exfiltration"
     ],
     "packages": [
-        "import-license-checker"
+        "import-license-checker",
+        "license-checker"
     ],
     "created_at": "2025-08-26",
     "ioc": [
