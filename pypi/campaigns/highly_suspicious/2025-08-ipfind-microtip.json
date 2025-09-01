@@ -1,0 +1,17 @@
+{
+    "name": "2025-08-ipfind-microtip",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "ipfind-microtip"
+    ],
+    "created_at": "2025-09-01",
+    "ioc": [
+        "https://0x0.st/KHWv.txt"
+    ],
+    "references": [],
+    "description": "Highly obfuscated code with not entirely clear behaviour"
+}
