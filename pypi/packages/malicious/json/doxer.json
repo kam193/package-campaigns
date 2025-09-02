@@ -1,0 +1,10 @@
+{
+    "name": "doxer",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-doxer",
+    "affected_versions": [
+        "0.1"
+    ],
+    "campaign_assigned_at": "2025-09-02T09:19:49.897121+00:00",
+    "campaign_data_modified_at": "2025-09-02T09:19:49.897138+00:00"
+}
