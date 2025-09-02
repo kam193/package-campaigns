@@ -1,0 +1,10 @@
+{
+    "name": "trongithpy",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-09-02T13:48:41.135936+00:00",
+    "campaign_data_modified_at": "2025-09-02T13:48:41.135950+00:00"
+}
