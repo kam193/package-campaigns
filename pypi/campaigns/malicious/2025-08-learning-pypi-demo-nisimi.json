@@ -1,0 +1,19 @@
+{
+    "name": "2025-08-learning-pypi-demo-nisimi",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "revshell"
+    ],
+    "packages": [
+        "awesome-tools-collection",
+        "learning-pypi-demo-nisimi"
+    ],
+    "created_at": "2025-09-03",
+    "ioc": [
+        "xz0dyd944kh150h6d199w4lg379yx0lp.oastify.com"
+    ],
+    "references": [],
+    "description": "Installing packages exfiltrates data (different in different packages and versions) or run revshells"
+}
