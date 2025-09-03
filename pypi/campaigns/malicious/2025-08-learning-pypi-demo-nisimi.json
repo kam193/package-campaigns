@@ -8,11 +8,13 @@
     ],
     "packages": [
         "awesome-tools-collection",
+        "data-processing-utils",
         "learning-pypi-demo-nisimi"
     ],
     "created_at": "2025-09-03",
     "ioc": [
-        "xz0dyd944kh150h6d199w4lg379yx0lp.oastify.com"
+        "xz0dyd944kh150h6d199w4lg379yx0lp.oastify.com",
+        "v95b8bj2eirzfyr4nzj762ved5jw71vq.oastify.com"
     ],
     "references": [],
     "description": "Installing packages exfiltrates data (different in different packages and versions) or run revshells"
