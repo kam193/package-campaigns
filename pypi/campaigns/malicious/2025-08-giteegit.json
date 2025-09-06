@@ -1,0 +1,16 @@
+{
+    "name": "2025-08-giteegit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "giteegit"
+    ],
+    "created_at": "2025-09-06",
+    "ioc": [],
+    "references": [],
+    "description": "Package exfiltrates source code files to a telegram channel, while the description promises saving them to a git service"
+}
