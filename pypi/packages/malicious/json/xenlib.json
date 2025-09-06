@@ -1,0 +1,10 @@
+{
+    "name": "xenlib",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-xenlib",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2025-09-06T20:37:49.667081+00:00",
+    "campaign_data_modified_at": "2025-09-06T20:37:49.667095+00:00"
+}
