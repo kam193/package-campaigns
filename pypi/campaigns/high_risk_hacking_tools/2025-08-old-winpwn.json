@@ -1,0 +1,29 @@
+{
+    "name": "2025-08-old-winpwn",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "packages": [
+        "allpwn",
+        "anpwn",
+        "bypwn",
+        "iospwn",
+        "iotpwn",
+        "jitpwn",
+        "letpwn",
+        "macpwn",
+        "mypwn",
+        "ownpwn",
+        "padpwn",
+        "repwn",
+        "webpwn",
+        "wepwn",
+        "winpwn",
+        "wpwn",
+        "zepwn",
+        "zeropwn"
+    ],
+    "created_at": "2025-09-06",
+    "ioc": [],
+    "references": [],
+    "description": "Collection of tools designed to exploit Windows. They seem to act as legitimate pentesting tools, yet, the lack of clear description and duplicates may suggest malicious intentions."
+}

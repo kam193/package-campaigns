@@ -1,0 +1,10 @@
+{
+    "name": "iotpwn",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-old-winpwn",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-09-06T12:09:38.279081+00:00",
+    "campaign_data_modified_at": "2025-09-06T12:09:38.279102+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "zepwn",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-old-winpwn",
+    "affected_versions": [
+        "0.0.4"
+    ],
+    "campaign_assigned_at": "2025-09-06T12:09:59.056133+00:00",
+    "campaign_data_modified_at": "2025-09-06T12:09:59.056145+00:00"
+}
