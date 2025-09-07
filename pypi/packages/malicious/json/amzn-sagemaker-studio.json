@@ -1,0 +1,10 @@
+{
+    "name": "amzn-sagemaker-studio",
+    "ecosystem": "pypi",
+    "campaign": "2025-09-amzn-sagemaker-studio",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-09-07T16:39:45.132927+00:00",
+    "campaign_data_modified_at": "2025-09-07T16:39:45.132940+00:00"
+}

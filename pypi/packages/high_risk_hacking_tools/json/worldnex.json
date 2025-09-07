@@ -1,14 +1,16 @@
 {
     "name": "worldnex",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-risky-hacking-tools",
+    "campaign": "2025-08-nexworld",
     "description": "Open-source RAT controlled by Discord bot. Another variant of nexworld",
     "affected_versions": [
-        "1.0.3",
-        "1.0.2",
+        "1.0.7",
+        "1.0.6",
+        "1.0.5",
         "1.0.4",
-        "1.0.5"
+        "1.0.3",
+        "1.0.2"
     ],
-    "campaign_assigned_at": "2025-08-25T09:24:59.353054+00:00",
-    "campaign_data_modified_at": "2025-08-28T10:44:20.108086+00:00"
+    "campaign_assigned_at": "2025-09-07T17:10:59.210046+00:00",
+    "campaign_data_modified_at": "2025-09-07T17:10:59.210067+00:00"
 }

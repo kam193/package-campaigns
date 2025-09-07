@@ -1,0 +1,19 @@
+{
+    "name": "2025-09-amzn-sagemaker-studio",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "amzn-sagemaker-studio"
+    ],
+    "created_at": "2025-09-07",
+    "ioc": [
+        "https://gauss-security.com/poca.php",
+        "gauss-security.com"
+    ],
+    "references": [],
+    "description": "Package exfiltrates the environment variables during the import"
+}
