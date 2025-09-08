@@ -1,0 +1,10 @@
+{
+    "name": "kekovayalibka",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-xenlib",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2025-09-08T19:03:01.072200+00:00",
+    "campaign_data_modified_at": "2025-09-08T19:03:01.072217+00:00"
+}
