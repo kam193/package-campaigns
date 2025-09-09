@@ -1,0 +1,12 @@
+{
+    "name": "cti-ctf-challenges",
+    "ecosystem": "pypi",
+    "campaign": "2025-07-web3dummycti",
+    "affected_versions": [
+        "0.1.2",
+        "0.1.1",
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-09-09T17:40:01.964590+00:00",
+    "campaign_data_modified_at": "2025-09-09T17:40:01.964607+00:00"
+}
