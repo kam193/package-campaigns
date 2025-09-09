@@ -6,6 +6,7 @@
         "files_exfiltration"
     ],
     "packages": [
+        "fenomenallib",
         "kekovayalibka",
         "xenlib"
     ],
