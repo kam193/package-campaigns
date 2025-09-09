@@ -6,16 +6,19 @@
         "files_exfiltration"
     ],
     "packages": [
+        "denomenallib",
         "fenomenallib",
         "kekovayalibka",
-        "xenlib"
+        "xenlib",
+        "zenomenallib"
     ],
     "created_at": "2025-09-06",
     "ioc": [
         "xenx.lol",
         "http://api.xenx.lol:14880/ssteal",
-        "http://api.xenx.lol:1337/check"
+        "http://api.xenx.lol:1337/check",
+        "http://apis.xenx.lol:1337/check"
     ],
     "references": [],
-    "description": "Package is prepared to exfiltrate sensitive files"
+    "description": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script"
 }

@@ -1,0 +1,10 @@
+{
+    "name": "denomenallib",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-xenlib",
+    "affected_versions": [
+        "2.7.0"
+    ],
+    "campaign_assigned_at": "2025-09-09T21:20:09.373791+00:00",
+    "campaign_data_modified_at": "2025-09-09T21:20:09.373805+00:00"
+}
