@@ -1,0 +1,11 @@
+{
+    "name": "web3eth",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "This is the clone of web3 package. However, at the time of analysis, no code modification could be confirmed",
+    "affected_versions": [
+        "7.13.0"
+    ],
+    "campaign_assigned_at": "2025-09-10T12:40:46.805902+00:00",
+    "campaign_data_modified_at": "2025-09-10T12:40:46.805959+00:00"
+}
