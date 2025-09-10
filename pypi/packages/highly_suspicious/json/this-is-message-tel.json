@@ -1,0 +1,11 @@
+{
+    "name": "this-is-message-tel",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package contains just code for sending messages to a hardcoded Telegram channel and collecting information about the computer. Does not look to be used so anywhere so far",
+    "affected_versions": [
+        "0.4"
+    ],
+    "campaign_assigned_at": "2025-09-10T21:08:25.741919+00:00",
+    "campaign_data_modified_at": "2025-09-10T21:08:25.741995+00:00"
+}
