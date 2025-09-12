@@ -1,0 +1,10 @@
+{
+    "name": "tronkeypy",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-09-12T22:44:17.852447+00:00",
+    "campaign_data_modified_at": "2025-09-12T22:44:17.852463+00:00"
+}
