@@ -1,0 +1,17 @@
+{
+    "name": "2025-09-consolecolornew",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic",
+        "other"
+    ],
+    "packages": [
+        "consolecolornew"
+    ],
+    "created_at": "2025-09-12",
+    "ioc": [],
+    "references": [],
+    "description": "If used, the code attempts to take a photo using the computer's camera and exfiltrates it"
+}
