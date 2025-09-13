@@ -1,0 +1,15 @@
+{
+    "name": "2025-09-datetime-zones",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "datetime-zones"
+    ],
+    "created_at": "2025-09-13",
+    "ioc": [],
+    "references": [],
+    "description": "During import, environment variables are exfiltrated"
+}
