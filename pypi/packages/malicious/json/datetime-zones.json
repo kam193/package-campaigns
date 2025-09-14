@@ -4,8 +4,9 @@
     "campaign": "2025-09-datetime-zones",
     "affected_versions": [
         "0.2.0",
-        "0.1.0"
+        "0.1.0",
+        "2.3.9"
     ],
     "campaign_assigned_at": "2025-09-13T21:46:19.029019+00:00",
-    "campaign_data_modified_at": "2025-09-13T21:46:19.029053+00:00"
+    "campaign_data_modified_at": "2025-09-14T20:13:23.009578+00:00"
 }
