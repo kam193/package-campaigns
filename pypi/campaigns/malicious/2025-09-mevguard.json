@@ -1,0 +1,17 @@
+{
+    "name": "2025-09-mevguard",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic",
+        "obfuscation"
+    ],
+    "packages": [
+        "mevguard"
+    ],
+    "created_at": "2025-09-14",
+    "ioc": [],
+    "references": [],
+    "description": "The obfuscated code provides \"initialize_session\" function that exfiltrates the provided argument."
+}
