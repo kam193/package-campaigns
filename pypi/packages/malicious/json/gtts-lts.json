@@ -1,0 +1,17 @@
+{
+    "name": "gtts-lts",
+    "ecosystem": "pypi",
+    "campaign": "2025-09-gtts-lts",
+    "affected_versions": [
+        "2.5.8",
+        "2.5.7",
+        "2.5.6",
+        "2.5.5",
+        "2.5.4",
+        "2.5.3",
+        "2.5.2",
+        "2.5.1"
+    ],
+    "campaign_assigned_at": "2025-09-15T16:44:31.710800+00:00",
+    "campaign_data_modified_at": "2025-09-15T16:44:31.710838+00:00"
+}
