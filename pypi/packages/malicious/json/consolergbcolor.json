@@ -1,0 +1,10 @@
+{
+    "name": "consolergbcolor",
+    "ecosystem": "pypi",
+    "campaign": "2025-09-consolecolornew",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-09-15T21:10:55.162747+00:00",
+    "campaign_data_modified_at": "2025-09-15T21:10:55.162836+00:00"
+}

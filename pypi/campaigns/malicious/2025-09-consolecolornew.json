@@ -8,10 +8,13 @@
         "other"
     ],
     "packages": [
-        "consolecolornew"
+        "consolecolornew",
+        "consolergbcolor"
     ],
     "created_at": "2025-09-12",
-    "ioc": [],
+    "ioc": [
+        "https://pastebin.com/raw/qpfHsfvR"
+    ],
     "references": [],
     "description": "If used, the code attempts to take a photo using the computer's camera and exfiltrates it"
 }
