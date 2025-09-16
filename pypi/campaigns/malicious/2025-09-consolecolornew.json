@@ -9,7 +9,8 @@
     ],
     "packages": [
         "consolecolornew",
-        "consolergbcolor"
+        "consolergbcolor",
+        "terminalcolornew"
     ],
     "created_at": "2025-09-12",
     "ioc": [
