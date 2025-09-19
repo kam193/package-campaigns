@@ -1,0 +1,19 @@
+{
+    "name": "2025-09-suyo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer",
+        "infostealer:cstealer"
+    ],
+    "packages": [
+        "suyo"
+    ],
+    "created_at": "2025-09-19",
+    "ioc": [
+        "https://discord.com/api/webhooks/1416787330873688224/4PB-5IWwMalA9DM5aNtX2O1V1FhofPrA2HkcfBqrcPnSy-ue-s5xLi9jxaPpMAjup-5I"
+    ],
+    "references": [],
+    "description": "Package contains an infostealer and is clearly prepared for using it. Different versions present different variations, newer are based on CStealer. The exfiltration target is a hardcoded discord webhook"
+}
