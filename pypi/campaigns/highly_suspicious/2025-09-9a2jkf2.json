@@ -1,0 +1,15 @@
+{
+    "name": "2025-09-9a2jkf2",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "9a2jkf2"
+    ],
+    "created_at": "2025-09-20",
+    "ioc": [],
+    "references": [],
+    "description": "Obfuscated code of unclear usage. Functions look like providing some kind of translation, so most probably they can be used to further (de)obfuscate malicious content "
+}
