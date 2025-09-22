@@ -1,0 +1,10 @@
+{
+    "name": "final-osint",
+    "ecosystem": "pypi",
+    "campaign": "2025-09-final-osint",
+    "affected_versions": [
+        "2.0.0"
+    ],
+    "campaign_assigned_at": "2025-09-22T19:28:09.263590+00:00",
+    "campaign_data_modified_at": "2025-09-22T19:28:09.263616+00:00"
+}

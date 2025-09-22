@@ -1,0 +1,17 @@
+{
+    "name": "2025-09-final-osint",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer"
+    ],
+    "packages": [
+        "final-osint"
+    ],
+    "created_at": "2025-09-22",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts an infostealer exfiltrating e.g. browser data"
+}
