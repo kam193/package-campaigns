@@ -1,0 +1,21 @@
+{
+    "name": "2025-09-bloxypy",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_browser_data",
+        "infostealer",
+        "infostealer:kiwi",
+        "obfuscation"
+    ],
+    "packages": [
+        "bloxypy"
+    ],
+    "created_at": "2025-09-26",
+    "ioc": [
+        "https://discord.com/api/webhooks/1272911919686095030/YFEMYwnHMrm0g0TuWjMYY7eymWSr0Caq-npGXbI5dckduYI8EO7zjwdRq_47G0GP6K6l"
+    ],
+    "references": [],
+    "description": "Attempting to use the module starts obfuscated code containing an infostealer"
+}
