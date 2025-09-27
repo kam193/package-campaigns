@@ -1,0 +1,22 @@
+{
+    "name": "2025-09-soopsocks",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware"
+    ],
+    "packages": [
+        "soopsocks"
+    ],
+    "created_at": "2025-09-26",
+    "ioc": [
+        "https://discord.com/api/webhooks/1418298773330985154/_I7EzXpGMundYt8jCvlDdzi9INsBkBq7NSDM74iV0Y_flSzQZ5LxYP0lZtXFzHCkRtKR",
+        "http://install.soop.space:6969/download/py/pythonportable.zip",
+        "http://install.soop.space",
+        "soop.space"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/d1cb05c0e57ceb142a5e1117df4359a62df3a01f708561f4714e10e8f2af1f0d/detection"
+    ],
+    "description": "The package promise creating a SOCKS proxy and report the server to a Discord webhook. And indeed appears to do so, but the attached autorun service seems to be a malware"
+}

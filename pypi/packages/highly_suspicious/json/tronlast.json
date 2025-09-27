@@ -1,0 +1,10 @@
+{
+    "name": "tronlast",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-09-26T23:50:49.789641+00:00",
+    "campaign_data_modified_at": "2025-09-26T23:50:49.789663+00:00"
+}
