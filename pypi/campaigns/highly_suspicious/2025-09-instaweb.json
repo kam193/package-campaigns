@@ -6,7 +6,8 @@
         "obfuscation"
     ],
     "packages": [
-        "instaweb"
+        "instaweb",
+        "tikweb"
     ],
     "created_at": "2025-09-27",
     "ioc": [],

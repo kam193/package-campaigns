@@ -1,0 +1,20 @@
+{
+    "name": "2025-10-regixtest",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "malware",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "regixtest"
+    ],
+    "created_at": "2025-10-01",
+    "ioc": [
+        "cxojh-118-179-99-2.a.free.pinggy.link"
+    ],
+    "references": [],
+    "description": "Obfuscated code contains e.g. capabilities for downloading and executing code from a hardcoded location. It's also recognized as malware"
+}
