@@ -1,5 +1,9 @@
 {
     "name": "heroku-tl-new",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky"
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.7.2"
+    ],
+    "campaign_data_modified_at": "2025-10-02T21:28:30.071417+00:00"
 }
