@@ -16,7 +16,8 @@
         "soop.space"
     ],
     "references": [
-        "https://www.virustotal.com/gui/file/d1cb05c0e57ceb142a5e1117df4359a62df3a01f708561f4714e10e8f2af1f0d/detection"
+        "https://www.virustotal.com/gui/file/d1cb05c0e57ceb142a5e1117df4359a62df3a01f708561f4714e10e8f2af1f0d/detection",
+        "https://research.jfrog.com/post/check-your-socks-a-deep-dive-into-soopsocks-pypi/"
     ],
     "description": "The package promise creating a SOCKS proxy and report the server to a Discord webhook. And indeed appears to do so, but the attached autorun service seems to be a malware"
 }
