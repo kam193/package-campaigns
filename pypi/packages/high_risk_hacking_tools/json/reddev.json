@@ -1,0 +1,10 @@
+{
+    "name": "reddev",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-10-04T20:25:35.282188+00:00",
+    "campaign_data_modified_at": "2025-10-04T20:25:35.282224+00:00"
+}
