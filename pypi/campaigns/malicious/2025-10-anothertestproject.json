@@ -1,0 +1,20 @@
+{
+    "name": "2025-10-anothertestproject",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware"
+    ],
+    "packages": [
+        "anothertestproject"
+    ],
+    "created_at": "2025-10-08",
+    "ioc": [
+        "178.16.53.35"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/0f31bf98a98921654ae8df0b4a37b6f718e16d708477452de785a73316174ba1/detection"
+    ],
+    "description": "Package contains a malicious executable and a function to start it. The executable is detected by AV and appears to be an infostealer"
+}
