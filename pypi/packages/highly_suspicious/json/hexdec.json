@@ -1,0 +1,10 @@
+{
+    "name": "hexdec",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-10-10T19:24:42.956921+00:00",
+    "campaign_data_modified_at": "2025-10-10T19:24:42.956938+00:00"
+}
