@@ -1,0 +1,20 @@
+{
+    "name": "2025-10-python3-6",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "python3-6"
+    ],
+    "created_at": "2025-10-10",
+    "ioc": [
+        "144.172.116.56",
+        "# resolved to 77.88.55.242 -> used as encryption key",
+        "romsbamgel470.giize.com"
+    ],
+    "references": [],
+    "description": "During installation, the obfuscated code is run and connect with a remote server. In the current version, the code just opens a URL without exfiltrating any data. However, the high obfuscation level, including using an IP as the encryption key, makes the intentions unclear "
+}
