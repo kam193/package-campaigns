@@ -1,0 +1,10 @@
+{
+    "name": "mcp-runcommand-server2",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-mcp-runcommand-server",
+    "affected_versions": [
+        "1.0.6"
+    ],
+    "campaign_assigned_at": "2025-10-10T10:05:56.622443+00:00",
+    "campaign_data_modified_at": "2025-10-10T10:05:56.622459+00:00"
+}
