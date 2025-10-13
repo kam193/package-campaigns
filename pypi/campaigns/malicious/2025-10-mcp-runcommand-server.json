@@ -6,6 +6,7 @@
         "revshell"
     ],
     "packages": [
+        "mcp-runcmd-server",
         "mcp-runcommand-server",
         "mcp-runcommand-server2"
     ],
