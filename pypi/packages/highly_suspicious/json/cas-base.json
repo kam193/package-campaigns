@@ -4,8 +4,10 @@
     "campaign": "2025-07-cas-base",
     "affected_versions": [
         "1.5.2",
-        "1.5.3"
+        "1.5.3",
+        "1.5.5",
+        "1.5.6"
     ],
     "campaign_assigned_at": "2025-07-14T15:15:50.598392+00:00",
-    "campaign_data_modified_at": "2025-09-22T13:47:10.633002+00:00"
+    "campaign_data_modified_at": "2025-10-14T20:24:57.555895+00:00"
 }
