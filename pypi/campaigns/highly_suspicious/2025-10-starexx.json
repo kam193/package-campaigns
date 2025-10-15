@@ -1,0 +1,17 @@
+{
+    "name": "2025-10-starexx",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "remote_script"
+    ],
+    "packages": [
+        "starexx"
+    ],
+    "created_at": "2025-10-15",
+    "ioc": [
+        "starexxx.vercel.app"
+    ],
+    "references": [],
+    "description": "The package seems to be hiding the potentially malicious possibility to download and execute remote code from a pre-defined host, but requires a specific key to do so. The relevant Github repository seems to host only versions without the remote code execution."
+}

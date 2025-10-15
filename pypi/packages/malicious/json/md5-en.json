@@ -1,0 +1,11 @@
+{
+    "name": "md5-en",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-md5-en",
+    "affected_versions": [
+        "0.2.0",
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-10-15T20:24:59.018632+00:00",
+    "campaign_data_modified_at": "2025-10-15T20:24:59.018650+00:00"
+}
