@@ -1,0 +1,17 @@
+{
+    "name": "2025-10-makronlox",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "makronlox"
+    ],
+    "created_at": "2025-10-16",
+    "ioc": [
+        "https://www.dropbox.com/scl/fi/19qqc7egp8py7t7ov659m/123.exe?rlkey=oc0nbftrgxo4avtee5grwbmqi&st=8q0bp98n&dl=1"
+    ],
+    "references": [],
+    "description": "Package automatically download and runs an executable, which then imitates a malicious action and requests ransom payment."
+}
