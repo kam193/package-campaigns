@@ -1,0 +1,11 @@
+{
+    "name": "yelp-pkg",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "description": "During import, the package attempts to exfiltrate potentially sensitive data.",
+    "affected_versions": [
+        "1337.0.0"
+    ],
+    "campaign_assigned_at": "2025-10-20T11:58:32.224472+00:00",
+    "campaign_data_modified_at": "2025-10-20T11:58:32.224488+00:00"
+}
