@@ -1,0 +1,10 @@
+{
+    "name": "installyoura",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-installyoura",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-10-21T16:26:35.150612+00:00",
+    "campaign_data_modified_at": "2025-10-21T16:26:35.150630+00:00"
+}
