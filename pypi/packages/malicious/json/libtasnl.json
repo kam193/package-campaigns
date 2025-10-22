@@ -1,0 +1,10 @@
+{
+    "name": "libtasnl",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "1337.0.0"
+    ],
+    "campaign_assigned_at": "2025-10-22T12:26:36.131652+00:00",
+    "campaign_data_modified_at": "2025-10-22T12:26:36.131668+00:00"
+}
