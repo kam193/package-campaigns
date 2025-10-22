@@ -1,0 +1,20 @@
+{
+    "name": "2025-10-smart-scheduler",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation",
+        "remote_executable",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "smart-scheduler"
+    ],
+    "created_at": "2025-10-22",
+    "ioc": [
+        "https://209.182.225.140/svc_host.exe"
+    ],
+    "references": [],
+    "description": "Package downloads and starts a malicious executable and hides its existence  "
+}
