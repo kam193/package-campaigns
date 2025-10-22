@@ -1,0 +1,18 @@
+{
+    "name": "2025-10-requests-os",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "backdoor",
+        "exfiltration_generic",
+        "typosquatting"
+    ],
+    "packages": [
+        "requests-os"
+    ],
+    "created_at": "2025-10-22",
+    "ioc": [],
+    "references": [],
+    "description": "Package contains capabilities for remote control of the user's computer and exfiltrating data"
+}
