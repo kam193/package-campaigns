@@ -1,0 +1,16 @@
+{
+    "name": "2025-10-imad213insta",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "imad213insta",
+        "rsa2026"
+    ],
+    "created_at": "2025-10-23",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains obfuscated code, that seems to provide the expected functionality by sending Instagram sessions to some shady services. This is a new edition of the 2025-07-imad213tools campaign, without obviously malicious content, but still extremely risky."
+}

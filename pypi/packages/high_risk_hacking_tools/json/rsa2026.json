@@ -1,0 +1,10 @@
+{
+    "name": "rsa2026",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-imad213insta",
+    "affected_versions": [
+        "213.9"
+    ],
+    "campaign_assigned_at": "2025-10-23T20:51:29.215690+00:00",
+    "campaign_data_modified_at": "2025-10-23T20:51:29.215725+00:00"
+}
