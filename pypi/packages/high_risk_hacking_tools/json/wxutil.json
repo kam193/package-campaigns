@@ -1,0 +1,18 @@
+{
+    "name": "wxutil",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "description": "Package appears to perform local extraction and decryption of the WeChat data. The code suggest it's rather intended for the legit usage, but can be abused",
+    "affected_versions": [
+        "0.0.8",
+        "0.0.7",
+        "0.0.6",
+        "0.0.5",
+        "0.0.4",
+        "0.0.3",
+        "0.0.2",
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-10-24T10:53:06.420048+00:00",
+    "campaign_data_modified_at": "2025-10-24T10:53:06.420078+00:00"
+}
