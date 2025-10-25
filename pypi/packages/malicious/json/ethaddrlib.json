@@ -1,0 +1,11 @@
+{
+    "name": "ethaddrlib",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-ethaddrlib",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-10-25T09:03:01.750998+00:00",
+    "campaign_data_modified_at": "2025-10-25T09:03:01.751015+00:00"
+}

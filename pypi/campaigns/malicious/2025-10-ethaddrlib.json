@@ -1,0 +1,19 @@
+{
+    "name": "2025-10-ethaddrlib",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "ethaddrlib"
+    ],
+    "created_at": "2025-10-25",
+    "ioc": [
+        "http://95.216.98.237:8000/_validate_mnemonic",
+        "95.216.98.237"
+    ],
+    "references": [],
+    "description": "Package claims to validate mnemonic, a sensitive part of cryptocurrency system. The responsible functions, however, send given data to a remote service, and not even process the response. Thus, the only functionality is exfiltrating sensitive data."
+}
