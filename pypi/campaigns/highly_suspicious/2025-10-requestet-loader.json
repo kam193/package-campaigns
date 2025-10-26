@@ -1,0 +1,15 @@
+{
+    "name": "2025-10-requestet-loader",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "remote_script"
+    ],
+    "packages": [
+        "requestet-loader"
+    ],
+    "created_at": "2025-10-26",
+    "ioc": [],
+    "references": [],
+    "description": "Package designed to execute code from pastebin. While there is no known usage, such code is typically used to load next malware stage."
+}
