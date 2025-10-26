@@ -1,0 +1,10 @@
+{
+    "name": "syschecker",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-windowsrequir",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-10-26T19:28:00.829766+00:00",
+    "campaign_data_modified_at": "2025-10-26T19:28:00.829784+00:00"
+}

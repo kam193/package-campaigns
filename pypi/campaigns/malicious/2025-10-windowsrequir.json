@@ -1,0 +1,23 @@
+{
+    "name": "2025-10-windowsrequir",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "malware",
+        "remote_script"
+    ],
+    "packages": [
+        "syschecker",
+        "windowsrequir"
+    ],
+    "created_at": "2025-10-26",
+    "ioc": [
+        "http://stellar-conquest.fr/launcher.bat",
+        "stellar-conquest.fr"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/7b54915ac4e6d820bec7782cb02adb0d9ef7a3e9532a7e45d9e29bb220f3d079/detection"
+    ],
+    "description": "Package downloads and runs an obfuscated bat file, which executes malicious activity according to VirusTotal results."
+}

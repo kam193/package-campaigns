@@ -1,0 +1,10 @@
+{
+    "name": "windowsrequir",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-windowsrequir",
+    "affected_versions": [
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2025-10-26T19:27:04.084715+00:00",
+    "campaign_data_modified_at": "2025-10-26T19:27:04.084772+00:00"
+}
