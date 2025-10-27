@@ -1,0 +1,11 @@
+{
+    "name": "aiohappyeyeball",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-asynhttp",
+    "description": "Malicious copy of the legit aiohappyeyeballs package, the __pycache__/staggerd.pyc contains a suspicious binary content (which seems not to be a valid PYC) ",
+    "affected_versions": [
+        "2.6.1"
+    ],
+    "campaign_assigned_at": "2025-10-27T13:53:33.468086+00:00",
+    "campaign_data_modified_at": "2025-10-27T13:53:33.468102+00:00"
+}
