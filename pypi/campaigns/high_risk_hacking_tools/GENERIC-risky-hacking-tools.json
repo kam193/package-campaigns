@@ -5,6 +5,7 @@
     "packages": [
         "adscan",
         "doree",
+        "greedos",
         "hellflood",
         "ihack",
         "instahack-cli",
