@@ -17,6 +17,8 @@
     ],
     "created_at": "2025-10-22",
     "ioc": [],
-    "references": [],
-    "description": "Malicious copy of the legit aiohttp package, with an added hidden code that overwrites some parts of installed packages."
+    "references": [
+        "https://www.cert.at/en/blog/2025/10/how-typosquatting-tricked-me-a-bit"
+    ],
+    "description": "Packages silently decrypt content hidden in a dependency and load them as Python extension modules. Those are copies of legitim aiohttp and aiohappyeyeballs packages"
 }

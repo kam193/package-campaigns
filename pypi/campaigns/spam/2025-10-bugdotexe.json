@@ -7,6 +7,10 @@
     ],
     "packages": [
         "algorithmic-efficiency",
+        "cuda-cudart-linux-64",
+        "cuda-opencl",
+        "cuda-version",
+        "cyrus-sasl",
         "glib-tools",
         "libclang13",
         "libcups",
@@ -21,7 +25,8 @@
         "libnpp",
         "libnvfatbin",
         "libnvjitlink",
-        "libpq"
+        "libpq",
+        "ocl-icd"
     ],
     "created_at": "2025-10-29",
     "ioc": [

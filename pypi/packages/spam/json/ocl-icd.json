@@ -1,0 +1,11 @@
+{
+    "name": "ocl-icd",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "10.0.0",
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:11:03.119946+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:11:03.119964+00:00"
+}

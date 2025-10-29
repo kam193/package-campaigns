@@ -1,0 +1,10 @@
+{
+    "name": "cyrus-sasl",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:10:40.211187+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:10:40.211204+00:00"
+}

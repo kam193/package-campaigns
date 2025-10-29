@@ -1,0 +1,11 @@
+{
+    "name": "kingwork-test",
+    "ecosystem": "pypi",
+    "campaign": "2025-02-coinanalyze",
+    "description": "The package contains the same code to deobfuscate code as in previous packages, but the malicious code itself is missing",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:18:38.759601+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:18:38.759615+00:00"
+}
