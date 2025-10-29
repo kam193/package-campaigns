@@ -1,0 +1,10 @@
+{
+    "name": "libllvm14",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:08:05.898545+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:08:05.898563+00:00"
+}

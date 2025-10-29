@@ -1,0 +1,10 @@
+{
+    "name": "algorithmic-efficiency",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:09:03.797781+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:09:03.797806+00:00"
+}

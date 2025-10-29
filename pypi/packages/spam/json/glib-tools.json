@@ -1,0 +1,10 @@
+{
+    "name": "glib-tools",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:08:40.490280+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:08:40.490312+00:00"
+}

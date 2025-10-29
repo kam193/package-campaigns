@@ -1,0 +1,10 @@
+{
+    "name": "libnvfatbin",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2025-10-29T22:04:14.173183+00:00",
+    "campaign_data_modified_at": "2025-10-29T22:04:14.173227+00:00"
+}

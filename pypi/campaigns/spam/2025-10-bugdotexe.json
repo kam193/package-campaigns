@@ -1,0 +1,32 @@
+{
+    "name": "2025-10-bugdotexe",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "dependency-confusion"
+    ],
+    "packages": [
+        "algorithmic-efficiency",
+        "glib-tools",
+        "libclang13",
+        "libcups",
+        "libcusolver",
+        "libcusparse",
+        "libedit",
+        "libgfortran5",
+        "libglib",
+        "libidn2",
+        "libjpeg-turbo",
+        "libllvm14",
+        "libnpp",
+        "libnvfatbin",
+        "libnvjitlink",
+        "libpq"
+    ],
+    "created_at": "2025-10-29",
+    "ioc": [
+        "bugdotexe@wearehackerone.com"
+    ],
+    "references": [],
+    "description": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research."
+}
