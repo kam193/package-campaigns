@@ -3,8 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-10-bugdotexe",
     "affected_versions": [
-        "2.3.2"
+        "2.3.2",
+        "12.4"
     ],
     "campaign_assigned_at": "2025-10-29T22:10:19.055142+00:00",
-    "campaign_data_modified_at": "2025-10-29T22:10:19.055215+00:00"
+    "campaign_data_modified_at": "2025-10-30T07:14:26.433540+00:00"
 }
