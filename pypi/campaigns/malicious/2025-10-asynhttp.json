@@ -20,5 +20,5 @@
     "references": [
         "https://www.cert.at/en/blog/2025/10/how-typosquatting-tricked-me-a-bit"
     ],
-    "description": "Packages silently decrypt content hidden in a dependency and load them as Python extension modules. Those are copies of legitim aiohttp and aiohappyeyeballs packages"
+    "description": "Packages silently decrypt content hidden in a dependency and load them as Python extension modules. \n\nIn the first wave, those are copies of legitimate aiohttp and aiohappyeyeballs packages.\nIn the second wave, malicious packages created good-looking forks of legitimate rich and pigments packages."
 }
