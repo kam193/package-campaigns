@@ -1,0 +1,10 @@
+{
+    "name": "speed-testing-nt",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "affected_versions": [
+        "0.2"
+    ],
+    "campaign_assigned_at": "2025-10-31T00:13:41.197175+00:00",
+    "campaign_data_modified_at": "2025-10-31T00:13:41.197201+00:00"
+}
