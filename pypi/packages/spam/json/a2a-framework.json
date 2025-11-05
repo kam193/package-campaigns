@@ -1,0 +1,10 @@
+{
+    "name": "a2a-framework",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-bugdotexe",
+    "affected_versions": [
+        "99.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-05T17:05:27.376117+00:00",
+    "campaign_data_modified_at": "2025-11-05T17:05:27.376145+00:00"
+}

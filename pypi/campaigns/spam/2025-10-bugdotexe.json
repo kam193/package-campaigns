@@ -6,6 +6,7 @@
         "dependency-confusion"
     ],
     "packages": [
+        "a2a-framework",
         "algorithmic-efficiency",
         "cuda-cudart-linux-64",
         "cuda-opencl",
