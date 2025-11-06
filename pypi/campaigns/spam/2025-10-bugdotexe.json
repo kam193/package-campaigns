@@ -8,6 +8,7 @@
     "packages": [
         "a2a-framework",
         "algorithmic-efficiency",
+        "azure-ai-healthcheck",
         "cuda-cudart-linux-64",
         "cuda-opencl",
         "cuda-version",
