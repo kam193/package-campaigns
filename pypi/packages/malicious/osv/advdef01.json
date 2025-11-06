@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/SCRIPT_KIDDIE-thegoodhacker-paquete/advdef01",
+    "published": "2024-08-05T22:25:51Z",
+    "modified": "2024-08-05T22:25:51Z",
+    "summary": "Malicious code in advdef01 (pypi)",
+    "details": "Package uses the template from https://github.com/thegoodhackertv/malpip to explore building malicious PyPI packages.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: SCRIPT_KIDDIE-thegoodhacker-paquete\nReasons (based on the campaign):\n - {'theme': 'warning', 'description': 'The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.'}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {'theme': 'warning', 'description': 'Package uses simple pre-prepared tools to create a low-quality malicious action.'}",
+    "affected": {
+        "package": {
+            "name": "advdef01",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/advdef01"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/thegoodhackertv/malpip"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

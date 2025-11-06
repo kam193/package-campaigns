@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/duvet-love-odyssey/Discord-EmbedBuilder",
+    "published": "2024-07-06T17:16:40Z",
+    "modified": "2024-07-06T17:16:40Z",
+    "summary": "Malicious code in Discord-EmbedBuilder (pypi)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: duvet-love-odyssey\nReasons (based on the campaign):\n - {}",
+    "affected": {
+        "package": {
+            "name": "Discord-EmbedBuilder",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/Discord-EmbedBuilder"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

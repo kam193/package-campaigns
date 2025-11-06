@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-06-sales-data-report-2024-q2-honeypot/sales-data-report-2024-q2-honeypot",
+    "published": "2025-06-19T17:43:00Z",
+    "modified": "2025-06-19T17:43:00Z",
+    "summary": "Spam code in sales-data-report-2024-q2-honeypot (pypi)",
+    "details": "The package just links to a honeypot URL in the description, under the link is really a GIF.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-06-sales-data-report-2024-q2-honeypot\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "sales-data-report-2024-q2-honeypot",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/sales-data-report-2024-q2-honeypot"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

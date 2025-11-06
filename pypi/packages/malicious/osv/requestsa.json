@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-01-rqsts/requestsa",
+    "published": "2025-01-25T16:53:01Z",
+    "modified": "2025-01-25T16:53:01Z",
+    "summary": "Malicious code in requestsa (pypi)",
+    "details": "Clone of the requests package that modified the code to send all get and post requests to a hardcoded URL\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-rqsts \nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "requestsa",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/requestsa"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

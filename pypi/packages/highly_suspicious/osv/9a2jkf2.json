@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-09-9a2jkf2/9a2jkf2",
+    "published": "2025-09-20T17:58:36.470496+00:00",
+    "modified": "2025-09-20T17:58:36.470575+00:00",
+    "summary": "Highly suspicious code in 9a2jkf2 (pypi)",
+    "details": "Obfuscated code of unclear usage. Functions look like providing some kind of translation, so most probably they can be used to further (de)obfuscate malicious content \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-09-9a2jkf2\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "affected": {
+        "package": {
+            "name": "9a2jkf2",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.0.1"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/9a2jkf2"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

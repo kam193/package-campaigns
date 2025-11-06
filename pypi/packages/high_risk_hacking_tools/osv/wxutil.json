@@ -1,0 +1,44 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-risky-hacking-tools/wxutil",
+    "published": "2025-10-24T10:53:06.420048+00:00",
+    "modified": "2025-10-29T10:38:27.738923+00:00",
+    "summary": "Malicious code in wxutil (pypi)",
+    "details": "Package appears to perform local extraction and decryption of the WeChat data. The code suggest it's rather intended for the legit usage, but can be abused\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "wxutil",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.0.8",
+            "0.0.7",
+            "0.0.6",
+            "0.0.5",
+            "0.0.4",
+            "0.0.3",
+            "0.0.2",
+            "0.0.1",
+            "0.0.9",
+            "0.0.10",
+            "0.0.11",
+            "0.0.12",
+            "0.0.13"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/wxutil"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

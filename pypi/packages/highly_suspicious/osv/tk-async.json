@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-06-tk-async/tk-async",
+    "published": "2025-06-22T07:50:26Z",
+    "modified": "2025-06-22T07:50:26Z",
+    "summary": "Highly suspicious code in tk-async (pypi)",
+    "details": "Package has a very limited functionality, but contains an encrypted 7zip archive camouflaged as \"__init__\". The content is not malicious.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-tk-async\nReasons (based on the campaign):\n - {}",
+    "affected": {
+        "package": {
+            "name": "tk-async",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/tk-async"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

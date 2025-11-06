@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2024-10-old-mytestlib-tkp/mytestlib-tkp",
+    "published": "2024-10-27T12:59:15Z",
+    "modified": "2024-10-27T12:59:15Z",
+    "summary": "Spam code in mytestlib-tkp (pypi)",
+    "details": "Package has no real functionality, but the given homepage URL is a Slack webhook\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2024-10-old-mytestlib-tkp\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "mytestlib-tkp",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/mytestlib-tkp"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

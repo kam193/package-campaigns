@@ -1,0 +1,33 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-10-bugdotexe/libcusparse",
+    "published": "2025-10-29T22:06:24.323789+00:00",
+    "modified": "2025-10-30T07:20:28.419897+00:00",
+    "summary": "Spam code in libcusparse (pypi)",
+    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - {}",
+    "affected": {
+        "package": {
+            "name": "libcusparse",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "2.3.2",
+            "11.7.5.86"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/libcusparse"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

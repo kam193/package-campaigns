@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-05-sl4x01/document-inference",
+    "published": "2025-05-10T17:59:53Z",
+    "modified": "2025-05-10T17:59:53Z",
+    "summary": "Malicious code in document-inference (pypi)",
+    "details": "Packages that seem to be created by a legit bug bounty hunter. Designed to look like created by different organisations, they contain a couple of data exfiltration (including all env variables) and potential remote code execution (though the URL seems not to serve any code).\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-sl4x01\nReasons (based on the campaign):\n - {'theme': 'warning', 'description': 'The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.'}\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "document-inference",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/document-inference"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/sl4x0"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

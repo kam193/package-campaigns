@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-08-kraken-virus/kraken-virus",
+    "published": "2025-08-28T22:26:27.397121+00:00",
+    "modified": "2025-08-28T22:26:27.397147+00:00",
+    "summary": "Malicious code in kraken-virus (pypi)",
+    "details": "As even described, the package contains a malicious code collecting large amount of data. The description suggests educational use, yet, the code can cause real harm. Specifically, the C2 servers defined in the package seems to be selected as trusted domains that would ignore the data sent. However, among them is at least one domain available for sale at the time of analysis - opening the room for collecting data by the uploader.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-kraken-virus\nReasons (based on the campaign):\n - {}\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "kraken-virus",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.1.0"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/kraken-virus"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

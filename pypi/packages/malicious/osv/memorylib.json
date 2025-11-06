@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-07-memlib/memorylib",
+    "published": "2025-07-16T19:47:52.209242+00:00",
+    "modified": "2025-07-16T19:47:52.209251+00:00",
+    "summary": "Malicious code in memorylib (pypi)",
+    "details": "Installing the package triggers a code that looks like downloading a picture, but in fact downloads and starts an executable with malware. Note that file supplied from the URL differs depending on the presence of the special header\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-memlib\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "affected": {
+        "package": {
+            "name": "memorylib",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/memorylib"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/0fc1e062c521184f7e0c9f23dfdeb5431414e35cb55886e87c5ff5ec92ff4603"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

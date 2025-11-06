@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2024-12-tool-pyinfosfinder/pyinfosfinder",
+    "published": "2024-12-04T21:34:18Z",
+    "modified": "2024-12-04T21:34:18Z",
+    "summary": "Malicious code in pyinfosfinder (pypi)",
+    "details": "Apparently, a tool to build infostealers. Their description is highly discouraging unethical usage, but the tool looks still suspicious.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2024-12-tool-pyinfosfinder\nReasons (based on the campaign):\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "pyinfosfinder",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyinfosfinder"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/EuroMH/PyMalWare"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-05-solana-token/dexscreener-charts",
+    "published": "2025-05-16T10:41:32Z",
+    "modified": "2025-05-16T10:41:32Z",
+    "summary": "Malicious code in dexscreener-charts (pypi)",
+    "details": "Code exfiltrates the current python code and/or IPythonshell history\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-solana-token\nReasons (based on the campaign):\n - {}\n - {}\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "dexscreener-charts",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/dexscreener-charts"
+        },
+        {
+            "type": "WEB",
+            "url": "https://thehackernews.com/2025/05/malicious-pypi-package-posing-as-solana.html"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

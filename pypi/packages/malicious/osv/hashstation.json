@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-08-kertash/hashstation",
+    "published": "2025-08-20T16:17:59.371441+00:00",
+    "modified": "2025-08-20T16:17:59.371464+00:00",
+    "summary": "Malicious code in hashstation (pypi)",
+    "details": "When using methods from the package, it downloads an obfuscated code from Github and puts it in multiple localisation. While it appears that this code is used to perform action user requested, deobfuscation reveals exfiltrating user's data instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-kertash\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'A Telegram webhook is used to send collected data.'}\n - {'theme': 'warning'}\n - {}",
+    "affected": {
+        "package": {
+            "name": "hashstation",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.1.1"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hashstation"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

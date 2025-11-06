@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-07-jsonreq-ase/bh-usa-req-ase",
+    "published": "2025-08-02T18:41:14.283153+00:00",
+    "modified": "2025-08-02T18:41:14.283168+00:00",
+    "summary": "Malicious code in bh-usa-req-ase (pypi)",
+    "details": "If run, the package exfiltrates AWS credentials. Though it's described as test, the exfiltration really happens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-jsonreq-ase\nReasons (based on the campaign):\n - exfiltration_credentials",
+    "affected": {
+        "package": {
+            "name": "bh-usa-req-ase",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bh-usa-req-ase"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

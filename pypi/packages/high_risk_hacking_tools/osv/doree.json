@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-risky-hacking-tools/doree",
+    "published": "2025-09-09T16:59:25.975051+00:00",
+    "modified": "2025-09-09T16:59:25.975067+00:00",
+    "summary": "Malicious code in doree (pypi)",
+    "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "doree",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.3.0",
+            "0.2.0",
+            "0.1.0"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/doree"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

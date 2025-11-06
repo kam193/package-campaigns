@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2024-12-tonki/fgh",
+    "published": "2024-12-30T17:59:01Z",
+    "modified": "2024-12-30T17:59:01Z",
+    "summary": "Highly suspicious code in fgh (pypi)",
+    "details": "Package suggest assisting by smart contracts, but the only feature is asking for a secure phrase and sending it to the author. The package itself looks not attractive enough to be malicious alone, but at the moment the full scenario isn't known.\n\nHowever, creating a few similar packages and the random users name looks enough suspicious to assume the malicious intention. \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-12-tonki\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'A Telegram webhook is used to send collected data.'}\n - {}",
+    "affected": {
+        "package": {
+            "name": "fgh",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/fgh"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

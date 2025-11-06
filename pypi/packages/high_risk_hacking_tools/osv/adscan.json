@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-risky-hacking-tools/adscan",
+    "published": "2025-01-28T22:18:07Z",
+    "modified": "2025-08-20T10:06:47.663573+00:00",
+    "summary": "Malicious code in adscan (pypi)",
+    "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "adscan",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "2.1.2"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/adscan"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

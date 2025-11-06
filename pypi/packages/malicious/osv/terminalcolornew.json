@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-09-consolecolornew/terminalcolornew",
+    "published": "2025-09-16T15:02:38.067202+00:00",
+    "modified": "2025-09-16T15:02:38.067218+00:00",
+    "summary": "Malicious code in terminalcolornew (pypi)",
+    "details": "If used, the code attempts to take a photo using the computer's camera and exfiltrates it\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-09-consolecolornew\nReasons (based on the campaign):\n - {}\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "terminalcolornew",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.0.3",
+            "0.0.2",
+            "0.0.1"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/terminalcolornew"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

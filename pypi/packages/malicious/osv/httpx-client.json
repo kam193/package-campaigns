@@ -1,0 +1,38 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-03-httpx-client/httpx-client",
+    "published": "2025-03-17T21:47:06Z",
+    "modified": "2025-03-17T21:47:06Z",
+    "summary": "Malicious code in httpx-client (pypi)",
+    "details": "Importing the module starts downloading and executing first a script, and then a widely identified malware\n\nPackages are used as dependencies in a GitHub project https://github.com/ToolParadiseDrako/Nuker-Tool-Paradise\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-httpx-client\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {'description': 'Downloads and executes a remote malicious script.'}\n - {}",
+    "affected": {
+        "package": {
+            "name": "httpx-client",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/httpx-client"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/08a2072bf8e155457afe84d61a9d2e077183b7b8413c9c601c9cf30454c2f4a0"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/250316-s2sj2sxmx7"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

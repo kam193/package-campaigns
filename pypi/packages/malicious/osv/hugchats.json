@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2024-07-adfboba/hugchats",
+    "published": "2024-07-09T18:52:06Z",
+    "modified": "2024-07-09T18:52:06Z",
+    "summary": "Malicious code in hugchats (pypi)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-adfboba\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "hugchats",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hugchats"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

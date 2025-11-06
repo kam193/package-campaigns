@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-07-hahabott/hahabott",
+    "published": "2025-07-19T22:11:31.498298+00:00",
+    "modified": "2025-07-19T22:11:31.498312+00:00",
+    "summary": "Malicious code in hahabott (pypi)",
+    "details": "If run as module, it attempts to automatically destroy user's and system's files. Some versions also exfiltrate them.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-hahabott\nReasons (based on the campaign):\n - {}\n - destructive-actions",
+    "affected": {
+        "package": {
+            "name": "hahabott",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hahabott"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

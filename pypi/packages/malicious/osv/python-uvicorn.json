@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-07-python-uvicorn/python-uvicorn",
+    "published": "2025-07-16T19:16:51.353908+00:00",
+    "modified": "2025-07-16T19:16:51.353960+00:00",
+    "summary": "Malicious code in python-uvicorn (pypi)",
+    "details": "Malicious copy of uvicorn package with added healthcheck endpoint that exfiltrates application settings/env vars \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-python-uvicorn\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {}",
+    "affected": {
+        "package": {
+            "name": "python-uvicorn",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/python-uvicorn"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

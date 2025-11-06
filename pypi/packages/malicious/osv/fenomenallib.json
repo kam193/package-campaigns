@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-08-xenlib/fenomenallib",
+    "published": "2025-09-09T19:19:56.076952+00:00",
+    "modified": "2025-09-09T19:19:56.076976+00:00",
+    "summary": "Malicious code in fenomenallib (pypi)",
+    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - {}",
+    "affected": {
+        "package": {
+            "name": "fenomenallib",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "2.7.0"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/fenomenallib"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

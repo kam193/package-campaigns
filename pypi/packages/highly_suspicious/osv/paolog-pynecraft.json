@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-highly-suspicious-obfuscation/paolog-pynecraft",
+    "published": "2024-11-23T18:11:33Z",
+    "modified": "2024-11-23T18:11:33Z",
+    "summary": "Highly suspicious code in paolog-pynecraft (pypi)",
+    "details": "Packages that look highly suspicious, with the main concern being the obfuscation and lack of clear signs that they are legit. This makes the false positive rate relatively high.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-highly-suspicious-obfuscation\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "affected": {
+        "package": {
+            "name": "paolog-pynecraft",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/paolog-pynecraft"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

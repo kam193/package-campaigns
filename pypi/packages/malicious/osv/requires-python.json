@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-07-triple-equals/requires-python",
+    "published": "2025-07-28T19:00:15.058531+00:00",
+    "modified": "2025-07-28T19:00:15.058550+00:00",
+    "summary": "Malicious code in requires-python (pypi)",
+    "details": "When imported, the package attempts to exfiltrate environment variables and basic user info\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-triple-equals\nReasons (based on the campaign):\n - {}\n - {'theme': 'warning', 'description': 'The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.'}",
+    "affected": {
+        "package": {
+            "name": "requires-python",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/requires-python"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

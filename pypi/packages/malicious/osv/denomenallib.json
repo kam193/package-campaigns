@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-08-xenlib/denomenallib",
+    "published": "2025-09-09T21:20:09.373791+00:00",
+    "modified": "2025-09-09T21:20:09.373805+00:00",
+    "summary": "Malicious code in denomenallib (pypi)",
+    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - {}",
+    "affected": {
+        "package": {
+            "name": "denomenallib",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "2.7.0"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/denomenallib"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

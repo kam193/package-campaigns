@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-08-rsacracker/rsacracker",
+    "published": "2025-08-03T07:33:35.453939+00:00",
+    "modified": "2025-08-03T07:33:35.453956+00:00",
+    "summary": "Highly suspicious code in rsacracker (pypi)",
+    "details": "Package uses strong obfuscation to hide the behavior. The current final code seems not to do anything beside the described functionality \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-08-rsacracker\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "affected": {
+        "package": {
+            "name": "rsacracker",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/rsacracker"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

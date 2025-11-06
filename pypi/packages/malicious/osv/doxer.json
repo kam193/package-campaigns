@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-08-doxer/doxer",
+    "published": "2025-09-02T09:19:49.897121+00:00",
+    "modified": "2025-09-02T09:19:49.897138+00:00",
+    "summary": "Malicious code in doxer (pypi)",
+    "details": "During installation a screenshot is exfiltrated, and the package has no other purpose\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-doxer\nReasons (based on the campaign):\n - {}\n - {}",
+    "affected": {
+        "package": {
+            "name": "doxer",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.1"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/doxer"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

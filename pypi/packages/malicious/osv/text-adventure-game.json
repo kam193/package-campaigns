@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/text-adventure-game-ch-2024-07/text-adventure-game",
+    "published": "2024-07-01T21:12:52Z",
+    "modified": "2024-07-01T21:12:52Z",
+    "summary": "Malicious code in text-adventure-game (pypi)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: text-adventure-game-ch-2024-07\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "text-adventure-game",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/text-adventure-game"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

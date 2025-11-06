@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2024-11-huggingleg/huggingleg",
+    "published": "2024-11-07T08:40:19Z",
+    "modified": "2024-11-07T08:40:19Z",
+    "summary": "Malicious code in huggingleg (pypi)",
+    "details": "Package use a name similar to a known service and automatically attempt do download and run a remote executable. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-huggingleg\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "affected": {
+        "package": {
+            "name": "huggingleg",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/huggingleg"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

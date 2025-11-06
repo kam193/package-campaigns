@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2024-11-unzipxz/unzipxz",
+    "published": "2024-11-13T21:59:13Z",
+    "modified": "2024-11-13T21:59:13Z",
+    "summary": "Highly suspicious code in unzipxz (pypi)",
+    "details": "\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-11-unzipxz\nReasons (based on the campaign):",
+    "affected": {
+        "package": {
+            "name": "unzipxz",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/unzipxz"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

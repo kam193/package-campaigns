@@ -1,0 +1,32 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-10-speedd-testing-bot/speedd-testing-bot",
+    "published": "2025-10-28T19:23:53.795227+00:00",
+    "modified": "2025-10-28T19:23:53.795242+00:00",
+    "summary": "Malicious code in speedd-testing-bot (pypi)",
+    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-speedd-testing-bot\nReasons (based on the campaign):\n - rat\n - {'description': 'Downloads and executes a remote malicious script.'}",
+    "affected": {
+        "package": {
+            "name": "speedd-testing-bot",
+            "ecosystem": "pypi"
+        },
+        "versions": [
+            "0.2"
+        ]
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/speedd-testing-bot"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

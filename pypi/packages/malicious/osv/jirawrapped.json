@@ -1,0 +1,30 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-07-jirawrapped/jirawrapped",
+    "published": "2025-07-02T10:07:35Z",
+    "modified": "2025-07-02T10:07:35Z",
+    "summary": "Malicious code in jirawrapped (pypi)",
+    "details": "During installation, the package attempts to exfiltrate browser history\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-jirawrapped\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}",
+    "affected": {
+        "package": {
+            "name": "jirawrapped",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/jirawrapped"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}

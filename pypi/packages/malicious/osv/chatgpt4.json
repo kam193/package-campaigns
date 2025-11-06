@@ -1,0 +1,34 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-06-chatgpt4/chatgpt4",
+    "published": "2025-06-23T15:55:07Z",
+    "modified": "2025-06-23T15:55:07Z",
+    "summary": "Malicious code in chatgpt4 (pypi)",
+    "details": "Importing the module starts shell code execution\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-chatgpt4\nReasons (based on the campaign):\n - {}\n - shellcode\n - {}",
+    "affected": {
+        "package": {
+            "name": "chatgpt4",
+            "ecosystem": "pypi"
+        },
+        "versions": []
+    },
+    "references": [
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/chatgpt4"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/8184b83b66956a896cd2de44d7ee4ae0b053157725b0214d835ef19013063d60"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}
