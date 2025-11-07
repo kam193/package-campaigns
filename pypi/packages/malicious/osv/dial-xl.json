@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-sl4x01/dial-xl",
     "published": "2025-05-10T17:59:53Z",
     "modified": "2025-05-10T17:59:53Z",
-    "summary": "Malicious code in dial-xl (pypi)",
-    "details": "Packages that seem to be created by a legit bug bounty hunter. Designed to look like created by different organisations, they contain a couple of data exfiltration (including all env variables) and potential remote code execution (though the URL seems not to serve any code).\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-sl4x01\nReasons (based on the campaign):\n - {'theme': 'warning', 'description': 'The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.'}\n - {}\n - {}",
+    "summary": "Malicious code in dial-xl (PyPI)",
+    "details": "Packages that seem to be created by a legit bug bounty hunter. Designed to look like created by different organisations, they contain a couple of data exfiltration (including all env variables) and potential remote code execution (though the URL seems not to serve any code).\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-sl4x01\nReasons (based on the campaign):\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - exfiltration_env_variables\n - impersonation",
     "affected": {
         "package": {
             "name": "dial-xl",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

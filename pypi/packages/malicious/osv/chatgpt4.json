@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-chatgpt4/chatgpt4",
     "published": "2025-06-23T15:55:07Z",
     "modified": "2025-06-23T15:55:07Z",
-    "summary": "Malicious code in chatgpt4 (pypi)",
-    "details": "Importing the module starts shell code execution\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-chatgpt4\nReasons (based on the campaign):\n - {}\n - shellcode\n - {}",
+    "summary": "Malicious code in chatgpt4 (PyPI)",
+    "details": "Importing the module starts shell code execution\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-chatgpt4\nReasons (based on the campaign):\n - impersonation\n - shellcode\n - malware",
     "affected": {
         "package": {
             "name": "chatgpt4",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/funcaptcha-ru/ewb3-py",
     "published": "2024-06-28T20:16:20Z",
     "modified": "2024-06-28T20:16:20Z",
-    "summary": "Malicious code in ewb3-py (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: funcaptcha-ru\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in ewb3-py (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: funcaptcha-ru\nReasons (based on the campaign):\n - infostealer",
     "affected": {
         "package": {
             "name": "ewb3-py",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

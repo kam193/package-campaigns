@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-hahabott/hahabott",
     "published": "2025-07-19T22:11:31.498298+00:00",
     "modified": "2025-07-19T22:11:31.498312+00:00",
-    "summary": "Malicious code in hahabott (pypi)",
-    "details": "If run as module, it attempts to automatically destroy user's and system's files. Some versions also exfiltrate them.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-hahabott\nReasons (based on the campaign):\n - {}\n - destructive-actions",
+    "summary": "Malicious code in hahabott (PyPI)",
+    "details": "If run as module, it attempts to automatically destroy user's and system's files. Some versions also exfiltrate them.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-hahabott\nReasons (based on the campaign):\n - files_exfiltration\n - destructive-actions",
     "affected": {
         "package": {
             "name": "hahabott",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

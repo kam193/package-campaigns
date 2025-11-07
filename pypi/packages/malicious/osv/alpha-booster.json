@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-discord-booster/alpha-booster",
     "published": "2025-05-29T22:39:05Z",
     "modified": "2025-05-29T22:39:05Z",
-    "summary": "Malicious code in alpha-booster (pypi)",
-    "details": "Code downloads and runs the remote executable. While the current link seems not to work, the previous versions had an embedded infostealer instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-discord-booster\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote executable.'}",
+    "summary": "Malicious code in alpha-booster (PyPI)",
+    "details": "Code downloads and runs the remote executable. While the current link seems not to work, the previous versions had an embedded infostealer instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-discord-booster\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote executable.",
     "affected": {
         "package": {
             "name": "alpha-booster",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

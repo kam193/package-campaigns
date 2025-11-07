@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-keybard/keybard",
     "published": "2025-05-11T16:56:26Z",
     "modified": "2025-05-11T16:56:26Z",
-    "summary": "Highly suspicious code in keybard (pypi)",
-    "details": "Code is hidden by a very strong obfuscation\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-05-keybard\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in keybard (PyPI)",
+    "details": "Code is hidden by a very strong obfuscation\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-05-keybard\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "keybard",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-jsonreq-ase/jsonreq-ase",
     "published": "2025-07-07T08:38:56Z",
     "modified": "2025-07-07T08:38:56Z",
-    "summary": "Malicious code in jsonreq-ase (pypi)",
+    "summary": "Malicious code in jsonreq-ase (PyPI)",
     "details": "If run, the package exfiltrates AWS credentials. Though it's described as test, the exfiltration really happens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-jsonreq-ase\nReasons (based on the campaign):\n - exfiltration_credentials",
     "affected": {
         "package": {
             "name": "jsonreq-ase",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

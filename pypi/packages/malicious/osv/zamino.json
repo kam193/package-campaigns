@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-sorex/zamino",
     "published": "2025-06-14T09:18:22Z",
     "modified": "2025-06-14T09:18:22Z",
-    "summary": "Malicious code in zamino (pypi)",
-    "details": "Clones of libraries to access Aminoapps (e.g. legitimate package amino.fix) with added exfiltration of the given credentials\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-sorex\nReasons (based on the campaign):\n - exfiltration_credentials\n - {}\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}",
+    "summary": "Malicious code in zamino (PyPI)",
+    "details": "Clones of libraries to access Aminoapps (e.g. legitimate package amino.fix) with added exfiltration of the given credentials\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-sorex\nReasons (based on the campaign):\n - exfiltration_credentials\n - action-hidden-in-lib-usage\n - The package is a clone of a real package, but with malicious code added.",
     "affected": {
         "package": {
             "name": "zamino",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

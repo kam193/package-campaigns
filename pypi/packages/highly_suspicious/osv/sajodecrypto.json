@@ -3,12 +3,12 @@
     "id": "pypi/2025-01-Sajode/sajodecrypto",
     "published": "2025-01-07T15:34:09Z",
     "modified": "2025-01-07T15:34:09Z",
-    "summary": "Highly suspicious code in sajodecrypto (pypi)",
-    "details": "A series of obfuscated packages with a hidden binary code (Python compiled to ARM). Hard to determine, what exactly their purpose is. Importing the package starts the code (L4+) that saves the embedded ZIP and runs it through Python. The __main__ file in the ZIP is also obfuscated attempts to run the compiled ARM-code.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-01-Sajode\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in sajodecrypto (PyPI)",
+    "details": "A series of obfuscated packages with a hidden binary code (Python compiled to ARM). Hard to determine, what exactly their purpose is. Importing the package starts the code (L4+) that saves the embedded ZIP and runs it through Python. The __main__ file in the ZIP is also obfuscated attempts to run the compiled ARM-code.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-01-Sajode\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "sajodecrypto",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

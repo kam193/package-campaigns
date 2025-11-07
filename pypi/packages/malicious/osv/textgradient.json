@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-textgradient/textgradient",
     "published": "2025-03-28T17:41:31Z",
     "modified": "2025-03-28T17:41:31Z",
-    "summary": "Malicious code in textgradient (pypi)",
-    "details": "Highly obfuscated code that during import downloads a remote script with another obfuscated code. The repository with remote script also contains clearly infostealer code\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-textgradient\nReasons (based on the campaign):\n - {'theme': 'warning'}\n - {'description': 'Downloads and executes a remote malicious script.'}",
+    "summary": "Malicious code in textgradient (PyPI)",
+    "details": "Highly obfuscated code that during import downloads a remote script with another obfuscated code. The repository with remote script also contains clearly infostealer code\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-textgradient\nReasons (based on the campaign):\n - obfuscation\n - Downloads and executes a remote malicious script.",
     "affected": {
         "package": {
             "name": "textgradient",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

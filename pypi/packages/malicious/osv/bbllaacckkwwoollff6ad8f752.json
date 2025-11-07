@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-blackwolf/bbllaacckkwwoollff6ad8f752",
     "published": "2025-03-24T08:08:10Z",
     "modified": "2025-03-24T08:08:10Z",
-    "summary": "Malicious code in bbllaacckkwwoollff6ad8f752 (pypi)",
-    "details": "During installation, the code either exfiltrate some information about the system or download and execute remote code\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-blackwolf\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {}\n - {'description': 'Downloads and executes a remote malicious script.'}",
+    "summary": "Malicious code in bbllaacckkwwoollff6ad8f752 (PyPI)",
+    "details": "During installation, the code either exfiltrate some information about the system or download and execute remote code\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-blackwolf\nReasons (based on the campaign):\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - exfiltration_generic\n - Downloads and executes a remote malicious script.",
     "affected": {
         "package": {
             "name": "bbllaacckkwwoollff6ad8f752",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

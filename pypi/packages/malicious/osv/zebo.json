@@ -3,12 +3,12 @@
     "id": "pypi/2024-11-zebo/zebo",
     "published": "2024-11-16T23:31:21Z",
     "modified": "2024-11-16T23:31:21Z",
-    "summary": "Malicious code in zebo (pypi)",
-    "details": "Package automatically installs a script with keylogger and screenshots extraction, and sets it for an autostart.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-zebo\nReasons (based on the campaign):\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in zebo (PyPI)",
+    "details": "Package automatically installs a script with keylogger and screenshots extraction, and sets it for an autostart.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-zebo\nReasons (based on the campaign):\n - infostealer\n - peristence_autorun\n - keylogger",
     "affected": {
         "package": {
             "name": "zebo",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

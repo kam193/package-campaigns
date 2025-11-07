@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-spokeo/spokeo",
     "published": "2025-06-22T07:06:31Z",
     "modified": "2025-06-22T07:06:31Z",
-    "summary": "Malicious code in spokeo (pypi)",
-    "details": "Installing source package or importing the module starts downloading and running an external executable, which is widely recognized as malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-spokeo\nReasons (based on the campaign):\n - {}\n - {}\n - {'description': 'Downloads and executes a remote executable.'}",
+    "summary": "Malicious code in spokeo (PyPI)",
+    "details": "Installing source package or importing the module starts downloading and running an external executable, which is widely recognized as malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-spokeo\nReasons (based on the campaign):\n - impersonation\n - malware\n - Downloads and executes a remote executable.",
     "affected": {
         "package": {
             "name": "spokeo",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

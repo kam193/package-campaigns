@@ -3,12 +3,12 @@
     "id": "pypi/zlibxjson-discord-cookies/zlibxjson",
     "published": "2024-06-29T21:12:23Z",
     "modified": "2024-06-29T21:12:23Z",
-    "summary": "Malicious code in zlibxjson (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: zlibxjson-discord-cookies\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in zlibxjson (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: zlibxjson-discord-cookies\nReasons (based on the campaign):\n - infostealer",
     "affected": {
         "package": {
             "name": "zlibxjson",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

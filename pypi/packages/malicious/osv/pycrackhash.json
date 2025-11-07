@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-kertash/pycrackhash",
     "published": "2025-08-13T05:15:27.148964+00:00",
     "modified": "2025-08-13T06:58:13.670213+00:00",
-    "summary": "Malicious code in pycrackhash (pypi)",
-    "details": "When using methods from the package, it downloads an obfuscated code from Github and puts it in multiple localisation. While it appears that this code is used to perform action user requested, deobfuscation reveals exfiltrating user's data instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-kertash\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'A Telegram webhook is used to send collected data.'}\n - {'theme': 'warning'}\n - {}",
+    "summary": "Malicious code in pycrackhash (PyPI)",
+    "details": "When using methods from the package, it downloads an obfuscated code from Github and puts it in multiple localisation. While it appears that this code is used to perform action user requested, deobfuscation reveals exfiltrating user's data instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-kertash\nReasons (based on the campaign):\n - exfiltration_generic\n - A Telegram webhook is used to send collected data.\n - obfuscation\n - action-hidden-in-lib-usage",
     "affected": {
         "package": {
             "name": "pycrackhash",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.1",

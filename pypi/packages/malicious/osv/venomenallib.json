@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-xenlib/venomenallib",
     "published": "2025-09-09T21:59:41.865775+00:00",
     "modified": "2025-09-09T22:00:28.233894+00:00",
-    "summary": "Malicious code in venomenallib (pypi)",
-    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in venomenallib (PyPI)",
+    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - files_exfiltration",
     "affected": {
         "package": {
             "name": "venomenallib",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "2.7.0",

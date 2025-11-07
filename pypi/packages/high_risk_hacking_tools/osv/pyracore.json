@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-risky-hacking-tools/pyracore",
     "published": "2025-01-28T22:18:07Z",
     "modified": "2025-01-28T22:18:07Z",
-    "summary": "Malicious code in pyracore (pypi)",
+    "summary": "Malicious code in pyracore (PyPI)",
     "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "pyracore",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

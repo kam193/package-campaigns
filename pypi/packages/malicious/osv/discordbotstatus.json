@@ -3,12 +3,12 @@
     "id": "pypi/2024-12-discordbotstatus/discordbotstatus",
     "published": "2024-12-17T19:04:01Z",
     "modified": "2024-12-17T19:04:01Z",
-    "summary": "Malicious code in discordbotstatus (pypi)",
-    "details": "Package clones another package and hides a code to download and run a malicious exe file (an infostealer with high VT detection)\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-discordbotstatus\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in discordbotstatus (PyPI)",
+    "details": "Package clones another package and hides a code to download and run a malicious exe file (an infostealer with high VT detection)\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-discordbotstatus\nReasons (based on the campaign):\n - The package is a clone of a real package, but with malicious code added.\n - Downloads and executes a remote executable.\n - infostealer",
     "affected": {
         "package": {
             "name": "discordbotstatus",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

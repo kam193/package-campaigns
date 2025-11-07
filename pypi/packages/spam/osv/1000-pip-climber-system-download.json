@@ -3,12 +3,12 @@
     "id": "pypi/2023-pip-climber/1000-pip-climber-system-download",
     "published": "2024-08-10T11:26:04Z",
     "modified": "2024-08-10T11:26:04Z",
-    "summary": "Spam code in 1000-pip-climber-system-download (pypi)",
-    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2023-pip-climber\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package is used to advertise a service or product.'}",
+    "summary": "Spam code in 1000-pip-climber-system-download (PyPI)",
+    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2023-pip-climber\nReasons (based on the campaign):\n - The package is used to advertise a service or product.",
     "affected": {
         "package": {
             "name": "1000-pip-climber-system-download",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

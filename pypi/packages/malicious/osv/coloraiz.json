@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-coloraiz/coloraiz",
     "published": "2025-05-16T10:10:16Z",
     "modified": "2025-05-16T10:10:16Z",
-    "summary": "Malicious code in coloraiz (pypi)",
-    "details": "The package imitates colorama, and places a proxy object over the original colorama module that on every usage executes a remote code. The remote script installs a backdoor through legitimate tunnelling software and upload access credentials to the attacker. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-coloraiz\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {}\n - {}\n - {'description': 'Downloads and executes a remote malicious script.'}",
+    "summary": "Malicious code in coloraiz (PyPI)",
+    "details": "The package imitates colorama, and places a proxy object over the original colorama module that on every usage executes a remote code. The remote script installs a backdoor through legitimate tunnelling software and upload access credentials to the attacker. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-coloraiz\nReasons (based on the campaign):\n - impersonation\n - The package is a clone of a real package, but with malicious code added.\n - action-hidden-in-lib-usage\n - backdoor\n - Downloads and executes a remote malicious script.",
     "affected": {
         "package": {
             "name": "coloraiz",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2024-11-rkpairip/rkjp",
     "published": "2024-11-06T22:09:08Z",
     "modified": "2024-11-06T22:09:08Z",
-    "summary": "Highly suspicious code in rkjp (pypi)",
-    "details": "Series of suspicious, highly obfuscated packages\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-11-rkpairip\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in rkjp (PyPI)",
+    "details": "Series of suspicious, highly obfuscated packages\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-11-rkpairip\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "rkjp",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

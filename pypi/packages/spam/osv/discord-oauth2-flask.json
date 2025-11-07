@@ -3,12 +3,12 @@
     "id": "pypi/SCRIPT_KIDDIE-exploring-suspicious-behaviour/discord-oauth2-flask",
     "published": "2024-08-30T21:05:03Z",
     "modified": "2024-08-30T21:05:03Z",
-    "summary": "Spam code in discord-oauth2-flask (pypi)",
-    "details": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: SCRIPT_KIDDIE-exploring-suspicious-behaviour\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Spam code in discord-oauth2-flask (PyPI)",
+    "details": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: SCRIPT_KIDDIE-exploring-suspicious-behaviour\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "discord-oauth2-flask",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-typing-extensions-plus/typing-extensions-plus",
     "published": "2025-06-28T14:24:40Z",
     "modified": "2025-06-28T14:24:40Z",
-    "summary": "Malicious code in typing-extensions-plus (pypi)",
-    "details": "Importing the module starts code responsible of exfiltrating crypto tokens and API keys. Package imitates typing-extensions\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-typing-extensions-plus\nReasons (based on the campaign):\n - {}\n - exfiltration_credentials\n - {}",
+    "summary": "Malicious code in typing-extensions-plus (PyPI)",
+    "details": "Importing the module starts code responsible of exfiltrating crypto tokens and API keys. Package imitates typing-extensions\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-typing-extensions-plus\nReasons (based on the campaign):\n - crypto-related\n - exfiltration_credentials\n - impersonation",
     "affected": {
         "package": {
             "name": "typing-extensions-plus",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-spotek/spotek",
     "published": "2025-03-31T21:12:38Z",
     "modified": "2025-03-31T21:12:38Z",
-    "summary": "Highly suspicious code in spotek (pypi)",
-    "details": "Code is capable of exfiltrating files from a given folder, but requires supplying with the Telegram token etc., what isn't included in the package. Names are hiding the real functionality\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-03-spotek\nReasons (based on the campaign):\n - {}",
+    "summary": "Highly suspicious code in spotek (PyPI)",
+    "details": "Code is capable of exfiltrating files from a given folder, but requires supplying with the Telegram token etc., what isn't included in the package. Names are hiding the real functionality\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-03-spotek\nReasons (based on the campaign):\n - files_exfiltration",
     "affected": {
         "package": {
             "name": "spotek",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

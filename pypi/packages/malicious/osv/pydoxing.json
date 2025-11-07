@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-pydoxing/pydoxing",
     "published": "2025-05-02T17:48:22Z",
     "modified": "2025-05-02T17:48:22Z",
-    "summary": "Malicious code in pydoxing (pypi)",
-    "details": "Package contains a known Blank Grabber infostealer that starts on importing the module\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-pydoxing\nReasons (based on the campaign):\n - {}\n - {}\n - {'theme': 'warning'}\n - {}\n - infostealer:blankgrabber",
+    "summary": "Malicious code in pydoxing (PyPI)",
+    "details": "Package contains a known Blank Grabber infostealer that starts on importing the module\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-pydoxing\nReasons (based on the campaign):\n - infostealer\n - exfiltration_generic\n - obfuscation\n - exfiltration_browser_data\n - infostealer:blankgrabber",
     "affected": {
         "package": {
             "name": "pydoxing",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

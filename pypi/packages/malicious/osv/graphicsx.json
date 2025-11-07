@@ -3,12 +3,12 @@
     "id": "pypi/2024-12-graphicsx/graphicsx",
     "published": "2024-12-05T23:17:00Z",
     "modified": "2024-12-05T23:17:00Z",
-    "summary": "Malicious code in graphicsx (pypi)",
-    "details": "Installing the package starts downloading and installing an Infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-graphicsx\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {'theme': 'warning'}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}\n - {}",
+    "summary": "Malicious code in graphicsx (PyPI)",
+    "details": "Installing the package starts downloading and installing an Infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-graphicsx\nReasons (based on the campaign):\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - obfuscation\n - Downloads and executes a remote executable.\n - infostealer\n - exfiltration_browser_data",
     "affected": {
         "package": {
             "name": "graphicsx",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

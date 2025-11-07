@@ -3,12 +3,12 @@
     "id": "pypi/2025-02-updateuuid4/updateuuid4",
     "published": "2025-02-08T19:36:34Z",
     "modified": "2025-02-08T19:36:34Z",
-    "summary": "Malicious code in updateuuid4 (pypi)",
-    "details": "The package, with an innocent looking name, has as the only functionality reporting to a Telegram channel given username and password. The functionality is in the \"HeadersUpdate\" class, that also looks like attempting to look innocent. The code does nothing more than reporting given credentials through a bot using the name \"hitlercute_bot\". \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-updateuuid4\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in updateuuid4 (PyPI)",
+    "details": "The package, with an innocent looking name, has as the only functionality reporting to a Telegram channel given username and password. The functionality is in the \"HeadersUpdate\" class, that also looks like attempting to look innocent. The code does nothing more than reporting given credentials through a bot using the name \"hitlercute_bot\". \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-updateuuid4\nReasons (based on the campaign):\n - infostealer",
     "affected": {
         "package": {
             "name": "updateuuid4",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

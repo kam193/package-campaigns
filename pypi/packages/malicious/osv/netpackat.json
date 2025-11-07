@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-requestpackat/netpackat",
     "published": "2025-05-15T18:11:34Z",
     "modified": "2025-05-15T18:11:34Z",
-    "summary": "Malicious code in netpackat (pypi)",
-    "details": "Code download and runs an executable, which is widely recognized as malware. The system is also configured to run it on startup, and the file is saved in paths attempting to look as a system file.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-requestpackat\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}\n - {}",
+    "summary": "Malicious code in netpackat (PyPI)",
+    "details": "Code download and runs an executable, which is widely recognized as malware. The system is also configured to run it on startup, and the file is saved in paths attempting to look as a system file.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-requestpackat\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware\n - peristence_autorun",
     "affected": {
         "package": {
             "name": "netpackat",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

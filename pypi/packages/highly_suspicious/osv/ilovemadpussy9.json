@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-other-risky/ilovemadpussy9",
     "published": "2025-08-14T23:05:26.722926+00:00",
     "modified": "2025-08-14T23:05:26.722943+00:00",
-    "summary": "Highly suspicious code in ilovemadpussy9 (pypi)",
+    "summary": "Highly suspicious code in ilovemadpussy9 (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "ilovemadpussy9",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.0"

@@ -3,12 +3,12 @@
     "id": "pypi/2024-12-BetterMint/my-service-manager",
     "published": "2024-12-01T16:55:36Z",
     "modified": "2024-12-01T16:55:36Z",
-    "summary": "Malicious code in my-service-manager (pypi)",
-    "details": "While the package appears to be a manager for Windows service, the linked executable is an infostealer with capabilities like cookie stealing ang keylogger. The package only supports installing it\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-BetterMint\nReasons (based on the campaign):\n - {}\n - {}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}\n - {}\n - {'theme': 'warning', 'description': 'The package contains code to detect if it is running in a sandbox environment.'}",
+    "summary": "Malicious code in my-service-manager (PyPI)",
+    "details": "While the package appears to be a manager for Windows service, the linked executable is an infostealer with capabilities like cookie stealing ang keylogger. The package only supports installing it\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-BetterMint\nReasons (based on the campaign):\n - infostealer\n - exfiltration_generic\n - Downloads and executes a remote executable.\n - keylogger\n - exfiltration_browser_data\n - The package contains code to detect if it is running in a sandbox environment.",
     "affected": {
         "package": {
             "name": "my-service-manager",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

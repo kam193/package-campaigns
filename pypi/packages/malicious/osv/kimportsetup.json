@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-k7eel/kimportsetup",
     "published": "2025-08-24T08:29:02.351633+00:00",
     "modified": "2025-08-24T08:29:02.351650+00:00",
-    "summary": "Malicious code in kimportsetup (pypi)",
-    "details": "Importing the module downloads and executes widely recognized malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-k7eel\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in kimportsetup (PyPI)",
+    "details": "Importing the module downloads and executes widely recognized malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-k7eel\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware",
     "affected": {
         "package": {
             "name": "kimportsetup",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.1"

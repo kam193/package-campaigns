@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-veriftest1asdl/veriftest1asdla",
     "published": "2025-05-06T10:01:15Z",
     "modified": "2025-05-06T10:01:15Z",
-    "summary": "Malicious code in veriftest1asdla (pypi)",
-    "details": "During installation, the package attempts to exfiltrate cloud tokens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-veriftest1asdl\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}",
+    "summary": "Malicious code in veriftest1asdla (PyPI)",
+    "details": "During installation, the package attempts to exfiltrate cloud tokens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-veriftest1asdl\nReasons (based on the campaign):\n - exfiltration_cloud_tokens\n - The package overrides the install command in setup.py to execute malicious code during installation.",
     "affected": {
         "package": {
             "name": "veriftest1asdla",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

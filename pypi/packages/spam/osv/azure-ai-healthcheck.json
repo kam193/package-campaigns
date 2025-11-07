@@ -3,12 +3,12 @@
     "id": "pypi/2025-10-bugdotexe/azure-ai-healthcheck",
     "published": "2025-11-06T08:49:43.472757+00:00",
     "modified": "2025-11-06T08:49:43.472793+00:00",
-    "summary": "Spam code in azure-ai-healthcheck (pypi)",
-    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - {}",
+    "summary": "Spam code in azure-ai-healthcheck (PyPI)",
+    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - dependency-confusion",
     "affected": {
         "package": {
             "name": "azure-ai-healthcheck",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "99.0.0",

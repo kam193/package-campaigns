@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-bitcoinlibdbfix/bitcoinlib-dev",
     "published": "2025-03-30T15:18:14Z",
     "modified": "2025-03-30T15:18:14Z",
-    "summary": "Malicious code in bitcoinlib-dev (pypi)",
-    "details": "It overwrites the 'clw' command from legit bitconinlib package and attempts to exfiltrate its database on the usage.\n\nAs a context, it appears to be created to lure users seeking for help with the bitconinlib package: https://github.com/1200wd/bitcoinlib/issues/455#issuecomment-2764513104\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-bitcoinlibdbfix\nReasons (based on the campaign):\n - {}\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in bitcoinlib-dev (PyPI)",
+    "details": "It overwrites the 'clw' command from legit bitconinlib package and attempts to exfiltrate its database on the usage.\n\nAs a context, it appears to be created to lure users seeking for help with the bitconinlib package: https://github.com/1200wd/bitcoinlib/issues/455#issuecomment-2764513104\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-bitcoinlibdbfix\nReasons (based on the campaign):\n - files_exfiltration\n - crypto-related\n - action-hidden-in-lib-usage\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "bitcoinlib-dev",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

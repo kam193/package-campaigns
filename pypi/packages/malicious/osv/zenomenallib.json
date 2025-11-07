@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-xenlib/zenomenallib",
     "published": "2025-09-09T21:22:39.655212+00:00",
     "modified": "2025-09-09T21:22:39.655225+00:00",
-    "summary": "Malicious code in zenomenallib (pypi)",
-    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in zenomenallib (PyPI)",
+    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - files_exfiltration",
     "affected": {
         "package": {
             "name": "zenomenallib",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "2.7.0"

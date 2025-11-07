@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-browser-run/browser-run",
     "published": "2025-08-14T16:16:45.544572+00:00",
     "modified": "2025-08-14T17:38:42.538567+00:00",
-    "summary": "Malicious code in browser-run (pypi)",
-    "details": "Package uses the name as popular NPM package (https://www.npmjs.com/package/browser-run), but the only thing it does is adding a hardcoded public SSH key and then calling back. This may allow the threat actor to remotely access the machine. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-browser-run\nReasons (based on the campaign):\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in browser-run (PyPI)",
+    "details": "Package uses the name as popular NPM package (https://www.npmjs.com/package/browser-run), but the only thing it does is adding a hardcoded public SSH key and then calling back. This may allow the threat actor to remotely access the machine. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-browser-run\nReasons (based on the campaign):\n - backdoor\n - dependency-confusion\n - action-hidden-in-lib-usage",
     "affected": {
         "package": {
             "name": "browser-run",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.0",

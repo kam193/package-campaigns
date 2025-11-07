@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-cryptoo/cryptob",
     "published": "2025-07-09T14:22:18.396534+00:00",
     "modified": "2025-07-09T14:22:18.396544+00:00",
-    "summary": "Malicious code in cryptob (pypi)",
-    "details": "Importing starts an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-cryptoo\nReasons (based on the campaign):\n - {'theme': 'warning'}\n - {}\n - {}\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in cryptob (PyPI)",
+    "details": "Importing starts an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-cryptoo\nReasons (based on the campaign):\n - obfuscation\n - infostealer\n - exfiltration_browser_data\n - exfiltration_generic\n - crypto-related\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "cryptob",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

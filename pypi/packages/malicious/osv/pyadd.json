@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-embeds-RealtekHDAudioManager/pyadd",
     "published": "2024-09-04T21:25:32Z",
     "modified": "2024-09-04T21:25:32Z",
-    "summary": "Malicious code in pyadd (pypi)",
-    "details": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-embeds-RealtekHDAudioManager\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote executable.'}",
+    "summary": "Malicious code in pyadd (PyPI)",
+    "details": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-embeds-RealtekHDAudioManager\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote executable.",
     "affected": {
         "package": {
             "name": "pyadd",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

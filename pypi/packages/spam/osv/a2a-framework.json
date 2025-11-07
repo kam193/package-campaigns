@@ -3,12 +3,12 @@
     "id": "pypi/2025-10-bugdotexe/a2a-framework",
     "published": "2025-11-05T17:05:27.376117+00:00",
     "modified": "2025-11-05T17:05:27.376145+00:00",
-    "summary": "Spam code in a2a-framework (pypi)",
-    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - {}",
+    "summary": "Spam code in a2a-framework (PyPI)",
+    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - dependency-confusion",
     "affected": {
         "package": {
             "name": "a2a-framework",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "99.0.0"

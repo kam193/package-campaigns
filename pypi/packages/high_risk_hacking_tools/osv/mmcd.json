@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-mmcd/mmcd",
     "published": "2025-03-31T21:02:44Z",
     "modified": "2025-03-31T21:02:44Z",
-    "summary": "Malicious code in mmcd (pypi)",
+    "summary": "Malicious code in mmcd (PyPI)",
     "details": "Small collection of helpers for rather irritating activity like generating bluescreen, spamming with new windows, attempting to fulfil RAM etc. No exfiltration or malware.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-03-mmcd\nReasons (based on the campaign):\n - iritating-computer-activity",
     "affected": {
         "package": {
             "name": "mmcd",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

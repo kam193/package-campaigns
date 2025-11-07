@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-jirawrapped/jirawrapped",
     "published": "2025-07-02T10:07:35Z",
     "modified": "2025-07-02T10:07:35Z",
-    "summary": "Malicious code in jirawrapped (pypi)",
-    "details": "During installation, the package attempts to exfiltrate browser history\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-jirawrapped\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}",
+    "summary": "Malicious code in jirawrapped (PyPI)",
+    "details": "During installation, the package attempts to exfiltrate browser history\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-jirawrapped\nReasons (based on the campaign):\n - exfiltration_browser_data\n - The package overrides the install command in setup.py to execute malicious code during installation.",
     "affected": {
         "package": {
             "name": "jirawrapped",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

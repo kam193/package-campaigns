@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-koalabuilder/pyunzip",
     "published": "2024-08-23T15:57:10Z",
     "modified": "2024-08-23T15:57:10Z",
-    "summary": "Malicious code in pyunzip (pypi)",
-    "details": "Packages downloads remote executable. The final behaviour is unknown, but starts with bypassing UAC and other security controls. Some package clones are obfuscated.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-koalabuilder\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {'theme': 'warning'}",
+    "summary": "Malicious code in pyunzip (PyPI)",
+    "details": "Packages downloads remote executable. The final behaviour is unknown, but starts with bypassing UAC and other security controls. Some package clones are obfuscated.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-koalabuilder\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - obfuscation",
     "affected": {
         "package": {
             "name": "pyunzip",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

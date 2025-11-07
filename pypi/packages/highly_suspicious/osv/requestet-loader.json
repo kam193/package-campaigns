@@ -3,12 +3,12 @@
     "id": "pypi/2025-10-requestet-loader/requestet-loader",
     "published": "2025-10-26T18:57:36.287605+00:00",
     "modified": "2025-10-26T18:57:36.287621+00:00",
-    "summary": "Highly suspicious code in requestet-loader (pypi)",
-    "details": "Package designed to execute code from pastebin. While there is no known usage, such code is typically used to load next malware stage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-10-requestet-loader\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote malicious script.'}",
+    "summary": "Highly suspicious code in requestet-loader (PyPI)",
+    "details": "Package designed to execute code from pastebin. While there is no known usage, such code is typically used to load next malware stage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-10-requestet-loader\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.",
     "affected": {
         "package": {
             "name": "requestet-loader",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.0"

@@ -3,12 +3,12 @@
     "id": "pypi/2024-09-cstealer/package-lib8127",
     "published": "2024-09-17T21:01:02Z",
     "modified": "2024-09-17T21:01:02Z",
-    "summary": "Malicious code in package-lib8127 (pypi)",
-    "details": "Package contains CStealer, a known infostealer, starting on importing the module.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-09-cstealer\nReasons (based on the campaign):\n - {}\n - {}",
+    "summary": "Malicious code in package-lib8127 (PyPI)",
+    "details": "Package contains CStealer, a known infostealer, starting on importing the module.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-09-cstealer\nReasons (based on the campaign):\n - infostealer\n - infostealer:cstealer",
     "affected": {
         "package": {
             "name": "package-lib8127",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

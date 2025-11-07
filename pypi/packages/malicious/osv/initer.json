@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-pyiniter/initer",
     "published": "2025-05-09T20:14:13Z",
     "modified": "2025-05-09T20:14:13Z",
-    "summary": "Malicious code in initer (pypi)",
-    "details": "File is designed to download, hide under system-like name, and run a remote executable, widely identified as malicious.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-pyiniter\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote executable.'}",
+    "summary": "Malicious code in initer (PyPI)",
+    "details": "File is designed to download, hide under system-like name, and run a remote executable, widely identified as malicious.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-pyiniter\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote executable.",
     "affected": {
         "package": {
             "name": "initer",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

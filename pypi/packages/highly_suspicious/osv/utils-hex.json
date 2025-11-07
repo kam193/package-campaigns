@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-highly-suspicious-obfuscation/utils-hex",
     "published": "2024-11-23T18:11:33Z",
     "modified": "2024-11-23T18:11:33Z",
-    "summary": "Highly suspicious code in utils-hex (pypi)",
-    "details": "Packages that look highly suspicious, with the main concern being the obfuscation and lack of clear signs that they are legit. This makes the false positive rate relatively high.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-highly-suspicious-obfuscation\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in utils-hex (PyPI)",
+    "details": "Packages that look highly suspicious, with the main concern being the obfuscation and lack of clear signs that they are legit. This makes the false positive rate relatively high.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-highly-suspicious-obfuscation\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "utils-hex",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2025-10-ethaddrlib/ethaddrlib",
     "published": "2025-10-25T09:03:01.750998+00:00",
     "modified": "2025-10-25T09:03:01.751015+00:00",
-    "summary": "Malicious code in ethaddrlib (pypi)",
-    "details": "Package claims to validate mnemonic, a sensitive part of cryptocurrency system. The responsible functions, however, send given data to a remote service, and not even process the response. Thus, the only functionality is exfiltrating sensitive data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-ethaddrlib\nReasons (based on the campaign):\n - {}\n - {}",
+    "summary": "Malicious code in ethaddrlib (PyPI)",
+    "details": "Package claims to validate mnemonic, a sensitive part of cryptocurrency system. The responsible functions, however, send given data to a remote service, and not even process the response. Thus, the only functionality is exfiltrating sensitive data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-ethaddrlib\nReasons (based on the campaign):\n - crypto-related\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "ethaddrlib",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.1",

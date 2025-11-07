@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-old-coffins-tunnel/coffin-codes-net",
     "published": "2024-09-08T11:23:19Z",
     "modified": "2024-09-08T11:23:19Z",
-    "summary": "Malicious code in coffin-codes-net (pypi)",
-    "details": "So far, it looks like a legit  tunneling software, but in tcp.py there is an attempt to send a strange email using gmail. Update: Identified as malicious by socket.dev team\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-coffins-tunnel\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in coffin-codes-net (PyPI)",
+    "details": "So far, it looks like a legit  tunneling software, but in tcp.py there is an attempt to send a strange email using gmail. Update: Identified as malicious by socket.dev team\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-coffins-tunnel\nReasons (based on the campaign):\n - crypto-related",
     "affected": {
         "package": {
             "name": "coffin-codes-net",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

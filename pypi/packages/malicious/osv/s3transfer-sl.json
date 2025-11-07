@@ -3,12 +3,12 @@
     "id": "pypi/2025-04-s3transfer-sl/s3transfer-sl",
     "published": "2025-04-23T10:32:24Z",
     "modified": "2025-04-23T10:32:24Z",
-    "summary": "Malicious code in s3transfer-sl (pypi)",
-    "details": "During installation, the package attempts to exfiltrate env variables and tokens from Azure metadata API. It's a malicious clon of s3transfer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-04-s3transfer-sl\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {}",
+    "summary": "Malicious code in s3transfer-sl (PyPI)",
+    "details": "During installation, the package attempts to exfiltrate env variables and tokens from Azure metadata API. It's a malicious clon of s3transfer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-04-s3transfer-sl\nReasons (based on the campaign):\n - exfiltration_cloud_tokens\n - The package is a clone of a real package, but with malicious code added.\n - typosquatting",
     "affected": {
         "package": {
             "name": "s3transfer-sl",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

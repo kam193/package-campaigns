@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-old-winpwn/macpwn",
     "published": "2025-09-06T12:09:46.943506+00:00",
     "modified": "2025-09-06T12:09:46.943540+00:00",
-    "summary": "Malicious code in macpwn (pypi)",
+    "summary": "Malicious code in macpwn (PyPI)",
     "details": "Collection of tools designed to exploit Windows. They seem to act as legitimate pentesting tools, yet, the lack of clear description and duplicates may suggest malicious intentions.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-08-old-winpwn\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "macpwn",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.0.1"

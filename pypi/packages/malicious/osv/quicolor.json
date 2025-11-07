@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-quicolor/quicolor",
     "published": "2025-03-25T09:28:59Z",
     "modified": "2025-03-25T09:28:59Z",
-    "summary": "Malicious code in quicolor (pypi)",
-    "details": "Importing the module starts a code that exfiltrates data from local Telegram application\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-quicolor\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in quicolor (PyPI)",
+    "details": "Importing the module starts a code that exfiltrates data from local Telegram application\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-quicolor\nReasons (based on the campaign):\n - exfiltration_generic",
     "affected": {
         "package": {
             "name": "quicolor",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

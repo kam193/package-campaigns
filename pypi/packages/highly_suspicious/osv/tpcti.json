@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-tpcti/tpcti",
     "published": "2025-08-04T16:04:35.800199+00:00",
     "modified": "2025-08-04T16:04:35.800214+00:00",
-    "summary": "Highly suspicious code in tpcti (pypi)",
-    "details": "Suspicious due to advanced obfuscation and undeclared behavior \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-08-tpcti\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in tpcti (PyPI)",
+    "details": "Suspicious due to advanced obfuscation and undeclared behavior \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-08-tpcti\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "tpcti",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

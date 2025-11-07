@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-ai-mesh-sdk/ai-mesh-sdk",
     "published": "2025-08-07T11:42:52.040887+00:00",
     "modified": "2025-08-07T11:42:52.040934+00:00",
-    "summary": "Highly suspicious code in ai-mesh-sdk (pypi)",
+    "summary": "Highly suspicious code in ai-mesh-sdk (PyPI)",
     "details": "Package references \"AI Mesh Platform\" but it's difficult to identify such a service (there is nothing that use exactly that name). It uses a cloudfront domain as a backend service and does not have proper author's email or repository URL, although it's said to be MIT-licensed. \n\nThe package looks like an attempt to collect credentials to a platform, but it's impossible to identify the targeted service or to conclude that it's a legit SDK.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-08-ai-mesh-sdk\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "ai-mesh-sdk",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

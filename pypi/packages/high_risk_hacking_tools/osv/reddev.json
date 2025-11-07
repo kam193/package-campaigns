@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-risky-hacking-tools/reddev",
     "published": "2025-10-04T20:25:35.282188+00:00",
     "modified": "2025-10-04T20:25:35.282224+00:00",
-    "summary": "Malicious code in reddev (pypi)",
+    "summary": "Malicious code in reddev (PyPI)",
     "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "reddev",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.0"

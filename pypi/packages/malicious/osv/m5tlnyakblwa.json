@@ -3,12 +3,12 @@
     "id": "pypi/2025-05-coloramashowtemp/m5tlnyakblwa",
     "published": "2025-05-18T00:05:16Z",
     "modified": "2025-05-18T00:05:16Z",
-    "summary": "Malicious code in m5tlnyakblwa (pypi)",
-    "details": "Importing the module starts download and running a remote executable, identified as malware by AVs\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-coloramashowtemp \nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in m5tlnyakblwa (PyPI)",
+    "details": "Importing the module starts download and running a remote executable, identified as malware by AVs\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-coloramashowtemp \nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware",
     "affected": {
         "package": {
             "name": "m5tlnyakblwa",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

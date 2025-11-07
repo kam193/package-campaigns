@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-old-colourfulls/colourfulls",
     "published": "2024-09-08T13:52:34Z",
     "modified": "2024-09-08T13:52:34Z",
-    "summary": "Malicious code in colourfulls (pypi)",
-    "details": "Once imported, the module attempts to download an executable, put into Discord directory and most probably trick discord to start it. The download link does not work any more, so it's not possible to say what exactly the remote file did.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-colourfulls\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in colourfulls (PyPI)",
+    "details": "Once imported, the module attempts to download an executable, put into Discord directory and most probably trick discord to start it. The download link does not work any more, so it's not possible to say what exactly the remote file did.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-colourfulls\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - typosquatting",
     "affected": {
         "package": {
             "name": "colourfulls",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

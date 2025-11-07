@@ -3,12 +3,12 @@
     "id": "pypi/2025-04-norsodikin/norsodikin",
     "published": "2025-04-02T16:12:50Z",
     "modified": "2025-08-21T17:41:57.409257+00:00",
-    "summary": "Highly suspicious code in norsodikin (pypi)",
-    "details": "Package allows creating SSH users and sends credentials to a hardcoded telegram channel. However, there is currently no known malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-norsodikin\nReasons (based on the campaign):\n - {}",
+    "summary": "Highly suspicious code in norsodikin (PyPI)",
+    "details": "Package allows creating SSH users and sends credentials to a hardcoded telegram channel. However, there is currently no known malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-norsodikin\nReasons (based on the campaign):\n - backdoor",
     "affected": {
         "package": {
             "name": "norsodikin",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1.0.4",

@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-old-threading-assistant/thethreadingassistant",
     "published": "2024-08-19T09:59:22Z",
     "modified": "2024-08-19T09:59:22Z",
-    "summary": "Malicious code in thethreadingassistant (pypi)",
-    "details": "Infostealer exfiltrating cookies, history and passwords from the Google Chrome browser, as well as attempting to do a webcam photo. Data are sent to a Discord webhook. Malicious code is split over multiple files.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-threading-assistant\nReasons (based on the campaign):\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in thethreadingassistant (PyPI)",
+    "details": "Infostealer exfiltrating cookies, history and passwords from the Google Chrome browser, as well as attempting to do a webcam photo. Data are sent to a Discord webhook. Malicious code is split over multiple files.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-threading-assistant\nReasons (based on the campaign):\n - infostealer\n - \n - typosquatting",
     "affected": {
         "package": {
             "name": "thethreadingassistant",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

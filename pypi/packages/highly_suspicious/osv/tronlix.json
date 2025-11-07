@@ -3,12 +3,12 @@
     "id": "pypi/2025-04-tronix/tronlix",
     "published": "2025-04-28T16:54:05Z",
     "modified": "2025-04-28T16:54:05Z",
-    "summary": "Highly suspicious code in tronlix (pypi)",
-    "details": "Package appears to be designed for private key exfiltration, but no known usage. The name appears to be related to the cryptocurrency TRX (Tron / Tronix). Some packages additionally clone the readme of other, legit libraries\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-tronix\nReasons (based on the campaign):\n - {}\n - {}",
+    "summary": "Highly suspicious code in tronlix (PyPI)",
+    "details": "Package appears to be designed for private key exfiltration, but no known usage. The name appears to be related to the cryptocurrency TRX (Tron / Tronix). Some packages additionally clone the readme of other, legit libraries\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-tronix\nReasons (based on the campaign):\n - exfiltration_generic\n - crypto-related",
     "affected": {
         "package": {
             "name": "tronlix",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

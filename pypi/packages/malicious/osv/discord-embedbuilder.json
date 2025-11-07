@@ -3,12 +3,12 @@
     "id": "pypi/duvet-love-odyssey/discord-embedbuilder",
     "published": "2024-07-06T17:16:40Z",
     "modified": "2024-07-06T17:16:40Z",
-    "summary": "Malicious code in discord-embedbuilder (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: duvet-love-odyssey\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in discord-embedbuilder (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: duvet-love-odyssey\nReasons (based on the campaign):\n - infostealer",
     "affected": {
         "package": {
             "name": "discord-embedbuilder",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

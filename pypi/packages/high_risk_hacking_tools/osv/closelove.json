@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-risky-hacking-tools/closelove",
     "published": "2025-11-06T19:06:05.418747+00:00",
     "modified": "2025-11-06T19:06:05.418782+00:00",
-    "summary": "Malicious code in closelove (pypi)",
+    "summary": "Malicious code in closelove (PyPI)",
     "details": "Package provides features like overcoming captcha on the Android device, extracting files etc. It can be used for automation of tasks, but also as a hacking tool \n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "closelove",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1.9",

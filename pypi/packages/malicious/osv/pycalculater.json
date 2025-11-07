@@ -3,12 +3,12 @@
     "id": "pypi/2024-11-discconnect/pycalculater",
     "published": "2024-11-16T22:56:09Z",
     "modified": "2024-11-16T22:56:09Z",
-    "summary": "Malicious code in pycalculater (pypi)",
-    "details": "During installation, a remote, obfuscated executable is downloaded and started. The executable at least disables automated updates, malware protection and other security mechanisms. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-discconnect\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in pycalculater (PyPI)",
+    "details": "During installation, a remote, obfuscated executable is downloaded and started. The executable at least disables automated updates, malware protection and other security mechanisms. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-discconnect\nReasons (based on the campaign):\n - typosquatting\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - Downloads and executes a remote executable.\n - modify-system-without-consent",
     "affected": {
         "package": {
             "name": "pycalculater",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

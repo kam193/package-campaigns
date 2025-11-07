@@ -3,12 +3,12 @@
     "id": "pypi/2025-04-telepycore/telepycore",
     "published": "2025-04-30T21:54:42Z",
     "modified": "2025-04-30T21:54:42Z",
-    "summary": "Malicious code in telepycore (pypi)",
-    "details": "Package can only be used (requires additional triggering) to install a remote executable, ensure it starts on logon and name mimic network service. Though different versions contain different executables, they are mostly identified as malicious by multiple AVs and sandboxes, highlighting adding Defender exclusions and downloading further executables.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-04-telepycore\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote executable.'}",
+    "summary": "Malicious code in telepycore (PyPI)",
+    "details": "Package can only be used (requires additional triggering) to install a remote executable, ensure it starts on logon and name mimic network service. Though different versions contain different executables, they are mostly identified as malicious by multiple AVs and sandboxes, highlighting adding Defender exclusions and downloading further executables.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-04-telepycore\nReasons (based on the campaign):\n - peristence_autorun\n - Downloads and executes a remote executable.",
     "affected": {
         "package": {
             "name": "telepycore",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

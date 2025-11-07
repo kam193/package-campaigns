@@ -3,12 +3,12 @@
     "id": "pypi/2025-01-rqsts/reques",
     "published": "2025-01-25T16:53:01Z",
     "modified": "2025-01-25T16:53:01Z",
-    "summary": "Malicious code in reques (pypi)",
-    "details": "Clone of the requests package that modified the code to send all get and post requests to a hardcoded URL\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-rqsts \nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {}\n - {}",
+    "summary": "Malicious code in reques (PyPI)",
+    "details": "Clone of the requests package that modified the code to send all get and post requests to a hardcoded URL\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-rqsts \nReasons (based on the campaign):\n - The package is a clone of a real package, but with malicious code added.\n - dependency-confusion\n - action-hidden-in-lib-usage",
     "affected": {
         "package": {
             "name": "reques",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

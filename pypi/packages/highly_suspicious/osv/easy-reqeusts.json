@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-other-risky/easy-reqeusts",
     "published": "2025-08-30T19:13:41.806946+00:00",
     "modified": "2025-08-30T19:13:41.806963+00:00",
-    "summary": "Highly suspicious code in easy-reqeusts (pypi)",
+    "summary": "Highly suspicious code in easy-reqeusts (PyPI)",
     "details": "The setup.py contains a suspicious call to a script, which, however, isn't present in the package (at the time of analysis). The package code itself does not look to contain malicious parts.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "easy-reqeusts",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1.1.3"

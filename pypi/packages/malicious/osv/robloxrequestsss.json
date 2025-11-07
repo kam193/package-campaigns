@@ -3,12 +3,12 @@
     "id": "pypi/2024-10-discordmessager/robloxrequestsss",
     "published": "2024-10-13T09:30:47Z",
     "modified": "2024-10-13T09:30:47Z",
-    "summary": "Malicious code in robloxrequestsss (pypi)",
-    "details": "During installation, a remote, highly obfuscated script is downloaded and executed. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-10-discordmessager\nReasons (based on the campaign):\n - {'theme': 'warning'}\n - {}",
+    "summary": "Malicious code in robloxrequestsss (PyPI)",
+    "details": "During installation, a remote, highly obfuscated script is downloaded and executed. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-10-discordmessager\nReasons (based on the campaign):\n - obfuscation\n - dependency-confusion",
     "affected": {
         "package": {
             "name": "robloxrequestsss",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

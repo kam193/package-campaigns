@@ -3,12 +3,12 @@
     "id": "pypi/2024-09-bondonioanderas-cryptominer/kersa",
     "published": "2024-09-20T11:29:31Z",
     "modified": "2024-09-20T11:29:31Z",
-    "summary": "Malicious code in kersa (pypi)",
-    "details": "During installation, a cryptominer is secretly installed and started. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-09-bondonioanderas-cryptominer\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {'theme': 'warning'}",
+    "summary": "Malicious code in kersa (PyPI)",
+    "details": "During installation, a cryptominer is secretly installed and started. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-09-bondonioanderas-cryptominer\nReasons (based on the campaign):\n - cryptominer\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - obfuscation",
     "affected": {
         "package": {
             "name": "kersa",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

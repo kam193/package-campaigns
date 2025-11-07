@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-other-risky/telelogs",
     "published": "2025-07-15T21:17:33.268990+00:00",
     "modified": "2025-07-15T21:17:33.269002+00:00",
-    "summary": "Highly suspicious code in telelogs (pypi)",
+    "summary": "Highly suspicious code in telelogs (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "telelogs",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

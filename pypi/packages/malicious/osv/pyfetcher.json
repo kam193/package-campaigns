@@ -3,12 +3,12 @@
     "id": "pypi/2024-07-vaaai-netflixchecker/pyfetcher",
     "published": "2024-08-07T10:08:45Z",
     "modified": "2024-08-07T10:08:45Z",
-    "summary": "Malicious code in pyfetcher (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-vaaai-netflixchecker\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}",
+    "summary": "Malicious code in pyfetcher (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-vaaai-netflixchecker\nReasons (based on the campaign):\n - Downloads and executes a remote executable.",
     "affected": {
         "package": {
             "name": "pyfetcher",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

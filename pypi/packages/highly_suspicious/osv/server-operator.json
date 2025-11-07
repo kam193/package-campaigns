@@ -3,12 +3,12 @@
     "id": "pypi/2025-02-server-operator/server-operator",
     "published": "2025-02-08T22:02:04Z",
     "modified": "2025-02-08T22:02:04Z",
-    "summary": "Highly suspicious code in server-operator (pypi)",
-    "details": "Package is designed to look for Solana private keys and send them to a callback.  The first version also included the seed values. However, it requires explicit starting with a given callback.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-02-server-operator\nReasons (based on the campaign):\n - {}",
+    "summary": "Highly suspicious code in server-operator (PyPI)",
+    "details": "Package is designed to look for Solana private keys and send them to a callback.  The first version also included the seed values. However, it requires explicit starting with a given callback.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-02-server-operator\nReasons (based on the campaign):\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "server-operator",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

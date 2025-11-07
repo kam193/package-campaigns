@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-tronapisync/permsupping",
     "published": "2025-08-09T13:00:15.230653+00:00",
     "modified": "2025-08-09T13:00:15.230786+00:00",
-    "summary": "Malicious code in permsupping (pypi)",
-    "details": "Package is prepared to exfiltrate private keys, most probably for Tron cryptocurrency. There is no other purpose of the package\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-tronapisync\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in permsupping (PyPI)",
+    "details": "Package is prepared to exfiltrate private keys, most probably for Tron cryptocurrency. There is no other purpose of the package\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-tronapisync\nReasons (based on the campaign):\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "permsupping",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

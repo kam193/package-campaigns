@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-questionable-pentest/yelp-pkg",
     "published": "2025-10-20T11:58:32.224472+00:00",
     "modified": "2025-10-20T11:58:32.224488+00:00",
-    "summary": "Malicious code in yelp-pkg (pypi)",
-    "details": "During import, the package attempts to exfiltrate potentially sensitive data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: GENERIC-questionable-pentest\nReasons (based on the campaign):\n - {}\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {}",
+    "summary": "Malicious code in yelp-pkg (PyPI)",
+    "details": "During import, the package attempts to exfiltrate potentially sensitive data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: GENERIC-questionable-pentest\nReasons (based on the campaign):\n - exfiltration_env_variables\n - exfiltration_generic\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - typosquatting",
     "affected": {
         "package": {
             "name": "yelp-pkg",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1337.0.0"

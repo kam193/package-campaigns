@@ -3,12 +3,12 @@
     "id": "pypi/2024-07-prices-txt-exfiltration/fasdghjkhjafsd",
     "published": "2024-07-11T12:37:19Z",
     "modified": "2024-07-11T12:37:19Z",
-    "summary": "Malicious code in fasdghjkhjafsd (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-prices-txt-exfiltration\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in fasdghjkhjafsd (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-prices-txt-exfiltration\nReasons (based on the campaign):\n - files_exfiltration",
     "affected": {
         "package": {
             "name": "fasdghjkhjafsd",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2025-03-logax/axonify",
     "published": "2025-03-18T09:49:12Z",
     "modified": "2025-03-18T09:49:12Z",
-    "summary": "Malicious code in axonify (pypi)",
-    "details": "The package is capable of installing malware from a hardcoded URL. The malware is well-recognized and acts as infostealer. Interestingly, it uses Steam profiles to get the current C2 domain (based on sandbox analysis).\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-logax\nReasons (based on the campaign):\n - {}\n - {}",
+    "summary": "Malicious code in axonify (PyPI)",
+    "details": "The package is capable of installing malware from a hardcoded URL. The malware is well-recognized and acts as infostealer. Interestingly, it uses Steam profiles to get the current C2 domain (based on sandbox analysis).\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-logax\nReasons (based on the campaign):\n - infostealer\n - malware",
     "affected": {
         "package": {
             "name": "axonify",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

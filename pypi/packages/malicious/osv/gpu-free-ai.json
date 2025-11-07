@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-gpu-free-ai/gpu-free-ai",
     "published": "2025-07-10T23:09:35.817719+00:00",
     "modified": "2025-07-10T23:09:35.817730+00:00",
-    "summary": "Malicious code in gpu-free-ai (pypi)",
-    "details": "Code attempts to exfiltrate any env variable containing \"key\" in name. This action is triggered on multiple occasions thanks to overwriting module loading and patching. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-gpu-free-ai\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in gpu-free-ai (PyPI)",
+    "details": "Code attempts to exfiltrate any env variable containing \"key\" in name. This action is triggered on multiple occasions thanks to overwriting module loading and patching. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-gpu-free-ai\nReasons (based on the campaign):\n - exfiltration_env_variables",
     "affected": {
         "package": {
             "name": "gpu-free-ai",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

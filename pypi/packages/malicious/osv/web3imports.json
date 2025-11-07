@@ -3,12 +3,12 @@
     "id": "pypi/2025-01-asynchelpers/web3imports",
     "published": "2025-02-01T00:45:27Z",
     "modified": "2025-02-01T00:45:27Z",
-    "summary": "Malicious code in web3imports (pypi)",
-    "details": "Importing the module starts (through __init__.py) the code that download, extracts and starts a remote executable. This has been identified by any.run as a AsyncRAT. The VirtusTotal detection rate was originally at the edge of false positive, but increased significantly during a few hours.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-asynchelpers\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in web3imports (PyPI)",
+    "details": "Importing the module starts (through __init__.py) the code that download, extracts and starts a remote executable. This has been identified by any.run as a AsyncRAT. The VirtusTotal detection rate was originally at the edge of false positive, but increased significantly during a few hours.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-asynchelpers\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote executable.\n - malware",
     "affected": {
         "package": {
             "name": "web3imports",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

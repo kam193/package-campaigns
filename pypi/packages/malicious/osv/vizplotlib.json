@@ -3,12 +3,12 @@
     "id": "pypi/2024-10-alfooou/vizplotlib",
     "published": "2024-10-03T15:11:09Z",
     "modified": "2024-10-03T15:11:09Z",
-    "summary": "Malicious code in vizplotlib (pypi)",
-    "details": "Running the module triggers obfuscated code that downloads a DLL containing reverse shell and injects it to a benign process. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-10-alfooou\nReasons (based on the campaign):\n - {}\n - {'theme': 'warning'}",
+    "summary": "Malicious code in vizplotlib (PyPI)",
+    "details": "Running the module triggers obfuscated code that downloads a DLL containing reverse shell and injects it to a benign process. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-10-alfooou\nReasons (based on the campaign):\n - backdoor\n - obfuscation",
     "affected": {
         "package": {
             "name": "vizplotlib",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

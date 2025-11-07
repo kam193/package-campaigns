@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-old-susp-binod-wallpaper/binod-magic",
     "published": "2024-08-26T17:35:21Z",
     "modified": "2024-08-26T17:35:21Z",
-    "summary": "Spam code in binod-magic (pypi)",
-    "details": "Packages do nothing behind changing the background to a specific image.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2024-08-old-susp-binod-wallpaper\nReasons (based on the campaign):\n - {}",
+    "summary": "Spam code in binod-magic (PyPI)",
+    "details": "Packages do nothing behind changing the background to a specific image.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2024-08-old-susp-binod-wallpaper\nReasons (based on the campaign):\n - modify-system-without-consent",
     "affected": {
         "package": {
             "name": "binod-magic",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

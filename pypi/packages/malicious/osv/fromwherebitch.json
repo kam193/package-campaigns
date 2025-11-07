@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-k7eel/fromwherebitch",
     "published": "2025-09-03T15:12:47.938029+00:00",
     "modified": "2025-09-03T15:12:47.938044+00:00",
-    "summary": "Malicious code in fromwherebitch (pypi)",
-    "details": "Importing the module downloads and executes widely recognized malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-k7eel\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in fromwherebitch (PyPI)",
+    "details": "Importing the module downloads and executes widely recognized malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-k7eel\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware",
     "affected": {
         "package": {
             "name": "fromwherebitch",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.3"

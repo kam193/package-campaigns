@@ -3,12 +3,12 @@
     "id": "pypi/2024-08-lab-artifacts-revshell/artifact-lab-3-package-b6920ef4",
     "published": "2024-08-10T23:05:21Z",
     "modified": "2024-08-10T23:05:21Z",
-    "summary": "Malicious code in artifact-lab-3-package-b6920ef4 (pypi)",
-    "details": "Packages showing simple variants of revshell with targets to ngrok. Most probably experiments. Later versions moved to use Burp Collaborator to exfiltrate simple data. Pentest? An artifact from some red team curse? \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-lab-artifacts-revshell\nReasons (based on the campaign):\n - {'description': \"The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\"}\n - {'theme': 'warning', 'description': 'The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.'}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}",
+    "summary": "Malicious code in artifact-lab-3-package-b6920ef4 (PyPI)",
+    "details": "Packages showing simple variants of revshell with targets to ngrok. Most probably experiments. Later versions moved to use Burp Collaborator to exfiltrate simple data. Pentest? An artifact from some red team curse? \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-lab-artifacts-revshell\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - The package overrides the install command in setup.py to execute malicious code during installation.",
     "affected": {
         "package": {
             "name": "artifact-lab-3-package-b6920ef4",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

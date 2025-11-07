@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-nexlang/nexlang",
     "published": "2025-07-25T12:39:29.258290+00:00",
     "modified": "2025-07-25T12:39:29.258303+00:00",
-    "summary": "Highly suspicious code in nexlang (pypi)",
-    "details": "When importing the module, the package puts own dynamic library to be loaded with Python, and even after that the module seems not to have methods described on the page. In addition, while it's hard to check what exactly the library is doing, it references the Github gist page\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-07-nexlang\nReasons (based on the campaign):\n - {}\n - {}\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in nexlang (PyPI)",
+    "details": "When importing the module, the package puts own dynamic library to be loaded with Python, and even after that the module seems not to have methods described on the page. In addition, while it's hard to check what exactly the library is doing, it references the Github gist page\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-07-nexlang\nReasons (based on the campaign):\n - modify-system-without-consent\n - other\n - obfuscation",
     "affected": {
         "package": {
             "name": "nexlang",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

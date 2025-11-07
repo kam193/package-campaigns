@@ -3,12 +3,12 @@
     "id": "pypi/2025-10-bugdotexe/cuda-version",
     "published": "2025-10-29T22:10:19.055142+00:00",
     "modified": "2025-10-30T07:14:26.433540+00:00",
-    "summary": "Spam code in cuda-version (pypi)",
-    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - {}",
+    "summary": "Spam code in cuda-version (PyPI)",
+    "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - dependency-confusion",
     "affected": {
         "package": {
             "name": "cuda-version",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "2.3.2",

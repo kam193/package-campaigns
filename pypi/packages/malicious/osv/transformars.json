@@ -3,12 +3,12 @@
     "id": "pypi/2024-07-transformars-research/transformars",
     "published": "2024-07-07T18:03:21Z",
     "modified": "2024-07-07T18:03:21Z",
-    "summary": "Malicious code in transformars (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-transformars-research\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in transformars (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-transformars-research\nReasons (based on the campaign):\n - cryptominer",
     "affected": {
         "package": {
             "name": "transformars",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

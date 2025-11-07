@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-secmeasure/sisaws",
     "published": "2025-08-04T09:30:47.768057+00:00",
     "modified": "2025-08-04T09:30:47.768068+00:00",
-    "summary": "Malicious code in sisaws (pypi)",
-    "details": "Calling a method starts downloading and starting an infostealer script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-secmeasure\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote malicious script.'}\n - {}",
+    "summary": "Malicious code in sisaws (PyPI)",
+    "details": "Calling a method starts downloading and starting an infostealer script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-secmeasure\nReasons (based on the campaign):\n - action-hidden-in-lib-usage\n - Downloads and executes a remote malicious script.\n - infostealer",
     "affected": {
         "package": {
             "name": "sisaws",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

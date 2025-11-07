@@ -3,12 +3,12 @@
     "id": "pypi/2024-12-reqesst/requeszs",
     "published": "2024-12-24T18:09:49Z",
     "modified": "2024-12-24T18:09:49Z",
-    "summary": "Malicious code in requeszs (pypi)",
-    "details": "Importing the module downloads and starts an infostealer attempting to exfiltrate data and establishing persistence through autorun directory.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-reqesst\nReasons (based on the campaign):\n - {}\n - {}\n - {}\n - {}\n - {'description': 'Downloads and executes a remote executable.'}\n - {'theme': 'info', 'description': 'The package is a clone of a real package, but with malicious code added.'}\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in requeszs (PyPI)",
+    "details": "Importing the module downloads and starts an infostealer attempting to exfiltrate data and establishing persistence through autorun directory.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-reqesst\nReasons (based on the campaign):\n - infostealer\n - peristence_autorun\n - typosquatting\n - exfiltration_generic\n - Downloads and executes a remote executable.\n - The package is a clone of a real package, but with malicious code added.\n - dependency-confusion\n - exfiltration_browser_data\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "requeszs",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

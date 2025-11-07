@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-xenlib/fenomenallib",
     "published": "2025-09-09T19:19:56.076952+00:00",
     "modified": "2025-09-09T19:19:56.076976+00:00",
-    "summary": "Malicious code in fenomenallib (pypi)",
-    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in fenomenallib (PyPI)",
+    "details": "Package is prepared to exfiltrate sensitive files. Different packages use different places for the malicious code: it runs during importing the module, is placed in a native binary, or in the setup.py script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-xenlib\nReasons (based on the campaign):\n - files_exfiltration",
     "affected": {
         "package": {
             "name": "fenomenallib",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "2.7.0"

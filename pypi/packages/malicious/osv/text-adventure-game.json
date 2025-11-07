@@ -3,12 +3,12 @@
     "id": "pypi/text-adventure-game-ch-2024-07/text-adventure-game",
     "published": "2024-07-01T21:12:52Z",
     "modified": "2024-07-01T21:12:52Z",
-    "summary": "Malicious code in text-adventure-game (pypi)",
+    "summary": "Malicious code in text-adventure-game (PyPI)",
     "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: text-adventure-game-ch-2024-07\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "text-adventure-game",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

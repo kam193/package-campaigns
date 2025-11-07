@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-other-risky/amirhoshein",
     "published": "2025-08-14T22:58:41.174561+00:00",
     "modified": "2025-08-14T22:58:41.174586+00:00",
-    "summary": "Highly suspicious code in amirhoshein (pypi)",
+    "summary": "Highly suspicious code in amirhoshein (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "amirhoshein",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1.4.4"

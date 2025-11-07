@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-encryptionyg/encryptionyg",
     "published": "2025-06-16T12:40:35Z",
     "modified": "2025-06-16T12:40:35Z",
-    "summary": "Highly suspicious code in encryptionyg (pypi)",
-    "details": "Package with very advanced obfuscation and anty-sandbox techniques. The deobfuscated code appears not to have some suspicious activities, but no obvious malicious actions against the user - looks like a client to some online service, eventually designed to abuse it.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-encryptionyg\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in encryptionyg (PyPI)",
+    "details": "Package with very advanced obfuscation and anty-sandbox techniques. The deobfuscated code appears not to have some suspicious activities, but no obvious malicious actions against the user - looks like a client to some online service, eventually designed to abuse it.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-encryptionyg\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "encryptionyg",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

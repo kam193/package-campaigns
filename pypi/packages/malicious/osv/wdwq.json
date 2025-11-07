@@ -3,12 +3,12 @@
     "id": "pypi/2025-01-wdwq/wdwq",
     "published": "2025-01-07T14:50:30Z",
     "modified": "2025-01-07T14:50:30Z",
-    "summary": "Malicious code in wdwq (pypi)",
-    "details": "Starting the module starts a Telegram bot client capable of exfiltrating files when requested\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-wdwq\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in wdwq (PyPI)",
+    "details": "Starting the module starts a Telegram bot client capable of exfiltrating files when requested\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-wdwq\nReasons (based on the campaign):\n - files_exfiltration",
     "affected": {
         "package": {
             "name": "wdwq",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

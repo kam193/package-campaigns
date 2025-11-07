@@ -3,12 +3,12 @@
     "id": "pypi/2024-07-ronnyfredd-exfiltr-clipboard/testjson3",
     "published": "2024-07-21T11:39:54Z",
     "modified": "2024-07-21T11:39:54Z",
-    "summary": "Malicious code in testjson3 (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-ronnyfredd-exfiltr-clipboard\nReasons (based on the campaign):\n - {}\n - {}\n - {}",
+    "summary": "Malicious code in testjson3 (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-ronnyfredd-exfiltr-clipboard\nReasons (based on the campaign):\n - peristence_autorun\n - clipboard_stealing\n - ",
     "affected": {
         "package": {
             "name": "testjson3",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

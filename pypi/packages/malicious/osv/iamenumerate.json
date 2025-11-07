@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-aws-enumerate/iamenumerate",
     "published": "2025-08-14T23:01:46.248920+00:00",
     "modified": "2025-08-25T07:46:08.612646+00:00",
-    "summary": "Malicious code in iamenumerate (pypi)",
-    "details": "This one package is clearly created as part of the campaign, but the malicious code from the previous version has been removed (no other changes). It is anyway dangerous as most probably will be updated with the malicious code later\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-aws-enumerate\nReasons (based on the campaign):\n - {}\n - {}\n - exfiltration_credentials",
+    "summary": "Malicious code in iamenumerate (PyPI)",
+    "details": "This one package is clearly created as part of the campaign, but the malicious code from the previous version has been removed (no other changes). It is anyway dangerous as most probably will be updated with the malicious code later\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-aws-enumerate\nReasons (based on the campaign):\n - exfiltration_generic\n - action-hidden-in-lib-usage\n - exfiltration_credentials",
     "affected": {
         "package": {
             "name": "iamenumerate",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1.0.0",

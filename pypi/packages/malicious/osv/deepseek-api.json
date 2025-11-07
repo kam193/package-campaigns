@@ -3,12 +3,12 @@
     "id": "pypi/2024-07-adfboba/deepseek-api",
     "published": "2024-07-09T18:52:06Z",
     "modified": "2024-07-09T18:52:06Z",
-    "summary": "Malicious code in deepseek-api (pypi)",
+    "summary": "Malicious code in deepseek-api (PyPI)",
     "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-adfboba\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "deepseek-api",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

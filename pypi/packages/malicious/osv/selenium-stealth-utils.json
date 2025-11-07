@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-selenium-stealth-helper/selenium-stealth-utils",
     "published": "2025-08-25T11:30:13.319642+00:00",
     "modified": "2025-08-25T16:29:46.674133+00:00",
-    "summary": "Malicious code in selenium-stealth-utils (pypi)",
-    "details": "During importing, a malicious executable is being downloaded and started. According to sandbox report, the executable is an infostealer of rhadamanthys family.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-selenium-stealth-helper\nReasons (based on the campaign):\n - {}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}\n - {}",
+    "summary": "Malicious code in selenium-stealth-utils (PyPI)",
+    "details": "During importing, a malicious executable is being downloaded and started. According to sandbox report, the executable is an infostealer of rhadamanthys family.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-selenium-stealth-helper\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote executable.\n - impersonation\n - malware",
     "affected": {
         "package": {
             "name": "selenium-stealth-utils",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "2.0.3",

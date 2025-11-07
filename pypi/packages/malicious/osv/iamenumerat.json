@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-aws-enumerate/iamenumerat",
     "published": "2025-08-28T18:45:22.179580+00:00",
     "modified": "2025-08-28T18:45:22.179605+00:00",
-    "summary": "Malicious code in iamenumerat (pypi)",
-    "details": "Before creating the boto3 client, package exfiltrates user's credentials\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-aws-enumerate\nReasons (based on the campaign):\n - {}\n - {}\n - exfiltration_credentials",
+    "summary": "Malicious code in iamenumerat (PyPI)",
+    "details": "Before creating the boto3 client, package exfiltrates user's credentials\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-aws-enumerate\nReasons (based on the campaign):\n - exfiltration_generic\n - action-hidden-in-lib-usage\n - exfiltration_credentials",
     "affected": {
         "package": {
             "name": "iamenumerat",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "1.0.0"

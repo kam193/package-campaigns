@@ -3,12 +3,12 @@
     "id": "pypi/2023-11-decrypt-from-readme/ethercheck",
     "published": "2024-08-09T19:07:06Z",
     "modified": "2024-08-09T19:07:06Z",
-    "summary": "Malicious code in ethercheck (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2023-11-decrypt-from-readme\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Malicious code in ethercheck (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2023-11-decrypt-from-readme\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "ethercheck",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

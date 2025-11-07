@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-bulktweetbyref/bulktweetbyref",
     "published": "2025-06-18T05:42:14Z",
     "modified": "2025-06-18T05:42:14Z",
-    "summary": "Malicious code in bulktweetbyref (pypi)",
-    "details": "Using the function simulates some behavior, but then download and runs an Infostealer \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-bulktweetbyref\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {}\n - {}",
+    "summary": "Malicious code in bulktweetbyref (PyPI)",
+    "details": "Using the function simulates some behavior, but then download and runs an Infostealer \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-bulktweetbyref\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware\n - infostealer",
     "affected": {
         "package": {
             "name": "bulktweetbyref",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

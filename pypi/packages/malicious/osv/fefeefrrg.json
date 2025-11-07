@@ -3,12 +3,12 @@
     "id": "pypi/2023-12-fefeefrrg/fefeefrrg",
     "published": "2024-12-01T17:21:48Z",
     "modified": "2024-12-01T17:21:48Z",
-    "summary": "Malicious code in fefeefrrg (pypi)",
-    "details": "Installing the package starts an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2023-12-fefeefrrg\nReasons (based on the campaign):\n - {}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {}\n - {}\n - {'theme': 'warning', 'description': 'The package contains code to detect if it is running in a sandbox environment.'}",
+    "summary": "Malicious code in fefeefrrg (PyPI)",
+    "details": "Installing the package starts an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2023-12-fefeefrrg\nReasons (based on the campaign):\n - infostealer\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - exfiltration_generic\n - exfiltration_browser_data\n - The package contains code to detect if it is running in a sandbox environment.",
     "affected": {
         "package": {
             "name": "fefeefrrg",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

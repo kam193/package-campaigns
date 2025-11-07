@@ -3,12 +3,12 @@
     "id": "pypi/2025-07-memlib/memorylib",
     "published": "2025-07-16T19:47:52.209242+00:00",
     "modified": "2025-07-16T19:47:52.209251+00:00",
-    "summary": "Malicious code in memorylib (pypi)",
-    "details": "Installing the package triggers a code that looks like downloading a picture, but in fact downloads and starts an executable with malware. Note that file supplied from the URL differs depending on the presence of the special header\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-memlib\nReasons (based on the campaign):\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}\n - {'description': 'Downloads and executes a remote executable.'}\n - {}",
+    "summary": "Malicious code in memorylib (PyPI)",
+    "details": "Installing the package triggers a code that looks like downloading a picture, but in fact downloads and starts an executable with malware. Note that file supplied from the URL differs depending on the presence of the special header\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-memlib\nReasons (based on the campaign):\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - Downloads and executes a remote executable.\n - malware",
     "affected": {
         "package": {
             "name": "memorylib",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

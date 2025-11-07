@@ -3,12 +3,12 @@
     "id": "pypi/GENERIC-risky-hacking-tools/greedos",
     "published": "2025-10-28T19:25:39.918367+00:00",
     "modified": "2025-10-28T19:25:39.918385+00:00",
-    "summary": "Malicious code in greedos (pypi)",
+    "summary": "Malicious code in greedos (PyPI)",
     "details": "A DoS tool\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "greedos",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.4.0",

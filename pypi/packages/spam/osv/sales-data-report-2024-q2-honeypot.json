@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-sales-data-report-2024-q2-honeypot/sales-data-report-2024-q2-honeypot",
     "published": "2025-06-19T17:43:00Z",
     "modified": "2025-06-19T17:43:00Z",
-    "summary": "Spam code in sales-data-report-2024-q2-honeypot (pypi)",
+    "summary": "Spam code in sales-data-report-2024-q2-honeypot (PyPI)",
     "details": "The package just links to a honeypot URL in the description, under the link is really a GIF.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-06-sales-data-report-2024-q2-honeypot\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "sales-data-report-2024-q2-honeypot",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

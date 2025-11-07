@@ -3,12 +3,12 @@
     "id": "pypi/2025-02-network-utils-simple/network-utils-simple",
     "published": "2025-02-14T23:02:49Z",
     "modified": "2025-02-14T23:02:49Z",
-    "summary": "Malicious code in network-utils-simple (pypi)",
-    "details": "During installation, there is an attempt to download and execute code. The package has no real functionality.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-network-utils-simple\nReasons (based on the campaign):\n - {'description': 'Downloads and executes a remote executable.'}\n - {'theme': 'info', 'description': 'The package overrides the install command in setup.py to execute malicious code during installation.'}",
+    "summary": "Malicious code in network-utils-simple (PyPI)",
+    "details": "During installation, there is an attempt to download and execute code. The package has no real functionality.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-network-utils-simple\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - The package overrides the install command in setup.py to execute malicious code during installation.",
     "affected": {
         "package": {
             "name": "network-utils-simple",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

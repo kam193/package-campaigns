@@ -3,12 +3,12 @@
     "id": "pypi/2025-06-phishermanx/phishermanx",
     "published": "2025-06-18T21:54:31Z",
     "modified": "2025-06-18T21:54:31Z",
-    "summary": "Highly suspicious code in phishermanx (pypi)",
-    "details": "Hardly obfuscated package with unknown activity\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-phishermanx\nReasons (based on the campaign):\n - {'theme': 'warning'}",
+    "summary": "Highly suspicious code in phishermanx (PyPI)",
+    "details": "Hardly obfuscated package with unknown activity\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-phishermanx\nReasons (based on the campaign):\n - obfuscation",
     "affected": {
         "package": {
             "name": "phishermanx",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

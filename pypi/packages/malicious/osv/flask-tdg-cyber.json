@@ -3,12 +3,12 @@
     "id": "pypi/2025-08-flask-tdg-cyber/flask-tdg-cyber",
     "published": "2025-08-11T15:54:48.166927+00:00",
     "modified": "2025-08-11T15:54:48.166940+00:00",
-    "summary": "Malicious code in flask-tdg-cyber (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-flask-tdg-cyber\nReasons (based on the campaign):\n - {}\n - {}\n - {'theme': 'warning'}\n - {}",
+    "summary": "Malicious code in flask-tdg-cyber (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-flask-tdg-cyber\nReasons (based on the campaign):\n - exfiltration_generic\n - exfiltration_env_variables\n - obfuscation\n - malware",
     "affected": {
         "package": {
             "name": "flask-tdg-cyber",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "3.300.39",

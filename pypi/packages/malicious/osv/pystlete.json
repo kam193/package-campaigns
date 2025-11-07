@@ -3,12 +3,12 @@
     "id": "pypi/2024-07-kiwi-infostealer/pystlete",
     "published": "2024-07-09T18:46:41Z",
     "modified": "2024-07-09T18:46:41Z",
-    "summary": "Malicious code in pystlete (pypi)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-kiwi-infostealer\nReasons (based on the campaign):\n - {}",
+    "summary": "Malicious code in pystlete (PyPI)",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-kiwi-infostealer\nReasons (based on the campaign):\n - infostealer",
     "affected": {
         "package": {
             "name": "pystlete",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": []
     },

@@ -3,12 +3,12 @@
     "id": "pypi/2025-10-regixtest/regixtest",
     "published": "2025-10-01T06:38:19.337190+00:00",
     "modified": "2025-10-01T06:38:19.337263+00:00",
-    "summary": "Malicious code in regixtest (pypi)",
-    "details": "Obfuscated code contains e.g. capabilities for downloading and executing code from a hardcoded location. It's also recognized as malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-regixtest\nReasons (based on the campaign):\n - {'theme': 'warning'}\n - {}\n - {'description': 'Downloads and executes a remote malicious script.'}\n - {}",
+    "summary": "Malicious code in regixtest (PyPI)",
+    "details": "Obfuscated code contains e.g. capabilities for downloading and executing code from a hardcoded location. It's also recognized as malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-regixtest\nReasons (based on the campaign):\n - obfuscation\n - action-hidden-in-lib-usage\n - Downloads and executes a remote malicious script.\n - malware",
     "affected": {
         "package": {
             "name": "regixtest",
-            "ecosystem": "pypi"
+            "ecosystem": "PyPI"
         },
         "versions": [
             "0.1.4",
