@@ -1,0 +1,11 @@
+{
+    "name": "chromifypro",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-asynhttp",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-07T22:43:23.081777+00:00",
+    "campaign_data_modified_at": "2025-11-07T22:43:23.081806+00:00"
+}

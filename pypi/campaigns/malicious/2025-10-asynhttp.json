@@ -13,6 +13,7 @@
         "aiohttp-openssl",
         "aiohttp-ssl",
         "asynhttp",
+        "chromifypro",
         "httpserver-cache",
         "pygments-richstyle",
         "richx"
