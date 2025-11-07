@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/requests-x64"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/91278add45dd263f081394b27cd0ac3e2e951bb2de9d97dfc235563776d171c5"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/requests-x64"
         }
     ],
     "credits": [

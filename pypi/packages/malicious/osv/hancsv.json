@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/hancsv"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/c22722265e701d355ff1affdc306fb57162ded59690f15efded6bf7f30de2ba5/detection"
         },
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250629-vd4crawnx2"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hancsv"
         }
     ],
     "credits": [

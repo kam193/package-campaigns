@@ -4,7 +4,7 @@
     "published": "2025-10-22T17:09:55.791472+00:00",
     "modified": "2025-10-22T17:09:55.791490+00:00",
     "summary": "Malicious code in smart-scheduler (PyPI)",
-    "details": "Package downloads and starts a malicious executable and hides its existence  \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-smart-scheduler\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - exfiltration_generic\n - obfuscation\n - The package contains code to detect if it is running in a sandbox environment.",
+    "details": "Package downloads and starts a malicious executable and hides its existence\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-smart-scheduler\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - exfiltration_generic\n - obfuscation\n - The package contains code to detect if it is running in a sandbox environment.",
     "affected": {
         "package": {
             "name": "smart-scheduler",

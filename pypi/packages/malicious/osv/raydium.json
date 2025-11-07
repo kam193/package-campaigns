@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/raydium"
-        },
-        {
             "type": "WEB",
             "url": "https://checkmarx.com/blog/stackexchange-abused-to-spread-malicious-python-package-that-drains-victims-crypto-wallets/"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/raydium"
         }
     ],
     "credits": [

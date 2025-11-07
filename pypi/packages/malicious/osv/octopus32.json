@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/octopus32"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/ed1e4e19d366e74a0d156e8187fa2606ed3ae74254c558d6b6af54168745b811/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/octopus32"
         }
     ],
     "credits": [

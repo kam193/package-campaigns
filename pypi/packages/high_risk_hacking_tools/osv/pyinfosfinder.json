@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pyinfosfinder"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/EuroMH/PyMalWare"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyinfosfinder"
         }
     ],
     "credits": [

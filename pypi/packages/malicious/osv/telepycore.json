@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/telepycore"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/34d499a6ccf6634ab8eda9424111cf56c872ec426c1f9de03054569508f17367/detection"
         },
@@ -40,6 +36,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250430-1njc8ahl9y/behavioral1"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/telepycore"
         }
     ],
     "credits": [

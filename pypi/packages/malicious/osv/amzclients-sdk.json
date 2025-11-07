@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/amzclients-sdk"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/pypi-data/pypi-mirror-238/blob/code/packages/snapshot-photo/snapshot_photo-0.0.3-py3-none-any.whl/snapshot_photo/date_format.py"
         },
@@ -28,6 +24,10 @@
         {
             "type": "WEB",
             "url": "https://thehackernews.com/2025/03/malicious-pypi-packages-stole-cloud.html"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/amzclients-sdk"
         }
     ],
     "credits": [

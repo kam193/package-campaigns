@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pyloy"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/249c91245c949e8e7cc7f4bd3d6aef9b354c1d249fc3097b0363862ed7269886"
         },
@@ -32,6 +28,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/240913-pcqgls1cna"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyloy"
         }
     ],
     "credits": [

@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/initer"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/fbb53fbf45d3ec579d4273ae95e8c833f12d66a2111633d65edb1e42513addc6"
         },
         {
             "type": "WEB",
             "url": "https://www.virustotal.com/gui/file-analysis/M2YwMDg3ZDUyOWFlZjIxY2RlMTE2ODQwMmJmMmU2MDE6MTc0ODU2MTExMQ=="
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/initer"
         }
     ],
     "credits": [

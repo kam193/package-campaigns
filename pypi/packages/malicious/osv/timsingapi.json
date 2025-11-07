@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/timsingapi"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250503-njy7na1zgs/static1"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/timsingapi"
         }
     ],
     "credits": [

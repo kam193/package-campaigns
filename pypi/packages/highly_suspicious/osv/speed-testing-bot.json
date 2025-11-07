@@ -4,7 +4,7 @@
     "published": "2025-10-11T14:23:26.918650+00:00",
     "modified": "2025-10-11T14:23:26.918666+00:00",
     "summary": "Highly suspicious code in speed-testing-bot (PyPI)",
-    "details": "Package allow remote control over a user's computer, but is not started automatically and requires a token.  \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
+    "details": "Package allow remote control over a user's computer, but is not started automatically and requires a token.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
     "affected": {
         "package": {
             "name": "speed-testing-bot",

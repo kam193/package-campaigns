@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pingdomv3"
-        },
-        {
             "type": "WEB",
             "url": "https://jfrog.com/blog/revival-hijack-pypi-hijack-technique-exploited-22k-packages-at-risk/#real-world-revival-hijack-pingdomv3"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pingdomv3"
         }
     ],
     "credits": [

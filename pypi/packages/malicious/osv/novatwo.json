@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/novatwo"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250202-13vd2askfn"
         },
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/775dfface00c9bac01640dd7b36b01102759389e122c19b3062cecdee45946aa/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/novatwo"
         }
     ],
     "credits": [

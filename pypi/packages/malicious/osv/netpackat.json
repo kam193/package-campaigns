@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/netpackat"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/b9a07b5b22c1f49f2f28e5cb4c9854557e3ac8bf9d1a7c348236f6f226f7f9ab"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/netpackat"
         }
     ],
     "credits": [

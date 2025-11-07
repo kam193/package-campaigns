@@ -18,12 +18,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/saintone"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/83f1a0723e3a529fa964eedba0558e539c3364c88f2042482da9e90eed392d4c/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/saintone"
         }
     ],
     "credits": [

@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/piedefender"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/0877653f6a24639bb02b547c94f670597c3c0cd96df910a2ac891eaeaa9cc5f3/behavior"
         },
@@ -28,6 +24,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://app.any.run/tasks/0fbdb4f9-0497-4272-baf0-872e8d6e50bc"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/piedefender"
         }
     ],
     "credits": [

@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/dirutils"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/f754903e1fec996a10be31f9654f159354f0de1d17de9325cbd468f66ee69cd2/behavior"
         },
@@ -28,6 +24,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/d7e3402341dcba66a6ed3e92889c655aa08d5103d1a65133f0a05f12d9390bb4"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/dirutils"
         }
     ],
     "credits": [

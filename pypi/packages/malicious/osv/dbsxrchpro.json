@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/dbsxrchpro"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/8fd0a5ee03bc21cfb2fb7308ef4f673d7483f50ef8efcbe7b2444721478bd71c"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/dbsxrchpro"
         }
     ],
     "credits": [

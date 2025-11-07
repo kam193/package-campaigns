@@ -29,10 +29,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/selenium-stealth-utils"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://app.any.run/tasks/dbccedd5-77ed-4ccc-937a-55c7d0b984ca"
         },
@@ -43,6 +39,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/3eea3d9fa281e3f370d91dd167bd90cbf4917d3aa47ee52fa000f169c3330502/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/selenium-stealth-utils"
         }
     ],
     "credits": [

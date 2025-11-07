@@ -4,7 +4,7 @@
     "published": "2025-10-28T19:23:53.795227+00:00",
     "modified": "2025-10-28T19:23:53.795242+00:00",
     "summary": "Malicious code in speedd-testing-bot (PyPI)",
-    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-speedd-testing-bot\nReasons (based on the campaign):\n - rat\n - Downloads and executes a remote malicious script.",
+    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-speedd-testing-bot\nReasons (based on the campaign):\n - rat\n - Downloads and executes a remote malicious script.",
     "affected": {
         "package": {
             "name": "speedd-testing-bot",

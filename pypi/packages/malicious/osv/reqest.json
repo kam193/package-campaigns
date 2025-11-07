@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/reqest"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/0736a1f176f081a076b2cba3b54e1cb1462fe1a01be16144397bbc0d4739d01a"
         },
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/56ed3b8ca17b00ee8e7a1cb13298e5b12fd1771c24b33b9a84ba92b0610279e5"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/reqest"
         }
     ],
     "credits": [

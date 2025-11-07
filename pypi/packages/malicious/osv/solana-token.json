@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/solana-token"
-        },
-        {
             "type": "WEB",
             "url": "https://thehackernews.com/2025/05/malicious-pypi-package-posing-as-solana.html"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/solana-token"
         }
     ],
     "credits": [

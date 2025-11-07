@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pybanners"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/BlazeSquad666/blazestealer"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pybanners"
         }
     ],
     "credits": [

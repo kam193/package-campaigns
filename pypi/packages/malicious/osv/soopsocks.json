@@ -28,16 +28,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/soopsocks"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/d1cb05c0e57ceb142a5e1117df4359a62df3a01f708561f4714e10e8f2af1f0d/detection"
         },
         {
             "type": "WEB",
             "url": "https://research.jfrog.com/post/check-your-socks-a-deep-dive-into-soopsocks-pypi/"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/soopsocks"
         }
     ],
     "credits": [

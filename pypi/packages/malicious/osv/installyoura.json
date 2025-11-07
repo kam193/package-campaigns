@@ -16,12 +16,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/installyoura"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/31a0351308ed1366629d8cab3fe41e269ef719737f39410c846409fadcfef96b/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/installyoura"
         }
     ],
     "credits": [

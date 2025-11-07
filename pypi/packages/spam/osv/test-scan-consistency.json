@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/test-scan-consistency"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/jvlax/vibehat"
         },
         {
             "type": "WEB",
             "url": "https://github.com/jvlax/vibehat/blob/eed43b24b17ba393efc1b4e06aa7f9413559831a/backend/github_scanner.py#L345"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/test-scan-consistency"
         }
     ],
     "credits": [

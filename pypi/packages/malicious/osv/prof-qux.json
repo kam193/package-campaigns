@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/prof-qux"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250731-lnhpcsfk9x/behavioral1"
         },
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250731-25hnpahn7y/behavioral1"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/prof-qux"
         }
     ],
     "credits": [

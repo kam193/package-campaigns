@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/bsb-family-bot"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/ossf/malicious-packages/commit/8585e7801190c2d22c06a65dc8df44a9b529829b"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bsb-family-bot"
         }
     ],
     "credits": [

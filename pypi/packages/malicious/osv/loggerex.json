@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/loggerex"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/Delgan/loguru/issues/1363"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/loggerex"
         }
     ],
     "credits": [

@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/dcrb"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/bc6d9a1e418b20d25349050031a7da1e2807fbd1d8b6c5ad302a6ef28b0ab30b/"
         },
@@ -32,6 +28,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/9cfe03b19ed2a2748b67a598d6a02125050a61e4c1086c30080049eeabb158e5/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/dcrb"
         }
     ],
     "credits": [

@@ -14,10 +14,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/juphelp"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/22463611269abfdfca5d7dca9f77b113ab8b0d687e1059f7ef700c455880902e/detection"
         },
@@ -28,6 +24,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/240817-whze2aydkc"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/juphelp"
         }
     ],
     "credits": [

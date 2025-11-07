@@ -16,12 +16,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/httpserver-cache"
-        },
-        {
             "type": "WEB",
             "url": "https://www.cert.at/en/blog/2025/10/how-typosquatting-tricked-me-a-bit"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/httpserver-cache"
         }
     ],
     "credits": [

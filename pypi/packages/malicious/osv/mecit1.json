@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/mecit1"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/thegoodhackertv/malpip"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/mecit1"
         }
     ],
     "credits": [

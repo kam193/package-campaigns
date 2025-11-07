@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pojang-resorter"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/3d30ffd98e870abc0e09fb3af94d65fc8efd391ede958dd0365007a7ae020ec0"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pojang-resorter"
         }
     ],
     "credits": [

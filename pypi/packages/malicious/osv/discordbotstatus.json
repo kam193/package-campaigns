@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/discordbotstatus"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/85d1f3ef084cc8ce90585965e287f0f14f87cbc744c25aafa5557074ddd9c70a"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/discordbotstatus"
         }
     ],
     "credits": [

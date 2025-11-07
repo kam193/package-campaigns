@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/my-main-manager"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/3edb49a97efb63a1cdfb5c42459972bdb1d339083365372b24fd9c6d780a04b5/detection"
         },
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/241201-t1e31awlbw/behavioral2"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/my-main-manager"
         }
     ],
     "credits": [

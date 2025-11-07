@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/svcmanager"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/f1bf511ab38a42a2c4c870deb1cd049f56862683471cb103cb845a134e65d82b?nocache=1"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/svcmanager"
         }
     ],
     "credits": [

@@ -4,7 +4,7 @@
     "published": "2024-12-30T17:59:01Z",
     "modified": "2024-12-30T17:59:01Z",
     "summary": "Highly suspicious code in toneo (PyPI)",
-    "details": "Package suggest assisting by smart contracts, but the only feature is asking for a secure phrase and sending it to the author. The package itself looks not attractive enough to be malicious alone, but at the moment the full scenario isn't known.\n\nHowever, creating a few similar packages and the random users name looks enough suspicious to assume the malicious intention. \n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-12-tonki\nReasons (based on the campaign):\n - A Telegram webhook is used to send collected data.\n - exfiltration_crypto",
+    "details": "Package suggest assisting by smart contracts, but the only feature is asking for a secure phrase and sending it to the author. The package itself looks not attractive enough to be malicious alone, but at the moment the full scenario isn't known.\n\nHowever, creating a few similar packages and the random users name looks enough suspicious to assume the malicious intention.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-12-tonki\nReasons (based on the campaign):\n - A Telegram webhook is used to send collected data.\n - exfiltration_crypto",
     "affected": {
         "package": {
             "name": "toneo",

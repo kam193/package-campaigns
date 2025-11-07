@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/sajodecrypto"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/9471d2e4600b5fb5641b2c8a228bc5de9f0b647d7351ad17b589067293e84159/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/sajodecrypto"
         }
     ],
     "credits": [

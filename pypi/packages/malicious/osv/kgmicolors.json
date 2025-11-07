@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/kgmicolors"
-        },
-        {
             "type": "WEB",
             "url": "https://www.virustotal.com/gui/file-analysis/ZWU5OThlMWFlZWU3NTFhOGIwOGZmYzExMWU1MTk1MzM6MTc0MDUxNjgxMw=="
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/kgmicolors"
         }
     ],
     "credits": [

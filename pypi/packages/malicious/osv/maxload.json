@@ -4,7 +4,7 @@
     "published": "2025-07-30T01:11:45.673946+00:00",
     "modified": "2025-07-30T01:11:45.673964+00:00",
     "summary": "Malicious code in maxload (PyPI)",
-    "details": "Running the module downloads, configure its startup and starts a remote executable. The exe is capable of sending files to a hardcoded Telegram channel, but this behavior seems not to be triggered during analysis \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-maxload\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - peristence_autorun\n - A Telegram webhook is used to send collected data.",
+    "details": "Running the module downloads, configure its startup and starts a remote executable. The exe is capable of sending files to a hardcoded Telegram channel, but this behavior seems not to be triggered during analysis\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-maxload\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - peristence_autorun\n - A Telegram webhook is used to send collected data.",
     "affected": {
         "package": {
             "name": "maxload",
@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/maxload"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/822a8d19b944ff44351cf34a07e59dffb838bb157f1b8cf5a47a22f28d4d9500/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/maxload"
         }
     ],
     "credits": [

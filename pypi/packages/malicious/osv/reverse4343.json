@@ -4,7 +4,7 @@
     "published": "2024-11-14T17:07:03Z",
     "modified": "2024-11-14T17:07:03Z",
     "summary": "Malicious code in reverse4343 (PyPI)",
-    "details": "The package contains only a reverse shell started on installation \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-predic\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
+    "details": "The package contains only a reverse shell started on installation\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-predic\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
     "affected": {
         "package": {
             "name": "reverse4343",

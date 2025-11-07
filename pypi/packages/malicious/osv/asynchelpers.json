@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/asynchelpers"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://app.any.run/tasks/f4f95dff-ac96-47f1-bc14-76e2745ecb3d"
         },
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/265ef544887043fb158f2049a4e77ccf6119e28e3aebcde66b28db70795b5ee6"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/asynchelpers"
         }
     ],
     "credits": [

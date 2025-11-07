@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/axonify"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/e4e480f35f9aad3b5c6410b701c7ef780b38b879cfa55e01ab3404ce02212f1a"
         },
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250318-hmkksawvh1"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/axonify"
         }
     ],
     "credits": [

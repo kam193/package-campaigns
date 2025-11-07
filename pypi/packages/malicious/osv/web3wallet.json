@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/web3wallet"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/taikoyaki/MegaEth-Auto-Bot/blob/772b4591daaa0b200d1bd1fd3be3d48b8433f084/cap/cap.py#L49"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/web3wallet"
         }
     ],
     "credits": [

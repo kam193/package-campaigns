@@ -16,10 +16,6 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/xwormclient"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/b72c29249dee7744ef350444177c65cf34ae8543295dc0b45d20154f564e6c4c/detection"
         },
@@ -30,6 +26,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/7146846de021736051dd919b0b6ab35a64b50fae1c9cca60d301f72795bafaec/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/xwormclient"
         }
     ],
     "credits": [

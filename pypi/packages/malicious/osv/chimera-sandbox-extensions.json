@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/chimera-sandbox-extensions"
-        },
-        {
             "type": "WEB",
             "url": "https://jfrog.com/blog/chimera-sandbox-extensions-malware-threatens-pypi-users/"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/chimera-sandbox-extensions"
         }
     ],
     "credits": [

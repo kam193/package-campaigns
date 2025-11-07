@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/python-bitget-api"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/a3b25b30a607645efefa26180baf183695c97c58b06aa6a67af1332cd3fe582e/"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/python-bitget-api"
         }
     ],
     "credits": [

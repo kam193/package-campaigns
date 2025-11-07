@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/package-lib8127"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/can-kat/cstealer"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/package-lib8127"
         }
     ],
     "credits": [

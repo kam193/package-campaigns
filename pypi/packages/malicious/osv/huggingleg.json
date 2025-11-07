@@ -4,7 +4,7 @@
     "published": "2024-11-07T08:40:19Z",
     "modified": "2024-11-07T08:40:19Z",
     "summary": "Malicious code in huggingleg (PyPI)",
-    "details": "Package use a name similar to a known service and automatically attempt do download and run a remote executable. \n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-huggingleg\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - dependency-confusion",
+    "details": "Package use a name similar to a known service and automatically attempt do download and run a remote executable.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-huggingleg\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - dependency-confusion",
     "affected": {
         "package": {
             "name": "huggingleg",

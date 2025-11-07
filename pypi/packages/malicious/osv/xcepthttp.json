@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/xcepthttp"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/08a2072bf8e155457afe84d61a9d2e077183b7b8413c9c601c9cf30454c2f4a0"
         },
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250316-s2sj2sxmx7"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/xcepthttp"
         }
     ],
     "credits": [

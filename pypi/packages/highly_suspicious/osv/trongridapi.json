@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/trongridapi"
-        },
-        {
             "type": "WEB",
             "url": "https://en.wikipedia.org/wiki/Tron_(blockchain)"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/trongridapi"
         }
     ],
     "credits": [

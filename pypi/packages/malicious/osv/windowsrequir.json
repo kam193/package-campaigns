@@ -16,16 +16,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/windowsrequir"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/7b54915ac4e6d820bec7782cb02adb0d9ef7a3e9532a7e45d9e29bb220f3d079/detection"
         },
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/ac5ce135f96d67e8cc61887a9343468f72cd034af266ae65da2d5f1797ca28e7/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/windowsrequir"
         }
     ],
     "credits": [

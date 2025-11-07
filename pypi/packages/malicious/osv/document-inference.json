@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/document-inference"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/sl4x0"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/document-inference"
         }
     ],
     "credits": [

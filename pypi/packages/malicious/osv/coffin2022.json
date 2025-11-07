@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/coffin2022"
-        },
-        {
             "type": "WEB",
             "url": "https://socket.dev/blog/using-trusted-protocols-against-you-gmail-as-a-c2-mechanism"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/coffin2022"
         }
     ],
     "credits": [

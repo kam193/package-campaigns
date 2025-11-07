@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/backtradingbot"
-        },
-        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/campaign/2025-07-db-indicator/"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/backtradingbot"
         }
     ],
     "credits": [

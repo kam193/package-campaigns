@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/crypt0graphyy"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/thegoodhackertv/malpip"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/crypt0graphyy"
         }
     ],
     "credits": [

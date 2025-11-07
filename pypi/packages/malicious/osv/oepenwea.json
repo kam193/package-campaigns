@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/oepenwea"
-        },
-        {
             "type": "WEB",
             "url": "https://www.cert.at/en/blog/2024/3/hobby-hunter-notes-pypi-under-attack"
         },
         {
             "type": "WEB",
             "url": "https://blog.phylum.io/typosquatting-campaign-targets-python-developers/"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/oepenwea"
         }
     ],
     "credits": [

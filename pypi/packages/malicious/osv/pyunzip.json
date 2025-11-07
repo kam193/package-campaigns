@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pyunzip"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://tria.ge/240823-sxpmlavdnk/behavioral2"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyunzip"
         }
     ],
     "credits": [

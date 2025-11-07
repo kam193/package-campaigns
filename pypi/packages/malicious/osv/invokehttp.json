@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/invokehttp"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/84ccffd89ef262ce8475801bfc751fec381ee613f38f78b1c0974716ad32bab8"
         },
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/6c2fb04f81fe0631d6765720af92aa9969f10766281fbc32b6f77889b50b87cd"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/invokehttp"
         }
     ],
     "credits": [

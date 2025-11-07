@@ -23,12 +23,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/anothertestproject"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/0f31bf98a98921654ae8df0b4a37b6f718e16d708477452de785a73316174ba1/detection"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/anothertestproject"
         }
     ],
     "credits": [

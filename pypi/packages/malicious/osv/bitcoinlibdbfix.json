@@ -14,12 +14,12 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/bitcoinlibdbfix"
-        },
-        {
             "type": "WEB",
             "url": "https://github.com/1200wd/bitcoinlib/issues/455#issuecomment-2764513104"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bitcoinlibdbfix"
         }
     ],
     "credits": [

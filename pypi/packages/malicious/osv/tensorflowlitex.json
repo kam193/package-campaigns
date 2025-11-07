@@ -14,16 +14,16 @@
     },
     "references": [
         {
-            "type": "OTHER",
-            "url": "https://bad-packages.kam193.eu/pypi/package/tensorflowlitex"
-        },
-        {
             "type": "EVIDENCE",
             "url": "https://app.any.run/tasks/873a1b14-7bab-4d85-bcc0-b7bd281d9640"
         },
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/250425-nqzrrssxht"
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/tensorflowlitex"
         }
     ],
     "credits": [
