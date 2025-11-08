@@ -1,0 +1,11 @@
+{
+    "name": "db-aggregator-api",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-db-aggregator-api",
+    "affected_versions": [
+        "0.2.0",
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-08T20:20:23.576639+00:00",
+    "campaign_data_modified_at": "2025-11-08T20:20:23.576658+00:00"
+}

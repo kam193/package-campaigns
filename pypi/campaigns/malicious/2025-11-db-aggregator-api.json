@@ -1,0 +1,20 @@
+{
+    "name": "2025-11-db-aggregator-api",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "remote_executable"
+    ],
+    "packages": [
+        "db-aggregator-api"
+    ],
+    "created_at": "2025-11-08",
+    "ioc": [
+        "https://www.dropbox.com/scl/fi/9guh7pdcap45paceyvu9q/updater.exe?rlkey=3zukihnlct2qsz7c3ds05isd0&st=ra8iyhmt&dl=1"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/YzczOGMxNDA2MjU1NGJiNmVjMDI3MzcyZWRhZmM5NTg6MTc2MjYzMzE3Mg=="
+    ],
+    "description": "Importing the module downloads and starts an infostealer."
+}

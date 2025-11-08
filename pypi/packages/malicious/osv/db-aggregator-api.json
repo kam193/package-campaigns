@@ -1,0 +1,37 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-db-aggregator-api/db-aggregator-api",
+    "published": "2025-11-08T20:20:23.576639+00:00",
+    "modified": "2025-11-08T20:20:23.576658+00:00",
+    "summary": "Malicious code in db-aggregator-api (PyPI)",
+    "details": "Importing the module downloads and starts an infostealer.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-db-aggregator-api\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote executable.",
+    "affected": {
+        "package": {
+            "name": "db-aggregator-api",
+            "ecosystem": "PyPI"
+        },
+        "versions": [
+            "0.2.0",
+            "0.1.0"
+        ]
+    },
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://www.virustotal.com/gui/file-analysis/YzczOGMxNDA2MjU1NGJiNmVjMDI3MzcyZWRhZmM5NTg6MTc2MjYzMzE3Mg=="
+        },
+        {
+            "type": "OTHER",
+            "url": "https://bad-packages.kam193.eu/pypi/package/db-aggregator-api"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193"
+            ],
+            "role": "REPORTER"
+        }
+    ]
+}
