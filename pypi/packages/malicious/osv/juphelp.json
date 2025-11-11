@@ -41,5 +41,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "sleipnirbrowser.org"
+            ],
+            "urls": [
+                "https://sleipnirbrowser.org/api/python/14526470/win",
+                "https://sleipnirbrowser.org/api/python/79D83767/mac",
+                "https://sleipnirbrowser.org/api/python/79D83767/win"
+            ]
+        }
+    }
 }

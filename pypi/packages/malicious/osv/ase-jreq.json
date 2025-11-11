@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "eo64g38fdes1lxm.m.pipedream.net"
+            ]
+        }
+    }
 }

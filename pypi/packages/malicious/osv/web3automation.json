@@ -33,5 +33,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "web3check-api.netlify.app",
+                "dapper-flan-46eb5a.netlify.app"
+            ]
+        }
+    }
 }

@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://89.23.98.149:5000/checkseed"
+            ],
+            "ips": [
+                "89.23.98.149"
+            ]
+        }
+    }
 }

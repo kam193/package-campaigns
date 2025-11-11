@@ -29,5 +29,18 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "ethscanold.com",
+                "crypto-api.net"
+            ],
+            "urls": [
+                "https://ethscanold.com/ex_ewq1/2e.exe",
+                "https://ethscanold.com/ex_ewq1/cdr2.exe",
+                "https://ethscanold.com/r.php"
+            ]
+        }
+    }
 }

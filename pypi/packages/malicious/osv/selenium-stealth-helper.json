@@ -48,5 +48,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "flicxd2.com"
+            ],
+            "urls": [
+                "https://google.flicxd2.com/dell/DELL_GLOBAL-TOUCH-MONITOR_A00-00_R1.py",
+                "https://raw.githubusercontent.com/security-research/web-automation-tools/main/enhanced_bypass.py",
+                "https://google.flicxd2.com/dell/DELL_GLOBAL_TOUCH_MONITOR_A00-00_R1.py"
+            ]
+        }
+    }
 }

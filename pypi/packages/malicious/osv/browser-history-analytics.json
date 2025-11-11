@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "arpy8-bha-dubious-backend.hf.space"
+            ],
+            "urls": [
+                "https://arpy8-bha-dubious-backend.hf.space/set"
+            ]
+        }
+    }
 }

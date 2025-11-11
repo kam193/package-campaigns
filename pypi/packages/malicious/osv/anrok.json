@@ -44,5 +44,18 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/mtlnewacc6-sys/adadad/raw/refs/heads/main/x69.exe",
+                "https://github.com/byebyeeeeeeaaa/turbo-guide/raw/refs/heads/main/Payload.exe",
+                "https://github.com/deprosinal/legendary-funicular/raw/refs/heads/main/helo.exe",
+                "https://github.com/deprosinal/didactic-octo-funicular/raw/refs/heads/main/Payload.exe",
+                "https://github.com/deprosinal/sturdy-fiesta/raw/refs/heads/main/XClient.exe",
+                "https://github.com/deprosinal/jubilant-parakeet/raw/refs/heads/main/41222.exe",
+                "https://github.com/deprosinal/shiny-telegram/raw/refs/heads/main/XClient.exe"
+            ]
+        }
+    }
 }

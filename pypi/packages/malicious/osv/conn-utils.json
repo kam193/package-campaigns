@@ -29,5 +29,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "m.yubitusoft.com",
+                "yubitusoft.com"
+            ]
+        }
+    }
 }

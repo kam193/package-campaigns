@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://api.telegram.org/bot7866811532:AAHWBkH7NH7XheqQBRIdfoCk4psEr0BBrjg/sendDocument"
+            ]
+        }
+    }
 }

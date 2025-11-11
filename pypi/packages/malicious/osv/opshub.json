@@ -29,5 +29,20 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://45.142.115.225:8000/grab/DaTDTcxiSvq9OA6r",
+                "http://45.142.115.225:8000/inject/DaTDTcxiSvq9OA6r",
+                "http://45.142.115.225:8000/grab/DaTDTcxiSvq9OA6r",
+                "http://45.142.115.225:8000/repeter/DaTDTcxiSvq9OA6r",
+                "https://cdn.discordapp.com/attachments/1086668425797058691/1113770559688413245/app.asar",
+                "https://cdn.discordapp.com/attachments/1135684724585681039/1143224080603037827/app.asar"
+            ],
+            "ips": [
+                "45.142.115.225"
+            ]
+        }
+    }
 }

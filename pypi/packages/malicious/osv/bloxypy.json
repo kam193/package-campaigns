@@ -31,5 +31,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://discord.com/api/webhooks/1272911919686095030/YFEMYwnHMrm0g0TuWjMYY7eymWSr0Caq-npGXbI5dckduYI8EO7zjwdRq_47G0GP6K6l"
+            ]
+        }
+    }
 }

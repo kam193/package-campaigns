@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/jaH2uRE1"
+            ],
+            "ips": [
+                "200.58.107.25"
+            ]
+        }
+    }
 }

@@ -36,5 +36,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/annawilson121990-lgtm/annaan/raw/refs/heads/main/bashu.exe"
+            ]
+        }
+    }
 }

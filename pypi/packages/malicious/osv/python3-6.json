@@ -33,5 +33,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "romsbamgel470.giize.com"
+            ],
+            "ips": [
+                "144.172.116.56"
+            ]
+        }
+    }
 }

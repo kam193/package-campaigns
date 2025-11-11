@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "wandering-tooth.cooper-c79.workers.dev"
+            ]
+        }
+    }
 }

@@ -29,5 +29,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/skibiditoiletfan1123/someting23/refs/heads/main/fishrelease.pyw",
+                "https://github.com/skibiditoiletfan1123/someting23"
+            ]
+        }
+    }
 }

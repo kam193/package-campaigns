@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "free.beeceptor.com"
+            ],
+            "urls": [
+                "https://mp14dea413c69b2bf527.free.beeceptor.com/code"
+            ]
+        }
+    }
 }

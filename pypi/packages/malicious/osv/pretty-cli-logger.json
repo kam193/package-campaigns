@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "i88za2.pages.dev"
+            ],
+            "urls": [
+                "https://i88za2.pages.dev/msulzlw.txt",
+                "https://i88za2.pages.dev/ei2ghzc.txt"
+            ]
+        }
+    }
 }

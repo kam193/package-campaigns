@@ -37,5 +37,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/user-attachments/files/16791956/marshal.txt",
+                "https://github.com/user-attachments/files/16791996/trezznor.txt"
+            ]
+        }
+    }
 }

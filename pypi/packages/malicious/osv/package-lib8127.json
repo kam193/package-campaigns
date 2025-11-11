@@ -33,5 +33,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://rentry.co/u4tup/raw",
+                "https://rentry.co/u7hcdw7r/raw",
+                "https://rentry.co/n9t3khws/raw",
+                "https://rentry.co/5uu99/raw"
+            ]
+        }
+    }
 }

@@ -29,5 +29,16 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://194.163.191.205:6963/api",
+                "http://194.163.191.205:6963/builds/Netflix_Checker.exe"
+            ],
+            "ips": [
+                "194.163.191.205"
+            ]
+        }
+    }
 }

@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "ip-database-netutils.pages.dev"
+            ]
+        }
+    }
 }

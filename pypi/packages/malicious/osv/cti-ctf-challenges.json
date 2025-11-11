@@ -33,5 +33,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/brojafox/hehe/raw/refs/heads/main/hehe.txt"
+            ]
+        }
+    }
 }

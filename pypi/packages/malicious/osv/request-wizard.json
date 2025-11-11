@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "webhook.lewisakura.moe"
+            ],
+            "urls": [
+                "https://webhook.lewisakura.moe/api/webhooks/1060926349793050725/11cIlB9OtDMuZbxqAHDnST4LuzQkR9CzTsFuCYJMCYnns028ZyPvupSs76pYktLfqpij",
+                "https://discord.com/api/webhooks/1063474064779386930/XoGeQXfBC2uTbBafVTuUDn3oGz5hXYDwSxRhxy4Tk1fkvyba611Fnm_Ozfw-5RptAgDl"
+            ]
+        }
+    }
 }

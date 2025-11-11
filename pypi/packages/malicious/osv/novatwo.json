@@ -37,5 +37,14 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/sandraajvab/a/refs/heads/main/x.txt",
+                "https://audacityrecorder.org/suhub",
+                "https://audacityrecorder.org/donald"
+            ]
+        }
+    }
 }

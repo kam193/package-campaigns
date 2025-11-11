@@ -29,5 +29,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/hellyth1337/dfree/main/crasherBypass.py",
+                "https://discord.com/api/webhooks/1400046440088342641/SDsNfGaWeR9dpGIfRUzHGZPBboYzcUqY2gQBhCXpc9eWmRhknG0QQGkcXWaFle-9J5U6"
+            ]
+        }
+    }
 }

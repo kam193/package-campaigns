@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://tinyurl.com/ttxP1107"
+            ]
+        }
+    }
 }

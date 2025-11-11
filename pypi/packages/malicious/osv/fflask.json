@@ -37,5 +37,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://www.dropbox.com/scl/fi/d4ftoxxvovr12f4tjh0mc/H7Glqp2Vy.exe?rlkey=z323u7r1ipm2tegn2dqlqzv9l&st=9gg48qpa&dl=1"
+            ]
+        }
+    }
 }

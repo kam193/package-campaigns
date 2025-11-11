@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "imad213-py-rsa.ct.ws"
+            ],
+            "urls": [
+                "https://imad213-py-rsa.ct.ws/imad.txt",
+                "https://imad213-py-rsa.ct.ws/fuck.txt"
+            ]
+        }
+    }
 }

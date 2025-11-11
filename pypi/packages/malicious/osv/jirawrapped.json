@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://maker.ifttt.com/trigger/helloWorld/json/with/key/jD2gu7AxYVr8a8N7ID0CYh6ICPQNkYv4u0U7qOL4hmC"
+            ]
+        }
+    }
 }

@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "nonoyas.pythonanywhere.com"
+            ],
+            "urls": [
+                "http://nonoyas.pythonanywhere.com/honey.gif?token=sales_report_2024_Q2"
+            ]
+        }
+    }
 }

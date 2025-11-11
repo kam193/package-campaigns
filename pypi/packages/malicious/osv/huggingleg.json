@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://122.51.221.63/pytorch"
+            ],
+            "ips": [
+                "122.51.221.63"
+            ]
+        }
+    }
 }

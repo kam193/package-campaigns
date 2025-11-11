@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "banlist.heroku-ub.top",
+                "heroku-ub.top"
+            ],
+            "urls": [
+                "https://banlist.heroku-ub.top/get_ids"
+            ]
+        }
+    }
 }

@@ -37,5 +37,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://filetransfer.io/data-package/MG85ggQt/download"
+            ]
+        }
+    }
 }

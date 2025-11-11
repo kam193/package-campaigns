@@ -34,5 +34,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://v1.nocodeapi.com/lionelphp/telegram/ZSkmODfnkodNVXwR/sendText"
+            ]
+        }
+    }
 }

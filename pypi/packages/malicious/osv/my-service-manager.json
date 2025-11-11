@@ -37,5 +37,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/yesjdnke/manager/releases/download/love/system_service.exe"
+            ]
+        }
+    }
 }

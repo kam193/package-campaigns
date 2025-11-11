@@ -32,5 +32,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "api.aliyun-sdk-requests.xyz",
+                "aliyun-sdk-requests.xyz"
+            ],
+            "urls": [
+                "https://api.aliyun-sdk-requests.xyz/aws"
+            ]
+        }
+    }
 }

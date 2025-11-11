@@ -41,5 +41,17 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "checktimeserver.org",
+                "aliyun-sdk-requests.xyz"
+            ],
+            "urls": [
+                "https://api.checktimeserver.org/",
+                "https://api.aliyun-sdk-requests.xyz/"
+            ]
+        }
+    }
 }

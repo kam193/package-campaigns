@@ -31,5 +31,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "gauss-security.com"
+            ],
+            "urls": [
+                "https://gauss-security.com/poca.php"
+            ]
+        }
+    }
 }

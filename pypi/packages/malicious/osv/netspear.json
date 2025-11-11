@@ -33,5 +33,14 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/FaresEI3RAB/Fares/raw/refs/heads/main/svchost.exe",
+                "https://pastebin.com/raw/hxAQV6Nq",
+                "https://pastebin.com/raw/Z4VMbzLP"
+            ]
+        }
+    }
 }

@@ -38,5 +38,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/michalethernatg/symmetrical-octo-parakeet/raw/refs/heads/main/meow.bin",
+                "https://github.com/michalethernatg/symmetrical-octo-parakeet/raw/refs/heads/main/shell.exe"
+            ]
+        }
+    }
 }

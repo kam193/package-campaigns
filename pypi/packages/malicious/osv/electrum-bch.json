@@ -35,5 +35,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://136.243.103.253:8080/upload"
+            ],
+            "ips": [
+                "136.243.103.253"
+            ]
+        }
+    }
 }

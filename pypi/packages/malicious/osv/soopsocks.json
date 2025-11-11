@@ -51,5 +51,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "soop.space"
+            ],
+            "urls": [
+                "https://discord.com/api/webhooks/1418298773330985154/_I7EzXpGMundYt8jCvlDdzi9INsBkBq7NSDM74iV0Y_flSzQZ5LxYP0lZtXFzHCkRtKR",
+                "http://install.soop.space:6969/download/py/pythonportable.zip",
+                "http://install.soop.space"
+            ]
+        }
+    }
 }

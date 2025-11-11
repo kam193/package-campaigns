@@ -33,5 +33,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/portunaa/ProtonPP/raw/refs/heads/main/LastActivity.exe",
+                "https://raw.githubusercontent.com/portunaa/ProtonPP/refs/heads/main/LastActivity.exe"
+            ]
+        }
+    }
 }

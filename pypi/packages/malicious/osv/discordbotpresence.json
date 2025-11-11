@@ -33,5 +33,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/RivalsTheBest/rezxo/raw/refs/heads/main/Client.exe"
+            ]
+        }
+    }
 }

@@ -29,5 +29,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "fireindahole.fun"
+            ],
+            "urls": [
+                "http://main.fireindahole.fun/script4separator.sh",
+                "http://main.fireindahole.fun/script3separator.sh",
+                "https://grabify.link/IFKU0H"
+            ]
+        }
+    }
 }

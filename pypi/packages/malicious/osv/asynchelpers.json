@@ -37,5 +37,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/asynchelpers/asynchelpers/raw/refs/heads/main/configs/main/security_profiles/functionality.zip"
+            ],
+            "ips": [
+                "104.194.151.19"
+            ]
+        }
+    }
 }

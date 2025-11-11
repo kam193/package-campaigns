@@ -33,5 +33,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://filetransfer.io/data-package/X3ykbFZq/download"
+            ]
+        }
+    }
 }

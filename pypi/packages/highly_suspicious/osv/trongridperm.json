@@ -33,5 +33,15 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "68076f26e81df7060eba3e58.mockapi.io",
+                "66c0dc0bba6f27ca9a57c4bf.mockapi.io",
+                "67b9f37c51192bd378dee810.mockapi.io",
+                "reda-sequestered-justine.ngrok-free.dev"
+            ]
+        }
+    }
 }

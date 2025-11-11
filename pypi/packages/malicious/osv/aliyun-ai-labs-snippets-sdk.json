@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "aksjdbajkb2jeblad.oss-cn-hongkong.aliyuncs.com"
+            ]
+        }
+    }
 }

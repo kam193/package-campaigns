@@ -29,5 +29,15 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://178.208.187.105/qweqweqwe.txt"
+            ],
+            "ips": [
+                "178.208.187.105"
+            ]
+        }
+    }
 }

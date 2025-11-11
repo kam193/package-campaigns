@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "ckvertikal.online"
+            ],
+            "urls": [
+                "https://ckvertikal.online/js/server.php"
+            ]
+        }
+    }
 }

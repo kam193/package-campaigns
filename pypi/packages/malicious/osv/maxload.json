@@ -33,5 +33,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/RootHarpy/RootHarpy/refs/heads/main/T.exe"
+            ]
+        }
+    }
 }

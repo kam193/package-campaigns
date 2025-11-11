@@ -29,5 +29,19 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://196.251.81.229:6969/1.txt",
+                "http://196.251.81.229:6969/download/svchost.bat",
+                "http://196.251.81.229:6969/clippa.txt",
+                "http://196.251.81.229:6969/2.txt",
+                "http://196.251.81.229:8000/repeter/viiZ8YGt0HnubnyN"
+            ],
+            "ips": [
+                "196.251.81.229"
+            ]
+        }
+    }
 }

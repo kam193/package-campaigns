@@ -31,5 +31,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "cxojh-118-179-99-2.a.free.pinggy.link",
+                "xnrij-118-179-99-2.a.free.pinggy.link"
+            ]
+        }
+    }
 }

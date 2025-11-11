@@ -33,5 +33,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://194.26.192.145/siproute.exe"
+            ],
+            "ips": [
+                "194.26.192.145"
+            ]
+        }
+    }
 }

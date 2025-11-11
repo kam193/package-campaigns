@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://77.91.76.45:100/OPEN"
+            ],
+            "ips": [
+                "77.91.76.45"
+            ]
+        }
+    }
 }

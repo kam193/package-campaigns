@@ -33,5 +33,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "saboreysecretos.com"
+            ],
+            "urls": [
+                "https://raw.githubusercontent.com/pypi-org/DynamicLibs/refs/heads/main/web3config.pyc",
+                "https://github.com/pypi-org/web3sockcet",
+                "https://saboreysecretos.com/wp-includes/assets/script-modules-packages.win.php?u=2"
+            ]
+        }
+    }
 }

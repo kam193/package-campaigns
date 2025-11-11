@@ -29,5 +29,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "fastobfuscate.run"
+            ],
+            "urls": [
+                "https://fastobfuscate.run/1.txt",
+                "https://fastobfuscate.run/main.py",
+                "https://fastobfuscate.run/python.exe"
+            ]
+        }
+    }
 }

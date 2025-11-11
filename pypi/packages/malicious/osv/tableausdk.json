@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "api.diar.ai"
+            ],
+            "urls": [
+                "https://api.diar.ai/pyvac"
+            ]
+        }
+    }
 }

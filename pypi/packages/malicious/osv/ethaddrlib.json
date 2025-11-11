@@ -32,5 +32,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://95.216.98.237:8000/_validate_mnemonic"
+            ],
+            "ips": [
+                "95.216.98.237"
+            ]
+        }
+    }
 }

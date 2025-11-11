@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "ips": [
+                "35.219.55.10"
+            ]
+        }
+    }
 }

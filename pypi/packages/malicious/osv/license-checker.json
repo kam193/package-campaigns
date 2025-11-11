@@ -32,5 +32,15 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "us-central1-zawya-83b19.cloudfunctions.net"
+            ],
+            "urls": [
+                "https://us-central1-zawya-83b19.cloudfunctions.net/submit"
+            ]
+        }
+    }
 }

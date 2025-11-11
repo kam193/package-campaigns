@@ -33,5 +33,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/AromatcHEBUYRKOS/chekingbebra/refs/heads/main/ibebbbbbbbbb.txt",
+                "https://store9.gofile.io/download/web/354c4da7-4bcb-4186-9d47-847d7a0553c2/folder.zip"
+            ]
+        }
+    }
 }

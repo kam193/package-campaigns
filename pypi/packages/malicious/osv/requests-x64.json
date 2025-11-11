@@ -33,5 +33,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://send.tresorit.com/a#oPaBw2_7GrteEiXwSSI29g"
+            ]
+        }
+    }
 }

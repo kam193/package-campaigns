@@ -29,5 +29,18 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "files.pythonhosted.ru",
+                "pythonhosted.ru",
+                "files.inostage.ru"
+            ],
+            "urls": [
+                "http://files.pythonhosted.ru/56788.txt",
+                "http://files.pythonhosted.ru/56789.txt"
+            ]
+        }
+    }
 }

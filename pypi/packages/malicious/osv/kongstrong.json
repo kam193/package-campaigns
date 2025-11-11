@@ -29,5 +29,15 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "ok-omega-eight.vercel.app"
+            ],
+            "urls": [
+                "https://ok-omega-eight.vercel.app/Qgshqlgel.exe"
+            ]
+        }
+    }
 }

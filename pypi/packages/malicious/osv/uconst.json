@@ -29,5 +29,21 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "lucky-tubes.000webhostapp.com"
+            ],
+            "urls": [
+                "http://89.23.105.103:809/lin",
+                "http://89.23.105.103:809/win",
+                "http://89.23.105.103/eny",
+                "https://lucky-tubes.000webhostapp.com/log.php?data=sent"
+            ],
+            "ips": [
+                "89.23.105.103"
+            ]
+        }
+    }
 }

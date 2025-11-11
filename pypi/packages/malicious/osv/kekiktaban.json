@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://gist.github.com/keyiflerolsun/5127472bed55917e8945bf8699cc844a"
+            ]
+        }
+    }
 }

@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/aydendev0/cd4afc0d20c6/refs/heads/main/llama"
+            ]
+        }
+    }
 }

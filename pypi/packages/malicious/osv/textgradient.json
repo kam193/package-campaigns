@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/imsoprime/w/refs/heads/main/server.py",
+                "https://raw.githubusercontent.com/imsoprime/w/refs/heads/main/server2.py",
+                "https://github.com/imsoprime/w/",
+                "https://t.me/sliverbulletpro2"
+            ]
+        }
+    }
 }

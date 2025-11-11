@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "ips": [
+                "114.236.93.153"
+            ]
+        }
+    }
 }

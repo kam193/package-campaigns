@@ -41,5 +41,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "api-tdgbanking.vercel.app"
+            ],
+            "urls": [
+                "https://api-tdgbanking.vercel.app/api/coolenv?a="
+            ]
+        }
+    }
 }

@@ -39,5 +39,15 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "stellar-conquest.fr"
+            ],
+            "urls": [
+                "http://stellar-conquest.fr/launcher.bat"
+            ]
+        }
+    }
 }

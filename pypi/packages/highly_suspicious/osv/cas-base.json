@@ -46,5 +46,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pub-b63e77578ffe42519de7d1771935f8b0.r2.dev/Kaylew.zip"
+            ]
+        }
+    }
 }

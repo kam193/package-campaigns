@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://192.3.209.43/favicon.txt"
+            ],
+            "ips": [
+                "192.3.209.43"
+            ]
+        }
+    }
 }

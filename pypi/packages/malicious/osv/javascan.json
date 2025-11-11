@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "slack-dw-javabackend-109783.s3.us-west-1.amazonaws.com"
+            ],
+            "urls": [
+                "https://slack-dw-javabackend-109783.s3.us-west-1.amazonaws.com/packages/package.json"
+            ]
+        }
+    }
 }

@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/gptsol/gptsol/releases/download/1.0/solgptwin.zip"
+            ]
+        }
+    }
 }

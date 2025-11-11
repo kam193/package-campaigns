@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://124.221.175.251/11.sh",
+                "http://124.221.175.251/start.sh"
+            ],
+            "ips": [
+                "124.221.175.251"
+            ]
+        }
+    }
 }

@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/flashwe12/fkashwe2/refs/heads/main/flasher2.py"
+            ]
+        }
+    }
 }

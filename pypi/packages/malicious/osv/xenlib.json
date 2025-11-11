@@ -31,5 +31,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "xenx.lol"
+            ],
+            "urls": [
+                "http://api.xenx.lol:14880/ssteal",
+                "http://api.xenx.lol:1337/check",
+                "http://apis.xenx.lol:1337/check"
+            ]
+        }
+    }
 }

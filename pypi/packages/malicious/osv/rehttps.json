@@ -33,5 +33,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/testingguys36/testing/main/ConsoleApplication3.exe"
+            ]
+        }
+    }
 }

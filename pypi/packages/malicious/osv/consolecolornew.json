@@ -35,5 +35,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/qpfHsfvR"
+            ]
+        }
+    }
 }

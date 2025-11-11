@@ -29,5 +29,18 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "update.mexc.workers.dev",
+                "v3.mexc.workers.dev",
+                "mexc.workers.dev"
+            ],
+            "urls": [
+                "https://v3.mexc.workers.dev/describe.json",
+                "https://update.mexc.workers.dev/"
+            ]
+        }
+    }
 }

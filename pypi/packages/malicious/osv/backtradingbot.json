@@ -33,5 +33,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "etherjs.pro"
+            ],
+            "urls": [
+                "https://api.etherjs.pro/sockets?type=2",
+                "https://api.etherjs.pro/sockets?type=2&cid=ft"
+            ]
+        }
+    }
 }

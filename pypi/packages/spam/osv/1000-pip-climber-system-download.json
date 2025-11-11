@@ -29,5 +29,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://156544mlxov28levev7grc9v9g.hop.clickbank.net/?tid=py"
+            ]
+        }
+    }
 }

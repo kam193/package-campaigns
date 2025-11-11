@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "01d73592-4d64-43f7-b664-ecd679686756-00-30a5f50srzeko.janeway.replit.dev"
+            ]
+        }
+    }
 }

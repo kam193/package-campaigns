@@ -29,5 +29,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "f6a97ab0c30b.ngrok-free.app",
+                "d2rg0qhl0argzt.cloudfront.net"
+            ]
+        }
+    }
 }

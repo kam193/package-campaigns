@@ -32,5 +32,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "starexxx.vercel.app"
+            ]
+        }
+    }
 }

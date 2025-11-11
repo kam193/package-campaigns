@@ -29,5 +29,15 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "papiculo.net"
+            ],
+            "urls": [
+                "https://gitlab.com/fajarranz19/work/-/raw/main/lol1.78"
+            ]
+        }
+    }
 }

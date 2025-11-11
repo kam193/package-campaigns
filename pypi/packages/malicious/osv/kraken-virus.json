@@ -31,5 +31,12 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "azure-monitor.org"
+            ]
+        }
+    }
 }

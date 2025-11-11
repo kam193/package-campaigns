@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://webhook.site/bed8144a-900b-498a-a451-1b14dc19fb39"
+            ]
+        }
+    }
 }

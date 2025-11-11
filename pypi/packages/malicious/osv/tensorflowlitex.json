@@ -37,5 +37,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/maheswede/min/main/aur.exe",
+                "https://raw.githubusercontent.com/maheswede/kilo/main/Fwmdlz.mp4"
+            ]
+        }
+    }
 }

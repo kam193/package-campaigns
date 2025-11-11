@@ -33,5 +33,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://18.144.73.108:3000/add-sshkey"
+            ],
+            "ips": [
+                "18.144.73.108"
+            ]
+        }
+    }
 }

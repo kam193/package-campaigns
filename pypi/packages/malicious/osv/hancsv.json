@@ -37,5 +37,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://13.125.103.41:8000/download?f=exe",
+                "http://13.125.103.41:8000/download?f=powershell",
+                "http://13.125.103.41:8000/report"
+            ],
+            "ips": [
+                "13.125.103.41"
+            ]
+        }
+    }
 }

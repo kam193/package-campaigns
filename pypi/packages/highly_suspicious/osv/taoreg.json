@@ -29,5 +29,16 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "taoreg.com"
+            ],
+            "ips": [
+                "64.247.206.58",
+                "83.143.115.105"
+            ]
+        }
+    }
 }

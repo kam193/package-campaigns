@@ -29,5 +29,16 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/mWyKKzeT",
+                "https://pastebin.com/raw/gwC6eetW",
+                "https://pastebin.com/raw/cbjzwued",
+                "https://pastebin.com/raw/PXPtuhz3",
+                "https://pastebin.com/raw/KV3GS6Js"
+            ]
+        }
+    }
 }

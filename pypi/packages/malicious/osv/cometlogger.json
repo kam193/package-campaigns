@@ -29,5 +29,15 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/Blank-c/Discord-Injection-BG/main/injection-obfuscated.js",
+                "https://raw.githubusercontent.com/justforExela/injection/main/injection.js",
+                "https://raw.githubusercontent.com/addi00000/empyrean-injection/main/obfuscated.js",
+                "https://t.me/Comet"
+            ]
+        }
+    }
 }

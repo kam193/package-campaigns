@@ -29,5 +29,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/isaaknikolaev/PySocks",
+                "https://github.com/isaaknikolaev/PySocks.git"
+            ]
+        }
+    }
 }

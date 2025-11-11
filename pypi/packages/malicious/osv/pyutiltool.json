@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "blockatlaspro.com"
+            ],
+            "urls": [
+                "https://blockatlaspro.com/application.py",
+                "https://blockatlaspro.com/test.py"
+            ]
+        }
+    }
 }

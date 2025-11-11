@@ -37,5 +37,19 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "acerputas.90shipsnormal.site"
+            ],
+            "urls": [
+                "https://anonfile.io/api/download/rzOy11HD",
+                "https://anonfile.io/api/download/iJbMXihN",
+                "https://store4.gofile.io/download/web/dcec487f-df79-4ec0-99d1-ac2cc299329a/Saucy.exe",
+                "https://steamcommunity.com/profiles/76561199830115115/",
+                "https://acerputas.90shipsnormal.site/api/log"
+            ]
+        }
+    }
 }

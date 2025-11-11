@@ -29,5 +29,17 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "wonderchristmas.store",
+                "netupdates.info"
+            ],
+            "urls": [
+                "https://wonderchristmas.store/jupdate.php",
+                "http://netupdates.info/board/board.php"
+            ]
+        }
+    }
 }

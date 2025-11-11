@@ -29,5 +29,16 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "donkeyback.glitch.me"
+            ],
+            "urls": [
+                "https://donkeyback.glitch.me/metrics/collect",
+                "https://git.sr.ht/~wsmith/faest"
+            ]
+        }
+    }
 }

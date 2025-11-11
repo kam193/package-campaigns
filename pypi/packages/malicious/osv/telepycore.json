@@ -53,5 +53,17 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://alo.ne/file/xfznnz",
+                "https://alo.ne/file/vwbpd6",
+                "https://alo.ne/file/03xolo"
+            ],
+            "ips": [
+                "185.208.159.245"
+            ]
+        }
+    }
 }

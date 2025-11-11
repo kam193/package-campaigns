@@ -29,5 +29,17 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://185.254.198.245:8080/update?token=4z1m6qbi4vzpwykp8YK4wAeZX89gbdwSy3dSCBGy2rkMjG5D0Alp5WO1RgktLeYk&platform=",
+                "http://185.254.198.245:80/admin/get.php",
+                "http://185.254.198.245:80/login/process.php"
+            ],
+            "ips": [
+                "185.254.198.245"
+            ]
+        }
+    }
 }

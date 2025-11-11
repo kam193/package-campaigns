@@ -29,5 +29,14 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/Red-haired-shanks-1337/repuests/refs/heads/main/puts.py",
+                "https://test.pypi.org/simple/httpfluent/",
+                "https://github.com/Red-haired-shanks-1337/Rwoka/raw/main/v0.1.0/httpfluent-0.1.tar.gz"
+            ]
+        }
+    }
 }

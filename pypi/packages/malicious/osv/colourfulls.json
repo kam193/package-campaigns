@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://cdn.discordapp.com/attachments/941400716956799106/942268626843619348/malveillant.exe"
+            ]
+        }
+    }
 }

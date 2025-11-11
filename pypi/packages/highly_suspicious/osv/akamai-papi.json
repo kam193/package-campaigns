@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://fe3d100797da.o3n.io/files/gmi7hhdoknwhu9zojf3j9xzkc/doc.gif"
+            ]
+        }
+    }
 }

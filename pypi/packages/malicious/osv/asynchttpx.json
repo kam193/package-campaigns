@@ -37,5 +37,18 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "zetolacs-cloud.top",
+                "contorosa.space"
+            ],
+            "urls": [
+                "https://zetolacs-cloud.top/Stb/Retev.php?bl=Uic2YYQdDhtfiKAZnULCW012.txt",
+                "https://raw.githubusercontent.com/mrunknown12321/1234/refs/heads/main/1234",
+                "https://raw.githubusercontent.com/VinieClara/FN-Manfiestes/main/SdkVersion.txt"
+            ]
+        }
+    }
 }

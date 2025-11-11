@@ -33,5 +33,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://ec2-3-84-149-132.compute-1.amazonaws.com:3232/windows_dll"
+            ]
+        }
+    }
 }

@@ -29,5 +29,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pixeldrain.com/api/file/W9GvXEhE?download"
+            ]
+        }
+    }
 }

@@ -29,5 +29,16 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://www.dropbox.com/scl/fi/6pwocr2yfcaqztfoxkwqm/mitmproxy-ca-cert.pem?rlkey=irl7718in0yr3pwnhgftcm0sm&st=fnll7kc5&dl=1",
+                "https://pastebin.com/raw/hEF5HaFc"
+            ],
+            "ips": [
+                "196.251.86.48"
+            ]
+        }
+    }
 }

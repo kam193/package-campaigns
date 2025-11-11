@@ -29,5 +29,19 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "chrome-data-receiver.up.railway.app",
+                "chrome-extract.up.railway.app",
+                "vell-production.up.railway.app"
+            ],
+            "urls": [
+                "https://chrome-data-receiver.up.railway.app/upload",
+                "https://chrome-extract.up.railway.app/upload",
+                "https://vell-production.up.railway.app/upload"
+            ]
+        }
+    }
 }

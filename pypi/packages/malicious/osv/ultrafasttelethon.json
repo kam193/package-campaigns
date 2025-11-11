@@ -29,5 +29,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "a1091388.xsph.ru",
+                "a1124634.xsph.ru"
+            ]
+        }
+    }
 }

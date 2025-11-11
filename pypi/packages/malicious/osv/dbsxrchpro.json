@@ -33,5 +33,13 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://filetransfer.io/data-package/hDzFXztO/download",
+                "http://173.208.142.174:8080/files/notinfected/Intel%20Graphics.exe"
+            ]
+        }
+    }
 }

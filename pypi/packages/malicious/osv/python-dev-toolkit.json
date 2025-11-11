@@ -31,5 +31,14 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "evduuu5l01di1hdn9i5qslhxzo5ft6ju8.oastify.com",
+                "xz0dyd944kh150h6d199w4lg379yx0lp.oastify.com",
+                "v95b8bj2eirzfyr4nzj762ved5jw71vq.oastify.com"
+            ]
+        }
+    }
 }

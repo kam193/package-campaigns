@@ -33,5 +33,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/cmderr11/cryptu/refs/heads/main/cryptu.py",
+                "https://raw.githubusercontent.com/cmderr11/crt1/refs/heads/main/crt1.py"
+            ]
+        }
+    }
 }

@@ -37,5 +37,21 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "whined.org",
+                "0.feedback"
+            ],
+            "urls": [
+                "https://files.whined.org/i386",
+                "https://files.whined.org/t1t1t1t1t1.exe",
+                "https://x.0.feedback/uh_uh+uh"
+            ],
+            "ips": [
+                "185.196.8.88"
+            ]
+        }
+    }
 }

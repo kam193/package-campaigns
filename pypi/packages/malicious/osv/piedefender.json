@@ -41,5 +41,12 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/baledreamer/payload/refs/heads/main/smegma.bat"
+            ]
+        }
+    }
 }

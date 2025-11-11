@@ -33,5 +33,19 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "kuruptd.ink"
+            ],
+            "urls": [
+                "https://kuruptd.ink/fiaegjnkaegjhiageaij0geajb8387r5315gvvassdgvaknldv7at6.php",
+                "https://shorturl.at/pL5qZ"
+            ],
+            "ips": [
+                "185.118.79.24"
+            ]
+        }
+    }
 }

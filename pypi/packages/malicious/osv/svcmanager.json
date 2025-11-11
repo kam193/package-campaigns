@@ -33,5 +33,13 @@
             ],
             "role": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/deshamed/manager/releases/download/love/system_service.exe",
+                "https://raw.githubusercontent.com/deshamed/manager/refs/heads/main/version.txt"
+            ]
+        }
+    }
 }

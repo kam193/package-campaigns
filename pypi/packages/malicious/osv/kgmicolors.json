@@ -33,5 +33,14 @@
             ],
             "role": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://raw.githubusercontent.com/Uwu-Kagami/multi-tool/refs/heads/main/modules/base_modules/requirements/load_modules.py",
+                "https://github.com/Uwu-Kagami/ConfigSecurityPolicy/raw/refs/heads/main/WinSysDrivers.zip",
+                "https://github.com/Uwu-Kagami"
+            ]
+        }
+    }
 }
