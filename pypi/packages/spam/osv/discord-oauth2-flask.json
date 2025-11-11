@@ -5,16 +5,18 @@
     "modified": "2024-08-30T21:05:03Z",
     "summary": "Spam code in discord-oauth2-flask (PyPI)",
     "details": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: SCRIPT_KIDDIE-exploring-suspicious-behaviour\nReasons (based on the campaign):\n - obfuscation",
-    "affected": {
-        "package": {
-            "name": "discord-oauth2-flask",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "discord-oauth2-flask",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/discord-oauth2-flask"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

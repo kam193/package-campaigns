@@ -5,24 +5,26 @@
     "modified": "2025-08-21T17:41:57.409257+00:00",
     "summary": "Highly suspicious code in norsodikin (PyPI)",
     "details": "Package allows creating SSH users and sends credentials to a hardcoded telegram channel. However, there is currently no known malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-norsodikin\nReasons (based on the campaign):\n - backdoor",
-    "affected": {
-        "package": {
-            "name": "norsodikin",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "1.0.4",
-            "1.0.5",
-            "1.0.6",
-            "1.0.6.1",
-            "1.0.6.2",
-            "1.0.7",
-            "1.0.7.1"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "norsodikin",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.6.1",
+                "1.0.6.2",
+                "1.0.7",
+                "1.0.7.1"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/norsodikin"
         }
     ],
@@ -30,7 +32,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

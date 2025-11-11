@@ -5,18 +5,20 @@
     "modified": "2025-08-11T21:31:00.616323+00:00",
     "summary": "Highly suspicious code in steelopg (PyPI)",
     "details": "Package downloads and execute remote code, what is typical for malicious packages. However, during the analysis the code was consistent with the package description and did not contain malicious parts\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: GENERIC-other-risky\nReasons (based on the campaign):",
-    "affected": {
-        "package": {
-            "name": "steelopg",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.1.0"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "steelopg",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/steelopg"
         }
     ],
@@ -24,7 +26,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

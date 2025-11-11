@@ -5,22 +5,24 @@
     "modified": "2025-08-23T11:16:26.305373+00:00",
     "summary": "Malicious code in electrum-bch (PyPI)",
     "details": "The modification of https://github.com/spesmilo/electrum (not clear which version or fork) that during usage will exfiltrate files from the current directory, presumably wanting to collect sensitive data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-electrum-bch\nReasons (based on the campaign):\n - crypto-related\n - action-hidden-in-lib-usage\n - exfiltration_crypto\n - exfiltration_generic\n - The package is a clone of a real package, but with malicious code added.",
-    "affected": {
-        "package": {
-            "name": "electrum-bch",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.3.9",
-            "0.3.8",
-            "0.3.7",
-            "0.3.6",
-            "0.3.5"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "electrum-bch",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.3.9",
+                "0.3.8",
+                "0.3.7",
+                "0.3.6",
+                "0.3.5"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/electrum-bch"
         }
     ],
@@ -28,7 +30,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

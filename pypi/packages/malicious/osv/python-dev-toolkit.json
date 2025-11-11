@@ -5,18 +5,20 @@
     "modified": "2025-09-03T19:28:44.053195+00:00",
     "summary": "Malicious code in python-dev-toolkit (PyPI)",
     "details": "Installing packages exfiltrates data (different in different packages and versions) or run revshells\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-learning-pypi-demo-nisimi\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n - exfiltration_generic",
-    "affected": {
-        "package": {
-            "name": "python-dev-toolkit",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.1.9"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "python-dev-toolkit",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.9"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/python-dev-toolkit"
         }
     ],
@@ -24,7 +26,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

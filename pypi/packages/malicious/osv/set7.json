@@ -5,16 +5,18 @@
     "modified": "2025-07-21T14:29:37.840595+00:00",
     "summary": "Malicious code in set7 (PyPI)",
     "details": "Package downloads and suggest opening an obfuscated script, which is an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-set7\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.\n - crypto-related\n - infostealer\n - exfiltration_crypto",
-    "affected": {
-        "package": {
-            "name": "set7",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "set7",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/set7"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

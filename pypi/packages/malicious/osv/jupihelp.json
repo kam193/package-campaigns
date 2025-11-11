@@ -5,13 +5,15 @@
     "modified": "2024-08-10T16:25:59Z",
     "summary": "Malicious code in jupihelp (PyPI)",
     "details": "Once run, downloads and install from sleipnirbrowser[.]org a suspicious executable pretending to be a webbrowser. This website appears to be a scam using some kind of crypto tokens, and trying to impersonate a legitimate Slepnir web browser (https://en.wikipedia.org/wiki/Sleipnir_(web_browser)). \n\nLater versions switched to install a software identified as LUMMA infostealer (e.g. https://tria.ge/240817-whze2aydkc), hidden in different executables\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-sleipnirbrowser-web3\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - dependency-confusion\n - crypto-related\n - modify-system-without-consent\n - impersonation",
-    "affected": {
-        "package": {
-            "name": "jupihelp",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "jupihelp",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
             "type": "EVIDENCE",
@@ -26,7 +28,7 @@
             "url": "https://tria.ge/240817-whze2aydkc"
         },
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/jupihelp"
         }
     ],
@@ -34,7 +36,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

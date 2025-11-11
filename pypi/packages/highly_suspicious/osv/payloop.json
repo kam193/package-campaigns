@@ -5,54 +5,56 @@
     "modified": "2025-10-16T16:05:44.453134+00:00",
     "summary": "Highly suspicious code in payloop (PyPI)",
     "details": "When using AI through the package, the query sent to the AI service as well as the whole answer are silently sent to the collector[.]trypayloop[.]com. This may however be an expected behaviour, but at the time of analysis it was not clearly stated in the package description, and if the user is not aware about that, it creates risk for data confidentiality.\n\nThe responsible code is in a few places:\n1) in _network.py the code is sending data to a configurable endpoint\n2) in _base.py, after L37, the function _invoke gets the desired method and arguments. The expected method from the client is called, and then context information together with all arguments and response from the AI service is sent to the backend service,\n3) in clients.py, each client implements an invoke method that is a wrapper calling the _invoke from the _base.py\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-08-payloop\nReasons (based on the campaign):\n - exfiltration_generic",
-    "affected": {
-        "package": {
-            "name": "payloop",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.1.1",
-            "0.1.0",
-            "0.1.2",
-            "0.1.3",
-            "0.1.4",
-            "0.1.5",
-            "0.1.6",
-            "0.1.7",
-            "0.1.8",
-            "0.1.9",
-            "0.2.0",
-            "0.2.1",
-            "0.2.2",
-            "0.2.3",
-            "0.3.0",
-            "0.3.1",
-            "0.3.2",
-            "0.3.3",
-            "0.3.4",
-            "0.3.5",
-            "0.3.6",
-            "0.3.7",
-            "0.3.8",
-            "0.3.9",
-            "0.4.0",
-            "0.4.1",
-            "0.4.2",
-            "0.4.3",
-            "0.4.4",
-            "0.4.5",
-            "0.4.6",
-            "0.4.7",
-            "0.4.8",
-            "0.4.9",
-            "0.5.0",
-            "0.5.1",
-            "0.5.2"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "payloop",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.1",
+                "0.1.0",
+                "0.1.2",
+                "0.1.3",
+                "0.1.4",
+                "0.1.5",
+                "0.1.6",
+                "0.1.7",
+                "0.1.8",
+                "0.1.9",
+                "0.2.0",
+                "0.2.1",
+                "0.2.2",
+                "0.2.3",
+                "0.3.0",
+                "0.3.1",
+                "0.3.2",
+                "0.3.3",
+                "0.3.4",
+                "0.3.5",
+                "0.3.6",
+                "0.3.7",
+                "0.3.8",
+                "0.3.9",
+                "0.4.0",
+                "0.4.1",
+                "0.4.2",
+                "0.4.3",
+                "0.4.4",
+                "0.4.5",
+                "0.4.6",
+                "0.4.7",
+                "0.4.8",
+                "0.4.9",
+                "0.5.0",
+                "0.5.1",
+                "0.5.2"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/payloop"
         }
     ],
@@ -60,7 +62,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

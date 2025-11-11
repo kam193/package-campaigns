@@ -5,23 +5,25 @@
     "modified": "2025-10-15T20:10:27.219896+00:00",
     "summary": "Highly suspicious code in starexx (PyPI)",
     "details": "The package seems to be hiding the potentially malicious possibility to download and execute remote code from a pre-defined host, but requires a specific key to do so. The relevant Github repository seems to host only versions without the remote code execution.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-10-starexx\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.",
-    "affected": {
-        "package": {
-            "name": "starexx",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "2.0.2",
-            "2.0.1",
-            "2.0.0",
-            "1.27",
-            "1.26",
-            "0.1.0"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "starexx",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.0.2",
+                "2.0.1",
+                "2.0.0",
+                "1.27",
+                "1.26",
+                "0.1.0"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/starexx"
         }
     ],
@@ -29,7 +31,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

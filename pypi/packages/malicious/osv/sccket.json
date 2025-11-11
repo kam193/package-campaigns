@@ -5,16 +5,18 @@
     "modified": "2025-03-31T12:54:29Z",
     "summary": "Malicious code in sccket (PyPI)",
     "details": "Running the module will exfiltrate files from the current directory\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-03-randomwifi\nReasons (based on the campaign):\n - files_exfiltration\n - typosquatting",
-    "affected": {
-        "package": {
-            "name": "sccket",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "sccket",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/sccket"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

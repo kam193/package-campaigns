@@ -5,16 +5,18 @@
     "modified": "2025-01-28T22:18:07Z",
     "summary": "Malicious code in smscallbomber (PyPI)",
     "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
-    "affected": {
-        "package": {
-            "name": "smscallbomber",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "smscallbomber",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/smscallbomber"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

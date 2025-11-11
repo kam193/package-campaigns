@@ -5,22 +5,24 @@
     "modified": "2025-10-21T16:26:35.150630+00:00",
     "summary": "Malicious code in installyoura (PyPI)",
     "details": "Package download and runs widely recognized malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-installyoura\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware",
-    "affected": {
-        "package": {
-            "name": "installyoura",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.1.0"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "installyoura",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
     "references": [
         {
             "type": "EVIDENCE",
             "url": "https://www.virustotal.com/gui/file/31a0351308ed1366629d8cab3fe41e269ef719737f39410c846409fadcfef96b/detection"
         },
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/installyoura"
         }
     ],
@@ -28,7 +30,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

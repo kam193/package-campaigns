@@ -5,16 +5,18 @@
     "modified": "2024-11-05T19:50:09Z",
     "summary": "Highly suspicious code in sxz (PyPI)",
     "details": "Highly obfuscated packages, containing an encoded zip file with executables. Behaviour unknown.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-10-devilninja\nReasons (based on the campaign):\n - obfuscation",
-    "affected": {
-        "package": {
-            "name": "sxz",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "sxz",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/sxz"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

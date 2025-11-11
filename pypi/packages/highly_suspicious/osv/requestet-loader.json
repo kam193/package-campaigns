@@ -5,18 +5,20 @@
     "modified": "2025-10-26T18:57:36.287621+00:00",
     "summary": "Highly suspicious code in requestet-loader (PyPI)",
     "details": "Package designed to execute code from pastebin. While there is no known usage, such code is typically used to load next malware stage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-10-requestet-loader\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.",
-    "affected": {
-        "package": {
-            "name": "requestet-loader",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.1.0"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "requestet-loader",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/requestet-loader"
         }
     ],
@@ -24,7 +26,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

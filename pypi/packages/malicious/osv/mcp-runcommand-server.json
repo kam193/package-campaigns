@@ -5,25 +5,27 @@
     "modified": "2025-10-10T11:22:49.809879+00:00",
     "summary": "Malicious code in mcp-runcommand-server (PyPI)",
     "details": "Package starts a reverse shell to a hardcoded location\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-mcp-runcommand-server\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
-    "affected": {
-        "package": {
-            "name": "mcp-runcommand-server",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "1.0.12",
-            "1.0.11",
-            "1.0.10",
-            "1.0.9",
-            "1.0.8",
-            "1.0.7",
-            "1.0.5",
-            "1.0.13"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "mcp-runcommand-server",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.12",
+                "1.0.11",
+                "1.0.10",
+                "1.0.9",
+                "1.0.8",
+                "1.0.7",
+                "1.0.5",
+                "1.0.13"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/mcp-runcommand-server"
         }
     ],
@@ -31,7 +33,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

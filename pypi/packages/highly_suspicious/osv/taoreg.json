@@ -5,16 +5,18 @@
     "modified": "2024-11-26T22:08:34Z",
     "summary": "Highly suspicious code in taoreg (PyPI)",
     "details": "Suspicious package offering registration in the bittensor blockchain network. The code is obfuscated, the website newly registered and still empty. Code looks like doing what it's supposed to by calling some IPs. It may be a legit, but just starting service, or something malicious.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-11-taoreg\nReasons (based on the campaign):\n - crypto-related\n - obfuscation",
-    "affected": {
-        "package": {
-            "name": "taoreg",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "taoreg",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/taoreg"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

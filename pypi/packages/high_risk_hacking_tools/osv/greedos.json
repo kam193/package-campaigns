@@ -5,21 +5,23 @@
     "modified": "2025-10-28T19:25:39.918385+00:00",
     "summary": "Malicious code in greedos (PyPI)",
     "details": "A DoS tool\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
-    "affected": {
-        "package": {
-            "name": "greedos",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.4.0",
-            "0.3.0",
-            "0.2.0",
-            "0.1.0"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "greedos",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.4.0",
+                "0.3.0",
+                "0.2.0",
+                "0.1.0"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/greedos"
         }
     ],
@@ -27,7 +29,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

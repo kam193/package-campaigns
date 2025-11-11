@@ -5,16 +5,18 @@
     "modified": "2025-04-04T12:54:50Z",
     "summary": "Malicious code in fastgram (PyPI)",
     "details": "Clone of Telethon package that exfiltrates credentials. See client/telegrambaseclient.py L608-626 (exfiltration function) and client/auth.py L163 (usage).\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-04-fastgram\nReasons (based on the campaign):\n - The package is a clone of a real package, but with malicious code added.\n - action-hidden-in-lib-usage\n - exfiltration_generic",
-    "affected": {
-        "package": {
-            "name": "fastgram",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "fastgram",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/fastgram"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

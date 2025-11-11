@@ -5,16 +5,18 @@
     "modified": "2025-05-18T00:05:16Z",
     "summary": "Malicious code in coloramapkgsw (PyPI)",
     "details": "Importing the module starts download and running a remote executable, identified as malware by AVs\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-coloramashowtemp \nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware",
-    "affected": {
-        "package": {
-            "name": "coloramapkgsw",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "coloramapkgsw",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/coloramapkgsw"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

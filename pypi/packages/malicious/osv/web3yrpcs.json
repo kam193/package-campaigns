@@ -5,20 +5,22 @@
     "modified": "2025-04-27T08:06:41Z",
     "summary": "Malicious code in web3yrpcs (PyPI)",
     "details": "Package contains just a function to send out data. It (or a package sharing the same IoCs) is used in a malicious GitHub project to exfiltrate crypto currency private keys, e.g. https://github.com/taikoyaki/MegaEth-Auto-Bot/blob/772b4591daaa0b200d1bd1fd3be3d48b8433f084/cap/cap.py#L49\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-04-alchemyrpcs\nReasons (based on the campaign):\n - crypto-related\n - The malicious code is intentionally included in a dependency of the package\n - exfiltration_crypto",
-    "affected": {
-        "package": {
-            "name": "web3yrpcs",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "web3yrpcs",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
             "type": "WEB",
             "url": "https://github.com/taikoyaki/MegaEth-Auto-Bot/blob/772b4591daaa0b200d1bd1fd3be3d48b8433f084/cap/cap.py#L49"
         },
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/web3yrpcs"
         }
     ],
@@ -26,7 +28,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

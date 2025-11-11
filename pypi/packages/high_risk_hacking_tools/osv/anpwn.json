@@ -5,18 +5,20 @@
     "modified": "2025-09-06T12:09:30.088406+00:00",
     "summary": "Malicious code in anpwn (PyPI)",
     "details": "Collection of tools designed to exploit Windows. They seem to act as legitimate pentesting tools, yet, the lack of clear description and duplicates may suggest malicious intentions.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-08-old-winpwn\nReasons (based on the campaign):",
-    "affected": {
-        "package": {
-            "name": "anpwn",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "0.0.1"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "anpwn",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/anpwn"
         }
     ],
@@ -24,7 +26,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

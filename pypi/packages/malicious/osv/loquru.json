@@ -5,20 +5,22 @@
     "modified": "2025-08-01T13:47:41.367157+00:00",
     "summary": "Malicious code in loquru (PyPI)",
     "details": "It's a clone of \"loguru\" package which on import loads a second-stage script from loguru[.]guru. This makes a few checks and downloads the next stage, which is a code obfuscated with PyArmor with unclear behaviour.\n\nThe way the malicious code has been embedded could be called a \"sophisticated\" threat. The code is in the _logger.py in two places: the payload in L2242 as a long string constraint of only whitespaces, which are then transformed into bits and bytes, and later compiled and executed using \"types.FunctionType\" during initialisation of Core class.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-loquru\nReasons (based on the campaign):\n - typosquatting\n - obfuscation\n - The package is a clone of a real package, but with malicious code added.\n - Downloads and executes a remote malicious script.",
-    "affected": {
-        "package": {
-            "name": "loquru",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "loquru",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
             "type": "WEB",
             "url": "https://github.com/Delgan/loguru/issues/1363"
         },
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/loquru"
         }
     ],
@@ -26,7 +28,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

@@ -5,16 +5,18 @@
     "modified": "2024-08-10T13:21:32Z",
     "summary": "Malicious code in aiohttp-libscss (PyPI)",
     "details": "Imitate legit package, when used, sends out the URL of web application using the package\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-app-url-to-telegram\nReasons (based on the campaign):\n - The package is a clone of a real package, but with malicious code added.\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - dependency-confusion\n - action-hidden-in-lib-usage",
-    "affected": {
-        "package": {
-            "name": "aiohttp-libscss",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "aiohttp-libscss",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/aiohttp-libscss"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

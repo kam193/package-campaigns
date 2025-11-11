@@ -5,16 +5,18 @@
     "modified": "2025-06-10T21:45:00Z",
     "summary": "Highly suspicious code in akamai-papi (PyPI)",
     "details": "Very suspicious packages, looking like an attempt to impersonate Akamai. During import, there is a call to canary token URL, but no other visible malicious activity. They contain some small helpers that can be useful, but do not look like a normal SDK.\n\nPackages were created by a different account than any previous official Akamai packages (e.g. https://pypi.org/project/edgegrid-python/) and the corresponding GitHub account (https://github.com/akamai-packages) although it claims to be the official one, is 1) user not an org, 2) different from the  Akamai organisation hosting previous Akamai repositories (https://github.com/akamai)\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-akamai-packages\nReasons (based on the campaign):\n - impersonation\n - typosquatting\n - other",
-    "affected": {
-        "package": {
-            "name": "akamai-papi",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "akamai-papi",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/akamai-papi"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

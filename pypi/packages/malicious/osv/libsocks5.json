@@ -5,16 +5,18 @@
     "modified": "2024-08-09T19:17:59Z",
     "summary": "Malicious code in libsocks5 (PyPI)",
     "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2023-11-update-information-endpoint\nReasons (based on the campaign):\n - obfuscation\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - typosquatting",
-    "affected": {
-        "package": {
-            "name": "libsocks5",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "libsocks5",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/libsocks5"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

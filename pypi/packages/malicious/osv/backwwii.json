@@ -5,16 +5,18 @@
     "modified": "2024-11-12T07:40:55Z",
     "summary": "Malicious code in backwwii (PyPI)",
     "details": "When importing the module, the obfuscated code downloads and runs a remote executable\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-backwwii\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - The package is a clone of a real package, but with malicious code added.",
-    "affected": {
-        "package": {
-            "name": "backwwii",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "backwwii",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/backwwii"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

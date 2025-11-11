@@ -5,22 +5,24 @@
     "modified": "2025-10-23T10:43:42.146523+00:00",
     "summary": "Malicious code in aiohttp-ssl (PyPI)",
     "details": "Packages silently decrypt content hidden in a dependency and load them as Python extension modules. \n\nIn the first wave, those are copies of legitimate aiohttp and aiohappyeyeballs packages.\nIn the second wave, malicious packages created good-looking forks of legitimate rich and pigments packages.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-asynhttp\nReasons (based on the campaign):\n - typosquatting\n - exfiltration_generic\n - obfuscation\n - The package is a clone of a real package, but with malicious code added.",
-    "affected": {
-        "package": {
-            "name": "aiohttp-ssl",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "3.13.1"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "aiohttp-ssl",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "3.13.1"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "WEB",
+            "type": "ARTICLE",
             "url": "https://www.cert.at/en/blog/2025/10/how-typosquatting-tricked-me-a-bit"
         },
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/aiohttp-ssl"
         }
     ],
@@ -28,7 +30,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

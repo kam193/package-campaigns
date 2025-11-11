@@ -5,16 +5,18 @@
     "modified": "2024-09-08T17:47:46Z",
     "summary": "Malicious code in colorbytes (PyPI)",
     "details": "Extremely obfuscated code starts when importing the module, and then downloads the next stages and configuration from pastebin. They include a whole range of infostealer activity, from exfiltrating browser files up to a keylogger and registering mouse clicks.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-old-colorbytes\nReasons (based on the campaign):\n - obfuscation\n - Downloads and executes a remote executable.\n - crypto-related\n - infostealer",
-    "affected": {
-        "package": {
-            "name": "colorbytes",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "colorbytes",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/colorbytes"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

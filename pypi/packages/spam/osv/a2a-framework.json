@@ -5,18 +5,20 @@
     "modified": "2025-11-05T17:05:27.376145+00:00",
     "summary": "Spam code in a2a-framework (PyPI)",
     "details": "Names imitate packages from other package managers, like Debian APT, and they have no real content, just a sample method. In addition, the uploader name states it is research.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-10-bugdotexe\nReasons (based on the campaign):\n - dependency-confusion",
-    "affected": {
-        "package": {
-            "name": "a2a-framework",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "99.0.0"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "a2a-framework",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "99.0.0"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/a2a-framework"
         }
     ],
@@ -24,7 +26,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

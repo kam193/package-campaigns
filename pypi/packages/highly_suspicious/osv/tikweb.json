@@ -5,20 +5,22 @@
     "modified": "2025-10-01T17:17:38.710465+00:00",
     "summary": "Highly suspicious code in tikweb (PyPI)",
     "details": "Highly obfuscated code promising interacting with Instagram API, but it's hard to verify given the obfuscation level\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-09-instaweb\nReasons (based on the campaign):\n - obfuscation",
-    "affected": {
-        "package": {
-            "name": "tikweb",
-            "ecosystem": "PyPI"
-        },
-        "versions": [
-            "1.0.4",
-            "1.0.4",
-            "1.0.5"
-        ]
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "tikweb",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.4",
+                "1.0.4",
+                "1.0.5"
+            ]
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/tikweb"
         }
     ],
@@ -26,7 +28,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

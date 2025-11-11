@@ -5,16 +5,18 @@
     "modified": "2024-10-07T22:16:18Z",
     "summary": "Malicious code in user-random-agent-user (PyPI)",
     "details": "Inside the library there is a part running code hidden in the attached image, which then exfiltrate user-provided data, downloads and install next stage code, exfiltrate TXT files and finally installs infostealers - Lumma and a custom one. Arround L110\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-10-fake-usreagent\nReasons (based on the campaign):\n - infostealer\n - files_exfiltration\n - clipboard_stealing\n - obfuscation\n - The package is a clone of a real package, but with malicious code added.\n - action-hidden-in-lib-usage",
-    "affected": {
-        "package": {
-            "name": "user-random-agent-user",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "user-random-agent-user",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/user-random-agent-user"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

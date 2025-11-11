@@ -5,16 +5,18 @@
     "modified": "2025-07-26T12:26:59.241844+00:00",
     "summary": "Malicious code in foundry-jupyter-extension (PyPI)",
     "details": "Installing or importing the module triggers exfiltration of environmental variables\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-foundry-jupyter-extension\nReasons (based on the campaign):\n - exfiltration_env_variables\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - The package overrides the install command in setup.py to execute malicious code during installation.",
-    "affected": {
-        "package": {
-            "name": "foundry-jupyter-extension",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "foundry-jupyter-extension",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/foundry-jupyter-extension"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

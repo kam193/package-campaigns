@@ -5,16 +5,18 @@
     "modified": "2025-08-03T16:49:34.904137+00:00",
     "summary": "Malicious code in dsidelib (PyPI)",
     "details": "Package is runs an Infostealer targeting telegram and Discord credentials. Depending on version, the infostealer is either downloaded from an URL or embedded in the package\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-dsidelib\nReasons (based on the campaign):\n - infostealer\n - Downloads and executes a remote malicious script.\n - exfiltration_browser_data\n - target:telegram",
-    "affected": {
-        "package": {
-            "name": "dsidelib",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "dsidelib",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/dsidelib"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "REPORTER"
         }

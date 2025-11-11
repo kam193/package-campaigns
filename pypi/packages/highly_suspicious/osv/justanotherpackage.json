@@ -5,16 +5,18 @@
     "modified": "2025-01-27T18:21:31Z",
     "summary": "Highly suspicious code in justanotherpackage (PyPI)",
     "details": "Packages contain potentially malicious, RAT-like functionality (creating reverse shell, stealing cookies, etc.), but do not run it. It could be a preparation for something or building a red-team-like tools\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-01-denisemyname9\nReasons (based on the campaign):\n - exfiltration_browser_data\n - exfiltration_generic\n - backdoor\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
-    "affected": {
-        "package": {
-            "name": "justanotherpackage",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "justanotherpackage",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/justanotherpackage"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }

@@ -5,16 +5,18 @@
     "modified": "2025-07-16T19:30:11.679248+00:00",
     "summary": "Malicious code in logghelper (PyPI)",
     "details": "Code attempts to download and run malware, as well as keeps ability to execute files sent via Telegram C2 channel\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-logghelper\nReasons (based on the campaign):\n - malware\n - infostealer\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.",
-    "affected": {
-        "package": {
-            "name": "logghelper",
-            "ecosystem": "PyPI"
-        },
-        "versions": []
-    },
+    "affected": [
+        {
+            "package": {
+                "name": "logghelper",
+                "ecosystem": "PyPI"
+            },
+            "versions": []
+        }
+    ],
     "references": [
         {
-            "type": "OTHER",
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/logghelper"
         }
     ],
@@ -22,7 +24,8 @@
         {
             "name": "Kamil Ma\u0144kowski (kam193)",
             "contact": [
-                "https://github.com/kam193"
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
             ],
             "role": "ANALYST"
         }
