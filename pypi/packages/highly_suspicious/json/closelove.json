@@ -1,7 +1,7 @@
 {
     "name": "closelove",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-risky-hacking-tools",
+    "campaign": "2025-11-closelove",
     "description": "Package provides features like overcoming captcha on the Android device, extracting files etc. It can be used for automation of tasks, but also as a hacking tool ",
     "affected_versions": [
         "1.9",
@@ -14,6 +14,6 @@
         "1.2",
         "1.0.0"
     ],
-    "campaign_assigned_at": "2025-11-06T19:06:05.418747+00:00",
-    "campaign_data_modified_at": "2025-11-06T19:06:05.418782+00:00"
+    "campaign_assigned_at": "2025-11-12T21:59:24.667916+00:00",
+    "campaign_data_modified_at": "2025-11-12T21:59:24.667929+00:00"
 }

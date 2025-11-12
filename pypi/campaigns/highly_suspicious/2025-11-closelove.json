@@ -1,0 +1,19 @@
+{
+    "name": "2025-11-closelove",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "target:android"
+    ],
+    "packages": [
+        "closelove",
+        "loveclose"
+    ],
+    "created_at": "2025-11-12",
+    "ioc": [
+        "http://172.86.88.118:9847"
+    ],
+    "references": [],
+    "description": "Suspicious package allowing manipulating data on an Android devices and with hardcoded exfiltration targets, but it does not activate automatically "
+}

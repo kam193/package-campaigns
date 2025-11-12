@@ -4,7 +4,6 @@
     "category": "high_risk_hacking_tools",
     "packages": [
         "adscan",
-        "closelove",
         "doree",
         "greedos",
         "hellflood",
