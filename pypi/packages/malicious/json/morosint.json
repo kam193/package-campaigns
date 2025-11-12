@@ -1,0 +1,10 @@
+{
+    "name": "morosint",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-morosint",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-12T23:24:39.569156+00:00",
+    "campaign_data_modified_at": "2025-11-12T23:24:39.569177+00:00"
+}

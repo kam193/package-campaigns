@@ -1,0 +1,20 @@
+{
+    "name": "2025-11-morosint",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "morosint",
+        "zakuraweb"
+    ],
+    "created_at": "2025-11-12",
+    "ioc": [
+        "https://canary.discord.com/api/webhooks/1438273237867036682/y-jlMJWQRYZlxmYEAzEKNQLMRG3GTh7ZcVryf-CpYulJymcNV_rXJMFtvIDke7E7w5HW",
+        "https://canary.discord.com/api/webhooks/1437951747627815105/pye5awwKpavmOnp0tOfLosFBXM-mRTX1rSQFTMBOWiNMJ9FZYvcOYRYS331jO7WSyWVL"
+    ],
+    "references": [],
+    "description": "Importing the module starts exfiltrating Discord tokens"
+}

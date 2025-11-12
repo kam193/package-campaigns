@@ -1,0 +1,10 @@
+{
+    "name": "zakuraweb",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-morosint",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-12T23:25:46.371680+00:00",
+    "campaign_data_modified_at": "2025-11-12T23:25:46.371702+00:00"
+}
