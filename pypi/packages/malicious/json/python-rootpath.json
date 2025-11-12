@@ -1,0 +1,11 @@
+{
+    "name": "python-rootpath",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-python-rootpath",
+    "affected_versions": [
+        "0.1.9",
+        "0.1.7"
+    ],
+    "campaign_assigned_at": "2025-11-12T20:57:18.207118+00:00",
+    "campaign_data_modified_at": "2025-11-12T20:57:18.207133+00:00"
+}
