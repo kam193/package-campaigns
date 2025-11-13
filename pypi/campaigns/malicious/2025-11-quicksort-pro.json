@@ -1,0 +1,21 @@
+{
+    "name": "2025-11-quicksort-pro",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "quicksort-pro"
+    ],
+    "created_at": "2025-11-13",
+    "ioc": [
+        "dependency-bot.satirical6355.workers.dev",
+        "dependency-bot.pages.dev"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/ZWMxMTkwNmM4M2NhNTNjZjNmMjA3NmJjMTExMTUzM2M6MTc2MzA2MTg1OQ==/detection"
+    ],
+    "description": "Importing the module downloads and executes an executable with malware "
+}

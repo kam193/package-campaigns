@@ -1,0 +1,10 @@
+{
+    "name": "mcp-teams-server",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-sicksec-mcp",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-13T19:43:54.546452+00:00",
+    "campaign_data_modified_at": "2025-11-13T19:43:54.546471+00:00"
+}
