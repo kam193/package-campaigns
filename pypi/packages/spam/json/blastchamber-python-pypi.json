@@ -1,0 +1,13 @@
+{
+    "name": "blastchamber-python-pypi",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-blastchamber-python-pypi",
+    "affected_versions": [
+        "0.2.2",
+        "0.2.0",
+        "0.1.0",
+        "0.0.4"
+    ],
+    "campaign_assigned_at": "2025-11-13T23:55:37.974676+00:00",
+    "campaign_data_modified_at": "2025-11-13T23:55:37.974701+00:00"
+}
