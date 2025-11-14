@@ -11,7 +11,16 @@
                 "name": "1000pipclimbersystem-free-download",
                 "ecosystem": "PyPI"
             },
-            "versions": []
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "references": [

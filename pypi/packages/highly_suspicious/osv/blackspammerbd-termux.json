@@ -11,7 +11,16 @@
                 "name": "blackspammerbd-termux",
                 "ecosystem": "PyPI"
             },
-            "versions": []
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "references": [

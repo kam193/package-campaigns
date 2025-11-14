@@ -11,7 +11,16 @@
                 "name": "48484efej8id",
                 "ecosystem": "PyPI"
             },
-            "versions": []
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "references": [

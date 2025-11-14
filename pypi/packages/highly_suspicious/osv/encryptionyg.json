@@ -11,7 +11,16 @@
                 "name": "encryptionyg",
                 "ecosystem": "PyPI"
             },
-            "versions": []
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "references": [

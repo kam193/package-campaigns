@@ -11,7 +11,16 @@
                 "name": "example-package-disco-disco-good-good-yehuda-dont-delete-it-its-me",
                 "ecosystem": "PyPI"
             },
-            "versions": []
+            "ranges": [
+                {
+                    "type": "ECOSYSTEM",
+                    "events": [
+                        {
+                            "introduced": "0"
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "references": [
