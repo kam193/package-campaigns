@@ -3,7 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "GENERIC-risky-hacking-tools",
     "affected_versions": [
-        "2.1.2"
+        "2.1.2",
+        "2.2.1"
     ],
-    "campaign_data_modified_at": "2025-08-20T10:06:47.663573+00:00"
+    "campaign_data_modified_at": "2025-11-15T11:34:02.232635+00:00"
 }
