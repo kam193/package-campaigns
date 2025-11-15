@@ -1,0 +1,21 @@
+{
+    "name": "2025-11-spellcheckers",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_commands",
+        "remote_script"
+    ],
+    "packages": [
+        "spellcheckers"
+    ],
+    "created_at": "2025-11-15",
+    "ioc": [
+        "https://dothebest.store/allow/inform.php",
+        "https://dothebest.store/refresh.php",
+        "dothebest.store"
+    ],
+    "references": [],
+    "description": "Package contains hidden code that is effectively run during importing and downloads second stage code. Then, a process running in background periodically connects to a remote host and waits for next code to execute"
+}

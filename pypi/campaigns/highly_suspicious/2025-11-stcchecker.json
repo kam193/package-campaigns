@@ -1,0 +1,15 @@
+{
+    "name": "2025-11-stcchecker",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "packages": [
+        "stcchecker"
+    ],
+    "created_at": "2025-11-15",
+    "ioc": [
+        "91.108.184.15",
+        "http://91.108.184.15:5050/stc?url="
+    ],
+    "references": [],
+    "description": "Strange package that appears to be a fake API wrapper, but at the time of analysis, the remote endpoint was not responding."
+}
