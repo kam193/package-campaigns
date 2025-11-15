@@ -8,6 +8,7 @@
     ],
     "packages": [
         "hexadec",
+        "hexadecpy",
         "hexdec",
         "hexdecimal",
         "hexdecli",
