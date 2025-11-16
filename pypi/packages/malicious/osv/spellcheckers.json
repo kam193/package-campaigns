@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2025-11-spellcheckers/spellcheckers",
     "published": "2025-11-15T18:49:10.571395+00:00",
-    "modified": "2025-11-15T18:49:10.571415+00:00",
+    "modified": "2025-11-16T07:07:52.020573+00:00",
     "summary": "Malicious code in spellcheckers (PyPI)",
     "details": "Package has a suspicious code to execute index files. It may be done in legitimate reasons, though\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-spellcheckers\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n - obfuscation",
     "affected": [
@@ -16,7 +16,8 @@
                 "1.2.0",
                 "1.1.1",
                 "1.1.0",
-                "1.0.0"
+                "1.0.0",
+                "1.4.0"
             ]
         }
     ],
