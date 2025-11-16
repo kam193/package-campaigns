@@ -1,0 +1,14 @@
+{
+    "name": "perfviewer",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-perfviewer",
+    "affected_versions": [
+        "14.2.5",
+        "14.2.4",
+        "14.2.3",
+        "14.2.2",
+        "14.2.1"
+    ],
+    "campaign_assigned_at": "2025-11-16T21:33:31.619250+00:00",
+    "campaign_data_modified_at": "2025-11-16T21:33:31.619268+00:00"
+}

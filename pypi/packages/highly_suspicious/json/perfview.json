@@ -1,0 +1,12 @@
+{
+    "name": "perfview",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "This is a clone of \"rich\" package. It seems not to have any malicious content, but the name and time matches with 2025-11-perfviewer campaign",
+    "affected_versions": [
+        "14.2.1",
+        "14.2.0"
+    ],
+    "campaign_assigned_at": "2025-11-16T21:50:49.383817+00:00",
+    "campaign_data_modified_at": "2025-11-16T21:50:49.383835+00:00"
+}
