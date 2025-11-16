@@ -1,0 +1,16 @@
+{
+    "name": "2025-11-wallet-tracking",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "wallet-tracking"
+    ],
+    "created_at": "2025-11-16",
+    "ioc": [],
+    "references": [],
+    "description": "Package is prepared to send notifications with sensitive data, but the usage is not known and may not necessary be malicious."
+}

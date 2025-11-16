@@ -1,0 +1,12 @@
+{
+    "name": "wallet-tracking",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-wallet-tracking",
+    "affected_versions": [
+        "1.0.3",
+        "1.0.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-16T16:22:41.638865+00:00",
+    "campaign_data_modified_at": "2025-11-16T16:22:41.638882+00:00"
+}
