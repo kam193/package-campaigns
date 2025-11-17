@@ -1,0 +1,12 @@
+{
+    "name": "tiktok-afriton",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-tiktok-afriton",
+    "affected_versions": [
+        "0.3",
+        "0.2",
+        "0.1"
+    ],
+    "campaign_assigned_at": "2025-11-17T21:35:43.522626+00:00",
+    "campaign_data_modified_at": "2025-11-17T21:35:43.522681+00:00"
+}
