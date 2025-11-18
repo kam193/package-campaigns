@@ -1,0 +1,11 @@
+{
+    "name": "para-m-scope",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-BLACK-ZER-0",
+    "affected_versions": [
+        "1.3.0",
+        "1.3"
+    ],
+    "campaign_assigned_at": "2025-11-18T18:24:14.259662+00:00",
+    "campaign_data_modified_at": "2025-11-18T18:24:14.259688+00:00"
+}

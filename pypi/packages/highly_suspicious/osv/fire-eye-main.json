@@ -1,18 +1,17 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2025-11-BLACK-ZER-0/fireeye-main",
-    "published": "2025-11-18T18:14:56.266104+00:00",
-    "modified": "2025-11-18T18:24:30.543876+00:00",
-    "summary": "Highly suspicious code in fireeye-main (PyPI)",
+    "id": "pypi/2025-11-BLACK-ZER-0/fire-eye-main",
+    "published": "2025-11-18T18:19:00.027459+00:00",
+    "modified": "2025-11-18T18:53:36.762309+00:00",
+    "summary": "Highly suspicious code in fire-eye-main (PyPI)",
     "details": "Obfuscated scripts hiding hacking tools\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-11-BLACK-ZER-0\nReasons (based on the campaign):\n - obfuscation",
     "affected": [
         {
             "package": {
-                "name": "fireeye-main",
+                "name": "fire-eye-main",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "2.6",
                 "2.0.0",
                 "2.0.0"
             ]
@@ -21,7 +20,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/fireeye-main"
+            "url": "https://bad-packages.kam193.eu/pypi/package/fire-eye-main"
         }
     ],
     "credits": [
@@ -31,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "role": "REPORTER"
         }
     ]
 }
