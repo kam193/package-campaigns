@@ -1,0 +1,12 @@
+{
+    "name": "robust-black-zer-0",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-BLACK-ZER-0",
+    "affected_versions": [
+        "1.2",
+        "1.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-18T17:53:46.021987+00:00",
+    "campaign_data_modified_at": "2025-11-18T17:53:46.022046+00:00"
+}
