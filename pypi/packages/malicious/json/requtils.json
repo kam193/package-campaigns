@@ -1,0 +1,12 @@
+{
+    "name": "requtils",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-requtils",
+    "affected_versions": [
+        "1.0.2",
+        "1.0.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-18T00:29:33.360209+00:00",
+    "campaign_data_modified_at": "2025-11-18T00:29:33.360226+00:00"
+}

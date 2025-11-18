@@ -1,0 +1,17 @@
+{
+    "name": "2025-11-requtils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "requtils"
+    ],
+    "created_at": "2025-11-18",
+    "ioc": [
+        "https://catheryn-theocratic-conjecturally.ngrok-free.dev/webhook"
+    ],
+    "references": [],
+    "description": "Package attempts to automatically exfiltrate API keys "
+}
