@@ -9,6 +9,7 @@
     ],
     "packages": [
         "aws-enumerate",
+        "aws-enumerateiam",
         "enumeratiam",
         "iamenumer",
         "iamenumerat",
@@ -18,8 +19,9 @@
     "ioc": [
         "https://api.aliyun-sdk-requests.xyz/aws",
         "api.aliyun-sdk-requests.xyz",
-        "aliyun-sdk-requests.xyz"
+        "aliyun-sdk-requests.xyz",
+        "https://github.com/kohlersbtuh15/accesskey_tools"
     ],
     "references": [],
-    "description": "Before creating the boto3 client, package exfiltrates user's credentials"
+    "description": "Before creating the boto3 client, package exfiltrates user's credentials. Packages from the campaign are used as dependency in a GitHub project promising automating cloud enumeration "
 }

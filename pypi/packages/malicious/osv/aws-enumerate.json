@@ -39,7 +39,8 @@
                 "aliyun-sdk-requests.xyz"
             ],
             "urls": [
-                "https://api.aliyun-sdk-requests.xyz/aws"
+                "https://api.aliyun-sdk-requests.xyz/aws",
+                "https://github.com/kohlersbtuh15/accesskey_tools"
             ]
         }
     }

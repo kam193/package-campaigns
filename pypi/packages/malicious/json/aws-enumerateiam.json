@@ -1,0 +1,13 @@
+{
+    "name": "aws-enumerateiam",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-aws-enumerate",
+    "description": "Before creating the boto3 client, package exfiltrates user's credentials. In this version, the exfiltrating is masked as connecting to an AWS component. The URL to the component is expected to be hex-encoded. In fact, the related GitHub project uses it as a dependency and sets as the URL the attacker-controlled domain. In this way, the AWS libraries are abused to generate the request to the malicious infrastructure and exfiltrate credentials. ",
+    "affected_versions": [
+        "1.0.2",
+        "1.0.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-18T23:47:36.353152+00:00",
+    "campaign_data_modified_at": "2025-11-18T23:47:36.353225+00:00"
+}
