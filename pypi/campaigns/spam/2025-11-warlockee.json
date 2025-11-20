@@ -1,0 +1,12 @@
+{
+    "name": "2025-11-warlockee",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "czj"
+    ],
+    "created_at": "2025-11-20",
+    "ioc": [],
+    "references": [],
+    "description": "Massive number of three-letters packages with duplicated example or empty content"
+}
