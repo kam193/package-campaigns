@@ -1,0 +1,16 @@
+{
+    "name": "2025-11-siitoogether",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "remote_commands"
+    ],
+    "packages": [
+        "siitoogether"
+    ],
+    "created_at": "2025-11-20",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts an RAT-like process capable of execute remote commands, with the C2 through Discord "
+}
