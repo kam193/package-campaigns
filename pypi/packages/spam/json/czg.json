@@ -1,0 +1,10 @@
+{
+    "name": "czg",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.4"
+    ],
+    "campaign_assigned_at": "2025-11-20T22:35:17.155048+00:00",
+    "campaign_data_modified_at": "2025-11-20T22:35:17.155064+00:00"
+}

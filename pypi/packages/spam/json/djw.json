@@ -1,0 +1,10 @@
+{
+    "name": "djw",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2025-11-20T22:32:55.446530+00:00",
+    "campaign_data_modified_at": "2025-11-20T22:32:55.446548+00:00"
+}

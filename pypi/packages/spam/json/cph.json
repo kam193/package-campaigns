@@ -1,0 +1,10 @@
+{
+    "name": "cph",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.7"
+    ],
+    "campaign_assigned_at": "2025-11-20T22:35:53.076364+00:00",
+    "campaign_data_modified_at": "2025-11-20T22:35:53.076381+00:00"
+}

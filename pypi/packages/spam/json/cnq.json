@@ -1,0 +1,10 @@
+{
+    "name": "cnq",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2025-11-20T22:37:11.052869+00:00",
+    "campaign_data_modified_at": "2025-11-20T22:37:11.052891+00:00"
+}
