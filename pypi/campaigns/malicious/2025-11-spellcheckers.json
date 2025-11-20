@@ -16,6 +16,8 @@
         "https://dothebest.store/refresh.php",
         "dothebest.store"
     ],
-    "references": [],
+    "references": [
+        "https://helixguard.ai/blog/malicious-spellcheckers-2025-11-19"
+    ],
     "description": "Package contains hidden code that is effectively run during importing and downloads second stage code. Then, a process running in background periodically connects to a remote host and waits for next code to execute"
 }
