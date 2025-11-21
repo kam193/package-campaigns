@@ -12,7 +12,9 @@
         "kdewebhelper"
     ],
     "created_at": "2025-11-20",
-    "ioc": [],
+    "ioc": [
+        "https://github.com/Caspia-n/kdewebhelper"
+    ],
     "references": [],
     "description": "Importing the module connects to a Telegram bot and provides its operator with abilities to execute commands, exfiltrate and encrypt data. The target group seems to be KDE developers, according to the package description"
 }
