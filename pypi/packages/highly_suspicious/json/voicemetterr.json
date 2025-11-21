@@ -1,0 +1,13 @@
+{
+    "name": "voicemetterr",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-voicemetterr",
+    "affected_versions": [
+        "1.0.3",
+        "1.0.2",
+        "1.0.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-21T19:23:01.944389+00:00",
+    "campaign_data_modified_at": "2025-11-21T19:23:01.944415+00:00"
+}
