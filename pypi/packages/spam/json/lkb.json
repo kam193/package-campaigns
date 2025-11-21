@@ -1,0 +1,10 @@
+{
+    "name": "lkb",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-21T21:39:02.598024+00:00",
+    "campaign_data_modified_at": "2025-11-21T21:39:02.598051+00:00"
+}

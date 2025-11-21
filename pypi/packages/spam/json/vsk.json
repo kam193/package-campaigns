@@ -1,0 +1,10 @@
+{
+    "name": "vsk",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-21T21:48:47.550979+00:00",
+    "campaign_data_modified_at": "2025-11-21T21:48:47.551039+00:00"
+}

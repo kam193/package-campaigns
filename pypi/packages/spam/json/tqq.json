@@ -1,0 +1,10 @@
+{
+    "name": "tqq",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-21T21:50:51.382005+00:00",
+    "campaign_data_modified_at": "2025-11-21T21:50:51.382030+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "thd",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-21T21:43:11.308340+00:00",
+    "campaign_data_modified_at": "2025-11-21T21:43:11.308358+00:00"
+}

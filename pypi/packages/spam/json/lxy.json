@@ -1,0 +1,10 @@
+{
+    "name": "lxy",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-21T21:34:42.391143+00:00",
+    "campaign_data_modified_at": "2025-11-21T21:34:42.391161+00:00"
+}
