@@ -1,0 +1,17 @@
+{
+    "name": "2025-11-tgeffect",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "obfuscation",
+        "target:telegram"
+    ],
+    "packages": [
+        "tgeffect"
+    ],
+    "created_at": "2025-11-22",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts obfuscated code which then look for data related to some Telegram clients and attempt to exfiltrate them"
+}
