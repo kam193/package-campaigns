@@ -1,0 +1,25 @@
+{
+    "name": "2025-11-uzip",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "mzip",
+        "uzip"
+    ],
+    "created_at": "2025-11-22",
+    "ioc": [
+        "http://77.105.161.164:3301/library",
+        "77.105.161.164",
+        "http://77.105.161.164:3301/die1"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/MGEwNWE0MzhlMTU3NTUxZTU1OGI4NTRkYTA2MWMxM2M6MTc2MzgzMDEyNA==",
+        "https://www.virustotal.com/gui/file/8808a0a09c0180afe742f0265f8b42bf671bc2083dcecd47c1515f52554200d9/detection"
+    ],
+    "description": "During initialization of the archive-support class, the package starts code from another file and downloads multi-stage malware"
+}

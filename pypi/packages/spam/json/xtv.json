@@ -1,0 +1,10 @@
+{
+    "name": "xtv",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-22T17:21:45.272384+00:00",
+    "campaign_data_modified_at": "2025-11-22T17:21:45.272413+00:00"
+}
