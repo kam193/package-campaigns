@@ -1,17 +1,20 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2025-11-uzip/mzip",
-    "published": "2025-11-22T17:01:17.599757+00:00",
-    "modified": "2025-11-22T17:01:17.599778+00:00",
-    "summary": "Malicious code in mzip (PyPI)",
+    "id": "pypi/2025-11-uzip/uuzip",
+    "published": "2025-11-22T20:55:03.686278+00:00",
+    "modified": "2025-11-22T20:55:03.686297+00:00",
+    "summary": "Malicious code in uuzip (PyPI)",
     "details": "During initialization of the archive-support class, the package starts code from another file and downloads multi-stage malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-uzip\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - obfuscation\n - malware",
     "affected": [
         {
             "package": {
-                "name": "mzip",
+                "name": "uuzip",
                 "ecosystem": "PyPI"
             },
             "versions": [
+                "0.1.3",
+                "0.1.2",
+                "0.1.1",
                 "0.1.0"
             ]
         }
@@ -27,7 +30,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/mzip"
+            "url": "https://bad-packages.kam193.eu/pypi/package/uuzip"
         }
     ],
     "credits": [
@@ -37,7 +40,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "role": "REPORTER"
         }
     ],
     "database_specific": {

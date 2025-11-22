@@ -9,6 +9,7 @@
     ],
     "packages": [
         "mzip",
+        "uuzip",
         "uzip"
     ],
     "created_at": "2025-11-22",
