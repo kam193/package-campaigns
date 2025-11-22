@@ -1,0 +1,10 @@
+{
+    "name": "zpo",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-11-22T17:23:54.769820+00:00",
+    "campaign_data_modified_at": "2025-11-22T17:23:54.769838+00:00"
+}

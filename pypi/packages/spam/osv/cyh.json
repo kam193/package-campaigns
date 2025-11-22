@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-warlockee/cyh",
+    "published": "2025-11-22T17:29:48.191469+00:00",
+    "modified": "2025-11-22T17:29:48.191487+00:00",
+    "summary": "Spam code in cyh (PyPI)",
+    "details": "Massive number of three-letters packages with duplicated example or empty content\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-11-warlockee\nReasons (based on the campaign):",
+    "affected": [
+        {
+            "package": {
+                "name": "cyh",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.33",
+                "0.1.21"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/cyh"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

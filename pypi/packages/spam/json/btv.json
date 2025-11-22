@@ -1,0 +1,10 @@
+{
+    "name": "btv",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.5"
+    ],
+    "campaign_assigned_at": "2025-11-22T17:25:36.644403+00:00",
+    "campaign_data_modified_at": "2025-11-22T17:25:36.644423+00:00"
+}

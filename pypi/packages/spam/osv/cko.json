@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-warlockee/cko",
+    "published": "2025-11-22T17:32:49.641202+00:00",
+    "modified": "2025-11-22T17:32:49.641220+00:00",
+    "summary": "Spam code in cko (PyPI)",
+    "details": "Massive number of three-letters packages with duplicated example or empty content\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-11-warlockee\nReasons (based on the campaign):",
+    "affected": [
+        {
+            "package": {
+                "name": "cko",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.8",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/cko"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

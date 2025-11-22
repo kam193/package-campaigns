@@ -1,0 +1,39 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-warlockee/cpn",
+    "published": "2025-11-22T17:33:49.731447+00:00",
+    "modified": "2025-11-22T17:33:49.731473+00:00",
+    "summary": "Spam code in cpn (PyPI)",
+    "details": "Massive number of three-letters packages with duplicated example or empty content\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-11-warlockee\nReasons (based on the campaign):",
+    "affected": [
+        {
+            "package": {
+                "name": "cpn",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.57",
+                "0.1.38",
+                "0.1.35",
+                "0.1.5",
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/cpn"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

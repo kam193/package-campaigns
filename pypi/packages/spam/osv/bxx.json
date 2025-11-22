@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-warlockee/bxx",
+    "published": "2025-11-22T17:28:06.295830+00:00",
+    "modified": "2025-11-22T17:28:06.295857+00:00",
+    "summary": "Spam code in bxx (PyPI)",
+    "details": "Massive number of three-letters packages with duplicated example or empty content\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-11-warlockee\nReasons (based on the campaign):",
+    "affected": [
+        {
+            "package": {
+                "name": "bxx",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bxx"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "ANALYST"
+        }
+    ]
+}

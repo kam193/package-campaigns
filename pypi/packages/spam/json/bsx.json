@@ -1,0 +1,10 @@
+{
+    "name": "bsx",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.6"
+    ],
+    "campaign_assigned_at": "2025-11-22T17:24:48.377978+00:00",
+    "campaign_data_modified_at": "2025-11-22T17:24:48.378003+00:00"
+}

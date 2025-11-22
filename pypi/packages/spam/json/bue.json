@@ -1,0 +1,10 @@
+{
+    "name": "bue",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.3"
+    ],
+    "campaign_assigned_at": "2025-11-22T17:25:14.675306+00:00",
+    "campaign_data_modified_at": "2025-11-22T17:25:14.675326+00:00"
+}

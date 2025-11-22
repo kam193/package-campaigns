@@ -1,0 +1,10 @@
+{
+    "name": "cmj",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-warlockee",
+    "affected_versions": [
+        "0.1.11"
+    ],
+    "campaign_assigned_at": "2025-11-22T17:32:18.855672+00:00",
+    "campaign_data_modified_at": "2025-11-22T17:32:18.855691+00:00"
+}
