@@ -1,0 +1,26 @@
+{
+    "name": "2025-11-mescouilles",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_generic",
+        "files_exfiltration",
+        "infostealer",
+        "infostealer:cstealer",
+        "infostealer:kiwi",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "mescouilles"
+    ],
+    "created_at": "2025-11-23",
+    "ioc": [
+        "https://discord.com/api/webhooks/1438590458204000289/GoNmnNIWqcL152FVm8uszof971e2NnyNjsO4j_o4ZJuP9AhMaaR5XBEkkYcKP1GBcouo",
+        "https://discord.com/api/webhooks/1113937838837346429/iG7DEPvhfOdswri8SyWslR4bZY-XV-kOyQlwrUt_yOOMowuExGYAPnnHEO60XTfYt6VJ",
+        "https://pastebin.com/raw/vb608t9D"
+    ],
+    "references": [],
+    "description": "Importing the module starts an infostealer "
+}
