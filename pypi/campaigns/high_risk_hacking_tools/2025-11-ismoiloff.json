@@ -1,0 +1,20 @@
+{
+    "name": "2025-11-ismoiloff",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "ismoiloff"
+    ],
+    "created_at": "2025-11-23",
+    "ioc": [
+        "https://new.u11240.xvest3.ru/Device/2.0/getcoder.php",
+        "new.u11240.xvest3.ru",
+        "https://t.me/updatesismoiloff"
+    ],
+    "references": [],
+    "description": "Package offers downloading and executing remote code. This requires user interaction, however, the linked Telegram channel seems to offer code to abuse other services"
+}
