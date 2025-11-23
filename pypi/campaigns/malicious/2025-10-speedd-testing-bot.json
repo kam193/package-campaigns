@@ -8,6 +8,7 @@
     ],
     "packages": [
         "speed-testing-nt",
+        "speed-testing-vps",
         "speedd-testing-bot"
     ],
     "created_at": "2025-10-28",
