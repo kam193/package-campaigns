@@ -13,7 +13,9 @@
         "sandbox-detection"
     ],
     "packages": [
-        "mescouilles"
+        "mescouilles",
+        "mongland",
+        "zakuchienne"
     ],
     "created_at": "2025-11-23",
     "ioc": [

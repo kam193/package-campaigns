@@ -1,0 +1,10 @@
+{
+    "name": "zakuchienne",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-mescouilles",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-24T06:34:51.076641+00:00",
+    "campaign_data_modified_at": "2025-11-24T06:34:51.076669+00:00"
+}

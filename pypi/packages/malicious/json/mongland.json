@@ -1,0 +1,10 @@
+{
+    "name": "mongland",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-mescouilles",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-24T06:37:26.423482+00:00",
+    "campaign_data_modified_at": "2025-11-24T06:37:26.423506+00:00"
+}
