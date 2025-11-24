@@ -1,0 +1,23 @@
+{
+    "name": "2025-11-jsonschemex",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "exfiltration_generic",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "jsonschemex"
+    ],
+    "created_at": "2025-11-24",
+    "ioc": [
+        "https://api.unstoppableapi.xyz/account/register/id=7719449667044225&secret=bnPqMJKZUhtC",
+        "api.unstoppableapi.xyz",
+        "api.zerodev.pro",
+        "api.0dev.store"
+    ],
+    "references": [],
+    "description": "Malicious clone of a legitimate package with hidden code that downloads the next stage scripts.  Analysed payloads had just exfiltrated basic infos"
+}
