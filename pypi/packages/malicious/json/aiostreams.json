@@ -1,0 +1,10 @@
+{
+    "name": "aiostreams",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-mescouilles",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-24T21:58:24.805956+00:00",
+    "campaign_data_modified_at": "2025-11-24T21:58:24.805980+00:00"
+}
