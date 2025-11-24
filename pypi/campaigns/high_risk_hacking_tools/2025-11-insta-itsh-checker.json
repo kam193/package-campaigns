@@ -1,0 +1,15 @@
+{
+    "name": "2025-11-insta-itsh-checker",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "insta-itsh-checker"
+    ],
+    "created_at": "2025-11-24",
+    "ioc": [],
+    "references": [],
+    "description": "The package abuses the Instagram and Gmail API to find users and matching emails"
+}
