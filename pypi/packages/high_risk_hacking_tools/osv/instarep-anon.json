@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-risky-hacking-tools/instarep-anon",
     "published": "2025-11-23T18:41:55.331868+00:00",
-    "modified": "2025-11-23T18:41:55.331884+00:00",
+    "modified": "2025-11-24T11:08:34.241555+00:00",
     "summary": "Malicious code in instarep-anon (PyPI)",
     "details": "Package seems to be designed to abuse the Instagram user reporting API. If provided with credentials to Telegram channel, it also publish notification including potentially sensitive data, like cookies after logging in. During the analysis, the package did not contain any Telegram credentials.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
     "affected": [
@@ -12,7 +12,8 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0"
+                "1.0.0",
+                "1.0.1"
             ]
         }
     ],
