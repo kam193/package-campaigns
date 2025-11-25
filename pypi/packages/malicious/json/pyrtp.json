@@ -1,0 +1,11 @@
+{
+    "name": "pyrtp",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-mescouilles",
+    "affected_versions": [
+        "1.6.3",
+        "1.6.3"
+    ],
+    "campaign_assigned_at": "2025-11-24T23:32:59.813788+00:00",
+    "campaign_data_modified_at": "2025-11-24T23:35:59.625472+00:00"
+}

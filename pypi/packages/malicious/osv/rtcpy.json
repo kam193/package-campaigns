@@ -1,0 +1,44 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-mescouilles/rtcpy",
+    "published": "2025-11-24T23:29:43.275037+00:00",
+    "modified": "2025-11-24T23:29:43.277249+00:00",
+    "summary": "Malicious code in rtcpy (PyPI)",
+    "details": "Importing the module starts an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-mescouilles\nReasons (based on the campaign):\n - infostealer\n - infostealer:kiwi\n - infostealer:cstealer\n - exfiltration_generic\n - exfiltration_browser_data\n - exfiltration_credentials\n - files_exfiltration\n - The package contains code to detect if it is running in a sandbox environment.",
+    "affected": [
+        {
+            "package": {
+                "name": "rtcpy",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.6.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/rtcpy"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://discord.com/api/webhooks/1438590458204000289/GoNmnNIWqcL152FVm8uszof971e2NnyNjsO4j_o4ZJuP9AhMaaR5XBEkkYcKP1GBcouo",
+                "https://discord.com/api/webhooks/1113937838837346429/iG7DEPvhfOdswri8SyWslR4bZY-XV-kOyQlwrUt_yOOMowuExGYAPnnHEO60XTfYt6VJ",
+                "https://pastebin.com/raw/vb608t9D"
+            ]
+        }
+    }
+}

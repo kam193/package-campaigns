@@ -1,0 +1,19 @@
+{
+    "name": "2025-11-voicemetterr",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "impersonation",
+        "other"
+    ],
+    "packages": [
+        "voicemetterr"
+    ],
+    "created_at": "2025-11-21",
+    "ioc": [
+        "https://discord.com/api/webhooks/1441168746248142889/WRJveZ9l89qoPozRN2KWwwiqsP_7-EXp68Mx0bDJtI8O152rd4fySDIH3tXjMSqUT8WS"
+    ],
+    "references": [],
+    "description": "Package sends image files to a hardcoded Discord webhook. It requires manual start and expects user's interaction.\n\nHowever, the package clearly impersonate a brand and so tries to hide the real actions. "
+}
