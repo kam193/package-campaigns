@@ -19,6 +19,7 @@
         "mescouilles",
         "mongland",
         "pyrtp",
+        "rtcpstream",
         "rtcpy",
         "zakuchienne"
     ],
@@ -26,7 +27,8 @@
     "ioc": [
         "https://discord.com/api/webhooks/1438590458204000289/GoNmnNIWqcL152FVm8uszof971e2NnyNjsO4j_o4ZJuP9AhMaaR5XBEkkYcKP1GBcouo",
         "https://discord.com/api/webhooks/1113937838837346429/iG7DEPvhfOdswri8SyWslR4bZY-XV-kOyQlwrUt_yOOMowuExGYAPnnHEO60XTfYt6VJ",
-        "https://pastebin.com/raw/vb608t9D"
+        "https://pastebin.com/raw/vb608t9D",
+        "honey.zakura-int.workers.dev"
     ],
     "references": [],
     "description": "Importing the module starts an infostealer "

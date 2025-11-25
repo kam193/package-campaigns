@@ -1,0 +1,10 @@
+{
+    "name": "rtcpstream",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-mescouilles",
+    "affected_versions": [
+        "1.6.3"
+    ],
+    "campaign_assigned_at": "2025-11-25T22:02:58.590165+00:00",
+    "campaign_data_modified_at": "2025-11-25T22:02:58.590212+00:00"
+}

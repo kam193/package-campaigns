@@ -35,6 +35,9 @@
     ],
     "database_specific": {
         "iocs": {
+            "domains": [
+                "honey.zakura-int.workers.dev"
+            ],
             "urls": [
                 "https://discord.com/api/webhooks/1438590458204000289/GoNmnNIWqcL152FVm8uszof971e2NnyNjsO4j_o4ZJuP9AhMaaR5XBEkkYcKP1GBcouo",
                 "https://discord.com/api/webhooks/1113937838837346429/iG7DEPvhfOdswri8SyWslR4bZY-XV-kOyQlwrUt_yOOMowuExGYAPnnHEO60XTfYt6VJ",
