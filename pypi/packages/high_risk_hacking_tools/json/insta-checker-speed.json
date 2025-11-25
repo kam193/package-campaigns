@@ -1,0 +1,10 @@
+{
+    "name": "insta-checker-speed",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-insta-itsh-checker",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-25T19:59:37.494984+00:00",
+    "campaign_data_modified_at": "2025-11-25T19:59:37.495006+00:00"
+}

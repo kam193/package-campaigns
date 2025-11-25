@@ -6,6 +6,7 @@
         "other"
     ],
     "packages": [
+        "insta-checker-speed",
         "insta-itsh-checker"
     ],
     "created_at": "2025-11-24",
