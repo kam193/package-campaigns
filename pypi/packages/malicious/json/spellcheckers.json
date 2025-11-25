@@ -2,7 +2,7 @@
     "name": "spellcheckers",
     "ecosystem": "pypi",
     "campaign": "2025-11-spellcheckers",
-    "description": "Package has a suspicious code to execute index files. It may be done in legitimate reasons, though",
+    "description": "Package contains hidden code that is effectively run during importing and downloads second stage code. Then, a process running in background periodically connects to a remote host and waits for next code to execute",
     "affected_versions": [
         "1.3.0",
         "1.2.0",

@@ -1,0 +1,10 @@
+{
+    "name": "tableate",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-25T11:06:37.753949+00:00",
+    "campaign_data_modified_at": "2025-11-25T11:06:37.753983+00:00"
+}

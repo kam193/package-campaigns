@@ -4,7 +4,7 @@
     "published": "2025-11-15T18:49:10.571395+00:00",
     "modified": "2025-11-16T11:08:23.442224+00:00",
     "summary": "Malicious code in spellcheckers (PyPI)",
-    "details": "Package has a suspicious code to execute index files. It may be done in legitimate reasons, though\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-spellcheckers\nReasons (based on the campaign):\n - obfuscation\n - Downloads and executes a remote malicious script.\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
+    "details": "Package contains hidden code that is effectively run during importing and downloads second stage code. Then, a process running in background periodically connects to a remote host and waits for next code to execute\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-spellcheckers\nReasons (based on the campaign):\n - obfuscation\n - Downloads and executes a remote malicious script.\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
     "affected": [
         {
             "package": {
@@ -45,11 +45,13 @@
     "database_specific": {
         "iocs": {
             "domains": [
-                "dothebest.store"
+                "dothebest.store",
+                "searchbox.info"
             ],
             "urls": [
                 "https://dothebest.store/allow/inform.php",
-                "https://dothebest.store/refresh.php"
+                "https://dothebest.store/refresh.php",
+                "https://searchbox.info/prefer.php"
             ]
         }
     }
