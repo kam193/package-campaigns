@@ -1,0 +1,17 @@
+{
+    "name": "mecho",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package implements a reverse shell with a default server, but it seems not to have bad intentions",
+    "affected_versions": [
+        "1.0.3.5",
+        "1.0.3.4",
+        "1.0.3.3",
+        "1.0.3.2",
+        "1.0.3.1",
+        "1.0.2",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2025-11-26T18:57:52.482352+00:00",
+    "campaign_data_modified_at": "2025-11-26T18:57:52.482379+00:00"
+}
