@@ -1,0 +1,25 @@
+{
+    "name": "2025-11-discord-selfsbotsx",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "peristence_autorun",
+        "remote_executable"
+    ],
+    "packages": [
+        "discord-selfsbotsx"
+    ],
+    "created_at": "2025-11-27",
+    "ioc": [
+        "https://pastebin.com/raw/HvFhs7zk",
+        "http://212.80.7.213:20578",
+        "212.80.7.213",
+        "ws://89.39.121.49:8081"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/11550536005bcba4524c40ec4556226d4ab20677ed353c81e55b9f7415392739/detection"
+    ],
+    "description": "Once run, package downloads and installs an infostealer"
+}

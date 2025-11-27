@@ -1,0 +1,51 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-discord-selfsbotsx/discord-selfsbotsx",
+    "published": "2025-11-27T23:24:51.238925+00:00",
+    "modified": "2025-11-27T23:24:51.238951+00:00",
+    "summary": "Malicious code in discord-selfsbotsx (PyPI)",
+    "details": "Once run, package downloads and installs an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-discord-selfsbotsx\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - infostealer\n - malware\n - peristence_autorun",
+    "affected": [
+        {
+            "package": {
+                "name": "discord-selfsbotsx",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.1",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/11550536005bcba4524c40ec4556226d4ab20677ed353c81e55b9f7415392739/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/discord-selfsbotsx"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/HvFhs7zk",
+                "http://212.80.7.213:20578"
+            ],
+            "ips": [
+                "212.80.7.213"
+            ]
+        }
+    }
+}
