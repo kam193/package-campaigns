@@ -1,0 +1,10 @@
+{
+    "name": "logguru",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-logguru",
+    "affected_versions": [
+        "0.7.3"
+    ],
+    "campaign_assigned_at": "2025-11-29T10:54:09.888577+00:00",
+    "campaign_data_modified_at": "2025-11-29T10:54:09.888604+00:00"
+}

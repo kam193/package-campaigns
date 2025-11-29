@@ -1,0 +1,53 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-logguru/logguru",
+    "published": "2025-11-29T10:54:09.888577+00:00",
+    "modified": "2025-11-29T10:54:09.888604+00:00",
+    "summary": "Malicious code in logguru (PyPI)",
+    "details": "Malicious clone of a legitimate \"loguru\" package. There is added code to download and run an executable. Sandbox analysis reveals attempts to steal browsers data\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-logguru\nReasons (based on the campaign):\n - The package is a clone of a real package, but with malicious code added.\n - Downloads and executes a remote executable.\n - infostealer\n - typosquatting",
+    "affected": [
+        {
+            "package": {
+                "name": "logguru",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.7.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/251129-mp6cgsgk5v/static1"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/e3252fc08959fbb3e749f74eba1720efca62982e7017e519f54cb9c30480ee8f/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/logguru"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "role": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://64.188.79.157:443/new"
+            ],
+            "ips": [
+                "64.188.79.157"
+            ]
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "2025-11-logguru",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clons_real_package",
+        "infostealer",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "logguru"
+    ],
+    "created_at": "2025-11-29",
+    "ioc": [
+        "https://64.188.79.157:443/new",
+        "64.188.79.157"
+    ],
+    "references": [
+        "https://tria.ge/251129-mp6cgsgk5v/static1",
+        "https://www.virustotal.com/gui/file/e3252fc08959fbb3e749f74eba1720efca62982e7017e519f54cb9c30480ee8f/detection"
+    ],
+    "description": "Malicious clone of a legitimate \"loguru\" package. There is added code to download and run an executable. Sandbox analysis reveals attempts to steal browsers data"
+}
