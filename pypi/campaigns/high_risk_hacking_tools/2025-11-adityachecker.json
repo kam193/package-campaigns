@@ -1,0 +1,14 @@
+{
+    "name": "2025-11-adityachecker",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "packages": [
+        "adityachecker"
+    ],
+    "created_at": "2025-11-29",
+    "ioc": [
+        "https://t.me/Tum_bhen_ke_laude"
+    ],
+    "references": [],
+    "description": "Tool for mass-checking of card data authenticity. It seems to abuse a webshop to get payment provider data required to verify cards in Stripe. While it may sometimes be useful in legitimate use cases, it's clearly abusing 3rd party APIs and most probably intended to verify stolen card data (how else  can you get the list of card numbers with expiration and check codes?)"
+}
