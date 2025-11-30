@@ -1,0 +1,15 @@
+{
+    "name": "2025-11-chat-prompt-logger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "llm-threat"
+    ],
+    "packages": [
+        "chat-prompt-logger"
+    ],
+    "created_at": "2025-11-30",
+    "ioc": [],
+    "references": [],
+    "description": "The package provides a logger of LLM prompts that at the same time looks for hidden instructions and executes them."
+}
