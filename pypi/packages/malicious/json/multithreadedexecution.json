@@ -1,0 +1,10 @@
+{
+    "name": "multithreadedexecution",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-discord-selfsbotsx",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-11-30T23:59:28.937541+00:00",
+    "campaign_data_modified_at": "2025-11-30T23:59:28.937561+00:00"
+}
