@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
-        "clons_real_package",
+        "clones_real_package",
         "obfuscation",
         "remote_script",
         "typosquatting"

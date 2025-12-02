@@ -4,7 +4,7 @@
     "published": "2025-11-16T21:33:31.619250+00:00",
     "modified": "2025-11-16T21:33:31.619268+00:00",
     "summary": "Malicious code in perfviewer (PyPI)",
-    "details": "During installation, code downloads and starts an executable and a DLL library. After starting them, files are removed from the disk. The executable has been recognized as AsyncRAT\n\nThis is a copy of legitimate \"rich\" package.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-perfviewer\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - The package is a clone of a real package, but with malicious code added.\n - malware",
+    "details": "During installation, code downloads and starts an executable and a DLL library. After starting them, files are removed from the disk. The executable has been recognized as AsyncRAT\n\nThis is a copy of legitimate \"rich\" package.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-perfviewer\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - clones_real_package\n - malware",
     "affected": [
         {
             "package": {

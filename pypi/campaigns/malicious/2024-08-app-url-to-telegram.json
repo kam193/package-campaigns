@@ -5,7 +5,7 @@
     "abuse_categories": [
         "action-hidden-in-lib-usage",
         "basic_exfiltration",
-        "clons_real_package",
+        "clones_real_package",
         "dependency-confusion"
     ],
     "packages": [

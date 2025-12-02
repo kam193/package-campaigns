@@ -5,7 +5,7 @@
     "abuse_categories": [
         "action-hidden-in-lib-usage",
         "clipboard_stealing",
-        "clons_real_package",
+        "clones_real_package",
         "files_exfiltration",
         "infostealer",
         "obfuscation"

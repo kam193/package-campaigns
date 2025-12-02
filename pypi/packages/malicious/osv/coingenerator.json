@@ -4,7 +4,7 @@
     "published": "2025-02-24T10:06:17Z",
     "modified": "2025-02-24T10:06:17Z",
     "summary": "Malicious code in coingenerator (PyPI)",
-    "details": "Package contains obfuscated code that exfiltrate basic data and awaits for commands from the remote server to execute them. This is a malicious copy of legitimate https://pypi.org/project/coinanalyse/ package.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-coinanalyze\nReasons (based on the campaign):\n - backdoor\n - typosquatting\n - obfuscation\n - The package is a clone of a real package, but with malicious code added.\n - crypto-related\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
+    "details": "Package contains obfuscated code that exfiltrate basic data and awaits for commands from the remote server to execute them. This is a malicious copy of legitimate https://pypi.org/project/coinanalyse/ package.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-coinanalyze\nReasons (based on the campaign):\n - backdoor\n - typosquatting\n - obfuscation\n - clones_real_package\n - crypto-related\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
     "affected": [
         {
             "package": {

@@ -4,7 +4,7 @@
     "published": "2024-12-12T21:48:47Z",
     "modified": "2024-12-12T21:48:47Z",
     "summary": "Malicious code in python-bitget-connect (PyPI)",
-    "details": "Importing the module starts an obfuscated PowerShell code, which downloads and executes a remote script. On Windows, the script appears to just start the calculator. On MacOS, the file is identified as a Spark RAT by multiple vendors. Package impersonate the legitimate  \"python-bitget\".\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-python-bitget-api\nReasons (based on the campaign):\n - typosquatting\n - obfuscation\n - The package is a clone of a real package, but with malicious code added.\n - dependency-confusion\n - crypto-related\n - impersonation\n - Downloads and executes a remote malicious script.",
+    "details": "Importing the module starts an obfuscated PowerShell code, which downloads and executes a remote script. On Windows, the script appears to just start the calculator. On MacOS, the file is identified as a Spark RAT by multiple vendors. Package impersonate the legitimate  \"python-bitget\".\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-python-bitget-api\nReasons (based on the campaign):\n - typosquatting\n - obfuscation\n - clones_real_package\n - dependency-confusion\n - crypto-related\n - impersonation\n - Downloads and executes a remote malicious script.",
     "affected": [
         {
             "package": {

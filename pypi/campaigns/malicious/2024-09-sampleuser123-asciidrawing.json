@@ -5,7 +5,7 @@
     "abuse_categories": [
         "",
         "basic_exfiltration",
-        "clons_real_package",
+        "clones_real_package",
         "dependency-confusion",
         "impersonation",
         "override_install"

@@ -4,7 +4,7 @@
     "category": "malicious",
     "abuse_categories": [
         "action-hidden-in-lib-usage",
-        "clons_real_package",
+        "clones_real_package",
         "dependency-confusion"
     ],
     "packages": [

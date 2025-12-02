@@ -5,7 +5,7 @@
     "abuse_categories": [
         "action-hidden-in-lib-usage",
         "backdoor",
-        "clons_real_package",
+        "clones_real_package",
         "impersonation",
         "remote_script"
     ],

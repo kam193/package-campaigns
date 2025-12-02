@@ -4,7 +4,7 @@
     "published": "2024-11-12T07:40:55Z",
     "modified": "2024-11-12T07:40:55Z",
     "summary": "Malicious code in backwwii (PyPI)",
-    "details": "When importing the module, the obfuscated code downloads and runs a remote executable\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-backwwii\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - The package is a clone of a real package, but with malicious code added.",
+    "details": "When importing the module, the obfuscated code downloads and runs a remote executable\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-backwwii\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - clones_real_package",
     "affected": [
         {
             "package": {
