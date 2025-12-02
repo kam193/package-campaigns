@@ -4,7 +4,7 @@
     "published": "2025-11-20T11:29:04.134727+00:00",
     "modified": "2025-11-20T11:29:04.134748+00:00",
     "summary": "Malicious code in siitoogether (PyPI)",
-    "details": "Importing the module starts an RAT-like process capable of execute remote commands, with the C2 through Discord\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-siitoogether\nReasons (based on the campaign):\n - rat\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
+    "details": "Importing the module starts an RAT-like process capable of execute remote commands, with the C2 through Discord\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-siitoogether\n\n\nReasons (based on the campaign):\n\n\n - rat\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
@@ -33,7 +33,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

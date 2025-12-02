@@ -4,7 +4,7 @@
     "published": "2025-11-15T18:26:15.866383+00:00",
     "modified": "2025-11-15T18:26:15.866402+00:00",
     "summary": "Highly suspicious code in stcchecker (PyPI)",
-    "details": "Strange package that appears to be a fake API wrapper, but at the time of analysis, the remote endpoint was not responding.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-11-stcchecker\nReasons (based on the campaign):",
+    "details": "Strange package that appears to be a fake API wrapper, but at the time of analysis, the remote endpoint was not responding.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-11-stcchecker\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

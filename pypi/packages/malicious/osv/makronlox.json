@@ -4,7 +4,7 @@
     "published": "2025-10-16T20:06:59.603928+00:00",
     "modified": "2025-10-16T20:06:59.603962+00:00",
     "summary": "Malicious code in makronlox (PyPI)",
-    "details": "Package automatically download and runs an executable, which then imitates a malicious action and requests ransom payment.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-makronlox\nReasons (based on the campaign):\n - Downloads and executes a remote executable.",
+    "details": "Package automatically download and runs an executable, which then imitates a malicious action and requests ransom payment.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-makronlox\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n",
     "affected": [
         {
             "package": {
@@ -30,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

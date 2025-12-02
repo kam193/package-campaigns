@@ -4,7 +4,7 @@
     "published": "2025-06-09T09:48:52Z",
     "modified": "2025-06-09T09:48:52Z",
     "summary": "Malicious code in chimera-sandbox-extensions (PyPI)",
-    "details": "When started, the code attempts to access multiple domains based on the generating algorithm. Once one valid is found, it downloads a script and executes it. The script collects data about the environment (e.g. attempts to get cloud tokens from the metadata URLs, collects some env variables) and sends them further to the remote target, which then decides about next stage code.\n\nIt may be targetting https://engineering.grab.com/chimera-sandbox\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-chimera-sandbox-extensions\nReasons (based on the campaign):\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - Downloads and executes a remote malicious script.",
+    "details": "When started, the code attempts to access multiple domains based on the generating algorithm. Once one valid is found, it downloads a script and executes it. The script collects data about the environment (e.g. attempts to get cloud tokens from the metadata URLs, collects some env variables) and sends them further to the remote target, which then decides about next stage code.\n\nIt may be targetting https://engineering.grab.com/chimera-sandbox\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-chimera-sandbox-extensions\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -40,7 +40,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

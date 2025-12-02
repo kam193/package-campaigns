@@ -4,7 +4,7 @@
     "published": "2025-11-13T23:55:37.974676+00:00",
     "modified": "2025-11-13T23:55:37.974701+00:00",
     "summary": "Spam code in blastchamber-python-pypi (PyPI)",
-    "details": "During installation, a flag file is created, and the package has no other purpose\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-11-blastchamber-python-pypi\nReasons (based on the campaign):\n - The package overrides the install command in setup.py to execute malicious code during installation.",
+    "details": "During installation, a flag file is created, and the package has no other purpose\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2025-11-blastchamber-python-pypi\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {
@@ -32,7 +32,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "published": "2024-12-04T06:28:49Z",
     "modified": "2024-12-04T06:28:49Z",
     "summary": "Malicious code in huggingleg2 (PyPI)",
-    "details": "Installing the package starts a revshell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-12-huggingleg2\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n - The package overrides the install command in setup.py to execute malicious code during installation.",
+    "details": "Installing the package starts a revshell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-12-huggingleg2\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

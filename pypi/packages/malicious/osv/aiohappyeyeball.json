@@ -4,7 +4,7 @@
     "published": "2025-10-27T13:53:33.468086+00:00",
     "modified": "2025-10-27T13:53:33.468102+00:00",
     "summary": "Malicious code in aiohappyeyeball (PyPI)",
-    "details": "Malicious copy of the legit aiohappyeyeballs package, the __pycache__/staggerd.pyc contains a suspicious binary content (which seems not to be a valid PYC)\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-asynhttp\nReasons (based on the campaign):\n - typosquatting\n - exfiltration_generic\n - obfuscation\n - clones_real_package",
+    "details": "Malicious copy of the legit aiohappyeyeballs package, the __pycache__/staggerd.pyc contains a suspicious binary content (which seems not to be a valid PYC)\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-asynhttp\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - exfiltration-generic\n\n\n - obfuscation\n\n\n - clones-real-package\n\n",
     "affected": [
         {
             "package": {
@@ -33,7 +33,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

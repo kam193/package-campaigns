@@ -4,7 +4,7 @@
     "published": "2025-02-04T17:58:19Z",
     "modified": "2025-02-04T17:58:19Z",
     "summary": "Malicious code in requests-x64 (PyPI)",
-    "details": "Code in setup.py attempts to silently download and execute an executable. The file contains a malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-requests-x64\nReasons (based on the campaign):\n - Downloads and executes a remote executable.",
+    "details": "Code in setup.py attempts to silently download and execute an executable. The file contains a malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-02-requests-x64\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n",
     "affected": [
         {
             "package": {
@@ -40,7 +40,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

@@ -4,7 +4,7 @@
     "published": "2025-05-09T08:09:20Z",
     "modified": "2025-05-09T08:09:20Z",
     "summary": "Malicious code in matlab-cli (PyPI)",
-    "details": "Importing the module starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-matlab-cli\nReasons (based on the campaign):\n - impersonation\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n - obfuscation",
+    "details": "Importing the module starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-matlab-cli\n\n\nReasons (based on the campaign):\n\n\n - impersonation\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

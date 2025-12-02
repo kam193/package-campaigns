@@ -4,7 +4,7 @@
     "published": "2025-03-18T20:58:08Z",
     "modified": "2025-03-18T20:58:08Z",
     "summary": "Malicious code in pyvirus (PyPI)",
-    "details": "A library to build potentially malicious code. The code may potentially be destructive, but the package does not trigger it and documents the functionality\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-03-pyvirus\nReasons (based on the campaign):\n - other",
+    "details": "A library to build potentially malicious code. The code may potentially be destructive, but the package does not trigger it and documents the functionality\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2025-03-pyvirus\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

@@ -4,7 +4,7 @@
     "published": "2025-02-04T19:09:33Z",
     "modified": "2025-02-04T19:09:33Z",
     "summary": "Malicious code in farooq4321 (PyPI)",
-    "details": "Code in setup.py attempts to call a webhook, but most importantly to execute a revshell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-farooq4321\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n - The package overrides the install command in setup.py to execute malicious code during installation.",
+    "details": "Code in setup.py attempts to call a webhook, but most importantly to execute a revshell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-02-farooq4321\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

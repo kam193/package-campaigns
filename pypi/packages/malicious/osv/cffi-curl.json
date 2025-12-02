@@ -4,7 +4,7 @@
     "published": "2025-08-20T19:19:23.122439+00:00",
     "modified": "2025-08-20T19:19:23.122455+00:00",
     "summary": "Malicious code in cffi-curl (PyPI)",
-    "details": "Malicious clone of a legitimate package \"curl-cffi\". When importing the module, it runs an obfuscated PowerShell command\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-cffi-curl\nReasons (based on the campaign):\n - typosquatting\n - obfuscation\n - malware\n - clones_real_package",
+    "details": "Malicious clone of a legitimate package \"curl-cffi\". When importing the module, it runs an obfuscated PowerShell command\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-08-cffi-curl\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - obfuscation\n\n\n - malware\n\n\n - clones-real-package\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

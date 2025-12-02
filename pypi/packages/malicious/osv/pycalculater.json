@@ -4,7 +4,7 @@
     "published": "2024-11-16T22:56:09Z",
     "modified": "2024-11-16T22:56:09Z",
     "summary": "Malicious code in pycalculater (PyPI)",
-    "details": "During installation, a remote, obfuscated executable is downloaded and started. The executable at least disables automated updates, malware protection and other security mechanisms.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-11-discconnect\nReasons (based on the campaign):\n - typosquatting\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - Downloads and executes a remote executable.\n - modify-system-without-consent",
+    "details": "During installation, a remote, obfuscated executable is downloaded and started. The executable at least disables automated updates, malware protection and other security mechanisms.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-11-discconnect\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - Downloads and executes a remote executable.\n\n\n - modify-system-without-consent\n\n",
     "affected": [
         {
             "package": {
@@ -44,7 +44,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

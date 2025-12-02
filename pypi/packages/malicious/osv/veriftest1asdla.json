@@ -4,7 +4,7 @@
     "published": "2025-05-06T10:01:15Z",
     "modified": "2025-05-06T10:01:15Z",
     "summary": "Malicious code in veriftest1asdla (PyPI)",
-    "details": "During installation, the package attempts to exfiltrate cloud tokens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-veriftest1asdl\nReasons (based on the campaign):\n - exfiltration_cloud_tokens\n - The package overrides the install command in setup.py to execute malicious code during installation.",
+    "details": "During installation, the package attempts to exfiltrate cloud tokens\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-veriftest1asdl\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-cloud-tokens\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

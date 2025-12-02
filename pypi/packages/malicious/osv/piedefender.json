@@ -4,7 +4,7 @@
     "published": "2025-03-01T15:16:30Z",
     "modified": "2025-03-01T15:16:30Z",
     "summary": "Malicious code in piedefender (PyPI)",
-    "details": "setup.py is prepared to download and run an obfuscated batch script. While the script is not detected by any AV currently, in the sandbox analysis it reveals behaviour like adding exclusions to Windows Defender\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-pydefender\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.\n - malware\n - The package overrides the install command in setup.py to execute malicious code during installation.",
+    "details": "setup.py is prepared to download and run an obfuscated batch script. While the script is not detected by any AV currently, in the sandbox analysis it reveals behaviour like adding exclusions to Windows Defender\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-02-pydefender\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - malware\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {
@@ -48,7 +48,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

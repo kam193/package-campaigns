@@ -4,7 +4,7 @@
     "published": "2025-09-14T13:24:21.500540+00:00",
     "modified": "2025-09-14T13:24:21.500575+00:00",
     "summary": "Malicious code in mevguard (PyPI)",
-    "details": "The obfuscated code provides \"initialize_session\" function that exfiltrates the provided argument.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-09-mevguard\nReasons (based on the campaign):\n - action-hidden-in-lib-usage\n - exfiltration_generic\n - obfuscation",
+    "details": "The obfuscated code provides \"initialize_session\" function that exfiltrates the provided argument.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-09-mevguard\n\n\nReasons (based on the campaign):\n\n\n - action-hidden-in-lib-usage\n\n\n - exfiltration-generic\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

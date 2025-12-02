@@ -4,7 +4,7 @@
     "published": "2025-10-23T20:48:18.208849+00:00",
     "modified": "2025-10-23T20:48:18.208864+00:00",
     "summary": "Malicious code in imad213insta (PyPI)",
-    "details": "The package contains obfuscated code, that seems to provide the expected functionality by sending Instagram sessions to some shady services. This is a new edition of the 2025-07-imad213tools campaign, without obviously malicious content, but still extremely risky.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-10-imad213insta\nReasons (based on the campaign):\n - obfuscation",
+    "details": "The package contains obfuscated code, that seems to provide the expected functionality by sending Instagram sessions to some shady services. This is a new edition of the 2025-07-imad213tools campaign, without obviously malicious content, but still extremely risky.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2025-10-imad213insta\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -30,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

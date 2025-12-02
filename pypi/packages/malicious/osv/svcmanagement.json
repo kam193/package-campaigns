@@ -4,7 +4,7 @@
     "published": "2025-08-18T16:25:24.490335+00:00",
     "modified": "2025-08-18T16:25:24.490353+00:00",
     "summary": "Malicious code in svcmanagement (PyPI)",
-    "details": "Package attempts to download an executable and install it as a privileged service. The executable seems to be modified remote access tool\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-svcmanager\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - backdoor",
+    "details": "Package attempts to download an executable and install it as a privileged service. The executable seems to be modified remote access tool\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-07-svcmanager\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - backdoor\n\n",
     "affected": [
         {
             "package": {
@@ -33,7 +33,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

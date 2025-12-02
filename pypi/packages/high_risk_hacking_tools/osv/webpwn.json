@@ -4,7 +4,7 @@
     "published": "2025-09-06T12:10:04.371704+00:00",
     "modified": "2025-09-06T12:10:04.371721+00:00",
     "summary": "Malicious code in webpwn (PyPI)",
-    "details": "Collection of tools designed to exploit Windows. They seem to act as legitimate pentesting tools, yet, the lack of clear description and duplicates may suggest malicious intentions.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-08-old-winpwn\nReasons (based on the campaign):",
+    "details": "Collection of tools designed to exploit Windows. They seem to act as legitimate pentesting tools, yet, the lack of clear description and duplicates may suggest malicious intentions.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2025-08-old-winpwn\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

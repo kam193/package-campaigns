@@ -4,7 +4,7 @@
     "published": "2025-06-15T15:22:18Z",
     "modified": "2025-06-15T15:22:18Z",
     "summary": "Highly suspicious code in dcrbo (PyPI)",
-    "details": "Included executable, which is run by a command, implements a Discord bot designed to control the computer (including executing arbitrary commands). While such things can be used in legitimate cases, this executable has an embedded bot credentials, so it will join the server controlled by the uploader\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-dcrb\nReasons (based on the campaign):\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.",
+    "details": "Included executable, which is run by a command, implements a Discord bot designed to control the computer (including executing arbitrary commands). While such things can be used in legitimate cases, this executable has an embedded bot credentials, so it will join the server controlled by the uploader\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-06-dcrb\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
@@ -52,7 +52,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

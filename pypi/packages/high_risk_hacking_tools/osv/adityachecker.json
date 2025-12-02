@@ -4,7 +4,7 @@
     "published": "2025-11-29T14:17:37.458144+00:00",
     "modified": "2025-11-29T14:17:37.458163+00:00",
     "summary": "Malicious code in adityachecker (PyPI)",
-    "details": "Tool for mass-checking of card data authenticity. It seems to abuse a webshop to get payment provider data required to verify cards in Stripe. While it may sometimes be useful in legitimate use cases, it's clearly abusing 3rd party APIs and most probably intended to verify stolen card data (how else  can you get the list of card numbers with expiration and check codes?)\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-11-adityachecker\nReasons (based on the campaign):",
+    "details": "Tool for mass-checking of card data authenticity. It seems to abuse a webshop to get payment provider data required to verify cards in Stripe. While it may sometimes be useful in legitimate use cases, it's clearly abusing 3rd party APIs and most probably intended to verify stolen card data (how else  can you get the list of card numbers with expiration and check codes?)\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2025-11-adityachecker\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

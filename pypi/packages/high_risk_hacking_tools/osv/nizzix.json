@@ -4,7 +4,7 @@
     "published": "2024-11-29T14:00:18Z",
     "modified": "2024-11-29T14:00:18Z",
     "summary": "Malicious code in nizzix (PyPI)",
-    "details": "Collection of helpers, including detecting debugging\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2024-11-nizzix\nReasons (based on the campaign):\n - The package contains code to detect if it is running in a sandbox environment.",
+    "details": "Collection of helpers, including detecting debugging\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2024-11-nizzix\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "published": "2025-08-13T05:15:27.148964+00:00",
     "modified": "2025-08-13T06:58:13.670213+00:00",
     "summary": "Malicious code in pycrackhash (PyPI)",
-    "details": "When using methods from the package, it downloads an obfuscated code from Github and puts it in multiple localisation. While it appears that this code is used to perform action user requested, deobfuscation reveals exfiltrating user's data instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-kertash\nReasons (based on the campaign):\n - exfiltration_generic\n - A Telegram webhook is used to send collected data.\n - obfuscation\n - action-hidden-in-lib-usage",
+    "details": "When using methods from the package, it downloads an obfuscated code from Github and puts it in multiple localisation. While it appears that this code is used to perform action user requested, deobfuscation reveals exfiltrating user's data instead.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-08-kertash\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - A Telegram webhook is used to send collected data.\n\n\n - obfuscation\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {
@@ -30,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

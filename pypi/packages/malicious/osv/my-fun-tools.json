@@ -4,7 +4,7 @@
     "published": "2025-06-09T11:26:07Z",
     "modified": "2025-06-09T11:26:07Z",
     "summary": "Malicious code in my-fun-tools (PyPI)",
-    "details": "During installation, the obfuscated code attempts to insert a modified Python DLL and runs a code.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-06-my-fun-tools\nReasons (based on the campaign):\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - obfuscation",
+    "details": "During installation, the obfuscated code attempts to insert a modified Python DLL and runs a code.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-my-fun-tools\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "published": "2025-07-18T20:40:32.006423+00:00",
     "modified": "2025-07-18T20:40:32.006437+00:00",
     "summary": "Malicious code in rbx1325 (PyPI)",
-    "details": "During installation, package attempts to exfiltrate browser data\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-rbx1325\nReasons (based on the campaign):\n - infostealer\n - exfiltration_browser_data",
+    "details": "During installation, package attempts to exfiltrate browser data\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-07-rbx1325\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - exfiltration-browser-data\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

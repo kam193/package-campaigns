@@ -4,7 +4,7 @@
     "published": "2025-10-15T20:25:13.283585+00:00",
     "modified": "2025-10-15T20:25:13.283637+00:00",
     "summary": "Malicious code in saintone (PyPI)",
-    "details": "Code downloads and starts an executable widely recognized as malware, then sends some results to a Telegram webhook.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-md5-en\nReasons (based on the campaign):\n - malware\n - Downloads and executes a remote executable.\n - obfuscation",
+    "details": "Code downloads and starts an executable widely recognized as malware, then sends some results to a Telegram webhook.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-md5-en\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -35,7 +35,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

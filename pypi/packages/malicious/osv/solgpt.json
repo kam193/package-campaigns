@@ -4,7 +4,7 @@
     "published": "2024-07-29T21:29:54Z",
     "modified": "2024-07-29T21:29:54Z",
     "summary": "Malicious code in solgpt (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-solgpt-exe-zip-miner\nReasons (based on the campaign):\n - cryptominer",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-07-solgpt-exe-zip-miner\n\n\nReasons (based on the campaign):\n\n\n - cryptominer\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

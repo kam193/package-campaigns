@@ -4,7 +4,7 @@
     "published": "2025-03-17T19:44:49Z",
     "modified": "2025-03-17T19:44:49Z",
     "summary": "Malicious code in bsb-family-bot (PyPI)",
-    "details": "Obfuscated package that can collect different information from mobile devices, including monitoring incoming text messages, taken photos and installed applications. The package itself does not look like doing it without consent, but may be used for such purposes.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-03-bsb-family-bot\nReasons (based on the campaign):\n - exfiltration_generic\n - obfuscation",
+    "details": "Obfuscated package that can collect different information from mobile devices, including monitoring incoming text messages, taken photos and installed applications. The package itself does not look like doing it without consent, but may be used for such purposes.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2025-03-bsb-family-bot\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -40,7 +40,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

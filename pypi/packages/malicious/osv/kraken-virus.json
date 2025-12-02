@@ -4,7 +4,7 @@
     "published": "2025-08-28T22:26:27.397121+00:00",
     "modified": "2025-08-28T22:26:27.397147+00:00",
     "summary": "Malicious code in kraken-virus (PyPI)",
-    "details": "As even described, the package contains a malicious code collecting large amount of data. The description suggests educational use, yet, the code can cause real harm. Specifically, the C2 servers defined in the package seems to be selected as trusted domains that would ignore the data sent. However, among them is at least one domain available for sale at the time of analysis - opening the room for collecting data by the uploader.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-kraken-virus\nReasons (based on the campaign):\n - malware\n - exfiltration_browser_data\n - exfiltration_generic",
+    "details": "As even described, the package contains a malicious code collecting large amount of data. The description suggests educational use, yet, the code can cause real harm. Specifically, the C2 servers defined in the package seems to be selected as trusted domains that would ignore the data sent. However, among them is at least one domain available for sale at the time of analysis - opening the room for collecting data by the uploader.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-08-kraken-virus\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - exfiltration-browser-data\n\n\n - exfiltration-generic\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

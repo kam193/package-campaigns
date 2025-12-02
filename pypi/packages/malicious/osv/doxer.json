@@ -4,7 +4,7 @@
     "published": "2025-09-02T09:19:49.897121+00:00",
     "modified": "2025-09-02T09:19:49.897138+00:00",
     "summary": "Malicious code in doxer (PyPI)",
-    "details": "During installation a screenshot is exfiltrated, and the package has no other purpose\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-doxer\nReasons (based on the campaign):\n - other\n - exfiltration_generic",
+    "details": "During installation a screenshot is exfiltrated, and the package has no other purpose\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-08-doxer\n\n\nReasons (based on the campaign):\n\n\n - other\n\n\n - exfiltration-generic\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

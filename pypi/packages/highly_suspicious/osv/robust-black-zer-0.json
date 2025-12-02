@@ -4,7 +4,7 @@
     "published": "2025-11-18T17:53:46.021987+00:00",
     "modified": "2025-11-18T17:53:46.022046+00:00",
     "summary": "Highly suspicious code in robust-black-zer-0 (PyPI)",
-    "details": "Obfuscated scripts hiding hacking tools\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-11-BLACK-ZER-0\nReasons (based on the campaign):\n - obfuscation",
+    "details": "Obfuscated scripts hiding hacking tools\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-11-BLACK-ZER-0\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -31,7 +31,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

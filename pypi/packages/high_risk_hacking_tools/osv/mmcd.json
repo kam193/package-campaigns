@@ -4,7 +4,7 @@
     "published": "2025-03-31T21:02:44Z",
     "modified": "2025-03-31T21:02:44Z",
     "summary": "Malicious code in mmcd (PyPI)",
-    "details": "Small collection of helpers for rather irritating activity like generating bluescreen, spamming with new windows, attempting to fulfil RAM etc. No exfiltration or malware.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: 2025-03-mmcd\nReasons (based on the campaign):\n - iritating-computer-activity",
+    "details": "Small collection of helpers for rather irritating activity like generating bluescreen, spamming with new windows, attempting to fulfil RAM etc. No exfiltration or malware.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2025-03-mmcd\n\n\nReasons (based on the campaign):\n\n\n - iritating-computer-activity\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

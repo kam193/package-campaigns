@@ -4,7 +4,7 @@
     "published": "2025-10-10T16:27:54.946356+00:00",
     "modified": "2025-10-10T16:27:54.946379+00:00",
     "summary": "Malicious code in python3-6 (PyPI)",
-    "details": "During installation, the obfuscated code is run and connect with a remote server. In the current version, the code just opens a URL without exfiltrating any data. However, the high obfuscation level, including using an IP as the encryption key, makes the intentions unclear\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-python3-6\nReasons (based on the campaign):\n - obfuscation\n - other",
+    "details": "During installation, the obfuscated code is run and connect with a remote server. In the current version, the code just opens a URL without exfiltrating any data. However, the high obfuscation level, including using an IP as the encryption key, makes the intentions unclear\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-python3-6\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - other\n\n",
     "affected": [
         {
             "package": {
@@ -31,7 +31,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

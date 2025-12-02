@@ -4,7 +4,7 @@
     "published": "2025-01-07T14:50:30Z",
     "modified": "2025-01-07T14:50:30Z",
     "summary": "Malicious code in wdwq (PyPI)",
-    "details": "Starting the module starts a Telegram bot client capable of exfiltrating files when requested\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-wdwq\nReasons (based on the campaign):\n - files_exfiltration",
+    "details": "Starting the module starts a Telegram bot client capable of exfiltrating files when requested\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-01-wdwq\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

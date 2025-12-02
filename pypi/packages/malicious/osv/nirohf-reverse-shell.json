@@ -4,7 +4,7 @@
     "published": "2024-11-29T22:08:05Z",
     "modified": "2024-11-29T22:08:05Z",
     "summary": "Malicious code in nirohf-reverse-shell (PyPI)",
-    "details": "Installing starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2023-12-09-nirohf-reverse-shell\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
+    "details": "Installing starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2023-12-09-nirohf-reverse-shell\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

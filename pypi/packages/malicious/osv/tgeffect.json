@@ -4,7 +4,7 @@
     "published": "2025-11-22T15:12:29.403642+00:00",
     "modified": "2025-11-22T18:24:54.617347+00:00",
     "summary": "Malicious code in tgeffect (PyPI)",
-    "details": "Importing the module starts obfuscated code which then look for data related to some Telegram clients and attempt to exfiltrate them\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-tgeffect\nReasons (based on the campaign):\n - obfuscation\n - target:telegram\n - exfiltration_credentials",
+    "details": "Importing the module starts obfuscated code which then look for data related to some Telegram clients and attempt to exfiltrate them\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-tgeffect\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - target:telegram\n\n\n - exfiltration-credentials\n\n",
     "affected": [
         {
             "package": {
@@ -38,7 +38,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

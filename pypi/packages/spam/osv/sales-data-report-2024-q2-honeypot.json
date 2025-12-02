@@ -4,7 +4,7 @@
     "published": "2025-06-19T17:43:00Z",
     "modified": "2025-06-19T17:43:00Z",
     "summary": "Spam code in sales-data-report-2024-q2-honeypot (PyPI)",
-    "details": "The package just links to a honeypot URL in the description, under the link is really a GIF.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-06-sales-data-report-2024-q2-honeypot\nReasons (based on the campaign):",
+    "details": "The package just links to a honeypot URL in the description, under the link is really a GIF.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2025-06-sales-data-report-2024-q2-honeypot\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

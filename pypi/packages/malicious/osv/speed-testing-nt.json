@@ -4,7 +4,7 @@
     "published": "2025-10-31T00:13:41.197175+00:00",
     "modified": "2025-10-31T00:13:41.197201+00:00",
     "summary": "Malicious code in speed-testing-nt (PyPI)",
-    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-10-speedd-testing-bot\nReasons (based on the campaign):\n - rat\n - Downloads and executes a remote malicious script.",
+    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - rat\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

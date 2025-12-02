@@ -4,7 +4,7 @@
     "published": "2025-07-17T19:19:10.544577+00:00",
     "modified": "2025-07-17T19:19:10.544588+00:00",
     "summary": "Malicious code in avatar-handler (PyPI)",
-    "details": "Code pretending to handling downloading an image, but in fact is prepared to download and execute a Powershell script image properties. No known usage\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-avatar-handler\nReasons (based on the campaign):\n - obfuscation\n - Downloads and executes a remote malicious script.",
+    "details": "Code pretending to handling downloading an image, but in fact is prepared to download and execute a Powershell script image properties. No known usage\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-07-avatar-handler\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

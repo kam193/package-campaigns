@@ -4,7 +4,7 @@
     "published": "2024-08-23T15:57:10Z",
     "modified": "2024-08-23T15:57:10Z",
     "summary": "Malicious code in unrartest (PyPI)",
-    "details": "Packages downloads remote executable. The final behaviour is unknown, but starts with bypassing UAC and other security controls. Some package clones are obfuscated.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-08-koalabuilder\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - obfuscation",
+    "details": "Packages downloads remote executable. The final behaviour is unknown, but starts with bypassing UAC and other security controls. Some package clones are obfuscated.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-08-koalabuilder\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -40,7 +40,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

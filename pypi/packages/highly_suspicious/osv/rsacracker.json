@@ -4,7 +4,7 @@
     "published": "2025-08-03T07:33:35.453939+00:00",
     "modified": "2025-08-03T07:33:35.453956+00:00",
     "summary": "Highly suspicious code in rsacracker (PyPI)",
-    "details": "Package uses strong obfuscation to hide the behavior. The current final code seems not to do anything beside the described functionality\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-08-rsacracker\nReasons (based on the campaign):\n - obfuscation",
+    "details": "Package uses strong obfuscation to hide the behavior. The current final code seems not to do anything beside the described functionality\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-08-rsacracker\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

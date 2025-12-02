@@ -4,7 +4,7 @@
     "published": "2024-10-30T18:55:55Z",
     "modified": "2024-10-30T18:55:55Z",
     "summary": "Malicious code in hmac2 (PyPI)",
-    "details": "The package contains obfuscated code that exfiltrate basic data, and then executes commands delivered from remote server\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-10-hmac2\nReasons (based on the campaign):\n - obfuscation\n - dependency-confusion\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - exfiltration_generic",
+    "details": "The package contains obfuscated code that exfiltrate basic data, and then executes commands delivered from remote server\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-10-hmac2\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n\n - exfiltration-generic\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

@@ -4,7 +4,7 @@
     "published": "2025-07-14T15:15:50.598392+00:00",
     "modified": "2025-11-22T14:28:09.420392+00:00",
     "summary": "Highly suspicious code in cas-base (PyPI)",
-    "details": "Package has code to install a executables that are identified as suspicious but multiple AVs, however the AV labels have high FP-possibility. Sandboxes are not clear about\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-07-cas-base\nReasons (based on the campaign):\n - Downloads and executes a remote executable.",
+    "details": "Package has code to install a executables that are identified as suspicious but multiple AVs, however the AV labels have high FP-possibility. Sandboxes are not clear about\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-07-cas-base\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n",
     "affected": [
         {
             "package": {
@@ -48,7 +48,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

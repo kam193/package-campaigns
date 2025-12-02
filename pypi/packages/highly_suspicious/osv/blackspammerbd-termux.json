@@ -4,7 +4,7 @@
     "published": "2025-04-07T21:15:51Z",
     "modified": "2025-04-07T21:15:51Z",
     "summary": "Highly suspicious code in blackspammerbd-termux (PyPI)",
-    "details": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-blackspammerbd-vx1\nReasons (based on the campaign):\n - files_exfiltration\n - peristence_autorun\n - obfuscation",
+    "details": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-04-blackspammerbd-vx1\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - peristence-autorun\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

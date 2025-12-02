@@ -4,7 +4,7 @@
     "published": "2025-06-30T08:34:14Z",
     "modified": "2025-06-30T08:34:14Z",
     "summary": "Highly suspicious code in exorigsim (PyPI)",
-    "details": "Package installs and starts a hidden cryptominer for a hardcoded wallet. However, the package states it clear in the description as well as requires a confirmation (Press enter to continue...) by default.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-06-exorigsim\nReasons (based on the campaign):\n - cryptominer",
+    "details": "Package installs and starts a hidden cryptominer for a hardcoded wallet. However, the package states it clear in the description as well as requires a confirmation (Press enter to continue...) by default.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-06-exorigsim\n\n\nReasons (based on the campaign):\n\n\n - cryptominer\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

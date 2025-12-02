@@ -4,7 +4,7 @@
     "published": "2025-01-09T23:48:51Z",
     "modified": "2025-01-09T23:48:51Z",
     "summary": "Highly suspicious code in uniapi (PyPI)",
-    "details": "When importing, the code runs a separated thread that silently downloads and runs a remote script. The content of the remote script collects username and current directory, at the time of check. This looks to be introduced in 1.0.7, so maybe the intention wasn't entirely malicious, but this kind of behaviour is dangerous and clearly intended to be hidden from the user.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-01-uniapi\nReasons (based on the campaign):\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - Downloads and executes a remote malicious script.",
+    "details": "When importing, the code runs a separated thread that silently downloads and runs a remote script. The content of the remote script collects username and current directory, at the time of check. This looks to be introduced in 1.0.7, so maybe the intention wasn't entirely malicious, but this kind of behaviour is dangerous and clearly intended to be hidden from the user.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-01-uniapi\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

@@ -4,7 +4,7 @@
     "published": "2025-08-14T22:30:01.857193+00:00",
     "modified": "2025-08-14T22:30:01.857323+00:00",
     "summary": "Malicious code in jsonist (PyPI)",
-    "details": "Calling a method starts downloading and starting an infostealer script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-secmeasure\nReasons (based on the campaign):\n - action-hidden-in-lib-usage\n - Downloads and executes a remote malicious script.\n - infostealer",
+    "details": "Calling a method starts downloading and starting an infostealer script\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-08-secmeasure\n\n\nReasons (based on the campaign):\n\n\n - action-hidden-in-lib-usage\n\n\n - Downloads and executes a remote malicious script.\n\n\n - infostealer\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

@@ -4,7 +4,7 @@
     "published": "2025-07-11T22:51:02.720954+00:00",
     "modified": "2025-07-11T22:51:02.720963+00:00",
     "summary": "Malicious code in gramapi (PyPI)",
-    "details": "The code is automatically starting, calling a Telegram channel with basic info, and waits for remote code to execute\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-puregram\nReasons (based on the campaign):\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.",
+    "details": "The code is automatically starting, calling a Telegram channel with basic info, and waits for remote code to execute\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-07-puregram\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

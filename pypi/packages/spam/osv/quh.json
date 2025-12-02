@@ -4,7 +4,7 @@
     "published": "2025-11-21T21:42:44.963662+00:00",
     "modified": "2025-11-21T21:42:44.963683+00:00",
     "summary": "Spam code in quh (PyPI)",
-    "details": "Massive number of three-letters packages with duplicated example or empty content\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2025-11-warlockee\nReasons (based on the campaign):",
+    "details": "Massive number of three-letters packages with duplicated example or empty content\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2025-11-warlockee\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

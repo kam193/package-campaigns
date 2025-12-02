@@ -4,7 +4,7 @@
     "published": "2024-11-13T21:59:13Z",
     "modified": "2024-11-13T21:59:13Z",
     "summary": "Highly suspicious code in unzipxz (PyPI)",
-    "details": "\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2024-11-unzipxz\nReasons (based on the campaign):",
+    "details": "\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2024-11-unzipxz\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

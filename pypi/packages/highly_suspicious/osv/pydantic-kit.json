@@ -4,7 +4,7 @@
     "published": "2025-02-16T11:31:45Z",
     "modified": "2025-02-16T11:31:45Z",
     "summary": "Highly suspicious code in pydantic-kit (PyPI)",
-    "details": "Typosquatting packages with obfuscated code downloading an image. It can be dangerous if the remote file were changed, in current form more like spam.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-02-pydantickits\nReasons (based on the campaign):\n - typosquatting\n - dependency-confusion",
+    "details": "Typosquatting packages with obfuscated code downloading an image. It can be dangerous if the remote file were changed, in current form more like spam.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-02-pydantickits\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - dependency-confusion\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

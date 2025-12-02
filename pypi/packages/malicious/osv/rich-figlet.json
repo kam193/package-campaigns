@@ -4,7 +4,7 @@
     "published": "2025-05-15T21:07:23Z",
     "modified": "2025-05-15T21:07:23Z",
     "summary": "Malicious code in rich-figlet (PyPI)",
-    "details": "Malicious clone of pyfiglet. Importing the package starts a series of downloading and executing of obfuscated malicious scripts, partially identified by AVs.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-rich-figlet\nReasons (based on the campaign):\n - backdoor\n - clones_real_package\n - obfuscation\n - Downloads and executes a remote malicious script.",
+    "details": "Malicious clone of pyfiglet. Importing the package starts a series of downloading and executing of obfuscated malicious scripts, partially identified by AVs.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-rich-figlet\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - clones-real-package\n\n\n - obfuscation\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

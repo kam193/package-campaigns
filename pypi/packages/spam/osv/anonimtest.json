@@ -4,7 +4,7 @@
     "published": "2024-08-17T10:18:52Z",
     "modified": "2024-08-17T10:18:52Z",
     "summary": "Spam code in anonimtest (PyPI)",
-    "details": "Packages contain automated downloading and starting of an executable, which seems to be just a putty instance from a URL controlled by the author. It does not appear to have any harmful activity, but the downloading & starting of the application happens without user clear consent.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2024-08-old-anonimtest-putty\nReasons (based on the campaign):\n - Downloads and executes a remote executable.",
+    "details": "Packages contain automated downloading and starting of an executable, which seems to be just a putty instance from a URL controlled by the author. It does not appear to have any harmful activity, but the downloading & starting of the application happens without user clear consent.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2024-08-old-anonimtest-putty\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

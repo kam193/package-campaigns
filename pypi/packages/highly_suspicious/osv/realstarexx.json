@@ -4,7 +4,7 @@
     "published": "2025-10-21T16:18:44.427183+00:00",
     "modified": "2025-10-21T16:31:10.974659+00:00",
     "summary": "Highly suspicious code in realstarexx (PyPI)",
-    "details": "The package seems to be hiding the potentially malicious possibility to download and execute remote code from a pre-defined host, but requires a specific key to do so. The relevant Github repository seems to host only versions without the remote code execution.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-10-starexx\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.",
+    "details": "The package seems to be hiding the potentially malicious possibility to download and execute remote code from a pre-defined host, but requires a specific key to do so. The relevant Github repository seems to host only versions without the remote code execution.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-10-starexx\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -30,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

@@ -4,7 +4,7 @@
     "published": "2024-09-27T17:40:35Z",
     "modified": "2024-09-27T17:40:35Z",
     "summary": "Spam code in saywhut221 (PyPI)",
-    "details": "This package is a spam - it has no real purpose and was created together with many similar packages by the same user. Some of them additionally call a webhook when run.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\nCampaign: 2024-09-dude2\nReasons (based on the campaign):\n - other",
+    "details": "This package is a spam - it has no real purpose and was created together with many similar packages by the same user. Some of them additionally call a webhook when run.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2024-09-dude2\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

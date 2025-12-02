@@ -4,7 +4,7 @@
     "published": "2025-02-05T13:44:52Z",
     "modified": "2025-02-05T13:44:52Z",
     "summary": "Malicious code in hellohackers (PyPI)",
-    "details": "File contains a metapreter beacon that runs in the setup.py. Analysed version uses a local IP as the target.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-02-hellohackers\nReasons (based on the campaign):\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
+    "details": "File contains a metapreter beacon that runs in the setup.py. Analysed version uses a local IP as the target.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-02-hellohackers\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "published": "2025-08-29T18:43:12.100569+00:00",
     "modified": "2025-08-29T18:43:12.100587+00:00",
     "summary": "Malicious code in license-checker (PyPI)",
-    "details": "Package exfiltrates content of .env files to a remote target\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-08-import-license-checker\nReasons (based on the campaign):\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.",
+    "details": "Package exfiltrates content of .env files to a remote target\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-08-import-license-checker\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n",
     "affected": [
         {
             "package": {
@@ -30,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

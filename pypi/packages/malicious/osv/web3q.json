@@ -4,7 +4,7 @@
     "published": "2024-06-28T20:16:20Z",
     "modified": "2024-06-28T20:16:20Z",
     "summary": "Malicious code in web3q (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: funcaptcha-ru\nReasons (based on the campaign):\n - infostealer",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: funcaptcha-ru\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n",
     "affected": [
         {
             "package": {
@@ -44,7 +44,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

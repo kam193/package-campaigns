@@ -4,7 +4,7 @@
     "published": "2025-11-22T17:01:17.599757+00:00",
     "modified": "2025-11-22T17:01:17.599778+00:00",
     "summary": "Malicious code in mzip (PyPI)",
-    "details": "During initialization of the archive-support class, the package starts code from another file and downloads multi-stage malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-11-uzip\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - obfuscation\n - malware",
+    "details": "During initialization of the archive-support class, the package starts code from another file and downloads multi-stage malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-uzip\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {
@@ -37,7 +37,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

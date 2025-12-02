@@ -4,7 +4,7 @@
     "published": "2025-01-28T22:18:07Z",
     "modified": "2025-01-28T22:18:07Z",
     "summary": "Malicious code in instahack-cli (PyPI)",
-    "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\nCampaign: GENERIC-risky-hacking-tools\nReasons (based on the campaign):",
+    "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-risky-hacking-tools\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

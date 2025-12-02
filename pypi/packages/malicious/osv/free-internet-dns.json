@@ -4,7 +4,7 @@
     "published": "2025-05-11T17:17:08Z",
     "modified": "2025-05-11T17:17:08Z",
     "summary": "Malicious code in free-internet-dns (PyPI)",
-    "details": "Installing the package installs a backdoor (a qsocket.io) and automatically uploads access credentials (from the output of the qsocket client) to the remote server.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-free-internet-dns\nReasons (based on the campaign):\n - backdoor\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
+    "details": "Installing the package installs a backdoor (a qsocket.io) and automatically uploads access credentials (from the output of the qsocket client) to the remote server.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-free-internet-dns\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

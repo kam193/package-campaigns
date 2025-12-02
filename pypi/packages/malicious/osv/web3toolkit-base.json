@@ -4,7 +4,7 @@
     "published": "2025-07-10T19:41:11.165923+00:00",
     "modified": "2025-07-10T19:41:11.165969+00:00",
     "summary": "Malicious code in web3toolkit-base (PyPI)",
-    "details": "Code monitors the clipboard and when detects a cryptocurrency wallet, attempts to overwrite it with the own address.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-web3toolkit-base\nReasons (based on the campaign):\n - crypto-related\n - clipboard_modify\n - obfuscation",
+    "details": "Code monitors the clipboard and when detects a cryptocurrency wallet, attempts to overwrite it with the own address.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-07-web3toolkit-base\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - clipboard-modify\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

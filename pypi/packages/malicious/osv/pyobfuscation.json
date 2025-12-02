@@ -4,7 +4,7 @@
     "published": "2025-06-03T19:02:52Z",
     "modified": "2025-06-03T19:02:52Z",
     "summary": "Malicious code in pyobfuscation (PyPI)",
-    "details": "During installation, an executable is downloaded and started. It's been identified to contain Brute Ratel C4 components\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-05-pyobfuscation\nReasons (based on the campaign):\n - Downloads and executes a remote executable.\n - malware\n - obfuscation",
+    "details": "During installation, an executable is downloaded and started. It's been identified to contain Brute Ratel C4 components\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-pyobfuscation\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

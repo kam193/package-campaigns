@@ -4,7 +4,7 @@
     "published": "2025-07-19T22:01:29.394382+00:00",
     "modified": "2025-07-19T22:01:29.394400+00:00",
     "summary": "Malicious code in aphorism-lib (PyPI)",
-    "details": "Importing the module starts a telegram bot that connects to a chat and executes provided commands\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-07-talbat\nReasons (based on the campaign):\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.",
+    "details": "Importing the module starts a telegram bot that connects to a chat and executes provided commands\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-07-talbat\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }

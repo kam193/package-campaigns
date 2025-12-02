@@ -4,7 +4,7 @@
     "published": "2024-07-09T18:52:06Z",
     "modified": "2024-07-09T18:52:06Z",
     "summary": "Malicious code in openai-py3 (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2024-07-adfboba\nReasons (based on the campaign):",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-07-adfboba\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

@@ -4,7 +4,7 @@
     "published": "2025-01-21T18:27:56Z",
     "modified": "2025-01-21T18:27:56Z",
     "summary": "Malicious code in mlc-llm-nightly-cu123 (PyPI)",
-    "details": "Installing the package exfiltrates information about the host, including environmental variables.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\nCampaign: 2025-01-mlc-ai-nightly\nReasons (based on the campaign):\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n - The package overrides the install command in setup.py to execute malicious code during installation.\n - exfiltration_env_variables\n - dependency-confusion",
+    "details": "Installing the package exfiltrates information about the host, including environmental variables.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-01-mlc-ai-nightly\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - exfiltration-env-variables\n\n\n - dependency-confusion\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

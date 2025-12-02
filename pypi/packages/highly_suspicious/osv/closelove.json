@@ -4,7 +4,7 @@
     "published": "2025-11-12T21:59:24.667916+00:00",
     "modified": "2025-11-12T21:59:24.667929+00:00",
     "summary": "Highly suspicious code in closelove (PyPI)",
-    "details": "Package provides features like overcoming captcha on the Android device, extracting files etc. It can be used for automation of tasks, but also as a hacking tool\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-11-closelove\nReasons (based on the campaign):\n - files_exfiltration\n - target:android",
+    "details": "Package provides features like overcoming captcha on the Android device, extracting files etc. It can be used for automation of tasks, but also as a hacking tool\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-11-closelove\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - target:android\n\n",
     "affected": [
         {
             "package": {
@@ -37,7 +37,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

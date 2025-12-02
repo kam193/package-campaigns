@@ -4,7 +4,7 @@
     "published": "2025-07-04T11:51:10Z",
     "modified": "2025-07-04T11:51:10Z",
     "summary": "Highly suspicious code in reade (PyPI)",
-    "details": "If imported, the package attempts to execute code from a URL hidden in the README file. However, the file is not included in the package, which indicates either an issue during packaging or preparing for a usage as dependency. \n\nDue to lack of the file, it's not possible to 100% determine intentions.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-07-reade\nReasons (based on the campaign):\n - Downloads and executes a remote malicious script.",
+    "details": "If imported, the package attempts to execute code from a URL hidden in the README file. However, the file is not included in the package, which indicates either an issue during packaging or preparing for a usage as dependency. \n\nDue to lack of the file, it's not possible to 100% determine intentions.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-07-reade\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "REPORTER"
+            "type": "REPORTER"
         }
     ]
 }

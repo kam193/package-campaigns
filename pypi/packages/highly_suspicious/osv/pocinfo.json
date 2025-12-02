@@ -4,7 +4,7 @@
     "published": "2025-04-07T10:03:07Z",
     "modified": "2025-04-07T10:03:07Z",
     "summary": "Highly suspicious code in pocinfo (PyPI)",
-    "details": "Package collects the discord cookies. However, it does not exfiltrate them as of the analysis time\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\nCampaign: 2025-04-pocinfo\nReasons (based on the campaign):\n - other",
+    "details": "Package collects the discord cookies. However, it does not exfiltrate them as of the analysis time\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-04-pocinfo\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
     "affected": [
         {
             "package": {
@@ -36,7 +36,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "role": "ANALYST"
+            "type": "ANALYST"
         }
     ]
 }
