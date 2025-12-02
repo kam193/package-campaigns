@@ -10,7 +10,8 @@
     ],
     "packages": [
         "discord-selfsbotsx",
-        "multithreadedexecution"
+        "multithreadedexecution",
+        "pulsecord"
     ],
     "created_at": "2025-11-27",
     "ioc": [
