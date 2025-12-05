@@ -1,0 +1,11 @@
+{
+    "name": "joyboyw",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-joyboyw",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-12-05T13:45:46.494853+00:00",
+    "campaign_data_modified_at": "2025-12-05T13:45:46.494889+00:00"
+}
