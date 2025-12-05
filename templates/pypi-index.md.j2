@@ -2,6 +2,14 @@
 
 Bad packages in Python Package Index (PyPI).
 
+## Last packages with assigned campaigns
+
+| Assignment date UTC | Package | Campaign | Category |
+|:---|:---|:---|:---|
+{%- for package in last_packages %}
+|{{ package[0][:16].replace("T", " ") }}|[{{ package[1] }}](package/{{ package[1] }}.md)|[{{ package[2] }}](campaign/{{ package[2] }}.md)|{{ package[3] }}|
+{%- endfor %}
+
 ## Newest campaigns
 
 |Creation date | Name | Category |

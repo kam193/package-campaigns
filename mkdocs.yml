@@ -4,7 +4,7 @@ repo_url: https://github.com/kam193/package-campaigns
 repo_name: kam193/package-campaigns
 
 copyright: |
-  Collected & analysed by Kamil Mańkowski. Data presented as-is without any guarantee. By using it, always link the source.
+  Collected & analysed by Kamil Mańkowski. Data presented as-is without any guarantee. By using it, always attribute the source.
 
 theme:
   name: material

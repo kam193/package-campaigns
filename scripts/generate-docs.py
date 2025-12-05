@@ -18,6 +18,7 @@ CATEGORIES_JSON = "scripts/categories.json"
 STATS = {
     "campaigns": [],
     "categories": {},
+    "last_packages": [],
 }
 
 
@@ -138,6 +139,15 @@ def generate_packages(campaigns: dict, limit=None):
                         STATS["categories"][campaigns[campaign_name]["category"]][
                             "packages"
                         ] += 1
+                        if "campaign_assigned_at" in package:
+                            STATS["last_packages"].append(
+                                (
+                                    package["campaign_assigned_at"],
+                                    package["name"].strip(),
+                                    campaign_name,
+                                    campaigns[campaign_name]["category"],
+                                )
+                            )
 
 
 def generate_pypi_index():
@@ -145,12 +155,16 @@ def generate_pypi_index():
     category_stats = sorted(
         STATS["categories"].items(), key=lambda x: x[0], reverse=False
     )
+    last_packages = sorted(STATS["last_packages"], key=lambda x: x[0], reverse=True)[
+        :10
+    ]
     env = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath="."))
     template = env.get_template("templates/pypi-index.md.j2")
 
     output = template.render(
         campaigns=newest_campaigns,
         categories=category_stats,
+        last_packages=last_packages,
     )
     # Write the output to a file
     output_file = os.path.join(PYPI_INDEX)

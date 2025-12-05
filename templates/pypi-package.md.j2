@@ -10,11 +10,19 @@ tags:
 
 # {{ package["name"] }}
 
+{% if "affected_versions" not in package or not package["affected_versions"] %}
 <div class="annotate" markdown>
 _Affected versions:_ unspecified (1)
 </div>
 
-1. Version numbers are currently not tracked. Assume all versions are affected.
+1. Version numbers are currently not tracked for this package. Assume all versions are affected.
+{% else %}
+<div class="annotate" markdown>
+_Affected versions:_ (1) {{ package["affected_versions"] | join(", ") }}
+</div>
+
+1. Version numbers are usually added automatically. In most cases, the packages listed here were created only to distribute malicious code.
+{% endif %}
 
 {% if "description" in package.keys() %}{{ package["description"] }}{% endif %}
 
@@ -37,9 +45,11 @@ _Campaign information may not always be 100% accurate for every related package.
 * Search for the package in [ :material-open-in-new: deps.dev](https://deps.dev/pypi/{{ package["name"] }})(2)
 * Search for the package in [ :material-open-in-new: socket.dev](https://socket.dev/pypi/package/{{ package["name"] }}) (3)
 * Search for the package in [ :material-open-in-new: secure.software](https://secure.software/pypi/packages/{{ package["name"] }}) (4)
+* Search for the package in [ :material-open-in-new: Snyk Advisor](https://snyk.io/advisor/python/{{ package["name"] }}) (5)
 </div>
 
 1. May not be available. See more in [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repository.
 2. Open Source Insights project, provided by Google.
 3. Service from Socket.dev, a cybersecurity company.
 4. Spectra Assure Community, a service from ReversingLabs, a cybersecurity company.
+5. Service from Snyk, a cybersecurity company.
