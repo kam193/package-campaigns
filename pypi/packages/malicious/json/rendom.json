@@ -1,0 +1,11 @@
+{
+    "name": "rendom",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "description": "The package contains a Telegram bot to perform remote control of the computer. The package name additionally suggests typosquatting against standard random moduke",
+    "affected_versions": [
+        "0.2"
+    ],
+    "campaign_assigned_at": "2025-12-05T16:58:12.803858+00:00",
+    "campaign_data_modified_at": "2025-12-05T16:58:12.803877+00:00"
+}
