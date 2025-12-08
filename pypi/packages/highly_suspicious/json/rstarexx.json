@@ -1,0 +1,17 @@
+{
+    "name": "rstarexx",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.0",
+        "0.0.7",
+        "0.0.6",
+        "0.0.5",
+        "0.0.4",
+        "0.0.3",
+        "0.0.2",
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2025-12-08T07:01:31.277817+00:00",
+    "campaign_data_modified_at": "2025-12-08T07:01:31.277837+00:00"
+}
