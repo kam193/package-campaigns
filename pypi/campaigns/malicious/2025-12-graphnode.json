@@ -8,6 +8,7 @@
         "remote_script"
     ],
     "packages": [
+        "bignum",
         "graphnode",
         "graphsync"
     ],
