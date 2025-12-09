@@ -8,7 +8,8 @@
     "packages": [
         "evil-rce",
         "evil-rce2",
-        "telco"
+        "telco",
+        "telcoo"
     ],
     "created_at": "2025-12-06",
     "ioc": [],
