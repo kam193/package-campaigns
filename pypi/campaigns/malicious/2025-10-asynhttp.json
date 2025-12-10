@@ -5,6 +5,7 @@
     "abuse_categories": [
         "clones_real_package",
         "exfiltration_generic",
+        "native-extension",
         "obfuscation",
         "typosquatting"
     ],
