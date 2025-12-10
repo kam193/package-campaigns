@@ -8,6 +8,7 @@
         "remote_executable"
     ],
     "packages": [
+        "gxzip",
         "kzip",
         "minizip",
         "mzip",
