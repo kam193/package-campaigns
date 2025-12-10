@@ -1,5 +1,8 @@
 {
     "name": "reverse434343",
     "ecosystem": "pypi",
-    "campaign": "2024-11-predic"
+    "campaign": "2024-11-predic",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

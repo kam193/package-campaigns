@@ -1,5 +1,8 @@
 {
     "name": "proto-google-cloud-dlp-v2beta1",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest"
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "0.15.99"
+    ]
 }

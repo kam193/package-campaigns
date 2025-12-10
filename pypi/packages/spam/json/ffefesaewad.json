@@ -1,5 +1,8 @@
 {
     "name": "ffefesaewad",
     "ecosystem": "pypi",
-    "campaign": "SCRIPT_KIDDIE-exploring-suspicious-behaviour"
+    "campaign": "SCRIPT_KIDDIE-exploring-suspicious-behaviour",
+    "affected_versions": [
+        "0.1"
+    ]
 }

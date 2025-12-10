@@ -1,5 +1,6 @@
 {
     "name": "Discord-EmbedBuilder",
     "ecosystem": "pypi",
-    "campaign": "duvet-love-odyssey"
+    "campaign": "duvet-love-odyssey",
+    "affected_versions": []
 }

@@ -1,5 +1,8 @@
 {
     "name": "aiosignalasync",
     "ecosystem": "pypi",
-    "campaign": "2025-02-multis"
+    "campaign": "2025-02-multis",
+    "affected_versions": [
+        "0.1"
+    ]
 }

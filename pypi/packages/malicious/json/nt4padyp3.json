@@ -1,5 +1,9 @@
 {
     "name": "nt4padyp3",
     "ecosystem": "pypi",
-    "campaign": "baidu-readver"
+    "campaign": "baidu-readver",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2"
+    ]
 }

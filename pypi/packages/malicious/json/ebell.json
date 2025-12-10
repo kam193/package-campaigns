@@ -1,5 +1,8 @@
 {
     "name": "ebell",
     "ecosystem": "pypi",
-    "campaign": "2024-07-weaponized-golden"
+    "campaign": "2024-07-weaponized-golden",
+    "affected_versions": [
+        "0.1"
+    ]
 }

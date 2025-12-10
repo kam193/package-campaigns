@@ -1,5 +1,8 @@
 {
     "name": "free-internet-dns",
     "ecosystem": "pypi",
-    "campaign": "2025-05-free-internet-dns"
+    "campaign": "2025-05-free-internet-dns",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

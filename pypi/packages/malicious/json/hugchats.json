@@ -1,5 +1,8 @@
 {
     "name": "hugchats",
     "ecosystem": "pypi",
-    "campaign": "2024-07-adfboba"
+    "campaign": "2024-07-adfboba",
+    "affected_versions": [
+        "0.4.9"
+    ]
 }

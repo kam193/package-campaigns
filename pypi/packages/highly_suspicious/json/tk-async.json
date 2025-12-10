@@ -1,5 +1,9 @@
 {
     "name": "tk-async",
     "ecosystem": "pypi",
-    "campaign": "2025-06-tk-async"
+    "campaign": "2025-06-tk-async",
+    "affected_versions": [
+        "1.0",
+        "2.0"
+    ]
 }

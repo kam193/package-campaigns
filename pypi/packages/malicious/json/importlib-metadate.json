@@ -1,5 +1,9 @@
 {
     "name": "importlib-metadate",
     "ecosystem": "pypi",
-    "campaign": "baidu-readver"
+    "campaign": "baidu-readver",
+    "affected_versions": [
+        "99.9",
+        "99.99"
+    ]
 }

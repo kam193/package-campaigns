@@ -1,5 +1,8 @@
 {
     "name": "bulktweetbyref",
     "ecosystem": "pypi",
-    "campaign": "2025-06-bulktweetbyref"
+    "campaign": "2025-06-bulktweetbyref",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

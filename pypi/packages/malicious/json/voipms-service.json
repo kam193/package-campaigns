@@ -1,5 +1,8 @@
 {
     "name": "voipms-service",
     "ecosystem": "pypi",
-    "campaign": "2025-03-voipms-service"
+    "campaign": "2025-03-voipms-service",
+    "affected_versions": [
+        "0.1"
+    ]
 }

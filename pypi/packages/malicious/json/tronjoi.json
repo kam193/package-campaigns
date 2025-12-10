@@ -1,5 +1,8 @@
 {
     "name": "tronjoi",
     "ecosystem": "pypi",
-    "campaign": "2025-04-tronix"
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

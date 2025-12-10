@@ -1,5 +1,8 @@
 {
     "name": "colorinsa",
     "ecosystem": "pypi",
-    "campaign": "2025-04-colorinsa"
+    "campaign": "2025-04-colorinsa",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

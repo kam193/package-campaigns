@@ -1,5 +1,8 @@
 {
     "name": "kersa",
     "ecosystem": "pypi",
-    "campaign": "2024-09-bondonioanderas-cryptominer"
+    "campaign": "2024-09-bondonioanderas-cryptominer",
+    "affected_versions": [
+        "0.1"
+    ]
 }

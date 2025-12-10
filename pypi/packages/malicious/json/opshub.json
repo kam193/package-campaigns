@@ -1,5 +1,8 @@
 {
     "name": "opshub",
     "ecosystem": "pypi",
-    "campaign": "2024-12-syscontrol"
+    "campaign": "2024-12-syscontrol",
+    "affected_versions": [
+        "0.1"
+    ]
 }

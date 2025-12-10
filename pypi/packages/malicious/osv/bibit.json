@@ -11,15 +11,10 @@
                 "name": "bibit",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "8.1.4",
+                "8.1.9",
+                "8.1.5"
             ]
         }
     ],

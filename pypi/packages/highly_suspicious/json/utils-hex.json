@@ -1,5 +1,8 @@
 {
     "name": "utils-hex",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-highly-suspicious-obfuscation"
+    "campaign": "GENERIC-highly-suspicious-obfuscation",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

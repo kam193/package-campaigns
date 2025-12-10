@@ -2,6 +2,9 @@
     "name": "sisaws",
     "ecosystem": "pypi",
     "campaign": "2025-08-secmeasure",
+    "affected_versions": [
+        "2.1.6"
+    ],
     "campaign_assigned_at": "2025-08-04T09:30:47.768057+00:00",
     "campaign_data_modified_at": "2025-08-04T09:30:47.768068+00:00"
 }

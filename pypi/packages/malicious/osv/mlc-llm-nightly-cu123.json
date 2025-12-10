@@ -11,15 +11,8 @@
                 "name": "mlc-llm-nightly-cu123",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "9.9.9"
             ]
         }
     ],

@@ -1,5 +1,10 @@
 {
     "name": "typing-extensions-plus",
     "ecosystem": "pypi",
-    "campaign": "2025-06-typing-extensions-plus"
+    "campaign": "2025-06-typing-extensions-plus",
+    "affected_versions": [
+        "1.0.0",
+        "3.1.2",
+        "3.1.3"
+    ]
 }

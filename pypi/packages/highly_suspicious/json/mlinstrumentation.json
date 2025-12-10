@@ -1,5 +1,8 @@
 {
     "name": "mlinstrumentation",
     "ecosystem": "pypi",
-    "campaign": "2024-10-old-mlinstrumentation"
+    "campaign": "2024-10-old-mlinstrumentation",
+    "affected_versions": [
+        "0.1.3"
+    ]
 }

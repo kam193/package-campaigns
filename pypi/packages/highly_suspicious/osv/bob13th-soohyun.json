@@ -11,15 +11,9 @@
                 "name": "bob13th-soohyun",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "99999.9.9",
+                "9999.9.9"
             ]
         }
     ],

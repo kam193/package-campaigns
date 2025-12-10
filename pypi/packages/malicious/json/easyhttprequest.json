@@ -1,5 +1,9 @@
 {
     "name": "easyhttprequest",
     "ecosystem": "pypi",
-    "campaign": "2023-12-09-easyhttprequest"
+    "campaign": "2023-12-09-easyhttprequest",
+    "affected_versions": [
+        "2.31.4",
+        "2.31.5"
+    ]
 }

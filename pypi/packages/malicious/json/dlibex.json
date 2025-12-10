@@ -1,5 +1,9 @@
 {
     "name": "dlibex",
     "ecosystem": "pypi",
-    "campaign": "2024-10-pyutiltool "
+    "campaign": "2024-10-pyutiltool ",
+    "affected_versions": [
+        "1.11",
+        "1.12"
+    ]
 }

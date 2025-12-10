@@ -1,5 +1,8 @@
 {
     "name": "discord-token-lib",
     "ecosystem": "pypi",
-    "campaign": "2024-09-discord-token-lib"
+    "campaign": "2024-09-discord-token-lib",
+    "affected_versions": [
+        "0.1"
+    ]
 }

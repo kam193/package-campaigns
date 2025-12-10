@@ -2,6 +2,12 @@
     "name": "python-uvicorn",
     "ecosystem": "pypi",
     "campaign": "2025-07-python-uvicorn",
+    "affected_versions": [
+        "0.35.0",
+        "0.35.1",
+        "0.36.0",
+        "0.36.1"
+    ],
     "campaign_assigned_at": "2025-07-16T19:16:51.353908+00:00",
     "campaign_data_modified_at": "2025-07-16T19:16:51.353960+00:00"
 }

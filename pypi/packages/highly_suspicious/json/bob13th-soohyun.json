@@ -1,5 +1,9 @@
 {
     "name": "bob13th-soohyun",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky"
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "99999.9.9",
+        "9999.9.9"
+    ]
 }

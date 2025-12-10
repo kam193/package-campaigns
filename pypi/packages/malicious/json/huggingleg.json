@@ -1,5 +1,11 @@
 {
     "name": "huggingleg",
     "ecosystem": "pypi",
-    "campaign": "2024-11-huggingleg"
+    "campaign": "2024-11-huggingleg",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.21",
+        "0.22"
+    ]
 }

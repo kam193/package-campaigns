@@ -1,5 +1,9 @@
 {
     "name": "ckr",
     "ecosystem": "pypi",
-    "campaign": "2025-04-kql"
+    "campaign": "2025-04-kql",
+    "affected_versions": [
+        "0.1",
+        "0.2"
+    ]
 }

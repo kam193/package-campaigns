@@ -1,5 +1,8 @@
 {
     "name": "browser-history-analysis",
     "ecosystem": "pypi",
-    "campaign": "2025-06-browser-history-analytics"
+    "campaign": "2025-06-browser-history-analytics",
+    "affected_versions": [
+        "1.0.1"
+    ]
 }

@@ -11,15 +11,9 @@
                 "name": "alchemyrpcs",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.1.7",
+                "1.1.8"
             ]
         }
     ],

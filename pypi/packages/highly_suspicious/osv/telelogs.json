@@ -11,15 +11,10 @@
                 "name": "telelogs",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.4.15",
+                "1.4.11",
+                "1.4.14"
             ]
         }
     ],

@@ -1,5 +1,11 @@
 {
     "name": "ultrafasttelethon",
     "ecosystem": "pypi",
-    "campaign": "2025-04-fastgram"
+    "campaign": "2025-04-fastgram",
+    "affected_versions": [
+        "1.39.0",
+        "1.39.0.1",
+        "1.39.0.2",
+        "1.39.0.3"
+    ]
 }

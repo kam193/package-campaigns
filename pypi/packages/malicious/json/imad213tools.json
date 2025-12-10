@@ -1,5 +1,9 @@
 {
     "name": "imad213tools",
     "ecosystem": "pypi",
-    "campaign": "2025-07-imad213tools"
+    "campaign": "2025-07-imad213tools",
+    "affected_versions": [
+        "1.0.0",
+        "213"
+    ]
 }

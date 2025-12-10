@@ -1,5 +1,8 @@
 {
     "name": "utilswallet",
     "ecosystem": "pypi",
-    "campaign": "2025-06-walletsutils"
+    "campaign": "2025-06-walletsutils",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

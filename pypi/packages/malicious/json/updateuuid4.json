@@ -1,5 +1,8 @@
 {
     "name": "updateuuid4",
     "ecosystem": "pypi",
-    "campaign": "2025-02-updateuuid4"
+    "campaign": "2025-02-updateuuid4",
+    "affected_versions": [
+        "0.1.2"
+    ]
 }

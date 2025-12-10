@@ -1,5 +1,9 @@
 {
     "name": "requetses",
     "ecosystem": "pypi",
-    "campaign": "2024-12-requetses"
+    "campaign": "2024-12-requetses",
+    "affected_versions": [
+        "0.1",
+        "0.5"
+    ]
 }

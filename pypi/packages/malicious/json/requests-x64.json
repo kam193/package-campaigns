@@ -1,5 +1,8 @@
 {
     "name": "requests-x64",
     "ecosystem": "pypi",
-    "campaign": "2025-02-requests-x64"
+    "campaign": "2025-02-requests-x64",
+    "affected_versions": [
+        "2.0.0"
+    ]
 }

@@ -1,5 +1,10 @@
 {
     "name": "document-inference",
     "ecosystem": "pypi",
-    "campaign": "2025-05-sl4x01"
+    "campaign": "2025-05-sl4x01",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.0",
+        "0.0.2"
+    ]
 }

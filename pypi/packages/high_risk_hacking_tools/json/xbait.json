@@ -1,5 +1,16 @@
 {
     "name": "xbait",
     "ecosystem": "pypi",
-    "campaign": "2024-12-xbait"
+    "campaign": "2024-12-xbait",
+    "affected_versions": [
+        "1.0.0",
+        "2.0",
+        "2.1",
+        "2.3",
+        "2.4",
+        "2.6",
+        "2.5",
+        "2.7",
+        "2.8"
+    ]
 }

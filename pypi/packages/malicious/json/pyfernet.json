@@ -1,5 +1,8 @@
 {
     "name": "pyfernet",
     "ecosystem": "pypi",
-    "campaign": "2025-05-fernets"
+    "campaign": "2025-05-fernets",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

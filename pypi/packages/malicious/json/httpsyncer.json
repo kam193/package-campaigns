@@ -2,6 +2,9 @@
     "name": "httpsyncer",
     "ecosystem": "pypi",
     "campaign": "2025-08-dsidelib",
+    "affected_versions": [
+        "1.0.0"
+    ],
     "campaign_assigned_at": "2025-08-06T14:30:46.098533+00:00",
     "campaign_data_modified_at": "2025-08-06T14:30:46.098545+00:00"
 }

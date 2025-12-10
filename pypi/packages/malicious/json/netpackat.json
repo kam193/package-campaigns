@@ -1,5 +1,8 @@
 {
     "name": "netpackat",
     "ecosystem": "pypi",
-    "campaign": "2025-05-requestpackat"
+    "campaign": "2025-05-requestpackat",
+    "affected_versions": [
+        "1.0.4"
+    ]
 }

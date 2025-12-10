@@ -2,6 +2,12 @@
     "name": "tronapisync",
     "ecosystem": "pypi",
     "campaign": "2025-08-tronapisync",
+    "affected_versions": [
+        "1.0.0",
+        "0.1.1",
+        "1.0.1",
+        "1.0.2"
+    ],
     "campaign_assigned_at": "2025-08-06T22:56:43.943489+00:00",
     "campaign_data_modified_at": "2025-08-06T22:56:43.943538+00:00"
 }

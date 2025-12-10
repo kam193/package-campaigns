@@ -1,5 +1,16 @@
 {
     "name": "spy-ai",
     "ecosystem": "pypi",
-    "campaign": "2024-09-spider-ai"
+    "campaign": "2024-09-spider-ai",
+    "affected_versions": [
+        "1.0",
+        "1.1",
+        "0.1",
+        "1.1.0",
+        "1.0.0",
+        "0.1.3",
+        "1.0.1",
+        "1.1.3",
+        "1.1.1"
+    ]
 }

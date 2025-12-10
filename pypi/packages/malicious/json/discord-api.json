@@ -1,5 +1,8 @@
 {
     "name": "discord-api",
     "ecosystem": "pypi",
-    "campaign": "2024-09-old-discord-api"
+    "campaign": "2024-09-old-discord-api",
+    "affected_versions": [
+        "1.0.1"
+    ]
 }

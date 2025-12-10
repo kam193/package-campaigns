@@ -1,5 +1,11 @@
 {
     "name": "transformars",
     "ecosystem": "pypi",
-    "campaign": "2024-07-transformars-research"
+    "campaign": "2024-07-transformars-research",
+    "affected_versions": [
+        "4.42.3.post1",
+        "4.42.3.post2",
+        "4.42.3",
+        "4.42.3.post4"
+    ]
 }

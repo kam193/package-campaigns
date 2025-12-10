@@ -11,15 +11,9 @@
                 "name": "asn1tool",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.167.0",
+                "0.167.1"
             ]
         }
     ],

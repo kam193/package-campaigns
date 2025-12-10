@@ -1,5 +1,8 @@
 {
     "name": "superline",
     "ecosystem": "pypi",
-    "campaign": "2025-01-superline"
+    "campaign": "2025-01-superline",
+    "affected_versions": [
+        "0.1"
+    ]
 }

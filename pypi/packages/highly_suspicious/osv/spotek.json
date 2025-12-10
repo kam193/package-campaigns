@@ -11,15 +11,9 @@
                 "name": "spotek",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "9.3.2",
+                "9.5.2"
             ]
         }
     ],

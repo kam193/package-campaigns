@@ -1,5 +1,10 @@
 {
     "name": "cloudscrapersafe",
     "ecosystem": "pypi",
-    "campaign": "2025-07-cloudscrapersafe"
+    "campaign": "2025-07-cloudscrapersafe",
+    "affected_versions": [
+        "3.0.0",
+        "3.1.0",
+        "3.1.1"
+    ]
 }

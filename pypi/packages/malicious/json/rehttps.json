@@ -1,5 +1,9 @@
 {
     "name": "rehttps",
     "ecosystem": "pypi",
-    "campaign": "2025-06-rehttps"
+    "campaign": "2025-06-rehttps",
+    "affected_versions": [
+        "2.32.4",
+        "2.32.3"
+    ]
 }

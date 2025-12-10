@@ -1,5 +1,8 @@
 {
     "name": "robloxrequestsss",
     "ecosystem": "pypi",
-    "campaign": "2024-10-discordmessager"
+    "campaign": "2024-10-discordmessager",
+    "affected_versions": [
+        "0.1"
+    ]
 }

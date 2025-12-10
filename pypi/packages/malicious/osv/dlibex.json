@@ -11,15 +11,9 @@
                 "name": "dlibex",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.11",
+                "1.12"
             ]
         }
     ],

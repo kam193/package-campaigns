@@ -1,5 +1,8 @@
 {
     "name": "zebo",
     "ecosystem": "pypi",
-    "campaign": "2024-11-zebo"
+    "campaign": "2024-11-zebo",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

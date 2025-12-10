@@ -1,5 +1,10 @@
 {
     "name": "spiderxr-ai",
     "ecosystem": "pypi",
-    "campaign": "2024-09-spider-ai"
+    "campaign": "2024-09-spider-ai",
+    "affected_versions": [
+        "0.1.5",
+        "0.5",
+        "0.4"
+    ]
 }

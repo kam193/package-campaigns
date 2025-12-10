@@ -1,5 +1,8 @@
 {
     "name": "mlc-ai-nightly-cu123",
     "ecosystem": "pypi",
-    "campaign": "2025-01-mlc-ai-nightly"
+    "campaign": "2025-01-mlc-ai-nightly",
+    "affected_versions": [
+        "9.9.9"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "ateslassia",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest"
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "3.0.0"
+    ]
 }

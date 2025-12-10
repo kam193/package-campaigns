@@ -1,5 +1,8 @@
 {
     "name": "prmduc193",
     "ecosystem": "pypi",
-    "campaign": "2025-03-prmduc193"
+    "campaign": "2025-03-prmduc193",
+    "affected_versions": [
+        "0.1"
+    ]
 }

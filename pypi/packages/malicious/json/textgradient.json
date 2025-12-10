@@ -1,5 +1,10 @@
 {
     "name": "textgradient",
     "ecosystem": "pypi",
-    "campaign": "2025-03-textgradient"
+    "campaign": "2025-03-textgradient",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3"
+    ]
 }

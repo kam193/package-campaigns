@@ -1,5 +1,8 @@
 {
     "name": "newpipv3",
     "ecosystem": "pypi",
-    "campaign": "2024-11-newpipv1"
+    "campaign": "2024-11-newpipv1",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

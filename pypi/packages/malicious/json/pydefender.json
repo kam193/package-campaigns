@@ -1,5 +1,8 @@
 {
     "name": "pydefender",
     "ecosystem": "pypi",
-    "campaign": "2025-02-pydefender"
+    "campaign": "2025-02-pydefender",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

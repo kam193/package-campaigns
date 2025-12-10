@@ -1,5 +1,8 @@
 {
     "name": "graphicsx",
     "ecosystem": "pypi",
-    "campaign": "2024-12-graphicsx"
+    "campaign": "2024-12-graphicsx",
+    "affected_versions": [
+        "0.1"
+    ]
 }

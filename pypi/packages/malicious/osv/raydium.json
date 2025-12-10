@@ -11,15 +11,11 @@
                 "name": "raydium",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2.1.4",
+                "2.1.1",
+                "2.1.5",
+                "2.1.6"
             ]
         }
     ],

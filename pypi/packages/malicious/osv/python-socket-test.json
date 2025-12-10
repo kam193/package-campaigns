@@ -11,15 +11,12 @@
                 "name": "python-socket-test",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.1.1",
+                "2.0.0",
+                "2.0.1"
             ]
         }
     ],

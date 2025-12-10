@@ -1,5 +1,8 @@
 {
     "name": "fsspecc",
     "ecosystem": "pypi",
-    "campaign": "SCRIPT_KIDDIE-thegoodhacker-paquete"
+    "campaign": "SCRIPT_KIDDIE-thegoodhacker-paquete",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

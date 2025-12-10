@@ -11,15 +11,11 @@
                 "name": "httprequesthub",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2.31.0",
+                "2.31.1",
+                "2.31.3",
+                "2.31.4"
             ]
         }
     ],

@@ -11,15 +11,14 @@
                 "name": "hahabott",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.20.1",
+                "1.20.6",
+                "1.20.7",
+                "1.20.8",
+                "1.20.9",
+                "1.29.1",
+                "1.29.3"
             ]
         }
     ],

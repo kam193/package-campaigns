@@ -1,5 +1,8 @@
 {
     "name": "veriftest1asdla",
     "ecosystem": "pypi",
-    "campaign": "2025-05-veriftest1asdl"
+    "campaign": "2025-05-veriftest1asdl",
+    "affected_versions": [
+        "1"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "pyobfuscation",
     "ecosystem": "pypi",
-    "campaign": "2025-05-pyobfuscation"
+    "campaign": "2025-05-pyobfuscation",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

@@ -1,5 +1,9 @@
 {
     "name": "crypto-format-checking",
     "ecosystem": "pypi",
-    "campaign": "2024-10-fake-usreagent"
+    "campaign": "2024-10-fake-usreagent",
+    "affected_versions": [
+        "1.7.5",
+        "1.7.6"
+    ]
 }

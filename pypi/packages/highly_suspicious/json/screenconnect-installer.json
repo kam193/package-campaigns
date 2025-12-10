@@ -1,5 +1,8 @@
 {
     "name": "screenconnect-installer",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky"
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

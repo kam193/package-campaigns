@@ -11,15 +11,9 @@
                 "name": "libproxy",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.1.4",
+                "1.1.5"
             ]
         }
     ],

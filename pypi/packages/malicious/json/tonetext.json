@@ -1,5 +1,9 @@
 {
     "name": "tonetext",
     "ecosystem": "pypi",
-    "campaign": "2025-03-tonetext"
+    "campaign": "2025-03-tonetext",
+    "affected_versions": [
+        "0.1.1",
+        "0.2.1"
+    ]
 }

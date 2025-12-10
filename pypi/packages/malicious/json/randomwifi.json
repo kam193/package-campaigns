@@ -1,5 +1,8 @@
 {
     "name": "randomwifi",
     "ecosystem": "pypi",
-    "campaign": "2025-03-randomwifi"
+    "campaign": "2025-03-randomwifi",
+    "affected_versions": [
+        "3.8.5.1"
+    ]
 }

@@ -1,5 +1,14 @@
 {
     "name": "artifact-lab-3-package-db7d716a",
     "ecosystem": "pypi",
-    "campaign": "2024-08-lab-artifacts-revshell"
+    "campaign": "2024-08-lab-artifacts-revshell",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.0",
+        "1.0.2",
+        "1.0.8",
+        "1.0.9",
+        "1.1.0",
+        "0.1.1"
+    ]
 }

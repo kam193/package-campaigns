@@ -1,5 +1,9 @@
 {
     "name": "server-operator",
     "ecosystem": "pypi",
-    "campaign": "2025-02-server-operator"
+    "campaign": "2025-02-server-operator",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ]
 }

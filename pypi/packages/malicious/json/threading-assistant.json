@@ -1,5 +1,6 @@
 {
     "name": "threading-assistant",
     "ecosystem": "pypi",
-    "campaign": "2024-08-old-threading-assistant"
+    "campaign": "2024-08-old-threading-assistant",
+    "affected_versions": []
 }

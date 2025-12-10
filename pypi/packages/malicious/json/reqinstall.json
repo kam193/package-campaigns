@@ -1,5 +1,9 @@
 {
     "name": "reqinstall",
     "ecosystem": "pypi",
-    "campaign": "2025-04-zscaner"
+    "campaign": "2025-04-zscaner",
+    "affected_versions": [
+        "1.0.1",
+        "1.1.0"
+    ]
 }

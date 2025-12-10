@@ -1,5 +1,8 @@
 {
     "name": "bussardweg4a",
     "ecosystem": "pypi",
-    "campaign": "funcaptcha-ru"
+    "campaign": "funcaptcha-ru",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

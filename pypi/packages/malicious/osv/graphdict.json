@@ -11,15 +11,16 @@
                 "name": "graphdict",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "3.4.2",
+                "3.4.0",
+                "3.4.6",
+                "3.4.8",
+                "3.4.11",
+                "3.4.10",
+                "3.4.12",
+                "3.4.13",
+                "3.4.14"
             ]
         }
     ],

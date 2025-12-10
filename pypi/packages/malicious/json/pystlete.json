@@ -1,5 +1,8 @@
 {
     "name": "pystlete",
     "ecosystem": "pypi",
-    "campaign": "2024-07-kiwi-infostealer"
+    "campaign": "2024-07-kiwi-infostealer",
+    "affected_versions": [
+        "2.9"
+    ]
 }

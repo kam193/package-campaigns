@@ -11,15 +11,8 @@
                 "name": "babel-preset-current-node-syntax",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2.1.1"
             ]
         }
     ],

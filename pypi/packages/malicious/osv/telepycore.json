@@ -11,15 +11,16 @@
                 "name": "telepycore",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2.0.4",
+                "2.0.2",
+                "2.0.5",
+                "2.0.7",
+                "2.0.6",
+                "1.0.1",
+                "2.0.1",
+                "1.5.2",
+                "1.5.3"
             ]
         }
     ],

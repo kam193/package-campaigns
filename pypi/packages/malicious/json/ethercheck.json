@@ -1,5 +1,9 @@
 {
     "name": "ethercheck",
     "ecosystem": "pypi",
-    "campaign": "2023-11-decrypt-from-readme"
+    "campaign": "2023-11-decrypt-from-readme",
+    "affected_versions": [
+        "1.1.1",
+        "1.1.2"
+    ]
 }

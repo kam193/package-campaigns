@@ -1,5 +1,8 @@
 {
     "name": "asciidrawing",
     "ecosystem": "pypi",
-    "campaign": "2024-09-sampleuser123-asciidrawing"
+    "campaign": "2024-09-sampleuser123-asciidrawing",
+    "affected_versions": [
+        "0.1.2"
+    ]
 }

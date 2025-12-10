@@ -1,5 +1,8 @@
 {
     "name": "flask-auth-sys",
     "ecosystem": "pypi",
-    "campaign": "2025-04-flask-auth-sys"
+    "campaign": "2025-04-flask-auth-sys",
+    "affected_versions": [
+        "1.0.5"
+    ]
 }

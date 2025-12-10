@@ -1,5 +1,8 @@
 {
     "name": "filecraft",
     "ecosystem": "pypi",
-    "campaign": "2024-12-handyfiles"
+    "campaign": "2024-12-handyfiles",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

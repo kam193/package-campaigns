@@ -1,5 +1,8 @@
 {
     "name": "saywh11222",
     "ecosystem": "pypi",
-    "campaign": "2024-09-dude2"
+    "campaign": "2024-09-dude2",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

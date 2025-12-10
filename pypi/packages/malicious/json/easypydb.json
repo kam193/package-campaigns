@@ -1,5 +1,8 @@
 {
     "name": "easypydb",
     "ecosystem": "pypi",
-    "campaign": "2024-09-old-easypydb"
+    "campaign": "2024-09-old-easypydb",
+    "affected_versions": [
+        "0.4.4"
+    ]
 }

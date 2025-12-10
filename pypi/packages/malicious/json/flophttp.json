@@ -1,5 +1,8 @@
 {
     "name": "flophttp",
     "ecosystem": "pypi",
-    "campaign": "2024-08-invokehttp"
+    "campaign": "2024-08-invokehttp",
+    "affected_versions": [
+        "2.3.5"
+    ]
 }

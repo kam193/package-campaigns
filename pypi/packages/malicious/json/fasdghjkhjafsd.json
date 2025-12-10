@@ -1,5 +1,10 @@
 {
     "name": "fasdghjkhjafsd",
     "ecosystem": "pypi",
-    "campaign": "2024-07-prices-txt-exfiltration"
+    "campaign": "2024-07-prices-txt-exfiltration",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+    ]
 }

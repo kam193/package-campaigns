@@ -1,5 +1,8 @@
 {
     "name": "requesra",
     "ecosystem": "pypi",
-    "campaign": "2025-01-rqsts "
+    "campaign": "2025-01-rqsts ",
+    "affected_versions": [
+        "2.28.1"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "kongstrong",
     "ecosystem": "pypi",
-    "campaign": "2024-07-strongkong"
+    "campaign": "2024-07-strongkong",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

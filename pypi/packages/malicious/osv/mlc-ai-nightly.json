@@ -11,15 +11,10 @@
                 "name": "mlc-ai-nightly",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.0.1",
+                "9.9.9",
+                "9.9.99"
             ]
         }
     ],

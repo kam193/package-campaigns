@@ -1,5 +1,8 @@
 {
     "name": "colourfulls",
     "ecosystem": "pypi",
-    "campaign": "2024-08-old-colourfulls"
+    "campaign": "2024-08-old-colourfulls",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

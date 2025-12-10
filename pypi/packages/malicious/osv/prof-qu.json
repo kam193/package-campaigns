@@ -11,15 +11,9 @@
                 "name": "prof-qu",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2",
+                "0.0.1"
             ]
         }
     ],

@@ -1,5 +1,8 @@
 {
     "name": "nioshell",
     "ecosystem": "pypi",
-    "campaign": "2024-10-old-nioshell"
+    "campaign": "2024-10-old-nioshell",
+    "affected_versions": [
+        "1.1"
+    ]
 }

@@ -1,5 +1,11 @@
 {
     "name": "pyinitialyze",
     "ecosystem": "pypi",
-    "campaign": "2025-05-pyiniter"
+    "campaign": "2025-05-pyiniter",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2",
+        "0.1.3"
+    ]
 }

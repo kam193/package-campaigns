@@ -1,5 +1,8 @@
 {
     "name": "pyiniter",
     "ecosystem": "pypi",
-    "campaign": "2025-05-pyiniter"
+    "campaign": "2025-05-pyiniter",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

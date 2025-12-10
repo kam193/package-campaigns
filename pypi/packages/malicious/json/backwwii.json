@@ -1,5 +1,8 @@
 {
     "name": "backwwii",
     "ecosystem": "pypi",
-    "campaign": "2024-11-backwwii"
+    "campaign": "2024-11-backwwii",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

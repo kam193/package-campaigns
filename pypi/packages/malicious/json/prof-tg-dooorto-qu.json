@@ -2,6 +2,9 @@
     "name": "prof-tg-dooorto-qu",
     "ecosystem": "pypi",
     "campaign": "2025-07-prof-quotex",
+    "affected_versions": [
+        "0.0.1"
+    ],
     "campaign_assigned_at": "2025-07-31T23:14:29.033810+00:00",
     "campaign_data_modified_at": "2025-07-31T23:14:29.033822+00:00"
 }

@@ -1,5 +1,8 @@
 {
     "name": "freelabs",
     "ecosystem": "pypi",
-    "campaign": "2025-05-freelabs"
+    "campaign": "2025-05-freelabs",
+    "affected_versions": [
+        "1.1.5"
+    ]
 }

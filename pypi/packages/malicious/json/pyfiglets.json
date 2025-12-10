@@ -1,5 +1,8 @@
 {
     "name": "pyfiglets",
     "ecosystem": "pypi",
-    "campaign": "2025-05-rich-figlet"
+    "campaign": "2025-05-rich-figlet",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

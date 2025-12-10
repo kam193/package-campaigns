@@ -1,5 +1,8 @@
 {
     "name": "fefeefrrg",
     "ecosystem": "pypi",
-    "campaign": "2023-12-fefeefrrg"
+    "campaign": "2023-12-fefeefrrg",
+    "affected_versions": [
+        "1.0"
+    ]
 }

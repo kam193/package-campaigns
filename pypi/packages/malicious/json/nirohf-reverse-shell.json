@@ -1,5 +1,9 @@
 {
     "name": "nirohf-reverse-shell",
     "ecosystem": "pypi",
-    "campaign": "2023-12-09-nirohf-reverse-shell"
+    "campaign": "2023-12-09-nirohf-reverse-shell",
+    "affected_versions": [
+        "0.6",
+        "2.6"
+    ]
 }

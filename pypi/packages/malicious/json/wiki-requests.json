@@ -1,5 +1,10 @@
 {
     "name": "wiki-requests",
     "ecosystem": "pypi",
-    "campaign": "2025-03-wiki-requests"
+    "campaign": "2025-03-wiki-requests",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+    ]
 }

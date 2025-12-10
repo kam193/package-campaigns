@@ -1,5 +1,11 @@
 {
     "name": "discconnect",
     "ecosystem": "pypi",
-    "campaign": "2024-11-discconnect"
+    "campaign": "2024-11-discconnect",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.4",
+        "0.5"
+    ]
 }

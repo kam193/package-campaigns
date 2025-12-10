@@ -1,5 +1,8 @@
 {
     "name": "reade",
     "ecosystem": "pypi",
-    "campaign": "2025-07-reade"
+    "campaign": "2025-07-reade",
+    "affected_versions": [
+        "0.1"
+    ]
 }

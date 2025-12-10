@@ -1,5 +1,8 @@
 {
     "name": "aioasyncsqlite",
     "ecosystem": "pypi",
-    "campaign": "2025-04-aiolitesql"
+    "campaign": "2025-04-aiolitesql",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

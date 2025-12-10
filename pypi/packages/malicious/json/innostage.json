@@ -1,5 +1,13 @@
 {
     "name": "innostage",
     "ecosystem": "pypi",
-    "campaign": "2024-10-innostage"
+    "campaign": "2024-10-innostage",
+    "affected_versions": [
+        "7.0.3",
+        "7.0.1",
+        "7.0.2",
+        "7.0.4",
+        "7.0.6",
+        "7.0.7"
+    ]
 }

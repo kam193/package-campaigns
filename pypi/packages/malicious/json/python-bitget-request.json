@@ -1,5 +1,9 @@
 {
     "name": "python-bitget-request",
     "ecosystem": "pypi",
-    "campaign": "2024-12-python-bitget-api"
+    "campaign": "2024-12-python-bitget-api",
+    "affected_versions": [
+        "3.9.5",
+        "4.9.5"
+    ]
 }

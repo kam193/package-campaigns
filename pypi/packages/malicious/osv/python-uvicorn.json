@@ -11,15 +11,11 @@
                 "name": "python-uvicorn",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.35.0",
+                "0.35.1",
+                "0.36.0",
+                "0.36.1"
             ]
         }
     ],

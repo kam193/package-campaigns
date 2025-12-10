@@ -1,5 +1,9 @@
 {
     "name": "sysconx4",
     "ecosystem": "pypi",
-    "campaign": "2024-11-newpipv1"
+    "campaign": "2024-11-newpipv1",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ]
 }

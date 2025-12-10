@@ -2,6 +2,9 @@
     "name": "memlib",
     "ecosystem": "pypi",
     "campaign": "2025-07-memlib",
+    "affected_versions": [
+        "2.0.0"
+    ],
     "campaign_assigned_at": "2025-07-16T19:46:02.684359+00:00",
     "campaign_data_modified_at": "2025-07-16T19:46:02.684371+00:00"
 }

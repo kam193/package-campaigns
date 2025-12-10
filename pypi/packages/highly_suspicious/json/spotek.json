@@ -1,5 +1,9 @@
 {
     "name": "spotek",
     "ecosystem": "pypi",
-    "campaign": "2025-03-spotek"
+    "campaign": "2025-03-spotek",
+    "affected_versions": [
+        "9.3.2",
+        "9.5.2"
+    ]
 }

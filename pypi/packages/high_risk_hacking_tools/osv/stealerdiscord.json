@@ -11,15 +11,12 @@
                 "name": "stealerdiscord",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.0",
+                "1.2",
+                "1.1",
+                "1.4",
+                "1.3"
             ]
         }
     ],

@@ -1,5 +1,12 @@
 {
     "name": "stealerdiscord",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-infostealer-tools"
+    "campaign": "GENERIC-infostealer-tools",
+    "affected_versions": [
+        "1.0",
+        "1.2",
+        "1.1",
+        "1.4",
+        "1.3"
+    ]
 }

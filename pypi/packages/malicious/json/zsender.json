@@ -1,5 +1,8 @@
 {
     "name": "zsender",
     "ecosystem": "pypi",
-    "campaign": "2025-04-zscaner"
+    "campaign": "2025-04-zscaner",
+    "affected_versions": [
+        "1.2.7"
+    ]
 }

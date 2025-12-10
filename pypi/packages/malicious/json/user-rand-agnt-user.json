@@ -1,5 +1,8 @@
 {
     "name": "user-rand-agnt-user",
     "ecosystem": "pypi",
-    "campaign": "2024-10-fake-usreagent"
+    "campaign": "2024-10-fake-usreagent",
+    "affected_versions": [
+        "1.8.7"
+    ]
 }

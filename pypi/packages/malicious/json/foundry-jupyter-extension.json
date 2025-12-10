@@ -2,6 +2,13 @@
     "name": "foundry-jupyter-extension",
     "ecosystem": "pypi",
     "campaign": "2025-07-foundry-jupyter-extension",
+    "affected_versions": [
+        "0.20.0",
+        "0.21.0",
+        "0.22.0",
+        "0.23.0",
+        "800.23.0"
+    ],
     "campaign_assigned_at": "2025-07-26T12:26:59.241809+00:00",
     "campaign_data_modified_at": "2025-07-26T12:26:59.241844+00:00"
 }

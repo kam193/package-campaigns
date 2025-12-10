@@ -1,5 +1,8 @@
 {
     "name": "bbllaacckkwwoollff6ad8f753",
     "ecosystem": "pypi",
-    "campaign": "2025-03-blackwolf"
+    "campaign": "2025-03-blackwolf",
+    "affected_versions": [
+        "0.1"
+    ]
 }

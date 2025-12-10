@@ -1,5 +1,11 @@
 {
     "name": "solana-sdkpy",
     "ecosystem": "pypi",
-    "campaign": "2025-07-0x9xnx"
+    "campaign": "2025-07-0x9xnx",
+    "affected_versions": [
+        "1.2.2",
+        "1.2.3",
+        "1.2.5",
+        "1.2.6"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "bsb-family-bot",
     "ecosystem": "pypi",
-    "campaign": "2025-03-bsb-family-bot"
+    "campaign": "2025-03-bsb-family-bot",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

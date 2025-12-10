@@ -1,5 +1,8 @@
 {
     "name": "colorona",
     "ecosystem": "pypi",
-    "campaign": "2025-04-colorona"
+    "campaign": "2025-04-colorona",
+    "affected_versions": [
+        "0.2.6"
+    ]
 }

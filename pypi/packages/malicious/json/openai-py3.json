@@ -1,5 +1,8 @@
 {
     "name": "openai-py3",
     "ecosystem": "pypi",
-    "campaign": "2024-07-adfboba"
+    "campaign": "2024-07-adfboba",
+    "affected_versions": [
+        "1.35.10"
+    ]
 }

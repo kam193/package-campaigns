@@ -1,5 +1,8 @@
 {
     "name": "syscachelib",
     "ecosystem": "pypi",
-    "campaign": "2025-06-syscachelib"
+    "campaign": "2025-06-syscachelib",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

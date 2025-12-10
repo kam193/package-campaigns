@@ -1,5 +1,9 @@
 {
     "name": "tingetone",
     "ecosystem": "pypi",
-    "campaign": "2024-11-tingetone"
+    "campaign": "2024-11-tingetone",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "cometlogger",
     "ecosystem": "pypi",
-    "campaign": "2024-11-cometlogger"
+    "campaign": "2024-11-cometlogger",
+    "affected_versions": [
+        "0.1"
+    ]
 }

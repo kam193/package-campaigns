@@ -1,5 +1,16 @@
 {
     "name": "telepycore",
     "ecosystem": "pypi",
-    "campaign": "2025-04-telepycore"
+    "campaign": "2025-04-telepycore",
+    "affected_versions": [
+        "2.0.4",
+        "2.0.2",
+        "2.0.5",
+        "2.0.7",
+        "2.0.6",
+        "1.0.1",
+        "2.0.1",
+        "1.5.2",
+        "1.5.3"
+    ]
 }

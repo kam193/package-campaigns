@@ -1,5 +1,9 @@
 {
     "name": "requesr",
     "ecosystem": "pypi",
-    "campaign": "2024-12-reqesst"
+    "campaign": "2024-12-reqesst",
+    "affected_versions": [
+        "2.32.3",
+        "2.32.2"
+    ]
 }

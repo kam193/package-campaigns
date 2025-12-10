@@ -1,5 +1,8 @@
 {
     "name": "unzipxz",
     "ecosystem": "pypi",
-    "campaign": "2024-11-unzipxz"
+    "campaign": "2024-11-unzipxz",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

@@ -1,5 +1,11 @@
 {
     "name": "alpha-booster",
     "ecosystem": "pypi",
-    "campaign": "2025-05-discord-booster"
+    "campaign": "2025-05-discord-booster",
+    "affected_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3"
+    ]
 }

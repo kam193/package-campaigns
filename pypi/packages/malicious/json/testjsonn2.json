@@ -1,5 +1,8 @@
 {
     "name": "testjsonn2",
     "ecosystem": "pypi",
-    "campaign": "2024-07-ronnyfredd-exfiltr-clipboard"
+    "campaign": "2024-07-ronnyfredd-exfiltr-clipboard",
+    "affected_versions": [
+        "0.1"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "txtstorage",
     "ecosystem": "pypi",
-    "campaign": "2024-12-txtstorage"
+    "campaign": "2024-12-txtstorage",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

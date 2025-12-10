@@ -1,5 +1,8 @@
 {
     "name": "quickcolors",
     "ecosystem": "pypi",
-    "campaign": "2025-03-quicolor"
+    "campaign": "2025-03-quicolor",
+    "affected_versions": [
+        "10.0.9"
+    ]
 }

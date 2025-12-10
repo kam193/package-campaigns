@@ -1,5 +1,9 @@
 {
     "name": "akamai-api",
     "ecosystem": "pypi",
-    "campaign": "2025-06-akamai-packages"
+    "campaign": "2025-06-akamai-packages",
+    "affected_versions": [
+        "0.1.1",
+        "1.0"
+    ]
 }

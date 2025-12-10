@@ -1,5 +1,8 @@
 {
     "name": "unrartest",
     "ecosystem": "pypi",
-    "campaign": "2024-08-koalabuilder"
+    "campaign": "2024-08-koalabuilder",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

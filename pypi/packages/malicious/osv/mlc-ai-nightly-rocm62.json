@@ -11,15 +11,8 @@
                 "name": "mlc-ai-nightly-rocm62",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "9.9.9"
             ]
         }
     ],

@@ -1,5 +1,8 @@
 {
     "name": "hellohackers",
     "ecosystem": "pypi",
-    "campaign": "2025-02-hellohackers"
+    "campaign": "2025-02-hellohackers",
+    "affected_versions": [
+        "0.0.0"
+    ]
 }

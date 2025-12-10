@@ -1,5 +1,9 @@
 {
     "name": "transaction-utils",
     "ecosystem": "pypi",
-    "campaign": "2025-02-transaction-utils"
+    "campaign": "2025-02-transaction-utils",
+    "affected_versions": [
+        "0.1.1",
+        "0.1"
+    ]
 }

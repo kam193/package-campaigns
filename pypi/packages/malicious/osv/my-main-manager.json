@@ -11,15 +11,11 @@
                 "name": "my-main-manager",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.0.9",
+                "1.0.8",
+                "1.0.11",
+                "1.0.12"
             ]
         }
     ],
