@@ -1,0 +1,15 @@
+{
+    "name": "2025-12-suficloud",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "suficloud"
+    ],
+    "created_at": "2025-12-13",
+    "ioc": [],
+    "references": [],
+    "description": "The package uploads files to a hardcoded location. However, the overall context is not clear enough to deem as malicious"
+}

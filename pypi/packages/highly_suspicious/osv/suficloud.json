@@ -1,0 +1,37 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-12-suficloud/suficloud",
+    "published": "2025-12-13T12:31:31.979181+00:00",
+    "modified": "2025-12-13T12:31:31.979203+00:00",
+    "summary": "Highly suspicious code in suficloud (PyPI)",
+    "details": "The package uploads files to a hardcoded location. However, the overall context is not clear enough to deem as malicious\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-12-suficloud\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "suficloud",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "3.0.0",
+                "2.0.0",
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/suficloud"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
