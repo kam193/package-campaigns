@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2025-12-aicloudforge/gke-log-tools",
     "published": "2025-12-14T13:57:50.966639+00:00",
-    "modified": "2025-12-14T14:44:02.219197+00:00",
+    "modified": "2025-12-14T15:38:20.331539+00:00",
     "summary": "Highly suspicious code in gke-log-tools (PyPI)",
     "details": "Code is heavily obfuscated with PyArmor. While it may be used for some kind of intellectual property protection, packages  also have other risk marks:\n- Obfuscation is done with the trial PyArmor version\n- Although obfuscated, it's distributed under the MIT license\n- There is identification of the author, all names are very generic\n- all URLs are invalid (repository, homepage)\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-12-aicloudforge\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
@@ -18,7 +18,8 @@
                 "1.0.0",
                 "1.0.4",
                 "1.0.5",
-                "1.0.6"
+                "1.0.6",
+                "1.0.7"
             ]
         }
     ],
