@@ -1,0 +1,47 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-12-smtblib/smtblib",
+    "published": "2025-12-15T15:24:47.925068+00:00",
+    "modified": "2025-12-15T15:24:47.925085+00:00",
+    "summary": "Malicious code in smtblib (PyPI)",
+    "details": "Malicious copy of a standard library module that during class initialization downloads and executes remote code and after that attempts to cover its tracks by overwriting itself with non-malicious code. The remote code aims to collect and exfiltrate sensitive Telegram session files.\n\nThis campaign shares infrastructure and basic methods with previous 2025-11-uzip campaign.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-12-smtblib\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - infostealer\n\n\n - target:telegram\n\n\n - exfiltration-credentials\n\n\n - action-hidden-in-lib-usage\n\n\n - covering-tracks\n\n\n - clones-real-package\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "smtblib",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/smtblib"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://87.120.107.132:3301/reactor",
+                "http://87.120.107.132:1488/drill",
+                "http://87.120.107.132:1488/drip"
+            ],
+            "ips": [
+                "87.120.107.132"
+            ]
+        }
+    }
+}

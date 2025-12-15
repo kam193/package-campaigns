@@ -17,5 +17,5 @@
     "created_at": "2025-12-14",
     "ioc": [],
     "references": [],
-    "description": "Code is heavily obfuscated with PyArmor. While it may be used for some kind of intellectual property protection, packages  also have other risk marks:\n- Obfuscation is done with the trial PyArmor version\n- Although obfuscated, it's distributed under the MIT license\n- There is identification of the author, all names are very generic\n- all URLs are invalid (repository, homepage)"
+    "description": "Code is heavily obfuscated with PyArmor. While it may be used for some kind of intellectual property protection, packages  also have other risk marks:\n- Obfuscation is done with the trial PyArmor version\n- Although obfuscated, it's distributed under the MIT license\n- There is no identification of the author, all names are very generic\n- all URLs are invalid (repository, homepage)"
 }

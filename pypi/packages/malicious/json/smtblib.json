@@ -1,0 +1,10 @@
+{
+    "name": "smtblib",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-smtblib",
+    "affected_versions": [
+        "0.1.8"
+    ],
+    "campaign_assigned_at": "2025-12-15T15:24:47.925068+00:00",
+    "campaign_data_modified_at": "2025-12-15T15:24:47.925085+00:00"
+}
