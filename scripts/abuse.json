@@ -58,7 +58,7 @@
     },
     "clones_real_package": {
         "theme": "info",
-        "description": "The package is a clone of a real package, but with malicious code added."
+        "description": "The package is a clone of a legitimate package or library, but with malicious code added."
     },
     "action-hidden-in-lib-usage": {
         "theme": "warning",
