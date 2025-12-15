@@ -56,10 +56,6 @@
         "theme": "warning",
         "description": "The package contains code to detect if it is running in a sandbox environment."
     },
-    "clones_real_package": {
-        "theme": "info",
-        "description": "The package is a clone of a legitimate package or library, but with malicious code added."
-    },
     "action-hidden-in-lib-usage": {
         "theme": "warning",
         "description": "The malicious action is hidden in the code and starts when user interacts with it (e.g. during class initialization or by exfiltrating given credentials)."
@@ -95,7 +91,7 @@
     },
     "clones_real_package": {
         "theme": "warning",
-        "description": "The package is a clone of a real package, but with malicious code added."
+        "description": "The package is a clone of a legitimate package or library, but with malicious code added."
     },
     "llm-threat": {
         "description": "Malicious activity is designed against large language models, like e.g. prompt injection."
