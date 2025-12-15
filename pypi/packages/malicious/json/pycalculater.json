@@ -1,5 +1,8 @@
 {
     "name": "pycalculater",
     "ecosystem": "pypi",
-    "campaign": "2024-11-discconnect"
+    "campaign": "2024-11-discconnect",
+    "affected_versions": [
+        "0.1"
+    ]
 }

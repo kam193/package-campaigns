@@ -1,5 +1,19 @@
 {
     "name": "ai-labs-snippets-sdk",
     "ecosystem": "pypi",
-    "campaign": "2025-05-ai-labs-snippets-sdk"
+    "campaign": "2025-05-ai-labs-snippets-sdk",
+    "affected_versions": [
+        "2.0.0",
+        "0.1.0",
+        "1.1.0",
+        "1.2.0",
+        "2.2.0",
+        "3.0.0",
+        "3.2.0",
+        "4.4.0",
+        "4.0.0",
+        "3.3.0",
+        "3.4.0",
+        "3.5.0"
+    ]
 }

@@ -11,15 +11,8 @@
                 "name": "wdb3",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.0.0"
             ]
         }
     ],

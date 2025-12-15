@@ -1,5 +1,12 @@
 {
     "name": "pydoxing",
     "ecosystem": "pypi",
-    "campaign": "2025-05-pydoxing"
+    "campaign": "2025-05-pydoxing",
+    "affected_versions": [
+        "8.8.8",
+        "8.8.9",
+        "8.9.0",
+        "8.9.1",
+        "8.9.2"
+    ]
 }

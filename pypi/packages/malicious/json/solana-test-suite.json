@@ -1,5 +1,8 @@
 {
     "name": "solana-test-suite",
     "ecosystem": "pypi",
-    "campaign": "2025-05-sl4x01"
+    "campaign": "2025-05-sl4x01",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

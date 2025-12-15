@@ -11,15 +11,8 @@
                 "name": "req-pre-automate1",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.0.3"
             ]
         }
     ],

@@ -1,5 +1,11 @@
 {
     "name": "raydium",
     "ecosystem": "pypi",
-    "campaign": "spl-types-rentry-2024-07"
+    "campaign": "spl-types-rentry-2024-07",
+    "affected_versions": [
+        "2.1.4",
+        "2.1.1",
+        "2.1.5",
+        "2.1.6"
+    ]
 }

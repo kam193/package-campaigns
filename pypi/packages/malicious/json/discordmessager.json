@@ -1,5 +1,10 @@
 {
     "name": "discordmessager",
     "ecosystem": "pypi",
-    "campaign": "2024-10-discordmessager"
+    "campaign": "2024-10-discordmessager",
+    "affected_versions": [
+        "0.3",
+        "0.1",
+        "0.2"
+    ]
 }

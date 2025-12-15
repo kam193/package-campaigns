@@ -11,15 +11,9 @@
                 "name": "discordsync",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.3.0",
+                "1.4.0"
             ]
         }
     ],

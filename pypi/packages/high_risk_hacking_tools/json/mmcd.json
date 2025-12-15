@@ -1,5 +1,9 @@
 {
     "name": "mmcd",
     "ecosystem": "pypi",
-    "campaign": "2025-03-mmcd"
+    "campaign": "2025-03-mmcd",
+    "affected_versions": [
+        "0.0.1",
+        "0.1.0"
+    ]
 }

@@ -11,15 +11,8 @@
                 "name": "updateuuid4",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.1.2"
             ]
         }
     ],

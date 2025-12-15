@@ -1,5 +1,8 @@
 {
     "name": "python-guild",
     "ecosystem": "pypi",
-    "campaign": "spl-types-rentry-2024-07"
+    "campaign": "spl-types-rentry-2024-07",
+    "affected_versions": [
+        "1.0.1"
+    ]
 }

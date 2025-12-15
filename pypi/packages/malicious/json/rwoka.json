@@ -1,5 +1,10 @@
 {
     "name": "rwoka",
     "ecosystem": "pypi",
-    "campaign": "2024-12-httpfluent"
+    "campaign": "2024-12-httpfluent",
+    "affected_versions": [
+        "0.1.2",
+        "0.1.1",
+        "0.1.3"
+    ]
 }

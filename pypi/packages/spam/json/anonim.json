@@ -1,5 +1,8 @@
 {
     "name": "anonim",
     "ecosystem": "pypi",
-    "campaign": "2024-08-old-anonimtest-putty"
+    "campaign": "2024-08-old-anonimtest-putty",
+    "affected_versions": [
+        "0.0.0"
+    ]
 }

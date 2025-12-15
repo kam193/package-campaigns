@@ -1,5 +1,9 @@
 {
     "name": "tlsclient3",
     "ecosystem": "pypi",
-    "campaign": "2025-03-tlsclient3"
+    "campaign": "2025-03-tlsclient3",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2"
+    ]
 }

@@ -1,5 +1,9 @@
 {
     "name": "artifact-lab-3-package-f0727516",
     "ecosystem": "pypi",
-    "campaign": "2024-08-lab-artifacts-revshell"
+    "campaign": "2024-08-lab-artifacts-revshell",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ]
 }

@@ -11,15 +11,10 @@
                 "name": "paolog-pynecraft",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.1.1.post1",
+                "0.1.1.post111",
+                "0.1.1.post112"
             ]
         }
     ],

@@ -11,15 +11,10 @@
                 "name": "fflask",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "3.2.0.dev0",
+                "3.1.8.dev0",
+                "3.1.9.dev0"
             ]
         }
     ],

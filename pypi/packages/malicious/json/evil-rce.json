@@ -1,0 +1,10 @@
+{
+    "name": "evil-rce",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-evil-rce",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-12-06T14:11:45.507946+00:00",
+    "campaign_data_modified_at": "2025-12-06T14:11:45.507967+00:00"
+}

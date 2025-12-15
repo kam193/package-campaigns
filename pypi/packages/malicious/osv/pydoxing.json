@@ -11,15 +11,12 @@
                 "name": "pydoxing",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "8.8.8",
+                "8.8.9",
+                "8.9.0",
+                "8.9.1",
+                "8.9.2"
             ]
         }
     ],

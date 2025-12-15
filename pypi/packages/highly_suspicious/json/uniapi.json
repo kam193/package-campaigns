@@ -1,5 +1,8 @@
 {
     "name": "uniapi",
     "ecosystem": "pypi",
-    "campaign": "2025-01-uniapi"
+    "campaign": "2025-01-uniapi",
+    "affected_versions": [
+        "1.0.7"
+    ]
 }

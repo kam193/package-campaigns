@@ -1,5 +1,8 @@
 {
     "name": "alicloud-client-sdk",
     "ecosystem": "pypi",
-    "campaign": "2025-02-alicloud-client"
+    "campaign": "2025-02-alicloud-client",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

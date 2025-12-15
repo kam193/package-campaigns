@@ -1,5 +1,8 @@
 {
     "name": "ansishade",
     "ecosystem": "pypi",
-    "campaign": "2024-11-tingetone"
+    "campaign": "2024-11-tingetone",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

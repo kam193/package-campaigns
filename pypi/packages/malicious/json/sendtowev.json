@@ -1,5 +1,11 @@
 {
     "name": "sendtowev",
     "ecosystem": "pypi",
-    "campaign": "2024-09-cstealer"
+    "campaign": "2024-09-cstealer",
+    "affected_versions": [
+        "0.2",
+        "0.1",
+        "0.4",
+        "0.3"
+    ]
 }

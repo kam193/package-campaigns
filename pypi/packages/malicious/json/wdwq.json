@@ -1,5 +1,8 @@
 {
     "name": "wdwq",
     "ecosystem": "pypi",
-    "campaign": "2025-01-wdwq"
+    "campaign": "2025-01-wdwq",
+    "affected_versions": [
+        "1.4.3"
+    ]
 }

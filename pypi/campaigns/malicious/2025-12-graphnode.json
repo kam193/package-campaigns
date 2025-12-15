@@ -1,0 +1,29 @@
+{
+    "name": "2025-12-graphnode",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "bignum",
+        "bigpyx",
+        "graphnode",
+        "graphsync"
+    ],
+    "created_at": "2025-12-08",
+    "ioc": [
+        "https://raw.githubusercontent.com/oscaratkins831/CrowdFunding-Smart-Contract-main/refs/heads/main/readme.md",
+        "https://drive.google.com/uc?export=download&id=1JhtoVi6UjdCEa9mT5kHvYxd2UauiccW4",
+        "https://aurevian.cloud/public/startup.py?ver=1.2",
+        "aurevian.cloud",
+        "https://raw.githubusercontent.com/ronniebrooks/node-javascript-ecommerce-main/refs/heads/main/.gitignore",
+        "https://raw.githubusercontent.com/ronniebrooks/node-javascript-ecommerce-main/refs/heads/main/package.json",
+        "https://drive.google.com/uc?export=download&id=1FKQxvZM2zl0pmtf_cIHdjLSVdf-ZlUYR",
+        "https://drive.google.com/uc?export=download&id=1RPC49CCI9urhfoVdPkO3pCSI4Lr430Lx"
+    ],
+    "references": [],
+    "description": "This is a malicious copy of the networkx package. It contains an obfuscated script that downloads and runs further scripts from one of multiple locations, and perform covering tracks by removing the modified code and all references to it. During the analysis, most of remote URLs did not serve any meaningful content, so the final goal is unknown."
+}

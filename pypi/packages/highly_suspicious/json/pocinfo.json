@@ -1,5 +1,8 @@
 {
     "name": "pocinfo",
     "ecosystem": "pypi",
-    "campaign": "2025-04-pocinfo"
+    "campaign": "2025-04-pocinfo",
+    "affected_versions": [
+        "0.1.1"
+    ]
 }

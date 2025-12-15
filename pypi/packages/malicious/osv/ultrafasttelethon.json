@@ -11,15 +11,11 @@
                 "name": "ultrafasttelethon",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.39.0",
+                "1.39.0.1",
+                "1.39.0.2",
+                "1.39.0.3"
             ]
         }
     ],

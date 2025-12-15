@@ -1,5 +1,12 @@
 {
     "name": "computestpspeedcomp",
     "ecosystem": "pypi",
-    "campaign": "2025-02-multis"
+    "campaign": "2025-02-multis",
+    "affected_versions": [
+        "0.3",
+        "0.4",
+        "0.6",
+        "0.5",
+        "0.7"
+    ]
 }

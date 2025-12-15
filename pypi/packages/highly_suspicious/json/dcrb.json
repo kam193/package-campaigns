@@ -1,5 +1,11 @@
 {
     "name": "dcrb",
     "ecosystem": "pypi",
-    "campaign": "2025-06-dcrb"
+    "campaign": "2025-06-dcrb",
+    "affected_versions": [
+        "3.0.0",
+        "0.1.0",
+        "3.0.1",
+        "4.0.0"
+    ]
 }

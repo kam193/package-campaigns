@@ -1,5 +1,9 @@
 {
     "name": "leveup",
     "ecosystem": "pypi",
-    "campaign": "2024-10-devilninja"
+    "campaign": "2024-10-devilninja",
+    "affected_versions": [
+        "1.0",
+        "1.1"
+    ]
 }

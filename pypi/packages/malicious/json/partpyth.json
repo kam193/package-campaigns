@@ -1,5 +1,8 @@
 {
     "name": "partpyth",
     "ecosystem": "pypi",
-    "campaign": "2024-08-embeds-RealtekHDAudioManager"
+    "campaign": "2024-08-embeds-RealtekHDAudioManager",
+    "affected_versions": [
+        "0.1"
+    ]
 }

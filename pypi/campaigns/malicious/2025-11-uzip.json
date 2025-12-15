@@ -8,16 +8,21 @@
         "remote_executable"
     ],
     "packages": [
+        "gxzip",
+        "kzip",
         "minizip",
         "mzip",
         "uuzip",
-        "uzip"
+        "uzip",
+        "yzip"
     ],
     "created_at": "2025-11-22",
     "ioc": [
         "http://77.105.161.164:3301/library",
         "77.105.161.164",
-        "http://77.105.161.164:3301/die1"
+        "http://77.105.161.164:3301/die1",
+        "http://87.120.107.132:1488/df",
+        "87.120.107.132"
     ],
     "references": [
         "https://www.virustotal.com/gui/file-analysis/MGEwNWE0MzhlMTU3NTUxZTU1OGI4NTRkYTA2MWMxM2M6MTc2MzgzMDEyNA==",

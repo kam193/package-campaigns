@@ -1,5 +1,8 @@
 {
     "name": "stubsoutagn",
     "ecosystem": "pypi",
-    "campaign": "2025-06-stubsout"
+    "campaign": "2025-06-stubsout",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

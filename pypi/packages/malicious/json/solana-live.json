@@ -1,5 +1,8 @@
 {
     "name": "solana-live",
     "ecosystem": "pypi",
-    "campaign": "2025-05-solana-token"
+    "campaign": "2025-05-solana-token",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

@@ -1,5 +1,9 @@
 {
     "name": "spokeo",
     "ecosystem": "pypi",
-    "campaign": "2025-06-spokeo"
+    "campaign": "2025-06-spokeo",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ]
 }

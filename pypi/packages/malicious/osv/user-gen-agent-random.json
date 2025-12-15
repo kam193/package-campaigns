@@ -11,15 +11,10 @@
                 "name": "user-gen-agent-random",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.7.0",
+                "1.6.8",
+                "1.6.9"
             ]
         }
     ],

@@ -1,5 +1,9 @@
 {
     "name": "raydium-sdk",
     "ecosystem": "pypi",
-    "campaign": "spl-types-rentry-2024-07"
+    "campaign": "spl-types-rentry-2024-07",
+    "affected_versions": [
+        "2.1.2",
+        "2.1.3"
+    ]
 }

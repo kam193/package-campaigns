@@ -11,15 +11,12 @@
                 "name": "foundry-jupyter-extension",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.20.0",
+                "0.21.0",
+                "0.22.0",
+                "0.23.0",
+                "800.23.0"
             ]
         }
     ],

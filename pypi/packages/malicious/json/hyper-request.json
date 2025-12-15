@@ -1,5 +1,8 @@
 {
     "name": "hyper-request",
     "ecosystem": "pypi",
-    "campaign": "2025-04-hyper-request"
+    "campaign": "2025-04-hyper-request",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

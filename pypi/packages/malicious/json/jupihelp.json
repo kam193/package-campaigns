@@ -1,5 +1,8 @@
 {
     "name": "jupihelp",
     "ecosystem": "pypi",
-    "campaign": "2024-08-sleipnirbrowser-web3"
+    "campaign": "2024-08-sleipnirbrowser-web3",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

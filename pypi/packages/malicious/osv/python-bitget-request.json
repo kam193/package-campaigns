@@ -11,15 +11,9 @@
                 "name": "python-bitget-request",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "3.9.5",
+                "4.9.5"
             ]
         }
     ],

@@ -1,5 +1,8 @@
 {
     "name": "zip-me",
     "ecosystem": "pypi",
-    "campaign": "2024-12-langer-updater"
+    "campaign": "2024-12-langer-updater",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

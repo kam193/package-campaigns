@@ -11,15 +11,10 @@
                 "name": "devilpy",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.6",
+                "0.4",
+                "0.5"
             ]
         }
     ],

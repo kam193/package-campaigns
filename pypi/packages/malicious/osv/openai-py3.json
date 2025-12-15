@@ -11,15 +11,8 @@
                 "name": "openai-py3",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.35.10"
             ]
         }
     ],

@@ -11,15 +11,9 @@
                 "name": "innostage-group",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "7.0.4",
+                "7.0.6"
             ]
         }
     ],

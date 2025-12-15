@@ -1,0 +1,27 @@
+{
+    "name": "2025-12-smtblib",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "covering-tracks",
+        "exfiltration_credentials",
+        "infostealer",
+        "remote_script",
+        "target:telegram",
+        "typosquatting"
+    ],
+    "packages": [
+        "smtblib"
+    ],
+    "created_at": "2025-12-15",
+    "ioc": [
+        "http://87.120.107.132:3301/reactor",
+        "87.120.107.132",
+        "http://87.120.107.132:1488/drill",
+        "http://87.120.107.132:1488/drip"
+    ],
+    "references": [],
+    "description": "Malicious copy of a standard library module that during class initialization downloads and executes remote code and after that attempts to cover its tracks by overwriting itself with non-malicious code. The remote code aims to collect and exfiltrate sensitive Telegram session files.\n\nThis campaign shares infrastructure and basic methods with previous 2025-11-uzip campaign. "
+}

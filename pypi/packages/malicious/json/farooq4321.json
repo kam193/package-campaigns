@@ -1,5 +1,8 @@
 {
     "name": "farooq4321",
     "ecosystem": "pypi",
-    "campaign": "2025-02-farooq4321"
+    "campaign": "2025-02-farooq4321",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

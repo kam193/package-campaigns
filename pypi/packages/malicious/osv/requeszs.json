@@ -11,15 +11,8 @@
                 "name": "requeszs",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2.32.3"
             ]
         }
     ],

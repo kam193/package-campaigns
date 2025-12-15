@@ -1,5 +1,8 @@
 {
     "name": "binod-desk",
     "ecosystem": "pypi",
-    "campaign": "2024-08-old-susp-binod-wallpaper"
+    "campaign": "2024-08-old-susp-binod-wallpaper",
+    "affected_versions": [
+        "1.0.2"
+    ]
 }

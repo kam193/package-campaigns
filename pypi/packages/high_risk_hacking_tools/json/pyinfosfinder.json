@@ -1,5 +1,9 @@
 {
     "name": "pyinfosfinder",
     "ecosystem": "pypi",
-    "campaign": "2024-12-tool-pyinfosfinder"
+    "campaign": "2024-12-tool-pyinfosfinder",
+    "affected_versions": [
+        "9",
+        "0.1.0"
+    ]
 }

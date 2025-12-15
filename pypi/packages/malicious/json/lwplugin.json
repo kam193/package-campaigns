@@ -1,5 +1,8 @@
 {
     "name": "lwplugin",
     "ecosystem": "pypi",
-    "campaign": "2024-10-old-lwplugin"
+    "campaign": "2024-10-old-lwplugin",
+    "affected_versions": [
+        "0.0.5"
+    ]
 }

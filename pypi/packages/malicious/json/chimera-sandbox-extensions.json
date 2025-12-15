@@ -1,5 +1,8 @@
 {
     "name": "chimera-sandbox-extensions",
     "ecosystem": "pypi",
-    "campaign": "2025-06-chimera-sandbox-extensions"
+    "campaign": "2025-06-chimera-sandbox-extensions",
+    "affected_versions": [
+        "0.1.42"
+    ]
 }

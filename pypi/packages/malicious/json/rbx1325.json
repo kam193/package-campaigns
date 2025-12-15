@@ -2,6 +2,9 @@
     "name": "rbx1325",
     "ecosystem": "pypi",
     "campaign": "2025-07-rbx1325",
+    "affected_versions": [
+        "0.1.0"
+    ],
     "campaign_assigned_at": "2025-07-18T20:40:32.006423+00:00",
     "campaign_data_modified_at": "2025-07-18T20:40:32.006437+00:00"
 }

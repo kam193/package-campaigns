@@ -1,5 +1,6 @@
 {
     "name": "1000-pip-climber-system-download",
     "ecosystem": "pypi",
-    "campaign": "2023-pip-climber"
+    "campaign": "2023-pip-climber",
+    "affected_versions": []
 }

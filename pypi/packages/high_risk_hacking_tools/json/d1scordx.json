@@ -1,5 +1,8 @@
 {
     "name": "d1scordx",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-infostealer-tools"
+    "campaign": "GENERIC-infostealer-tools",
+    "affected_versions": [
+        "0.0.9"
+    ]
 }

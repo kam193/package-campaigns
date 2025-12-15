@@ -1,5 +1,9 @@
 {
     "name": "libproxy",
     "ecosystem": "pypi",
-    "campaign": "2023-11-update-information-endpoint"
+    "campaign": "2023-11-update-information-endpoint",
+    "affected_versions": [
+        "1.1.4",
+        "1.1.5"
+    ]
 }

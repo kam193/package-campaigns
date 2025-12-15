@@ -1,5 +1,11 @@
 {
     "name": "httprequesthub",
     "ecosystem": "pypi",
-    "campaign": "2023-11-update-information-endpoint"
+    "campaign": "2023-11-update-information-endpoint",
+    "affected_versions": [
+        "2.31.0",
+        "2.31.1",
+        "2.31.3",
+        "2.31.4"
+    ]
 }

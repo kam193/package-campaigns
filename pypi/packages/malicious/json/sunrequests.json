@@ -1,5 +1,8 @@
 {
     "name": "sunrequests",
     "ecosystem": "pypi",
-    "campaign": "2024-09-sunrequests"
+    "campaign": "2024-09-sunrequests",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

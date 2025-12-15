@@ -1,5 +1,8 @@
 {
     "name": "fgh",
     "ecosystem": "pypi",
-    "campaign": "2024-12-tonki"
+    "campaign": "2024-12-tonki",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

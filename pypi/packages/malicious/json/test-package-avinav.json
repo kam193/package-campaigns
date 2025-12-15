@@ -2,6 +2,9 @@
     "name": "test-package-avinav",
     "ecosystem": "pypi",
     "campaign": "2025-07-test-package-avinav",
+    "affected_versions": [
+        "0.0.1"
+    ],
     "campaign_assigned_at": "2025-07-14T15:42:39.539396+00:00",
     "campaign_data_modified_at": "2025-07-14T15:42:39.539407+00:00"
 }

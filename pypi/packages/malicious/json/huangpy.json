@@ -1,5 +1,8 @@
 {
     "name": "huangpy",
     "ecosystem": "pypi",
-    "campaign": "2024-10-huangpy"
+    "campaign": "2024-10-huangpy",
+    "affected_versions": [
+        "0.0.1"
+    ]
 }

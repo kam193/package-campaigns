@@ -1,5 +1,8 @@
 {
     "name": "exorigsim",
     "ecosystem": "pypi",
-    "campaign": "2025-06-exorigsim"
+    "campaign": "2025-06-exorigsim",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

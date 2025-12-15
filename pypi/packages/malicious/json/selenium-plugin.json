@@ -1,5 +1,8 @@
 {
     "name": "selenium-plugin",
     "ecosystem": "pypi",
-    "campaign": "2024-12-selenium-plugin"
+    "campaign": "2024-12-selenium-plugin",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

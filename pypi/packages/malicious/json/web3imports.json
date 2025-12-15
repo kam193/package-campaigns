@@ -1,5 +1,8 @@
 {
     "name": "web3imports",
     "ecosystem": "pypi",
-    "campaign": "2025-01-asynchelpers"
+    "campaign": "2025-01-asynchelpers",
+    "affected_versions": [
+        "1.1.0"
+    ]
 }

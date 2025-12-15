@@ -2,6 +2,9 @@
     "name": "hekamhelp",
     "ecosystem": "pypi",
     "campaign": "2025-07-talbat",
+    "affected_versions": [
+        "1.0.0"
+    ],
     "campaign_assigned_at": "2025-07-19T21:57:44.873185+00:00",
     "campaign_data_modified_at": "2025-07-19T21:57:44.873197+00:00"
 }

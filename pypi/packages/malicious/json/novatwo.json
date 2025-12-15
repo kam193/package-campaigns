@@ -1,5 +1,8 @@
 {
     "name": "novatwo",
     "ecosystem": "pypi",
-    "campaign": "2025-02-novatwo"
+    "campaign": "2025-02-novatwo",
+    "affected_versions": [
+        "0.1"
+    ]
 }

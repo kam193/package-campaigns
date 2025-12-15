@@ -1,5 +1,8 @@
 {
     "name": "timsingapi",
     "ecosystem": "pypi",
-    "campaign": "2025-05-rblxfando"
+    "campaign": "2025-05-rblxfando",
+    "affected_versions": [
+        "0.3"
+    ]
 }

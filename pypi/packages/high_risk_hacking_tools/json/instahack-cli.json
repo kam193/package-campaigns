@@ -1,5 +1,11 @@
 {
     "name": "instahack-cli",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-risky-hacking-tools"
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "3.0.5a1",
+        "3.0.5"
+    ]
 }

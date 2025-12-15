@@ -11,15 +11,9 @@
                 "name": "raydium-sdk",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "2.1.2",
+                "2.1.3"
             ]
         }
     ],

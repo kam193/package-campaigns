@@ -1,5 +1,9 @@
 {
     "name": "kekiktaban",
     "ecosystem": "pypi",
-    "campaign": "2024-10-kekiktaban"
+    "campaign": "2024-10-kekiktaban",
+    "affected_versions": [
+        "0.5.0",
+        "0.6.0"
+    ]
 }

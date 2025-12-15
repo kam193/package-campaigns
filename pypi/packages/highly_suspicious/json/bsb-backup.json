@@ -1,5 +1,8 @@
 {
     "name": "bsb-backup",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky"
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "2.0"
+    ]
 }

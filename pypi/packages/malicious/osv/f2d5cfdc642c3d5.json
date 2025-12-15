@@ -11,15 +11,8 @@
                 "name": "f2d5cfdc642c3d5",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.1"
             ]
         }
     ],

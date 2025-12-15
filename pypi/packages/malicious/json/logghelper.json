@@ -2,6 +2,9 @@
     "name": "logghelper",
     "ecosystem": "pypi",
     "campaign": "2025-07-logghelper",
+    "affected_versions": [
+        "1.0.0"
+    ],
     "campaign_assigned_at": "2025-07-16T19:30:11.679235+00:00",
     "campaign_data_modified_at": "2025-07-16T19:30:11.679248+00:00"
 }

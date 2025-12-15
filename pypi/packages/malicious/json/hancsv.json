@@ -1,5 +1,8 @@
 {
     "name": "hancsv",
     "ecosystem": "pypi",
-    "campaign": "2025-06-hancsv"
+    "campaign": "2025-06-hancsv",
+    "affected_versions": [
+        "1.2"
+    ]
 }

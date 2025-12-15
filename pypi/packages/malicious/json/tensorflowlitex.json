@@ -1,5 +1,8 @@
 {
     "name": "tensorflowlitex",
     "ecosystem": "pypi",
-    "campaign": "2025-04-tensorflowlitex"
+    "campaign": "2025-04-tensorflowlitex",
+    "affected_versions": [
+        "0.1.7"
+    ]
 }

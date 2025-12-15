@@ -1,5 +1,8 @@
 {
     "name": "pydantic-kit",
     "ecosystem": "pypi",
-    "campaign": "2025-02-pydantickits"
+    "campaign": "2025-02-pydantickits",
+    "affected_versions": [
+        "1.7"
+    ]
 }

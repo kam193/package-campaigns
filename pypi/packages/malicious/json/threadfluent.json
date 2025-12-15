@@ -1,5 +1,8 @@
 {
     "name": "threadfluent",
     "ecosystem": "pypi",
-    "campaign": "2024-12-httpfluent"
+    "campaign": "2024-12-httpfluent",
+    "affected_versions": [
+        "0.1"
+    ]
 }

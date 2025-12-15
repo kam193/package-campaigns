@@ -1,5 +1,8 @@
 {
     "name": "dirutils",
     "ecosystem": "pypi",
-    "campaign": "2024-08-dirutils"
+    "campaign": "2024-08-dirutils",
+    "affected_versions": [
+        "1.0"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "ransomware",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-risky-hacking-tools"
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

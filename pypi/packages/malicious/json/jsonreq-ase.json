@@ -1,5 +1,8 @@
 {
     "name": "jsonreq-ase",
     "ecosystem": "pypi",
-    "campaign": "2025-07-jsonreq-ase"
+    "campaign": "2025-07-jsonreq-ase",
+    "affected_versions": [
+        "0.0.3"
+    ]
 }

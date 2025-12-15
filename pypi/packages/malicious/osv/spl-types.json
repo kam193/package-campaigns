@@ -11,15 +11,11 @@
                 "name": "spl-types",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.0.4",
+                "1.0.5",
+                "1.0.7",
+                "1.0.8"
             ]
         }
     ],

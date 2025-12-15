@@ -7,6 +7,7 @@
         "remote_script"
     ],
     "packages": [
+        "rendom",
         "speed-testing-nt",
         "speed-testing-vps",
         "speedd-testing-bot"

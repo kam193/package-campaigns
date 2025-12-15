@@ -1,5 +1,9 @@
 {
     "name": "asn1tool",
     "ecosystem": "pypi",
-    "campaign": "2024-11-asn1tool"
+    "campaign": "2024-11-asn1tool",
+    "affected_versions": [
+        "0.167.0",
+        "0.167.1"
+    ]
 }

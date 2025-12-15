@@ -11,15 +11,9 @@
                 "name": "asyncconfigreader",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.5",
+                "0.6"
             ]
         }
     ],

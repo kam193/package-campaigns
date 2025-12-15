@@ -1,5 +1,11 @@
 {
     "name": "jupiterhelper",
     "ecosystem": "pypi",
-    "campaign": "2024-08-sleipnirbrowser-web3"
+    "campaign": "2024-08-sleipnirbrowser-web3",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.2",
+        "0.1.3",
+        "0.1.5"
+    ]
 }

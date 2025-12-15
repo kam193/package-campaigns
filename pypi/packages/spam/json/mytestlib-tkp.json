@@ -1,5 +1,8 @@
 {
     "name": "mytestlib-tkp",
     "ecosystem": "pypi",
-    "campaign": "2024-10-old-mytestlib-tkp"
+    "campaign": "2024-10-old-mytestlib-tkp",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

@@ -1,5 +1,10 @@
 {
     "name": "ccsinstaller",
     "ecosystem": "pypi",
-    "campaign": "2023-11-dgsinstaller"
+    "campaign": "2023-11-dgsinstaller",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2"
+    ]
 }

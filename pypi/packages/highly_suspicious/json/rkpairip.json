@@ -1,5 +1,10 @@
 {
     "name": "rkpairip",
     "ecosystem": "pypi",
-    "campaign": "2024-11-rkpairip"
+    "campaign": "2024-11-rkpairip",
+    "affected_versions": [
+        "2.0",
+        "3.0",
+        "4.0"
+    ]
 }

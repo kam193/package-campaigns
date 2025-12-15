@@ -1,5 +1,8 @@
 {
     "name": "asynchttpx",
     "ecosystem": "pypi",
-    "campaign": "2025-03-httpx-client"
+    "campaign": "2025-03-httpx-client",
+    "affected_versions": [
+        "0.0.2"
+    ]
 }

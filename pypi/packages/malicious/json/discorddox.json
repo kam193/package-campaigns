@@ -1,5 +1,9 @@
 {
     "name": "discorddox",
     "ecosystem": "pypi",
-    "campaign": "2025-05-telegramdoxing"
+    "campaign": "2025-05-telegramdoxing",
+    "affected_versions": [
+        "0.1.8",
+        "1.8.8"
+    ]
 }

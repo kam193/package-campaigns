@@ -1,5 +1,12 @@
 {
     "name": "javascan",
     "ecosystem": "pypi",
-    "campaign": "2025-01-javascan"
+    "campaign": "2025-01-javascan",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5"
+    ]
 }

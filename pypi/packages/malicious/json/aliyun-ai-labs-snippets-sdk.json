@@ -1,5 +1,10 @@
 {
     "name": "aliyun-ai-labs-snippets-sdk",
     "ecosystem": "pypi",
-    "campaign": "2025-05-ai-labs-snippets-sdk"
+    "campaign": "2025-05-ai-labs-snippets-sdk",
+    "affected_versions": [
+        "1.0.0",
+        "2.0.0",
+        "2.1.0"
+    ]
 }

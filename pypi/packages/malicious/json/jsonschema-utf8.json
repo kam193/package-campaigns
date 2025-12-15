@@ -1,0 +1,12 @@
+{
+    "name": "jsonschema-utf8",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-loguru-utf8",
+    "affected_versions": [
+        "4.1.2",
+        "4.1.1",
+        "4.1.0"
+    ],
+    "campaign_assigned_at": "2025-12-10T17:39:08.130760+00:00",
+    "campaign_data_modified_at": "2025-12-10T17:39:08.130790+00:00"
+}

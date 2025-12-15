@@ -1,5 +1,9 @@
 {
     "name": "octopus32",
     "ecosystem": "pypi",
-    "campaign": "2025-05-octopus32"
+    "campaign": "2025-05-octopus32",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ]
 }

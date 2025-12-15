@@ -1,5 +1,11 @@
 {
     "name": "web3automation",
     "ecosystem": "pypi",
-    "campaign": "2025-04-alchemyrpcs"
+    "campaign": "2025-04-alchemyrpcs",
+    "affected_versions": [
+        "1.1.2",
+        "1.1.4",
+        "1.1.5",
+        "1.1.7"
+    ]
 }

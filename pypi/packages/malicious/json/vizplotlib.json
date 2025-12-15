@@ -1,5 +1,8 @@
 {
     "name": "vizplotlib",
     "ecosystem": "pypi",
-    "campaign": "2024-10-alfooou"
+    "campaign": "2024-10-alfooou",
+    "affected_versions": [
+        "1.0.3"
+    ]
 }

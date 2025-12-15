@@ -1,5 +1,8 @@
 {
     "name": "faest",
     "ecosystem": "pypi",
-    "campaign": "2024-09-old-faest"
+    "campaign": "2024-09-old-faest",
+    "affected_versions": [
+        "0.14.6"
+    ]
 }

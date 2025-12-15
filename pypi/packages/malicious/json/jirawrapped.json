@@ -1,5 +1,10 @@
 {
     "name": "jirawrapped",
     "ecosystem": "pypi",
-    "campaign": "2025-07-jirawrapped"
+    "campaign": "2025-07-jirawrapped",
+    "affected_versions": [
+        "0.2.0",
+        "0.1.0",
+        "0.3.1"
+    ]
 }

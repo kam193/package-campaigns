@@ -1,5 +1,9 @@
 {
     "name": "viplotlib",
     "ecosystem": "pypi",
-    "campaign": "2024-10-alfooou"
+    "campaign": "2024-10-alfooou",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ]
 }

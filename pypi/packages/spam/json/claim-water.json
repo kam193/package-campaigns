@@ -2,6 +2,9 @@
     "name": "claim-water",
     "ecosystem": "pypi",
     "campaign": "2025-07-vibehat",
+    "affected_versions": [
+        "1.0.0"
+    ],
     "campaign_assigned_at": "2025-07-21T20:46:28.888102+00:00",
     "campaign_data_modified_at": "2025-07-21T20:46:28.888149+00:00"
 }

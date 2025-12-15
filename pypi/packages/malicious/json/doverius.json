@@ -1,5 +1,8 @@
 {
     "name": "doverius",
     "ecosystem": "pypi",
-    "campaign": "2025-06-justanything"
+    "campaign": "2025-06-justanything",
+    "affected_versions": [
+        "0.1"
+    ]
 }

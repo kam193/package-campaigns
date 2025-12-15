@@ -2,6 +2,9 @@
     "name": "hellflood",
     "ecosystem": "pypi",
     "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0.0"
+    ],
     "campaign_assigned_at": "2025-08-07T11:22:36.545722+00:00",
     "campaign_data_modified_at": "2025-08-07T11:22:36.545735+00:00"
 }

@@ -1,5 +1,9 @@
 {
     "name": "codeoptimizer",
     "ecosystem": "pypi",
-    "campaign": "2025-03-yolov8mini"
+    "campaign": "2025-03-yolov8mini",
+    "affected_versions": [
+        "4.1.1",
+        "4.2.1"
+    ]
 }

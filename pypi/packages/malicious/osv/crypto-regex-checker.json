@@ -11,15 +11,15 @@
                 "name": "crypto-regex-checker",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.6.7",
+                "1.6.8",
+                "1.6.9",
+                "1.7.1",
+                "1.7.2",
+                "1.7.3",
+                "1.7.4",
+                "1.7.5"
             ]
         }
     ],

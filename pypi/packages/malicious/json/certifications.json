@@ -1,5 +1,8 @@
 {
     "name": "certifications",
     "ecosystem": "pypi",
-    "campaign": "2025-03-certifications"
+    "campaign": "2025-03-certifications",
+    "affected_versions": [
+        "999.999.999"
+    ]
 }

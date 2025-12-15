@@ -1,5 +1,9 @@
 {
     "name": "markitanalysis",
     "ecosystem": "pypi",
-    "campaign": "2025-01-markitanalysis"
+    "campaign": "2025-01-markitanalysis",
+    "affected_versions": [
+        "0.1.0",
+        "0.0.1"
+    ]
 }

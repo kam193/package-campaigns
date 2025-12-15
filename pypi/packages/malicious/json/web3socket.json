@@ -1,5 +1,13 @@
 {
     "name": "web3socket",
     "ecosystem": "pypi",
-    "campaign": "2025-02-web3socket"
+    "campaign": "2025-02-web3socket",
+    "affected_versions": [
+        "0.0.1",
+        "0.1.0",
+        "0.1.1",
+        "0.1.2",
+        "0.1.3",
+        "0.1.4"
+    ]
 }

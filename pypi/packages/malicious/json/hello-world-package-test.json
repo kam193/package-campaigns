@@ -1,5 +1,8 @@
 {
     "name": "hello-world-package-test",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest"
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "0.1"
+    ]
 }

@@ -1,5 +1,11 @@
 {
     "name": "phishermanx",
     "ecosystem": "pypi",
-    "campaign": "2025-06-phishermanx"
+    "campaign": "2025-06-phishermanx",
+    "affected_versions": [
+        "4.0.1",
+        "4.0.2",
+        "4.0.3",
+        "4.0.4"
+    ]
 }

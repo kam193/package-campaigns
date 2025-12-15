@@ -1,5 +1,9 @@
 {
     "name": "fast-dler",
     "ecosystem": "pypi",
-    "campaign": "2024-11-fast-dler"
+    "campaign": "2024-11-fast-dler",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.0"
+    ]
 }

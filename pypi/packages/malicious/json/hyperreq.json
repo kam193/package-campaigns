@@ -1,5 +1,6 @@
 {
     "name": "hyperreq",
     "ecosystem": "pypi",
-    "campaign": "2024-09-hyperreq"
+    "campaign": "2024-09-hyperreq",
+    "affected_versions": []
 }

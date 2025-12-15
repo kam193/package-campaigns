@@ -11,15 +11,13 @@
                 "name": "fhetalib",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.4.8.8",
+                "1.4.8.9",
+                "1.4.9.0",
+                "1.5.0.0",
+                "1.6.0.0",
+                "1.7.0.0"
             ]
         }
     ],

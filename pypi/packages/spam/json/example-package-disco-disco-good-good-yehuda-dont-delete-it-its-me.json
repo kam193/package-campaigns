@@ -1,5 +1,8 @@
 {
     "name": "example-package-disco-disco-good-good-yehuda-dont-delete-it-its-me",
     "ecosystem": "pypi",
-    "campaign": "SCRIPT_KIDDIE-exploring-suspicious-behaviour"
+    "campaign": "SCRIPT_KIDDIE-exploring-suspicious-behaviour",
+    "affected_versions": [
+        "99.99.4"
+    ]
 }

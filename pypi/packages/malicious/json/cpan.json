@@ -1,5 +1,10 @@
 {
     "name": "cpan",
     "ecosystem": "pypi",
-    "campaign": "2025-06-cpan"
+    "campaign": "2025-06-cpan",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+    ]
 }

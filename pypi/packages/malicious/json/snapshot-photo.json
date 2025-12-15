@@ -1,5 +1,8 @@
 {
     "name": "snapshot-photo",
     "ecosystem": "pypi",
-    "campaign": "2025-02-alicloud-client"
+    "campaign": "2025-02-alicloud-client",
+    "affected_versions": [
+        "0.0.3"
+    ]
 }

@@ -1,5 +1,9 @@
 {
     "name": "pyvirus",
     "ecosystem": "pypi",
-    "campaign": "2025-03-pyvirus"
+    "campaign": "2025-03-pyvirus",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ]
 }

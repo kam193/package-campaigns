@@ -11,15 +11,14 @@
                 "name": "nexlang",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "1.3.1",
+                "1.0",
+                "1.1",
+                "1.2",
+                "1.3",
+                "1.3.2",
+                "1.3.3"
             ]
         }
     ],

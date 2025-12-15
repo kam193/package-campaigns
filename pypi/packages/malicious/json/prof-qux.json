@@ -2,6 +2,12 @@
     "name": "prof-qux",
     "ecosystem": "pypi",
     "campaign": "2025-07-prof-quotex",
+    "affected_versions": [
+        "0.0.2",
+        "0.0.1",
+        "0.0.3",
+        "0.0.4"
+    ],
     "campaign_assigned_at": "2025-07-26T15:02:22.743614+00:00",
     "campaign_data_modified_at": "2025-07-26T15:02:22.743626+00:00"
 }

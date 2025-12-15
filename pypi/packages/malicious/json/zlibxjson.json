@@ -1,5 +1,9 @@
 {
     "name": "zlibxjson",
     "ecosystem": "pypi",
-    "campaign": "zlibxjson-discord-cookies"
+    "campaign": "zlibxjson-discord-cookies",
+    "affected_versions": [
+        "8.1",
+        "8.2"
+    ]
 }

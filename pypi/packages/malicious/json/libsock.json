@@ -1,5 +1,9 @@
 {
     "name": "libsock",
     "ecosystem": "pypi",
-    "campaign": "2023-11-update-information-endpoint"
+    "campaign": "2023-11-update-information-endpoint",
+    "affected_versions": [
+        "1.1.0",
+        "1.1.3"
+    ]
 }

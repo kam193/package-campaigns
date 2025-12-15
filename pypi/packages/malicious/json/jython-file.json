@@ -1,5 +1,10 @@
 {
     "name": "jython-file",
     "ecosystem": "pypi",
-    "campaign": "2025-07-jython-file"
+    "campaign": "2025-07-jython-file",
+    "affected_versions": [
+        "0.999999999",
+        "0.9999999999",
+        "1.99999999999"
+    ]
 }

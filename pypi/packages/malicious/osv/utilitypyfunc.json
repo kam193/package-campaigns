@@ -11,15 +11,11 @@
                 "name": "utilitypyfunc",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.1.0",
+                "0.3.0",
+                "0.4.0",
+                "0.5.0"
             ]
         }
     ],

@@ -1,5 +1,9 @@
 {
     "name": "dcbotoffline3",
     "ecosystem": "pypi",
-    "campaign": "2025-02-dcbot-online"
+    "campaign": "2025-02-dcbot-online",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0"
+    ]
 }

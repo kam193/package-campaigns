@@ -1,5 +1,8 @@
 {
     "name": "asynchelpers",
     "ecosystem": "pypi",
-    "campaign": "2025-01-asynchelpers"
+    "campaign": "2025-01-asynchelpers",
+    "affected_versions": [
+        "1.2.0"
+    ]
 }

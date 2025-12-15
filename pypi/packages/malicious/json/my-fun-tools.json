@@ -1,5 +1,9 @@
 {
     "name": "my-fun-tools",
     "ecosystem": "pypi",
-    "campaign": "2025-06-my-fun-tools"
+    "campaign": "2025-06-my-fun-tools",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.2"
+    ]
 }

@@ -1,0 +1,11 @@
+{
+    "name": "loguru-utf8",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-loguru-utf8",
+    "affected_versions": [
+        "0.7.3",
+        "0.7.4"
+    ],
+    "campaign_assigned_at": "2025-12-10T17:02:23.953822+00:00",
+    "campaign_data_modified_at": "2025-12-10T18:41:58.634419+00:00"
+}

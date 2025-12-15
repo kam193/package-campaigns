@@ -1,5 +1,9 @@
 {
     "name": "colorbytes",
     "ecosystem": "pypi",
-    "campaign": "2024-08-old-colorbytes"
+    "campaign": "2024-08-old-colorbytes",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.0"
+    ]
 }

@@ -1,5 +1,8 @@
 {
     "name": "bsb-2025",
     "ecosystem": "pypi",
-    "campaign": "2025-04-blackspammerbd-vx1"
+    "campaign": "2025-04-blackspammerbd-vx1",
+    "affected_versions": [
+        "1.0.0"
+    ]
 }

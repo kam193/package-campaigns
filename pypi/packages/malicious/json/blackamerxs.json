@@ -1,5 +1,8 @@
 {
     "name": "blackamerxs",
     "ecosystem": "pypi",
-    "campaign": "2024-11-blackamerxs"
+    "campaign": "2024-11-blackamerxs",
+    "affected_versions": [
+        "0.1"
+    ]
 }

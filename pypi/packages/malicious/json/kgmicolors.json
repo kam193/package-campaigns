@@ -1,5 +1,9 @@
 {
     "name": "kgmicolors",
     "ecosystem": "pypi",
-    "campaign": "2025-02-kgmicolors"
+    "campaign": "2025-02-kgmicolors",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ]
 }

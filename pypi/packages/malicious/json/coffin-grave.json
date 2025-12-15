@@ -1,5 +1,8 @@
 {
     "name": "coffin-grave",
     "ecosystem": "pypi",
-    "campaign": "2024-08-old-coffins-tunnel"
+    "campaign": "2024-08-old-coffins-tunnel",
+    "affected_versions": [
+        "7.0"
+    ]
 }

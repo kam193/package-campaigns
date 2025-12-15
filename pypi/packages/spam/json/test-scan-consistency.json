@@ -2,6 +2,9 @@
     "name": "test-scan-consistency",
     "ecosystem": "pypi",
     "campaign": "2025-07-vibehat",
+    "affected_versions": [
+        "1.0.0"
+    ],
     "campaign_assigned_at": "2025-07-21T20:50:27.648980+00:00",
     "campaign_data_modified_at": "2025-07-21T20:50:27.648989+00:00"
 }

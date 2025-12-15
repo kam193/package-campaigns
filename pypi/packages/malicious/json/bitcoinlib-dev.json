@@ -1,5 +1,13 @@
 {
     "name": "bitcoinlib-dev",
     "ecosystem": "pypi",
-    "campaign": "2025-03-bitcoinlibdbfix"
+    "campaign": "2025-03-bitcoinlibdbfix",
+    "affected_versions": [
+        "0.4.16",
+        "0.4.17",
+        "0.4.18",
+        "0.4.19",
+        "0.4.20",
+        "0.4.21"
+    ]
 }

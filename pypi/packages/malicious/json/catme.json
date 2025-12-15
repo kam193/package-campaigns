@@ -1,5 +1,8 @@
 {
     "name": "catme",
     "ecosystem": "pypi",
-    "campaign": "2023-12-09-papiculo"
+    "campaign": "2023-12-09-papiculo",
+    "affected_versions": [
+        "1.0"
+    ]
 }

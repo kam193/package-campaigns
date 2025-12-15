@@ -1,5 +1,10 @@
 {
     "name": "bibit",
     "ecosystem": "pypi",
-    "campaign": "2024-09-bitbit"
+    "campaign": "2024-09-bitbit",
+    "affected_versions": [
+        "8.1.4",
+        "8.1.9",
+        "8.1.5"
+    ]
 }

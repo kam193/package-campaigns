@@ -1,5 +1,13 @@
 {
     "name": "mlc-llm-nightly",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest"
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "99.99.99",
+        "99.99.100",
+        "99.99.101",
+        "99.99.102",
+        "99.99.103",
+        "99.99.105"
+    ]
 }

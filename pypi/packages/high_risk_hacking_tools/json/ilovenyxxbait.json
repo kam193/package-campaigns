@@ -1,5 +1,8 @@
 {
     "name": "ilovenyxxbait",
     "ecosystem": "pypi",
-    "campaign": "2024-12-xbait"
+    "campaign": "2024-12-xbait",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

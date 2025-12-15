@@ -2,6 +2,17 @@
     "name": "graphdict",
     "ecosystem": "pypi",
     "campaign": "2025-07-graphdict",
+    "affected_versions": [
+        "3.4.2",
+        "3.4.0",
+        "3.4.6",
+        "3.4.8",
+        "3.4.11",
+        "3.4.10",
+        "3.4.12",
+        "3.4.13",
+        "3.4.14"
+    ],
     "campaign_assigned_at": "2025-07-09T18:18:10.916012+00:00",
     "campaign_data_modified_at": "2025-07-09T18:18:10.916028+00:00"
 }

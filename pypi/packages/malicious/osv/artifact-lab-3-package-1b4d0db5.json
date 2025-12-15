@@ -11,15 +11,12 @@
                 "name": "artifact-lab-3-package-1b4d0db5",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.2.0",
+                "0.2.2",
+                "0.3.0",
+                "0.2.3",
+                "0.2.4"
             ]
         }
     ],

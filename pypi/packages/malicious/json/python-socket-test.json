@@ -1,5 +1,12 @@
 {
     "name": "python-socket-test",
     "ecosystem": "pypi",
-    "campaign": "2025-03-python-socket-test"
+    "campaign": "2025-03-python-socket-test",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.1.1",
+        "2.0.0",
+        "2.0.1"
+    ]
 }

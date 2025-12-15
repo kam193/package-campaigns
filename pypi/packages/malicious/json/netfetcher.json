@@ -1,5 +1,8 @@
 {
     "name": "netfetcher",
     "ecosystem": "pypi",
-    "campaign": "2024-07-vaaai-netflixchecker"
+    "campaign": "2024-07-vaaai-netflixchecker",
+    "affected_versions": [
+        "1.7.5"
+    ]
 }

@@ -11,15 +11,8 @@
                 "name": "saywhut11122",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "0.0.1"
             ]
         }
     ],

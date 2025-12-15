@@ -1,5 +1,10 @@
 {
     "name": "transaction-analyze",
     "ecosystem": "pypi",
-    "campaign": "2025-02-coinanalyze"
+    "campaign": "2025-02-coinanalyze",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.3",
+        "1.0.4"
+    ]
 }

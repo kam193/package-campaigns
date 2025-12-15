@@ -1,5 +1,8 @@
 {
     "name": "m5tlnyakblwa",
     "ecosystem": "pypi",
-    "campaign": "2025-05-coloramashowtemp "
+    "campaign": "2025-05-coloramashowtemp ",
+    "affected_versions": [
+        "0.1.0"
+    ]
 }

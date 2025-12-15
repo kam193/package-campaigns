@@ -1,0 +1,21 @@
+{
+    "name": "2025-12-loguru-utf8",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "native-extension",
+        "obfuscation",
+        "typosquatting"
+    ],
+    "packages": [
+        "jsonschema-utf8",
+        "loguru-utf8"
+    ],
+    "created_at": "2025-12-10",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/da48508c771e9a12a4a235660800683f1df40d90b814df9c6e35a8713017f363/detection"
+    ],
+    "description": "Package clones a popular package (loguru, jsonschema, ...). While it claims to have some additional features, the real change is an added compiled native library which is silently loaded in the background during the importing of the module. The exact behavior is unknown, but the binary is obfuscated "
+}

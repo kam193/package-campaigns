@@ -2,6 +2,9 @@
     "name": "prof-tgqu",
     "ecosystem": "pypi",
     "campaign": "2025-07-prof-quotex",
+    "affected_versions": [
+        "1"
+    ],
     "campaign_assigned_at": "2025-07-25T12:13:44.938563+00:00",
     "campaign_data_modified_at": "2025-07-25T12:13:44.938575+00:00"
 }

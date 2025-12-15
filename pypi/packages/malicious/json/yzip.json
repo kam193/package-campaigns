@@ -1,0 +1,10 @@
+{
+    "name": "yzip",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-uzip",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2025-12-11T15:53:42.930747+00:00",
+    "campaign_data_modified_at": "2025-12-11T15:53:42.930767+00:00"
+}

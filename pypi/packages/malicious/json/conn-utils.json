@@ -1,5 +1,9 @@
 {
     "name": "conn-utils",
     "ecosystem": "pypi",
-    "campaign": "2025-03-conn-utils"
+    "campaign": "2025-03-conn-utils",
+    "affected_versions": [
+        "1.6.10",
+        "1.6.11"
+    ]
 }

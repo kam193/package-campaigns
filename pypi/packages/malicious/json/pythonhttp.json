@@ -1,5 +1,8 @@
 {
     "name": "pythonhttp",
     "ecosystem": "pypi",
-    "campaign": "2025-03-pythonhttp"
+    "campaign": "2025-03-pythonhttp",
+    "affected_versions": [
+        "1.0.4"
+    ]
 }

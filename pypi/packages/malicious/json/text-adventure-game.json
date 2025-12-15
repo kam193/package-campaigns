@@ -1,5 +1,11 @@
 {
     "name": "text-adventure-game",
     "ecosystem": "pypi",
-    "campaign": "text-adventure-game-ch-2024-07"
+    "campaign": "text-adventure-game-ch-2024-07",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2",
+        "0.1.3"
+    ]
 }

@@ -2,6 +2,11 @@
     "name": "cryptob",
     "ecosystem": "pypi",
     "campaign": "2025-07-cryptoo",
+    "affected_versions": [
+        "1.6.0",
+        "2.6.0",
+        "2.6.2"
+    ],
     "campaign_assigned_at": "2025-07-09T14:22:18.396534+00:00",
     "campaign_data_modified_at": "2025-07-09T14:22:18.396544+00:00"
 }

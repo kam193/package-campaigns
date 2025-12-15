@@ -11,15 +11,11 @@
                 "name": "transformars",
                 "ecosystem": "PyPI"
             },
-            "ranges": [
-                {
-                    "type": "ECOSYSTEM",
-                    "events": [
-                        {
-                            "introduced": "0"
-                        }
-                    ]
-                }
+            "versions": [
+                "4.42.3.post1",
+                "4.42.3.post2",
+                "4.42.3",
+                "4.42.3.post4"
             ]
         }
     ],

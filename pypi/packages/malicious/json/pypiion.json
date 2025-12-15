@@ -1,5 +1,8 @@
 {
     "name": "pypiion",
     "ecosystem": "pypi",
-    "campaign": "2025-07-0x9xnx"
+    "campaign": "2025-07-0x9xnx",
+    "affected_versions": [
+        "0.1.1"
+    ]
 }
