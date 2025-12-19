@@ -1,0 +1,23 @@
+{
+    "name": "2025-12-foxloveyou",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "connections-api-hidden-runner",
+        "hidden-powershell-runner-ax7"
+    ],
+    "created_at": "2025-12-19",
+    "ioc": [
+        "http://3zoz.duckdns.org:1111/1234",
+        "3zoz.duckdns.org",
+        "http://3zoz.duckdns.org/config"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/cb04d8f744d3df997cf47ce691d6e6e9ad5f6a0d19de70931b5591f2557ab116/summary"
+    ],
+    "description": "Importing the module downloads and starts remote executable identified as malware"
+}
