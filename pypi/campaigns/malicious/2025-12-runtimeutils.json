@@ -1,0 +1,22 @@
+{
+    "name": "2025-12-runtimeutils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "runtimeutils"
+    ],
+    "created_at": "2025-12-21",
+    "ioc": [
+        "89.39.121.49",
+        "http://89.39.121.49:20578/Helper.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/0c54053e82dd2a8b7a4994ee87e8e7a09d697ea189f66e462df5e44cd2914bac"
+    ],
+    "description": "Importing the module, downloads and starts a malicious executable identified as infostealer.\n\nBased on Telegram links, this is related to the 2025-12-synium campaign, but uses slightly different techniques. "
+}
