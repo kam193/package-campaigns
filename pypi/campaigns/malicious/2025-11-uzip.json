@@ -12,6 +12,7 @@
         "kzip",
         "minizip",
         "mzip",
+        "unizip",
         "uuzip",
         "uzip",
         "yzip"
