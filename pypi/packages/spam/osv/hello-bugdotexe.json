@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-12-research-poc4/hello-bugdotexe",
+    "published": "2025-12-22T10:57:04.761942+00:00",
+    "modified": "2025-12-22T10:57:04.761978+00:00",
+    "summary": "Spam code in hello-bugdotexe (PyPI)",
+    "details": "Series of packages without real content, but partially with inappropriate names\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2025-12-research-poc4\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "hello-bugdotexe",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.3.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hello-bugdotexe"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

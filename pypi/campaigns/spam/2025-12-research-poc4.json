@@ -1,0 +1,22 @@
+{
+    "name": "2025-12-research-poc4",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "hello-bugdotexe",
+        "hello-bugdotexe-last",
+        "hello-bugdotexe-last-one",
+        "hello-one",
+        "hello-one-two",
+        "hello-secrets-bugdotexe",
+        "hello-secrets-bugdotexe-test",
+        "hello-secrets-test",
+        "moter-fuder-griffin",
+        "moter-fuder-griffin-pussy",
+        "suck-my-d-pussy"
+    ],
+    "created_at": "2025-12-22",
+    "ioc": [],
+    "references": [],
+    "description": "Series of packages without real content, but partially with inappropriate names"
+}
