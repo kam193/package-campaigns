@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2025-12-aiogram-sever-patch/aiogram-sever-patch",
     "published": "2025-12-25T14:18:44.027379+00:00",
-    "modified": "2025-12-25T14:47:00.746403+00:00",
+    "modified": "2025-12-25T15:14:07.246518+00:00",
     "summary": "Malicious code in aiogram-sever-patch (PyPI)",
     "details": "During installation or importing the module, the package starts a reverse shell to hardcoded locatiom\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-12-aiogram-sever-patch\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - dependency-confusion\n\n",
     "affected": [
@@ -14,7 +14,8 @@
             "versions": [
                 "3.3.8",
                 "3.3.7",
-                "3.3.9"
+                "3.3.9",
+                "3.5.0"
             ]
         }
     ],
