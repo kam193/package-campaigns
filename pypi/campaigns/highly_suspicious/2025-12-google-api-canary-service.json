@@ -1,0 +1,16 @@
+{
+    "name": "2025-12-google-api-canary-service",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "google-api-canary-service"
+    ],
+    "created_at": "2025-12-26",
+    "ioc": [],
+    "references": [],
+    "description": "The \"metric collection\" feature is responsible for exfiltrating basic system data and information from specific SQL tables as well as specific files to a predefined location. While it is suspicious, the package  also expects quite specific config information to be available in the environment, which makes it difficult to understand the intention "
+}
