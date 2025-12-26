@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-10-speedd-testing-bot/telegrem",
+    "published": "2025-12-26T20:03:22.781916+00:00",
+    "modified": "2025-12-26T20:03:22.782009+00:00",
+    "summary": "Malicious code in telegrem (PyPI)",
+    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - rat\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "telegrem",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/telegrem"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/xAT1vudj"
+            ]
+        }
+    }
+}

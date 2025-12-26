@@ -10,7 +10,9 @@
         "rendom",
         "speed-testing-nt",
         "speed-testing-vps",
-        "speedd-testing-bot"
+        "speedd-testing-bot",
+        "telebot-bot",
+        "telegrem"
     ],
     "created_at": "2025-10-28",
     "ioc": [
