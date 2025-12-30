@@ -1,0 +1,39 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/liasdfiosql",
+    "published": "2025-12-30T11:42:41.493774+00:00",
+    "modified": "2025-12-30T11:42:41.493810+00:00",
+    "summary": "Highly suspicious code in liasdfiosql (PyPI)",
+    "details": "The use case is unclear, and the hardcoded webhook to send command results suggests it being a hacking tool.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "liasdfiosql",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.4.2",
+                "0.4.1",
+                "0.4.0",
+                "0.3.0",
+                "0.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/liasdfiosql"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
