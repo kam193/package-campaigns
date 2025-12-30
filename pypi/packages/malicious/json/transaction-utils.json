@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "campaign": "2025-02-transaction-utils",
     "affected_versions": [
-        "0.1.1",
-        "0.1"
+        "0.1",
+        "0.1.1"
     ]
 }

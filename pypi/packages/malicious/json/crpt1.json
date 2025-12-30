@@ -3,11 +3,11 @@
     "ecosystem": "pypi",
     "campaign": "2025-07-crpt",
     "affected_versions": [
-        "1.7.0",
         "1.0.0",
-        "1.9.0",
+        "1.0.2",
+        "1.7.0",
         "1.8.0",
-        "1.0.2"
+        "1.9.0"
     ],
     "campaign_assigned_at": "2025-07-13T13:25:08.432370+00:00",
     "campaign_data_modified_at": "2025-07-13T13:25:08.432435+00:00"

@@ -3,11 +3,11 @@
     "ecosystem": "pypi",
     "campaign": "2025-10-bugdotexe",
     "affected_versions": [
-        "99.0.0",
-        "0.1.6",
-        "0.1.1",
+        "0.1.1a1",
         "0.1.1a2",
-        "0.1.1a1"
+        "0.1.1",
+        "0.1.6",
+        "99.0.0"
     ],
     "campaign_assigned_at": "2025-11-06T08:49:43.472757+00:00",
     "campaign_data_modified_at": "2025-11-06T08:49:43.472793+00:00"

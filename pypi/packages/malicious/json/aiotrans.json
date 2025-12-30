@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2024-08-uconst-old",
     "affected_versions": [
-        "1.0.0",
         "1.0.0rc1",
         "1.0.0rc2",
+        "1.0.0",
         "1.2"
     ]
 }

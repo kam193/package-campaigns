@@ -3,8 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "2025-08-secmeasure",
     "affected_versions": [
-        "0.1.1",
         "0.1.0",
+        "0.1.1",
         "0.1.2"
     ],
     "campaign_assigned_at": "2025-08-03T08:15:27.704486+00:00",

@@ -4,9 +4,9 @@
     "campaign": "2025-07-prof-quotex",
     "affected_versions": [
         "0.0.1",
-        "0.0.4",
         "0.0.2",
         "0.0.3",
+        "0.0.4",
         "0.0.5"
     ],
     "campaign_assigned_at": "2025-07-31T10:02:03.573035+00:00",

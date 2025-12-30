@@ -4,8 +4,8 @@
     "campaign": "2025-12-blank-lib",
     "description": "During importing, a dependency with infostealer is loaded and package attempts to exfiltrate credentials. ",
     "affected_versions": [
-        "22.5.1",
-        "22.5"
+        "22.5",
+        "22.5.1"
     ],
     "campaign_assigned_at": "2025-12-07T00:50:39.178172+00:00",
     "campaign_data_modified_at": "2025-12-07T00:50:39.178299+00:00"

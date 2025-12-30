@@ -3,8 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "2024-12-reqesst",
     "affected_versions": [
-        "3.2.0.dev0",
         "3.1.8.dev0",
-        "3.1.9.dev0"
+        "3.1.9.dev0",
+        "3.2.0.dev0"
     ]
 }

@@ -4,8 +4,8 @@
     "campaign": "GENERIC-other-risky",
     "description": "Package allow remote control over a user's computer, but is not started automatically and requires a token.  ",
     "affected_versions": [
-        "0.2",
-        "0.1"
+        "0.1",
+        "0.2"
     ],
     "campaign_assigned_at": "2025-10-11T14:23:26.918650+00:00",
     "campaign_data_modified_at": "2025-10-11T14:23:26.918666+00:00"

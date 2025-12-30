@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "campaign": "2023-11-update-information-endpoint",
     "affected_versions": [
-        "0.9.3",
-        "0.9.2"
+        "0.9.2",
+        "0.9.3"
     ]
 }

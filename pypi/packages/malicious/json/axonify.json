@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-03-logax",
     "affected_versions": [
+        "1.0",
         "6.2",
         "7.6",
-        "1.0",
         "8.0",
         "8.5",
         "9.0",

@@ -4,8 +4,8 @@
     "campaign": "2025-12-graphnode",
     "description": "In this incarnation, the package is no longer a clone of networkx, but continues to use the same technique to run secretly remote code and cover tracks ",
     "affected_versions": [
-        "0.1.1",
         "0.1.0",
+        "0.1.1",
         "0.1.2",
         "0.1.3"
     ],

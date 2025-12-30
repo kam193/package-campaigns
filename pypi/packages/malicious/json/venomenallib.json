@@ -3,11 +3,11 @@
     "ecosystem": "pypi",
     "campaign": "2025-08-xenlib",
     "affected_versions": [
-        "2.7.0",
-        "0.1.3",
-        "0.1.2",
         "0.1.1",
-        "0.1.3"
+        "0.1.2",
+        "0.1.3",
+        "0.1.3",
+        "2.7.0"
     ],
     "campaign_assigned_at": "2025-09-09T21:59:41.865775+00:00",
     "campaign_data_modified_at": "2025-09-09T22:00:28.233894+00:00"

@@ -4,11 +4,11 @@
     "campaign": "2025-11-spellcheckers",
     "description": "Package contains hidden code that is effectively run during importing and downloads second stage code. Then, a process running in background periodically connects to a remote host and waits for next code to execute",
     "affected_versions": [
-        "1.3.0",
-        "1.2.0",
-        "1.1.1",
-        "1.1.0",
         "1.0.0",
+        "1.1.0",
+        "1.1.1",
+        "1.2.0",
+        "1.3.0",
         "1.4.0",
         "1.5.0"
     ],

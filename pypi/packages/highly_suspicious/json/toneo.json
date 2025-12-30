@@ -3,8 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "2024-12-tonki",
     "affected_versions": [
-        "1.0.0",
         "0.1.0",
+        "1.0.0",
         "1.4.3"
     ]
 }

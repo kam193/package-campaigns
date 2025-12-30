@@ -4,10 +4,10 @@
     "campaign": "2025-08-nexworld",
     "description": "Open-source RAT controlled by Discord bot. ",
     "affected_versions": [
-        "1.0.4",
-        "1.0.3",
+        "1.0.0",
         "1.0.2",
-        "1.0.0"
+        "1.0.3",
+        "1.0.4"
     ],
     "campaign_assigned_at": "2025-09-07T17:11:07.911927+00:00",
     "campaign_data_modified_at": "2025-09-07T17:11:07.911947+00:00"

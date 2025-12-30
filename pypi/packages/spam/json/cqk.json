@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-11-warlockee",
     "affected_versions": [
-        "0.1.7",
+        "0.1.0",
         "0.1.2",
-        "0.1.0"
+        "0.1.7"
     ],
     "campaign_assigned_at": "2025-11-21T21:54:28.691998+00:00",
     "campaign_data_modified_at": "2025-11-21T21:54:28.692017+00:00"

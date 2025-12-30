@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "campaign": "2024-07-adfboba",
     "affected_versions": [
-        "0.5.3.1",
-        "0.5.3"
+        "0.5.3",
+        "0.5.3.1"
     ]
 }

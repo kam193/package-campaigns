@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-12-graphnode",
     "affected_versions": [
-        "1.1.0",
+        "1.0.0",
         "1.0.1",
-        "1.0.0"
+        "1.1.0"
     ],
     "campaign_assigned_at": "2025-12-08T14:14:35.968290+00:00",
     "campaign_data_modified_at": "2025-12-08T14:14:35.968318+00:00"

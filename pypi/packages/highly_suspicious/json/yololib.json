@@ -4,9 +4,9 @@
     "campaign": "GENERIC-other-risky",
     "description": "Package contains an encrypted ZIP with additional code",
     "affected_versions": [
-        "0.1.2",
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.1.2"
     ],
     "campaign_assigned_at": "2025-09-04T13:18:04.340959+00:00",
     "campaign_data_modified_at": "2025-09-04T13:18:04.340976+00:00"

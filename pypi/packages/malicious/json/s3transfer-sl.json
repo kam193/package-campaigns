@@ -3,11 +3,11 @@
     "ecosystem": "pypi",
     "campaign": "2025-04-s3transfer-sl",
     "affected_versions": [
-        "0.12.4",
         "0.12.0",
         "0.12.1",
         "0.12.2",
         "0.12.3",
+        "0.12.4",
         "0.12.5"
     ]
 }

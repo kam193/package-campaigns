@@ -3,10 +3,10 @@
     "ecosystem": "pypi",
     "campaign": "2025-08-etherweb3",
     "affected_versions": [
-        "0.4.2",
-        "0.3.11",
+        "0.3.9",
         "0.3.10",
-        "0.3.9"
+        "0.3.11",
+        "0.4.2"
     ],
     "campaign_assigned_at": "2025-08-21T11:21:42.827082+00:00",
     "campaign_data_modified_at": "2025-08-21T11:21:42.827129+00:00"

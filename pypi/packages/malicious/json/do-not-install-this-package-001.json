@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "GENERIC-questionable-pentest",
     "affected_versions": [
-        "0.1.5",
-        "0.1.4",
         "0.1.3",
+        "0.1.4",
+        "0.1.5",
         "0.1.6"
     ],
     "campaign_assigned_at": "2025-12-09T11:27:51.797746+00:00",

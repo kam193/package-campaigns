@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2024-12-langer-updater",
     "affected_versions": [
-        "1.0.6",
         "1.0.2",
         "1.0.4",
+        "1.0.6",
         "1.0.7",
         "1.0.8"
     ]

@@ -4,11 +4,11 @@
     "campaign": "GENERIC-other-risky",
     "description": "The use case is unclear, and the hardcoded webhook to send command results suggests it being a hacking tool. ",
     "affected_versions": [
-        "0.4.2",
-        "0.4.1",
-        "0.4.0",
+        "0.2.0",
         "0.3.0",
-        "0.2.0"
+        "0.4.0",
+        "0.4.1",
+        "0.4.2"
     ],
     "campaign_assigned_at": "2025-12-30T11:42:41.493774+00:00",
     "campaign_data_modified_at": "2025-12-30T11:42:41.493810+00:00"

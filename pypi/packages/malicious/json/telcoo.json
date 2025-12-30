@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-12-evil-rce",
     "affected_versions": [
-        "1.0.4",
-        "1.0.3",
         "1.0.2",
+        "1.0.3",
+        "1.0.4",
         "1.0.4"
     ],
     "campaign_assigned_at": "2025-12-09T08:05:51.113842+00:00",

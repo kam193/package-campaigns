@@ -4,7 +4,7 @@
     "campaign": "2024-09-spider-ai",
     "affected_versions": [
         "0.1.5",
-        "0.5",
-        "0.4"
+        "0.4",
+        "0.5"
     ]
 }

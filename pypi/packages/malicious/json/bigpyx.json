@@ -4,8 +4,8 @@
     "campaign": "2025-12-graphnode",
     "description": "Continuation of the campaign with a slight different obfuscation of the malicious code, but there seems to be no difference in the behavior. The malicious code is downloaded and executed ",
     "affected_versions": [
-        "0.0.2",
-        "0.0.1"
+        "0.0.1",
+        "0.0.2"
     ],
     "campaign_assigned_at": "2025-12-10T08:44:43.536547+00:00",
     "campaign_data_modified_at": "2025-12-10T08:44:43.536580+00:00"

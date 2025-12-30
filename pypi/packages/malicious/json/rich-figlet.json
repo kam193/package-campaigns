@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "campaign": "2025-05-rich-figlet",
     "affected_versions": [
-        "0.0.2",
-        "0.0.1"
+        "0.0.1",
+        "0.0.2"
     ]
 }

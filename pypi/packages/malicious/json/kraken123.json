@@ -3,10 +3,10 @@
     "ecosystem": "pypi",
     "campaign": "2025-08-kraken-virus",
     "affected_versions": [
-        "0.4.0",
-        "0.3.0",
-        "0.2.0",
         "0.1.0",
+        "0.2.0",
+        "0.3.0",
+        "0.4.0",
         "0.5.0"
     ],
     "campaign_assigned_at": "2025-08-29T12:14:53.541325+00:00",

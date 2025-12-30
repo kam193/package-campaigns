@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "campaign": "2024-08-lab-artifacts-revshell",
     "affected_versions": [
-        "0.1.2",
-        "0.1.1"
+        "0.1.1",
+        "0.1.2"
     ]
 }

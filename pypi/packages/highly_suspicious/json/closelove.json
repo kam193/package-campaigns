@@ -4,15 +4,15 @@
     "campaign": "2025-11-closelove",
     "description": "Package provides features like overcoming captcha on the Android device, extracting files etc. It can be used for automation of tasks, but also as a hacking tool ",
     "affected_versions": [
-        "1.9",
-        "1.8",
-        "1.7",
-        "1.6",
-        "1.5",
-        "1.4",
-        "1.3",
+        "1.0.0",
         "1.2",
-        "1.0.0"
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9"
     ],
     "campaign_assigned_at": "2025-11-12T21:59:24.667916+00:00",
     "campaign_data_modified_at": "2025-11-12T21:59:24.667929+00:00"

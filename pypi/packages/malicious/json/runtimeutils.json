@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-12-runtimeutils",
     "affected_versions": [
-        "1.0.2",
-        "1.0.1",
         "1.0.0",
+        "1.0.1",
+        "1.0.2",
         "1.0.2"
     ],
     "campaign_assigned_at": "2025-12-21T14:03:13.113765+00:00",

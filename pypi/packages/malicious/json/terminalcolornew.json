@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-09-consolecolornew",
     "affected_versions": [
-        "0.0.3",
+        "0.0.1",
         "0.0.2",
-        "0.0.1"
+        "0.0.3"
     ],
     "campaign_assigned_at": "2025-09-16T15:02:38.067202+00:00",
     "campaign_data_modified_at": "2025-09-16T15:02:38.067218+00:00"

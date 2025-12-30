@@ -4,9 +4,9 @@
     "campaign": "2025-07-web3toolkit-base",
     "affected_versions": [
         "0.1.0",
-        "1.1.1",
         "1.0.0",
-        "1.1.0"
+        "1.1.0",
+        "1.1.1"
     ],
     "campaign_assigned_at": "2025-07-10T19:41:11.165923+00:00",
     "campaign_data_modified_at": "2025-07-10T19:41:11.165969+00:00"

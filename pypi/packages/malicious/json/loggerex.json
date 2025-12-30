@@ -4,8 +4,8 @@
     "campaign": "2025-07-loquru",
     "affected_versions": [
         "0.7.4",
-        "0.7.6",
-        "0.7.5"
+        "0.7.5",
+        "0.7.6"
     ],
     "campaign_assigned_at": "2025-08-01T15:57:37.353151+00:00",
     "campaign_data_modified_at": "2025-08-01T15:57:37.353166+00:00"

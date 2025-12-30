@@ -3,9 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-11-BLACK-ZER-0",
     "affected_versions": [
-        "2.6",
         "2.0.0",
-        "2.0.0"
+        "2.0.0",
+        "2.6"
     ],
     "campaign_assigned_at": "2025-11-18T18:14:56.266104+00:00",
     "campaign_data_modified_at": "2025-11-18T18:24:30.543876+00:00"

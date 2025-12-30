@@ -3,7 +3,7 @@
     "ecosystem": "pypi",
     "campaign": "2025-01-Sajode",
     "affected_versions": [
-        "2.5",
-        "1.0"
+        "1.0",
+        "2.5"
     ]
 }

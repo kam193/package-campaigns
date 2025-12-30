@@ -3,11 +3,11 @@
     "ecosystem": "pypi",
     "campaign": "GENERIC-other-risky",
     "affected_versions": [
-        "0.1.4",
-        "0.1.3",
-        "0.1.2",
+        "0.1.0",
         "0.1.1",
-        "0.1.0"
+        "0.1.2",
+        "0.1.3",
+        "0.1.4"
     ],
     "campaign_assigned_at": "2025-08-14T23:05:50.853205+00:00",
     "campaign_data_modified_at": "2025-08-14T23:05:50.853220+00:00"
