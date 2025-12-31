@@ -4,21 +4,26 @@
     "category": "malicious",
     "abuse_categories": [
         "RAT",
-        "remote_script"
+        "remote_script",
+        "typosquatting"
     ],
     "packages": [
+        "aiogrem",
         "pyrogrem",
         "rendom",
         "speed-testing-nt",
         "speed-testing-vps",
         "speedd-testing-bot",
         "telebot-bot",
-        "telegrem"
+        "telegrem",
+        "telegreph"
     ],
     "created_at": "2025-10-28",
     "ioc": [
-        "https://pastebin.com/raw/xAT1vudj"
+        "https://pastebin.com/raw/xAT1vudj",
+        "https://i7trak-id3i.onrender.com",
+        "https://pastebin.com/raw/M3Rh68JJ"
     ],
     "references": [],
-    "description": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer "
+    "description": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer "
 }

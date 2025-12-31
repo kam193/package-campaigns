@@ -1,0 +1,11 @@
+{
+    "name": "telegreph",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "affected_versions": [
+        "0.2",
+        "0.3"
+    ],
+    "campaign_assigned_at": "2025-12-31T15:00:17.235523+00:00",
+    "campaign_data_modified_at": "2025-12-31T15:00:17.235552+00:00"
+}
