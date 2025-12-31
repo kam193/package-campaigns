@@ -1,0 +1,11 @@
+{
+    "name": "requeses",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "description": "Typosquatting package with a Telegram-bot with RAT-like functionality. The code has been changed a bit compared to the previous incarnations, but keeps the same capabilities.",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2025-12-31T16:40:04.938977+00:00",
+    "campaign_data_modified_at": "2025-12-31T16:40:04.938994+00:00"
+}
