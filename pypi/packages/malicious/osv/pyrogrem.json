@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-10-speedd-testing-bot/pyrogrem",
+    "published": "2025-12-31T11:49:56.752399+00:00",
+    "modified": "2025-12-31T11:49:56.752417+00:00",
+    "summary": "Malicious code in pyrogrem (PyPI)",
+    "details": "The package, distinguished as a speed testing, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - rat\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pyrogrem",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyrogrem"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/xAT1vudj"
+            ]
+        }
+    }
+}
