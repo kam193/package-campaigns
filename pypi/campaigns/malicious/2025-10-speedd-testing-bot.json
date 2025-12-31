@@ -10,6 +10,7 @@
     "packages": [
         "aiogrem",
         "pyrogrem",
+        "pyrogrqm",
         "rendom",
         "speed-testing-nt",
         "speed-testing-vps",
