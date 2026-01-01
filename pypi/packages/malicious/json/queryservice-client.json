@@ -1,0 +1,12 @@
+{
+    "name": "queryservice-client",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "description": "Dependency confusion PoC that exfiltrates also potentially sensitive environment variables",
+    "affected_versions": [
+        "0.1.0",
+        "2.3.2"
+    ],
+    "campaign_assigned_at": "2026-01-01T18:40:28.004220+00:00",
+    "campaign_data_modified_at": "2026-01-01T18:40:28.004237+00:00"
+}
