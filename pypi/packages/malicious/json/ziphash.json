@@ -1,0 +1,10 @@
+{
+    "name": "ziphash",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-uzip",
+    "affected_versions": [
+        "0.1.5"
+    ],
+    "campaign_assigned_at": "2026-01-01T22:08:29.251771+00:00",
+    "campaign_data_modified_at": "2026-01-01T22:08:29.251788+00:00"
+}

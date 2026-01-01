@@ -17,7 +17,8 @@
         "unizip",
         "uuzip",
         "uzip",
-        "yzip"
+        "yzip",
+        "ziphash"
     ],
     "created_at": "2025-11-22",
     "ioc": [
