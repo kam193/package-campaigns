@@ -2,6 +2,7 @@
     "name": "pdatainstaller",
     "ecosystem": "pypi",
     "campaign": "2025-12-pdatainstaller",
+    "description": "Package is designed to download and execute a remote script, but the script itself seems to be broken (missing or wrong URLs). It's most probably a test before next packages with real malicious content.",
     "affected_versions": [
         "1.0.0"
     ],
