@@ -1,0 +1,10 @@
+{
+    "name": "chrome-stealth",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-ambertransit",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-01-03T13:25:21.755601+00:00",
+    "campaign_data_modified_at": "2026-01-03T13:25:21.755617+00:00"
+}

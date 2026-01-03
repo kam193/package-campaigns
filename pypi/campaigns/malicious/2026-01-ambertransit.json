@@ -1,0 +1,20 @@
+{
+    "name": "2026-01-ambertransit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "modify-system-without-consent",
+        "other"
+    ],
+    "packages": [
+        "chrome-stealth"
+    ],
+    "created_at": "2026-01-03",
+    "ioc": [
+        "ambertransit.com",
+        "proxly.cc",
+        "peers.proxly.cc"
+    ],
+    "references": [],
+    "description": "By using the package, the computer is attached to participate in a proxy network and share its IP and bandwidth. This is clearly stated, but the package has no real functionality besides that. Additionally, the stated proxy network seems extremely shady: the domain was just registered, is closely similar to a long-existing service, and offers residential proxy only for cryptocurrencies. The company mentioned in the package information does not have a website, and the proposed way to opt-out does not work."
+}
