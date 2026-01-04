@@ -1,0 +1,31 @@
+{
+    "name": "2026-01-aiihttp",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "covering-tracks",
+        "cryptominer",
+        "malware",
+        "obfuscation",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "aiihttp",
+        "aiohtto",
+        "aoohttp",
+        "auohttp"
+    ],
+    "created_at": "2026-01-04",
+    "ioc": [
+        "https://github.com/ffoundation7/mscur2/raw/refs/heads/main/data_3.bin",
+        "https://github.com/ffoundation7/mscur",
+        "https://github.com/ffoundation7/mscur2"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/68d0f3934245cba3741079b16cc93b98bf73101fdebf3dfc666d1eda22f997f1/behavior",
+        "https://tria.ge/260104-xc563asncq/static1",
+        "https://tria.ge/260104-w59jhswlgt/static1"
+    ],
+    "description": "Obfuscated code downloads an encrypted binary blob, which is malware finally starting cryptomining. After starting the malware, the Python package uninstall itself and installs the legitimate package, covering tracks of the infection."
+}

@@ -1,0 +1,10 @@
+{
+    "name": "auohttp",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-aiihttp",
+    "affected_versions": [
+        "3.13.3"
+    ],
+    "campaign_assigned_at": "2026-01-04T18:49:17.544711+00:00",
+    "campaign_data_modified_at": "2026-01-04T18:49:17.544726+00:00"
+}
