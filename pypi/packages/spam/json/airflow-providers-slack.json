@@ -1,0 +1,10 @@
+{
+    "name": "airflow-providers-slack",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-marvelmaniac",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-04T20:03:57.274826+00:00",
+    "campaign_data_modified_at": "2026-01-04T20:03:57.274842+00:00"
+}

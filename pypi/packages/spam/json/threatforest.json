@@ -1,0 +1,10 @@
+{
+    "name": "threatforest",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-marvelmaniac",
+    "affected_versions": [
+        "1.0.9"
+    ],
+    "campaign_assigned_at": "2026-01-04T20:04:13.715221+00:00",
+    "campaign_data_modified_at": "2026-01-04T20:04:13.715251+00:00"
+}

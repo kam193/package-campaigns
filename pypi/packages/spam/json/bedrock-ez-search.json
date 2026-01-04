@@ -1,0 +1,10 @@
+{
+    "name": "bedrock-ez-search",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-marvelmaniac",
+    "affected_versions": [
+        "9.0.9"
+    ],
+    "campaign_assigned_at": "2026-01-04T20:05:01.904789+00:00",
+    "campaign_data_modified_at": "2026-01-04T20:05:01.904806+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "python-cors",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-marvelmaniac",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-04T20:03:39.546007+00:00",
+    "campaign_data_modified_at": "2026-01-04T20:03:39.546029+00:00"
+}

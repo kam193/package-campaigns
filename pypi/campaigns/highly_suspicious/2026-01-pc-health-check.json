@@ -1,0 +1,17 @@
+{
+    "name": "2026-01-pc-health-check",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "modify-system-without-consent"
+    ],
+    "packages": [
+        "pc-health-check"
+    ],
+    "created_at": "2026-01-04",
+    "ioc": [
+        "45.67.85.18"
+    ],
+    "references": [],
+    "description": "Code promises monitoring system health, but at the same time, establishes a reverse tunnel to a remote host, exposing local SSH through the remote host. However, it does not manipulate the local authorization meaning the remote user still has to possess credentials to connect. It's unclear if it's a malicious intention or just unclear description"
+}
