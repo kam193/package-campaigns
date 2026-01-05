@@ -1,0 +1,31 @@
+{
+    "name": "2026-01-gztensor-cli",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "backdoor",
+        "clones_real_package",
+        "crypto-related",
+        "infostealer",
+        "obfuscation",
+        "peristence_autorun",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "gztensor-cli"
+    ],
+    "created_at": "2026-01-05",
+    "ioc": [
+        "https://bitensor.xyz/realtek.sh",
+        "bitensor.xyz",
+        "cameradriver.pro",
+        "23.227.203.99:8080",
+        "23.227.203.99"
+    ],
+    "references": [
+        "https://dmpdump.github.io/posts/NorthKorea_Backdoor_Stealer/"
+    ],
+    "description": "Package clones a legitimate library and adds a hidden code that downloads a malicious script. The script then downloads an archive with malicious executable in the version appropriate to the system architecture, and ensures persistency by adding automatically started service entries. The remote code is a Go-based inforstealer and backdoor previously attributed to Nordkorean cybercrime activities"
+}
