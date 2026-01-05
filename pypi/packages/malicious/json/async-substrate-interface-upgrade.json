@@ -1,0 +1,11 @@
+{
+    "name": "async-substrate-interface-upgrade",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-gztensor-cli",
+    "description": "This is a typosquatting/dependency confusion package that is part of a campaign embedding malicious code but was found before the malicious code was injected. The original, legitimate package is https://pypi.org/project/celium-collateral/ The uploader proved malicious intentions in the gztensor-cli package\n \nPackages in this campaign clone a legitimate library and add a hidden code that downloads a malicious script. The script then downloads an archive with malicious executable in the version appropriate to the system architecture, and ensures persistency by adding automatically started service entries. The remote code is a Go-based inforstealer and backdoor previously attributed to Nordkorean cybercrime activities. In this campaign, the malicious code is not immediately introduced in the typosquatted package, but added with an update.",
+    "affected_versions": [
+        "1.5.17"
+    ],
+    "campaign_assigned_at": "2026-01-05T17:33:17.656752+00:00",
+    "campaign_data_modified_at": "2026-01-05T17:33:17.656801+00:00"
+}
