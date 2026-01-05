@@ -1,0 +1,10 @@
+{
+    "name": "pyrogrom",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "affected_versions": [
+        "0.3"
+    ],
+    "campaign_assigned_at": "2026-01-05T01:09:06.719159+00:00",
+    "campaign_data_modified_at": "2026-01-05T01:09:06.719179+00:00"
+}
