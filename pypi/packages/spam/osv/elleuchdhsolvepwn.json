@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-01-elleuch/elleuchdhsolvepwn",
+    "published": "2026-01-05T18:48:26.085659+00:00",
+    "modified": "2026-01-05T18:48:26.085686+00:00",
+    "summary": "Spam code in elleuchdhsolvepwn (PyPI)",
+    "details": "Package exfiltrates content of `/flag*` files to a hardcoded remote location. There is no other functionality, which suggests it's probably related to some kind of CTF and does not present risk to other users.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-01-elleuch\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "elleuchdhsolvepwn",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/elleuchdhsolvepwn"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "qblvyk0b.instances.httpworkbench.com"
+            ]
+        }
+    }
+}

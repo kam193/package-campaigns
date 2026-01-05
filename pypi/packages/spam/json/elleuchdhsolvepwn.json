@@ -1,0 +1,10 @@
+{
+    "name": "elleuchdhsolvepwn",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-elleuch",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-05T18:48:26.085659+00:00",
+    "campaign_data_modified_at": "2026-01-05T18:48:26.085686+00:00"
+}
