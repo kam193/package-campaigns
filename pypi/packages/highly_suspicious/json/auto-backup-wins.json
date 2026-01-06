@@ -1,0 +1,11 @@
+{
+    "name": "auto-backup-wins",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-auto-backup",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2026-01-05T23:49:57.152087+00:00",
+    "campaign_data_modified_at": "2026-01-05T23:49:57.152110+00:00"
+}

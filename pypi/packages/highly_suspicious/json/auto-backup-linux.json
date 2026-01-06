@@ -1,0 +1,12 @@
+{
+    "name": "auto-backup-linux",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-auto-backup",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3"
+    ],
+    "campaign_assigned_at": "2026-01-05T23:50:47.659978+00:00",
+    "campaign_data_modified_at": "2026-01-05T23:50:47.659994+00:00"
+}
