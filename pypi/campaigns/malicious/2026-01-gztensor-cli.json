@@ -18,7 +18,8 @@
         "celium-collateral-upgrade",
         "gztensor-cli",
         "lium-4-96",
-        "lium-io-gztensor"
+        "lium-io-gztensor",
+        "testingpy"
     ],
     "created_at": "2026-01-05",
     "ioc": [
