@@ -2,7 +2,7 @@
     "name": "gztensor-cli",
     "ecosystem": "pypi",
     "campaign": "2026-01-gztensor-cli",
-    "description": "Package clones a legitimate library and adds a hidden code that downloads a malicious script. The script then downloads an archive with malicious executable in the version appropriate to the system architecture, and ensures persistency by adding automatically started service entries. The remote code is a Go-based inforstealer and backdoor previously attributed to Nordkorean cybercrime activities.\n\nThe malicious code was introduced in version 0.1.1.",
+    "description": "Package clones a legitimate library and adds a hidden code that downloads a malicious script. The script then downloads an archive with malicious executable in the version appropriate to the system architecture, and ensures persistency by adding automatically started service entries. The remote code is a Go-based inforstealer and backdoor previously attributed to Nordkorean cybercrime activities.\n\nThe malicious code was introduced in version 0.1.1. Besides an infostealer, the package modifies the cloned Bittensor library to collect keys.",
     "affected_versions": [
         "0.0.1",
         "0.0.2",

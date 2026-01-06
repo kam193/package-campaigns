@@ -2,6 +2,7 @@
     "name": "testingpy",
     "ecosystem": "pypi",
     "campaign": "2026-01-gztensor-cli",
+    "description": "Package clones a legitimate library and adds a hidden code that downloads a malicious script. The script then downloads an archive with malicious executable in the version appropriate to the system architecture, and ensures persistency by adding automatically started service entries. The remote code is a Go-based inforstealer and backdoor previously attributed to Northkorean cybercrime activities. In this campaign, the malicious code is not immediately introduced in the typosquatted package, but added with an update.\n\nBesides an infostealer, the package modifies the cloned Bittensor library to collect keys.",
     "affected_versions": [
         "0.1.3"
     ],
