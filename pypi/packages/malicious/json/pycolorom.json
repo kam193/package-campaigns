@@ -1,0 +1,10 @@
+{
+    "name": "pycolorom",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-01-06T14:21:10.809763+00:00",
+    "campaign_data_modified_at": "2026-01-06T14:21:10.810094+00:00"
+}

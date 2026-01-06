@@ -9,6 +9,7 @@
     ],
     "packages": [
         "aiogrem",
+        "pycolorom",
         "pyrogrem",
         "pyrogrom",
         "pyrogrqm",
