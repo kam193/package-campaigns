@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-01-pc-health-check/pc-health-check",
     "published": "2026-01-04T20:28:11.207676+00:00",
-    "modified": "2026-01-06T00:03:20.696359+00:00",
+    "modified": "2026-01-06T01:27:36.200746+00:00",
     "summary": "Highly suspicious code in pc-health-check (PyPI)",
     "details": "Code promises monitoring system health, but at the same time, establishes a reverse tunnel to a remote host, exposing local SSH through the remote host. However, it does not manipulate the local authorization meaning the remote user still has to possess credentials to connect. It's unclear if it's a malicious intention or just unclear description\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-01-pc-health-check\n\n\nReasons (based on the campaign):\n\n\n - modify-system-without-consent\n\n",
     "affected": [
@@ -18,7 +18,10 @@
                 "1.0.3",
                 "1.0.4",
                 "1.0.5",
-                "1.0.6"
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9"
             ]
         }
     ],
