@@ -1,0 +1,14 @@
+{
+    "name": "codefrequencychecker",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-codefrequencychecker",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3",
+        "0.0.5",
+        "0.0.7"
+    ],
+    "campaign_assigned_at": "2026-01-07T10:05:21.320551+00:00",
+    "campaign_data_modified_at": "2026-01-07T10:05:21.320568+00:00"
+}

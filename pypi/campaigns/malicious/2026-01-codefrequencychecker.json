@@ -1,0 +1,17 @@
+{
+    "name": "2026-01-codefrequencychecker",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "codefrequencychecker"
+    ],
+    "created_at": "2026-01-07",
+    "ioc": [],
+    "references": [],
+    "description": "Package exfiltrates browser cookies and passwords, and starts a Telegram bot allowing re-exfiltrating later. "
+}
