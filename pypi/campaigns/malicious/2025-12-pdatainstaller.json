@@ -8,6 +8,7 @@
         "remote_script"
     ],
     "packages": [
+        "lnatainstaller",
         "pdatainstaller",
         "qdatainstaller"
     ],
@@ -15,7 +16,8 @@
     "ioc": [
         "https://pastebin.com/raw/s5WB7EtG",
         "https://pastebin.com/raw/c3uYVYbT",
-        "https://github.com/uunnkknnoowwnn/dang/raw/refs/heads/main/svchost.exe"
+        "https://github.com/uunnkknnoowwnn/dang/raw/refs/heads/main/svchost.exe",
+        "https://github.com/yoseffalrg-droid/Reall/raw/refs/heads/main/svchost.exe"
     ],
     "references": [
         "https://www.virustotal.com/gui/file-analysis/NzcxYTcyZDQxMzc0ZDUwNTk4MDY4OTE3Y2U3MzdhNDY6MTc2NzQwMTQwOQ=="
