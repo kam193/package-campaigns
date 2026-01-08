@@ -1,0 +1,13 @@
+{
+    "name": "btcli-security",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-gztensor-cli",
+    "description": "Package clones a legitimate bittensor-cli library and adds a hidden code that downloads a malicious script. The script then downloads an archive with malicious executable in the version appropriate to the system architecture, and ensures persistency by adding automatically started service entries. The remote code is a Go-based inforstealer and backdoor previously attributed to Northkorean cybercrime activities. Additionally, the library is modified to save sensitive keys in plaintext for further extraction ",
+    "affected_versions": [
+        "1.1.0",
+        "1.1.1",
+        "1.1.2"
+    ],
+    "campaign_assigned_at": "2026-01-08T10:55:10.111110+00:00",
+    "campaign_data_modified_at": "2026-01-08T10:55:10.111128+00:00"
+}

@@ -15,6 +15,7 @@
     ],
     "packages": [
         "async-substrate-interface-upgrade",
+        "btcli-security",
         "celium-collateral-upgrade",
         "gztensor-cli",
         "lium-4-96",
