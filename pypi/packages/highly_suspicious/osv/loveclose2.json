@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-closelove/loveclose2",
+    "published": "2026-01-09T08:22:08.908325+00:00",
+    "modified": "2026-01-09T08:22:08.908353+00:00",
+    "summary": "Highly suspicious code in loveclose2 (PyPI)",
+    "details": "Suspicious package allowing manipulating data on an Android devices and with hardcoded exfiltration targets, but it does not activate automatically\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-11-closelove\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - target:android\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "loveclose2",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/loveclose2"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://172.86.88.118:9847"
+            ]
+        }
+    }
+}
