@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2025-11-closelove/loveahmedclose",
     "published": "2026-01-09T21:15:19.792437+00:00",
-    "modified": "2026-01-09T21:15:19.792454+00:00",
+    "modified": "2026-01-10T07:17:01.187789+00:00",
     "summary": "Highly suspicious code in loveahmedclose (PyPI)",
     "details": "Suspicious package allowing manipulating data on an Android devices and with hardcoded exfiltration targets, but it does not activate automatically\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-11-closelove\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - target:android\n\n",
     "affected": [
@@ -12,7 +12,8 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.0.1"
+                "0.0.1",
+                "0.0.2"
             ]
         }
     ],
