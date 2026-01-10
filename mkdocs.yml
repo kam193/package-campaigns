@@ -8,6 +8,7 @@ copyright: |
 
 theme:
   name: material
+  custom_dir: overrides
   icon:
     logo: material/package-variant-closed-remove
   features:

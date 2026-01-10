@@ -2,7 +2,7 @@ compile-deps:
 	pip-compile requirements.in
 
 install:
-	pip install -r requirements.txt
+	uv pip install -r requirements.txt
 
 serve:
 	mkdocs serve
