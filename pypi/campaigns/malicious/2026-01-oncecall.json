@@ -1,0 +1,26 @@
+{
+    "name": "2026-01-oncecall",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "oncecall"
+    ],
+    "created_at": "2026-01-10",
+    "ioc": [
+        "python-modules.netlify.app",
+        "# extracted in sandbox",
+        "still-paper-8832.samjango.workers.dev",
+        "https://python-modules.netlify.app/module1",
+        "https://python-modules.netlify.app/module2"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/146275dfb0c908097bc37eb8c38de6a7f720a0a25aa1423a182ac873601880c3/detection",
+        "https://tria.ge/260110-p4hwvagv5a/behavioral1"
+    ],
+    "description": "Package silently downloads and executes an infostealer"
+}
