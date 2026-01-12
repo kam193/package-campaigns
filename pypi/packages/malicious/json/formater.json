@@ -1,0 +1,12 @@
+{
+    "name": "formater",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "description": "During importing the package automatically downloads a script that uses a Telegram bot to perform remote control over the computer",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-01-12T23:05:42.812384+00:00",
+    "campaign_data_modified_at": "2026-01-12T23:05:42.812403+00:00"
+}
