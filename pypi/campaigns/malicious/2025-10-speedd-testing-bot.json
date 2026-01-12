@@ -9,6 +9,7 @@
     ],
     "packages": [
         "aiogrem",
+        "graponater",
         "pycolorom",
         "pyrogrem",
         "pyrogrom",
