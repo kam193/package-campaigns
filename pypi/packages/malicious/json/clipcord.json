@@ -1,0 +1,12 @@
+{
+    "name": "clipcord",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-soupclaw",
+    "affected_versions": [
+        "1.7.0",
+        "1.7.1",
+        "1.7.2"
+    ],
+    "campaign_assigned_at": "2026-01-14T14:22:06.748142+00:00",
+    "campaign_data_modified_at": "2026-01-14T14:22:06.748165+00:00"
+}
