@@ -7,6 +7,7 @@
         "typosquatting"
     ],
     "packages": [
+        "chunqiuwestj-pkg-westj137",
         "python3-distutils"
     ],
     "created_at": "2026-01-14",
