@@ -28,9 +28,17 @@ Currently, I publish following categories:
 
 In my opinion, you should not have any of those packages in your environment.
 
+## Contribution / False Positives Reports
+
+You're welcome to open issues in case of any contributions, questions, additional
+reference links, suggestions or false positive reports. In any case requiring
+modification of a report, please provide your suggestions in an issue. As
+reports are generated from an internal database, any manual changes would be
+overwritten during next export.
+
 ## Disclaimer
 Data are presented as-is without any guarantee. Detection, classification, analyse & co. are done as a hobby activity, you use the information at your own risk. There are possible mistakes or highly opinionated classifications.
 
 ## License
 
-You're free to use data exposed here as long as you attribute the source. 
+You're free to use data exposed here as long as you attribute the source.
