@@ -1,0 +1,10 @@
+{
+    "name": "haqawi",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-pdatainstaller",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-14T21:16:14.132494+00:00",
+    "campaign_data_modified_at": "2026-01-14T21:16:14.132548+00:00"
+}

@@ -3,12 +3,15 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
-        "obfuscation"
+        "crypto-related",
+        "obfuscation",
+        "remote_script"
     ],
     "packages": [
         "ethercheck"
     ],
     "created_at": "2024-08-09",
     "ioc": [],
-    "references": []
+    "references": [],
+    "description": "During importing, the code attempts to decrypt data embeded in READMEs. The decrypted code is then used to download further remote scripts"
 }

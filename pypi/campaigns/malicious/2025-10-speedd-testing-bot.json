@@ -9,6 +9,8 @@
     ],
     "packages": [
         "aiogrem",
+        "formater",
+        "graponater",
         "pycolorom",
         "pyrogrem",
         "pyrogrom",
@@ -26,7 +28,8 @@
     "ioc": [
         "https://pastebin.com/raw/xAT1vudj",
         "https://i7trak-id3i.onrender.com",
-        "https://pastebin.com/raw/M3Rh68JJ"
+        "https://pastebin.com/raw/M3Rh68JJ",
+        "https://pastebin.com/raw/77tXxA1d"
     ],
     "references": [],
     "description": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer "

@@ -1,0 +1,17 @@
+{
+    "name": "soupclaw",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-soupclaw",
+    "affected_versions": [
+        "1.7.1",
+        "1.7.2",
+        "1.7.3",
+        "2.0.0",
+        "2.0.1",
+        "2.0.2",
+        "2.0.3",
+        "2.0.4"
+    ],
+    "campaign_assigned_at": "2026-01-14T11:12:06.304727+00:00",
+    "campaign_data_modified_at": "2026-01-14T11:27:01.955809+00:00"
+}

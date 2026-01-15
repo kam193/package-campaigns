@@ -1,0 +1,20 @@
+{
+    "name": "2025-06-soupclaw",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "clipcord",
+        "hairest",
+        "soupclaw"
+    ],
+    "created_at": "2026-01-14",
+    "ioc": [],
+    "references": [],
+    "description": "Package collects and exfiltrates Discord credentials from multiple sources"
+}
