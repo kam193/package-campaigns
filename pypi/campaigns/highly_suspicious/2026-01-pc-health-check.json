@@ -3,7 +3,8 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "abuse_categories": [
-        "modify-system-without-consent"
+        "modify-system-without-consent",
+        "obfuscation"
     ],
     "packages": [
         "pc-health-check"
