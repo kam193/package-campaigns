@@ -1,0 +1,11 @@
+{
+    "name": "skpx",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The package allows executing remotely stored code, what could be used to hide malicious actions. No known usage",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-17T21:42:27.146081+00:00",
+    "campaign_data_modified_at": "2026-01-17T21:42:27.146096+00:00"
+}
