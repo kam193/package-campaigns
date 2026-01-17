@@ -1,0 +1,44 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/load-remote",
+    "published": "2026-01-17T00:56:08.487632+00:00",
+    "modified": "2026-01-17T00:56:08.487671+00:00",
+    "summary": "Highly suspicious code in load-remote (PyPI)",
+    "details": "Package allows downloading and executing remote code, but there is no known usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "load-remote",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.2",
+                "0.3",
+                "0.4",
+                "0.5",
+                "1.0",
+                "2.0",
+                "2.1",
+                "2.2",
+                "3.2",
+                "3.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/load-remote"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
