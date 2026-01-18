@@ -1,0 +1,12 @@
+{
+    "name": "urlssser",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "description": "This package does not directly contain malicious code, but was uploaded as part of the malicious campaign and is used as a helper in further infection stages.",
+    "affected_versions": [
+        "0.1",
+        "0.2"
+    ],
+    "campaign_assigned_at": "2026-01-18T23:14:24.961644+00:00",
+    "campaign_data_modified_at": "2026-01-18T23:14:24.961681+00:00"
+}
