@@ -1,25 +1,25 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2025-10-speedd-testing-bot/telegrem",
-    "published": "2025-12-26T20:03:22.781916+00:00",
-    "modified": "2025-12-26T20:03:22.782009+00:00",
-    "summary": "Malicious code in telegrem (PyPI)",
+    "id": "pypi/2025-10-speedd-testing-bot/marshel",
+    "published": "2026-01-18T22:56:09.263862+00:00",
+    "modified": "2026-01-18T22:56:09.263897+00:00",
+    "summary": "Malicious code in marshel (PyPI)",
     "details": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote malicious script.\n\n\n - rat\n\n",
     "affected": [
         {
             "package": {
-                "name": "telegrem",
+                "name": "marshel",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.2"
+                "0.3"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/telegrem"
+            "url": "https://bad-packages.kam193.eu/pypi/package/marshel"
         }
     ],
     "credits": [
@@ -29,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "REPORTER"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {

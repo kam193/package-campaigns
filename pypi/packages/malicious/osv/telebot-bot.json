@@ -34,11 +34,15 @@
     ],
     "database_specific": {
         "iocs": {
+            "domains": [
+                "server-unlock-hack.onrender.com"
+            ],
             "urls": [
                 "https://pastebin.com/raw/xAT1vudj",
                 "https://i7trak-id3i.onrender.com",
                 "https://pastebin.com/raw/M3Rh68JJ",
-                "https://pastebin.com/raw/77tXxA1d"
+                "https://pastebin.com/raw/77tXxA1d",
+                "https://pastebin.com/raw/PSPYUQTt"
             ]
         }
     }
