@@ -5,6 +5,7 @@
     "packages": [
         "adscan",
         "doree",
+        "exportwifi",
         "greedos",
         "hellflood",
         "ihack",
@@ -16,6 +17,7 @@
         "ransomware",
         "reddev",
         "smscallbomber",
+        "tshx",
         "wxutil"
     ],
     "created_at": "2025-01-28",
