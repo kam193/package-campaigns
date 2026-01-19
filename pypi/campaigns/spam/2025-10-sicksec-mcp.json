@@ -11,6 +11,8 @@
         "awslabs-qbusiness-anonymous-mcp-server",
         "idp-bedrock-mcp-server",
         "mcp-teams-server",
+        "sama-data-prep-mcp-server",
+        "sama-finetuning-mcp-server",
         "threat-designer-mcp-server"
     ],
     "created_at": "2025-10-24",

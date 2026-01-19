@@ -1,0 +1,10 @@
+{
+    "name": "sama-data-prep-mcp-server",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-sicksec-mcp",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-01-19T10:26:29.686552+00:00",
+    "campaign_data_modified_at": "2026-01-19T10:26:29.686565+00:00"
+}
