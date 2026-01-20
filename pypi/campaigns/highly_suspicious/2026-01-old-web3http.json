@@ -1,0 +1,18 @@
+{
+    "name": "2026-01-old-web3http",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "crypto-related",
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "web3http"
+    ],
+    "created_at": "2026-01-20",
+    "ioc": [],
+    "references": [],
+    "description": "Package is a clone of legitimate httpx package. The only difference is that the clone contains an encrypted ZIP archive. The content of the archive is related to cryptocurrencies, but seems not to have any active malicious content."
+}
