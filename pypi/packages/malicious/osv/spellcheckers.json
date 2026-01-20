@@ -46,12 +46,14 @@
         "iocs": {
             "domains": [
                 "dothebest.store",
-                "searchbox.info"
+                "searchbox.info",
+                "updatenet.work"
             ],
             "urls": [
                 "https://dothebest.store/allow/inform.php",
                 "https://dothebest.store/refresh.php",
-                "https://searchbox.info/prefer.php"
+                "https://searchbox.info/prefer.php",
+                "https://updatenet.work/settings/history.php"
             ]
         }
     }
