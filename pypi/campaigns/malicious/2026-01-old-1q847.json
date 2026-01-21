@@ -1,0 +1,20 @@
+{
+    "name": "2026-01-old-1q847",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "obfuscation"
+    ],
+    "packages": [
+        "1q847"
+    ],
+    "created_at": "2026-01-21",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/87d4efd371edf4ccca805a15ddc4f5c4f89e0d7d46008d51d1055a01e78360e8/detection",
+        "https://www.virustotal.com/gui/file/94b82dacf24a8186311b46400cdd11df4ddab9408099806106213a96d2de2621/behavior",
+        "https://www.virustotal.com/gui/file/2a37ce301490bd4b7c5d02b768b054705fe4620db6ef81061718c1fe89c9f27e/detection"
+    ],
+    "description": "Package contains two DLL libraries, one of them packed. Both are widely recognized as malware. The exact behavior is not known"
+}
