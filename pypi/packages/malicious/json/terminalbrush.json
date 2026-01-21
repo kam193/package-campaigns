@@ -1,0 +1,11 @@
+{
+    "name": "terminalbrush",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-old-terminalbrush",
+    "affected_versions": [
+        "0.1",
+        "0.2.4"
+    ],
+    "campaign_assigned_at": "2026-01-21T19:31:32.049030+00:00",
+    "campaign_data_modified_at": "2026-01-21T19:31:32.049047+00:00"
+}
