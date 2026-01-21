@@ -1,0 +1,11 @@
+{
+    "name": "spellcheckpy",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.1.0",
+        "1.2.0"
+    ],
+    "campaign_assigned_at": "2026-01-21T08:10:26.742575+00:00",
+    "campaign_data_modified_at": "2026-01-21T08:10:26.742634+00:00"
+}
