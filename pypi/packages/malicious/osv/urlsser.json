@@ -1,0 +1,49 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-10-speedd-testing-bot/urlsser",
+    "published": "2026-01-22T20:16:29.682372+00:00",
+    "modified": "2026-01-22T20:16:29.682389+00:00",
+    "summary": "Malicious code in urlsser (PyPI)",
+    "details": "This package does not directly contain malicious code, but was uploaded as part of the malicious campaign and is used as a helper in further infection stages.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote malicious script.\n\n\n - rat\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "urlsser",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/urlsser"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "server-unlock-hack.onrender.com"
+            ],
+            "urls": [
+                "https://pastebin.com/raw/xAT1vudj",
+                "https://i7trak-id3i.onrender.com",
+                "https://pastebin.com/raw/M3Rh68JJ",
+                "https://pastebin.com/raw/77tXxA1d",
+                "https://pastebin.com/raw/PSPYUQTt"
+            ]
+        }
+    }
+}
