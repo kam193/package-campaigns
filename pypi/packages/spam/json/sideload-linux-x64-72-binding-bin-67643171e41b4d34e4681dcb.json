@@ -1,0 +1,10 @@
+{
+    "name": "sideload-linux-x64-72-binding-bin-67643171e41b4d34e4681dcb",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-sideload",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T19:23:50.624610+00:00",
+    "campaign_data_modified_at": "2026-01-22T19:23:50.624624+00:00"
+}

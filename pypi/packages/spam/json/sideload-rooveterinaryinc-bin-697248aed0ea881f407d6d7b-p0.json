@@ -1,0 +1,10 @@
+{
+    "name": "sideload-rooveterinaryinc-bin-697248aed0ea881f407d6d7b-p0",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-sideload",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T19:34:34.920180+00:00",
+    "campaign_data_modified_at": "2026-01-22T19:34:34.920195+00:00"
+}

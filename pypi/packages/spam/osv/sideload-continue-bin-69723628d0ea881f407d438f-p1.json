@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-sideload/sideload-continue-bin-69723628d0ea881f407d438f-p1",
+    "published": "2026-01-22T19:34:23.853048+00:00",
+    "modified": "2026-01-22T19:34:23.853061+00:00",
+    "summary": "Spam code in sideload-continue-bin-69723628d0ea881f407d438f-p1 (PyPI)",
+    "details": "Packages abuse PyPI infrastructure to transfer big files\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-sideload\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "sideload-continue-bin-69723628d0ea881f407d438f-p1",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/sideload-continue-bin-69723628d0ea881f407d438f-p1"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

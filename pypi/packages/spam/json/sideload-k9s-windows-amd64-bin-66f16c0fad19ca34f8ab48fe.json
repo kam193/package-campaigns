@@ -1,0 +1,10 @@
+{
+    "name": "sideload-k9s-windows-amd64-bin-66f16c0fad19ca34f8ab48fe",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-sideload",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T19:23:32.765214+00:00",
+    "campaign_data_modified_at": "2026-01-22T19:23:32.765228+00:00"
+}
