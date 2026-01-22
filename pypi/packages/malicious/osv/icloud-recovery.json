@@ -1,0 +1,40 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-01-icloud-recovery/icloud-recovery",
+    "published": "2026-01-22T17:20:06.841372+00:00",
+    "modified": "2026-01-22T17:20:06.841397+00:00",
+    "summary": "Malicious code in icloud-recovery (PyPI)",
+    "details": "On importing the module, the code exfiltrates text files, with the focus on configuration files\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-icloud-recovery\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "icloud-recovery",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2",
+                "0.1.5",
+                "0.1.6",
+                "0.2.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/icloud-recovery"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

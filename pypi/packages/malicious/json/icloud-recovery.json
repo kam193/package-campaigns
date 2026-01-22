@@ -1,0 +1,15 @@
+{
+    "name": "icloud-recovery",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-icloud-recovery",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2",
+        "0.1.5",
+        "0.1.6",
+        "0.2.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T17:20:06.841372+00:00",
+    "campaign_data_modified_at": "2026-01-22T17:20:06.841397+00:00"
+}
