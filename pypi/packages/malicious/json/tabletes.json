@@ -1,0 +1,11 @@
+{
+    "name": "tabletes",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.0.4",
+        "1.0.6"
+    ],
+    "campaign_assigned_at": "2026-01-23T10:19:25.742239+00:00",
+    "campaign_data_modified_at": "2026-01-23T10:19:25.742254+00:00"
+}
