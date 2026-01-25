@@ -7,6 +7,7 @@
         "remote_script"
     ],
     "packages": [
+        "selenium-integration",
         "system-integration",
         "system-integration-toxi"
     ],
