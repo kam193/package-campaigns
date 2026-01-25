@@ -1,0 +1,17 @@
+{
+    "name": "GENERIC-research-only-local",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "dependency-confusion"
+    ],
+    "packages": [
+        "anduril-lattice-sdk-protocolbuffers-pyi",
+        "anduril-lattice-sdk-protocolbuffers-python",
+        "extra-index-url"
+    ],
+    "created_at": "2026-01-25",
+    "ioc": [],
+    "references": [],
+    "description": "The package is most probably a dependency confusion attempt, but do not implement any external exfiltration. It's empty or performs just a local action, e.g. leaving a flag. "
+}

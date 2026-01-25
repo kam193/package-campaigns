@@ -1,0 +1,10 @@
+{
+    "name": "anduril-lattice-sdk-protocolbuffers-python",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-research-only-local",
+    "affected_versions": [
+        "99.9.9"
+    ],
+    "campaign_assigned_at": "2026-01-25T15:30:59.246473+00:00",
+    "campaign_data_modified_at": "2026-01-25T15:30:59.246506+00:00"
+}
