@@ -1,0 +1,20 @@
+{
+    "name": "2026-01-system-integration",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "system-integration"
+    ],
+    "created_at": "2026-01-25",
+    "ioc": [
+        "https://juvenile-server.vercel.app/program",
+        "https://juvenile-server.vercel.app/program.bat",
+        "juvenile-server.vercel.app"
+    ],
+    "references": [],
+    "description": "When importing the module, code downloads and executes a highly obfuscated remote script."
+}
