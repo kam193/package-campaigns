@@ -7,13 +7,16 @@
         "remote_script"
     ],
     "packages": [
-        "system-integration"
+        "system-integration",
+        "system-integration-toxi"
     ],
     "created_at": "2026-01-25",
     "ioc": [
         "https://juvenile-server.vercel.app/program",
         "https://juvenile-server.vercel.app/program.bat",
-        "juvenile-server.vercel.app"
+        "juvenile-server.vercel.app",
+        "https://helper-dun-seven.vercel.app/svc.bat",
+        "helper-dun-seven.vercel.app"
     ],
     "references": [],
     "description": "When importing the module, code downloads and executes a highly obfuscated remote script."

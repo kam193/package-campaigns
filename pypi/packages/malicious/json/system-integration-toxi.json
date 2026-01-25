@@ -1,0 +1,17 @@
+{
+    "name": "system-integration-toxi",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-system-integration",
+    "description": "During importing the module, code downloads and executes a remote script. During the analysis of this package, the code was a placeholder, but the package is closely related to a previously published one, where the remote script was malicious.",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6"
+    ],
+    "campaign_assigned_at": "2026-01-25T10:15:36.156665+00:00",
+    "campaign_data_modified_at": "2026-01-25T10:15:36.156708+00:00"
+}

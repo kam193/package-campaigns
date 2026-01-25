@@ -36,11 +36,13 @@
     "database_specific": {
         "iocs": {
             "domains": [
-                "juvenile-server.vercel.app"
+                "juvenile-server.vercel.app",
+                "helper-dun-seven.vercel.app"
             ],
             "urls": [
                 "https://juvenile-server.vercel.app/program",
-                "https://juvenile-server.vercel.app/program.bat"
+                "https://juvenile-server.vercel.app/program.bat",
+                "https://helper-dun-seven.vercel.app/svc.bat"
             ]
         }
     }
