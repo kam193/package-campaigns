@@ -1,0 +1,10 @@
+{
+    "name": "mlp-sdk-v3",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-sicksec-mcp",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-01-25T19:59:52.756495+00:00",
+    "campaign_data_modified_at": "2026-01-25T19:59:52.756510+00:00"
+}

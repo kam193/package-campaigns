@@ -11,6 +11,7 @@
         "awslabs-qbusiness-anonymous-mcp-server",
         "idp-bedrock-mcp-server",
         "mcp-teams-server",
+        "mlp-sdk-v3",
         "sama-data-prep-mcp-server",
         "sama-finetuning-mcp-server",
         "threat-designer-mcp-server"
