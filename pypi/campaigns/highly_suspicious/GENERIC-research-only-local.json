@@ -8,6 +8,7 @@
     "packages": [
         "anduril-lattice-sdk-protocolbuffers-pyi",
         "anduril-lattice-sdk-protocolbuffers-python",
+        "bfixsecdemo",
         "extra-index-url"
     ],
     "created_at": "2026-01-25",
