@@ -1,0 +1,10 @@
+{
+    "name": "solhint-plugin-hyperlane",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-01-27T09:15:48.715023+00:00",
+    "campaign_data_modified_at": "2026-01-27T09:15:48.715040+00:00"
+}
