@@ -53,7 +53,8 @@
                 "https://dothebest.store/allow/inform.php",
                 "https://dothebest.store/refresh.php",
                 "https://searchbox.info/prefer.php",
-                "https://updatenet.work/settings/history.php"
+                "https://updatenet.work/settings/history.php",
+                "https://dothebest.store/allow"
             ]
         }
     }
