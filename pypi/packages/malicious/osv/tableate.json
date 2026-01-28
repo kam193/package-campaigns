@@ -23,6 +23,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://www.aikido.dev/blog/malicious-pypi-packages-spellcheckpy-and-spellcheckerpy-deliver-python-rat"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/tableate"
         }
     ],
