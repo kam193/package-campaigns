@@ -1,0 +1,16 @@
+{
+    "name": "2026-01-pypi-package-explore",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "pypi-package-explore"
+    ],
+    "created_at": "2026-01-28",
+    "ioc": [],
+    "references": [],
+    "description": "Package presents an extremely deep obfuscation of a code that is imported during installation. The exact behavior is unknown, but it includes loading encrypted code and interrupting debugging attempts "
+}

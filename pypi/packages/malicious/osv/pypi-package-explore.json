@@ -1,0 +1,41 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-01-pypi-package-explore/pypi-package-explore",
+    "published": "2026-01-28T17:56:33.813640+00:00",
+    "modified": "2026-01-28T17:56:33.813658+00:00",
+    "summary": "Malicious code in pypi-package-explore (PyPI)",
+    "details": "Package presents an extremely deep obfuscation of a code that is imported during installation. The exact behavior is unknown, but it includes loading encrypted code and interrupting debugging attempts\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-pypi-package-explore\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pypi-package-explore",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1a0",
+                "0.0.2a0",
+                "0.0.3a0",
+                "0.0.4a1",
+                "0.0.4a2",
+                "0.0.4a3",
+                "0.0.4a4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pypi-package-explore"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
