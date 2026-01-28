@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-01-auto-backup/auto-backup-wsl",
     "published": "2026-01-05T23:50:24.226849+00:00",
-    "modified": "2026-01-25T18:41:55.360492+00:00",
+    "modified": "2026-01-28T10:43:25.611300+00:00",
     "summary": "Highly suspicious code in auto-backup-wsl (PyPI)",
     "details": "Package performs a \"backup\" of files to a remote location. This functionality is clearly described, but the user has no control over the remote location where the collected files are sent, as well as no access to data. They are uploaded to a hardcoded Gofile account and as the downloading links are not saved anywhere, only the package author has access to them. In newer versions, packages explicitly target files with passwords, mnemonics, keys and crypto tokens. Also the command history and content of the clipboard is exfiltrated.\n\nFurthermore, packages are closely related to and used in the oxmoei/BatchCall-dapp GitHub repository during installation: https://github.com/oxmoei/BatchCall-dapp/blame/d9d7082fb2099ec152ec7775185e08f1560f444f/install.ps1#L60 It means, every user installing the application is included in this \"automated backup\". The BatchCall-dapp installation script also downloads a remote script, and through a few steps installs a scheduled task or service that periodically runs code similar to the one from auto-backup* packages, effectively exfiltrating the sensitive content.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-01-auto-backup\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - infostealer\n\n\n - exfiltration-credentials\n\n\n - crypto-related\n\n",
     "affected": [
@@ -17,7 +17,8 @@
                 "1.0.3",
                 "1.0.4",
                 "1.0.5",
-                "1.0.6"
+                "1.0.6",
+                "1.0.8"
             ]
         }
     ],
