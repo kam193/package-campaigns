@@ -3,8 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2025-11-spellcheckers",
     "affected_versions": [
-        "1.0.1"
+        "1.0.1",
+        "1.0.2"
     ],
     "campaign_assigned_at": "2026-01-28T07:42:32.283194+00:00",
-    "campaign_data_modified_at": "2026-01-28T07:42:32.283211+00:00"
+    "campaign_data_modified_at": "2026-01-28T09:03:09.192995+00:00"
 }
