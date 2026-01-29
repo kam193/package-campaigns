@@ -8,7 +8,8 @@
     ],
     "packages": [
         "chunqiuwestj-pkg-westj137",
-        "python3-distutils"
+        "python3-distutils",
+        "theanswre"
     ],
     "created_at": "2026-01-14",
     "ioc": [],
