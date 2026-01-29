@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-01-spell-hunter/spell-hunter",
     "published": "2026-01-28T19:23:02.406088+00:00",
-    "modified": "2026-01-28T19:23:02.406110+00:00",
+    "modified": "2026-01-29T16:49:17.054697+00:00",
     "summary": "Malicious code in spell-hunter (PyPI)",
     "details": "Package is an undescribed hacking tool, with signs of reverse shell capabilities\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2026-01-spell-hunter\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - other\n\n",
     "affected": [
@@ -12,7 +12,9 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1.0"
+                "0.1.0",
+                "0.1.1",
+                "0.1.2"
             ]
         }
     ],
