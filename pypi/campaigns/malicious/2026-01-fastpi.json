@@ -1,0 +1,17 @@
+{
+    "name": "2026-01-fastpi",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "obfuscation",
+        "typosquatting"
+    ],
+    "packages": [
+        "fastpi"
+    ],
+    "created_at": "2026-01-30",
+    "ioc": [],
+    "references": [],
+    "description": "Malicious copy of the legitimate FastAPI. The modification loads code encrypted in one of the attached files - behavior still under investigation."
+}
