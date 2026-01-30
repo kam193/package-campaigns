@@ -20,6 +20,7 @@
         "credential-python-sdk",
         "enumer-iam",
         "serverkeeper-verifier",
+        "snapshot-date",
         "snapshot-photo",
         "tclients-sdk",
         "tcloud-python-sdks",
@@ -37,7 +38,9 @@
         "https://api.checktimeserver.org/",
         "checktimeserver.org",
         "https://api.aliyun-sdk-requests.xyz/",
-        "aliyun-sdk-requests.xyz"
+        "aliyun-sdk-requests.xyz",
+        "api.jumpservercdn.com",
+        "jumpservercdn.com"
     ],
     "references": [
         "https://github.com/pypi-data/pypi-mirror-238/blob/code/packages/snapshot-photo/snapshot_photo-0.0.3-py3-none-any.whl/snapshot_photo/date_format.py",
