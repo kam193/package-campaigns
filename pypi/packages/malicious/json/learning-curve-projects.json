@@ -1,0 +1,12 @@
+{
+    "name": "learning-curve-projects",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-fastpi",
+    "description": "Package contains hidden highly obfuscated code that is loaded during importing the module.",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2"
+    ],
+    "campaign_assigned_at": "2026-01-31T19:19:08.409079+00:00",
+    "campaign_data_modified_at": "2026-01-31T19:23:36.664597+00:00"
+}
