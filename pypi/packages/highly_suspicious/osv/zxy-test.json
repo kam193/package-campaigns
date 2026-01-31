@@ -1,0 +1,37 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/zxy-test",
+    "published": "2026-01-31T10:46:25.403058+00:00",
+    "modified": "2026-01-31T10:46:25.403077+00:00",
+    "summary": "Highly suspicious code in zxy-test (PyPI)",
+    "details": "Package contains a beacon to exfiltrate basic info, but it's inactive\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "zxy-test",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1",
+                "0.0.2",
+                "0.0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/zxy-test"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

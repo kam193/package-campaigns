@@ -41,7 +41,8 @@
         "tronclient",
         "web3eth",
         "xf-xf",
-        "yololib"
+        "yololib",
+        "zxy-test"
     ],
     "created_at": "2024-12-25",
     "ioc": [],
