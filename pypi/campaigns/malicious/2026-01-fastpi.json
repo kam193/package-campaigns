@@ -13,5 +13,5 @@
     "created_at": "2026-01-30",
     "ioc": [],
     "references": [],
-    "description": "Malicious copy of the legitimate FastAPI. The modification loads code encrypted in one of the attached files - behavior still under investigation."
+    "description": "Malicious copy of the legitimate FastAPI. The modification loads code encrypted in one of the attached files. The final, highly obfuscated code is most likely similar to the code from 2026-01-pypi-package-explore, with the exact behavior unknown. "
 }
