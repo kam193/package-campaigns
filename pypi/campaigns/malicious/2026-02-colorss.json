@@ -1,0 +1,19 @@
+{
+    "name": "2026-02-colorss",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "colorss"
+    ],
+    "created_at": "2026-02-01",
+    "ioc": [
+        "https://airaproxy.com/api/",
+        "airaproxy.com"
+    ],
+    "references": [],
+    "description": "Package silently executes in background a remote script. During the analysis, the script was not accessible "
+}
