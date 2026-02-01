@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-genvia-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "genvia-utils"
+    ],
+    "created_at": "2026-02-01",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the package attempts to exfiltrate specific sensitive environment variables."
+}
