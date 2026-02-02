@@ -7,6 +7,7 @@
         "remote_executable"
     ],
     "packages": [
+        "callapirequests",
         "connection-api-requests",
         "connections-api-hidden-runner",
         "connections-api-request",
