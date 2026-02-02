@@ -1,0 +1,10 @@
+{
+    "name": "connections-api-request",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-foxloveyou",
+    "affected_versions": [
+        "0.2.0"
+    ],
+    "campaign_assigned_at": "2026-02-02T06:52:24.043726+00:00",
+    "campaign_data_modified_at": "2026-02-02T06:52:24.043742+00:00"
+}
