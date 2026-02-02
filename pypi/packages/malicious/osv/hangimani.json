@@ -1,0 +1,43 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-old-hangman/hangimani",
+    "published": "2026-02-02T00:02:05.729038+00:00",
+    "modified": "2026-02-02T00:02:05.729063+00:00",
+    "summary": "Malicious code in hangimani (PyPI)",
+    "details": "During importing the module, package downloads a second-stage code from GitHub, which then runs an infostealer. After that, the downloaded code is removed\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-hangman\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - infostealer\n\n\n - covering-tracks\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "hangimani",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hangimani"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://codeload.github.com/Samantha0709/HangMan",
+                "https://pastebin.com/raw/61NdZQax"
+            ]
+        }
+    }
+}

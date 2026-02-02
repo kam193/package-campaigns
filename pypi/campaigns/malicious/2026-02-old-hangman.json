@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-old-hangman",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "covering-tracks",
+        "infostealer",
+        "remote_script"
+    ],
+    "packages": [
+        "hangimani"
+    ],
+    "created_at": "2026-02-02",
+    "ioc": [
+        "https://codeload.github.com/Samantha0709/HangMan",
+        "https://pastebin.com/raw/61NdZQax"
+    ],
+    "references": [],
+    "description": "During importing the module, package downloads a second-stage code from GitHub, which then runs an infostealer. After that, the downloaded code is removed"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "hangimani",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-hangman",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-02-02T00:02:05.729038+00:00",
+    "campaign_data_modified_at": "2026-02-02T00:02:05.729063+00:00"
+}
