@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-local-poc/chunqiuwestj-pkg-westj137",
     "published": "2026-01-14T10:40:29.709786+00:00",
-    "modified": "2026-01-14T10:40:29.709807+00:00",
+    "modified": "2026-02-03T10:25:13.804616+00:00",
     "summary": "Spam code in chunqiuwestj-pkg-westj137 (PyPI)",
     "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
