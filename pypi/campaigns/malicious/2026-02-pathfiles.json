@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-pathfiles",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "obfuscation"
+    ],
+    "packages": [
+        "pathfiles",
+        "pathlib-v2-utility"
+    ],
+    "created_at": "2026-02-03",
+    "ioc": [],
+    "references": [],
+    "description": "Disguised as file system manipulation library, the package hides an obfuscated code to communicate with a Telegram channel. Though the usage is not known at the moment, the package is clearly created for data exfiltration "
+}
