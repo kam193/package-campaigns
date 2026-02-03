@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-02-pathfiles/pathfiles",
     "published": "2026-02-03T09:15:58.302586+00:00",
-    "modified": "2026-02-03T09:30:36.188013+00:00",
+    "modified": "2026-02-03T09:42:40.378878+00:00",
     "summary": "Malicious code in pathfiles (PyPI)",
     "details": "Disguised as file system manipulation library, the package hides an obfuscated code to communicate with a Telegram channel. Though the usage is not known at the moment, the package is clearly created for data exfiltration\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-pathfiles\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
@@ -14,7 +14,8 @@
             "versions": [
                 "1.0.1",
                 "1.0.8",
-                "1.0.9"
+                "1.0.9",
+                "1.1.1"
             ]
         }
     ],
