@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-old-statssol",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_script"
+    ],
+    "packages": [
+        "statssol"
+    ],
+    "created_at": "2026-02-04",
+    "ioc": [
+        "http://gg.gg/test_does_nothing"
+    ],
+    "references": [],
+    "description": "On importing the module, a remote code is executed. At the moment of analysis, the remote URL did not return any valid script, presumably as the package was already quite old"
+}
