@@ -15,6 +15,9 @@
         "https://codeload.github.com/Samantha0709/HangMan",
         "https://pastebin.com/raw/61NdZQax"
     ],
-    "references": [],
+    "references": [
+        "https://github.com/Samantha0709/HangMan/blob/36397c0a3e5abffa884ca92515981b4af305c9c7/src/HangMan.py#L17",
+        "https://raw.githubusercontent.com/Samantha0709/Hang/main/browser.py"
+    ],
     "description": "During importing the module, package downloads a second-stage code from GitHub, which then runs an infostealer. After that, the downloaded code is removed"
 }

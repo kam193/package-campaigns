@@ -19,6 +19,14 @@
     "references": [
         {
             "type": "WEB",
+            "url": "https://github.com/Samantha0709/HangMan/blob/36397c0a3e5abffa884ca92515981b4af305c9c7/src/HangMan.py#L17"
+        },
+        {
+            "type": "WEB",
+            "url": "https://raw.githubusercontent.com/Samantha0709/Hang/main/browser.py"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/hangimani"
         }
     ],
