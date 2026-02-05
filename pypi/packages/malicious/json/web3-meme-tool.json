@@ -1,0 +1,10 @@
+{
+    "name": "web3-meme-tool",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-metadata-checker",
+    "affected_versions": [
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-02-05T14:33:05.872231+00:00",
+    "campaign_data_modified_at": "2026-02-05T14:33:05.872257+00:00"
+}
