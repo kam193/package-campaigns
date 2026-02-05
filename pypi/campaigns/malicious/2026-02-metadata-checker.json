@@ -1,0 +1,21 @@
+{
+    "name": "2026-02-metadata-checker",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation"
+    ],
+    "packages": [
+        "metadata-checker"
+    ],
+    "created_at": "2026-02-05",
+    "ioc": [
+        "8d7sabfsd2.youkyy.com",
+        "youkyy.com",
+        "https://8d7sabfsd2.youkyy.com/MyData.php",
+        "https://8d7sabfsd2.youkyy.com/1.php"
+    ],
+    "references": [],
+    "description": "Disguised as metadata checker, packages are designed to exfiltrate hardcoded or given data to an obfuscated remote target"
+}
