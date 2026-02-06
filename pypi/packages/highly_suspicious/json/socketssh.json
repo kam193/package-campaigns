@@ -1,0 +1,15 @@
+{
+    "name": "socketssh",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package allows remote command execution, but there is no clear signs of malicious intention",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-02-06T13:31:05.125395+00:00",
+    "campaign_data_modified_at": "2026-02-06T13:31:05.125416+00:00"
+}
