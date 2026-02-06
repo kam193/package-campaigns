@@ -22,6 +22,7 @@
         "sideload-helm-v3-bin-6718272be41b4d34e4472c13",
         "sideload-k9s-windows-amd64-bin-66f16c0fad19ca34f8ab48fe",
         "sideload-kilocode-bin-69724c60ae596e708fedde18-p0",
+        "sideload-kilocode-bin-6985750cae596e708f151073-p0",
         "sideload-linux-x64-72-binding-bin-67643171e41b4d34e4681dcb",
         "sideload-loki-main-bin-67182bd5ad19ca34f8bcee10",
         "sideload-microsoft-bin-66349256acd3cb34a84245e9",
@@ -88,7 +89,8 @@
         "sideload-obsidian-1-bin-68db1796ae596e708f007dd0-p1",
         "sideload-python-3-bin-6776537eacd3cb34a8c2f2ef",
         "sideload-rooveterinaryinc-bin-697248aed0ea881f407d6d7b-p0",
-        "sideload-svelte-bin-66e934f1ad19ca34f8a77c4d"
+        "sideload-svelte-bin-66e934f1ad19ca34f8a77c4d",
+        "sideloader"
     ],
     "created_at": "2026-01-22",
     "ioc": [],
