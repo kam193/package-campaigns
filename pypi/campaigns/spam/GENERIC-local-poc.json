@@ -9,6 +9,7 @@
     "packages": [
         "chunqiuwestj-pkg-westj137",
         "jiyoon-hack-pkg-2026",
+        "pypypywargame-pkg-test",
         "python3-distutils",
         "theanswre"
     ],
