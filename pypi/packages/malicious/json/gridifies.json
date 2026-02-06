@@ -1,5 +1,8 @@
 {
     "name": "gridifies",
     "ecosystem": "pypi",
-    "campaign": "2025-11-spellcheckers"
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.0.2"
+    ]
 }
