@@ -9,6 +9,7 @@
         "exfiltration_generic"
     ],
     "packages": [
+        "carcent",
         "clipcord",
         "hairest",
         "soupclaw"
