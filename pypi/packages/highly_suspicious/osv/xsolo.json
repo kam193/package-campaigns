@@ -1,27 +1,26 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-highly-suspicious-obfuscation/paolog-pynecraft",
-    "published": "2024-11-23T18:11:33Z",
-    "modified": "2024-11-23T18:11:33Z",
-    "summary": "Highly suspicious code in paolog-pynecraft (PyPI)",
+    "id": "pypi/GENERIC-highly-suspicious-obfuscation/xsolo",
+    "published": "2026-02-07T12:26:48.196109+00:00",
+    "modified": "2026-02-07T12:26:48.196132+00:00",
+    "summary": "Highly suspicious code in xsolo (PyPI)",
     "details": "Package uses obfuscation to hide its behavior. The description suggests potentially risky behavior, like hacking tools or game cheats.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-highly-suspicious-obfuscation\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
-                "name": "paolog-pynecraft",
+                "name": "xsolo",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1.1.post1",
-                "0.1.1.post111",
-                "0.1.1.post112"
+                "1.0",
+                "1.1"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/paolog-pynecraft"
+            "url": "https://bad-packages.kam193.eu/pypi/package/xsolo"
         }
     ],
     "credits": [
@@ -31,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "ANALYST"
+            "type": "REPORTER"
         }
     ]
 }

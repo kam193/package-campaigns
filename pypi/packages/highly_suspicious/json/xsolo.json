@@ -1,0 +1,11 @@
+{
+    "name": "xsolo",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-highly-suspicious-obfuscation",
+    "affected_versions": [
+        "1.0",
+        "1.1"
+    ],
+    "campaign_assigned_at": "2026-02-07T12:26:48.196109+00:00",
+    "campaign_data_modified_at": "2026-02-07T12:26:48.196132+00:00"
+}
