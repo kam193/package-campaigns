@@ -1,0 +1,10 @@
+{
+    "name": "rizerr",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.4.3"
+    ],
+    "campaign_assigned_at": "2026-02-07T20:22:05.522834+00:00",
+    "campaign_data_modified_at": "2026-02-07T20:22:05.522873+00:00"
+}
