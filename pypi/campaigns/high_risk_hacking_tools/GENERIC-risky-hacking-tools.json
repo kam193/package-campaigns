@@ -5,6 +5,7 @@
     "packages": [
         "adscan",
         "doree",
+        "drkrx",
         "exportwifi",
         "greedos",
         "hellflood",
@@ -21,7 +22,8 @@
         "ryuzakilib",
         "smscallbomber",
         "tshx",
-        "wxutil"
+        "wxutil",
+        "xzrr"
     ],
     "created_at": "2025-01-28",
     "ioc": [],

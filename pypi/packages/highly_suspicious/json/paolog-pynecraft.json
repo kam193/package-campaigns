@@ -4,7 +4,9 @@
     "campaign": "GENERIC-highly-suspicious-obfuscation",
     "affected_versions": [
         "0.1.1.post1",
+        "0.1.1.post2",
         "0.1.1.post111",
         "0.1.1.post112"
-    ]
+    ],
+    "campaign_data_modified_at": "2026-02-07T13:32:23.009027+00:00"
 }
