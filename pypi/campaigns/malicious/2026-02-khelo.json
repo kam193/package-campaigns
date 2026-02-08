@@ -1,0 +1,16 @@
+{
+    "name": "2026-02-khelo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "remote_commands"
+    ],
+    "packages": [
+        "teligram"
+    ],
+    "created_at": "2026-02-08",
+    "ioc": [],
+    "references": [],
+    "description": "Package contains a Telegram bot for remote control of the machine. While this doesn't start automatically, this behavior is not disclosed by the package description "
+}
