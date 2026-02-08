@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2024-08-old-susp-binod-wallpaper/binod-binod",
     "published": "2024-08-26T17:35:21Z",
-    "modified": "2024-08-26T17:35:21Z",
+    "modified": "2026-02-08T21:24:42.477245+00:00",
     "summary": "Spam code in binod-binod (PyPI)",
     "details": "Packages do nothing behind changing the background to a specific image.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2024-08-old-susp-binod-wallpaper\n\n\nReasons (based on the campaign):\n\n\n - modify-system-without-consent\n\n",
     "affected": [
