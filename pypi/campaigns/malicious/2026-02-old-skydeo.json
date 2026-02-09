@@ -1,0 +1,18 @@
+{
+    "name": "2026-02-old-skydeo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "skydeo"
+    ],
+    "created_at": "2026-02-09",
+    "ioc": [
+        "https://skydeo.herokuapp.com/vars",
+        "skydeo.herokuapp.com"
+    ],
+    "references": [],
+    "description": "Importing the module exfiltrates all environment variables "
+}
