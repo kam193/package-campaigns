@@ -1,0 +1,25 @@
+{
+    "name": "2026-02-requests-core-plugin",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "infostealer",
+        "malware",
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "requests-core-plugin"
+    ],
+    "created_at": "2026-02-10",
+    "ioc": [
+        "https://pastebin.com/raw/LS7Wq1x0",
+        "http://85.215.240.118:8002/updates/Update.exe",
+        "85.215.240.118"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/1cd70bec8a88fe5b4734ee6483aa33ec79da1b6a48cb8db77bd28bc70d58c235/detection"
+    ],
+    "description": "During installation, package loads obfuscated code that then downloads and starts an executable. The final executable is identified as malware and appears to have infostealer capabilities (collecting browser and Discord data). "
+}

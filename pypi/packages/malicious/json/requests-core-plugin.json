@@ -1,0 +1,18 @@
+{
+    "name": "requests-core-plugin",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-requests-core-plugin",
+    "affected_versions": [
+        "2.31.5",
+        "2.31.6",
+        "2.31.7",
+        "2.31.8",
+        "2.31.9",
+        "2.31.12",
+        "2.31.13",
+        "2.31.14",
+        "2.31.15"
+    ],
+    "campaign_assigned_at": "2026-02-10T19:14:49.789572+00:00",
+    "campaign_data_modified_at": "2026-02-10T19:14:49.789587+00:00"
+}
