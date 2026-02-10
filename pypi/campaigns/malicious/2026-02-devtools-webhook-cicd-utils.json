@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-devtools-webhook-cicd-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "override_install",
+        "peristence_autorun",
+        "remote_commands"
+    ],
+    "packages": [
+        "devtools-webhook-cicd-utils"
+    ],
+    "created_at": "2026-02-10",
+    "ioc": [
+        "77.246.103.245"
+    ],
+    "references": [],
+    "description": "During installation, package installs a script that listens for remote commands and executes them. The script is also added to autostart configuration and disguised as system application "
+}
