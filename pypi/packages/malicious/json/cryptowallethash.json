@@ -1,0 +1,12 @@
+{
+    "name": "cryptowallethash",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-cryptowallethash",
+    "affected_versions": [
+        "0.0.6",
+        "0.0.7",
+        "0.0.8"
+    ],
+    "campaign_assigned_at": "2026-02-10T23:03:29.551975+00:00",
+    "campaign_data_modified_at": "2026-02-10T23:05:44.297788+00:00"
+}
