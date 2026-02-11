@@ -1,0 +1,9 @@
+{
+    "name": "tablixs",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_data_modified_at": "2026-02-11T10:04:22.215581+00:00"
+}
