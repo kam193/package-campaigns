@@ -1,0 +1,39 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-risky-hacking-tools/remote-xtril",
+    "published": "2026-02-11T22:30:22.807579+00:00",
+    "modified": "2026-02-11T22:33:18.763852+00:00",
+    "summary": "Malicious code in remote-xtril (PyPI)",
+    "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-risky-hacking-tools\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "remote-xtril",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.52",
+                "1.0.53",
+                "1.0.54",
+                "1.0.55",
+                "1.0.56"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/remote-xtril"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
