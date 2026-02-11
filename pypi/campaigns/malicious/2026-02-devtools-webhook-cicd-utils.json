@@ -9,6 +9,7 @@
         "remote_commands"
     ],
     "packages": [
+        "config-toolkit",
         "devtools-webhook-cicd-utils",
         "jsonconfig-utils",
         "requests-auth-toolkit"
