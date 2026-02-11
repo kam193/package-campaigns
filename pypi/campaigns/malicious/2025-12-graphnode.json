@@ -24,6 +24,8 @@
         "https://drive.google.com/uc?export=download&id=1FKQxvZM2zl0pmtf_cIHdjLSVdf-ZlUYR",
         "https://drive.google.com/uc?export=download&id=1RPC49CCI9urhfoVdPkO3pCSI4Lr430Lx"
     ],
-    "references": [],
+    "references": [
+        "https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs"
+    ],
     "description": "This is a malicious copy of the networkx package. It contains an obfuscated script that downloads and runs further scripts from one of multiple locations, and perform covering tracks by removing the modified code and all references to it. During the analysis, most of remote URLs did not serve any meaningful content, so the final goal is unknown."
 }
