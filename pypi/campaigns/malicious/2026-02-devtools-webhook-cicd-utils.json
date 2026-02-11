@@ -10,6 +10,7 @@
     ],
     "packages": [
         "devtools-webhook-cicd-utils",
+        "jsonconfig-utils",
         "requests-auth-toolkit"
     ],
     "created_at": "2026-02-10",
