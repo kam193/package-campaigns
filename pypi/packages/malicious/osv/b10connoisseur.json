@@ -1,0 +1,49 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-b10connoisseur/b10connoisseur",
+    "published": "2026-02-12T12:10:26.705260+00:00",
+    "modified": "2026-02-12T12:10:26.705293+00:00",
+    "summary": "Malicious code in b10connoisseur (PyPI)",
+    "details": "During installation, package attempts to enumerate the environment and exfiltrates potentially sensitive data to a hardcoded location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-b10connoisseur\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-env-variables\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "b10connoisseur",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.2.0",
+                "0.3.0",
+                "0.4.0",
+                "0.5.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/b10connoisseur"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://54.242.228.151:8090/debug-21f53"
+            ],
+            "ips": [
+                "54.242.228.151"
+            ]
+        }
+    }
+}
