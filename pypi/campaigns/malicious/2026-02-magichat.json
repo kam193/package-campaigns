@@ -1,0 +1,22 @@
+{
+    "name": "2026-02-magichat",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other",
+        "remote_executable"
+    ],
+    "packages": [
+        "magichat"
+    ],
+    "created_at": "2026-02-13",
+    "ioc": [
+        "https://www.dropbox.com/scl/fi/8g8j2g6ceuj12loonrxpu/Installer.exe?rlkey=9pi7bsdb31jlgxmntwde4j54h&st=3t69etqf&dl=1",
+        "doc-sendapplication.com",
+        "https://www.dropbox.com/scl/fi/itjqck6r0eivh655ijau9/DocSend.application?rlkey=gmbotpa64r8gqtbwiyo4wlfys&st=k0zrfnxe&dl=1"
+    ],
+    "references": [
+        "https://tria.ge/260212-z9ndmabs3b"
+    ],
+    "description": "The package is prepared to download a hardcoded executable and save it in %LOCALAPPDATA% under a very generic name, clearly aiming to hide its existence. Code is also prepared to alter MarkOfTheWeb, start as admin and run the executable, but in analyzed versions this behavior was not triggered in any existing code path. The downloading will happen e.g. on starting the declared command line.\n\nRemote executables are standalone applications or installators, including ClickOnce installators. However, in the analysis attempts, none of them showed clear malicious behavior, in most cases crashing during the analysis."
+}

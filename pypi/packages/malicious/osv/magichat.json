@@ -1,0 +1,62 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-magichat/magichat",
+    "published": "2026-02-13T10:56:11.411927+00:00",
+    "modified": "2026-02-13T10:56:11.411983+00:00",
+    "summary": "Malicious code in magichat (PyPI)",
+    "details": "The package is prepared to download a hardcoded executable and save it in %LOCALAPPDATA% under a very generic name, clearly aiming to hide its existence. Code is also prepared to alter MarkOfTheWeb, start as admin and run the executable, but in analyzed versions this behavior was not triggered in any existing code path. The downloading will happen e.g. on starting the declared command line.\n\nRemote executables are standalone applications or installators, including ClickOnce installators. However, in the analysis attempts, none of them showed clear malicious behavior, in most cases crashing during the analysis.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-magichat\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "magichat",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9",
+                "1.1.0",
+                "1.1.1",
+                "1.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/260212-z9ndmabs3b"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/magichat"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "doc-sendapplication.com"
+            ],
+            "urls": [
+                "https://www.dropbox.com/scl/fi/8g8j2g6ceuj12loonrxpu/Installer.exe?rlkey=9pi7bsdb31jlgxmntwde4j54h&st=3t69etqf&dl=1",
+                "https://www.dropbox.com/scl/fi/itjqck6r0eivh655ijau9/DocSend.application?rlkey=gmbotpa64r8gqtbwiyo4wlfys&st=k0zrfnxe&dl=1"
+            ]
+        }
+    }
+}
