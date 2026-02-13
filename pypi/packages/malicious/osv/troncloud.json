@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2025-04-tronix/troncloud",
     "published": "2026-02-13T17:22:10.246127+00:00",
-    "modified": "2026-02-13T17:22:10.246149+00:00",
+    "modified": "2026-02-13T17:29:35.257773+00:00",
     "summary": "Malicious code in troncloud (PyPI)",
     "details": "Package appears to be designed for private key exfiltration, but no known usage. The name appears to be related to the cryptocurrency TRX (Tron / Tronix). Some packages additionally clone the readme of other, legit libraries. The similar packages are repeating uploaded to PyPI\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-04-tronix\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - crypto-related\n\n",
     "affected": [
@@ -14,7 +14,8 @@
             "versions": [
                 "0.0.1",
                 "0.0.2",
-                "0.0.3"
+                "0.0.3",
+                "0.0.4"
             ]
         }
     ],
