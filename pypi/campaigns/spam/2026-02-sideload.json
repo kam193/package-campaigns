@@ -91,7 +91,8 @@
         "sideload-rooveterinaryinc-bin-697248aed0ea881f407d6d7b-p0",
         "sideload-svelte-bin-66e934f1ad19ca34f8a77c4d",
         "sideload-www-bin-6985705fae596e708f150585-p0",
-        "sideloader"
+        "sideloader",
+        "sideloader-ng"
     ],
     "created_at": "2026-01-22",
     "ioc": [],
