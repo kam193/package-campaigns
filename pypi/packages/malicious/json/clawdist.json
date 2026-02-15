@@ -1,0 +1,11 @@
+{
+    "name": "clawdist",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-magichat",
+    "affected_versions": [
+        "1.2.5",
+        "1.2.6"
+    ],
+    "campaign_assigned_at": "2026-02-15T21:58:17.359233+00:00",
+    "campaign_data_modified_at": "2026-02-15T21:58:17.388967+00:00"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "jsontest123",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-Smann23",
+    "affected_versions": [
+        "0.1.173808064",
+        "0.1.173808093"
+    ],
+    "campaign_assigned_at": "2026-02-15T21:46:39.050235+00:00",
+    "campaign_data_modified_at": "2026-02-15T21:46:39.075989+00:00"
+}

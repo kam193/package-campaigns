@@ -1,0 +1,10 @@
+{
+    "name": "dxlsheet",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-Smann23",
+    "affected_versions": [
+        "0.1.173799821"
+    ],
+    "campaign_assigned_at": "2026-02-15T21:46:27.082632+00:00",
+    "campaign_data_modified_at": "2026-02-15T21:46:27.105676+00:00"
+}
