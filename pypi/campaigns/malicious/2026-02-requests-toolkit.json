@@ -1,0 +1,21 @@
+{
+    "name": "2026-02-requests-toolkit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "infostealer",
+        "keylogger",
+        "malware",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "requests-toolkit"
+    ],
+    "created_at": "2026-02-15",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/af261caf84b235f17213f8deada55b8b867b5dcf7932330ca1a502e8530a35a5/detection"
+    ],
+    "description": "During import, package masquerade and starts an embedded executable. The executable has signs of infostealer activity"
+}
