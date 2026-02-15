@@ -20,7 +20,9 @@
         "http://myghibligenerator.com/curl/bb4b22014136fa4bd8b47449b7d6032780033e7cbfb104c1f7f61214c602987c",
         "https://updatedappython.com/api/rest.php",
         "updatedappython.com",
-        "http://45.150.34.209/api/"
+        "http://45.150.34.209/api/",
+        "http://45.150.34.209/vbs/",
+        "45.150.34.209"
     ],
     "references": [
         "https://tria.ge/260212-z9ndmabs3b",
