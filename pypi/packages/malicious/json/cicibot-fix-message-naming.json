@@ -1,0 +1,10 @@
+{
+    "name": "cicibot-fix-message-naming",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-cicibot-fix-message-naming",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-02-16T18:08:42.622614+00:00",
+    "campaign_data_modified_at": "2026-02-16T18:08:42.650749+00:00"
+}
