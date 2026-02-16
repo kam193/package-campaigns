@@ -1,0 +1,12 @@
+{
+    "name": "http-request-toolkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-requests-toolkit",
+    "affected_versions": [
+        "2.28.3",
+        "2.28.4",
+        "2.28.5"
+    ],
+    "campaign_assigned_at": "2026-02-16T07:03:21.184396+00:00",
+    "campaign_data_modified_at": "2026-02-16T07:03:21.221140+00:00"
+}
