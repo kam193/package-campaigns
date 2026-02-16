@@ -15,6 +15,8 @@
     "ioc": [
         "aksjdbajkb2jeblad.oss-cn-hongkong.aliyuncs.com"
     ],
-    "references": [],
+    "references": [
+        "https://www.reversinglabs.com/blog/malicious-attack-method-on-hosted-ml-models-now-targets-pypi"
+    ],
     "description": "During the importing, it loads a file pretending to an AI model. This file contains pickle-serialized code that exfiltrates data (basic IP/username info, as well as .gitconfig) to a remote target."
 }
