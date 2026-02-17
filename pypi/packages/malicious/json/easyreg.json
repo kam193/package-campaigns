@@ -1,0 +1,10 @@
+{
+    "name": "easyreg",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-pywin-simple-gui",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-02-17T23:17:30.911851+00:00",
+    "campaign_data_modified_at": "2026-02-17T23:17:30.939484+00:00"
+}

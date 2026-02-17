@@ -1,0 +1,10 @@
+{
+    "name": "pywin-simple-gui",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-pywin-simple-gui",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-02-17T23:14:17.400617+00:00",
+    "campaign_data_modified_at": "2026-02-17T23:14:17.437810+00:00"
+}
