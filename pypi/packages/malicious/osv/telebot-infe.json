@@ -1,26 +1,25 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2025-10-speedd-testing-bot/telebot-info",
-    "published": "2026-02-17T20:18:25.056606+00:00",
-    "modified": "2026-02-17T20:34:11.363080+00:00",
-    "summary": "Malicious code in telebot-info (PyPI)",
+    "id": "pypi/2025-10-speedd-testing-bot/telebot-infe",
+    "published": "2026-02-17T20:36:23.358753+00:00",
+    "modified": "2026-02-17T20:45:24.689369+00:00",
+    "summary": "Malicious code in telebot-infe (PyPI)",
     "details": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote malicious script.\n\n\n - rat\n\n",
     "affected": [
         {
             "package": {
-                "name": "telebot-info",
+                "name": "telebot-infe",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.3",
-                "0.4"
+                "0.3"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/telebot-info"
+            "url": "https://bad-packages.kam193.eu/pypi/package/telebot-infe"
         }
     ],
     "credits": [
@@ -30,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "REPORTER"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {
