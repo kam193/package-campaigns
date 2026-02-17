@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-02-pywin-simple-gui/easyreg",
     "published": "2026-02-17T23:17:30.911851+00:00",
-    "modified": "2026-02-17T23:17:30.939484+00:00",
+    "modified": "2026-02-17T23:29:55.282649+00:00",
     "summary": "Malicious code in easyreg (PyPI)",
     "details": "The package pretends to be a development helper but, in fact, downloads a remote executable. Dynamic analysis reveals actions like disabling Windows Defender and interest in cryptocurrencies as well as using Telegram as C2.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-pywin-simple-gui\n\n\nReasons (based on the campaign):\n\n\n - impersonation\n\n\n - Downloads and executes a remote executable.\n\n\n - modify-system-without-consent\n\n\n - crypto-related\n\n",
     "affected": [
