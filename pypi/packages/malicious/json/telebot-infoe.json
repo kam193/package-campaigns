@@ -1,0 +1,10 @@
+{
+    "name": "telebot-infoe",
+    "ecosystem": "pypi",
+    "campaign": "2025-10-speedd-testing-bot",
+    "affected_versions": [
+        "0.3"
+    ],
+    "campaign_assigned_at": "2026-02-18T18:42:29.676337+00:00",
+    "campaign_data_modified_at": "2026-02-18T18:42:29.702999+00:00"
+}
