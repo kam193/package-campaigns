@@ -1,0 +1,46 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-questpro/questpro",
+    "published": "2026-02-18T19:43:37.768103+00:00",
+    "modified": "2026-02-18T19:43:37.794004+00:00",
+    "summary": "Malicious code in questpro (PyPI)",
+    "details": "When using the package, user's Discord tokens are silently exfiltrated.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-questpro\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - exfiltration-credentials\n\n\n - action-hidden-in-lib-usage\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "questpro",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "1.0.3",
+                "3.0.0",
+                "3.0.5",
+                "4.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/questpro"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://discord.com/api/webhooks/1471477972589613282/64mOMvy7dvNm5m2Hy4v7PSBTytp9bmKBCZ9oULmtkTZPDsBUkq64w0YL6NR3w1b0rb5a"
+            ]
+        }
+    }
+}

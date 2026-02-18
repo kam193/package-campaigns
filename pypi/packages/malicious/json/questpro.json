@@ -1,0 +1,14 @@
+{
+    "name": "questpro",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-questpro",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.3",
+        "3.0.0",
+        "3.0.5",
+        "4.0.0"
+    ],
+    "campaign_assigned_at": "2026-02-18T19:43:37.768103+00:00",
+    "campaign_data_modified_at": "2026-02-18T19:43:37.794004+00:00"
+}

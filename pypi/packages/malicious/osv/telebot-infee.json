@@ -1,0 +1,49 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-10-speedd-testing-bot/telebot-infee",
+    "published": "2026-02-18T19:32:14.510766+00:00",
+    "modified": "2026-02-18T19:32:14.534841+00:00",
+    "summary": "Malicious code in telebot-infee (PyPI)",
+    "details": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-10-speedd-testing-bot\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote malicious script.\n\n\n - rat\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "telebot-infee",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/telebot-infee"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "server-unlock-hack.onrender.com"
+            ],
+            "urls": [
+                "https://pastebin.com/raw/xAT1vudj",
+                "https://i7trak-id3i.onrender.com",
+                "https://pastebin.com/raw/M3Rh68JJ",
+                "https://pastebin.com/raw/77tXxA1d",
+                "https://pastebin.com/raw/PSPYUQTt"
+            ]
+        }
+    }
+}
