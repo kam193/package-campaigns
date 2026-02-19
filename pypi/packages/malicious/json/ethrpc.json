@@ -1,0 +1,12 @@
+{
+    "name": "ethrpc",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-ethrpc-keys",
+    "affected_versions": [
+        "6.6.2",
+        "6.6.3",
+        "6.6.4"
+    ],
+    "campaign_assigned_at": "2026-02-19T23:56:09.262271+00:00",
+    "campaign_data_modified_at": "2026-02-19T23:56:09.286600+00:00"
+}
