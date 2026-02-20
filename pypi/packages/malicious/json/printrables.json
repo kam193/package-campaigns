@@ -1,0 +1,10 @@
+{
+    "name": "printrables",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-02-20T06:59:50.611597+00:00",
+    "campaign_data_modified_at": "2026-02-20T06:59:50.620004+00:00"
+}
