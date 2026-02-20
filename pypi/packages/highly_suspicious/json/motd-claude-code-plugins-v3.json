@@ -1,0 +1,10 @@
+{
+    "name": "motd-claude-code-plugins-v3",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-claude-code-plugins-v1",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-02-20T11:15:54.014109+00:00",
+    "campaign_data_modified_at": "2026-02-20T11:15:54.047799+00:00"
+}
