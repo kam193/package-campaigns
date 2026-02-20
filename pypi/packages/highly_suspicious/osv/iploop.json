@@ -1,0 +1,70 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-iploop/iploop",
+    "published": "2026-02-20T19:49:36.288680+00:00",
+    "modified": "2026-02-20T19:49:36.315376+00:00",
+    "summary": "Highly suspicious code in iploop (PyPI)",
+    "details": "Package uses obfuscation to hide its actions.\n\nAdditionally, the whole service seems extream shady: \n1) they claim to have millions of IPs, yet the domain was registered on 2025-11-12, around three months ago\n2) they claim to source IPs thorugh ProxyClaw, which has first commit on Github https://github.com/Iploop/proxyclaw three days ago (2026-02-17) and the domain proxyclaw.ai (linked on the iploop.io) has not been even registered\n3) many links on the iploop.io website, e.g. to blog posts, do not work\n4) the \"live request\" speed on the iploop.io main page is a random number generated in JavaScript\n5) the related Github account has multiple cryptic repositories hosting likely malicious executables, like https://github.com/Furhworld/Zi1zlumOvCiI\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-02-iploop\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "iploop",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.3.0",
+                "1.3.1",
+                "1.3.2",
+                "1.3.3",
+                "1.4.0",
+                "1.5.0",
+                "1.5.1",
+                "1.5.2",
+                "1.5.3",
+                "1.5.4",
+                "1.5.5",
+                "1.5.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://web.archive.org/web/20260000000000*/https://iploop.io/"
+        },
+        {
+            "type": "WEB",
+            "url": "# from https://github.com/Furhworld/Zi1zlumOvCiI"
+        },
+        {
+            "type": "WEB",
+            "url": "https://www.virustotal.com/gui/file-analysis/ZjhiMjFhM2Q5MjA4ZWY2YmU0MjQ1ODgxZWI1MmZhNTQ6MTc3MTYxNzI2NA=="
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/iploop"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "iploop.io"
+            ],
+            "urls": [
+                "https://github.com/Furhworld",
+                "https://github.com/Iploop",
+                "https://iploop.io/"
+            ]
+        }
+    }
+}

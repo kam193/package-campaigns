@@ -1,0 +1,24 @@
+{
+    "name": "2026-02-iploop",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "iploop"
+    ],
+    "created_at": "2026-02-20",
+    "ioc": [
+        "https://github.com/Furhworld",
+        "https://github.com/Iploop",
+        "https://iploop.io/",
+        "iploop.io"
+    ],
+    "references": [
+        "https://web.archive.org/web/20260000000000*/https://iploop.io/",
+        "# from https://github.com/Furhworld/Zi1zlumOvCiI ",
+        "https://www.virustotal.com/gui/file-analysis/ZjhiMjFhM2Q5MjA4ZWY2YmU0MjQ1ODgxZWI1MmZhNTQ6MTc3MTYxNzI2NA=="
+    ],
+    "description": "Package uses obfuscation to hide its actions.\n\nAdditionally, the whole service seems extream shady: \n1) they claim to have millions of IPs, yet the domain was registered on 2025-11-12, around three months ago\n2) they claim to source IPs thorugh ProxyClaw, which has first commit on Github https://github.com/Iploop/proxyclaw three days ago (2026-02-17) and the domain proxyclaw.ai (linked on the iploop.io) has not been even registered\n3) many links on the iploop.io website, e.g. to blog posts, do not work\n4) the \"live request\" speed on the iploop.io main page is a random number generated in JavaScript\n5) the related Github account has multiple cryptic repositories hosting likely malicious executables, like https://github.com/Furhworld/Zi1zlumOvCiI "
+}
