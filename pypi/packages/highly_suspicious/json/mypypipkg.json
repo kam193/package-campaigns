@@ -1,0 +1,11 @@
+{
+    "name": "mypypipkg",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-02-21T10:15:18.272670+00:00",
+    "campaign_data_modified_at": "2026-02-21T10:15:18.376780+00:00"
+}
