@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-old-tensorflow-opt",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "cryptominer",
+        "dependency-confusion",
+        "impersonation"
+    ],
+    "packages": [
+        "tensorflow-opt"
+    ],
+    "created_at": "2026-02-22",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/e8e775add50c67e1c6f6ca20db318f745e22b085afcbdf5634015e6ef91e8853/detection",
+        "https://www.virustotal.com/gui/file/402438684406d1e3b2d1d5629151259ad864ffc55c8e6ab176f4c47c543d4fee/detection"
+    ],
+    "description": "Package is likely a dependency confusion against some legitimate extension packages for TensorFlow but contains just cryptominers. When calling the \"start\" method, the cryptominer is copied from the package directory to the main TensorFlow installation dir, and the cryptomining for a hardcoded wallet starts."
+}
