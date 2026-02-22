@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/rajx",
     "published": "2026-02-22T20:15:40.960432+00:00",
-    "modified": "2026-02-22T20:15:40.999406+00:00",
+    "modified": "2026-02-22T20:39:23.023025+00:00",
     "summary": "Highly suspicious code in rajx (PyPI)",
     "details": "The package provides little to no functionality, but contains obfuscated code that could destroy a user's filesystem. Older versions contained exfiltrating of files. However, no action is done automatically, and it's hard to clearly assess the intentions.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
