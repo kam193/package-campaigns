@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-old-myasicapi",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "revshell"
+    ],
+    "packages": [
+        "myasicapi"
+    ],
+    "created_at": "2026-02-22",
+    "ioc": [
+        "188.168.22.21"
+    ],
+    "references": [
+        "https://github.com/MiningManufacture/MyAsic/blob/master/myasic.py#L91"
+    ],
+    "description": "The code and related Github project promise to monitor hardware cryptominers. However, the code additionally hides two malicious capabilities functionalities:\n\n1. acting as an attacker-controller proxy,\n2. reversed shell to the attacker-controller endpoint.\n\nThey start automatically together with the promissed simple monitoring. "
+}
