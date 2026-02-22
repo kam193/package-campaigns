@@ -1,0 +1,13 @@
+{
+    "name": "rajx",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The package provides little to no functionality, but contains obfuscated code that could destroy a user's filesystem. Older versions contained exfiltrating of files. However, no action is done automatically, and it's hard to clearly assess the intentions.",
+    "affected_versions": [
+        "0.0.2",
+        "0.0.3",
+        "0.0.4"
+    ],
+    "campaign_assigned_at": "2026-02-22T20:15:40.960432+00:00",
+    "campaign_data_modified_at": "2026-02-22T20:15:40.999406+00:00"
+}
