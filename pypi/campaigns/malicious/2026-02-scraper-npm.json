@@ -1,0 +1,21 @@
+{
+    "name": "2026-02-scraper-npm",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "basic_exfiltration",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "scraper-npm"
+    ],
+    "created_at": "2026-02-23",
+    "ioc": [
+        "https://api.bensaru.site/api/validate/files",
+        "api.bensaru.site",
+        "bensaru.site"
+    ],
+    "references": [],
+    "description": "During import, the package exfiltrates files (especially .env and JSON) and eventually configures a backdoor by adding its own SSH key to the authorized_keys."
+}

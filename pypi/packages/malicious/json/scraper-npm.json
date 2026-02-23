@@ -1,0 +1,10 @@
+{
+    "name": "scraper-npm",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-scraper-npm",
+    "affected_versions": [
+        "1.0.4"
+    ],
+    "campaign_assigned_at": "2026-02-23T08:59:49.518942+00:00",
+    "campaign_data_modified_at": "2026-02-23T08:59:49.553899+00:00"
+}
