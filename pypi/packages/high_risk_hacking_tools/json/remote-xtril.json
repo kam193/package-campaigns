@@ -1,7 +1,7 @@
 {
     "name": "remote-xtril",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-risky-hacking-tools",
+    "campaign": "2026-02-remote-xtril",
     "affected_versions": [
         "1.0.52",
         "1.0.53",
@@ -15,6 +15,6 @@
         "1.0.62",
         "1.0.63"
     ],
-    "campaign_assigned_at": "2026-02-11T22:30:22.807579+00:00",
-    "campaign_data_modified_at": "2026-02-11T23:56:42.555471+00:00"
+    "campaign_assigned_at": "2026-02-24T21:52:38.366724+00:00",
+    "campaign_data_modified_at": "2026-02-24T21:52:38.395034+00:00"
 }

@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-remote-xtril",
+    "ecosystem": "pypi",
+    "category": "high_risk_hacking_tools",
+    "abuse_categories": [
+        "abusing-3rd-api",
+        "other"
+    ],
+    "packages": [
+        "remote-xtril"
+    ],
+    "created_at": "2026-02-24",
+    "ioc": [
+        "https://t.me/Mr_ahmadirad",
+        "https://github.com/MohammadAhmadi-R/private-pylib.git",
+        "https://github.com/MohammadAhmadi-R/remote-xtril"
+    ],
+    "references": [],
+    "description": "The package is designed to abuse Telegram service by spamming channels with messages. This is its main purpose."
+}
