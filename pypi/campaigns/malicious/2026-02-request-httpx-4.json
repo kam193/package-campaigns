@@ -8,7 +8,8 @@
         "remote_commands"
     ],
     "packages": [
-        "request-httpx-4"
+        "request-httpx-4",
+        "request-httpx-9"
     ],
     "created_at": "2026-02-23",
     "ioc": [],
