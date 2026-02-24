@@ -9,11 +9,13 @@
         "override_install"
     ],
     "packages": [
-        "do-not-install-this-package-002"
+        "do-not-install-this-package-002",
+        "do-not-install-this-package-003"
     ],
     "created_at": "2026-01-08",
     "ioc": [
-        "https://bachelor-thesis-001.free.beeceptor.com"
+        "https://bachelor-thesis-001.free.beeceptor.com",
+        "bachelor-thesis-001.proxy.beeceptor.com"
     ],
     "references": [],
     "description": "During installation, the package exfiltrates env variables and data from different process memory to  a remote location"
