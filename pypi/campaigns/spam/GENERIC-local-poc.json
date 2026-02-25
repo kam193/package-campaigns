@@ -8,6 +8,7 @@
     ],
     "packages": [
         "chunqiuwestj-pkg-westj137",
+        "cuda1",
         "jiyoon-hack-pkg-2026",
         "lala6992",
         "pypypywargame-pkg-test",

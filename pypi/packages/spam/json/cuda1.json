@@ -1,0 +1,10 @@
+{
+    "name": "cuda1",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "99.99.99"
+    ],
+    "campaign_assigned_at": "2026-02-25T11:51:53.039027+00:00",
+    "campaign_data_modified_at": "2026-02-25T11:51:53.066726+00:00"
+}
