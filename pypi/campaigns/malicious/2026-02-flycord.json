@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-flycord",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "basic_exfiltration",
+        "obfuscation"
+    ],
+    "packages": [
+        "flycord"
+    ],
+    "created_at": "2026-02-26",
+    "ioc": [],
+    "references": [],
+    "description": "When the user uses the provided library, this package silently reports basic information and the result of the user's action to a hardcoded, obfuscated URL. Given the lack of an opt-out possibility, collection of usernames, obfuscated target and not disclosing it anywhere, it cannot be classified as telemetry. "
+}
