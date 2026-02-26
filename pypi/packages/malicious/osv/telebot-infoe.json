@@ -19,6 +19,10 @@
     "references": [
         {
             "type": "WEB",
+            "url": "https://www.getsafety.com/blog-posts/telegrem-bot-malware"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/telebot-infoe"
         }
     ],

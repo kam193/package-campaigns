@@ -20,6 +20,10 @@
     "references": [
         {
             "type": "WEB",
+            "url": "www.getsafety.com/blog-posts/extrazip-malware-campaign"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/smtrlib"
         }
     ],

@@ -43,6 +43,8 @@
         "https://pastebin.com/raw/PSPYUQTt",
         "server-unlock-hack.onrender.com"
     ],
-    "references": [],
+    "references": [
+        "https://www.getsafety.com/blog-posts/telegrem-bot-malware"
+    ],
     "description": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer "
 }

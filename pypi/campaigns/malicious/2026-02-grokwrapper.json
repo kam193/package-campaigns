@@ -15,7 +15,8 @@
         "https://dl.dropboxusercontent.com/scl/fi/su8ks7znqh6lzkd9n26yt/PenisKOZLA.gif?rlkey=6otsosk8q7bjv2z44i16bmblo&st=ehtbhkv8&dl=1"
     ],
     "references": [
-        "https://www.virustotal.com/gui/file/1963f8777e33d95c106ba28857058348eed021b4b86c46bad63b63dabada26ce/summary"
+        "https://www.virustotal.com/gui/file/1963f8777e33d95c106ba28857058348eed021b4b86c46bad63b63dabada26ce/summary",
+        "https://www.getsafety.com/blog-posts/grokwrapper"
     ],
     "description": "During importing the module, package silently execute code hidden in an embedded config file, and downloads remote executable. It's then added to Run registry key for persistence and started.\n\nDuring analysis, the executable was not detected by antiviruses. "
 }

@@ -51,6 +51,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://www.getsafety.com/blog-posts/magicwolf"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/magichat"
         }
     ],
