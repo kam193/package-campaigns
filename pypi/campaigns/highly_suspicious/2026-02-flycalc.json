@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-flycalc",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "flycalc",
+        "flydevs"
+    ],
+    "created_at": "2026-02-26",
+    "ioc": [],
+    "references": [],
+    "description": "Package seems to silently exfiltrate user info and a screenshot, when used"
+}
