@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-purpleflea",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "crypto-related",
+        "llm-threat",
+        "other"
+    ],
+    "packages": [
+        "purpleflea"
+    ],
+    "created_at": "2026-02-26",
+    "ioc": [
+        "purpleflea.com",
+        "api.purpleflea.com"
+    ],
+    "references": [],
+    "description": "Package to use the API of Purpleflea.com, a very suspicious financial service for LLM agents, offering high-risk services like gambling, using only cryptocurrencies as the payment method. At the time of analysis, the domain was 6 days old. The service profile matches emerging threats targeting LLM agents, but it's not clear if there is anything malicious, or it's just a high-risk service."
+}
