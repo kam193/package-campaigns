@@ -1,0 +1,13 @@
+{
+    "name": "flycalc",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The package is designed to send a screenshot and basic information to a webhook, which could be part of malicious activity, but there are no tracks of the usage.",
+    "affected_versions": [
+        "1.1.0",
+        "1.2.0",
+        "1.2.1"
+    ],
+    "campaign_assigned_at": "2026-02-26T15:17:35.230197+00:00",
+    "campaign_data_modified_at": "2026-02-26T15:17:35.285086+00:00"
+}
