@@ -1,0 +1,11 @@
+{
+    "name": "jwrincident",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-jwrincident",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-02-28T22:36:00.770652+00:00",
+    "campaign_data_modified_at": "2026-02-28T22:36:00.920296+00:00"
+}

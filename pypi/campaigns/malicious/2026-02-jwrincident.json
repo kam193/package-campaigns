@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-jwrincident",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "jwrincident"
+    ],
+    "created_at": "2026-02-28",
+    "ioc": [
+        "108.143.253.126"
+    ],
+    "references": [],
+    "description": "During installation, the package starts a reverse shell"
+}
