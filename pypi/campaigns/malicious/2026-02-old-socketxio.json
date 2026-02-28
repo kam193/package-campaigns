@@ -1,0 +1,16 @@
+{
+    "name": "2026-02-old-socketxio",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "socketxio"
+    ],
+    "created_at": "2026-02-28",
+    "ioc": [],
+    "references": [],
+    "description": "Using the provided function results in exfiltrating Discord tokens to a hardcoded location"
+}
