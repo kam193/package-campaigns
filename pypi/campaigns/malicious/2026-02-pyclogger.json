@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-pyclogger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "infostealer"
+    ],
+    "packages": [
+        "pyclogger"
+    ],
+    "created_at": "2026-03-01",
+    "ioc": [],
+    "references": [],
+    "description": "Package contains an infostealer exfiltrating Discord tokens and saved browser credentials to a hardcoded location."
+}

@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-pyclogger/pyclogger",
+    "published": "2026-03-01T13:28:57.113493+00:00",
+    "modified": "2026-03-01T13:28:57.147836+00:00",
+    "summary": "Malicious code in pyclogger (PyPI)",
+    "details": "Package contains an infostealer exfiltrating Discord tokens and saved browser credentials to a hardcoded location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-pyclogger\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - exfiltration-credentials\n\n\n - exfiltration-browser-data\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pyclogger",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyclogger"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
