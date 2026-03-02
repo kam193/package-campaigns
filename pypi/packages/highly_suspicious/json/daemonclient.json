@@ -1,0 +1,12 @@
+{
+    "name": "daemonclient",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package abuses Telegram limits to store arbitrary data",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-03-02T08:50:33.962791+00:00",
+    "campaign_data_modified_at": "2026-03-02T08:50:34.012081+00:00"
+}
