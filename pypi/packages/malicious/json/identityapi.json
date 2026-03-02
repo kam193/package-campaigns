@@ -1,0 +1,10 @@
+{
+    "name": "identityapi",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-amigapythonupdater",
+    "affected_versions": [
+        "3.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-02T18:47:02.994210+00:00",
+    "campaign_data_modified_at": "2026-03-02T18:47:03.023720+00:00"
+}
