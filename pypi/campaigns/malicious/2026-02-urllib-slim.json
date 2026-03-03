@@ -1,0 +1,25 @@
+{
+    "name": "2026-02-urllib-slim",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "obfuscation",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "optimal-spark-config",
+        "risk-utilities",
+        "spark-ml-utilities",
+        "urllib-slim"
+    ],
+    "created_at": "2026-03-03",
+    "ioc": [
+        "https://storage.googleapis.com/py-pi/python_mac",
+        "https://storage.googleapis.com/py-pi/python_rhel",
+        "https://storage.googleapis.com/py-pi/python_win"
+    ],
+    "references": [],
+    "description": "During installation, the package starts obfuscated code that downloads and runs remote executables in specific environments - in older packages - attempts to exfiltrate some basic information using DNS requests and then likely cover tracks by installing a similarly named package from private repository"
+}

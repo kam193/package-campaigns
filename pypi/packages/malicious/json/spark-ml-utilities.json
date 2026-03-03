@@ -1,0 +1,11 @@
+{
+    "name": "spark-ml-utilities",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-03-03T18:13:56.130004+00:00",
+    "campaign_data_modified_at": "2026-03-03T18:13:56.167881+00:00"
+}

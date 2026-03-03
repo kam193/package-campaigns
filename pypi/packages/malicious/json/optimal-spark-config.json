@@ -1,0 +1,13 @@
+{
+    "name": "optimal-spark-config",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "description": "During installation, the package starts obfuscated code that attempts to exfiltrate some basic information using DNS requests and then likely cover tracks by installing a similarly named package from private repository",
+    "affected_versions": [
+        "14.0.0",
+        "14.0.1",
+        "14.0.2"
+    ],
+    "campaign_assigned_at": "2026-03-03T18:02:59.431227+00:00",
+    "campaign_data_modified_at": "2026-03-03T18:02:59.459666+00:00"
+}
