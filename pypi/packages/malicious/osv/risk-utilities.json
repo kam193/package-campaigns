@@ -19,6 +19,10 @@
     ],
     "references": [
         {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/d6029cce705b3842042106efb737c8b14eb736fdbfb8d0d03c3dfbc8d6c207a5?nocache=1"
+        },
+        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/risk-utilities"
         }
@@ -35,6 +39,10 @@
     ],
     "database_specific": {
         "iocs": {
+            "domains": [
+                "1r.vc",
+                "i.1r.vc"
+            ],
             "urls": [
                 "https://storage.googleapis.com/py-pi/python_mac",
                 "https://storage.googleapis.com/py-pi/python_rhel",

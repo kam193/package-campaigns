@@ -18,8 +18,12 @@
     "ioc": [
         "https://storage.googleapis.com/py-pi/python_mac",
         "https://storage.googleapis.com/py-pi/python_rhel",
-        "https://storage.googleapis.com/py-pi/python_win"
+        "https://storage.googleapis.com/py-pi/python_win",
+        "1r.vc",
+        "i.1r.vc"
     ],
-    "references": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/d6029cce705b3842042106efb737c8b14eb736fdbfb8d0d03c3dfbc8d6c207a5?nocache=1"
+    ],
     "description": "During installation, the package starts obfuscated code that downloads and runs remote executables in specific environments - in older packages - attempts to exfiltrate some basic information using DNS requests and then likely cover tracks by installing a similarly named package from private repository"
 }
