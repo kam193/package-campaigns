@@ -1,0 +1,17 @@
+{
+    "name": "2026-03-dakhara",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_commands"
+    ],
+    "packages": [
+        "dakhara"
+    ],
+    "created_at": "2026-03-03",
+    "ioc": [
+        "https://pastebin.com/raw/nbEuX2hW"
+    ],
+    "references": [],
+    "description": "Running the package automatically starts a Telegram bot waiting to execute remote commands. The bot credentials are dynamically collected from the pastebin."
+}
