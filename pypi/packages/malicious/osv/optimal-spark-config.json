@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-02-urllib-slim/optimal-spark-config",
     "published": "2026-03-03T18:02:59.431227+00:00",
-    "modified": "2026-03-03T18:02:59.459666+00:00",
+    "modified": "2026-03-03T19:02:20.555499+00:00",
     "summary": "Malicious code in optimal-spark-config (PyPI)",
     "details": "During installation, the package starts obfuscated code that attempts to exfiltrate some basic information using DNS requests and then likely cover tracks by installing a similarly named package from private repository\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-urllib-slim\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n",
     "affected": [
@@ -14,7 +14,8 @@
             "versions": [
                 "14.0.0",
                 "14.0.1",
-                "14.0.2"
+                "14.0.2",
+                "14.0.3"
             ]
         }
     ],
