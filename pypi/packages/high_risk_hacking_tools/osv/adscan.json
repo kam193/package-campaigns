@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-risky-hacking-tools/adscan",
     "published": "2025-01-28T22:18:07Z",
-    "modified": "2026-03-03T13:34:21.757354+00:00",
+    "modified": "2026-03-04T16:55:06.658646+00:00",
     "summary": "Malicious code in adscan (PyPI)",
     "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-risky-hacking-tools\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -29,7 +29,8 @@
                 "5.0.0",
                 "5.0.1",
                 "5.0.2",
-                "5.1.0"
+                "5.1.0",
+                "5.1.1"
             ]
         }
     ],
