@@ -10,6 +10,7 @@
     ],
     "packages": [
         "optimal-spark-config",
+        "requests-ml-min",
         "risk-utilities",
         "spark-ml-utilities",
         "urllib-slim"
