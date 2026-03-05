@@ -1,0 +1,18 @@
+{
+    "name": "parascode",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The package provides a method for executing code from a remote URL",
+    "affected_versions": [
+        "0.0.0",
+        "0.1.1",
+        "0.1.2",
+        "0.2.0",
+        "0.2.1",
+        "0.3.0",
+        "1.1.2",
+        "2.3.0"
+    ],
+    "campaign_assigned_at": "2026-03-05T20:10:46.045785+00:00",
+    "campaign_data_modified_at": "2026-03-05T20:10:46.078155+00:00"
+}
