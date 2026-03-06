@@ -1,0 +1,21 @@
+{
+    "name": "2026-03-fastapi-requests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "fastapi-requests",
+        "fastapis-requests"
+    ],
+    "created_at": "2026-03-06",
+    "ioc": [
+        "cleverstack-ext30341.vercel.app"
+    ],
+    "references": [],
+    "description": "The package clones a legitimate library and contains hidden code that executes remote scripts. During the analysis, the remote code was no longer available"
+}
