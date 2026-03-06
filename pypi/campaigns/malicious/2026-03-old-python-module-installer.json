@@ -1,0 +1,29 @@
+{
+    "name": "2026-03-old-python-module-installer",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "crypto-related",
+        "dependency-confusion",
+        "exfiltration_crypto",
+        "files_exfiltration",
+        "impersonation"
+    ],
+    "packages": [
+        "python-module-installer",
+        "python-requirements"
+    ],
+    "created_at": "2026-03-06",
+    "ioc": [
+        "rkorkunov@internet.ru"
+    ],
+    "references": [
+        "https://github.com/Python-source-dev/python-module-installer/commit/f58c60b95e98dc9ae8f0fb03ed8eaa5fa23e14cf",
+        "https://github.com/Python-source-dev/python-module-installer",
+        "https://github.com/python-requirements/requirements",
+        "https://github.com/fewcatltd/zkSync/"
+    ],
+    "description": "The package clones a legitimate webdavclient3 library and modifies it to be an installer utility. During installation, the package exfiltrates the current working directory to a remote WebDAV server or Telegram Bot. Additionally, the package targets cryptocurrency operations in another suspicious project, https://github.com/fewcatltd/zkSync/\n\nThe install_modules() method injects code into two files, which are characteristic for this repository, and causes exfiltrating configuration files during cryptocurrency exchange operations."
+}

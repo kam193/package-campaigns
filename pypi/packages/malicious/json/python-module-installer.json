@@ -1,0 +1,14 @@
+{
+    "name": "python-module-installer",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-old-python-module-installer",
+    "affected_versions": [
+        "3.15.6",
+        "3.15.7",
+        "3.15.8",
+        "3.15.9",
+        "3.15.10"
+    ],
+    "campaign_assigned_at": "2026-03-06T13:02:02.963469+00:00",
+    "campaign_data_modified_at": "2026-03-06T13:02:03.199623+00:00"
+}
