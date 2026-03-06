@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-02-b10connoisseur/b10connoisseur",
     "published": "2026-02-12T12:10:26.705260+00:00",
-    "modified": "2026-02-12T12:10:26.705293+00:00",
+    "modified": "2026-03-06T20:58:08.431364+00:00",
     "summary": "Malicious code in b10connoisseur (PyPI)",
     "details": "During installation, package attempts to enumerate the environment and exfiltrates potentially sensitive data to a hardcoded location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-b10connoisseur\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-env-variables\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
@@ -16,7 +16,9 @@
                 "0.2.0",
                 "0.3.0",
                 "0.4.0",
-                "0.5.0"
+                "0.5.0",
+                "0.12.0",
+                "0.13.0"
             ]
         }
     ],
