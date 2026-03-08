@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/parascode",
     "published": "2026-03-05T20:10:46.045785+00:00",
-    "modified": "2026-03-05T20:10:46.078155+00:00",
+    "modified": "2026-03-08T23:00:36.865170+00:00",
     "summary": "Highly suspicious code in parascode (PyPI)",
     "details": "The package provides a method for executing code from a remote URL\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -19,7 +19,9 @@
                 "0.2.1",
                 "0.3.0",
                 "1.1.2",
-                "2.3.0"
+                "2.3.0",
+                "2.3.1",
+                "2.3.2"
             ]
         }
     ],
