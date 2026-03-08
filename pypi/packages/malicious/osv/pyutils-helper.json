@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-pyutils-helper/pyutils-helper",
+    "published": "2026-03-08T14:13:30.234396+00:00",
+    "modified": "2026-03-08T14:13:30.263852+00:00",
+    "summary": "Malicious code in pyutils-helper (PyPI)",
+    "details": "Importing the module starts a silent cryptocurrency mining in the background for a hardcoded wallet.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-pyutils-helper\n\n\nReasons (based on the campaign):\n\n\n - cryptominer\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pyutils-helper",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.2.3",
+                "1.2.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pyutils-helper"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

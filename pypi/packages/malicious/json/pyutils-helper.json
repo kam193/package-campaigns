@@ -1,0 +1,11 @@
+{
+    "name": "pyutils-helper",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-pyutils-helper",
+    "affected_versions": [
+        "1.2.3",
+        "1.2.4"
+    ],
+    "campaign_assigned_at": "2026-03-08T14:13:30.234396+00:00",
+    "campaign_data_modified_at": "2026-03-08T14:13:30.263852+00:00"
+}
