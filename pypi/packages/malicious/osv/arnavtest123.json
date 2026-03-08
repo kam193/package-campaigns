@@ -1,18 +1,17 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-02-jwrincident/jwrincident",
-    "published": "2026-02-28T22:36:00.770652+00:00",
-    "modified": "2026-02-28T22:36:00.920296+00:00",
-    "summary": "Malicious code in jwrincident (PyPI)",
+    "id": "pypi/2026-02-jwrincident/arnavtest123",
+    "published": "2026-03-08T19:01:20.322687+00:00",
+    "modified": "2026-03-08T19:01:20.352596+00:00",
+    "summary": "Malicious code in arnavtest123 (PyPI)",
     "details": "During installation, the package starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-jwrincident\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
-                "name": "jwrincident",
+                "name": "arnavtest123",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0",
                 "1.0.1"
             ]
         }
@@ -20,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/jwrincident"
+            "url": "https://bad-packages.kam193.eu/pypi/package/arnavtest123"
         }
     ],
     "credits": [

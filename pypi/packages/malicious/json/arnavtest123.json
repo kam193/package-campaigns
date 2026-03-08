@@ -1,0 +1,10 @@
+{
+    "name": "arnavtest123",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-jwrincident",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-03-08T19:01:20.322687+00:00",
+    "campaign_data_modified_at": "2026-03-08T19:01:20.352596+00:00"
+}
