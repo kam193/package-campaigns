@@ -1,0 +1,13 @@
+{
+    "name": "requests-lite",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-old-requests-lite",
+    "affected_versions": [
+        "2.32.3",
+        "2.32.4",
+        "2.32.5",
+        "2.32.7"
+    ],
+    "campaign_assigned_at": "2026-03-09T10:21:44.059189+00:00",
+    "campaign_data_modified_at": "2026-03-09T10:21:44.094470+00:00"
+}
