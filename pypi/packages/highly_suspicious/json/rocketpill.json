@@ -1,0 +1,10 @@
+{
+    "name": "rocketpill",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1"
+    ],
+    "campaign_assigned_at": "2026-03-10T21:09:21.192989+00:00",
+    "campaign_data_modified_at": "2026-03-10T21:09:21.225764+00:00"
+}
