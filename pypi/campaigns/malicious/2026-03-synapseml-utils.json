@@ -1,0 +1,17 @@
+{
+    "name": "2026-03-synapseml-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "ransomware"
+    ],
+    "packages": [
+        "synapseml-utils"
+    ],
+    "created_at": "2026-03-10",
+    "ioc": [
+        "youjustgotbeamed.com"
+    ],
+    "references": [],
+    "description": "Installing the package starts encrypting the user's file and demanding ransom for the decryption."
+}

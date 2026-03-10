@@ -1,0 +1,47 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-synapseml-utils/synapseml-utils",
+    "published": "2026-03-10T17:57:54.552912+00:00",
+    "modified": "2026-03-10T17:57:54.582238+00:00",
+    "summary": "Malicious code in synapseml-utils (PyPI)",
+    "details": "Installing the package starts encrypting the user's file and demanding ransom for the decryption.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-synapseml-utils\n\n\nReasons (based on the campaign):\n\n\n - ransomware\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "synapseml-utils",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2",
+                "0.1.3",
+                "0.1.4",
+                "0.1.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/synapseml-utils"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "youjustgotbeamed.com"
+            ]
+        }
+    }
+}
