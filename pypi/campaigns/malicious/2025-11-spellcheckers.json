@@ -8,6 +8,7 @@
         "remote_script"
     ],
     "packages": [
+        "collects",
         "gridifies",
         "gridifys",
         "printrables",
@@ -38,7 +39,8 @@
         "searchbox.info",
         "https://updatenet.work/settings/history.php",
         "updatenet.work",
-        "https://dothebest.store/allow"
+        "https://dothebest.store/allow",
+        "https://dothebest.store/k/bag.php"
     ],
     "references": [
         "https://helixguard.ai/blog/malicious-spellcheckers-2025-11-19",
