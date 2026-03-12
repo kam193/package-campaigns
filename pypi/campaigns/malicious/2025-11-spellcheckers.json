@@ -9,6 +9,7 @@
     ],
     "packages": [
         "collectables",
+        "collecters",
         "collects",
         "gridifies",
         "gridifys",
