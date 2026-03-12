@@ -1,0 +1,11 @@
+{
+    "name": "regbuild",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "During installation, package attempts to execute a remote script, but the URL no longer exists.",
+    "affected_versions": [
+        "1.0.8"
+    ],
+    "campaign_assigned_at": "2026-03-12T22:54:31.916508+00:00",
+    "campaign_data_modified_at": "2026-03-12T22:54:31.944590+00:00"
+}
