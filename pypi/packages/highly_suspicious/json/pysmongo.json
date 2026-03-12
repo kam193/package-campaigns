@@ -1,0 +1,12 @@
+{
+    "name": "pysmongo",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Suspicious ",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-03-12T22:02:27.324912+00:00",
+    "campaign_data_modified_at": "2026-03-12T22:02:27.361054+00:00"
+}
