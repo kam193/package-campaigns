@@ -4,7 +4,7 @@
     "published": "2026-03-12T22:02:27.324912+00:00",
     "modified": "2026-03-12T22:02:27.361054+00:00",
     "summary": "Highly suspicious code in pysmongo (PyPI)",
-    "details": "Suspicious\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "details": "Very suspicious code including a telegram bot to perform some operations in the product, but with a hardcoded administrator controlled by the package owner.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {

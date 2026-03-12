@@ -2,7 +2,7 @@
     "name": "pysmongo",
     "ecosystem": "pypi",
     "campaign": "GENERIC-other-risky",
-    "description": "Suspicious ",
+    "description": "Very suspicious code including a telegram bot to perform some operations in the product, but with a hardcoded administrator controlled by the package owner.",
     "affected_versions": [
         "1.0.0",
         "1.0.1"
