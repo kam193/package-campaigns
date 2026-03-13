@@ -1,0 +1,11 @@
+{
+    "name": "nfd",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-old-nai",
+    "description": "Facebook automation/hacking tool, with a part of its code obfuscated. Given that other packages from this uploader exfiltrate user's credentials, this is likely to hide a malicious action.",
+    "affected_versions": [
+        "1.0"
+    ],
+    "campaign_assigned_at": "2026-03-13T10:41:13.318005+00:00",
+    "campaign_data_modified_at": "2026-03-13T10:41:13.342750+00:00"
+}

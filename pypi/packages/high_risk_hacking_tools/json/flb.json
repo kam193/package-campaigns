@@ -1,0 +1,11 @@
+{
+    "name": "flb",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0",
+        "1.1"
+    ],
+    "campaign_assigned_at": "2026-03-13T10:45:08.729157+00:00",
+    "campaign_data_modified_at": "2026-03-13T10:45:08.840849+00:00"
+}
