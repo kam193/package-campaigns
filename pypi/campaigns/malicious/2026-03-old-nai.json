@@ -1,0 +1,19 @@
+{
+    "name": "2026-03-old-nai",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abusing-3rd-api",
+        "action-hidden-in-lib-usage",
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "nai"
+    ],
+    "created_at": "2026-03-13",
+    "ioc": [
+        "nasweb.000webhostapp.com"
+    ],
+    "references": [],
+    "description": "Package is a hacking tool that not only abuses 3rd-party services but also silently exfiltrates credentials the user uses to log in there. The provided account is also forced to follow the attacker's accounts."
+}
