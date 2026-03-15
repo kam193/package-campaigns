@@ -8,7 +8,8 @@
         "remote_executable"
     ],
     "packages": [
-        "flowfix"
+        "flowfix",
+        "flowpeek"
     ],
     "created_at": "2026-03-06",
     "ioc": [
@@ -16,7 +17,8 @@
         "lustodyssey.com"
     ],
     "references": [
-        "https://app.any.run/tasks/da14db45-34c9-465f-80e5-394d433cd21d"
+        "https://app.any.run/tasks/da14db45-34c9-465f-80e5-394d433cd21d",
+        "https://app.any.run/tasks/3a6f9054-be6c-4b33-bcf7-d7504e1f4d52"
     ],
     "description": "The package hides code to download and open remote content. The current code seems to be a bit broken as the final URL is not correct, but the code holds also reference to a URL serving an infostealer executable."
 }

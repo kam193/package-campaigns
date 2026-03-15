@@ -1,0 +1,11 @@
+{
+    "name": "flowpeek",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-flowfix",
+    "description": "During import, the code starts the embedded executable. This executable is an information stealer extracting sensitive data to a Discord channel.",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-03-15T17:02:41.722758+00:00",
+    "campaign_data_modified_at": "2026-03-15T17:02:41.758170+00:00"
+}

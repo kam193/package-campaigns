@@ -1,18 +1,17 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-03-flowfix/flowfix",
-    "published": "2026-03-06T17:39:56.275175+00:00",
-    "modified": "2026-03-06T17:39:56.310247+00:00",
-    "summary": "Malicious code in flowfix (PyPI)",
-    "details": "The package hides code to download and open remote content. The current code seems to be a bit broken as the final URL is not correct, but the code holds also reference to a URL serving an infostealer executable.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-flowfix\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - infostealer\n\n\n - Downloads and executes a remote executable.\n\n",
+    "id": "pypi/2026-03-flowfix/flowpeek",
+    "published": "2026-03-15T17:02:41.722758+00:00",
+    "modified": "2026-03-15T17:02:41.758170+00:00",
+    "summary": "Malicious code in flowpeek (PyPI)",
+    "details": "During import, the code starts the embedded executable. This executable is an information stealer extracting sensitive data to a Discord channel.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-flowfix\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - infostealer\n\n\n - Downloads and executes a remote executable.\n\n",
     "affected": [
         {
             "package": {
-                "name": "flowfix",
+                "name": "flowpeek",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1.0",
                 "0.1.1"
             ]
         }
@@ -28,7 +27,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/flowfix"
+            "url": "https://bad-packages.kam193.eu/pypi/package/flowpeek"
         }
     ],
     "credits": [

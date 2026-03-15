@@ -35,7 +35,8 @@
     "database_specific": {
         "iocs": {
             "domains": [
-                "bachelor-thesis-001.proxy.beeceptor.com"
+                "bachelor-thesis-001.proxy.beeceptor.com",
+                "open-hookbin.vercel.app"
             ],
             "urls": [
                 "https://bachelor-thesis-001.free.beeceptor.com"
