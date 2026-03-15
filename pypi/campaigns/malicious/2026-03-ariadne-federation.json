@@ -1,0 +1,24 @@
+{
+    "name": "2026-03-ariadne-federation",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "malware",
+        "obfuscation",
+        "typosquatting"
+    ],
+    "packages": [
+        "ariadne-federation",
+        "dgl-cu117",
+        "kvstore-pb2-grpc",
+        "my-super-lib",
+        "python-anchor"
+    ],
+    "created_at": "2026-03-15",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/609d9adb5afe6fb913b605157a86e484f609b939e6755af4311ac6b824e634e2/detection"
+    ],
+    "description": "During import, package decrypts and runs a malicious executable. The executable is hidden in an encoded and xored form in the JSON resource file.\n\nThis is a follow up of the campaign 2026-03-fastapi-middleware-cors"
+}
