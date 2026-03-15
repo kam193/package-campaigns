@@ -2,9 +2,9 @@
     "schema_version": "1.7.4",
     "id": "pypi/2025-04-blackspammerbd-vx1/bsb-2025",
     "published": "2025-04-07T21:15:51Z",
-    "modified": "2025-04-07T21:15:51Z",
+    "modified": "2026-03-15T16:02:35.650681+00:00",
     "summary": "Highly suspicious code in bsb-2025 (PyPI)",
-    "details": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-04-blackspammerbd-vx1\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - peristence-autorun\n\n\n - obfuscation\n\n",
+    "details": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials. In this campaign are also grouped other packages created by the same author, usually containing suspicious content or intended for abusing activity.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-04-blackspammerbd-vx1\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - peristence-autorun\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
@@ -17,6 +17,10 @@
         }
     ],
     "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/Shawpon2/"
+        },
         {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/bsb-2025"

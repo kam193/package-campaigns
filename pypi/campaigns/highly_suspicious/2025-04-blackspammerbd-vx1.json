@@ -12,10 +12,13 @@
         "blackspammerbd-vx1",
         "blackspammerbd-workout",
         "blackspammerbd-xd",
-        "bsb-2025"
+        "bsb-2025",
+        "bsb-doom"
     ],
     "created_at": "2025-04-07",
     "ioc": [],
-    "references": [],
-    "description": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials."
+    "references": [
+        "https://github.com/Shawpon2/"
+    ],
+    "description": "The code is designed to exfiltrate files from Android devices to a Telegream channel.  \n\nPrevious similarly named packages used obfuscation and didn't contain automated triggers nor hardcoded Telegram credentials. In this campaign are also grouped other packages created by the same author, usually containing suspicious content or intended for abusing activity."
 }
