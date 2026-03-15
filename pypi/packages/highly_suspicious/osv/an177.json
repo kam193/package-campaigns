@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-03-an17/an177",
     "published": "2026-03-14T14:53:13.243229+00:00",
-    "modified": "2026-03-14T15:48:45.940103+00:00",
+    "modified": "2026-03-15T11:21:11.173983+00:00",
     "summary": "Highly suspicious code in an177 (PyPI)",
     "details": "The package is a runner of an obfuscated code, but the code is not embedded.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-03-an17\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - obfuscation\n\n",
     "affected": [
@@ -14,7 +14,8 @@
             "versions": [
                 "0.1.0",
                 "0.1.1",
-                "0.1.2"
+                "0.1.2",
+                "0.1.3"
             ]
         }
     ],
