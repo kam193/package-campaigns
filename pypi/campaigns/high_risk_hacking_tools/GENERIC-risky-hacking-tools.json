@@ -5,6 +5,7 @@
     "packages": [
         "adscan",
         "advancedpythonmalware",
+        "ajpack",
         "doree",
         "drkrx",
         "exchangertool",
