@@ -10,6 +10,7 @@
     ],
     "packages": [
         "ariadne-federation",
+        "chacha-lite-encrypt",
         "dgl-cu117",
         "kvstore-pb2-grpc",
         "my-super-lib",

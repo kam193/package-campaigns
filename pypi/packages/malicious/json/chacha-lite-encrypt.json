@@ -1,0 +1,10 @@
+{
+    "name": "chacha-lite-encrypt",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-ariadne-federation",
+    "affected_versions": [
+        "4.2.0"
+    ],
+    "campaign_assigned_at": "2026-03-16T20:09:47.111232+00:00",
+    "campaign_data_modified_at": "2026-03-16T20:09:47.295916+00:00"
+}
