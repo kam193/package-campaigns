@@ -1,0 +1,21 @@
+{
+    "name": "2026-03-anistream",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "anistream"
+    ],
+    "created_at": "2026-03-17",
+    "ioc": [
+        "https://github.com/pluribs/linux/releases/download/1/plugins.zip"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/58d2134fcd3a97e5a9668e5ffd515d0a93ba7b6935041e1a47cabdcf448ffc66"
+    ],
+    "description": "Package hides code that downloads and runs malware, likely an infostealer. The code is not directly called in the package suggesting it's a dependency or next stage in the infection chain. "
+}
