@@ -7,14 +7,18 @@
         "typosquatting"
     ],
     "packages": [
+        "alexsecdemo",
         "chunqiuwestj-pkg-westj137",
         "cuda1",
+        "hachoir3",
         "jiyoon-hack-pkg-2026",
         "lala6992",
         "pypypywargame-pkg-test",
         "python3-distutils",
         "requestsabc-001a",
-        "theanswre"
+        "stitchstream-python",
+        "theanswre",
+        "zjusecdemo"
     ],
     "created_at": "2026-01-14",
     "ioc": [],

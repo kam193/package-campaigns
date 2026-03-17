@@ -1,27 +1,25 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-local-poc/requestsabc-001a",
-    "published": "2026-02-08T23:58:03.921571+00:00",
-    "modified": "2026-02-08T23:58:03.921601+00:00",
-    "summary": "Spam code in requestsabc-001a (PyPI)",
+    "id": "pypi/GENERIC-local-poc/hachoir3",
+    "published": "2026-03-17T22:04:08.108230+00:00",
+    "modified": "2026-03-17T22:04:08.134071+00:00",
+    "summary": "Spam code in hachoir3 (PyPI)",
     "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
         {
             "package": {
-                "name": "requestsabc-001a",
+                "name": "hachoir3",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.0.1",
-                "0.0.2",
-                "0.0.3"
+                "5.0.0"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/requestsabc-001a"
+            "url": "https://bad-packages.kam193.eu/pypi/package/hachoir3"
         }
     ],
     "credits": [
@@ -31,7 +29,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "REPORTER"
+            "type": "ANALYST"
         }
     ]
 }
