@@ -1,0 +1,11 @@
+{
+    "name": "telegramdatas",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-flowfix",
+    "description": "During import, an infostealer embedded as package resource is started. ",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-03-17T16:16:37.627611+00:00",
+    "campaign_data_modified_at": "2026-03-17T16:16:37.669136+00:00"
+}
