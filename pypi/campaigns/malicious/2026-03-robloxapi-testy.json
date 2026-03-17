@@ -7,6 +7,7 @@
         "remote_script"
     ],
     "packages": [
+        "robloxapi-test",
         "robloxapi-testy"
     ],
     "created_at": "2026-03-17",
