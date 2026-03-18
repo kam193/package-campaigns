@@ -8,6 +8,7 @@
         "remote_executable"
     ],
     "packages": [
+        "aniresolve",
         "anistream"
     ],
     "created_at": "2026-03-17",
