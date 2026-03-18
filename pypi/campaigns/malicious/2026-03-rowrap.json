@@ -1,0 +1,21 @@
+{
+    "name": "2026-03-rowrap",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_script"
+    ],
+    "packages": [
+        "rowrap"
+    ],
+    "created_at": "2026-03-18",
+    "ioc": [
+        "https://dark-resonance-459b.blammervale.workers.dev/555.bat",
+        "dark-resonance-459b.blammervale.workers.dev"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/7853783660953f032d117c78eb627fa7a22bdd828b161a58f2abc7405905bce2/detection"
+    ],
+    "description": "The package hides code to download and start malicious script containing malware, identified as adware. The triggering method seems to be PTH file, although it's not always present\n\n Given the time correlation, it's likely armored continuation of 2026-03-robloxapi-testy "
+}
