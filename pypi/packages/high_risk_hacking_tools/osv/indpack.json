@@ -1,0 +1,43 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-geekennedy/indpack",
+    "published": "2026-03-20T15:31:24.006827+00:00",
+    "modified": "2026-03-20T15:31:24.031125+00:00",
+    "summary": "Malicious code in indpack (PyPI)",
+    "details": "Packages in this campaign seem not to be malicious on their own but altogether create an exfiltration toolkit created by one user, e.g. collecting process data and potentially using DNS as C2. The malicious intention is, however, not confirmed at the moment. \n\nPackage nspack additionally notifies upon importing a domain known for malicious activity with the package and hostname.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2026-03-geekennedy\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "indpack",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/indpack"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "1r.vc",
+                "gcloudns.net"
+            ]
+        }
+    }
+}

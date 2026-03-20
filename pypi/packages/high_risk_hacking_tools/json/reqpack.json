@@ -1,0 +1,10 @@
+{
+    "name": "reqpack",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-geekennedy",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-03-20T15:31:13.612444+00:00",
+    "campaign_data_modified_at": "2026-03-20T15:31:13.642054+00:00"
+}

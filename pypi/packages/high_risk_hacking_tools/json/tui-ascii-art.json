@@ -1,0 +1,11 @@
+{
+    "name": "tui-ascii-art",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-geekennedy",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-03-20T15:31:34.883109+00:00",
+    "campaign_data_modified_at": "2026-03-20T15:31:34.907475+00:00"
+}
