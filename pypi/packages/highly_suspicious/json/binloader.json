@@ -1,0 +1,13 @@
+{
+    "name": "binloader",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "This package allows in-memory execution of arbitrary remote executables",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+    ],
+    "campaign_assigned_at": "2026-03-21T23:17:36.302602+00:00",
+    "campaign_data_modified_at": "2026-03-21T23:17:36.339975+00:00"
+}
