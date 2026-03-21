@@ -1,0 +1,14 @@
+{
+    "name": "pyszz",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Likely dependency confusion / typosquatting attempt.",
+    "affected_versions": [
+        "0.2.0",
+        "2.0",
+        "2.1",
+        "2.2"
+    ],
+    "campaign_assigned_at": "2026-03-21T19:34:01.847684+00:00",
+    "campaign_data_modified_at": "2026-03-21T19:34:01.876319+00:00"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "quickmcp",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Likely dependency confusion / typosquatting attempt.",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-03-21T19:32:49.505545+00:00",
+    "campaign_data_modified_at": "2026-03-21T19:32:49.531431+00:00"
+}
