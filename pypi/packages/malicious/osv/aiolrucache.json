@@ -1,0 +1,38 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-aiolrucache/aiolrucache",
+    "published": "2026-03-21T22:53:52.440115+00:00",
+    "modified": "2026-03-21T22:53:52.472149+00:00",
+    "summary": "Malicious code in aiolrucache (PyPI)",
+    "details": "The package masquerades as a utility, but during import, code loads obfuscated modules with RAT- and spyware-like functionality, including: exfiltrating files, executing remote code, taking screenshots, monitoring and exfiltrating the clipboard content. Malicious code is controlled via Discord.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-aiolrucache\n\n\nReasons (based on the campaign):\n\n\n - rat\n\n\n - spyware-like\n\n\n - keylogger\n\n\n - clipboard-stealing\n\n\n - obfuscation\n\n\n - files-exfiltration\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "aiolrucache",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.2.0",
+                "0.3.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/aiolrucache"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

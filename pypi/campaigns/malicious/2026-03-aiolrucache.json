@@ -1,0 +1,20 @@
+{
+    "name": "2026-03-aiolrucache",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "clipboard_stealing",
+        "files_exfiltration",
+        "keylogger",
+        "obfuscation",
+        "spyware-like"
+    ],
+    "packages": [
+        "aiolrucache"
+    ],
+    "created_at": "2026-03-21",
+    "ioc": [],
+    "references": [],
+    "description": "The package masquerades as a utility, but during import, code loads obfuscated modules with RAT- and spyware-like functionality, including: exfiltrating files, executing remote code, taking screenshots, monitoring and exfiltrating the clipboard content. Malicious code is controlled via Discord. "
+}
