@@ -6,7 +6,8 @@
         "obfuscation"
     ],
     "packages": [
-        "iploop"
+        "iploop",
+        "iploop-sdk"
     ],
     "created_at": "2026-02-20",
     "ioc": [
