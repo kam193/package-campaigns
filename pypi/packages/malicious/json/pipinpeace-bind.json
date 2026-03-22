@@ -1,0 +1,11 @@
+{
+    "name": "pipinpeace-bind",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "description": "Package is designed to start a bind shell during installation. However, it requires providing the port as an installation parameter, which suggests it's more research than direct malicious intentions.",
+    "affected_versions": [
+        "0.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-22T16:56:09.621284+00:00",
+    "campaign_data_modified_at": "2026-03-22T16:56:09.646435+00:00"
+}
