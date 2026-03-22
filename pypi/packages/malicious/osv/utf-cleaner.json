@@ -1,0 +1,54 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-old-utf-cleaner/utf-cleaner",
+    "published": "2026-03-22T22:57:59.523324+00:00",
+    "modified": "2026-03-22T22:57:59.555318+00:00",
+    "summary": "Malicious code in utf-cleaner (PyPI)",
+    "details": "During import, the package silently downloads and executes remote code. This code starts a web server in the separate process and listens for commands to execute from a C2 server, as well as periodically sends a beacon to C2 allowing discovery and finishing execution.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-old-utf-cleaner\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "utf-cleaner",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "3.3.7",
+                "3.3.8",
+                "3.3.9",
+                "3.4.0",
+                "3.4.1",
+                "3.4.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/xcummins/gits/blob/main/gits/__init__.py#L24-L32"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/utf-cleaner"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/xcummins/gits"
+            ],
+            "ips": [
+                "90.156.226.65"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "2026-03-old-utf-cleaner",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_commands",
+        "remote_script"
+    ],
+    "packages": [
+        "utf-cleaner"
+    ],
+    "created_at": "2026-03-22",
+    "ioc": [
+        "https://github.com/xcummins/gits",
+        "90.156.226.65"
+    ],
+    "references": [
+        "https://github.com/xcummins/gits/blob/main/gits/__init__.py#L24-L32"
+    ],
+    "description": "During import, the package silently downloads and executes remote code. This code starts a web server in the separate process and listens for commands to execute from a C2 server, as well as periodically sends a beacon to C2 allowing discovery and finishing execution."
+}
