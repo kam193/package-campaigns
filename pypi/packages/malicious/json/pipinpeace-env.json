@@ -1,0 +1,11 @@
+{
+    "name": "pipinpeace-env",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "description": "Package is designed to exfiltrate env variables during installation. However, it requires providing a URL as an installation parameter, which suggests it's more research than direct malicious intentions.",
+    "affected_versions": [
+        "0.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-22T15:49:50.553839+00:00",
+    "campaign_data_modified_at": "2026-03-22T15:49:50.587239+00:00"
+}
