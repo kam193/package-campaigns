@@ -2,9 +2,9 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-03-license-utils-kit/license-utils-kit",
     "published": "2026-03-23T09:41:24.803778+00:00",
-    "modified": "2026-03-23T09:41:24.830461+00:00",
+    "modified": "2026-03-23T09:43:36.165595+00:00",
     "summary": "Malicious code in license-utils-kit (PyPI)",
-    "details": "Malicious clone of legitimate \"license\" package. When using the find_by_key function, the malicious code from strongly obfuscated files is loaded. It then at least collects data from cryptowallets and password managers and exfiltrate them to a hardcoded remote location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-license-utils-kit\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - action-hidden-in-lib-usage\n\n\n - infostealer\n\n\n - crypto-related\n\n\n - obfuscation\n\n\n - exfiltration-credentials\n\n",
+    "details": "Malicious clone of legitimate \"license\" package. When using the find_by_key function, the malicious code from strongly obfuscated files is loaded. It then at least collects data from cryptowallets and password managers and exfiltrate them to a hardcoded remote location.\n\nPrior version 0.1b2, the malicious code was hosted externally and downloaded when triggered.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-license-utils-kit\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - obfuscation\n\n\n - crypto-related\n\n\n - action-hidden-in-lib-usage\n\n\n - exfiltration-credentials\n\n\n - clones-real-package\n\n",
     "affected": [
         {
             "package": {
@@ -39,6 +39,9 @@
     ],
     "database_specific": {
         "iocs": {
+            "domains": [
+                "apachelicense.vercel.app"
+            ],
             "ips": [
                 "66.45.225.94"
             ]
