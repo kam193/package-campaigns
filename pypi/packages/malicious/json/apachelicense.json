@@ -2,6 +2,7 @@
     "name": "apachelicense",
     "ecosystem": "pypi",
     "campaign": "2026-03-license-utils-kit",
+    "description": "",
     "affected_versions": [
         "0.1a1"
     ],

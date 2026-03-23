@@ -20,5 +20,5 @@
         "apachelicense.vercel.app"
     ],
     "references": [],
-    "description": "Malicious clone of legitimate \"license\" package. When using the find_by_key function, the malicious code from strongly obfuscated files is loaded. It then at least collects data from cryptowallets and password managers and exfiltrate them to a hardcoded remote location.\n\nPrior version 0.1b2, the malicious code was hosted externally and downloaded when triggered."
+    "description": "Malicious clone of legitimate \"license\" package. When using the find_by_key function, the malicious code from strongly obfuscated files is loaded. It then at least collects data from cryptowallets and password managers and exfiltrate them to a hardcoded remote location."
 }
