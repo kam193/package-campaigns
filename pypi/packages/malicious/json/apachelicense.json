@@ -1,0 +1,10 @@
+{
+    "name": "apachelicense",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-license-utils-kit",
+    "affected_versions": [
+        "0.1a1"
+    ],
+    "campaign_assigned_at": "2026-03-23T20:41:45.433706+00:00",
+    "campaign_data_modified_at": "2026-03-23T20:41:45.460194+00:00"
+}
