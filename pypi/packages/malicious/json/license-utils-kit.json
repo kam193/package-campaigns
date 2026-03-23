@@ -1,0 +1,15 @@
+{
+    "name": "license-utils-kit",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-license-utils-kit",
+    "affected_versions": [
+        "0.1a0",
+        "0.1a1",
+        "0.1b1",
+        "0.1b2",
+        "0.1b3",
+        "0.1b4"
+    ],
+    "campaign_assigned_at": "2026-03-23T09:41:24.803778+00:00",
+    "campaign_data_modified_at": "2026-03-23T09:41:24.830461+00:00"
+}

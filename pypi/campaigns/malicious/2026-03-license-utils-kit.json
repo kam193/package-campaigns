@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-license-utils-kit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "crypto-related",
+        "exfiltration_credentials",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "license-utils-kit"
+    ],
+    "created_at": "2026-03-23",
+    "ioc": [
+        "66.45.225.94"
+    ],
+    "references": [],
+    "description": "Malicious clone of legitimate \"license\" package. When using the find_by_key function, the malicious code from strongly obfuscated files is loaded. It then at least collects data from cryptowallets and password managers and exfiltrate them to a hardcoded remote location."
+}
