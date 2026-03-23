@@ -9,7 +9,11 @@
         "typosquatting"
     ],
     "packages": [
+        "dmclc",
+        "financial-crimes-general-utils",
+        "modelconftranslator",
         "optimal-spark-config",
+        "pyregions-snowflake",
         "requests-ml-min",
         "risk-utilities",
         "spark-ml-utilities",

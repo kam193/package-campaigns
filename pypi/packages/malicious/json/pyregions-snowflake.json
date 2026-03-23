@@ -1,0 +1,18 @@
+{
+    "name": "pyregions-snowflake",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "affected_versions": [
+        "3.9.1",
+        "3.9.2",
+        "3.9.4",
+        "3.9.5",
+        "3.9.6",
+        "3.9.7",
+        "3.9.8",
+        "3.9.9",
+        "3.9.10"
+    ],
+    "campaign_assigned_at": "2026-03-23T14:08:04.614617+00:00",
+    "campaign_data_modified_at": "2026-03-23T14:08:04.716569+00:00"
+}
