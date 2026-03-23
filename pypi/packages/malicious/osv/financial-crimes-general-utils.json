@@ -23,6 +23,18 @@
         },
         {
             "type": "WEB",
+            "url": "https://github.com/loudpage5125"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/geekennedy/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/GCLNS"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/financial-crimes-general-utils"
         }
     ],
