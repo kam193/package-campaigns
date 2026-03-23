@@ -9,6 +9,7 @@
         "typosquatting"
     ],
     "packages": [
+        "apply-hive-table",
         "dmclc",
         "financial-crimes-general-utils",
         "modelconftranslator",
