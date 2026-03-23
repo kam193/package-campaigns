@@ -1,0 +1,14 @@
+{
+    "name": "roboat",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-rowrap",
+    "description": "During installation, the code attempts to download and start malware.\n\nConnected with the campaign based on the time correlation and other packages published by the author.",
+    "affected_versions": [
+        "0.0.1",
+        "1.1.0",
+        "2.0.0",
+        "2.1.0"
+    ],
+    "campaign_assigned_at": "2026-03-23T23:09:44.763082+00:00",
+    "campaign_data_modified_at": "2026-03-23T23:09:44.958346+00:00"
+}
