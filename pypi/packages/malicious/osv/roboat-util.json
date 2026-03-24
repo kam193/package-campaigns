@@ -1,0 +1,56 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-rowrap/roboat-util",
+    "published": "2026-03-24T20:33:53.226773+00:00",
+    "modified": "2026-03-24T20:33:53.259136+00:00",
+    "summary": "Malicious code in roboat-util (PyPI)",
+    "details": "During installation, a malicious executable is downloaded and run.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-rowrap\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - malware\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "roboat-util",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.30",
+                "2.40"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/7853783660953f032d117c78eb627fa7a22bdd828b161a58f2abc7405905bce2/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/fa7d6114e0d7f164122f7080d19c83ffbfa8e2f3b56a9c7ba95bf5663f72b97c"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/roboat-util"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "dark-resonance-459b.blammervale.workers.dev",
+                "dry-hall-8967.blammervale.workers.dev"
+            ],
+            "urls": [
+                "https://dark-resonance-459b.blammervale.workers.dev/555.bat",
+                "https://dry-hall-8967.blammervale.workers.dev/HHH.exe"
+            ]
+        }
+    }
+}

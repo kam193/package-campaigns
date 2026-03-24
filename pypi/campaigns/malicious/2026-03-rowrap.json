@@ -8,6 +8,8 @@
     ],
     "packages": [
         "roboat",
+        "roboat-util",
+        "roboated",
         "rowrap",
         "rowrapee"
     ],
