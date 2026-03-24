@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-stats-helpers/stats-helpers",
+    "published": "2026-03-24T19:42:44.349913+00:00",
+    "modified": "2026-03-24T19:42:44.378359+00:00",
+    "summary": "Malicious code in stats-helpers (PyPI)",
+    "details": "During importing, the package exfiltrates sensitive crypt-related environment variables to a remote location\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-stats-helpers\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "stats-helpers",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/stats-helpers"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "stats-helpers-1.onrender.com"
+            ]
+        }
+    }
+}
