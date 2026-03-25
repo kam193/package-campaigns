@@ -1,0 +1,14 @@
+{
+    "name": "hazimpp",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package installs PTH file to automatically run on each Python run, but it seems to only print content from the user and document this behaviour.",
+    "affected_versions": [
+        "1.0.0",
+        "2.0.0",
+        "3.0.0",
+        "4.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-25T22:48:17.822177+00:00",
+    "campaign_data_modified_at": "2026-03-25T22:56:48.562792+00:00"
+}
