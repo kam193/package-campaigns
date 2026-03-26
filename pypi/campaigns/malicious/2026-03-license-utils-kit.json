@@ -12,6 +12,7 @@
     ],
     "packages": [
         "apachelicense",
+        "fluxhttp",
         "license-utils-kit",
         "logutilkit"
     ],
