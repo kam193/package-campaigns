@@ -1,0 +1,20 @@
+{
+    "name": "2026-03-pipipipi",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "clones_real_package",
+        "remote_script"
+    ],
+    "packages": [
+        "requests-testik111"
+    ],
+    "created_at": "2026-03-26",
+    "ioc": [
+        "https://tinyurl.com/47h5bmcw",
+        "https://www.dropbox.com/scl/fi/ybqsqvbquwbk9h59aottq/shadowsocksvpn.ps1?rlkey=2huygpgfs1pmasr9h70tr9zti&st=1ghv9gld&dl=1"
+    ],
+    "references": [],
+    "description": "Clones of legitimate libraries with malicious modifications intended to download malicious remote code. The remote script allows executing arbitrary files through a Telegram as C2 channel."
+}

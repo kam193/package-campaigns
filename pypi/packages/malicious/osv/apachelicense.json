@@ -18,6 +18,14 @@
     ],
     "references": [
         {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/9a541dffb7fc18dc71dbc8523ec6c3a71c224ffeb518ae3a8d7d16377aebee58/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/bb2a89001410fa5a11dea6477d4f5573130261badc67fe952cfad1174c2f0edd"
+        },
+        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/apachelicense"
         }
