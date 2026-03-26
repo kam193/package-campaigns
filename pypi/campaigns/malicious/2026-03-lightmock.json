@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-lightmock",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "lightmock"
+    ],
+    "created_at": "2026-03-26",
+    "ioc": [
+        "cookieshop.cloud"
+    ],
+    "references": [],
+    "description": "Clone of a legitimate package. During import, heavily obfuscate code downloads next stages and finally exfiltrates sensitive data, including data from web browsers. "
+}
