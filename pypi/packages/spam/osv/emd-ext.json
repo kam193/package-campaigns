@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-local-poc-bugbounty/emd-ext",
+    "published": "2026-03-26T17:39:22.583788+00:00",
+    "modified": "2026-03-26T17:39:22.729924+00:00",
+    "summary": "Spam code in emd-ext (PyPI)",
+    "details": "Dependency confusion attempt without any action. The author clearly defined it as research and identified themselves as a bug bounty hunter.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc-bugbounty\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "emd-ext",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/emd-ext"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
