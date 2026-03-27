@@ -5,11 +5,17 @@
     "abuse_categories": [
         "RAT",
         "clones_real_package",
-        "remote_script"
+        "remote_script",
+        "typosquatting"
     ],
     "packages": [
+        "claude-lite",
+        "copytrading",
         "gemini-ai-api",
-        "requests-testik111"
+        "metamask-api",
+        "requests-testik111",
+        "solana-api",
+        "trustwallet"
     ],
     "created_at": "2026-03-26",
     "ioc": [
