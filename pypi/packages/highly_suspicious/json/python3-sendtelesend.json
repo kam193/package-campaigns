@@ -1,0 +1,12 @@
+{
+    "name": "python3-sendtelesend",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The package offers only sending information to a hardcoded location",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-03-28T11:05:33.519597+00:00",
+    "campaign_data_modified_at": "2026-03-28T11:05:33.600615+00:00"
+}
