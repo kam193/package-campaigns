@@ -1,0 +1,11 @@
+{
+    "name": "koi-handler",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.1.0",
+        "0.4.92"
+    ],
+    "campaign_assigned_at": "2026-03-28T11:29:17.147959+00:00",
+    "campaign_data_modified_at": "2026-03-28T11:29:17.300022+00:00"
+}
