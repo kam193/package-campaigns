@@ -1,0 +1,25 @@
+{
+    "name": "2026-03-roboat-addition",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "malware",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "roboat-addition",
+        "roboat-additions",
+        "roboats-addition"
+    ],
+    "created_at": "2026-03-28",
+    "ioc": [
+        "https://jolly-violet-def9.staraledreamer.workers.dev/DDDD.exe",
+        "jolly-violet-def9.staraledreamer.workers.dev"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/9f14d239ab8f1289bc7aedeb67d3d72b467ee6c11b201890ab14c5c4f7c175d2/detection"
+    ],
+    "description": "During installation package downloads and runs a malicious executable. Likely continuation of 2026-03-rowrap."
+}
