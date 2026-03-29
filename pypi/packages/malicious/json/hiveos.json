@@ -1,0 +1,10 @@
+{
+    "name": "hiveos",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-pipipipi",
+    "affected_versions": [
+        "2.33.0"
+    ],
+    "campaign_assigned_at": "2026-03-29T18:44:31.374884+00:00",
+    "campaign_data_modified_at": "2026-03-29T18:44:31.407403+00:00"
+}
