@@ -1,0 +1,11 @@
+{
+    "name": "iwantsafecheckit",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-thisismytest123",
+    "description": "During installation the package downloads and installs two executables identified as backdoors trojans.",
+    "affected_versions": [
+        "2.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-29T13:35:48.412305+00:00",
+    "campaign_data_modified_at": "2026-03-29T13:35:48.567367+00:00"
+}
