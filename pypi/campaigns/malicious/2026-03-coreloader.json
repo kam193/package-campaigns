@@ -9,6 +9,7 @@
         "spyware-like"
     ],
     "packages": [
+        "coredxloader",
         "coreloader",
         "corexloader"
     ],
