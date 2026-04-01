@@ -1,0 +1,19 @@
+{
+    "name": "2026-04-ether-account",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "crypto-related",
+        "exfiltration_crypto",
+        "typosquatting"
+    ],
+    "packages": [
+        "ether-account"
+    ],
+    "created_at": "2026-04-01",
+    "ioc": [],
+    "references": [],
+    "description": "Clones of a legitimate library. During processing the private key, it's getting exfiltrated."
+}
