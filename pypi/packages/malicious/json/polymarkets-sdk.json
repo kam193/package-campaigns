@@ -1,0 +1,11 @@
+{
+    "name": "polymarkets-sdk",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-polymarkets-sdk",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-04-01T15:30:14.010991+00:00",
+    "campaign_data_modified_at": "2026-04-01T15:30:14.120234+00:00"
+}

@@ -1,0 +1,43 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-polymarkets-sdk/polymarkets-sdk",
+    "published": "2026-04-01T15:30:14.010991+00:00",
+    "modified": "2026-04-01T15:30:14.120234+00:00",
+    "summary": "Malicious code in polymarkets-sdk (PyPI)",
+    "details": "During import, the code attempts to exfiltrate to a hardcoded location sensitive data, including private SSH keys, cloud credentials and Windows SAM database.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-polymarkets-sdk\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - files-exfiltration\n\n\n - exfiltration-cloud-tokens\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "polymarkets-sdk",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/polymarkets-sdk"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "ips": [
+                "52.16.41.151"
+            ]
+        }
+    }
+}
