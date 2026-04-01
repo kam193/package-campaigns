@@ -1,0 +1,10 @@
+{
+    "name": "eht-account",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-ether-account",
+    "affected_versions": [
+        "0.13.7"
+    ],
+    "campaign_assigned_at": "2026-04-01T17:49:00.304206+00:00",
+    "campaign_data_modified_at": "2026-04-01T17:49:00.342917+00:00"
+}
