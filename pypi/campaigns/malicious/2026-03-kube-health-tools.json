@@ -9,6 +9,7 @@
         "remote_executable"
     ],
     "packages": [
+        "k8s-node-health",
         "kube-health-tools",
         "kube-node-health"
     ],
