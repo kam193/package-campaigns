@@ -19,5 +19,5 @@
         "https://opensourcemalware.com/wallet/BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC",
         "https://explorer.solana.com/address/BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC"
     ],
-    "description": "The setup.py contains a malicious code that skips execution if the system uses Russian language. Otherwise, it downloads the URL of the next stage payload from the Solana blockchain, using the wallet ID associated with the Glossworm campaign. This strongly suggests the owner's account was hijacked. The final payload was not accessible during the analysis."
+    "description": "The setup.py contains a malicious code that skips execution if the system uses Russian language. Otherwise, it downloads the URL of the next stage payload from the Solana blockchain, using the wallet ID associated with the Glossworm campaign. This strongly suggests the owner's account was hijacked. The final payload was not accessible during the analysis.\n\nThe malicious code likely originates from the previously hijacked project template in the HydroRoll-Team organization: https://github.com/HydroRoll-Team/pyo3-project-template/blob/975963ca17b9fad49a3a79276c5f8917a0027c2c/setup.py"
 }
