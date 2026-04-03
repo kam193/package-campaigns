@@ -1,0 +1,10 @@
+{
+    "name": "supervisors",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-supervisors",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-03T11:40:59.226542+00:00",
+    "campaign_data_modified_at": "2026-04-03T11:40:59.756265+00:00"
+}

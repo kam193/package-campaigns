@@ -1,0 +1,23 @@
+{
+    "name": "2026-04-supervisors",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "supervisors"
+    ],
+    "created_at": "2026-04-03",
+    "ioc": [
+        "BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC",
+        "217.69.2.135",
+        "http://217.69.2.135/NrIgZ6I%2BFyCxXHb%2B9FapRg%3D%3D"
+    ],
+    "references": [
+        "https://opensourcemalware.com/wallet/BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC",
+        "https://explorer.solana.com/address/BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC"
+    ],
+    "description": "The setup.py contains a malicious code that skips execution if the system uses Russian language. Otherwise, it downloads the URL of the next stage payload from the Solana blockchain, using the wallet ID associated with the Glossworm campaign. This strongly suggests the owner's account was hijacked. The final payload was not accessible during the analysis."
+}
