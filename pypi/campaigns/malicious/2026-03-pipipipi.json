@@ -15,6 +15,7 @@
         "hiveos",
         "hiveos-sdk",
         "metamask-api",
+        "photo-extractor",
         "requests-testik111",
         "solana-api",
         "trustwallet"
