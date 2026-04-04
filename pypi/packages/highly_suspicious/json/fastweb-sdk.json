@@ -1,0 +1,11 @@
+{
+    "name": "fastweb-sdk",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-04-04T12:40:01.412272+00:00",
+    "campaign_data_modified_at": "2026-04-04T12:40:01.438997+00:00"
+}
