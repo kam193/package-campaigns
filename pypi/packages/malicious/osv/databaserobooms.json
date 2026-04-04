@@ -1,18 +1,18 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-03-roboat-addition/database-roblox",
-    "published": "2026-03-29T12:15:48.765965+00:00",
-    "modified": "2026-03-29T12:15:48.792405+00:00",
-    "summary": "Malicious code in database-roblox (PyPI)",
+    "id": "pypi/2026-03-roboat-addition/databaserobooms",
+    "published": "2026-04-04T22:24:16.596090+00:00",
+    "modified": "2026-04-04T22:24:16.622818+00:00",
+    "summary": "Malicious code in databaserobooms (PyPI)",
     "details": "During installation package downloads and runs a malicious executable. Likely continuation of 2026-03-rowrap.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-roboat-addition\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n\n - clones-real-package\n\n",
     "affected": [
         {
             "package": {
-                "name": "database-roblox",
+                "name": "databaserobooms",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.0.1"
+                "0.0.4"
             ]
         }
     ],
@@ -31,7 +31,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/database-roblox"
+            "url": "https://bad-packages.kam193.eu/pypi/package/databaserobooms"
         }
     ],
     "credits": [
@@ -41,7 +41,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "REPORTER"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {
