@@ -49,14 +49,16 @@
         "iocs": {
             "domains": [
                 "jolly-violet-def9.staraledreamer.workers.dev",
-                "holy-sun-41ff.staraledreamer.workers.dev"
+                "holy-sun-41ff.staraledreamer.workers.dev",
+                "spring-math-9df3.aledreamsaledreams2.workers.dev"
             ],
             "urls": [
                 "https://jolly-violet-def9.staraledreamer.workers.dev/DDDD.exe",
                 "https://holy-sun-41ff.staraledreamer.workers.dev/gore.vbs",
                 "https://github.com/betonme27/flies/releases/download/a/s22s.zhr",
                 "https://dawn-thunder-f821.staraledreamer.workers.dev/gore.vbs",
-                "https://green-shadow-38d7.aledreamsaledreams2.workers.dev/tree.vbs"
+                "https://green-shadow-38d7.aledreamsaledreams2.workers.dev/tree.vbs",
+                "https://spring-math-9df3.aledreamsaledreams2.workers.dev/winre.bat"
             ]
         }
     }
