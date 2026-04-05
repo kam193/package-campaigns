@@ -1,0 +1,10 @@
+{
+    "name": "databasetapes",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "0.0.4"
+    ],
+    "campaign_assigned_at": "2026-04-05T19:35:23.431063+00:00",
+    "campaign_data_modified_at": "2026-04-05T19:35:23.445342+00:00"
+}
