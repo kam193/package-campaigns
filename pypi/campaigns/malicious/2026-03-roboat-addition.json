@@ -10,6 +10,7 @@
     ],
     "packages": [
         "database-roblox",
+        "databaselooks",
         "databaseroboat",
         "databaseroboats",
         "databaserobooms",
