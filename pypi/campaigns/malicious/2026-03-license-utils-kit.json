@@ -23,7 +23,8 @@
     ],
     "references": [
         "https://www.virustotal.com/gui/file/9a541dffb7fc18dc71dbc8523ec6c3a71c224ffeb518ae3a8d7d16377aebee58/detection",
-        "https://www.virustotal.com/gui/file/bb2a89001410fa5a11dea6477d4f5573130261badc67fe952cfad1174c2f0edd"
+        "https://www.virustotal.com/gui/file/bb2a89001410fa5a11dea6477d4f5573130261badc67fe952cfad1174c2f0edd",
+        "https://socket.dev/blog/contagious-interview-campaign-spreads-across-5-ecosystems"
     ],
     "description": "Malicious clone of a legitimate package. When using it, the code attempts to download and execute remote code. In on of the incarnations, the malicious code was embeded in the strongly obfuscated file, which at least collected data from cryptowallets and password managers and exfiltrated them to a hardcoded remote location.\n\nThe downloaded next stage varies depending on the running platform. On Windows, it's extream obfuscated script. On Linux and MacOS they are binaries, named \"systemd-resolved\" and \"com.apple.systemevents\" with clear signs of stealing browsers and cryptocurrency data."
 }
