@@ -1,0 +1,21 @@
+{
+    "name": "roboat-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "description": "This package is a malicious clone of a legitimate Roblox API wrapper. The new versions are published simultaneously with publishing malicious dependencies and quickly removed once they are gone.",
+    "affected_versions": [
+        "1.0.0",
+        "2.1.0",
+        "2.2.0",
+        "2.3.0",
+        "2.4.0",
+        "2.5.0",
+        "2.6.0",
+        "2.7.0",
+        "2.8.0",
+        "2.9.0",
+        "3.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-08T09:50:08.255945+00:00",
+    "campaign_data_modified_at": "2026-04-08T09:50:08.282985+00:00"
+}

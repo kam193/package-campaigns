@@ -20,6 +20,7 @@
         "pycolorlib3",
         "roboat-addition",
         "roboat-additions",
+        "roboat-utils",
         "roboats-addition"
     ],
     "created_at": "2026-03-28",
