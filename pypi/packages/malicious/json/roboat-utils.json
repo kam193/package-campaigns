@@ -2,7 +2,7 @@
     "name": "roboat-utils",
     "ecosystem": "pypi",
     "campaign": "2026-03-roboat-addition",
-    "description": "This package is a malicious clone of a legitimate Roblox API wrapper. The new versions are published simultaneously with publishing malicious dependencies and quickly removed once they are gone.",
+    "description": "This package is a malicious clone of a legitimate Roblox API wrapper. The new versions are published simultaneously with publishing malicious dependencies and quickly removed once they are gone.\n\nThe campaign is built over a malicious Roblox API wrapper. The roboat[.]pro domain advertises a wrapper that is either directly malicious (as roboat collected in the campaign 2026-03-rowrap) or uses a malicious dependencies (like roboat-utils). New versions are published simultaneously with malicious dependencies and quickly removed. Another advertisement channel is https://github.com/Addi9000/roboat referencing two active contributors: https://github.com/Addi9000 and https://github.com/RoCruise",
     "affected_versions": [
         "1.0.0",
         "2.1.0",

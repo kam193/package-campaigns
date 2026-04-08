@@ -6,7 +6,8 @@
         "clones_real_package",
         "malware",
         "override_install",
-        "remote_executable"
+        "remote_executable",
+        "through_dependency"
     ],
     "packages": [
         "database-roblox",
@@ -38,7 +39,12 @@
     "references": [
         "https://www.virustotal.com/gui/file/9f14d239ab8f1289bc7aedeb67d3d72b467ee6c11b201890ab14c5c4f7c175d2/detection",
         "https://www.virustotal.com/gui/file/48b108261d5de97a42eff81cf1a60a32286f72bf8b5f130959e0daa86b783608",
-        "https://www.virustotal.com/gui/file/ef20289b52ab23ec23c5ff885a2293523ce8456fb00e3d67f1b084c28f7d282a/detection"
+        "https://www.virustotal.com/gui/file/ef20289b52ab23ec23c5ff885a2293523ce8456fb00e3d67f1b084c28f7d282a/detection",
+        "https://github.com/Addi9000/roboat/blob/331166c8ea3bd080f08fe6d571202e3b47017ed7/README.md#L31",
+        "https://github.com/Addi9000/roboat/commit/331166c8ea3bd080f08fe6d571202e3b47017ed7",
+        "https://github.com/Addi9000",
+        "https://github.com/RoCruise",
+        "https://www.roboat.pro/"
     ],
-    "description": "During installation package downloads and runs a malicious executable. Likely continuation of 2026-03-rowrap."
+    "description": "During installation package downloads and runs a malicious executable. Likely continuation of 2026-03-rowrap.\n\nThe campaign is built over a malicious Roblox API wrapper. The roboat[.]pro domain advertises a wrapper that is either directly malicious (as roboat collected in the campaign 2026-03-rowrap) or uses a malicious dependencies (like roboat-utils). New versions are published simultaneously with malicious dependencies and quickly removed. Another advertisement channel is https://github.com/Addi9000/roboat referencing two active contributors: https://github.com/Addi9000 and https://github.com/RoCruise"
 }
