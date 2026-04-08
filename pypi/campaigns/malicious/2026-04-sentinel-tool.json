@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-sentinel-tool",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_executable",
+        "spyware-like"
+    ],
+    "packages": [
+        "sentinel-tool"
+    ],
+    "created_at": "2026-04-08",
+    "ioc": [
+        "https://raw.githubusercontent.com/offc559-crypto/senitel/main/Sentinel.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/53b5e79fad807e269c8e7fdd924839e911ad58795d62dc09a4733833653b3569/detection"
+    ],
+    "description": "The package installs a remote executable that uses a hardcoded Telegram channel for monitoring the user's activity, including regularly taking screenshots, and some remote control possibilities like switching the computer off and grabbing clipboard content. Some content suggests it was designed to be used by the uploader themself, but it poses the risk to anyone installing it."
+}
