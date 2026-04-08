@@ -1,0 +1,21 @@
+{
+    "name": "2026-04-kraken-trader",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "remote_script"
+    ],
+    "packages": [
+        "kraken-trader"
+    ],
+    "created_at": "2026-04-08",
+    "ioc": [
+        "https://bet.slotgambit.com/icons/112",
+        "bet.slotgambit.com"
+    ],
+    "references": [
+        "https://socket.dev/pypi/package/kraken-trader/overview/1.0.1"
+    ],
+    "description": "The package is a loader of malicious code disguised as remote \"credits\" code. The remote location, built from the parts in the code, delivers highly obfuscated JavaScript code that could be executed by the node.js runner embeded in the package. While all parts are in the package, it lacks the triggering code. As per Socket.dev attribution, it's a dependency used in North Korean fake interviews campaign."
+}
