@@ -1,10 +1,10 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-questionable-pentest/just4testlm",
-    "published": "2026-04-09T07:28:17.080410+00:00",
-    "modified": "2026-04-09T07:32:58.710190+00:00",
+    "id": "pypi/2026-03-just4testlm/just4testlm",
+    "published": "2026-04-09T08:22:13.116263+00:00",
+    "modified": "2026-04-09T08:22:13.143434+00:00",
     "summary": "Malicious code in just4testlm (PyPI)",
-    "details": "Starting 0.9.0, installation exfiltrates env variables to a hardcoded location. Previous versions experimented with different code embedded in the setup.py, but not necessarily directly malicious, suggesting it is testing of malicious possibilities.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: GENERIC-questionable-pentest\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-generic\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - typosquatting\n\n",
+    "details": "The package likely tests different malicious techniques and delivering payload in setup.py. Different versions, like 0.1.0, 0.4.0 or 0.9.0 contain malicious payload in setup.py that either run remote script or exfiltrate env variables during installation. The malicious versions are also quickly removed and replaced with versions without malicious code.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-just4testlm\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - exfiltration-env-variables\n\n",
     "affected": [
         {
             "package": {
@@ -40,7 +40,19 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "ANALYST"
+            "type": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "just4testlm.tos-cn-hongkong.volces.com",
+                "pipi.8d90982c.cdn.cloudops.ink",
+                "cloudops.ink"
+            ],
+            "urls": [
+                "https://just4testlm.tos-cn-hongkong.volces.com/run.sh"
+            ]
+        }
+    }
 }

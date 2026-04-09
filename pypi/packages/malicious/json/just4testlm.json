@@ -1,8 +1,8 @@
 {
     "name": "just4testlm",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-questionable-pentest",
-    "description": "Starting 0.9.0, installation exfiltrates env variables to a hardcoded location. Previous versions experimented with different code embedded in the setup.py, but not necessarily directly malicious, suggesting it is testing of malicious possibilities. ",
+    "campaign": "2026-03-just4testlm",
+    "description": "The package likely tests different malicious techniques and delivering payload in setup.py. Different versions, like 0.1.0, 0.4.0 or 0.9.0 contain malicious payload in setup.py that either run remote script or exfiltrate env variables during installation. The malicious versions are also quickly removed and replaced with versions without malicious code.",
     "affected_versions": [
         "0.1.0",
         "0.2.0",
@@ -17,6 +17,6 @@
         "0.9.2",
         "0.9.3"
     ],
-    "campaign_assigned_at": "2026-04-09T07:28:17.080410+00:00",
-    "campaign_data_modified_at": "2026-04-09T07:32:58.710190+00:00"
+    "campaign_assigned_at": "2026-04-09T08:22:13.116263+00:00",
+    "campaign_data_modified_at": "2026-04-09T08:22:13.143434+00:00"
 }
