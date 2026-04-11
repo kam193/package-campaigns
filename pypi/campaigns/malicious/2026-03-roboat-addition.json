@@ -25,6 +25,7 @@
         "databasetrace",
         "pycolorlib3",
         "robase",
+        "robase-help",
         "robase-utils",
         "roboat-addition",
         "roboat-additions",
