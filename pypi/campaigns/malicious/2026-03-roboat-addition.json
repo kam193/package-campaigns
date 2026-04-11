@@ -10,6 +10,7 @@
         "through_dependency"
     ],
     "packages": [
+        "api-feature",
         "database-roblox",
         "databaselooks",
         "databasenaps",
