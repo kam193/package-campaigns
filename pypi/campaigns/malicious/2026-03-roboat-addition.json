@@ -25,6 +25,7 @@
         "databasetrace",
         "pycolorlib3",
         "robase",
+        "robase-fallback",
         "robase-help",
         "robase-installer",
         "robase-utils",
