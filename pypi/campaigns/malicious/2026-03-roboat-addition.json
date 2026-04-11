@@ -26,6 +26,7 @@
         "pycolorlib3",
         "robase",
         "robase-help",
+        "robase-installer",
         "robase-utils",
         "roboat-addition",
         "roboat-additions",
