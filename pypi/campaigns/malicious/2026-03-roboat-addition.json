@@ -10,6 +10,7 @@
         "through_dependency"
     ],
     "packages": [
+        "api-analysis",
         "api-feature",
         "database-roblox",
         "databaselooks",
@@ -18,10 +19,12 @@
         "databaseroboats",
         "databaserobooms",
         "databaserotacos",
+        "databasesupasafe",
         "databasetapes",
         "databasetrace",
         "pycolorlib3",
         "robase",
+        "robase-utils",
         "roboat-addition",
         "roboat-additions",
         "roboat-utilities",

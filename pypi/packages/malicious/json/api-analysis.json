@@ -1,0 +1,10 @@
+{
+    "name": "api-analysis",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "0.0.8"
+    ],
+    "campaign_assigned_at": "2026-04-11T14:18:43.124270+00:00",
+    "campaign_data_modified_at": "2026-04-11T14:19:01.446528+00:00"
+}
