@@ -12,6 +12,7 @@
     "packages": [
         "api-analysis",
         "api-feature",
+        "bloxy-api",
         "database-roblox",
         "databaselooks",
         "databasenaps",
@@ -25,6 +26,7 @@
         "databasetrace",
         "pycolorlib3",
         "robase",
+        "robase-app",
         "robase-fallback",
         "robase-help",
         "robase-installer",
@@ -47,7 +49,8 @@
         "https://spring-math-9df3.aledreamsaledreams2.workers.dev/winre.bat",
         "spring-math-9df3.aledreamsaledreams2.workers.dev",
         "https://github.com/aledreamsaledreqms-source/frakenstein/raw/refs/heads/main/tree.vbs",
-        "https://lingering-field-4351.aledreamer1234.workers.dev/yy.bat"
+        "https://lingering-field-4351.aledreamer1234.workers.dev/yy.bat",
+        "https://github.com/aledreamsaledreqms-source/frakenstein/raw/refs/heads/main/ee.exe"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/9f14d239ab8f1289bc7aedeb67d3d72b467ee6c11b201890ab14c5c4f7c175d2/detection",
