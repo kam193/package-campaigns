@@ -62,5 +62,5 @@
         "https://github.com/RoCruise",
         "https://www.roboat.pro/"
     ],
-    "description": "During installation package downloads and runs a malicious executable. Likely continuation of 2026-03-rowrap.\n\nThe campaign is built over a malicious Roblox API wrapper. The roboat[.]pro domain advertises a wrapper that is either directly malicious (as roboat collected in the campaign 2026-03-rowrap) or uses a malicious dependencies (like roboat-utils). New versions are published simultaneously with malicious dependencies and quickly removed. Another advertisement channel is https://github.com/Addi9000/roboat referencing two active contributors: https://github.com/Addi9000 and https://github.com/RoCruise"
+    "description": "During installation package downloads and runs a malicious executable. Likely continuation of 2026-03-rowrap.\n\nThe campaign is built over a malicious Roblox API wrapper. The roboat[.]pro (later robase[.]app) domain advertises a wrapper that is either directly malicious (as roboat collected in the campaign 2026-03-rowrap) or uses a malicious dependencies (like roboat-utils). New versions are published simultaneously with malicious dependencies and quickly removed. Another advertisement channel is https://github.com/Addi9000/roboat referencing two active contributors: https://github.com/Addi9000 and https://github.com/RoCruise"
 }
