@@ -1,0 +1,11 @@
+{
+    "name": "langchain-proxyclaw",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-iploop",
+    "description": "This package integrates iploop-sdk, which is a library for potentially suspicious residential proxy networks. However, this seems not to be a hidden and the service may be legitim. ",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-12T17:54:19.307995+00:00",
+    "campaign_data_modified_at": "2026-04-12T17:54:19.332945+00:00"
+}
