@@ -4,7 +4,7 @@
     "published": "2026-04-13T21:26:29.311718+00:00",
     "modified": "2026-04-13T21:41:36.195780+00:00",
     "summary": "Malicious code in asciitoart (PyPI)",
-    "details": "Through an obscure way, one of the package files got overwritten by a remote obfuscated code, which appears to be an infostealer\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-11-asn1tool\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n\n - clones-real-package\n\n\n - infostealer\n\n",
+    "details": "Through an obscure way, one of the package files got overwritten by a remote obfuscated code, which appears to be an infostealer. After executing the malicious code, the package covers the tracks by overwriting all relevant code files.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-11-asn1tool\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n\n - clones-real-package\n\n\n - infostealer\n\n",
     "affected": [
         {
             "package": {

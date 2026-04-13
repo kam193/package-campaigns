@@ -29,6 +29,7 @@
         "robase-app",
         "robase-fallback",
         "robase-help",
+        "robase-install",
         "robase-installer",
         "robase-utils",
         "roboat-addition",

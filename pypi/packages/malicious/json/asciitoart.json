@@ -2,7 +2,7 @@
     "name": "asciitoart",
     "ecosystem": "pypi",
     "campaign": "2024-11-asn1tool",
-    "description": "Through an obscure way, one of the package files got overwritten by a remote obfuscated code, which appears to be an infostealer",
+    "description": "Through an obscure way, one of the package files got overwritten by a remote obfuscated code, which appears to be an infostealer. After executing the malicious code, the package covers the tracks by overwriting all relevant code files.",
     "affected_versions": [
         "0.1.1",
         "0.1.2",
