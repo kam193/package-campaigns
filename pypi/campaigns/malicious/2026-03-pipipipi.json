@@ -14,6 +14,7 @@
         "gemini-ai-api",
         "hiveos",
         "hiveos-sdk",
+        "hiveos-setting",
         "hiveos-settings",
         "metamask-api",
         "photo-extractor",
