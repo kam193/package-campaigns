@@ -9,6 +9,7 @@
         "typosquatting"
     ],
     "packages": [
+        "7miners",
         "claude-lite",
         "copytrading",
         "gate-apis",
@@ -19,6 +20,7 @@
         "hiveos-sdk",
         "hiveos-setting",
         "hiveos-settings",
+        "kryptex-os",
         "metamask-api",
         "photo-extractor",
         "requests-testik111",

@@ -1,0 +1,10 @@
+{
+    "name": "kryptex-os",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-pipipipi",
+    "affected_versions": [
+        "2.33.0"
+    ],
+    "campaign_assigned_at": "2026-04-14T21:55:34.746167+00:00",
+    "campaign_data_modified_at": "2026-04-14T21:55:34.773840+00:00"
+}
