@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-ant-mcp-proxy-for-test",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "remote_executable"
+    ],
+    "packages": [
+        "ant-mcp-proxy-for-test"
+    ],
+    "created_at": "2026-04-14",
+    "ioc": [
+        "https://ai-mcp-storage.oss-cn-hangzhou.aliyuncs.com/mcp_proxy_log",
+        "https://ai-mcp-storage.oss-cn-hangzhou.aliyuncs.com/mcp_proxy",
+        "ai-mcp-storage.oss-cn-hangzhou.aliyuncs.com"
+    ],
+    "references": [],
+    "description": "During use of the package, it silently downloads and executes remote executables or scripts. During analysis, the remote resources were no longer available. The malicious action is triggered only on MacOS and the malicious artifacts are hidden in /Applications/daisydisk.app"
+}
