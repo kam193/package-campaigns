@@ -11,6 +11,7 @@
     "packages": [
         "claude-lite",
         "copytrading",
+        "gate-apis",
         "gemini-ai-api",
         "hive-setting",
         "hiveos",
