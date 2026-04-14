@@ -1,0 +1,19 @@
+{
+    "name": "2026-04-pckg-sv",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto",
+        "keylogger",
+        "persistence"
+    ],
+    "packages": [
+        "pckg-sv",
+        "svchost"
+    ],
+    "created_at": "2026-04-14",
+    "ioc": [],
+    "references": [],
+    "description": "Code exfiltrates sensitive crypto wallet's files and sets up a keylogger trying to catch the password to the wallet "
+}
