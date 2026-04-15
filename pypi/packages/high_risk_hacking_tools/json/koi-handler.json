@@ -5,8 +5,9 @@
     "affected_versions": [
         "0.1.0",
         "0.4.92",
-        "0.4.93"
+        "0.4.93",
+        "0.6.4"
     ],
     "campaign_assigned_at": "2026-03-28T11:29:17.147959+00:00",
-    "campaign_data_modified_at": "2026-04-02T12:03:04.339914+00:00"
+    "campaign_data_modified_at": "2026-04-15T05:18:56.692834+00:00"
 }
