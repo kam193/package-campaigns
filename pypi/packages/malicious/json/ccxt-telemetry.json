@@ -1,0 +1,10 @@
+{
+    "name": "ccxt-telemetry",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-ccxt-telemetry",
+    "affected_versions": [
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-04-15T20:02:13.696242+00:00",
+    "campaign_data_modified_at": "2026-04-15T20:02:13.786758+00:00"
+}

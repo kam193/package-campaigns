@@ -1,0 +1,19 @@
+{
+    "name": "2026-04-ccxt-telemetry",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_credentials",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "ccxt-telemetry"
+    ],
+    "created_at": "2026-04-15",
+    "ioc": [
+        "144.31.203.113"
+    ],
+    "references": [],
+    "description": "During installation, code exfiltrates environment variables and sensitive keys from .env files"
+}
