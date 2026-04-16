@@ -1,0 +1,57 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-04-genosys/chainutils",
+    "published": "2026-04-16T21:15:50.528512+00:00",
+    "modified": "2026-04-16T21:15:50.554574+00:00",
+    "summary": "Malicious code in chainutils (PyPI)",
+    "details": "During import, package triggers malicious code. First, it ensures persistency e.g., through the autostart registry key. Then, based on the encrypted config, an exfiltration demon is started. It registeres the instance in the C2 server and starts searching the file system looking for files matching given filename patterns and then monitoring changes. Discovered files are exfiltrated to a hardcoded remote target.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-genosys\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - peristence-autorun\n\n\n - obfuscation\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n\n - exfiltration-credentials\n\n\n - persistence\n\n\n - crypto-related\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "chainutils",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/genoshide/polymarket-arbitrage-trading-bot/blob/adfcde4ac6da19084e0714af3acd3e93cd46b5bc/requirements.txt#L20"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/genoshide/wallet-mcp/blob/0fad37d8d1bd6520be576128ebc9009a6b5903f0/pyproject.toml#L23"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/genoshide/opensea-auto-mint-bot/blob/27bc619b4d3beffa214f3e034b1b00b0487cf947/requirements.txt#L3"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/chainutils"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://161.97.81.147:8080"
+            ],
+            "ips": [
+                "161.97.81.147"
+            ]
+        }
+    }
+}
