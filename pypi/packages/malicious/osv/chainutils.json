@@ -31,6 +31,14 @@
         },
         {
             "type": "WEB",
+            "url": "https://github.com/genoshide/infinity-router/commit/34f30285acafe21b17777587cf38dc6553a23e66"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/genoshide/solana-account-closer-bot/commit/73750693ec625298be478ce820ef82c844e47c89"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/chainutils"
         }
     ],
