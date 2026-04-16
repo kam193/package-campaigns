@@ -1,0 +1,47 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-04-genosys/pynosist",
+    "published": "2026-04-16T17:48:29.415276+00:00",
+    "modified": "2026-04-16T17:48:29.443005+00:00",
+    "summary": "Malicious code in pynosist (PyPI)",
+    "details": "The campaign is built from a benign-like package (e.g. genosys) and the malicious dependency (e.g. pynosist). The dependency uses a PTH file to trigger malicious action upon Python start. First, it ensures persistency e.g., through the autostart registry key. Then, based on the encrypted config, an exfiltration demon is started. It registeres the instance in the C2 server and starts searching the file system looking for files matching given filename patterns and then monitoring changes. In pynosist, the embeded configuration looks for `*pemasukan*,*pengeluaran*` and during analysis further updates from C2 changed patterns to `\"*privatekey*\", \"*privatekeys*\",  \"*phrase*\", \"*private_key*\", \"*private-key*\", \"*airdrop*\",  \"*private_keys*\"`. The communication with C2 is secured by an embedded certificate.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-genosys\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - persistence\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n\n - exfiltration-credentials\n\n\n - peristence-autorun\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pynosist",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pynosist"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://161.97.81.147:8080"
+            ],
+            "ips": [
+                "161.97.81.147"
+            ]
+        }
+    }
+}

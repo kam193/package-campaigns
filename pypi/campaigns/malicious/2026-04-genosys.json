@@ -1,0 +1,24 @@
+{
+    "name": "2026-04-genosys",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "obfuscation",
+        "peristence_autorun",
+        "persistence",
+        "through_dependency"
+    ],
+    "packages": [
+        "genosys",
+        "pynosist"
+    ],
+    "created_at": "2026-04-16",
+    "ioc": [
+        "https://161.97.81.147:8080",
+        "161.97.81.147"
+    ],
+    "references": [],
+    "description": "The campaign is built from a benign-like package (e.g. genosys) and the malicious dependency (e.g. pynosist). The dependency uses a PTH file to trigger malicious action upon Python start. First, it ensures persistency e.g., through the autostart registry key. Then, based on the encrypted config, an exfiltration demon is started. It registeres the instance in the C2 server and starts searching the file system looking for files matching given filename patterns and then monitoring changes. In pynosist, the embeded configuration looks for `*pemasukan*,*pengeluaran*` and during analysis further updates from C2 changed patterns to `\"*privatekey*\", \"*privatekeys*\",  \"*phrase*\", \"*private_key*\", \"*private-key*\", \"*airdrop*\",  \"*private_keys*\"`. The communication with C2 is secured by an embedded certificate."
+}

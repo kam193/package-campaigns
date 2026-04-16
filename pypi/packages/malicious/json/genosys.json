@@ -1,0 +1,12 @@
+{
+    "name": "genosys",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-genosys",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-04-16T17:48:14.480690+00:00",
+    "campaign_data_modified_at": "2026-04-16T17:48:14.593109+00:00"
+}
