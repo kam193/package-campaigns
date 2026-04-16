@@ -32,6 +32,7 @@
         "robase-help",
         "robase-install",
         "robase-installer",
+        "robase-quick-install",
         "robase-utils",
         "roboat-addition",
         "roboat-additions",
