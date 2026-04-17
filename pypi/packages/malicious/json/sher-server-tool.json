@@ -1,0 +1,10 @@
+{
+    "name": "sher-server-tool",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-sher-net",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-04-17T10:48:02.623823+00:00",
+    "campaign_data_modified_at": "2026-04-17T10:48:02.660600+00:00"
+}
