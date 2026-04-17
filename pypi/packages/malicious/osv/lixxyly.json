@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-04-sher-net/sher-server-tool",
-    "published": "2026-04-17T10:48:02.623823+00:00",
-    "modified": "2026-04-17T10:48:02.660600+00:00",
-    "summary": "Malicious code in sher-server-tool (PyPI)",
+    "id": "pypi/2026-04-sher-net/lixxyly",
+    "published": "2026-04-17T10:53:13.904117+00:00",
+    "modified": "2026-04-17T10:53:14.030633+00:00",
+    "summary": "Malicious code in lixxyly (PyPI)",
     "details": "Starting the module activates a hardcoded telegram bot allowing remote code execution, data exfiltration, collecting webcam photos, clipboard data, etc.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-sher-net\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - rat\n\n\n - spyware-like\n\n",
     "affected": [
         {
             "package": {
-                "name": "sher-server-tool",
+                "name": "lixxyly",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -19,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/sher-server-tool"
+            "url": "https://bad-packages.kam193.eu/pypi/package/lixxyly"
         }
     ],
     "credits": [
