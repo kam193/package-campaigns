@@ -14,7 +14,8 @@
     "packages": [
         "chainutils",
         "genosys",
-        "pynosist"
+        "pynosist",
+        "solanakit"
     ],
     "created_at": "2026-04-16",
     "ioc": [
