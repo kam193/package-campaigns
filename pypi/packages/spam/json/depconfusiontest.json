@@ -1,0 +1,10 @@
+{
+    "name": "depconfusiontest",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "2.0"
+    ],
+    "campaign_assigned_at": "2026-04-18T22:35:17.160120+00:00",
+    "campaign_data_modified_at": "2026-04-18T22:35:17.188705+00:00"
+}
