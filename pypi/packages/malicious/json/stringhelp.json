@@ -1,0 +1,11 @@
+{
+    "name": "stringhelp",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-old-stringhelp",
+    "affected_versions": [
+        "7.0",
+        "8.0"
+    ],
+    "campaign_assigned_at": "2026-04-18T09:09:55.954179+00:00",
+    "campaign_data_modified_at": "2026-04-18T09:10:50.407831+00:00"
+}

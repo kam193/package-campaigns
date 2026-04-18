@@ -1,0 +1,16 @@
+{
+    "name": "2026-04-old-stringhelp",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "stringhelp"
+    ],
+    "created_at": "2026-04-18",
+    "ioc": [],
+    "references": [],
+    "description": "The package exfiltrates Discord tokens to a hardcoded location."
+}
