@@ -1,0 +1,10 @@
+{
+    "name": "rblx-api",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.6.0"
+    ],
+    "campaign_assigned_at": "2026-04-18T18:07:19.012059+00:00",
+    "campaign_data_modified_at": "2026-04-18T18:08:03.938700+00:00"
+}
