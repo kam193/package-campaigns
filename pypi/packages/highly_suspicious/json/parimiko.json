@@ -1,0 +1,12 @@
+{
+    "name": "parimiko",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3"
+    ],
+    "campaign_assigned_at": "2026-04-19T21:42:58.234805+00:00",
+    "campaign_data_modified_at": "2026-04-19T21:42:58.273168+00:00"
+}
