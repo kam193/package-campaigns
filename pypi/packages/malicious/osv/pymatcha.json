@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2024-08-embeds-RealtekHDAudioManager/pymatcha",
     "published": "2024-09-04T21:25:32Z",
-    "modified": "2024-09-04T21:25:32Z",
+    "modified": "2026-04-19T19:31:46.297059+00:00",
     "summary": "Malicious code in pymatcha (PyPI)",
     "details": "Importing a module starts downloading and executing an infostealer, widely identified by AV/sandboxes.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-08-embeds-RealtekHDAudioManager\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - Downloads and executes a remote executable.\n\n",
     "affected": [
@@ -12,8 +12,8 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1",
-                "0.1.0"
+                "0.1.0",
+                "0.1"
             ]
         }
     ],

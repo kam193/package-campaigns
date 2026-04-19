@@ -3,7 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "2024-08-embeds-RealtekHDAudioManager",
     "affected_versions": [
-        "0.1",
-        "0.1.0"
-    ]
+        "0.1.0",
+        "0.1"
+    ],
+    "campaign_data_modified_at": "2026-04-19T19:31:46.297059+00:00"
 }
