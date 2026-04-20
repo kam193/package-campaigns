@@ -4,8 +4,10 @@
     "campaign": "2026-03-roboat-addition",
     "affected_versions": [
         "2.0.0",
-        "2.1.0"
+        "2.1.0",
+        "2.2.0",
+        "2.3.0"
     ],
     "campaign_assigned_at": "2026-04-19T18:24:58.685918+00:00",
-    "campaign_data_modified_at": "2026-04-19T21:43:26.194567+00:00"
+    "campaign_data_modified_at": "2026-04-20T15:41:40.931819+00:00"
 }
