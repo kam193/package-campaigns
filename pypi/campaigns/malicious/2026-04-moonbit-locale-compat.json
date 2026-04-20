@@ -1,0 +1,21 @@
+{
+    "name": "2026-04-moonbit-locale-compat",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "revshell",
+        "through_dependency"
+    ],
+    "packages": [
+        "moonbit-locale-compat",
+        "moonbit-metrics-validator",
+        "moonbit-schema-utils"
+    ],
+    "created_at": "2026-04-20",
+    "ioc": [],
+    "references": [
+        "https://github.com/zongen01/wechat-editor-studio/pull/2/changes#diff-d9555f91ec2cf16d2b3d23115fe3cf6600fa8b42627de82a81da48191c54d99c"
+    ],
+    "description": "Campaign includes a chain of dependencies that finally exfiltrate sensitive environment variables to a hardcoded GitHub repository as exfiltration target, and in specific environments also start a reverse shell. It appears to be targeting specifically one GitHub project, where the front-end package was included in a PR."
+}

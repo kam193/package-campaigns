@@ -1,0 +1,10 @@
+{
+    "name": "moonbit-metrics-validator",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-moonbit-locale-compat",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-20T08:25:08.491871+00:00",
+    "campaign_data_modified_at": "2026-04-20T08:25:08.605966+00:00"
+}
