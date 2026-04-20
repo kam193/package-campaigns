@@ -1,0 +1,11 @@
+{
+    "name": "foxpipe",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Double-use tool that can be used for data exfiltration, but not malicious on its own.",
+    "affected_versions": [
+        "1.9.0"
+    ],
+    "campaign_assigned_at": "2026-04-20T08:33:33.447360+00:00",
+    "campaign_data_modified_at": "2026-04-20T08:33:33.478354+00:00"
+}

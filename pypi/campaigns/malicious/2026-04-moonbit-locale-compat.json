@@ -15,7 +15,8 @@
     "created_at": "2026-04-20",
     "ioc": [],
     "references": [
-        "https://github.com/zongen01/wechat-editor-studio/pull/2/changes#diff-d9555f91ec2cf16d2b3d23115fe3cf6600fa8b42627de82a81da48191c54d99c"
+        "https://github.com/zongen01/wechat-editor-studio/pull/2/changes#diff-d9555f91ec2cf16d2b3d23115fe3cf6600fa8b42627de82a81da48191c54d99c",
+        "https://github.com/DiamondFrontline/wechat-editor-studio/commit/3c61484843fbc7fbeb5e81149296aa7843570ee1"
     ],
     "description": "Campaign includes a chain of dependencies that finally exfiltrate sensitive environment variables to a hardcoded GitHub repository as exfiltration target, and in specific environments also start a reverse shell. It appears to be targeting specifically one GitHub project, where the front-end package was included in a PR."
 }
