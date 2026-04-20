@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-pathjoin",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "pathjoin"
+    ],
+    "created_at": "2026-04-20",
+    "ioc": [
+        "brainwavehub.org",
+        "gifpngstore.com",
+        "https://gifpngstore.com/test/dataP.php"
+    ],
+    "references": [],
+    "description": "During import, the code downloads and executes encrypted payload from remote location. During analysis, remote code was prepared to download the next stage executable."
+}

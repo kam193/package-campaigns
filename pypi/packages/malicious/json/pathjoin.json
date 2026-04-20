@@ -1,0 +1,16 @@
+{
+    "name": "pathjoin",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-pathjoin",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6"
+    ],
+    "campaign_assigned_at": "2026-04-20T11:11:12.239711+00:00",
+    "campaign_data_modified_at": "2026-04-20T11:11:12.274977+00:00"
+}
