@@ -1,0 +1,19 @@
+{
+    "name": "2026-04-typelimagic",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "crypto-related",
+        "exfiltration_crypto",
+        "obfuscation",
+        "remote_commands"
+    ],
+    "packages": [
+        "typelimagic"
+    ],
+    "created_at": "2026-04-21",
+    "ioc": [],
+    "references": [],
+    "description": "Clone of a legitimate library. The added code scans system for sensitive files, with the focus on crypto currency wallets, and exfiltrate them. Previous versions included executing remote commands."
+}
