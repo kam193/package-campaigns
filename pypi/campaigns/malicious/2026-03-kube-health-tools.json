@@ -19,6 +19,7 @@
         "https://github.com/gibunxi4201/kube-node-diag/releases/download/v2.0/kube-diag-linux-amd64-packed"
     ],
     "references": [
+        "https://www.aikido.dev/blog/gpt-proxy-backdoor-npm-pypi-chinese-llm-relay",
         "https://github.com/gibunxi4201/kube-node-diag",
         "https://inspector.pypi.io/project/kube-health-tools/1.0.9/packages/ab/41/abea82b56e7ac3b06c15fc7760f6857df6fc9b4739254b362c2bbeaf6fb7/kube_health_tools-1.0.9-py3-none-any.whl/kube_health/__init__.py#line.32",
         "https://inspector.pypi.io/project/kube-health-tools/1.0.9/packages/ab/41/abea82b56e7ac3b06c15fc7760f6857df6fc9b4739254b362c2bbeaf6fb7/kube_health_tools-1.0.9-py3-none-any.whl/kube_health/__init__.py#line.47",
