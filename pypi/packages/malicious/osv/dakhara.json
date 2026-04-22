@@ -4,7 +4,7 @@
     "published": "2026-03-03T23:29:16.148107+00:00",
     "modified": "2026-03-03T23:37:58.937884+00:00",
     "summary": "Malicious code in dakhara (PyPI)",
-    "details": "Running the package automatically starts a Telegram bot waiting to execute remote commands. The bot credentials are dynamically collected from the pastebin.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-dakhara\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-dakhara\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
     "affected": [
         {
             "package": {

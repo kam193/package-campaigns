@@ -4,7 +4,7 @@
     "published": "2026-02-08T10:34:16.102750+00:00",
     "modified": "2026-02-08T10:34:16.102765+00:00",
     "summary": "Malicious code in grokwrapper (PyPI)",
-    "details": "During importing the module, package silently execute code hidden in an embedded config file, and downloads remote executable. It's then added to Run registry key for persistence and started.\n\nDuring analysis, the executable was not detected by antiviruses.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-grokwrapper\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - peristence-autorun\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-grokwrapper\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - peristence-autorun\n\n",
     "affected": [
         {
             "package": {

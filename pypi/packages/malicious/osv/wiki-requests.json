@@ -4,7 +4,7 @@
     "published": "2025-03-09T20:47:18Z",
     "modified": "2025-03-09T20:47:18Z",
     "summary": "Malicious code in wiki-requests (PyPI)",
-    "details": "Setup.py attempts to exfiltrate information about the system and span a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-03-wiki-requests\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - exfiltration-generic\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-03-wiki-requests\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - exfiltration-generic\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {

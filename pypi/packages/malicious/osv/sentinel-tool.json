@@ -4,7 +4,7 @@
     "published": "2026-04-08T16:31:08.247783+00:00",
     "modified": "2026-04-08T16:31:08.279970+00:00",
     "summary": "Malicious code in sentinel-tool (PyPI)",
-    "details": "The package installs a remote executable that uses a hardcoded Telegram channel for monitoring the user's activity, including regularly taking screenshots, and some remote control possibilities like switching the computer off and grabbing clipboard content. Some content suggests it was designed to be used by the uploader themself, but it poses the risk to anyone installing it.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-sentinel-tool\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - spyware-like\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-sentinel-tool\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - spyware-like\n\n",
     "affected": [
         {
             "package": {

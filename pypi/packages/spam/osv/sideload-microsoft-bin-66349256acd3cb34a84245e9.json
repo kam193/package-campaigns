@@ -4,7 +4,7 @@
     "published": "2026-01-22T19:34:10.169062+00:00",
     "modified": "2026-01-22T19:34:10.169111+00:00",
     "summary": "Spam code in sideload-microsoft-bin-66349256acd3cb34a84245e9 (PyPI)",
-    "details": "Packages abuse PyPI infrastructure to transfer big files\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-sideload\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-sideload\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
     "affected": [
         {
             "package": {

@@ -4,7 +4,7 @@
     "published": "2026-04-01T15:30:14.010991+00:00",
     "modified": "2026-04-01T15:37:06.608356+00:00",
     "summary": "Malicious code in polymarkets-sdk (PyPI)",
-    "details": "During import, the code attempts to exfiltrate to a hardcoded location sensitive data, including private SSH keys, cloud credentials and Windows SAM database.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-polymarkets-sdk\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - files-exfiltration\n\n\n - exfiltration-cloud-tokens\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-polymarkets-sdk\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - files-exfiltration\n\n\n - exfiltration-cloud-tokens\n\n",
     "affected": [
         {
             "package": {

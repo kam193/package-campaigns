@@ -4,7 +4,7 @@
     "published": "2025-05-18T00:05:16Z",
     "modified": "2025-05-18T00:05:16Z",
     "summary": "Malicious code in readmecolorama (PyPI)",
-    "details": "Importing the module starts download and running a remote executable, identified as malware by AVs\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-coloramashowtemp \n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-coloramashowtemp \n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {

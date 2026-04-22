@@ -4,7 +4,7 @@
     "published": "2025-01-25T16:53:01Z",
     "modified": "2025-01-25T16:53:01Z",
     "summary": "Malicious code in requestsa (PyPI)",
-    "details": "Clone of the requests package that modified the code to send all get and post requests to a hardcoded URL\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-01-rqsts \n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - dependency-confusion\n\n\n - action-hidden-in-lib-usage\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-01-rqsts \n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - dependency-confusion\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {

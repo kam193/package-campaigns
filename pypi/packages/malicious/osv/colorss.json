@@ -4,7 +4,7 @@
     "published": "2026-02-01T10:28:48.127243+00:00",
     "modified": "2026-02-01T10:28:48.127259+00:00",
     "summary": "Malicious code in colorss (PyPI)",
-    "details": "Package silently executes in background a remote script. During the analysis, the script was not accessible\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-colorss\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-colorss\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {

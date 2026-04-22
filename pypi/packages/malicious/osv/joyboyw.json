@@ -4,7 +4,7 @@
     "published": "2025-12-05T13:45:46.494853+00:00",
     "modified": "2025-12-05T13:45:46.494889+00:00",
     "summary": "Malicious code in joyboyw (PyPI)",
-    "details": "Contains a function to silently download malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-joyboyw\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - malware\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-joyboyw\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {

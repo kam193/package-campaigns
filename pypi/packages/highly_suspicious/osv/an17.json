@@ -4,7 +4,7 @@
     "published": "2026-03-14T14:53:25.425220+00:00",
     "modified": "2026-03-14T14:53:25.451126+00:00",
     "summary": "Highly suspicious code in an17 (PyPI)",
-    "details": "The package is a runner of an obfuscated code, but the code is not embedded.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-03-an17\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - obfuscation\n\n",
+    "details": "\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-03-an17\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {

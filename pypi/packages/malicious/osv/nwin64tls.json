@@ -4,7 +4,7 @@
     "published": "2026-04-02T20:28:37.645002+00:00",
     "modified": "2026-04-02T20:28:37.671144+00:00",
     "summary": "Malicious code in nwin64tls (PyPI)",
-    "details": "Importing the module starts a loop that listens to key strokes and on every capslock press exfiltrates screenshot to a hardcoded location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-old-nwin32tls\n\n\nReasons (based on the campaign):\n\n\n - spyware-like\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-old-nwin32tls\n\n\nReasons (based on the campaign):\n\n\n - spyware-like\n\n",
     "affected": [
         {
             "package": {

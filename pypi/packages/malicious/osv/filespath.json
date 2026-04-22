@@ -4,7 +4,7 @@
     "published": "2026-02-03T10:31:19.262690+00:00",
     "modified": "2026-02-03T10:31:19.262710+00:00",
     "summary": "Malicious code in filespath (PyPI)",
-    "details": "Disguised as file system manipulation library, the package hides an obfuscated code to communicate with a Telegram channel. Though the usage is not known at the moment, the package is clearly created for data exfiltration\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-pathfiles\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - action-hidden-in-lib-usage\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-pathfiles\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {

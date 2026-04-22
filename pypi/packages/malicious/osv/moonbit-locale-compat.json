@@ -4,7 +4,7 @@
     "published": "2026-04-20T08:12:08.730933+00:00",
     "modified": "2026-04-20T08:12:08.763370+00:00",
     "summary": "Malicious code in moonbit-locale-compat (PyPI)",
-    "details": "Campaign includes a chain of dependencies that finally exfiltrate sensitive environment variables to a hardcoded GitHub repository as exfiltration target, and in specific environments also start a reverse shell. It appears to be targeting specifically one GitHub project, where the front-end package was included in a PR.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-moonbit-locale-compat\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - exfiltration-env-variables\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-moonbit-locale-compat\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - exfiltration-env-variables\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n",
     "affected": [
         {
             "package": {

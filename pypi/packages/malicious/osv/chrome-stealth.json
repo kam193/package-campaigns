@@ -4,7 +4,7 @@
     "published": "2026-01-03T13:25:21.755601+00:00",
     "modified": "2026-01-03T13:25:21.755617+00:00",
     "summary": "Malicious code in chrome-stealth (PyPI)",
-    "details": "By using the package, the computer is attached to participate in a proxy network and share its IP and bandwidth. This is clearly stated, but the package has no real functionality besides that. Additionally, the stated proxy network seems extremely shady: the domain was just registered, is closely similar to a long-existing service, and offers residential proxy only for cryptocurrencies. The company mentioned in the package information does not have a website, and the proposed way to opt-out does not work.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-ambertransit\n\n\nReasons (based on the campaign):\n\n\n - other\n\n\n - modify-system-without-consent\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-ambertransit\n\n\nReasons (based on the campaign):\n\n\n - other\n\n\n - modify-system-without-consent\n\n",
     "affected": [
         {
             "package": {

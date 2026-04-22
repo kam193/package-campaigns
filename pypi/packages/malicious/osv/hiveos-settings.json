@@ -4,7 +4,7 @@
     "published": "2026-04-13T13:00:48.561698+00:00",
     "modified": "2026-04-13T13:00:48.593943+00:00",
     "summary": "Malicious code in hiveos-settings (PyPI)",
-    "details": "Clones of legitimate libraries with malicious modifications intended to download malicious remote code. The remote script allows executing arbitrary files through a Telegram as C2 channel. The package installs a generic entry point triggering malicious action.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-pipipipi\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - rat\n\n\n - Downloads and executes a remote malicious script.\n\n\n - typosquatting\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-pipipipi\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - rat\n\n\n - Downloads and executes a remote malicious script.\n\n\n - typosquatting\n\n",
     "affected": [
         {
             "package": {

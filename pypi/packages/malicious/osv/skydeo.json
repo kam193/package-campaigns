@@ -4,7 +4,7 @@
     "published": "2026-02-09T09:12:05.110163+00:00",
     "modified": "2026-02-09T09:12:05.110226+00:00",
     "summary": "Malicious code in skydeo (PyPI)",
-    "details": "Importing the module exfiltrates all environment variables\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-skydeo\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-skydeo\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n",
     "affected": [
         {
             "package": {

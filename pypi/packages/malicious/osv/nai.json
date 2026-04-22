@@ -4,7 +4,7 @@
     "published": "2026-03-13T10:31:39.667747+00:00",
     "modified": "2026-03-13T10:31:39.702401+00:00",
     "summary": "Malicious code in nai (PyPI)",
-    "details": "Package is a hacking tool that not only abuses 3rd-party services but also silently exfiltrates credentials the user uses to log in there. The provided account is also forced to follow the attacker's accounts.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-old-nai\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - abusing-3rd-api\n\n\n - action-hidden-in-lib-usage\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-old-nai\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - abusing-3rd-api\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {

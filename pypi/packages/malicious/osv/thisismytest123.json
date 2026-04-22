@@ -4,7 +4,7 @@
     "published": "2026-03-27T13:55:03.726160+00:00",
     "modified": "2026-03-27T13:55:03.756631+00:00",
     "summary": "Malicious code in thisismytest123 (PyPI)",
-    "details": "During installation, if run under a specific username, the package downloads and installs two executables identified as backdoors trojans.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-thisismytest123\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - backdoor\n\n\n - malware\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-thisismytest123\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - backdoor\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {

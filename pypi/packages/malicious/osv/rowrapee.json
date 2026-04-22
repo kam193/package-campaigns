@@ -4,7 +4,7 @@
     "published": "2026-03-23T23:17:18.053863+00:00",
     "modified": "2026-03-23T23:17:18.087654+00:00",
     "summary": "Malicious code in rowrapee (PyPI)",
-    "details": "The package hides code to download and start malicious script containing malware, identified as adware. The triggering method seems to be PTH file, although it's not always present\n\n Given the time correlation, it's likely armored continuation of 2026-03-robloxapi-testy\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-rowrap\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - malware\n\n",
+    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-rowrap\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {
