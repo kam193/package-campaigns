@@ -4,7 +4,7 @@
     "published": "2026-03-08T19:35:54.904433+00:00",
     "modified": "2026-03-08T19:35:54.941599+00:00",
     "summary": "Malicious code in aioutil3 (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-aioutil3\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n",
+    "details": "This is a malicious clone of legitimate python-utils. The modified code introduces a function that silently exfiltrates given data to a hardcoded location. What is interesting, during the analysis the remote domain did not exist and the malicious code was not called in the package, suggesting preparation for the further attack.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-aioutil3\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n",
     "affected": [
         {
             "package": {

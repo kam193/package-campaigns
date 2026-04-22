@@ -4,7 +4,7 @@
     "published": "2026-02-28T10:44:48.469280+00:00",
     "modified": "2026-02-28T10:44:48.494199+00:00",
     "summary": "Malicious code in socketxio (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-socketxio\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - action-hidden-in-lib-usage\n\n",
+    "details": "Using the provided function results in exfiltrating Discord tokens to a hardcoded location\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-socketxio\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {

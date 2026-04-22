@@ -4,7 +4,7 @@
     "published": "2026-01-24T16:15:55.629125+00:00",
     "modified": "2026-01-24T16:15:55.629141+00:00",
     "summary": "Malicious code in instascan-pro (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-instascan-pro\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - files-exfiltration\n\n",
+    "details": "The package contains a module prepared to collect and exfiltrate user's files.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-instascan-pro\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {

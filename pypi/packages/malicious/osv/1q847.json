@@ -4,7 +4,7 @@
     "published": "2026-01-21T18:25:06.913144+00:00",
     "modified": "2026-01-21T18:25:06.913161+00:00",
     "summary": "Malicious code in 1q847 (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-old-1q847\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - obfuscation\n\n",
+    "details": "Package contains two DLL libraries, one of them packed. Both are widely recognized as malware. The exact behavior is not known\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-old-1q847\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {

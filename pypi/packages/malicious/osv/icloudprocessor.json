@@ -4,7 +4,7 @@
     "published": "2026-01-22T07:31:50.977079+00:00",
     "modified": "2026-01-22T07:31:50.977096+00:00",
     "summary": "Malicious code in icloudprocessor (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-icloudprocessor\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
+    "details": "During importing, the package starts a thread that exfiltrates user's files\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-icloudprocessor\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {

@@ -4,7 +4,7 @@
     "published": "2026-02-04T19:47:20.172934+00:00",
     "modified": "2026-02-04T19:47:20.172951+00:00",
     "summary": "Malicious code in statssol (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-statssol\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "details": "On importing the module, a remote code is executed. At the moment of analysis, the remote URL did not return any valid script, presumably as the package was already quite old\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-statssol\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {

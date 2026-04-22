@@ -4,7 +4,7 @@
     "published": "2026-01-20T23:46:30.906114+00:00",
     "modified": "2026-01-20T23:46:30.906195+00:00",
     "summary": "Spam code in vfunctions (PyPI)",
-    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: SCRIPT_KIDDIE-exploring-suspicious-behaviour\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
+    "details": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: SCRIPT_KIDDIE-exploring-suspicious-behaviour\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {

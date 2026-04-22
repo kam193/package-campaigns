@@ -4,7 +4,7 @@
     "published": "2026-04-01T11:46:16.409449+00:00",
     "modified": "2026-04-01T11:46:16.456425+00:00",
     "summary": "Malicious code in kube-node-health (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-kube-health-tools\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - covering-tracks\n\n",
+    "details": "During import, the code download and starts remote executable that later connects to a C2 server, likely establishing a reverse tunnel. After executing the remote binary, the code performs covering-tracks actions by removing the binary from disk, and - depending on version - modifying the package code. The dropper code is either a Python script, or a compiled binary with obfuscated location of the remote binary and config for it.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-kube-health-tools\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - covering-tracks\n\n",
     "affected": [
         {
             "package": {

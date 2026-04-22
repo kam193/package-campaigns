@@ -4,7 +4,7 @@
     "published": "2024-12-29T19:16:24Z",
     "modified": "2024-12-29T19:16:24Z",
     "summary": "Malicious code in hugginglega (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-12-hugginglega \n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - Downloads and executes a remote malicious script.\n\n\n - dependency-confusion\n\n",
+    "details": "Importing the module downloads a script that then download and run an infected executable\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2024-12-hugginglega \n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - Downloads and executes a remote malicious script.\n\n\n - dependency-confusion\n\n",
     "affected": [
         {
             "package": {

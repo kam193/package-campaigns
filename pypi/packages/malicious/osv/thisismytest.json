@@ -4,7 +4,7 @@
     "published": "2026-03-21T19:05:47.534805+00:00",
     "modified": "2026-03-21T19:05:47.574472+00:00",
     "summary": "Malicious code in thisismytest (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-thisismytest\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - Downloads and executes a remote executable.\n\n\n - backdoor\n\n",
+    "details": "During installation, the package downloads and runs a remote executable, which is identified as a backdoor. It connects with a remote server and executes basic commands\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-thisismytest\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - Downloads and executes a remote executable.\n\n\n - backdoor\n\n",
     "affected": [
         {
             "package": {

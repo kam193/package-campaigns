@@ -4,7 +4,7 @@
     "published": "2026-02-22T19:42:08.120357+00:00",
     "modified": "2026-02-22T19:42:08.145683+00:00",
     "summary": "Malicious code in myasicapi (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-myasicapi\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - obfuscation\n\n",
+    "details": "The code and related Github project promise to monitor hardware cryptominers. However, the code additionally hides two malicious capabilities functionalities:\n\n1. acting as an attacker-controller proxy,\n2. reversed shell to the attacker-controller endpoint.\n\nThey start automatically together with the promissed simple monitoring.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-myasicapi\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {

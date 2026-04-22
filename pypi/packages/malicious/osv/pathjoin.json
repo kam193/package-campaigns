@@ -4,7 +4,7 @@
     "published": "2026-04-20T11:11:12.239711+00:00",
     "modified": "2026-04-20T11:11:12.274977+00:00",
     "summary": "Malicious code in pathjoin (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-pathjoin\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "details": "During import, the code downloads and executes encrypted payload from remote location. During analysis, remote code was prepared to download the next stage executable.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-pathjoin\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
         {
             "package": {

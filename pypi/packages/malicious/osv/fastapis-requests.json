@@ -4,7 +4,7 @@
     "published": "2026-03-06T11:34:31.080863+00:00",
     "modified": "2026-03-06T11:34:31.184602+00:00",
     "summary": "Malicious code in fastapis-requests (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-fastapi-requests\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - clones-real-package\n\n\n - typosquatting\n\n\n - action-hidden-in-lib-usage\n\n",
+    "details": "The package clones a legitimate library and contains hidden code that executes remote scripts. During the analysis, the remote code was no longer available\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-fastapi-requests\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - clones-real-package\n\n\n - typosquatting\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {

@@ -4,7 +4,7 @@
     "published": "2026-02-24T21:52:38.366724+00:00",
     "modified": "2026-02-24T21:52:38.395034+00:00",
     "summary": "Malicious code in remote-xtril (PyPI)",
-    "details": "\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2026-02-remote-xtril\n\n\nReasons (based on the campaign):\n\n\n - other\n\n\n - abusing-3rd-api\n\n",
+    "details": "The package is designed to abuse Telegram service by spamming channels with messages. This is its main purpose.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2026-02-remote-xtril\n\n\nReasons (based on the campaign):\n\n\n - other\n\n\n - abusing-3rd-api\n\n",
     "affected": [
         {
             "package": {

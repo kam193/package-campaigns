@@ -4,7 +4,7 @@
     "published": "2026-01-04T20:04:46.595261+00:00",
     "modified": "2026-01-04T20:04:46.595279+00:00",
     "summary": "Spam code in virtuelenv (PyPI)",
-    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-01-marvelmaniac\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - dependency-confusion\n\n",
+    "details": "Packages have no content at all, but their names are clear typosquatting attempts\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-01-marvelmaniac\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - dependency-confusion\n\n",
     "affected": [
         {
             "package": {

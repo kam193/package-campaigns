@@ -4,7 +4,7 @@
     "published": "2026-04-03T11:40:59.226542+00:00",
     "modified": "2026-04-03T11:40:59.756265+00:00",
     "summary": "Malicious code in supervisors (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-supervisors\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - obfuscation\n\n",
+    "details": "The setup.py contains a malicious code that skips execution if the system uses Russian language. Otherwise, it downloads the URL of the next stage payload from the Solana blockchain, using the wallet ID associated with the Glossworm campaign. This strongly suggests the owner's account was hijacked. The final payload was not accessible during the analysis.\n\nThe malicious code likely originates from the previously hijacked project template in the HydroRoll-Team organization: https://github.com/HydroRoll-Team/pyo3-project-template/blob/975963ca17b9fad49a3a79276c5f8917a0027c2c/setup.py\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-supervisors\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {

@@ -4,7 +4,7 @@
     "published": "2026-03-15T09:29:37.871822+00:00",
     "modified": "2026-03-15T09:29:37.903184+00:00",
     "summary": "Malicious code in ariadne-federation (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-ariadne-federation\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "details": "During import, package decrypts and runs a malicious executable. The executable is hidden in an encoded and xored form in the JSON resource file.\n\nThis is a follow up of the campaign 2026-03-fastapi-middleware-cors\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-ariadne-federation\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
         {
             "package": {

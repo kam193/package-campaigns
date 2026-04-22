@@ -4,7 +4,7 @@
     "published": "2026-03-23T15:38:29.733665+00:00",
     "modified": "2026-03-23T15:38:29.762121+00:00",
     "summary": "Malicious code in hash-utils-py (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-hash-utils-py\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n",
+    "details": "During importing the module, the code attempts to exfiltrate sensitive Telegram's client session files.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-hash-utils-py\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n",
     "affected": [
         {
             "package": {

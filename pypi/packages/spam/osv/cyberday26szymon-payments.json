@@ -4,7 +4,7 @@
     "published": "2026-04-11T18:14:23.799937+00:00",
     "modified": "2026-04-11T18:14:23.828086+00:00",
     "summary": "Spam code in cyberday26szymon-payments (PyPI)",
-    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
         {
             "package": {

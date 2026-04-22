@@ -4,7 +4,7 @@
     "published": "2026-02-10T23:03:29.551975+00:00",
     "modified": "2026-02-10T23:05:44.297788+00:00",
     "summary": "Malicious code in cryptowallethash (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-cryptowallethash\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
+    "details": "The package claims to calculate a hash value for usage in \"cryptocurrency\", but before returning the hash, it exfiltrates the plain value.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-cryptowallethash\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
     "affected": [
         {
             "package": {

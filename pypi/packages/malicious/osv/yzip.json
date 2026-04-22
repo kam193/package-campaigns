@@ -4,7 +4,7 @@
     "published": "2025-12-11T15:53:42.930747+00:00",
     "modified": "2025-12-11T15:53:42.930767+00:00",
     "summary": "Malicious code in yzip (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-uzip\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - malware\n\n",
+    "details": "During initialization of the archive-support class, the package starts code from another file and downloads multi-stage malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-uzip\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {

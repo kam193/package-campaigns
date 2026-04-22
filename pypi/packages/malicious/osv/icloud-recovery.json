@@ -4,7 +4,7 @@
     "published": "2026-01-22T17:20:06.841372+00:00",
     "modified": "2026-01-22T17:20:06.841397+00:00",
     "summary": "Malicious code in icloud-recovery (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-icloud-recovery\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
+    "details": "On importing the module, the code exfiltrates text files, with the focus on configuration files\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-icloud-recovery\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {

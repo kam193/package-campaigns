@@ -4,7 +4,7 @@
     "published": "2026-01-07T10:05:21.320551+00:00",
     "modified": "2026-01-07T10:05:21.320568+00:00",
     "summary": "Malicious code in codefrequencychecker (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-codefrequencychecker\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-browser-data\n\n\n - A Telegram webhook is used to send collected data.\n\n\n - infostealer\n\n",
+    "details": "Package exfiltrates browser cookies and passwords, and starts a Telegram bot allowing re-exfiltrating later.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-codefrequencychecker\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-browser-data\n\n\n - A Telegram webhook is used to send collected data.\n\n\n - infostealer\n\n",
     "affected": [
         {
             "package": {

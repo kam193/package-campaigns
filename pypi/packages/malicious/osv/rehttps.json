@@ -4,7 +4,7 @@
     "published": "2025-07-01T16:05:05Z",
     "modified": "2025-07-01T16:05:05Z",
     "summary": "Malicious code in rehttps (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-rehttps\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
+    "details": "During installation, package attempts to download and starts an executable. The package itself is a clone of requests\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-rehttps\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {

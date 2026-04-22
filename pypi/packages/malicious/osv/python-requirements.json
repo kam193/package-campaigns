@@ -4,7 +4,7 @@
     "published": "2026-03-06T13:12:14.960678+00:00",
     "modified": "2026-03-06T13:12:15.018857+00:00",
     "summary": "Malicious code in python-requirements (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-old-python-module-installer\n\n\nReasons (based on the campaign):\n\n\n - impersonation\n\n\n - dependency-confusion\n\n\n - files-exfiltration\n\n\n - action-hidden-in-lib-usage\n\n\n - clones-real-package\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
+    "details": "The package clones a legitimate webdavclient3 library and modifies it to be an installer utility. During installation, the package exfiltrates the current working directory to a remote WebDAV server or Telegram Bot. Additionally, the package targets cryptocurrency operations in another suspicious project, https://github.com/fewcatltd/zkSync/\n\nThe install_modules() method injects code into two files, which are characteristic for this repository, and causes exfiltrating configuration files during cryptocurrency exchange operations.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-old-python-module-installer\n\n\nReasons (based on the campaign):\n\n\n - impersonation\n\n\n - dependency-confusion\n\n\n - files-exfiltration\n\n\n - action-hidden-in-lib-usage\n\n\n - clones-real-package\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
     "affected": [
         {
             "package": {

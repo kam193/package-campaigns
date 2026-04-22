@@ -4,7 +4,7 @@
     "published": "2026-03-20T21:03:39.955284+00:00",
     "modified": "2026-03-20T21:03:40.091807+00:00",
     "summary": "Malicious code in mangrove-sdk (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-flyio-token-client-efgh\n\n\nReasons (based on the campaign):\n\n\n - llm-threat\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
+    "details": "During installation, package attempts to modify LLM configuration files to provide a backdoor instruction for further control over an AI agent.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-flyio-token-client-efgh\n\n\nReasons (based on the campaign):\n\n\n - llm-threat\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {

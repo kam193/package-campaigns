@@ -4,7 +4,7 @@
     "published": "2026-02-06T15:23:01.766331+00:00",
     "modified": "2026-02-06T15:23:01.766350+00:00",
     "summary": "Malicious code in carcent (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-soupclaw\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-browser-data\n\n\n - exfiltration-credentials\n\n",
+    "details": "Package collects and exfiltrates Discord credentials from multiple sources\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-soupclaw\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-browser-data\n\n\n - exfiltration-credentials\n\n",
     "affected": [
         {
             "package": {

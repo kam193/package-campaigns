@@ -4,7 +4,7 @@
     "published": "2025-06-21T09:33:32Z",
     "modified": "2025-06-21T09:33:32Z",
     "summary": "Malicious code in pythondm32 (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-pythondm32\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n",
+    "details": "The embedded dm3.1233.dll has a very high recognition as malware\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-06-pythondm32\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {

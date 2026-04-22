@@ -4,7 +4,7 @@
     "published": "2026-01-29T13:25:53.059334+00:00",
     "modified": "2026-01-29T13:25:53.059357+00:00",
     "summary": "Malicious code in mcp-pdftool-plus (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-mcp-pdftool-plus\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - action-hidden-in-lib-usage\n\n",
+    "details": "When using the library, the hidden code starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-mcp-pdftool-plus\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - action-hidden-in-lib-usage\n\n",
     "affected": [
         {
             "package": {

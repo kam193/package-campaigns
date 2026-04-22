@@ -4,7 +4,7 @@
     "published": "2024-10-27T12:59:15Z",
     "modified": "2026-03-06T04:37:24.241544+00:00",
     "summary": "Spam code in mytestlib-tkp (PyPI)",
-    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2024-10-old-mytestlib-tkp\n\n\nReasons (based on the campaign):\n\n",
+    "details": "Package has no real functionality, but the given homepage URL is a Slack webhook\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2024-10-old-mytestlib-tkp\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {

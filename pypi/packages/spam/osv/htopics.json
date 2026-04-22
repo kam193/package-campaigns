@@ -4,7 +4,7 @@
     "published": "2026-02-15T21:46:29.918374+00:00",
     "modified": "2026-02-15T21:46:29.947904+00:00",
     "summary": "Spam code in htopics (PyPI)",
-    "details": "\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-old-Smann23\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "details": "Packages depend on a removed one, and each release has 100k to 500k meaningless files (numbers or the same imports). There is no functional code inside.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-old-Smann23\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
     "affected": [
         {
             "package": {

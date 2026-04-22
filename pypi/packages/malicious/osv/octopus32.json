@@ -4,7 +4,7 @@
     "published": "2025-05-20T18:23:54Z",
     "modified": "2025-05-20T18:23:54Z",
     "summary": "Malicious code in octopus32 (PyPI)",
-    "details": "\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-octopus32\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n",
+    "details": "The obfuscated code downloads and starts a remote executable. The remote file has limited detection in VT, but contains at least code to add Defender exclusion paths.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-05-octopus32\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
