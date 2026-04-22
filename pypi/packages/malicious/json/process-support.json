@@ -1,0 +1,10 @@
+{
+    "name": "process-support",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-process-support",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-22T23:13:14.443966+00:00",
+    "campaign_data_modified_at": "2026-04-22T23:13:14.474758+00:00"
+}
