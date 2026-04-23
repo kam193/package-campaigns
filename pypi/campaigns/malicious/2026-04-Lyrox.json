@@ -6,7 +6,8 @@
         "obfuscation"
     ],
     "packages": [
-        "lyrox"
+        "lyrox",
+        "lyroxcoder"
     ],
     "created_at": "2026-04-23",
     "ioc": [],
