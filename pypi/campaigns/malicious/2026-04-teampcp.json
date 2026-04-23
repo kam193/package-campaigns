@@ -18,7 +18,9 @@
     "references": [
         "https://github.com/xorbitsai/inference/issues/4828",
         "https://github.com/xorbitsai/inference/pull/4826",
-        "https://github.com/oaoaoaoaooaoa/inference/blob/f6cf73a913443d8098d7fe2456b54cdc25eb9574/doc/source/gen_docs.py"
+        "https://github.com/oaoaoaoaooaoa/inference/blob/f6cf73a913443d8098d7fe2456b54cdc25eb9574/doc/source/gen_docs.py",
+        "https://x.com/pcpcats/status/2046927940932260092",
+        "https://research.jfrog.com/post/xinference-compromise/"
     ],
-    "description": "Following a malicious pull request that exfiltrated sensitive data from the CI runner, three malicious PyPI releases were published. Infected releases contain code typical for TeamPCP actions that exfiltrates all kinds of sensitive data (credentials, env variables, SSH keys, cloud tokens, configuration files, shell histories, cryptowallets, data from secret managers...). Malicious action activates during importing the main package's module. "
+    "description": "Following a malicious pull request that exfiltrated sensitive data from the CI runner, three malicious PyPI releases were published. Infected releases contain code typical for TeamPCP actions that exfiltrates all kinds of sensitive data (credentials, env variables, SSH keys, cloud tokens, configuration files, shell histories, cryptowallets, data from secret managers...). Malicious action activates during importing the main package's module. TeamPCP denies their involvement. "
 }
