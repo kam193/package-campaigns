@@ -1,0 +1,15 @@
+{
+    "name": "sami-ai",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5",
+        "0.6"
+    ],
+    "campaign_assigned_at": "2026-04-23T22:07:40.344837+00:00",
+    "campaign_data_modified_at": "2026-04-23T22:07:40.401275+00:00"
+}
