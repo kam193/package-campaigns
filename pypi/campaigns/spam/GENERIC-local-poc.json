@@ -9,6 +9,7 @@
     "packages": [
         "alexsecdemo",
         "chunqiuwestj-pkg-westj137",
+        "comment-filter",
         "cuda1",
         "cyberday26szymon-auth",
         "cyberday26szymon-logging",
