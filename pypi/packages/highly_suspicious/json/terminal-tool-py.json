@@ -1,0 +1,12 @@
+{
+    "name": "terminal-tool-py",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0",
+        "1.1.0",
+        "2.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-25T15:07:21.307446+00:00",
+    "campaign_data_modified_at": "2026-04-25T15:07:21.351516+00:00"
+}
