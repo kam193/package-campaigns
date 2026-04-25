@@ -34,6 +34,7 @@
         "robase-help",
         "robase-install",
         "robase-installer",
+        "robase-library-quick-install",
         "robase-quick-install",
         "robase-setup",
         "robase-utils",
