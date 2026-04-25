@@ -43,7 +43,8 @@
         "roboat-additions",
         "roboat-utilities",
         "roboat-utils",
-        "roboats-addition"
+        "roboats-addition",
+        "rosolver"
     ],
     "created_at": "2026-03-28",
     "ioc": [
