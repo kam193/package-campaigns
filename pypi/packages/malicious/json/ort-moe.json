@@ -1,0 +1,11 @@
+{
+    "name": "ort-moe",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-promptflow-runtime",
+    "description": "During import, package collects basic information about the system, performs deep fingerprinting, and reports the data to the remote target. The package description attempts to build a false impression that it's an official package. The name refers to either ONNYX runtime, or the Pytorch package never released to the PyPI: https://github.com/pytorch/ort/blob/89466e524b0abe3a134418a50beeb405e287cedc/ort_moe/setup.py#L11",
+    "affected_versions": [
+        "9.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-25T14:47:54.910759+00:00",
+    "campaign_data_modified_at": "2026-04-25T14:47:54.935422+00:00"
+}

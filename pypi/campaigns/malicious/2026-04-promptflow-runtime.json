@@ -1,0 +1,21 @@
+{
+    "name": "2026-04-promptflow-runtime",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "dependency-confusion",
+        "impersonation",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "ort-moe",
+        "promptflow-runtime"
+    ],
+    "created_at": "2026-04-25",
+    "ioc": [
+        "ttder9qf90.execute-api.us-east-1.amazonaws.com"
+    ],
+    "references": [],
+    "description": "During import, package collects basic information about the system, performs deep fingerprinting, and reports the data to the remote target. The package description attempts to build a false impression that it's an official package."
+}
