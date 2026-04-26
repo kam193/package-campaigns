@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-02-iploop/proxyclaw-mcp-server",
     "published": "2026-04-24T10:57:11.941798+00:00",
-    "modified": "2026-04-24T10:57:12.137673+00:00",
+    "modified": "2026-04-26T15:06:39.477339+00:00",
     "summary": "Highly suspicious code in proxyclaw-mcp-server (PyPI)",
     "details": "Package is part of the IPLoop ecosystem, which offers residential proxies and seems extream shady. At the time of analysis: \n\n1) they claim to have millions of IPs, yet the domain was registered on 2025-11-12, around three months ago\n2) they claim to source IPs thorugh ProxyClaw, which has first commit on Github https://github.com/Iploop/proxyclaw three days ago (2026-02-17) and the domain proxyclaw.ai (linked on the iploop.io) has not been even registered\n3) many links on the iploop.io website, e.g. to blog posts, do not work\n4) the \"live request\" speed on the iploop.io main page is a random number generated in JavaScript\n5) the related Github account has multiple cryptic repositories hosting likely malicious executables, like https://github.com/Furhworld/Zi1zlumOvCiI \n6) The related LinkedIn profile https://www.linkedin.com/in/mika-furhman-7ba110324/ hosts nothing more than the IPLoop ad\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-02-iploop\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [
@@ -12,7 +12,8 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0"
+                "1.0.0",
+                "1.0.1"
             ]
         }
     ],
