@@ -34,6 +34,7 @@
         "robase-api",
         "robase-app",
         "robase-fallback",
+        "robase-fast-install",
         "robase-gui",
         "robase-gui-api",
         "robase-help",
@@ -67,7 +68,8 @@
         "https://i-like-boys.com/tree.vbs",
         "i-like-boys.com",
         "https://femboy.rich/imafaggot.vbs",
-        "femboy.rich"
+        "femboy.rich",
+        "https://raw.githubusercontent.com/vdreamer/www/refs/heads/main/rabbit.exe"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/9f14d239ab8f1289bc7aedeb67d3d72b467ee6c11b201890ab14c5c4f7c175d2/detection",
