@@ -35,6 +35,7 @@
         "robase-app",
         "robase-fallback",
         "robase-gui",
+        "robase-gui-api",
         "robase-help",
         "robase-install",
         "robase-installer",
