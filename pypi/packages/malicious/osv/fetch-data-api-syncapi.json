@@ -1,0 +1,51 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-04-fetch-data-api-syncapi/fetch-data-api-syncapi",
+    "published": "2026-04-27T16:31:55.429844+00:00",
+    "modified": "2026-04-27T16:31:55.462435+00:00",
+    "summary": "Malicious code in fetch-data-api-syncapi (PyPI)",
+    "details": "The package contains code to download and start a malicious executable. It's masqueraded using name similar to Windows services. In analyzed versions, the code was not automatically started, suggesting it's just a part of a campaign.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-fetch-data-api-syncapi\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - Downloads and executes a remote executable.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "fetch-data-api-syncapi",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/7f6bb9cb5118cde0e476e4a41e6bd31027b2cc3b678112e25da3c68e2421a8a6/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/fetch-data-api-syncapi"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "botconfig4.nurmohammadrafi9966.workers.dev"
+            ],
+            "urls": [
+                "https://www.dropbox.com/scl/fi/g9n5elasjy54dl2kwfntg/MonitorClient.exe?rlkey=wync0ieqrytdi12bugsw6hzu7&st=tf3r09pi&dl=1"
+            ]
+        }
+    }
+}
