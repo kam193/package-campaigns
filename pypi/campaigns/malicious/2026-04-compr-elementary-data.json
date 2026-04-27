@@ -1,0 +1,31 @@
+{
+    "name": "2026-04-compr-elementary-data",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "compromised-package",
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "exfiltration_ssh_keys",
+        "exploited-ci-vulnerability",
+        "files_exfiltration",
+        "obfuscation"
+    ],
+    "created_at": "2026-04-27",
+    "ioc": [
+        "https://litter.catbox.moe/iqesmbhukgd2c7hq.sh",
+        "igotnofriendsonlineorirl-imgonnakmslmao.skyhanni.cloud"
+    ],
+    "references": [
+        "https://github.com/elementary-data/elementary/issues/2205",
+        "https://github.com/realtungtungtungsahur",
+        "https://github.com/elementary-data/elementary/actions/runs/24914128534/job/72962412074",
+        "https://github.com/elementary-data/elementary/pull/2204/changes",
+        "https://github.com/elementary-data/elementary/pull/2203/changes",
+        "https://github.com/elementary-data/elementary/pull/2203",
+        "https://github.com/elementary-data/elementary/actions/runs/24914446630"
+    ],
+    "description": "A threat actor exploited a vulnerability in the CI workflows to inject code and establish, likely, a reverse shell in the CI environment (https://github.com/elementary-data/elementary/actions/runs/24914128534/job/72962412074). Following that, the access was used to create 3 PRs with malicious code, and finally publish the malicious 0.23.3 version of the elementary-data package to PyPI, which was available between 2026-04-24 22:20 and 2026-04-25 9:45 (UTC) (https://github.com/elementary-data/elementary/actions/runs/24914446630). Malicious code was also published as a Docker image.\n\nMalicious code was inserted in a PTH file, causing execution on any Python run. It then collects all kinds of sensitive data (credentials, .env files, cloud tokens, cryptocurrency wallets, Kubernetes configurations, shell history, data from AWS secret manager, ...) and exfiltrates to the hardcoded target."
+}
