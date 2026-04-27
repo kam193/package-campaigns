@@ -1,0 +1,15 @@
+{
+    "name": "2026-04-old-mypypipkg",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "vscode-tunnel"
+    ],
+    "packages": [
+        "mypypipkg"
+    ],
+    "created_at": "2026-04-27",
+    "ioc": [],
+    "references": [],
+    "description": "When running as a module, the package starts a VSCode tunnel and exfiltrates the connection link to the hardcoded target. This lets the attacker connect the VSCode instance online and gain remote access to the machine as the user running the code. "
+}
