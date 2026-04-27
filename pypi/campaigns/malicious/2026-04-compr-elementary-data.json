@@ -19,6 +19,7 @@
         "igotnofriendsonlineorirl-imgonnakmslmao.skyhanni.cloud"
     ],
     "references": [
+        "https://www.elementary-data.com/post/security-incident-report-malicious-release-of-elementary-oss-python-cli-v0-23-3",
         "https://github.com/elementary-data/elementary/issues/2205",
         "https://github.com/realtungtungtungsahur",
         "https://github.com/elementary-data/elementary/actions/runs/24914128534/job/72962412074",

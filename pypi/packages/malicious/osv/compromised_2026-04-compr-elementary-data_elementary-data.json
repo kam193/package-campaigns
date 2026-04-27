@@ -19,6 +19,10 @@
     "references": [
         {
             "type": "WEB",
+            "url": "https://www.elementary-data.com/post/security-incident-report-malicious-release-of-elementary-oss-python-cli-v0-23-3"
+        },
+        {
+            "type": "WEB",
             "url": "https://github.com/elementary-data/elementary/issues/2205"
         },
         {
