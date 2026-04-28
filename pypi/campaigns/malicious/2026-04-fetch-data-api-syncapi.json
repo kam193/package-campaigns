@@ -7,15 +7,19 @@
         "remote_executable"
     ],
     "packages": [
-        "fetch-data-api-syncapi"
+        "fetch-data-api-syncapi",
+        "fetchapi-syncdata-pypi"
     ],
     "created_at": "2026-04-27",
     "ioc": [
         "https://www.dropbox.com/scl/fi/g9n5elasjy54dl2kwfntg/MonitorClient.exe?rlkey=wync0ieqrytdi12bugsw6hzu7&st=tf3r09pi&dl=1",
-        "botconfig4.nurmohammadrafi9966.workers.dev"
+        "botconfig4.nurmohammadrafi9966.workers.dev",
+        "webhook-relay.nurmohammadrafi9966.workers.dev"
     ],
     "references": [
-        "https://www.virustotal.com/gui/file/7f6bb9cb5118cde0e476e4a41e6bd31027b2cc3b678112e25da3c68e2421a8a6/detection"
+        "https://www.virustotal.com/gui/file/7f6bb9cb5118cde0e476e4a41e6bd31027b2cc3b678112e25da3c68e2421a8a6/detection",
+        "https://www.virustotal.com/gui/file-analysis/NmFjNTE4MGI3NjRhM2Y3YTZlMzM2ZmFhN2ZmY2E4ZWE6MTc3NzQwMTUxMA==",
+        "https://app.any.run/tasks/58f6c7bd-daf7-4b02-ace3-a113a62f0c4f"
     ],
-    "description": "The package contains code to download and start a malicious executable. It's masqueraded using name similar to Windows services. In analyzed versions, the code was not automatically started, suggesting it's just a part of a campaign. "
+    "description": "The package contains code to download and start a malicious executable. It's masqueraded using name similar to Windows services. In analyzed versions, the code was not automatically started, suggesting it's just a part of a campaign.  Based on the dynamic analysis, the executable is likely an infostealer."
 }
