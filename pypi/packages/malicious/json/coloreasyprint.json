@@ -1,0 +1,12 @@
+{
+    "name": "coloreasyprint",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-pathjoin",
+    "affected_versions": [
+        "0.4.7.dev1",
+        "0.4.7.dev2",
+        "0.4.7.dev3"
+    ],
+    "campaign_assigned_at": "2026-04-28T08:25:33.705700+00:00",
+    "campaign_data_modified_at": "2026-04-28T08:25:33.987462+00:00"
+}
