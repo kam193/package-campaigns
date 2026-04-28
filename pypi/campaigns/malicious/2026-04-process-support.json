@@ -12,7 +12,8 @@
     "packages": [
         "process-support",
         "timemcp",
-        "timemcp-py"
+        "timemcp-py",
+        "timestamp-py"
     ],
     "created_at": "2026-04-22",
     "ioc": [

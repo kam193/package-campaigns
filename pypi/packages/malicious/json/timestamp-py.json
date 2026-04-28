@@ -1,0 +1,10 @@
+{
+    "name": "timestamp-py",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-process-support",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-28T21:29:07.244420+00:00",
+    "campaign_data_modified_at": "2026-04-28T21:29:07.275359+00:00"
+}

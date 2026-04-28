@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-sf-th-requests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "sf-th-requests"
+    ],
+    "created_at": "2026-04-28",
+    "ioc": [
+        "http://100.31.118.36:80/beacon",
+        "100.31.118.36"
+    ],
+    "references": [],
+    "description": "During import package exfiltrates the environment variables and cloud credentials/tokens to a hardcoded location."
+}
