@@ -1,0 +1,21 @@
+{
+    "name": "2026-04-kcvlib",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "kcvlib"
+    ],
+    "created_at": "2026-04-28",
+    "ioc": [
+        "https://raw.githubusercontent.com/ovrlust/cookie-library/main/kcvlib_core.py"
+    ],
+    "references": [
+        "https://github.com/ovrlust/cookie-library/tree/985f8b10041887590b65f1ca107e4ac9f85a54dd"
+    ],
+    "description": "During import, the package downloads and executes obfuscated code. It appears to be an infostealer framework"
+}
