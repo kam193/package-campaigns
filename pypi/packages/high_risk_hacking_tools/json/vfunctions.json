@@ -1,0 +1,13 @@
+{
+    "name": "vfunctions",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "description": "Collection of hacking tools with the goal to perform user-annoying actions (changing background, playing offensive sounds), self-propagation to other files and USB drives, as well as collecting webcam photos and ensuring persistence. While it's not active (no automated start, requires someone to steer the execution), it was clearly created to perform malicious action, there is no educational value.",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+    ],
+    "campaign_assigned_at": "2026-04-28T20:19:53.356454+00:00",
+    "campaign_data_modified_at": "2026-04-28T20:19:53.389252+00:00"
+}
