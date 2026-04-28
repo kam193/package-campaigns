@@ -1,0 +1,12 @@
+{
+    "name": "GENERIC-file-hosting-abuse",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "file-share-temp-welkin"
+    ],
+    "created_at": "2026-04-28",
+    "ioc": [],
+    "references": [],
+    "description": "Package abuses PyPI as a file hosting"
+}

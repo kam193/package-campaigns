@@ -5,15 +5,19 @@
     "abuse_categories": [
         "RAT",
         "exfiltration_generic",
+        "infostealer",
         "remote_commands",
         "spyware-like"
     ],
     "packages": [
-        "process-support"
+        "process-support",
+        "timemcp"
     ],
     "created_at": "2026-04-22",
     "ioc": [
-        "64.49.11.161"
+        "64.49.11.161",
+        "http://64.49.11.161:8000/share/a29e6d29-d701-482a-abb6-a30216d6b148/",
+        "http://64.49.11.161:8000/share/543108b4-7da1-423f-924a-c514a590acc3/"
     ],
     "references": [],
     "description": "During import, the package automatically starts code acting as a RAT. It connects with a hardcoded C2 server and waits for commands, supporting e.g. executing remote commands, exfiltrating files, recording the screen, executing GUI actions through PyAutoGUI."
