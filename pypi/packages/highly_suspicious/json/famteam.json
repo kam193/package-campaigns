@@ -1,0 +1,11 @@
+{
+    "name": "famteam",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Clone of https://github.com/NousResearch/hermes-agent During analysis, there was no clear sign of malicious behaviour",
+    "affected_versions": [
+        "0.9.0"
+    ],
+    "campaign_assigned_at": "2026-04-29T21:08:48.451655+00:00",
+    "campaign_data_modified_at": "2026-04-29T21:08:48.491410+00:00"
+}
