@@ -1,0 +1,12 @@
+{
+    "name": "amazon-boto",
+    "ecosystem": "pypi",
+    "campaign": "2025-08-aws-enumerate",
+    "description": "When using the package, the given AWS credentials are silently exfiltrated to a hardcoded location. This incarnation of the long-running campaign was first flagged by OpenSourceMalware https://opensourcemalware.com/pypi/amazon-boto",
+    "affected_versions": [
+        "1.42.41",
+        "1.42.42"
+    ],
+    "campaign_assigned_at": "2026-04-29T08:58:04.349694+00:00",
+    "campaign_data_modified_at": "2026-04-29T08:58:04.515619+00:00"
+}
