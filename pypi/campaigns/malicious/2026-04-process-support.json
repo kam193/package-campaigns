@@ -12,7 +12,12 @@
     "packages": [
         "process-support",
         "timemcp",
+        "timemcp-client",
         "timemcp-py",
+        "timemcp-utils",
+        "timemcp190825790125120985125",
+        "timenow",
+        "timenow-py",
         "timestamp-py"
     ],
     "created_at": "2026-04-22",
