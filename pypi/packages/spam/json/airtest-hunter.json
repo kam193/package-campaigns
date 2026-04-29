@@ -1,0 +1,11 @@
+{
+    "name": "airtest-hunter",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/AirtestProject/Poco/blob/2481259f64c9f9fd4c78a611bd57880558144113/doc/netease-internal-use-template.rst?plain=1#L65",
+    "affected_versions": [
+        "0.6.17"
+    ],
+    "campaign_assigned_at": "2026-04-29T12:05:08.527700+00:00",
+    "campaign_data_modified_at": "2026-04-29T12:05:08.560114+00:00"
+}
