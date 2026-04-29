@@ -9,7 +9,11 @@
     "packages": [
         "airtest-hunter",
         "brainpp",
+        "calvin-env",
         "hunter-cli",
+        "lc-agent",
+        "lc-agent-aiq",
+        "lc-agent-rag-modifiers",
         "libprotobufffff",
         "livekit-plugins-camb",
         "process-stats-exporter",

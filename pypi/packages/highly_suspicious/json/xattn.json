@@ -1,0 +1,11 @@
+{
+    "name": "xattn",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package appears to be an attempt to mimic a ML function from https://github.com/mit-han-lab/Block-Sparse-Attention/blob/49d6c39e4dc0303442cda3bb758b3925d4399c49/block_sparse_attn/block_sparse_attn_interface.py#L451 and exfiltrate the provided data. While it's unclear what the exact goal is, other packages from the user are dependency confusion attempts.",
+    "affected_versions": [
+        "5.1.1"
+    ],
+    "campaign_assigned_at": "2026-04-29T12:37:36.864607+00:00",
+    "campaign_data_modified_at": "2026-04-29T12:37:36.893010+00:00"
+}

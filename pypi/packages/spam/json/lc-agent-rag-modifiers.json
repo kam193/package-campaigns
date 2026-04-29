@@ -1,0 +1,11 @@
+{
+    "name": "lc-agent-rag-modifiers",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/NVIDIA-Omniverse/kit-usd-agents/blob/eec008350f46a25e73c6745e786849964088c0c0/source/modules/rags/rag_modifiers/setup.py#L35",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-29T12:26:39.228917+00:00",
+    "campaign_data_modified_at": "2026-04-29T12:26:39.260553+00:00"
+}

@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-empty-dependency-confusion/lc-agent-rag-modifiers",
+    "published": "2026-04-29T12:26:39.228917+00:00",
+    "modified": "2026-04-29T12:26:39.260553+00:00",
+    "summary": "Spam code in lc-agent-rag-modifiers (PyPI)",
+    "details": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/NVIDIA-Omniverse/kit-usd-agents/blob/eec008350f46a25e73c6745e786849964088c0c0/source/modules/rags/rag_modifiers/setup.py#L35\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-empty-dependency-confusion\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "lc-agent-rag-modifiers",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/lc-agent-rag-modifiers"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
