@@ -20,6 +20,10 @@
     "references": [
         {
             "type": "WEB",
+            "url": "https://github.com/Lightning-AI/pytorch-lightning/security/advisories/GHSA-w37p-236h-pfx3"
+        },
+        {
+            "type": "WEB",
             "url": "https://github.com/Lightning-AI/pytorch-lightning/issues/21691"
         },
         {
