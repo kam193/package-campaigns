@@ -1,0 +1,10 @@
+{
+    "name": "timecurrently",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-process-support",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-30T08:05:28.161162+00:00",
+    "campaign_data_modified_at": "2026-04-30T08:05:28.443868+00:00"
+}
