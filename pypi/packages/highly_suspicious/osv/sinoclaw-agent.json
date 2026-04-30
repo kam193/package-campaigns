@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/sinoclaw-agent",
+    "published": "2026-04-30T22:32:00.039525+00:00",
+    "modified": "2026-04-30T22:32:00.079028+00:00",
+    "summary": "Highly suspicious code in sinoclaw-agent (PyPI)",
+    "details": "Clone of https://github.com/NousResearch/hermes-agent During analysis, there was no clear sign of malicious behaviour\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "sinoclaw-agent",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2026.5.1",
+                "2026.5.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/sinoclaw-agent"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
