@@ -3,8 +3,8 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
-        "files_exfiltration",
-        "persistence"
+        "backdoor",
+        "files_exfiltration"
     ],
     "packages": [
         "renderctx"
@@ -15,5 +15,5 @@
         "renderkit1.vercel.app"
     ],
     "references": [],
-    "description": "Package contains code to 1) exfiltrate .env and code files, 2) ensure persistence via embedding a hardcoded SSH key. The malicious actions are not triggered automatically."
+    "description": "Package contains code to 1) exfiltrate .env and code files, 2) create a persistent backdoor via embedding a hardcoded SSH key. The malicious actions are not triggered automatically."
 }
