@@ -1,0 +1,19 @@
+{
+    "name": "2026-04-buffparser",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "revshell"
+    ],
+    "packages": [
+        "buffparser"
+    ],
+    "created_at": "2026-04-30",
+    "ioc": [
+        "https://raw.githubusercontent.com/57459N/test/refs/heads/main/ip.txt",
+        "91.149.191.134"
+    ],
+    "references": [],
+    "description": "Described as a utility for gaming, the code starts a reverse shell when using the exposed alledegdly parsing function."
+}
