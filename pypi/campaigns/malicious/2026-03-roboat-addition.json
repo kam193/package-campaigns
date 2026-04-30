@@ -38,6 +38,7 @@
         "robase-api",
         "robase-apis",
         "robase-app",
+        "robase-dnb",
         "robase-fallback",
         "robase-fast-install",
         "robase-gui",
