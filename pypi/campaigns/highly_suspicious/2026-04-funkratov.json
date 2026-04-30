@@ -1,0 +1,21 @@
+{
+    "name": "2026-04-funkratov",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "chalk-fancy",
+        "funkratov-renderkit",
+        "renderkitcore"
+    ],
+    "created_at": "2026-04-30",
+    "ioc": [
+        "renderkit1.vercel.app",
+        "ctx-graphics.vercel.app"
+    ],
+    "references": [],
+    "description": "Packages are very likely used to exfiltrate files or env variables, but given available data, it was impossible to confirm the malicious intention. The probable scenario is being dependency of a malicious project.\n\nRelated malicious campaign: 2026-04-renderctx"
+}
