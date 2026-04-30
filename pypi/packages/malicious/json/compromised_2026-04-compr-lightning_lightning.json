@@ -1,0 +1,11 @@
+{
+    "name": "lightning",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-compr-lightning",
+    "created_at": "2026-04-30",
+    "description": "",
+    "affected_versions": [
+        "2.6.2",
+        "2.6.3"
+    ]
+}
