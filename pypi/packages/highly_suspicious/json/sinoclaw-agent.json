@@ -5,8 +5,9 @@
     "description": "Clone of https://github.com/NousResearch/hermes-agent During analysis, there was no clear sign of malicious behaviour",
     "affected_versions": [
         "2026.5.1",
-        "2026.5.2"
+        "2026.5.2",
+        "2026.5.3"
     ],
     "campaign_assigned_at": "2026-04-30T22:32:00.039525+00:00",
-    "campaign_data_modified_at": "2026-04-30T22:32:00.079028+00:00"
+    "campaign_data_modified_at": "2026-05-01T12:09:36.719575+00:00"
 }
