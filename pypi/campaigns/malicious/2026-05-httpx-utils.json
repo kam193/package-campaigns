@@ -1,0 +1,24 @@
+{
+    "name": "2026-05-httpx-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "persistence",
+        "remote_script"
+    ],
+    "packages": [
+        "httpx-utils"
+    ],
+    "created_at": "2026-05-01",
+    "ioc": [
+        "https://redir.acysec.site/scripts/update.sh",
+        "redir.acysec.site",
+        "acysec.site",
+        "https://api.github.com/repos/YoungKevinn/system-updater/releases/assets/409658341",
+        "https://gist.githubusercontent.com/YoungKevinn/96af9afbde472731f39a8a457b3e13db/raw/e9226aecb69eca0871b207a24d0b2ccaac4e2d13/update-manifest.txt"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/78a5ed5722ba5c630abc1728580c3b953a55534d755031975fd0f21616dcf942/detection"
+    ],
+    "description": "During installation, package downloads downloads and executes next-stage script that then downloads a Sliver beacon and establishes persistence via a systemd service "
+}
