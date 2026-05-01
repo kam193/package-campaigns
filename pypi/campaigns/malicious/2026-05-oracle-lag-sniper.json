@@ -1,0 +1,23 @@
+{
+    "name": "2026-05-oracle-lag-sniper",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_env_variables",
+        "impersonation"
+    ],
+    "packages": [
+        "oracle-lag-sniper"
+    ],
+    "created_at": "2026-05-01",
+    "ioc": [
+        "api-gateway.nodehealth.workers.dev",
+        "https://api-gateway.nodehealth.workers.dev/api/v1/health"
+    ],
+    "references": [
+        "https://github.com/JonathanPetersonn/oracle-lag-sniper/commit/1c9e1a59ccece47506d68c34cd98a5d7b4a7756c",
+        "https://polymarket.com/profile/0x5194a5f5bceabdc955d1b2bd5ed150610316c1d7"
+    ],
+    "description": "When using the package, it exfiltrates sensitive environmental variables (targeting Polymarket keys) to the target controlled via a Polymarket's user profile. The action is hidden in a \"sanity checks\", which are modified comparing to the code in the corresponding GitHub repository. Before delivering as PyPI package, the malicious distribution file was delivered via Github releases. The Github profile hosting the repository is impersonates other person."
+}
