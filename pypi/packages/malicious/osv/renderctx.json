@@ -4,7 +4,7 @@
     "published": "2026-04-30T21:38:14.002305+00:00",
     "modified": "2026-04-30T21:38:14.042630+00:00",
     "summary": "Malicious code in renderctx (PyPI)",
-    "details": "Package contains code to 1) exfiltrate .env and code files, 2) create a persistent backdoor via embedding a hardcoded SSH key. The malicious actions are not triggered automatically.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-renderctx\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - backdoor\n\n",
+    "details": "Package contains code to 1) exfiltrate .env and code files, 2) create a persistent backdoor via embedding a hardcoded SSH key. The malicious actions are not triggered automatically.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-renderctx\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {

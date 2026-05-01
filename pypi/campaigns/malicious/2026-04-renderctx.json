@@ -7,6 +7,7 @@
         "files_exfiltration"
     ],
     "packages": [
+        "graphicsctxr",
         "renderctx"
     ],
     "created_at": "2026-04-30",

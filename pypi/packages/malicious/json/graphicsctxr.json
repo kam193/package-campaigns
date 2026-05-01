@@ -1,0 +1,17 @@
+{
+    "name": "graphicsctxr",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-renderctx",
+    "description": "Package contains code to exfiltrate .env to a remote target. Prior to version 2.1.1, it also created a persistent backdoor via embedding a hardcoded SSH key. Malicious action is triggered when running as a module.",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "2.1.1",
+        "2.2.1",
+        "2.2.2"
+    ],
+    "campaign_assigned_at": "2026-05-01T11:13:48.345054+00:00",
+    "campaign_data_modified_at": "2026-05-01T11:26:11.856045+00:00"
+}
