@@ -10,8 +10,10 @@
     ],
     "packages": [
         "chalk-fancy",
+        "funkratov-renderkit",
         "graphicsctxr",
-        "renderctx"
+        "renderctx",
+        "renderkitcore"
     ],
     "created_at": "2026-04-30",
     "ioc": [
