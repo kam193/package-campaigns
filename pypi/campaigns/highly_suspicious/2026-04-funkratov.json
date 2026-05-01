@@ -7,7 +7,6 @@
         "files_exfiltration"
     ],
     "packages": [
-        "chalk-fancy",
         "funkratov-renderkit",
         "renderkitcore"
     ],

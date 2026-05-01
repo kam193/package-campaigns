@@ -4,17 +4,26 @@
     "category": "malicious",
     "abuse_categories": [
         "backdoor",
-        "files_exfiltration"
+        "crypto-related",
+        "files_exfiltration",
+        "through_dependency"
     ],
     "packages": [
+        "chalk-fancy",
         "graphicsctxr",
         "renderctx"
     ],
     "created_at": "2026-04-30",
     "ioc": [
         "https://renderkit1.vercel.app",
-        "renderkit1.vercel.app"
+        "renderkit1.vercel.app",
+        "https://ctx-graphics.vercel.app",
+        "ctx-graphics.vercel.app"
     ],
-    "references": [],
-    "description": "Package contains code to 1) exfiltrate .env and code files, 2) create a persistent backdoor via embedding a hardcoded SSH key. The malicious actions are not triggered automatically."
+    "references": [
+        "https://github.com/0xsebasneuron",
+        "https://socket.dev/supply-chain-attacks/north-korea-s-contagious-interview-campaign",
+        "https://github.com/0xsebasneuron/polymarket-arbitrage-copy-trading-bot-V2/commit/4dae9aea3c35a627a7f38a28946f73af18930a3e#diff-4d7c51b1efe9043e44439a949dfd92e5827321b34082903477fd04876edb7552"
+    ],
+    "description": "Packages in this campaign are used to exfiltrate data from users installing code from prepared Github repositories. Packages contain code to exfiltrate files (typically .env files, but it could also be log, txt or code files), and may also create a persistent backdoor via embedding a hardcoded SSH key or perform other actions. The malicious actions are not triggered via the code in malicious repositories pretending to be some early-stage cryptocurrency-related projects.\n\nBased on the attribution of some NPM packages used in malicious repositories published under https://github.com/0xsebasneuron, this is likely part of North Korean actions targeting developers via fake interviews: https://socket.dev/supply-chain-attacks/north-korea-s-contagious-interview-campaign"
 }
