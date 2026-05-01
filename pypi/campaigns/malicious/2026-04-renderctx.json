@@ -11,6 +11,7 @@
     "packages": [
         "chalk-fancy",
         "funkratov-renderkit",
+        "graphicctx",
         "graphicsctxr",
         "graphicsctxs",
         "renderctx",
