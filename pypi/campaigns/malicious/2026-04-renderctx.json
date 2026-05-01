@@ -12,6 +12,7 @@
         "chalk-fancy",
         "funkratov-renderkit",
         "graphicsctxr",
+        "graphicsctxs",
         "renderctx",
         "renderkitcore"
     ],
