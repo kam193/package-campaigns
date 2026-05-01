@@ -2,6 +2,7 @@
     "name": "graphicctx",
     "ecosystem": "pypi",
     "campaign": "2026-04-renderctx",
+    "description": "Package is prepared as the next in the campaign exfiltrating environmental variables, but does not contain any code yet.",
     "affected_versions": [
         "1.0.1"
     ],
