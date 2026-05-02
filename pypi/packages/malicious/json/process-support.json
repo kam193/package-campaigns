@@ -2,6 +2,7 @@
     "name": "process-support",
     "ecosystem": "pypi",
     "campaign": "2026-04-process-support",
+    "description": "During import, the package automatically starts code acting as a RAT. It connects with a hardcoded C2 server and waits for commands, supporting e.g. executing remote commands, exfiltrating files, recording the screen, executing GUI actions through PyAutoGUI.",
     "affected_versions": [
         "1.0.0"
     ],

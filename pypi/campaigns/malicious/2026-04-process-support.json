@@ -4,8 +4,12 @@
     "category": "malicious",
     "abuse_categories": [
         "RAT",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
         "exfiltration_generic",
+        "files_exfiltration",
         "infostealer",
+        "persistence",
         "remote_commands",
         "spyware-like"
     ],
@@ -28,6 +32,7 @@
         "timenow",
         "timenow-py",
         "timermcp",
+        "timermcplib",
         "timesmcp",
         "timestamp-py",
         "timingmcp",
@@ -40,5 +45,5 @@
         "http://64.49.11.161:8000/share/543108b4-7da1-423f-924a-c514a590acc3/"
     ],
     "references": [],
-    "description": "During import, the package automatically starts code acting as a RAT. It connects with a hardcoded C2 server and waits for commands, supporting e.g. executing remote commands, exfiltrating files, recording the screen, executing GUI actions through PyAutoGUI."
+    "description": "During import, the package automatically downloads and executes code that first acts as an infostealer and then starts code acting as a RAT. It connects with a hardcoded C2 server and waits for commands, supporting e.g. executing remote commands, exfiltrating files, recording the screen, executing GUI actions through PyAutoGUI."
 }
