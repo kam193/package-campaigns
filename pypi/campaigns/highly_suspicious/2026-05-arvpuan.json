@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-arvpuan",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "abusing-3rd-api",
+        "obfuscation"
+    ],
+    "packages": [
+        "arvpuan"
+    ],
+    "created_at": "2026-05-02",
+    "ioc": [],
+    "references": [],
+    "description": "Package abuses a legitimate e-commerce website to validate credit card data and is clearly intended to assist with handling stolen data. "
+}
