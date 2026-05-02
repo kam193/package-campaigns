@@ -24,6 +24,7 @@
         "timemcp-py",
         "timemcp-utils",
         "timemcp190825790125120985125",
+        "timemcplib",
         "timenow",
         "timenow-py",
         "timermcp",
