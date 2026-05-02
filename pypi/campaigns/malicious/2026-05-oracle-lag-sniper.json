@@ -13,7 +13,8 @@
     "created_at": "2026-05-01",
     "ioc": [
         "api-gateway.nodehealth.workers.dev",
-        "https://api-gateway.nodehealth.workers.dev/api/v1/health"
+        "https://api-gateway.nodehealth.workers.dev/api/v1/health",
+        "https://github.com/JonathanPetersonn/oracle-lag-sniper/releases/latest/download/oracle_lag_sniper-1.2.0-py3-none-any.whl"
     ],
     "references": [
         "https://github.com/JonathanPetersonn/oracle-lag-sniper/commit/1c9e1a59ccece47506d68c34cd98a5d7b4a7756c",

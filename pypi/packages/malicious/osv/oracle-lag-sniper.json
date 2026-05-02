@@ -46,7 +46,8 @@
                 "api-gateway.nodehealth.workers.dev"
             ],
             "urls": [
-                "https://api-gateway.nodehealth.workers.dev/api/v1/health"
+                "https://api-gateway.nodehealth.workers.dev/api/v1/health",
+                "https://github.com/JonathanPetersonn/oracle-lag-sniper/releases/latest/download/oracle_lag_sniper-1.2.0-py3-none-any.whl"
             ]
         }
     }
