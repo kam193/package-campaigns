@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-gauth-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "impersonation"
+    ],
+    "packages": [
+        "gauth-client"
+    ],
+    "created_at": "2026-05-03",
+    "ioc": [],
+    "references": [],
+    "description": "Package impersonates Google and attempts to exfiltrate various credential files. It also setups PTH file for automated start during Python initialization. In the analyzed version, the exfiltration target was set as localhost suggesting it's not the final code."
+}
