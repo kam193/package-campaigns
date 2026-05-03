@@ -1,0 +1,11 @@
+{
+    "name": "wewloat",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.0.1",
+        "0.1"
+    ],
+    "campaign_assigned_at": "2026-05-03T14:01:40.132065+00:00",
+    "campaign_data_modified_at": "2026-05-03T14:01:40.411313+00:00"
+}

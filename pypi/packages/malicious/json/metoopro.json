@@ -1,0 +1,10 @@
+{
+    "name": "metoopro",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-metoopro",
+    "affected_versions": [
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2026-05-03T13:42:23.955123+00:00",
+    "campaign_data_modified_at": "2026-05-03T13:42:23.986895+00:00"
+}

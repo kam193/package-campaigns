@@ -11,6 +11,7 @@
         "remote_commands"
     ],
     "packages": [
+        "pwn-control",
         "system-update-tool",
         "win-update-helper-tool-v2"
     ],

@@ -1,0 +1,11 @@
+{
+    "name": "pwn-control",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-system-update-tool",
+    "description": "During installation, the code runs code to silently control the device via Telegram bot (execute commands, exfiltrate files).",
+    "affected_versions": [
+        "1.0"
+    ],
+    "campaign_assigned_at": "2026-05-03T13:49:59.129306+00:00",
+    "campaign_data_modified_at": "2026-05-03T13:49:59.156482+00:00"
+}
