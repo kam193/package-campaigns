@@ -7,10 +7,14 @@
         "obfuscation"
     ],
     "packages": [
-        "arvpuan"
+        "arvpuan",
+        "arvpuanv1"
     ],
     "created_at": "2026-05-02",
-    "ioc": [],
+    "ioc": [
+        "https://golden-fairy-d4cf45.netlify.app/.netlify/functions/cards",
+        "golden-fairy-d4cf45.netlify.app"
+    ],
     "references": [],
     "description": "Package abuses a legitimate e-commerce website to validate credit card data and is clearly intended to assist with handling stolen data. "
 }

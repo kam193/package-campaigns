@@ -1,25 +1,29 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-05-arvpuan/arvpuan",
-    "published": "2026-05-02T22:27:57.413288+00:00",
-    "modified": "2026-05-02T22:27:57.446238+00:00",
-    "summary": "Highly suspicious code in arvpuan (PyPI)",
+    "id": "pypi/2026-05-arvpuan/arvpuanv1",
+    "published": "2026-05-03T12:42:09.029736+00:00",
+    "modified": "2026-05-03T12:51:43.815291+00:00",
+    "summary": "Highly suspicious code in arvpuanv1 (PyPI)",
     "details": "Package abuses a legitimate e-commerce website to validate credit card data and is clearly intended to assist with handling stolen data.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-05-arvpuan\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - abusing-3rd-api\n\n",
     "affected": [
         {
             "package": {
-                "name": "arvpuan",
+                "name": "arvpuanv1",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0"
+                "1.0.0",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/arvpuan"
+            "url": "https://bad-packages.kam193.eu/pypi/package/arvpuanv1"
         }
     ],
     "credits": [
