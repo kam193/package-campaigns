@@ -1,0 +1,10 @@
+{
+    "name": "sf-vmeval-requests",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-sf-th-requests",
+    "affected_versions": [
+        "0.2.0"
+    ],
+    "campaign_assigned_at": "2026-05-03T08:45:43.915371+00:00",
+    "campaign_data_modified_at": "2026-05-03T08:45:43.946857+00:00"
+}

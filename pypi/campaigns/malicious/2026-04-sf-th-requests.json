@@ -8,12 +8,15 @@
         "exfiltration_env_variables"
     ],
     "packages": [
-        "sf-th-requests"
+        "sf-th-requests",
+        "sf-vmeval-requests"
     ],
     "created_at": "2026-04-28",
     "ioc": [
         "http://100.31.118.36:80/beacon",
-        "100.31.118.36"
+        "100.31.118.36",
+        "http://35.170.72.247:80/beacon",
+        "35.170.72.247"
     ],
     "references": [],
     "description": "During import package exfiltrates the environment variables and cloud credentials/tokens to a hardcoded location."
