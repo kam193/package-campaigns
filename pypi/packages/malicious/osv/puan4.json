@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-puan3/puan4",
+    "published": "2026-05-03T12:20:21.651835+00:00",
+    "modified": "2026-05-03T12:20:21.680443+00:00",
+    "summary": "Malicious code in puan4 (PyPI)",
+    "details": "During import, package automatically starts a connection to a C2 server, exfiltrates information about the host and data like sensitive files and browsers' data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-puan3\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-browser-data\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - rat\n\n\n - exfiltration-credentials\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "puan4",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/puan4"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "ips": [
+                "185.246.113.53"
+            ]
+        }
+    }
+}

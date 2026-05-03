@@ -1,0 +1,22 @@
+{
+    "name": "2026-05-puan3",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_generic",
+        "remote_commands"
+    ],
+    "packages": [
+        "puan3",
+        "puan4"
+    ],
+    "created_at": "2026-05-03",
+    "ioc": [
+        "185.246.113.53"
+    ],
+    "references": [],
+    "description": "During import, package automatically starts a connection to a C2 server, exfiltrates information about the host and data like the browser's history and sensitive files, and then waits for remote commands to execute."
+}

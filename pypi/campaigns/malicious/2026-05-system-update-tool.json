@@ -1,0 +1,21 @@
+{
+    "name": "2026-05-system-update-tool",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "files_exfiltration",
+        "impersonation",
+        "peristence_autorun",
+        "persistence",
+        "remote_commands"
+    ],
+    "packages": [
+        "system-update-tool",
+        "win-update-helper-tool-v2"
+    ],
+    "created_at": "2026-05-03",
+    "ioc": [],
+    "references": [],
+    "description": "If run as a module, the code runs code to silently control the device via Telegram bot (execute commands, exfiltrate files)."
+}

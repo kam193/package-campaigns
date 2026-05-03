@@ -1,0 +1,11 @@
+{
+    "name": "puan4",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-puan3",
+    "description": "During import, package automatically starts a connection to a C2 server, exfiltrates information about the host and data like sensitive files and browsers' data.",
+    "affected_versions": [
+        "1.0.3"
+    ],
+    "campaign_assigned_at": "2026-05-03T12:20:21.651835+00:00",
+    "campaign_data_modified_at": "2026-05-03T12:20:21.680443+00:00"
+}
