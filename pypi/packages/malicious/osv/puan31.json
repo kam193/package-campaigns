@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-05-puan3/puan3",
-    "published": "2026-05-03T12:16:07.198804+00:00",
-    "modified": "2026-05-03T12:16:07.229837+00:00",
-    "summary": "Malicious code in puan3 (PyPI)",
+    "id": "pypi/2026-05-puan3/puan31",
+    "published": "2026-05-03T20:58:02.443496+00:00",
+    "modified": "2026-05-03T20:58:02.468662+00:00",
+    "summary": "Malicious code in puan31 (PyPI)",
     "details": "During import, package automatically starts a connection to a C2 server, exfiltrates information about the host and data like the browser's history and sensitive files, and then waits for remote commands to execute.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-puan3\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-browser-data\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - exfiltration-credentials\n\n\n - rat\n\n",
     "affected": [
         {
             "package": {
-                "name": "puan3",
+                "name": "puan31",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -20,7 +20,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/puan3"
+            "url": "https://bad-packages.kam193.eu/pypi/package/puan31"
         }
     ],
     "credits": [
