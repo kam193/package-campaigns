@@ -57,7 +57,8 @@
         "roboat-utilities",
         "roboat-utils",
         "roboats-addition",
-        "rosolver"
+        "rosolver",
+        "rostilesolver"
     ],
     "created_at": "2026-03-28",
     "ioc": [
@@ -79,7 +80,8 @@
         "femboy.rich",
         "https://raw.githubusercontent.com/vdreamer/www/refs/heads/main/rabbit.exe",
         "https://github.com/aledreamer1234-lgtm/555/raw/refs/heads/main/output.exe",
-        "https://raw.githubusercontent.com/vdreamer/strawberryelephant/refs/heads/main/jay.vbs"
+        "https://raw.githubusercontent.com/vdreamer/strawberryelephant/refs/heads/main/jay.vbs",
+        "https://github.com/aledreamer1234-lgtm/read/raw/refs/heads/main/expe.exe"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/9f14d239ab8f1289bc7aedeb67d3d72b467ee6c11b201890ab14c5c4f7c175d2/detection",
