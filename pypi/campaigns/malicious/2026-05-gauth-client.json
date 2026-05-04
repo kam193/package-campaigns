@@ -8,6 +8,7 @@
         "impersonation"
     ],
     "packages": [
+        "cloudauth-sdk",
         "gauth-client"
     ],
     "created_at": "2026-05-03",
