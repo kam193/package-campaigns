@@ -1,0 +1,10 @@
+{
+    "name": "rogiant",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.4.0"
+    ],
+    "campaign_assigned_at": "2026-05-04T20:53:10.366576+00:00",
+    "campaign_data_modified_at": "2026-05-04T20:53:50.470234+00:00"
+}
