@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-randomchoicemas",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_generic",
+        "spyware-like"
+    ],
+    "packages": [
+        "randomchoicemas"
+    ],
+    "created_at": "2026-05-04",
+    "ioc": [],
+    "references": [],
+    "description": "The package silently exfiltrates screenshots and basic data."
+}
