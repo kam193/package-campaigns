@@ -1,0 +1,12 @@
+{
+    "name": "gemini-analyzer",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-gemini-analyzer",
+    "affected_versions": [
+        "0.1.0",
+        "1.0.8",
+        "1.0.9"
+    ],
+    "campaign_assigned_at": "2026-05-05T18:30:44.309700+00:00",
+    "campaign_data_modified_at": "2026-05-05T18:30:44.340437+00:00"
+}
