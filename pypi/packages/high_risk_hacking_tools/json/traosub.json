@@ -1,0 +1,10 @@
+{
+    "name": "traosub",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-06T17:42:02.596128+00:00",
+    "campaign_data_modified_at": "2026-05-06T17:42:02.624609+00:00"
+}
