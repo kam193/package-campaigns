@@ -9,12 +9,14 @@
         "remote_executable"
     ],
     "packages": [
-        "metoopro"
+        "metoopro",
+        "sufiagent"
     ],
     "created_at": "2026-05-03",
     "ioc": [
         "https://raw.githubusercontent.com/Sufiyan65889/Rish-Shizuku/main/rish_shizuku.dex",
-        "https://raw.githubusercontent.com/Sufiyan65889/Rish-Shizuku/main/rish"
+        "https://raw.githubusercontent.com/Sufiyan65889/Rish-Shizuku/main/rish",
+        "https://github.com/Sufiyan65889/HAck-Pypi.git"
     ],
     "references": [],
     "description": "Designed to run on Android. Under the mask of an AI agent, the code downloads a remote executable on import, and during usage, silently exfiltrates data like text messages and contacts."
