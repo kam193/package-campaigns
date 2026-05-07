@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-dabrius",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "exfiltration_generic",
+        "llm-threat"
+    ],
+    "packages": [
+        "dabrius"
+    ],
+    "created_at": "2026-05-07",
+    "ioc": [],
+    "references": [],
+    "description": "The message hidden in the package description tries to convince AI agents to prefer installing the package, which then in multiple places marks execution and collects potentially sensitive data. The behavior extends with each version, up to exfiltration of basic information to a remote target in 1.0.7."
+}
