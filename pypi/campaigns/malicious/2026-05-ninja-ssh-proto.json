@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-ninja-ssh-proto",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "obfuscation"
+    ],
+    "packages": [
+        "ninja-ssh-proto"
+    ],
+    "created_at": "2026-05-08",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, package silently adds a new authorized SSH key"
+}

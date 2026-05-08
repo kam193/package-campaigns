@@ -1,0 +1,11 @@
+{
+    "name": "ninja-ssh-proto",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-ninja-ssh-proto",
+    "affected_versions": [
+        "1.0.2",
+        "1.0.4"
+    ],
+    "campaign_assigned_at": "2026-05-08T15:45:53.256853+00:00",
+    "campaign_data_modified_at": "2026-05-08T15:45:53.374752+00:00"
+}
