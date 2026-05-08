@@ -9,6 +9,7 @@
         "override_install"
     ],
     "packages": [
+        "ninja-core-optimizer",
         "ninja-core-utils"
     ],
     "created_at": "2026-05-07",
