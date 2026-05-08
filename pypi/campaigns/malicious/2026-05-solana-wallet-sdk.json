@@ -9,7 +9,15 @@
     ],
     "packages": [
         "crypto-kit-pro",
-        "solana-wallet-sdk"
+        "crypto-wallet-utils",
+        "eth-toolkit",
+        "eth-web3-utils",
+        "solana-scanner",
+        "solana-wallet-sdk",
+        "solana-wallet-utils",
+        "wallet-utils-pro",
+        "web3-connect",
+        "web3-helper"
     ],
     "created_at": "2026-05-08",
     "ioc": [

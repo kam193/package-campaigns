@@ -1,0 +1,11 @@
+{
+    "name": "solana-wallet-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-solana-wallet-sdk",
+    "description": "Code pretends to be a crypto utility but exfiltrates given private key / seed",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-08T07:23:20.130523+00:00",
+    "campaign_data_modified_at": "2026-05-08T07:23:20.155827+00:00"
+}

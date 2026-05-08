@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-05-solana-wallet-sdk/solana-wallet-sdk",
-    "published": "2026-05-08T07:13:29.495757+00:00",
-    "modified": "2026-05-08T07:13:29.522376+00:00",
-    "summary": "Malicious code in solana-wallet-sdk (PyPI)",
+    "id": "pypi/2026-05-solana-wallet-sdk/web3-helper",
+    "published": "2026-05-08T07:25:34.454109+00:00",
+    "modified": "2026-05-08T07:25:34.478897+00:00",
+    "summary": "Malicious code in web3-helper (PyPI)",
     "details": "The code automatically scans the filesystem looking for BIP-39 seed phrases and data indicating private keys, and exfiltrates them\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-solana-wallet-sdk\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
     "affected": [
         {
             "package": {
-                "name": "solana-wallet-sdk",
+                "name": "web3-helper",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -19,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/solana-wallet-sdk"
+            "url": "https://bad-packages.kam193.eu/pypi/package/web3-helper"
         }
     ],
     "credits": [
