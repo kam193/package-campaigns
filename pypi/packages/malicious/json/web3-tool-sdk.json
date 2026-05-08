@@ -1,0 +1,10 @@
+{
+    "name": "web3-tool-sdk",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-solana-wallet-sdk",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-08T09:01:32.079968+00:00",
+    "campaign_data_modified_at": "2026-05-08T09:01:32.103237+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "wallet-scanner-pro",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-solana-wallet-sdk",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-08T09:03:23.687456+00:00",
+    "campaign_data_modified_at": "2026-05-08T09:03:23.710341+00:00"
+}

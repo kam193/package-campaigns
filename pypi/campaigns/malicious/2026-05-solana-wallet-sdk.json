@@ -8,16 +8,22 @@
         "files_exfiltration"
     ],
     "packages": [
+        "crypto-bot-utils",
         "crypto-kit-pro",
         "crypto-wallet-utils",
         "eth-toolkit",
+        "eth-wallet-kit",
         "eth-web3-utils",
+        "solana-py-sdk",
         "solana-scanner",
         "solana-wallet-sdk",
         "solana-wallet-utils",
+        "tron-energy-sdk",
+        "wallet-scanner-pro",
         "wallet-utils-pro",
         "web3-connect",
-        "web3-helper"
+        "web3-helper",
+        "web3-tool-sdk"
     ],
     "created_at": "2026-05-08",
     "ioc": [
