@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-05-ninja-core-utils/ninja-core-optimizer",
     "published": "2026-05-08T14:04:00.765123+00:00",
-    "modified": "2026-05-08T14:04:00.941888+00:00",
+    "modified": "2026-05-08T14:24:06.867122+00:00",
     "summary": "Malicious code in ninja-core-optimizer (PyPI)",
     "details": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-ninja-core-utils\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - obfuscation\n\n\n - exfiltration-crypto\n\n",
     "affected": [
