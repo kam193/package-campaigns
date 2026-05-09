@@ -1,0 +1,46 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-ninja-core-utils/textwrap-ext",
+    "published": "2026-05-09T20:16:27.893540+00:00",
+    "modified": "2026-05-09T20:16:28.000088+00:00",
+    "summary": "Malicious code in textwrap-ext (PyPI)",
+    "details": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location and places a backdoor through a new authorized SSH key. Information about the placed backdoor is sent back to the attacker, and sshd configuration is adjusted to ensure the successful remote connection.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-ninja-core-utils\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - obfuscation\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n\n - backdoor\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "textwrap-ext",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.2.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/textwrap-ext"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://144.126.142.148:5555/tao",
+                "http://144.126.142.148:5555/report"
+            ],
+            "ips": [
+                "144.126.142.148"
+            ]
+        }
+    }
+}

@@ -12,6 +12,7 @@
     "packages": [
         "ninja-core-optimizer",
         "ninja-core-utils",
+        "textwrap-ext",
         "textwrap-formatter",
         "textwrap-toolkit"
     ],
