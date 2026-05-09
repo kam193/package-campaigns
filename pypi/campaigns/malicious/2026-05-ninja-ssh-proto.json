@@ -7,10 +7,14 @@
         "obfuscation"
     ],
     "packages": [
-        "ninja-ssh-proto"
+        "bttcli",
+        "ninja-ssh-proto",
+        "python-bittensor-config-v2"
     ],
     "created_at": "2026-05-08",
-    "ioc": [],
+    "ioc": [
+        "http://144.126.142.148:5555/report"
+    ],
     "references": [],
-    "description": "During installation, package silently adds a new authorized SSH key"
+    "description": "During installation or import, package silently adds a new authorized SSH key. It's closely related to the 2026-05-ninja-core-utils campaign, but there is no built-in crypto exfiltration."
 }

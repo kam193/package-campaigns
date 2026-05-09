@@ -1,26 +1,25 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-05-ninja-ssh-proto/ninja-ssh-proto",
-    "published": "2026-05-08T15:45:53.256853+00:00",
-    "modified": "2026-05-08T15:45:53.374752+00:00",
-    "summary": "Malicious code in ninja-ssh-proto (PyPI)",
+    "id": "pypi/2026-05-ninja-ssh-proto/python-bittensor-config-v2",
+    "published": "2026-05-09T17:09:02.924943+00:00",
+    "modified": "2026-05-09T17:09:02.960556+00:00",
+    "summary": "Malicious code in python-bittensor-config-v2 (PyPI)",
     "details": "During installation or import, package silently adds a new authorized SSH key. It's closely related to the 2026-05-ninja-core-utils campaign, but there is no built-in crypto exfiltration.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-ninja-ssh-proto\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - obfuscation\n\n",
     "affected": [
         {
             "package": {
-                "name": "ninja-ssh-proto",
+                "name": "python-bittensor-config-v2",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.2",
-                "1.0.4"
+                "1.1.0"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/ninja-ssh-proto"
+            "url": "https://bad-packages.kam193.eu/pypi/package/python-bittensor-config-v2"
         }
     ],
     "credits": [

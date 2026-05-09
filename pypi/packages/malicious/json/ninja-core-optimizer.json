@@ -2,6 +2,7 @@
     "name": "ninja-core-optimizer",
     "ecosystem": "pypi",
     "campaign": "2026-05-ninja-core-utils",
+    "description": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location",
     "affected_versions": [
         "1.3.3",
         "1.3.4"

@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "backdoor",
         "crypto-related",
         "exfiltration_crypto",
         "obfuscation",
@@ -10,13 +11,15 @@
     ],
     "packages": [
         "ninja-core-optimizer",
-        "ninja-core-utils"
+        "ninja-core-utils",
+        "textwrap-formatter"
     ],
     "created_at": "2026-05-07",
     "ioc": [
         "http://144.126.142.148:5555/tao",
-        "144.126.142.148"
+        "144.126.142.148",
+        "http://144.126.142.148:5555/report"
     ],
     "references": [],
-    "description": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location"
+    "description": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location and places a backdoor through a new authorized SSH key. Information about the placed backdoor is sent back to the attacker, and sshd configuration is adjusted to ensure the successful remote connection."
 }
