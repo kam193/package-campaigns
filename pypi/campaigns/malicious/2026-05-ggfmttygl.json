@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-ggfmttygl",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "through_dependency"
+    ],
+    "packages": [
+        "ggfmttygl",
+        "ggfmttygl-new"
+    ],
+    "created_at": "2026-05-09",
+    "ioc": [],
+    "references": [],
+    "description": "Package is disguised as a utility, but in fact loads encrypted code as modules. However, loading it requires knowing the decryption key which is not included in the package."
+}
