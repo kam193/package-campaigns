@@ -12,7 +12,8 @@
     "packages": [
         "ninja-core-optimizer",
         "ninja-core-utils",
-        "textwrap-formatter"
+        "textwrap-formatter",
+        "textwrap-toolkit"
     ],
     "created_at": "2026-05-07",
     "ioc": [
