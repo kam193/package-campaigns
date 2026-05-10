@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-old-web3-py-checksum",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "web3-py-checksum"
+    ],
+    "created_at": "2026-05-10",
+    "ioc": [],
+    "references": [],
+    "description": "The code silently exfiltrates the private key of a crypto account."
+}
