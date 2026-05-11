@@ -1,0 +1,10 @@
+{
+    "name": "mpkg123",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-old-mpkg123",
+    "affected_versions": [
+        "0.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-11T10:36:26.816277+00:00",
+    "campaign_data_modified_at": "2026-05-11T10:36:27.077568+00:00"
+}
