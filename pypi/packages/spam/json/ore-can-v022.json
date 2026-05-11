@@ -1,0 +1,10 @@
+{
+    "name": "ore-can-v022",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-file-hosting-abuse",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-11T22:13:47.573066+00:00",
+    "campaign_data_modified_at": "2026-05-11T22:13:47.737962+00:00"
+}
