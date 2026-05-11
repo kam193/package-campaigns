@@ -1,0 +1,11 @@
+{
+    "name": "apkeep",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-apkeep",
+    "affected_versions": [
+        "0.1.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-11T19:23:16.479040+00:00",
+    "campaign_data_modified_at": "2026-05-11T19:23:16.708202+00:00"
+}
