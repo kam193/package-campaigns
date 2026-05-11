@@ -1,0 +1,10 @@
+{
+    "name": "xxoo-bale",
+    "ecosystem": "pypi",
+    "campaign": "2025-07-cas-base",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-11T10:18:51.059930+00:00",
+    "campaign_data_modified_at": "2026-05-11T10:18:51.094089+00:00"
+}

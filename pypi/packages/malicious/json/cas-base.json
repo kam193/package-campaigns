@@ -2,6 +2,7 @@
     "name": "cas-base",
     "ecosystem": "pypi",
     "campaign": "2025-07-cas-base",
+    "description": "The package contains code to install remotely stored malware and ensure its persistence. The code is not triggered automatically; it requires a separate trigger.\n\nOriginally, cas-base was detected in 2025-07 with an unclear payload. Later it got updated to a clearly malicious payload",
     "affected_versions": [
         "1.5.2",
         "1.5.3",
