@@ -8,6 +8,7 @@
         "remote_script"
     ],
     "packages": [
+        "ai-spellcheckers",
         "collectables",
         "collecters",
         "collects",
