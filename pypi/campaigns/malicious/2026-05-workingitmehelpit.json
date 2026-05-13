@@ -1,0 +1,22 @@
+{
+    "name": "2026-05-workingitmehelpit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "malware",
+        "override_install"
+    ],
+    "packages": [
+        "workingitmehelpit"
+    ],
+    "created_at": "2026-05-13",
+    "ioc": [
+        "https://aksjdgajklhd.bj.bcebos.com/openclaw"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/9e99f2284f4468c70601c03f1dff0796e4ecbcacbc7f5a056aaf361ff7759f36/detection",
+        "https://www.virustotal.com/gui/file-analysis/YjYxZWU4YjUyMGRhMzg3OWQ4YWUxZWI5YjNlMDI4Y2Y6MTc3ODY5MTIzMA=="
+    ],
+    "description": "Package installs malware identified as a backdoor or reverse shell."
+}
