@@ -1,0 +1,10 @@
+{
+    "name": "pandas-data",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-py-requests",
+    "affected_versions": [
+        "0.0.38"
+    ],
+    "campaign_assigned_at": "2026-05-13T15:25:51.721707+00:00",
+    "campaign_data_modified_at": "2026-05-13T15:25:51.764077+00:00"
+}
