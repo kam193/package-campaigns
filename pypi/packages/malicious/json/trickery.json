@@ -1,0 +1,11 @@
+{
+    "name": "trickery",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-old-trickery",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-13T18:41:37.797728+00:00",
+    "campaign_data_modified_at": "2026-05-13T18:41:37.827451+00:00"
+}
