@@ -1,0 +1,11 @@
+{
+    "name": "hackling",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-hackling",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2026-05-13T17:10:48.789792+00:00",
+    "campaign_data_modified_at": "2026-05-13T17:10:48.827696+00:00"
+}

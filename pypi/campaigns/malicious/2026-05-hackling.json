@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-hackling",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "hackling"
+    ],
+    "created_at": "2026-05-13",
+    "ioc": [],
+    "references": [],
+    "description": "Package automatically exfiltrate information about the system, including potentially sensitive data."
+}
