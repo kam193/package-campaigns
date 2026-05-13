@@ -1,0 +1,10 @@
+{
+    "name": "aiohttp-util",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-alembic-util",
+    "affected_versions": [
+        "0.68.253"
+    ],
+    "campaign_assigned_at": "2026-05-13T20:05:11.939590+00:00",
+    "campaign_data_modified_at": "2026-05-13T20:05:11.978809+00:00"
+}

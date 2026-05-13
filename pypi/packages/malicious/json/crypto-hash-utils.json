@@ -1,0 +1,10 @@
+{
+    "name": "crypto-hash-utils",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-alembic-util",
+    "affected_versions": [
+        "0.189.129"
+    ],
+    "campaign_assigned_at": "2026-05-13T20:05:50.064030+00:00",
+    "campaign_data_modified_at": "2026-05-13T20:05:50.378235+00:00"
+}

@@ -1,0 +1,33 @@
+{
+    "name": "2025-06-alembic-util",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "override_install",
+        "persistence",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "aiohttp-util",
+        "alembic-util",
+        "api-request-helpers",
+        "async-http-tools",
+        "crypto-hash-utils",
+        "graddio",
+        "math-array-tools",
+        "web3-helpers"
+    ],
+    "created_at": "2026-05-13",
+    "ioc": [
+        "https://api.github.com/repos/guellemilb/c2-relay/issues/1/comments",
+        "https://gist.githubusercontent.com/guellemilb/631fb6348967d9d475125edf67048c0e/raw/build_utils.py/raw/pyrat_light.py",
+        "https://gist.githubusercontent.com/guellemilb/631fb6348967d9d475125edf67048c0e/raw/build_utils.py"
+    ],
+    "references": [],
+    "description": "During installation, package exfiltrates some basic info to a GitHub issue comment, and then attempt to set up a persistent infostealer focused on exfiltrating crypto wallets and browsers data. Likely continuation of 2026-05-py-requests"
+}
