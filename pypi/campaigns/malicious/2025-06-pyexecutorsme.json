@@ -1,0 +1,20 @@
+{
+    "name": "2025-06-pyexecutorsme",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "remote_commands",
+        "remote_script"
+    ],
+    "packages": [
+        "pyexecutorsme"
+    ],
+    "created_at": "2026-05-14",
+    "ioc": [
+        "https://elijahjoseph.pythonanywhere.com/linux",
+        "elijahjoseph.pythonanywhere.com"
+    ],
+    "references": [],
+    "description": "Package attempts to download and execute a script acting as remote access trojan."
+}
