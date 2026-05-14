@@ -1,0 +1,15 @@
+{
+    "name": "2026-05-old-sol-batch-transfer-sdk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related"
+    ],
+    "packages": [
+        "sol-batch-transfer-sdk"
+    ],
+    "created_at": "2026-05-14",
+    "ioc": [],
+    "references": [],
+    "description": "The code silently adds a hardcoded address to the list of transfer recipients."
+}
