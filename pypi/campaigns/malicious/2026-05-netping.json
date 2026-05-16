@@ -1,0 +1,20 @@
+{
+    "name": "2026-05-netping",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_modify",
+        "crypto-related",
+        "persistence",
+        "remote_script"
+    ],
+    "packages": [
+        "netping"
+    ],
+    "created_at": "2026-05-16",
+    "ioc": [
+        "https://pastebin.com/raw/dFvWM5Tj"
+    ],
+    "references": [],
+    "description": "The package silently downloads and installs an autostart script that then monitors clipboards and replaces copied cryptowallet adresses."
+}

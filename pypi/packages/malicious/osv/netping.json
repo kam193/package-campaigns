@@ -1,0 +1,43 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-netping/netping",
+    "published": "2026-05-16T16:58:22.927576+00:00",
+    "modified": "2026-05-16T17:01:54.939555+00:00",
+    "summary": "Malicious code in netping (PyPI)",
+    "details": "The package silently downloads and installs an autostart script that then monitors clipboards and replaces copied cryptowallet adresses.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-netping\n\n\nReasons (based on the campaign):\n\n\n - persistence\n\n\n - crypto-related\n\n\n - clipboard-modify\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "netping",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.2.0",
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/netping"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://pastebin.com/raw/dFvWM5Tj"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "netping",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-netping",
+    "affected_versions": [
+        "0.2.0",
+        "1.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-16T16:58:22.927576+00:00",
+    "campaign_data_modified_at": "2026-05-16T17:01:54.939555+00:00"
+}
