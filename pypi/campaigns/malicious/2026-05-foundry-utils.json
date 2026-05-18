@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-foundry-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "other"
+    ],
+    "packages": [
+        "foundry-utils",
+        "solana-web3-alt"
+    ],
+    "created_at": "2026-05-18",
+    "ioc": [],
+    "references": [],
+    "description": "In specific environments, the package triggers silent code execution during installation. The code to execute is not included in the package."
+}

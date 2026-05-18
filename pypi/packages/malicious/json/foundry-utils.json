@@ -1,0 +1,13 @@
+{
+    "name": "foundry-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-foundry-utils",
+    "affected_versions": [
+        "0.3.0",
+        "0.3.1",
+        "0.3.2",
+        "0.3.3"
+    ],
+    "campaign_assigned_at": "2026-05-18T20:23:55.052624+00:00",
+    "campaign_data_modified_at": "2026-05-18T20:23:55.082181+00:00"
+}
