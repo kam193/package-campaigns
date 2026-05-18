@@ -9,6 +9,7 @@
         "typosquatting"
     ],
     "packages": [
+        "pyenvprep",
         "venv-utils"
     ],
     "created_at": "2026-05-15",
