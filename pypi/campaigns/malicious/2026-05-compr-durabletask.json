@@ -25,7 +25,8 @@
     ],
     "references": [
         "https://safedep.io/malicious-durabletask-pypi-supply-chain-attack",
-        "https://www.upwind.io/feed/newly-discovered-durabletask-malware-targeted-kubernetes-cloud-secrets-and-ci-cd-infrastructure"
+        "https://www.upwind.io/feed/newly-discovered-durabletask-malware-targeted-kubernetes-cloud-secrets-and-ci-cd-infrastructure",
+        "https://www.aikido.dev/blog/durabletask-package-compromised-mini-shai-hulud"
     ],
     "description": "During import of compromised versions, the malicious code is downloaded and executed. It exfiltrates all kinds of credentials and sensitive files, including data from secret and password managers, SSH keys, configuration files. Code tries to achieve a persistence via systemd unit."
 }

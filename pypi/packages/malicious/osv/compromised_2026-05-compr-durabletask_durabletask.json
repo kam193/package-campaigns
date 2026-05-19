@@ -29,6 +29,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://www.aikido.dev/blog/durabletask-package-compromised-mini-shai-hulud"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/campaign/2026-05-compr-durabletask"
         }
     ],
