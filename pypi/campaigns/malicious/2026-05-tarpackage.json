@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-tarpackage",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "tarpackage"
+    ],
+    "created_at": "2026-05-19",
+    "ioc": [
+        "http://82.98.144.242:10443/tarpackage",
+        "82.98.144.242"
+    ],
+    "references": [],
+    "description": "The package exfiltrates env variables during installation"
+}
