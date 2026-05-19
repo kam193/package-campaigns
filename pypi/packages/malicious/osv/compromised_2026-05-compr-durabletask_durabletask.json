@@ -25,6 +25,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://www.upwind.io/feed/newly-discovered-durabletask-malware-targeted-kubernetes-cloud-secrets-and-ci-cd-infrastructure"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/campaign/2026-05-compr-durabletask"
         }
     ],
