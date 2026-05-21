@@ -1,0 +1,21 @@
+{
+    "name": "2026-05-tensor-compute",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "obfuscation",
+        "remote_script",
+        "targetted-attack"
+    ],
+    "packages": [
+        "tensor-compute"
+    ],
+    "created_at": "2026-05-21",
+    "ioc": [
+        "telemetry021312.blob.core.windows.net",
+        "odifkwepasasf.blob.core.windows.net"
+    ],
+    "references": [],
+    "description": "The package performs a targeted attack on specific environments. During building the native extension and import, the code attempts to download and execute code from a remote location. Access to the remote code is filtered. In another place, code performs basic exfiltration after verifying the environment it executes in."
+}
