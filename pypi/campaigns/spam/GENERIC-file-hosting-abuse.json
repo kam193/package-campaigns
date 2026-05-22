@@ -3,7 +3,9 @@
     "ecosystem": "pypi",
     "category": "spam",
     "packages": [
+        "dupc-mcp-demo",
         "file-share-temp-welkin",
+        "hohem-gw-mcp-server",
         "myproject234",
         "ore-can-v022",
         "package198031985128633"

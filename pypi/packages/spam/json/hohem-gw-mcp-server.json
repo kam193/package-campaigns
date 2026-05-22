@@ -1,0 +1,10 @@
+{
+    "name": "hohem-gw-mcp-server",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-file-hosting-abuse",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-22T16:48:11.508432+00:00",
+    "campaign_data_modified_at": "2026-05-22T16:48:11.892462+00:00"
+}
