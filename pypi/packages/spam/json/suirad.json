@@ -4,8 +4,10 @@
     "campaign": "GENERIC-local-poc",
     "description": "Package is a local security research leaving marks on import, and it's linked to the 2026-05-dabrius campaign which at some point uploaded new package versions with malicious content. ",
     "affected_versions": [
-        "0.0.1"
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
     ],
     "campaign_assigned_at": "2026-05-22T18:46:38.107610+00:00",
-    "campaign_data_modified_at": "2026-05-22T18:46:38.255642+00:00"
+    "campaign_data_modified_at": "2026-05-22T23:12:50.113704+00:00"
 }
