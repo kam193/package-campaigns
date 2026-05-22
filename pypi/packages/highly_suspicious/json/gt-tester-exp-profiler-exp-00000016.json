@@ -1,0 +1,10 @@
+{
+    "name": "gt-tester-exp-profiler-exp-00000016",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-gt-tester-exp",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-22T10:56:05.260230+00:00",
+    "campaign_data_modified_at": "2026-05-22T10:56:05.292733+00:00"
+}
