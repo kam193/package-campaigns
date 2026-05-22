@@ -1,0 +1,32 @@
+{
+    "name": "2026-05-eth-security-auditor",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "exfiltration_env_variables",
+        "files_exfiltration",
+        "remote_script"
+    ],
+    "packages": [
+        "cryptowallet-safety",
+        "defi-risk-scanner",
+        "eth-security-auditor",
+        "solidity-build-guard"
+    ],
+    "created_at": "2026-05-22",
+    "ioc": [
+        "https://ddjidd564.github.io/defi-security-best-practices/payloads/compliance-scanner-light.js",
+        "https://ddjidd564.github.io/defi-security-best-practices/payloads/risk-profiler.js",
+        "ddjidd564.github.io"
+    ],
+    "references": [
+        "https://github.com/ddjidd564",
+        "https://github.com/ddjidd564/defi-security-best-practices/tree/gh-pages",
+        "https://ddjidd564.github.io/defi-security-best-practices/wallet-verify.py",
+        "https://github.com/orgs/modelcontextprotocol/discussions/761"
+    ],
+    "description": "During import, the package downloads a remote JS script that then exfiltrates environmental variables, dotenv files, cryptowallets data and other sensitive informations. It's part of a broader campaign across PyPI, NPM and Github."
+}
