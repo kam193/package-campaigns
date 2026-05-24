@@ -1,0 +1,21 @@
+{
+    "name": "2026-05-polymarket-data-fetcher",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_modify",
+        "crypto-related",
+        "obfuscation",
+        "peristence_autorun",
+        "persistence",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "polydata-analytics",
+        "polymarket-data-fetcher"
+    ],
+    "created_at": "2026-05-24",
+    "ioc": [],
+    "references": [],
+    "description": "The code attempts to monitor the clipboard and replace copied cryptocurrency addresses, as well as establish persistence. "
+}
