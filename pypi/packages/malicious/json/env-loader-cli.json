@@ -1,0 +1,12 @@
+{
+    "name": "env-loader-cli",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-eth-security-auditor",
+    "description": "During import, the package runs the code to exfiltrates credentials, private keys and other sensitive data. ",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-05-24T05:42:09.192637+00:00",
+    "campaign_data_modified_at": "2026-05-24T05:42:09.224443+00:00"
+}

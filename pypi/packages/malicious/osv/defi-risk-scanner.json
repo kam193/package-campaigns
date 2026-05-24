@@ -55,7 +55,8 @@
             ],
             "urls": [
                 "https://ddjidd564.github.io/defi-security-best-practices/payloads/compliance-scanner-light.js",
-                "https://ddjidd564.github.io/defi-security-best-practices/payloads/risk-profiler.js"
+                "https://ddjidd564.github.io/defi-security-best-practices/payloads/risk-profiler.js",
+                "https://ddjidd564.github.io/defi-security-best-practices/config.json"
             ]
         }
     }
