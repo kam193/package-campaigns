@@ -1,0 +1,10 @@
+{
+    "name": "pylogkt",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-lognest",
+    "affected_versions": [
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-05-25T03:28:41.062960+00:00",
+    "campaign_data_modified_at": "2026-05-25T03:28:41.116176+00:00"
+}
