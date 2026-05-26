@@ -2,7 +2,7 @@
     "name": "hmacsync",
     "ecosystem": "pypi",
     "campaign": "2026-05-libhmac",
-    "description": "The package is a new version of the previously removed libhmac. The key parts, a malicious payload to inject into hijacked browser extensions, is not included in the package. The code allows hijacking browser extensions to - based on previous package - exfiltrate credentials. This package contains also code to create a hidden SSH access to the machine. ",
+    "description": "The package is a new version of the previously removed libhmac. The key parts, a malicious payload to inject into hijacked browser extensions, is not included in the package. The code allows hijacking browser extensions to - based on previous package - exfiltrate credentials. This package also contains code to create hidden SSH access to the machine with hardcoded credentials. ",
     "affected_versions": [
         "1.0.0"
     ],
