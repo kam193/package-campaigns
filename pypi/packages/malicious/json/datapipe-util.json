@@ -1,0 +1,12 @@
+{
+    "name": "datapipe-util",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-binproto",
+    "description": "The package intentionally uses the malicious binproto package deploying the malware. ",
+    "affected_versions": [
+        "1.7.2",
+        "1.7.3"
+    ],
+    "campaign_assigned_at": "2026-05-26T14:12:28.819088+00:00",
+    "campaign_data_modified_at": "2026-05-26T14:12:28.864373+00:00"
+}

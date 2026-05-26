@@ -9,7 +9,8 @@
         "remote_executable"
     ],
     "packages": [
-        "binproto"
+        "binproto",
+        "datapipe-util"
     ],
     "created_at": "2026-05-26",
     "ioc": [
