@@ -1,0 +1,10 @@
+{
+    "name": "vectordb-engine",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-vectordb-engine",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-26T21:59:35.066393+00:00",
+    "campaign_data_modified_at": "2026-05-26T21:59:35.102583+00:00"
+}
