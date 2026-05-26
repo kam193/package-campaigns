@@ -9,6 +9,7 @@
         "exfiltration_crypto"
     ],
     "packages": [
+        "hmacsync",
         "libhmac"
     ],
     "created_at": "2026-05-20",
