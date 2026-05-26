@@ -1,0 +1,23 @@
+{
+    "name": "2026-05-binproto",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "malware",
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "binproto"
+    ],
+    "created_at": "2026-05-26",
+    "ioc": [
+        "https://duketools.vercel.app/service/assets/fetchBinary",
+        "duketools.vercel.app"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/b9b47b069a9ad7ff489817a035c158b5a99754178f7bbf36c112fdd5eff9ee08/detection"
+    ],
+    "description": "When using the provided functionality, the code silently downloads and executes a malicious executable. "
+}
