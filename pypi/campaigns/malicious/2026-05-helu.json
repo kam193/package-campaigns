@@ -1,0 +1,27 @@
+{
+    "name": "2026-05-helu",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "covering-tracks",
+        "malware",
+        "obfuscation",
+        "persistence",
+        "remote_executable",
+        "remote_script",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "helu"
+    ],
+    "created_at": "2026-05-26",
+    "ioc": [
+        "https://raw.githubusercontent.com/jjinkjimmy-design/i-belive-i-can-fly/refs/heads/main/stg2.py",
+        "https://learn-python-beginner-hub.netlify.app/Runtime-Broker.exe",
+        "https://tranquil-lollipop-6e2f41.netlify.app/cbi.json"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/a14d17cd9f2e983795ed63f73373b94cb9eb047044a7b2f5269ac10c7db0499a/detection"
+    ],
+    "description": "During import, the hidden code downloads and executes the second-stage code. After performing anti-analysis checks, it downloads a malicious executable and ensures its persistence."
+}
