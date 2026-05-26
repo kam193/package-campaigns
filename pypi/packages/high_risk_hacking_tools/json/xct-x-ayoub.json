@@ -1,0 +1,13 @@
+{
+    "name": "xct-x-ayoub",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "description": "Package provides functionality to spam users on a gaming platform.",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2026-05-26T22:27:35.505035+00:00",
+    "campaign_data_modified_at": "2026-05-26T22:27:35.665000+00:00"
+}
