@@ -12,7 +12,8 @@
         "sandbox-detection"
     ],
     "packages": [
-        "helu"
+        "helu",
+        "quatres"
     ],
     "created_at": "2026-05-26",
     "ioc": [
