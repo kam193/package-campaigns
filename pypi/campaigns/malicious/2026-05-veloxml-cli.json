@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-veloxml-cli",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "veloxml-cli"
+    ],
+    "created_at": "2026-05-28",
+    "ioc": [],
+    "references": [],
+    "description": "The package advertises fake functionality and exfiltrates the given email and basic information about the host when used."
+}
