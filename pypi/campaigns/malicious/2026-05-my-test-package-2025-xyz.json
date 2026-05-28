@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-my-test-package-2025-xyz",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "revshell"
+    ],
+    "packages": [
+        "my-test-package-2025-xyz"
+    ],
+    "created_at": "2026-05-28",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the package opens a reverse shell"
+}
