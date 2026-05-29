@@ -1,0 +1,10 @@
+{
+    "name": "hex-sl-server",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc-bugbounty",
+    "affected_versions": [
+        "99.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-29T04:59:58.322966+00:00",
+    "campaign_data_modified_at": "2026-05-29T04:59:58.359944+00:00"
+}
