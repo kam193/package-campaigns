@@ -1,0 +1,25 @@
+{
+    "name": "2026-05-polymarket-data",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "persistence"
+    ],
+    "packages": [
+        "polymarket-data"
+    ],
+    "created_at": "2026-05-30",
+    "ioc": [
+        "https://bold-river-456.onrender.com/api/v1",
+        "bold-river-456.onrender.com",
+        "https://ideal-octo-spoon.onrender.com/api/v1",
+        "ideal-octo-spoon.onrender.com",
+        "https://quiet-sky-123.onrender.com/api/v1",
+        "quiet-sky-123.onrender.com"
+    ],
+    "references": [],
+    "description": "The package attempts to exfiltrate sensitive data related to cryptocurrencies and API keys, as well as establish persistence. Likely related to 2026-05-polymarket-data-fetcher."
+}

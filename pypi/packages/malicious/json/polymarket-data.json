@@ -1,0 +1,11 @@
+{
+    "name": "polymarket-data",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-polymarket-data",
+    "affected_versions": [
+        "2.0.0",
+        "2.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-30T03:57:51.194193+00:00",
+    "campaign_data_modified_at": "2026-05-30T03:57:51.233242+00:00"
+}
