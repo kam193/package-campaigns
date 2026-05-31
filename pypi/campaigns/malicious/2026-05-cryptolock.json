@@ -10,7 +10,8 @@
     "packages": [
         "crypto-helper",
         "cryptolock",
-        "hell-cipher"
+        "hell-cipher",
+        "obfuscation"
     ],
     "created_at": "2026-05-30",
     "ioc": [

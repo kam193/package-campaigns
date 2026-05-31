@@ -1,0 +1,12 @@
+{
+    "name": "obfuscation",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-cryptolock",
+    "affected_versions": [
+        "3.23.0",
+        "3.23.2",
+        "3.23.3"
+    ],
+    "campaign_assigned_at": "2026-05-31T13:13:56.952066+00:00",
+    "campaign_data_modified_at": "2026-05-31T13:13:57.039494+00:00"
+}
