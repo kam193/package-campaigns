@@ -19,6 +19,10 @@
     ],
     "references": [
         {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/0912542c6e3a6b747a5bb30de22c1b79ead35c5a9a6813dcd8a6056cc312b892/detection"
+        },
+        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/cryptolock"
         }
@@ -37,7 +41,9 @@
         "iocs": {
             "urls": [
                 "https://github.com/seIfrighteous/x/releases/download/selfrighteous/setup.exe",
-                "https://tmpfiles.org/dl/wVwFfznUQdRr/main.exe"
+                "https://tmpfiles.org/dl/wVwFfznUQdRr/main.exe",
+                "https://github.com/seIfrighteous/x/releases/download/selfrighteous/NisSrv.exe",
+                "https://github.com/seIfrighteous/x/releases/download/selfrighteous/MpClient.dll"
             ]
         }
     }

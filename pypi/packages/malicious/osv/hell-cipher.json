@@ -1,18 +1,18 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-05-cryptolock/crypto-helper",
-    "published": "2026-05-30T14:47:44.001151+00:00",
-    "modified": "2026-05-30T14:47:44.035380+00:00",
-    "summary": "Malicious code in crypto-helper (PyPI)",
+    "id": "pypi/2026-05-cryptolock/hell-cipher",
+    "published": "2026-05-31T02:13:34.834945+00:00",
+    "modified": "2026-05-31T02:13:34.957987+00:00",
+    "summary": "Malicious code in hell-cipher (PyPI)",
     "details": "During installation, the code tamper with security settings and downloads and executes malicious executable.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-cryptolock\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {
-                "name": "crypto-helper",
+                "name": "hell-cipher",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0"
+                "1.0.1"
             ]
         }
     ],
@@ -23,7 +23,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/crypto-helper"
+            "url": "https://bad-packages.kam193.eu/pypi/package/hell-cipher"
         }
     ],
     "credits": [
