@@ -1,0 +1,10 @@
+{
+    "name": "h4xupdate",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-h4xupdate",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-31T01:30:05.609471+00:00",
+    "campaign_data_modified_at": "2026-05-31T01:30:05.661018+00:00"
+}
