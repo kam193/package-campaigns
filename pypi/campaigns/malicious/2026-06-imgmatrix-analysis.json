@@ -11,7 +11,10 @@
     "created_at": "2026-06-01",
     "ioc": [
         "https://mc.corbit.icu/tj/terminal.sh",
-        "https://babelbit.site/api/bot/first"
+        "https://babelbit.site/api/bot/first",
+        "babelbit.site",
+        "corbit.icu",
+        "https://babelbit.site/api/bot/get_script"
     ],
     "references": [],
     "description": "During import, the package executes remote commands sourced from a Google Sheet."

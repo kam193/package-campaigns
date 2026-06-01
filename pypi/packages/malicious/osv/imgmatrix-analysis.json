@@ -43,9 +43,14 @@
     ],
     "database_specific": {
         "iocs": {
+            "domains": [
+                "babelbit.site",
+                "corbit.icu"
+            ],
             "urls": [
                 "https://mc.corbit.icu/tj/terminal.sh",
-                "https://babelbit.site/api/bot/first"
+                "https://babelbit.site/api/bot/first",
+                "https://babelbit.site/api/bot/get_script"
             ]
         }
     }
