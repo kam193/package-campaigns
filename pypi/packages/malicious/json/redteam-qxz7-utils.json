@@ -1,0 +1,10 @@
+{
+    "name": "redteam-qxz7-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-redteam-qxz7-utils",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-01T13:04:52.443321+00:00",
+    "campaign_data_modified_at": "2026-06-01T13:04:52.494170+00:00"
+}
