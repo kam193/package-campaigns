@@ -7,8 +7,10 @@
         "abuses-pth",
         "clones_real_package",
         "exfiltration_env_variables",
+        "geo-restricted",
         "remote_commands",
-        "typosquatting"
+        "typosquatting",
+        "uses-telegram-bot"
     ],
     "packages": [
         "parsimonius"
@@ -16,5 +18,5 @@
     "created_at": "2026-06-02",
     "ioc": [],
     "references": [],
-    "description": "Clone of a legitimate package with an added RAT running through a Telegram bot. It can e.g. exfiltrate env variables and execute remote commands. "
+    "description": "Clone of a legitimate package with an added RAT running through a Telegram bot. It can e.g. exfiltrate env variables and execute remote commands. The malicious action does not start if the geolocation or timezone suggests a Russian area."
 }
