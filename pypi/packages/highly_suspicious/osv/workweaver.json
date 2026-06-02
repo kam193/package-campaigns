@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-05-workweaver/workweaver",
     "published": "2026-05-15T09:42:46.023447+00:00",
-    "modified": "2026-05-24T20:21:22.309092+00:00",
+    "modified": "2026-06-02T03:59:17.834767+00:00",
     "summary": "Highly suspicious code in workweaver (PyPI)",
     "details": "The code contains multiple incorrect cryptocurrency addresses among official fee/program/contract addresses. It's difficult to assess if the changes are intentional or results of AI hallucination. The fake addresses are quite similar to the expected official addresses. Using the library could result in invalid transfers or transactions to unintended addresses.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-05-workweaver\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n",
     "affected": [
@@ -21,7 +21,8 @@
                 "0.1.7",
                 "0.1.8",
                 "0.1.10",
-                "0.1.11"
+                "0.1.11",
+                "0.1.12"
             ]
         }
     ],
