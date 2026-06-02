@@ -6,6 +6,7 @@
         "infostealer"
     ],
     "packages": [
+        "spaysdata",
         "spaysrbdata"
     ],
     "created_at": "2026-06-02",
