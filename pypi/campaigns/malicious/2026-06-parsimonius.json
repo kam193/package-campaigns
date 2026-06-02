@@ -1,0 +1,20 @@
+{
+    "name": "2026-06-parsimonius",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "abuses-pth",
+        "clones_real_package",
+        "exfiltration_env_variables",
+        "remote_commands",
+        "typosquatting"
+    ],
+    "packages": [
+        "parsimonius"
+    ],
+    "created_at": "2026-06-02",
+    "ioc": [],
+    "references": [],
+    "description": "Clone of a legitimate package with an added RAT running through a Telegram bot. It can e.g. exfiltrate env variables and execute remote commands. "
+}
