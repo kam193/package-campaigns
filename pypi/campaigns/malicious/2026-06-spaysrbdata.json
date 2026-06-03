@@ -6,6 +6,7 @@
         "infostealer"
     ],
     "packages": [
+        "spadata",
         "spaysdata",
         "spaysrbdata"
     ],
