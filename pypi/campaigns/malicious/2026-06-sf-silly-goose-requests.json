@@ -1,0 +1,19 @@
+{
+    "name": "2026-06-sf-silly-goose-requests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "sf-silly-goose-requests"
+    ],
+    "created_at": "2026-06-04",
+    "ioc": [
+        "http://13.219.230.105:80/beacon",
+        "13.219.230.105"
+    ],
+    "references": [],
+    "description": "Package uses trufflehog to detect secrets and exfiltrates them to a hardcoded location"
+}
