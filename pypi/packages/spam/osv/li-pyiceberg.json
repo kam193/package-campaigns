@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-local-poc-bugbounty/li-pyiceberg",
+    "published": "2026-06-07T22:15:52.107276+00:00",
+    "modified": "2026-06-07T22:15:52.448617+00:00",
+    "summary": "Spam code in li-pyiceberg (PyPI)",
+    "details": "Dependency confusion attempt without any action. The author clearly defined it as research and identified themselves as a bug bounty hunter.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc-bugbounty\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "li-pyiceberg",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "999.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/li-pyiceberg"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
