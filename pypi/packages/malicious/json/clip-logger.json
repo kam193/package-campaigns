@@ -1,0 +1,17 @@
+{
+    "name": "clip-logger",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-clip-logger",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.1.0",
+        "1.1.1",
+        "1.1.2"
+    ],
+    "campaign_assigned_at": "2026-06-07T10:34:10.633603+00:00",
+    "campaign_data_modified_at": "2026-06-07T10:34:10.675855+00:00"
+}

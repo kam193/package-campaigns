@@ -1,0 +1,15 @@
+{
+    "name": "2026-06-clip-logger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_stealing"
+    ],
+    "packages": [
+        "clip-logger"
+    ],
+    "created_at": "2026-06-07",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains code to steal clipboard content to a predefined remote location. If run in the right way, the code will periodically check the clipboard and if the content matches the pattern, exfiltrates it. Early versions contain this behavior mentioned in the README."
+}
