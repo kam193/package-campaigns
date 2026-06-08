@@ -1,8 +1,8 @@
 {
     "schema_version": "1.7.4",
     "id": "pypi/2026-04-compr-elementary-data/elementary-data",
-    "published": "2026-04-27T09:33:07Z",
-    "modified": "2026-04-27T09:33:07Z",
+    "published": "2026-04-27T09:35:42Z",
+    "modified": "2026-04-27T09:35:42Z",
     "summary": "Malicious code in elementary-data (PyPI)",
     "details": "Versions 0.23.3 were compromised.\n\n\nA threat actor exploited a vulnerability in the CI workflows to inject code and establish, likely, a reverse shell in the CI environment (https://github.com/elementary-data/elementary/actions/runs/24914128534/job/72962412074). Following that, the access was used to create 3 PRs with malicious code, and finally publish the malicious 0.23.3 version of the elementary-data package to PyPI, which was available between 2026-04-24 22:20 and 2026-04-25 9:45 (UTC) (https://github.com/elementary-data/elementary/actions/runs/24914446630). Malicious code was also published as a Docker image.\n\nMalicious code was inserted in a PTH file, causing execution on any Python run. It then collects all kinds of sensitive data (credentials, .env files, cloud tokens, cryptocurrency wallets, Kubernetes configurations, shell history, data from AWS secret manager, ...) and exfiltrates to the hardcoded target.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-compr-elementary-data\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - exfiltration-generic\n\n\n - exfiltration-ssh-keys\n\n\n - obfuscation\n\n\n - exfiltration-cloud-tokens\n\n\n - exfiltration-crypto\n\n\n - exfiltration-credentials\n\n\n - compromised-package\n\n\n - exploited-ci-vulnerability\n\n",
     "affected": [

@@ -1,8 +1,8 @@
 {
     "schema_version": "1.7.4",
     "id": "pypi/2026-04-compr-lightning/lightning",
-    "published": "2026-04-30T16:53:41Z",
-    "modified": "2026-04-30T16:53:41Z",
+    "published": "2026-04-30T16:54:11Z",
+    "modified": "2026-04-30T16:54:11Z",
     "summary": "Malicious code in lightning (PyPI)",
     "details": "Versions 2.6.2, 2.6.3 were compromised.\n\n\nCompromised versions contain injected code that starts automatically during importing the module, downloads (legitimate) JavaScript runtime, and executes included JavaScript infostealer. It collects credentials from multiple sources (e.g. files, process memory, cloud metadata endpoints, CLI commands like gh or gcloud), sensitive cryptocurrency data, shell history files. It also attempts to spread itself using discovered credentials to other repositories and packages.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-compr-lightning\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - files-exfiltration\n\n\n - exfiltration-ssh-keys\n\n\n - exfiltration-crypto\n\n\n - exfiltration-credentials\n\n\n - compromised-package\n\n",
     "affected": [
