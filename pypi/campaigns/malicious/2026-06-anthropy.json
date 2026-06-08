@@ -6,7 +6,8 @@
         "revshell"
     ],
     "packages": [
-        "anthropy"
+        "anthropy",
+        "xforpy"
     ],
     "created_at": "2026-06-05",
     "ioc": [
