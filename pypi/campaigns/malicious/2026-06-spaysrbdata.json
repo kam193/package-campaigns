@@ -8,6 +8,7 @@
     "packages": [
         "spadata",
         "spaysdata",
+        "spaysdatarbx",
         "spaysrbdata"
     ],
     "created_at": "2026-06-02",
