@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-06-anthropy/xforpy",
     "published": "2026-06-08T18:04:00.390778+00:00",
-    "modified": "2026-06-08T18:04:00.431153+00:00",
+    "modified": "2026-06-08T19:03:14.992418+00:00",
     "summary": "Malicious code in xforpy (PyPI)",
     "details": "During import, the package starts a reverse shell\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-anthropy\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
