@@ -11,7 +11,9 @@
     ],
     "created_at": "2026-06-05",
     "ioc": [
-        "54.176.251.240"
+        "54.176.251.240",
+        "dns.subtrace.xyz",
+        "subtrace.xyz"
     ],
     "references": [],
     "description": "During import, the package starts a reverse shell"

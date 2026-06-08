@@ -32,11 +32,15 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "ANALYST"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {
         "iocs": {
+            "domains": [
+                "dns.subtrace.xyz",
+                "subtrace.xyz"
+            ],
             "ips": [
                 "54.176.251.240"
             ]
