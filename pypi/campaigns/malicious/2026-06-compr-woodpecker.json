@@ -17,14 +17,17 @@
     ],
     "packages": [
         "nhmpy",
+        "openai-mcp",
         "rlask",
         "rsquests",
+        "tiktoken-mcp",
         "tlask"
     ],
     "created_at": "2026-06-06",
     "ioc": [],
     "references": [
-        "https://socket.dev/blog/mini-shai-hulud-campaign-hits-red-hat-cloud-services-npm-packages"
+        "https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave",
+        "https://o3.security/blog/pypi-supply-chain-attack-pth-file-miasma"
     ],
     "description": "Compromised packages start an obfuscated infostealer. The infostealer is a heavily obfuscated JavaScript code executed using Bun runtime on Python startup. It collectes all kinds of sensitive data, including API keys, credentials to package repositories, cryptocurrency assets, password manager data. Infostealer actively queries online services to collect additional secrets as well as attempts to gain persistence and spread further by publishing infected packages using collected credentials. Data are exfiltrated likely using Github. The code seems to threaten to wipe the user's data if it detects invalid GitHub tokens. Cleanup should be done with caution.\n\nIt seems to be related to the recent Mini Shai Hulud campaign."
 }

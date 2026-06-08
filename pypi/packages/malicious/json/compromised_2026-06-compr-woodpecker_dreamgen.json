@@ -1,0 +1,10 @@
+{
+    "name": "dreamgen",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-compr-woodpecker",
+    "created_at": "2026-06-08",
+    "description": "",
+    "affected_versions": [
+        "1.8.1"
+    ]
+}

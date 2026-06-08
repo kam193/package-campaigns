@@ -1,0 +1,11 @@
+{
+    "name": "instructor-mcp",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-compr-woodpecker",
+    "created_at": "2026-06-08",
+    "description": "",
+    "affected_versions": [
+        "1.15.2",
+        "1.15.3"
+    ]
+}

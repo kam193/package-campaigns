@@ -20,7 +20,11 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://socket.dev/blog/mini-shai-hulud-campaign-hits-red-hat-cloud-services-npm-packages"
+            "url": "https://socket.dev/blog/shai-hulud-descends-to-hades-miasma-pypi-wave"
+        },
+        {
+            "type": "WEB",
+            "url": "https://o3.security/blog/pypi-supply-chain-attack-pth-file-miasma"
         },
         {
             "type": "WEB",
