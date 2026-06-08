@@ -1,0 +1,10 @@
+{
+    "name": "solana-web3",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-spl-token-py",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-08T22:20:57.964490+00:00",
+    "campaign_data_modified_at": "2026-06-08T22:20:58.147035+00:00"
+}
