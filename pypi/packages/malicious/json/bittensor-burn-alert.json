@@ -1,0 +1,12 @@
+{
+    "name": "bittensor-burn-alert",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-clip-logger",
+    "affected_versions": [
+        "1.7.3",
+        "1.7.4",
+        "1.7.5"
+    ],
+    "campaign_assigned_at": "2026-06-08T15:33:36.828291+00:00",
+    "campaign_data_modified_at": "2026-06-08T15:33:36.868908+00:00"
+}
