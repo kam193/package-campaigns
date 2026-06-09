@@ -12,7 +12,8 @@
         "bittensor-burn-monitor",
         "bittensor-burn-watch",
         "bt-burn-watch",
-        "clip-logger"
+        "clip-logger",
+        "tao-subnet-metrics"
     ],
     "created_at": "2026-06-07",
     "ioc": [],
