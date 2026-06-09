@@ -11,6 +11,7 @@
         "bittensor-burn-alert",
         "bittensor-burn-monitor",
         "bittensor-burn-watch",
+        "bittensor-emission-tracker",
         "bt-burn-watch",
         "clip-logger",
         "tao-subnet-metrics"
