@@ -28,6 +28,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/openai-mcp"
         }
     ],
