@@ -1,31 +1,25 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-06-spaysrbdata/spaysdata",
-    "published": "2026-06-02T20:44:56.769177+00:00",
-    "modified": "2026-06-02T20:45:15.575118+00:00",
-    "summary": "Malicious code in spaysdata (PyPI)",
+    "id": "pypi/2026-06-spaysrbdata/dstill",
+    "published": "2026-06-09T10:15:49.515212+00:00",
+    "modified": "2026-06-09T10:15:49.782378+00:00",
+    "summary": "Malicious code in dstill (PyPI)",
     "details": "The package exfiltrates Roblox cookies from the victim machine.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-spaysrbdata\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n",
     "affected": [
         {
             "package": {
-                "name": "spaysdata",
+                "name": "dstill",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1.0",
-                "0.2.0",
-                "0.3.0",
-                "0.4.0",
-                "0.4.2",
-                "0.4.4",
-                "0.4.5"
+                "0.3.0"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/spaysdata"
+            "url": "https://bad-packages.kam193.eu/pypi/package/dstill"
         }
     ],
     "credits": [

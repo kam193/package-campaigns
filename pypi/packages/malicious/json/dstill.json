@@ -1,0 +1,10 @@
+{
+    "name": "dstill",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-spaysrbdata",
+    "affected_versions": [
+        "0.3.0"
+    ],
+    "campaign_assigned_at": "2026-06-09T10:15:49.515212+00:00",
+    "campaign_data_modified_at": "2026-06-09T10:15:49.782378+00:00"
+}
