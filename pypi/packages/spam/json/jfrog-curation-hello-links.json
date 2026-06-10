@@ -1,0 +1,11 @@
+{
+    "name": "jfrog-curation-hello-links",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "description": "Package demonstrates malicious activity via legacy dependency_links",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-10T19:16:58.965890+00:00",
+    "campaign_data_modified_at": "2026-06-10T19:16:59.005635+00:00"
+}
