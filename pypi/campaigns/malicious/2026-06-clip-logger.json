@@ -9,6 +9,7 @@
     "packages": [
         "bittensor-burn",
         "bittensor-burn-alert",
+        "bittensor-burn-message",
         "bittensor-burn-monitor",
         "bittensor-burn-watch",
         "bittensor-emission-tracker",
