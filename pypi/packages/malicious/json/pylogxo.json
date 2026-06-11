@@ -1,0 +1,11 @@
+{
+    "name": "pylogxo",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-pylogxo",
+    "affected_versions": [
+        "1.0.3",
+        "1.0.4"
+    ],
+    "campaign_assigned_at": "2026-06-11T21:23:33.756018+00:00",
+    "campaign_data_modified_at": "2026-06-11T21:23:33.791422+00:00"
+}
