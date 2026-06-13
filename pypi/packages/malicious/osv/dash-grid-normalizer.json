@@ -1,27 +1,29 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-06-acme-widget-layout-utils/acme-widget-layout-utils",
-    "published": "2026-06-11T05:40:39.902700+00:00",
-    "modified": "2026-06-11T05:40:39.931561+00:00",
-    "summary": "Malicious code in acme-widget-layout-utils (PyPI)",
+    "id": "pypi/2026-06-acme-widget-layout-utils/dash-grid-normalizer",
+    "published": "2026-06-13T01:03:41.505979+00:00",
+    "modified": "2026-06-13T01:03:43.580551+00:00",
+    "summary": "Malicious code in dash-grid-normalizer (PyPI)",
     "details": "During import, the package starts a reverse shell.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-acme-widget-layout-utils\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n",
     "affected": [
         {
             "package": {
-                "name": "acme-widget-layout-utils",
+                "name": "dash-grid-normalizer",
                 "ecosystem": "PyPI"
             },
             "versions": [
                 "0.0.1",
                 "0.0.2",
-                "0.0.3"
+                "0.0.3",
+                "0.0.4",
+                "0.0.5"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/acme-widget-layout-utils"
+            "url": "https://bad-packages.kam193.eu/pypi/package/dash-grid-normalizer"
         }
     ],
     "credits": [
