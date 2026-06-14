@@ -4,7 +4,7 @@
     "published": "2026-06-14T21:22:30.189556+00:00",
     "modified": "2026-06-14T21:22:30.242219+00:00",
     "summary": "Spam code in pokee-data-utils (PyPI)",
-    "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "details": "Package demonstrates a supply chain PoC via exploiting locally accessible files and thus abuses the no-security-research policy. The data is not directly exfiltrated, but appears to be made accessible via the service UI.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
         {
             "package": {
@@ -30,7 +30,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "ANALYST"
+            "type": "REPORTER"
         }
     ]
 }
