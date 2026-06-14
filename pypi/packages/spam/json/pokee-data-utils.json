@@ -1,0 +1,11 @@
+{
+    "name": "pokee-data-utils",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-14T21:22:30.189556+00:00",
+    "campaign_data_modified_at": "2026-06-14T21:22:30.242219+00:00"
+}
