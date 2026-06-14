@@ -8,7 +8,8 @@
         "remote_executable"
     ],
     "packages": [
-        "easyaillm"
+        "easyaillm",
+        "easyllmai"
     ],
     "created_at": "2026-06-14",
     "ioc": [
