@@ -10,7 +10,8 @@
     "packages": [
         "easyaillm",
         "easyaillm2",
-        "easyllmai"
+        "easyllmai",
+        "ezllmgen"
     ],
     "created_at": "2026-06-14",
     "ioc": [
