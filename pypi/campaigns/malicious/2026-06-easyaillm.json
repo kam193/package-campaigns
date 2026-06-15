@@ -17,7 +17,9 @@
         "llamagenerator",
         "llmfree",
         "llmgenerator",
-        "neurodrift"
+        "neurodrift",
+        "pyptllm",
+        "testpgagent"
     ],
     "created_at": "2026-06-14",
     "ioc": [

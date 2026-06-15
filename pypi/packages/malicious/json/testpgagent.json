@@ -1,0 +1,11 @@
+{
+    "name": "testpgagent",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "affected_versions": [
+        "0.1",
+        "0.2"
+    ],
+    "campaign_assigned_at": "2026-06-15T17:24:46.304014+00:00",
+    "campaign_data_modified_at": "2026-06-15T17:24:46.312102+00:00"
+}
