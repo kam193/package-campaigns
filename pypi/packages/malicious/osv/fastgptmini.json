@@ -1,0 +1,55 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-fastgptmini/fastgptmini",
+    "published": "2026-06-15T11:43:18.767262+00:00",
+    "modified": "2026-06-15T11:52:05.288067+00:00",
+    "summary": "Malicious code in fastgptmini (PyPI)",
+    "details": "During installation, the code downloads an obfuscated script, which attempts to tamper with Defender exclusions paths and then downloads a malicious executable\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-fastgptmini\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "fastgptmini",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.21",
+                "2.22",
+                "2.23",
+                "2.24",
+                "2.25"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://www.virustotal.com/gui/file-analysis/ZjYxZmY4ZjFhNjIxMzI2ZTY1NmUxNThkMWNlYTE0M2M6MTc4MTUyMzQzMw=="
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/9e731bb85408c1b34c5f7fd6518b3590983ac5e95793dee0f1af390ac288ed47/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/fastgptmini"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://tmpfiles.org/dl/wNwdULF0K8NS/vwchmx.txt",
+                "https://tmpfiles.org/dl/wowPUtiVvUPO/pythoninstallmanager.exe"
+            ]
+        }
+    }
+}
