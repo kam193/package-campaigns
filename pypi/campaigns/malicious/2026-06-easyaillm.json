@@ -15,7 +15,9 @@
         "generatellm",
         "gptminifast",
         "llamagenerator",
-        "llmgenerator"
+        "llmfree",
+        "llmgenerator",
+        "neurodrift"
     ],
     "created_at": "2026-06-14",
     "ioc": [
