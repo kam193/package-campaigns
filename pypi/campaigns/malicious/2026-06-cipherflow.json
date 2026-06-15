@@ -1,0 +1,23 @@
+{
+    "name": "2026-06-cipherflow",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_executable"
+    ],
+    "packages": [
+        "cipherflow"
+    ],
+    "created_at": "2026-06-15",
+    "ioc": [
+        "http://update.windowsuqdate.com/dfsvc.exe",
+        "http://update.windowsuqdate.com/dfsvc.exe.config",
+        "http://update.windowsuqdate.com/runtime.dat",
+        "http://update.windowsuqdate.com/WinlicenseSDK.dll",
+        "update.windowsuqdate.com",
+        "windowsuqdate.com"
+    ],
+    "references": [],
+    "description": "The package contains obfuscated code to download executables from a typosquatted domain."
+}
