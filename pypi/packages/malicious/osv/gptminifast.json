@@ -30,6 +30,10 @@
             "url": "https://www.virustotal.com/gui/file/0649f50ead3695f41c1243883200bdb775410bcd8c8fb88277740a625a154e25"
         },
         {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/926e8f1a7f349ff1eef31f89fa8ffe265c30b92e310e8bea19962d38f8c32129"
+        },
+        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/gptminifast"
         }
@@ -53,7 +57,8 @@
                 "https://pastebin.com/raw/hEF5HaFc",
                 "https://pastebin.com/raw/yBcUM1QBs",
                 "https://pastebin.com/raw/yBcUM1QB",
-                "http://fixars.top"
+                "http://fixars.top",
+                "https://tmpfiles.org/dl/wawHVGgfydD7/6a306c5f03a52.exe"
             ]
         }
     }
