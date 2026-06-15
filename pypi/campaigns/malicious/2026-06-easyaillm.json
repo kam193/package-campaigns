@@ -13,6 +13,7 @@
         "easyllmai",
         "ezllmgen",
         "generatellm",
+        "gptminifast",
         "llamagenerator",
         "llmgenerator"
     ],
