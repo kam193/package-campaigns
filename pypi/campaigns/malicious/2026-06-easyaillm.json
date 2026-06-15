@@ -19,6 +19,7 @@
         "llmgenerator",
         "neurodrift",
         "pyptllm",
+        "testpackagemanyhttpsgo",
         "testpgagent"
     ],
     "created_at": "2026-06-14",

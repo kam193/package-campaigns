@@ -10,7 +10,8 @@
         "remote_script"
     ],
     "packages": [
-        "textwrap-toolkit-stager"
+        "textwrap-toolkit-stager",
+        "twrap-toolkit"
     ],
     "created_at": "2026-06-12",
     "ioc": [

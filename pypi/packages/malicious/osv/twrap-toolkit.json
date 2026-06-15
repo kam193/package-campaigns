@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-06-textwrap-toolkit-stager/textwrap-toolkit-stager",
-    "published": "2026-06-12T21:04:44.384864+00:00",
-    "modified": "2026-06-12T21:04:44.413711+00:00",
-    "summary": "Malicious code in textwrap-toolkit-stager (PyPI)",
+    "id": "pypi/2026-06-textwrap-toolkit-stager/twrap-toolkit",
+    "published": "2026-06-15T21:52:02.312461+00:00",
+    "modified": "2026-06-15T21:52:02.459513+00:00",
+    "summary": "Malicious code in twrap-toolkit (PyPI)",
     "details": "During import, package downloads and executes an obfuscated script. The code then adds a new authorized SSH key and reports back the IP of the current environment. After that, the code also attempts to exfiltrate cryptocurrency wallet data\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-textwrap-toolkit-stager\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - obfuscation\n\n\n - crypto-related\n\n\n - Downloads and executes a remote malicious script.\n\n\n - exfiltration-crypto\n\n",
     "affected": [
         {
             "package": {
-                "name": "textwrap-toolkit-stager",
+                "name": "twrap-toolkit",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -19,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/textwrap-toolkit-stager"
+            "url": "https://bad-packages.kam193.eu/pypi/package/twrap-toolkit"
         }
     ],
     "credits": [
