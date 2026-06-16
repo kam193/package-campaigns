@@ -1,0 +1,13 @@
+{
+    "name": "requests-toolbelt-plus",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-requests-toolbelt-plus",
+    "affected_versions": [
+        "99.9.9",
+        "99.9.10",
+        "100.0.0",
+        "2026.6.10.172624"
+    ],
+    "campaign_assigned_at": "2026-06-16T09:28:08.589577+00:00",
+    "campaign_data_modified_at": "2026-06-16T09:28:08.624458+00:00"
+}

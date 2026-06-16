@@ -1,0 +1,19 @@
+{
+    "name": "2026-06-requests-toolbelt-plus",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "persistence",
+        "remote_commands"
+    ],
+    "packages": [
+        "requests-toolbelt-plus"
+    ],
+    "created_at": "2026-06-16",
+    "ioc": [
+        "185.184.192.205"
+    ],
+    "references": [],
+    "description": "During installation or import, the package exfiltrates basic information and then awaits remote commands to execute. Additionally, it attempts to gain persistence via modifying .bashrc."
+}
