@@ -4,7 +4,7 @@
     "published": "2026-06-16T09:48:43.209543+00:00",
     "modified": "2026-06-16T09:48:43.333965+00:00",
     "summary": "Malicious code in temp-development-package-test (PyPI)",
-    "details": "During installation, the code attempts to download and start a malicious executable.\n\nLikely related to 2025-08-raknet-testing-package.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-easyaillm\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - malware\n\n",
+    "details": "Starting with version 0.4, package installs a sitecustomize.py that executes during Python engine initialization. The embeded code uses mshta to download malicious code, as in other packages from the campaign.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-easyaillm\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - malware\n\n",
     "affected": [
         {
             "package": {
@@ -48,7 +48,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "ANALYST"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {

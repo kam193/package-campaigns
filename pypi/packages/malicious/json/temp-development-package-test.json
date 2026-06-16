@@ -2,6 +2,7 @@
     "name": "temp-development-package-test",
     "ecosystem": "pypi",
     "campaign": "2026-06-easyaillm",
+    "description": "Starting with version 0.4, package installs a sitecustomize.py that executes during Python engine initialization. The embeded code uses mshta to download malicious code, as in other packages from the campaign.",
     "affected_versions": [
         "0.1",
         "0.2",
