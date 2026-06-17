@@ -73,7 +73,10 @@
     "infostealer:cstealer": {},
     "impersonation": {},
     "clipboard_stealing": {},
-    "reuse-removed-name": {},
+    "reuse-removed-name": {
+        "theme": "warning",
+        "description": "The package reuses the name of a removed package to trick users"
+    },
     "script-kid": {
         "theme": "warning",
         "description": "Package uses simple pre-prepared tools to create a low-quality malicious action."
@@ -85,7 +88,6 @@
     "exfiltration_ssh_keys": {},
     "infostealer:kiwi": {},
     "iritating-computer-activity": {},
-    "target:android": {},
     "exfiltration_credentials": {
         "description": "The package attempts to steal credentials, like passwords or API keys."
     },
@@ -100,12 +102,43 @@
         "description": "Malicious activity is typical for Remote Access Trojans (RATs)."
     },
     "clipboard_modify": {},
-    "target:telegram": {},
     "destructive-actions": {},
     "infostealer:blankgrabber": {},
     "shellcode": {},
     "covering-tracks": {
         "theme": "warning",
         "description": "The package contains code to cover its tracks, e.g. by deleting malicious code after execution."
+    },
+    "native-extension": {
+        "theme": "info",
+        "description": "The suspicious activity is performed in a native module extension"
+    },
+    "uses-telegram-bot": {
+        "theme": "info",
+        "description": "Telegram Bot is used for malicious purposes"
+    },
+    "vscode-tunnel": {
+        "theme": "info",
+        "description": "VSCode Tunnel is used for malicious purposes"
+    },
+    "tool:mshta": {
+        "theme": "warning",
+        "description": "The mshta.exe is used to execute malicious code"
+    },
+    "target:telegram": {
+        "theme": "info",
+        "description": "The package is designed to target Telegram users or the Telegram platform."
+    },
+    "target:android": {
+        "theme": "info",
+        "description": "The package is designed to target Android users or the Android platform."
+    },
+    "steganography": {
+        "theme": "warning",
+        "description": "The package uses steganography techniques to hide malicious data"
+    },
+    "abuses-pth": {
+        "theme": "warning",
+        "description": "The package uses `.pth` files, `sitecustomize` or `usercustomize` modules to execute malicious code during Python startup, even without importing the package code manually."
     }
 }
