@@ -1,0 +1,25 @@
+{
+    "name": "2026-06-boardflow",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "boardflow"
+    ],
+    "created_at": "2026-06-17",
+    "ioc": [
+        "https://www.urmomthabomb.com/2pro.js",
+        "urmomthabomb.com",
+        " http://pooron.org/test.exe",
+        "pooron.org"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/f7f95c13cf9a7e8437a31ef7e426082440393b8f17a6c6bead8243d8bc3d080b"
+    ],
+    "description": "During installation, package downloads and executes a remote executable identified as infostealer. The executable contains a VSCode extension with a modified code variant that during initialization downloads and executes a JS script from hardcoded location. During analysis, the script was inaccessible."
+}

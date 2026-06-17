@@ -1,0 +1,12 @@
+{
+    "name": "syncagents",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-syncagents",
+    "description": "During import, package loads embedded native extension module. This library hooks on loading, spawns a new system process and likely attempts to inject the encrypted payload in it for further execution (T1055.012). The code uses heavy analysis evasion techniques. Decrypted payload revealed capabilities to steal all kind of credentials (browsers data, AI tools, env variables, SSH keys, ...), inject code to redirect cryptocurrency transactions, spy-like activities (screenshots, keylogger) and worm-like activities using discovered GitHub tokens to publish malicious code into CI. It establishes persistence in `%LOCALAPPDATA%\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe` and also attempts to perform lateral movement in Kubernetes and AWS environments.",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2026-06-17T21:32:55.898549+00:00",
+    "campaign_data_modified_at": "2026-06-17T21:32:55.933693+00:00"
+}
