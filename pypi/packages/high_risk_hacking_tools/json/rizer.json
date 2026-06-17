@@ -1,0 +1,15 @@
+{
+    "name": "rizer",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "description": "Package appears to be a hacking/spamming tool against a gaming service, but it's not entirely clear ",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.20",
+        "1.4.0",
+        "1.4.1",
+        "1.4.2"
+    ],
+    "campaign_assigned_at": "2026-02-06T12:07:04.947691+00:00",
+    "campaign_data_modified_at": "2026-02-06T12:11:56.621949+00:00"
+}

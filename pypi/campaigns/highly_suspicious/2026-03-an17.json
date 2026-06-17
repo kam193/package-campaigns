@@ -1,0 +1,17 @@
+{
+    "name": "2026-03-an17",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "an17",
+        "an177"
+    ],
+    "created_at": "2026-03-14",
+    "ioc": [],
+    "references": [],
+    "description": "The package is a runner of an obfuscated code, but the code is not embedded. "
+}

@@ -1,0 +1,11 @@
+{
+    "name": "openai-spellchecker",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "description": "The package hides code to download and execute a next-stage payload, which then communicates with C2 and listens for next code parts. In the analyzed version, the malicious code was not triggered.",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-11T17:23:11.443337+00:00",
+    "campaign_data_modified_at": "2026-05-11T17:23:11.472616+00:00"
+}

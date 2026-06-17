@@ -1,0 +1,23 @@
+{
+    "name": "2026-06-pylogxo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "infostealer",
+        "remote_script",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "pylogxo"
+    ],
+    "created_at": "2026-06-11",
+    "ioc": [
+        "http://69.164.245.166/payload.txt",
+        "69.164.245.166"
+    ],
+    "references": [],
+    "description": "During import, the package downloads and executes remote code being an infostealer."
+}

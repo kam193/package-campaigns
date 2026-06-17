@@ -1,0 +1,10 @@
+{
+    "name": "rogiant-quick-install",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.4.0"
+    ],
+    "campaign_assigned_at": "2026-05-04T21:10:00.383358+00:00",
+    "campaign_data_modified_at": "2026-05-04T21:10:00.406182+00:00"
+}

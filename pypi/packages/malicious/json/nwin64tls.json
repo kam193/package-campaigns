@@ -1,0 +1,10 @@
+{
+    "name": "nwin64tls",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-old-nwin32tls",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-04-02T20:28:37.645002+00:00",
+    "campaign_data_modified_at": "2026-04-02T20:28:37.671144+00:00"
+}

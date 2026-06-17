@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-crayrandomiz",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation",
+        "spyware-like"
+    ],
+    "packages": [
+        "crayrandomiz",
+        "justinleaguekems",
+        "yeahmankema"
+    ],
+    "created_at": "2026-05-07",
+    "ioc": [],
+    "references": [],
+    "description": "Package exfiltrates screenshots and network information to a hardcoded target."
+}

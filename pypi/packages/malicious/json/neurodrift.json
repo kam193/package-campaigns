@@ -1,0 +1,10 @@
+{
+    "name": "neurodrift",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "affected_versions": [
+        "1.21"
+    ],
+    "campaign_assigned_at": "2026-06-15T16:23:21.333629+00:00",
+    "campaign_data_modified_at": "2026-06-15T16:26:48.700534+00:00"
+}

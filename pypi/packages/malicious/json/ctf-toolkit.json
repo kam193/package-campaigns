@@ -1,0 +1,10 @@
+{
+    "name": "ctf-toolkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-ctf-toolkit",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-02-28T11:25:17.247975+00:00",
+    "campaign_data_modified_at": "2026-02-28T11:25:17.282133+00:00"
+}

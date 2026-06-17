@@ -1,0 +1,10 @@
+{
+    "name": "system-update-tool",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-system-update-tool",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-03T12:30:31.285294+00:00",
+    "campaign_data_modified_at": "2026-05-03T12:30:31.321414+00:00"
+}

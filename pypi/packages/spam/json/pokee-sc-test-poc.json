@@ -1,0 +1,11 @@
+{
+    "name": "pokee-sc-test-poc",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "description": "Package demonstrates local code execution, likely in a 3rd-party infrastructure.",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-14T21:26:31.387487+00:00",
+    "campaign_data_modified_at": "2026-06-14T21:26:31.414859+00:00"
+}

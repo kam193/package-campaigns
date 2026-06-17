@@ -23,6 +23,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://www.aikido.dev/blog/malicious-pypi-packages-spellcheckpy-and-spellcheckerpy-deliver-python-rat"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/tableate"
         }
     ],
@@ -40,12 +44,16 @@
         "iocs": {
             "domains": [
                 "dothebest.store",
-                "searchbox.info"
+                "searchbox.info",
+                "updatenet.work"
             ],
             "urls": [
                 "https://dothebest.store/allow/inform.php",
                 "https://dothebest.store/refresh.php",
-                "https://searchbox.info/prefer.php"
+                "https://searchbox.info/prefer.php",
+                "https://updatenet.work/settings/history.php",
+                "https://dothebest.store/allow",
+                "https://dothebest.store/k/bag.php"
             ]
         }
     }

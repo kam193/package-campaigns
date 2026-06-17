@@ -1,0 +1,12 @@
+{
+    "name": "myproject234",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-file-hosting-abuse",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.2.1"
+    ],
+    "campaign_assigned_at": "2026-05-09T22:26:18.852434+00:00",
+    "campaign_data_modified_at": "2026-05-09T22:26:18.880039+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "aaaazzzzaz",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "affected_versions": [
+        "2.26"
+    ],
+    "campaign_assigned_at": "2026-06-16T08:47:09.702341+00:00",
+    "campaign_data_modified_at": "2026-06-16T08:47:55.722569+00:00"
+}

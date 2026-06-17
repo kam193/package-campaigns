@@ -1,0 +1,13 @@
+{
+    "name": "devtools-webhook-cicd-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-devtools-webhook-cicd-utils",
+    "affected_versions": [
+        "1.4.7",
+        "1.5.0",
+        "1.5.1",
+        "1.6.0"
+    ],
+    "campaign_assigned_at": "2026-02-10T07:42:45.225244+00:00",
+    "campaign_data_modified_at": "2026-02-10T07:42:45.225273+00:00"
+}

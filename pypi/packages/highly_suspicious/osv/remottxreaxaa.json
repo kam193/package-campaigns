@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/remottxreaxaa",
+    "published": "2026-02-27T21:25:56.938319+00:00",
+    "modified": "2026-02-27T21:32:07.542221+00:00",
+    "summary": "Highly suspicious code in remottxreaxaa (PyPI)",
+    "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "remottxreaxaa",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.105",
+                "1.0.106",
+                "1.0.107",
+                "1.0.109",
+                "1.0.110",
+                "1.0.111",
+                "1.0.112",
+                "1.0.116"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/remottxreaxaa"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "2026-06-spl-token-py",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys",
+        "persistence",
+        "sandbox-detection",
+        "typosquatting",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "solana-cli-py",
+        "solana-web3",
+        "solana-web3-py",
+        "spl-token-py"
+    ],
+    "created_at": "2026-06-08",
+    "ioc": [],
+    "references": [
+        "https://research.jfrog.com/post/solana-fakefix/"
+    ],
+    "description": "During import, the package exfiltrates sensitive data (credentials, SSH keys, cryptowallet's data). It also establishes persistence via a cronjob."
+}

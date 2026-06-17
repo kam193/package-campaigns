@@ -1,0 +1,10 @@
+{
+    "name": "databaserobooms",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "0.0.4"
+    ],
+    "campaign_assigned_at": "2026-04-04T22:24:16.596090+00:00",
+    "campaign_data_modified_at": "2026-04-04T22:24:16.622818+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "gptminifast",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "affected_versions": [
+        "2.21"
+    ],
+    "campaign_assigned_at": "2026-06-15T15:59:57.290458+00:00",
+    "campaign_data_modified_at": "2026-06-15T16:03:35.183697+00:00"
+}

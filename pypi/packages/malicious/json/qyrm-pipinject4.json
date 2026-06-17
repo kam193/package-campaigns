@@ -1,0 +1,10 @@
+{
+    "name": "qyrm-pipinject4",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-old-qyrm-pipinject4",
+    "affected_versions": [
+        "1.0"
+    ],
+    "campaign_assigned_at": "2026-03-21T15:46:26.853180+00:00",
+    "campaign_data_modified_at": "2026-03-21T15:46:26.879190+00:00"
+}

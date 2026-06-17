@@ -1,0 +1,13 @@
+{
+    "name": "dlocal-cli",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "99.0.0",
+        "99.0.1",
+        "99.0.2",
+        "99.0.3"
+    ],
+    "campaign_assigned_at": "2026-05-11T06:10:16.131854+00:00",
+    "campaign_data_modified_at": "2026-05-11T06:10:16.172984+00:00"
+}

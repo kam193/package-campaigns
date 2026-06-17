@@ -1,0 +1,20 @@
+{
+    "name": "2026-06-telegramlite",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "target:telegram"
+    ],
+    "packages": [
+        "telegram-lite-grabber",
+        "telegramlite"
+    ],
+    "created_at": "2026-06-10",
+    "ioc": [
+        "https://telegram-full-server.onrender.com/api/upload",
+        "telegram-full-server.onrender.com"
+    ],
+    "references": [],
+    "description": "Package exfiltrates data from the Telegram application to a remote location, effectively collecting Telegram sessions."
+}

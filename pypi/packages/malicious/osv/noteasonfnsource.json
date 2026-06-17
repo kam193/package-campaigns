@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-old-noteasonfnsource/noteasonfnsource",
+    "published": "2026-03-01T10:11:34.028892+00:00",
+    "modified": "2026-03-01T10:11:34.055714+00:00",
+    "summary": "Malicious code in noteasonfnsource (PyPI)",
+    "details": "Code provides a Discord bot, which - once a generic command is called - performs malicious action against the Discord server: deletes all channels, renames the server, and then starts a loop that creates spamming channels and notifies everyone.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-noteasonfnsource\n\n\nReasons (based on the campaign):\n\n\n - abusing-3rd-api\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "noteasonfnsource",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/noteasonfnsource"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

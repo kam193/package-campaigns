@@ -1,0 +1,12 @@
+{
+    "name": "crayrandomiz",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-crayrandomiz",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "2.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-07T18:43:03.402511+00:00",
+    "campaign_data_modified_at": "2026-05-07T18:43:03.433769+00:00"
+}

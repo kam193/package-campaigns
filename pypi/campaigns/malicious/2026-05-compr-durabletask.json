@@ -1,0 +1,32 @@
+{
+    "name": "2026-05-compr-durabletask",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "compromised-package",
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys",
+        "files_exfiltration",
+        "persistence",
+        "remote_script"
+    ],
+    "created_at": "2026-05-19",
+    "ioc": [
+        "check.git-service.com",
+        "git-service.com",
+        "t.m-kosche.com",
+        "m-kosche.com",
+        "https://t.m-kosche.com/rope.pyz",
+        "https://check.git-service.com/rope.pyz",
+        "https://check.git-service.com/api/public/version",
+        "https://check.git-service.com/v1/models"
+    ],
+    "references": [
+        "https://safedep.io/malicious-durabletask-pypi-supply-chain-attack",
+        "https://www.upwind.io/feed/newly-discovered-durabletask-malware-targeted-kubernetes-cloud-secrets-and-ci-cd-infrastructure",
+        "https://www.aikido.dev/blog/durabletask-package-compromised-mini-shai-hulud"
+    ],
+    "description": "During import of compromised versions, the malicious code is downloaded and executed. It exfiltrates all kinds of credentials and sensitive files, including data from secret and password managers, SSH keys, configuration files. Code tries to achieve a persistence via systemd unit."
+}

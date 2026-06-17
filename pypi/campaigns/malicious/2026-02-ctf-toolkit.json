@@ -1,0 +1,21 @@
+{
+    "name": "2026-02-ctf-toolkit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration"
+    ],
+    "packages": [
+        "ctf-toolkit"
+    ],
+    "created_at": "2026-02-28",
+    "ioc": [
+        "https://vpnico-1318014164.cos.ap-singapore.myqcloud.com/ico.bmp",
+        "vpnico-1318014164.cos.ap-singapore.myqcloud.com"
+    ],
+    "references": [
+        "https://github.com/Wang-SecurityResearch/ctf_toolkit",
+        "https://web.archive.org/web/20260228111147/https://github.com/Wang-SecurityResearch"
+    ],
+    "description": "The package states to contain a modified curl library to allow low-level request modifications. However, there is also undisclosed malicious behavior:\n\n1. The package installs a .pth file directly in the site-packages directory, effectively running a special code on each Python usage.\n2. This code performs \"TLS context warm-up\" by contacting a URL (Github) in the background, in a separate process; this is suspicious on its own as it's unclear how a separate process can warm up further requests in the main process, but...\n3. ...besides the URL given in the code above, the library always contacts a hardcoded URL, identifying itself as a VPN client.\n\nAdditionally, there is no source code of the modified library anywhere, and the related Github hosting the package code account is 1-day old."
+}

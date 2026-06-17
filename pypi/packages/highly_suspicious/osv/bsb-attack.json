@@ -1,0 +1,40 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-04-blackspammerbd-vx1/bsb-attack",
+    "published": "2026-03-16T09:47:18.404153+00:00",
+    "modified": "2026-03-16T09:47:18.438961+00:00",
+    "summary": "Highly suspicious code in bsb-attack (PyPI)",
+    "details": "Suspicious DDoS tool with part of the code obfuscated.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2025-04-blackspammerbd-vx1\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - peristence-autorun\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "bsb-attack",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "5.0.0",
+                "5.0.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/Shawpon2/"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bsb-attack"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

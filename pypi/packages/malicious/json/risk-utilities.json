@@ -1,0 +1,11 @@
+{
+    "name": "risk-utilities",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "affected_versions": [
+        "6.0.0",
+        "6.0.1"
+    ],
+    "campaign_assigned_at": "2026-03-03T18:10:56.676783+00:00",
+    "campaign_data_modified_at": "2026-03-03T18:10:56.712414+00:00"
+}

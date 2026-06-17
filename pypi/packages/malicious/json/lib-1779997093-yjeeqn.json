@@ -1,0 +1,10 @@
+{
+    "name": "lib-1779997093-yjeeqn",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-my-test-package-2025-xyz",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-28T20:30:31.758903+00:00",
+    "campaign_data_modified_at": "2026-05-28T20:30:31.830015+00:00"
+}

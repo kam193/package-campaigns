@@ -1,0 +1,18 @@
+{
+    "name": "2026-05-pycacheopt",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "pycacheopt"
+    ],
+    "created_at": "2026-05-07",
+    "ioc": [],
+    "references": [
+        "https://app.aikido.dev/reports/malware/software-supply-chain-attacks?packageId=934457"
+    ],
+    "description": "The extension module hides code that in specific circumstances executes given code. The malicious action is hidden only in the extension module with the same-named Python code file containing only benign code.\n\nThis campaign was first detected by Aikido Security."
+}

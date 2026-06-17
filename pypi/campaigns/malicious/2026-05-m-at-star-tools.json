@@ -1,0 +1,21 @@
+{
+    "name": "2026-05-m-at-star-tools",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "m-at-star-tools"
+    ],
+    "created_at": "2026-05-26",
+    "ioc": [
+        "https://raw.githubusercontent.com/M-AT-STAR/run/main/tspynstll_m0.nstll",
+        "https://mspy.qzz.io/M0scan",
+        "https://raw.githubusercontent.com/M-AT-STAR/run/main/c_stp_m0.enc",
+        "https://raw.githubusercontent.com/M-AT-STAR/run/main/M0scan.tspy"
+    ],
+    "references": [],
+    "description": "The package downloads remote encoded code, which then downloads the next encrypted stage. The encryption of final data requires knowing a code."
+}

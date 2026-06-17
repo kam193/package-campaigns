@@ -1,0 +1,21 @@
+{
+    "name": "2026-05-lognest",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_script"
+    ],
+    "packages": [
+        "lognest",
+        "pylogfmt",
+        "pylogft",
+        "pylogkt"
+    ],
+    "created_at": "2026-05-21",
+    "ioc": [
+        "https://pypkg.dev/project/logger/json",
+        "pypkg.dev"
+    ],
+    "references": [],
+    "description": "Package silently executes remote code during import. "
+}

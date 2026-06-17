@@ -1,0 +1,19 @@
+{
+    "name": "chalk-fancy",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-renderctx",
+    "description": "When used, package exfiltrates sensitive environmental variable. ",
+    "affected_versions": [
+        "0.0.0",
+        "0.0.3",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6",
+        "1.0.7",
+        "1.0.8",
+        "1.0.9"
+    ],
+    "campaign_assigned_at": "2026-05-01T13:46:20.718742+00:00",
+    "campaign_data_modified_at": "2026-05-01T13:46:20.759076+00:00"
+}

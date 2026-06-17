@@ -1,0 +1,45 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-arvpuan/arvpuanv2",
+    "published": "2026-05-03T18:35:32.778445+00:00",
+    "modified": "2026-05-03T18:35:32.820669+00:00",
+    "summary": "Highly suspicious code in arvpuanv2 (PyPI)",
+    "details": "Package abuses a legitimate e-commerce website to validate credit card data and is clearly intended to assist with handling stolen data.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-05-arvpuan\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - abusing-3rd-api\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "arvpuanv2",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.1.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/arvpuanv2"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "golden-fairy-d4cf45.netlify.app"
+            ],
+            "urls": [
+                "https://golden-fairy-d4cf45.netlify.app/.netlify/functions/cards"
+            ]
+        }
+    }
+}

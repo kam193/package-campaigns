@@ -1,0 +1,11 @@
+{
+    "name": "hash-utils-py",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-hash-utils-py",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-03-23T15:38:29.733665+00:00",
+    "campaign_data_modified_at": "2026-03-23T15:38:29.762121+00:00"
+}

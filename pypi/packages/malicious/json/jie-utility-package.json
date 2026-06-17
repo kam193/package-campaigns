@@ -1,0 +1,10 @@
+{
+    "name": "jie-utility-package",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-my-package-jiecub3",
+    "affected_versions": [
+        "1.5.0"
+    ],
+    "campaign_assigned_at": "2026-04-23T17:48:51.151996+00:00",
+    "campaign_data_modified_at": "2026-04-23T17:48:51.192139+00:00"
+}

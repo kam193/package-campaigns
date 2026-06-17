@@ -1,0 +1,45 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-solana-wallet-sdk/solana-py-sdk",
+    "published": "2026-05-08T09:00:43.251843+00:00",
+    "modified": "2026-05-08T09:00:43.278962+00:00",
+    "summary": "Malicious code in solana-py-sdk (PyPI)",
+    "details": "The code automatically scans the filesystem looking for BIP-39 seed phrases and data indicating private keys, and exfiltrates them\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-solana-wallet-sdk\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "solana-py-sdk",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/solana-py-sdk"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://46.225.21.180:3000/api/narrative-accounts"
+            ],
+            "ips": [
+                "46.225.21.180"
+            ]
+        }
+    }
+}

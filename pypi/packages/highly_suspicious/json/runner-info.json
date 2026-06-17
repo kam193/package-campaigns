@@ -1,0 +1,14 @@
+{
+    "name": "runner-info",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package is designed to collect potentially sensitive data from CI environments and save locally for further processing / retival. ",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3",
+        "0.0.5"
+    ],
+    "campaign_assigned_at": "2026-05-11T21:12:51.840078+00:00",
+    "campaign_data_modified_at": "2026-05-11T21:12:51.934896+00:00"
+}

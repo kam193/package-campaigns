@@ -1,0 +1,10 @@
+{
+    "name": "web3-helpers",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-alembic-util",
+    "affected_versions": [
+        "0.110.234"
+    ],
+    "campaign_assigned_at": "2026-05-13T20:08:38.685456+00:00",
+    "campaign_data_modified_at": "2026-05-13T20:08:38.714883+00:00"
+}

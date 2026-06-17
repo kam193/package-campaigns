@@ -1,0 +1,72 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-infostealer-tools/damuffin",
+    "published": "2026-03-29T15:41:56.837472+00:00",
+    "modified": "2026-03-29T15:41:56.868788+00:00",
+    "summary": "Malicious code in damuffin (PyPI)",
+    "details": "Tools to build infostealers\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-infostealer-tools\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "damuffin",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1",
+                "0.0.2",
+                "0.0.3",
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.1.0",
+                "1.2.0",
+                "1.2.1",
+                "1.2.2",
+                "1.2.3",
+                "1.2.4",
+                "1.2.5",
+                "1.2.6",
+                "1.2.7",
+                "1.2.8",
+                "1.2.9",
+                "1.2.10",
+                "1.4.0",
+                "1.4.1",
+                "1.4.2",
+                "1.5.0",
+                "1.5.1",
+                "1.5.2",
+                "1.5.3",
+                "1.5.4",
+                "1.5.5",
+                "1.5.6",
+                "1.5.7",
+                "1.5.8",
+                "1.5.9",
+                "1.5.10",
+                "1.5.11",
+                "1.5.12",
+                "1.5.13",
+                "1.5.14",
+                "1.6.0",
+                "1.6.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/damuffin"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "2026-05-h4xupdate",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "files_exfiltration",
+        "impersonation",
+        "remote_commands"
+    ],
+    "packages": [
+        "h4xupdate"
+    ],
+    "created_at": "2026-05-31",
+    "ioc": [],
+    "references": [],
+    "description": "Package contains a remote control tool taking orders from a hardcoded Telegram bot. The authorship impersonate legitimate company."
+}

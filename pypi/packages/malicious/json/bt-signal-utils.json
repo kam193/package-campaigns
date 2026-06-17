@@ -1,0 +1,11 @@
+{
+    "name": "bt-signal-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-quant-backtest-helpers",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-02T10:00:35.520503+00:00",
+    "campaign_data_modified_at": "2026-06-02T10:00:35.788415+00:00"
+}

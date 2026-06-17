@@ -1,0 +1,12 @@
+{
+    "name": "htjson",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-Smann23",
+    "affected_versions": [
+        "0.1.173800009",
+        "0.1.173800130",
+        "0.1.173800845"
+    ],
+    "campaign_assigned_at": "2026-02-15T21:46:33.355053+00:00",
+    "campaign_data_modified_at": "2026-02-15T21:46:33.454676+00:00"
+}

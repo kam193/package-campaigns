@@ -1,0 +1,10 @@
+{
+    "name": "cache-compat-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-cache-compat-utils",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-06-16T10:59:10.003932+00:00",
+    "campaign_data_modified_at": "2026-06-16T10:59:10.135198+00:00"
+}

@@ -1,0 +1,53 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-thisismytest123/thisismytest123",
+    "published": "2026-03-27T13:55:03.726160+00:00",
+    "modified": "2026-03-27T13:55:03.756631+00:00",
+    "summary": "Malicious code in thisismytest123 (PyPI)",
+    "details": "During installation, if run under a specific username, the package downloads and installs two executables identified as backdoors trojans.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-thisismytest123\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - backdoor\n\n\n - malware\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "thisismytest123",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "2.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/d06d2288d3aa76675947137279e6db4d5a31d3ab3a46720d15df4c4d2d52b9d3/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/28d6c2c26ed631981fc9575a452b45b8b741d172769d5d8366a4269536236ab3/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/thisismytest123"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://8.217.174.149:8888/supershell/compile/download/java",
+                "https://shim.oss-cn-hongkong.aliyuncs.com/shim",
+                "https://shim.oss-cn-hongkong.aliyuncs.com/shim.conf"
+            ]
+        }
+    }
+}

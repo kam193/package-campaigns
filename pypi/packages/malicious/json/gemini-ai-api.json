@@ -1,0 +1,10 @@
+{
+    "name": "gemini-ai-api",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-pipipipi",
+    "affected_versions": [
+        "2.33.0"
+    ],
+    "campaign_assigned_at": "2026-03-27T16:39:25.902502+00:00",
+    "campaign_data_modified_at": "2026-03-27T16:39:25.931557+00:00"
+}

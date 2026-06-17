@@ -1,0 +1,10 @@
+{
+    "name": "libttos",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-10T08:06:04.076888+00:00",
+    "campaign_data_modified_at": "2026-05-10T08:06:04.207673+00:00"
+}

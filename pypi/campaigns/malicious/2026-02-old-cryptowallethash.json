@@ -1,0 +1,21 @@
+{
+    "name": "2026-02-old-cryptowallethash",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "cryptowallethash"
+    ],
+    "created_at": "2026-02-10",
+    "ioc": [
+        "http://18.197.200.123:3000/"
+    ],
+    "references": [
+        "https://github.com/akioguru/cryptowallethash",
+        "https://github.com/akioguru/cryptowallethash/blob/main/cryptowallethash/functions.py#L8"
+    ],
+    "description": "The package claims to calculate a hash value for usage in \"cryptocurrency\", but before returning the hash, it exfiltrates the plain value."
+}

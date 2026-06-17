@@ -1,0 +1,11 @@
+{
+    "name": "gangomodule",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-gangomodule",
+    "affected_versions": [
+        "1.0.20",
+        "1.0.37"
+    ],
+    "campaign_assigned_at": "2026-04-04T12:01:55.326555+00:00",
+    "campaign_data_modified_at": "2026-04-04T12:01:55.355799+00:00"
+}

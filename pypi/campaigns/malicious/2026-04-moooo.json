@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-moooo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_credentials",
+        "exfiltration_generic",
+        "infostealer"
+    ],
+    "packages": [
+        "moooo"
+    ],
+    "created_at": "2026-04-14",
+    "ioc": [
+        "https://discord.com/api/webhooks/1389881818181926932/S-908aALR9RjCF95UjeQ0DnqxlK_iXu6DdeMyqbzUKkSgmYAzKOioy3tV9oPMCqpXadC"
+    ],
+    "references": [],
+    "description": "When used, the package silently loads code with an infostealer focused on Discord data. "
+}

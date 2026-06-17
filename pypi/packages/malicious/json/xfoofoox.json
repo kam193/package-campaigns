@@ -1,0 +1,10 @@
+{
+    "name": "xfoofoox",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-anthropy",
+    "affected_versions": [
+        "0.0.6"
+    ],
+    "campaign_assigned_at": "2026-06-08T22:31:36.185832+00:00",
+    "campaign_data_modified_at": "2026-06-08T22:31:36.219895+00:00"
+}

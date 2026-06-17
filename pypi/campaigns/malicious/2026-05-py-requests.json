@@ -1,0 +1,30 @@
+{
+    "name": "2026-05-py-requests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "clipboard_modify",
+        "crypto-related",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "persistence",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "numpy-lib",
+        "pandas-data",
+        "py-requests",
+        "rich-util"
+    ],
+    "created_at": "2026-05-13",
+    "ioc": [
+        "http://8.217.75.147:3000/payload",
+        "8.217.75.147",
+        "http://8.217.75.147:3000/download/tg_rat.py"
+    ],
+    "references": [],
+    "description": "Package installs persistent malware acting as Rat, with the focus of stealing data and modifying copied cryptowallet addresses. "
+}

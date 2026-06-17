@@ -1,0 +1,12 @@
+{
+    "name": "xinference",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-teampcp",
+    "created_at": "2026-04-22",
+    "description": "",
+    "affected_versions": [
+        "2.6.0",
+        "2.6.1",
+        "2.6.2"
+    ]
+}

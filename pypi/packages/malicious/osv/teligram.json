@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-khelo/teligram",
+    "published": "2026-02-08T22:19:04.039286+00:00",
+    "modified": "2026-02-08T22:19:04.039326+00:00",
+    "summary": "Malicious code in teligram (PyPI)",
+    "details": "Package contains a Telegram bot for remote control of the machine. While this doesn't start automatically, this behavior is not disclosed by the package description\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-khelo\n\n\nReasons (based on the campaign):\n\n\n - rat\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "teligram",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/teligram"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

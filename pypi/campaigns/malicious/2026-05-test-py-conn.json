@@ -1,0 +1,21 @@
+{
+    "name": "2026-05-test-py-conn",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "remote_commands"
+    ],
+    "packages": [
+        "test-py-conn"
+    ],
+    "created_at": "2026-05-06",
+    "ioc": [
+        "http://213.136.64.157:5000",
+        "213.136.64.157",
+        "http://hello.16fps.in/download/pycache",
+        "hello.16fps.in"
+    ],
+    "references": [],
+    "description": "The code automatically starts a worker designed to survive the exit of the main process. The worker load code from a PYC file which then connects to pre-defined C2 server and awaits commands to execute."
+}

@@ -1,0 +1,11 @@
+{
+    "name": "moonbit-schema-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-moonbit-locale-compat",
+    "affected_versions": [
+        "1.1.0",
+        "1.1.1"
+    ],
+    "campaign_assigned_at": "2026-04-20T08:22:00.321077+00:00",
+    "campaign_data_modified_at": "2026-04-20T08:22:00.347744+00:00"
+}

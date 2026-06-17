@@ -1,0 +1,10 @@
+{
+    "name": "gridifys",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.0.2"
+    ],
+    "campaign_assigned_at": "2026-02-04T07:29:56.363345+00:00",
+    "campaign_data_modified_at": "2026-02-04T07:29:56.363369+00:00"
+}

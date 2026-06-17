@@ -1,0 +1,10 @@
+{
+    "name": "my-test-package-2025-xyz",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-my-test-package-2025-xyz",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-28T11:13:18.544267+00:00",
+    "campaign_data_modified_at": "2026-05-28T11:13:18.707448+00:00"
+}

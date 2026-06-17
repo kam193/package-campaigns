@@ -1,0 +1,37 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-risky-hacking-tools/vfunctions",
+    "published": "2026-04-28T20:19:53.356454+00:00",
+    "modified": "2026-04-28T20:19:53.389252+00:00",
+    "summary": "Malicious code in vfunctions (PyPI)",
+    "details": "Collection of hacking tools with the goal to perform user-annoying actions (changing background, playing offensive sounds), self-propagation to other files and USB drives, as well as collecting webcam photos and ensuring persistence. While it's not active (no automated start, requires someone to steer the execution), it was clearly created to perform malicious action, there is no educational value.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-risky-hacking-tools\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "vfunctions",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1",
+                "0.0.2",
+                "0.0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/vfunctions"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

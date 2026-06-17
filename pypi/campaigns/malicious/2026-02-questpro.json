@@ -1,0 +1,19 @@
+{
+    "name": "2026-02-questpro",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_credentials",
+        "infostealer"
+    ],
+    "packages": [
+        "questpro"
+    ],
+    "created_at": "2026-02-18",
+    "ioc": [
+        "https://discord.com/api/webhooks/1471477972589613282/64mOMvy7dvNm5m2Hy4v7PSBTytp9bmKBCZ9oULmtkTZPDsBUkq64w0YL6NR3w1b0rb5a"
+    ],
+    "references": [],
+    "description": "When using the package, user's Discord tokens are silently exfiltrated."
+}

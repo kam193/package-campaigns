@@ -1,0 +1,12 @@
+{
+    "name": "bsb-attack",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-blackspammerbd-vx1",
+    "description": "Suspicious DDoS tool with part of the code obfuscated.",
+    "affected_versions": [
+        "5.0.0",
+        "5.0.4"
+    ],
+    "campaign_assigned_at": "2026-03-16T09:47:18.404153+00:00",
+    "campaign_data_modified_at": "2026-03-16T09:47:18.438961+00:00"
+}

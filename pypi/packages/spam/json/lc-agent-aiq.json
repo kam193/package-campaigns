@@ -1,0 +1,11 @@
+{
+    "name": "lc-agent-aiq",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/wheltz/kit-usd-agents/blob/9bdd76461096d6a980343702550a57d1a7c4478b/source/modules/aiq/lc_agent_aiq/setup.py#L34",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-29T12:24:12.386046+00:00",
+    "campaign_data_modified_at": "2026-04-29T12:24:12.420081+00:00"
+}

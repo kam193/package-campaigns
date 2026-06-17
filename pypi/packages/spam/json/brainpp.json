@@ -1,0 +1,12 @@
+{
+    "name": "brainpp",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: the package that either existed earlier in PyPI or is available only in some mirrors, e.g.: https://github.com/YuchenFan48/slime/blob/cf2012f1505d8f6c35bf0af8254dfc3c61c58ef2/scripts/run-qwen3-next-h.sh#L66",
+    "affected_versions": [
+        "2.0.1",
+        "2.7.8"
+    ],
+    "campaign_assigned_at": "2026-04-29T11:58:19.662005+00:00",
+    "campaign_data_modified_at": "2026-04-29T11:58:19.692086+00:00"
+}

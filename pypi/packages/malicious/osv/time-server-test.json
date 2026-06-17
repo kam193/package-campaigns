@@ -48,7 +48,9 @@
         "iocs": {
             "domains": [
                 "checktimeserver.org",
-                "aliyun-sdk-requests.xyz"
+                "aliyun-sdk-requests.xyz",
+                "api.jumpservercdn.com",
+                "jumpservercdn.com"
             ],
             "urls": [
                 "https://api.checktimeserver.org/",

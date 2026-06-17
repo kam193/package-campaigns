@@ -1,0 +1,10 @@
+{
+    "name": "apexomni-client",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-apexomni-client",
+    "affected_versions": [
+        "99.99.99"
+    ],
+    "campaign_assigned_at": "2026-05-02T10:31:16.074505+00:00",
+    "campaign_data_modified_at": "2026-05-02T10:31:16.109025+00:00"
+}

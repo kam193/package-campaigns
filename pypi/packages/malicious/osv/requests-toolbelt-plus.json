@@ -1,0 +1,45 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-requests-toolbelt-plus/requests-toolbelt-plus",
+    "published": "2026-06-16T09:28:08.589577+00:00",
+    "modified": "2026-06-16T09:28:08.624458+00:00",
+    "summary": "Malicious code in requests-toolbelt-plus (PyPI)",
+    "details": "During installation or import, the package exfiltrates basic information and then awaits remote commands to execute. Additionally, it attempts to gain persistence via modifying .bashrc.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-requests-toolbelt-plus\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - persistence\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "requests-toolbelt-plus",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "99.9.9",
+                "99.9.10",
+                "100.0.0",
+                "2026.6.10.172624"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/requests-toolbelt-plus"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "ips": [
+                "185.184.192.205"
+            ]
+        }
+    }
+}

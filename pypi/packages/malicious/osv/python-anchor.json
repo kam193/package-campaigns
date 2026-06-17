@@ -1,0 +1,41 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-ariadne-federation/python-anchor",
+    "published": "2026-03-15T09:34:12.321130+00:00",
+    "modified": "2026-03-15T09:34:12.352649+00:00",
+    "summary": "Malicious code in python-anchor (PyPI)",
+    "details": "During import, package decrypts and runs a malicious executable. The executable is hidden in an encoded and xored form in the JSON resource file.\n\nThis is a follow up of the campaign 2026-03-fastapi-middleware-cors\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-ariadne-federation\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - obfuscation\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "python-anchor",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "13.3.0",
+                "14.6.0",
+                "15.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/609d9adb5afe6fb913b605157a86e484f609b939e6755af4311ac6b824e634e2/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/python-anchor"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

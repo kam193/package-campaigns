@@ -1,0 +1,11 @@
+{
+    "name": "apachelicense",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-license-utils-kit",
+    "description": "Malicious clone of legitimate \"license\" package. When using the find_by_key function, the malicious code from strongly obfuscated files is loaded. It then at least collects data from cryptowallets and password managers and exfiltrate them to a hardcoded remote location.",
+    "affected_versions": [
+        "0.1a1"
+    ],
+    "campaign_assigned_at": "2026-03-23T20:41:45.433706+00:00",
+    "campaign_data_modified_at": "2026-03-23T20:41:45.460194+00:00"
+}

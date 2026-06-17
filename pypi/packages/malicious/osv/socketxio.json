@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-old-socketxio/socketxio",
+    "published": "2026-02-28T10:44:48.469280+00:00",
+    "modified": "2026-02-28T10:44:48.494199+00:00",
+    "summary": "Malicious code in socketxio (PyPI)",
+    "details": "Using the provided function results in exfiltrating Discord tokens to a hardcoded location\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-socketxio\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - action-hidden-in-lib-usage\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "socketxio",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.5",
+                "1.6",
+                "1.7",
+                "1.8",
+                "1.9",
+                "2.0",
+                "2.1",
+                "2.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/socketxio"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

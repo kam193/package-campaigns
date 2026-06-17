@@ -1,0 +1,11 @@
+{
+    "name": "hunter-cli",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/AirtestProject/Poco/blob/2481259f64c9f9fd4c78a611bd57880558144113/poco/drivers/netease/requirements.txt#L1",
+    "affected_versions": [
+        "0.6.17"
+    ],
+    "campaign_assigned_at": "2026-04-29T12:06:46.426309+00:00",
+    "campaign_data_modified_at": "2026-04-29T12:06:46.569863+00:00"
+}

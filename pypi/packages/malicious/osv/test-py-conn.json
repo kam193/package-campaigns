@@ -1,0 +1,50 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-test-py-conn/test-py-conn",
+    "published": "2026-05-06T20:28:38.957498+00:00",
+    "modified": "2026-05-06T20:28:38.986161+00:00",
+    "summary": "Malicious code in test-py-conn (PyPI)",
+    "details": "The code automatically starts a worker designed to survive the exit of the main process. The worker load code from a PYC file which then connects to pre-defined C2 server and awaits commands to execute.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-test-py-conn\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - rat\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "test-py-conn",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1",
+                "0.0.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/test-py-conn"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "hello.16fps.in"
+            ],
+            "urls": [
+                "http://213.136.64.157:5000",
+                "http://hello.16fps.in/download/pycache"
+            ],
+            "ips": [
+                "213.136.64.157"
+            ]
+        }
+    }
+}

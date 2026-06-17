@@ -1,0 +1,10 @@
+{
+    "name": "anthropickit",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-anthropickit",
+    "affected_versions": [
+        "999.9.9"
+    ],
+    "campaign_assigned_at": "2026-06-14T01:37:46.973763+00:00",
+    "campaign_data_modified_at": "2026-06-14T01:37:47.165599+00:00"
+}

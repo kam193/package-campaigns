@@ -1,0 +1,12 @@
+{
+    "name": "natazx",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-05-14T07:43:18.926854+00:00",
+    "campaign_data_modified_at": "2026-05-14T11:26:56.276279+00:00"
+}

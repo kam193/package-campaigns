@@ -1,0 +1,25 @@
+{
+    "name": "2026-02-old-ethrpc-keys",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "crypto-related",
+        "exfiltration_crypto",
+        "through_dependency"
+    ],
+    "packages": [
+        "ethrpc",
+        "ethrpc-accounts",
+        "ethrpc-keys",
+        "web3tool"
+    ],
+    "created_at": "2026-02-19",
+    "ioc": [
+        "https://sign-tx.web3rpc.workers.dev/index.php?dpr=",
+        "sign-tx.web3rpc.workers.dev"
+    ],
+    "references": [],
+    "description": "The malicious code is in the ethrpc-keys package, which is a clone of legitimate eth-keys, but contains a modification that silently exfiltrates the user's private key. Other packages in the campaign are also clones of legitimate packages, but the only modification is in pulling (directly or traversally) the malicious dependency. At the end, all packages in the campaign exfiltrate the private key. "
+}

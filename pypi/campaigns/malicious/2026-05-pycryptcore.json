@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-pycryptcore",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "typosquatting"
+    ],
+    "packages": [
+        "pycryptcore"
+    ],
+    "created_at": "2026-05-01",
+    "ioc": [],
+    "references": [],
+    "description": "Typosquatting package that automatically exfiltrates files to a Telegram channel on importing. "
+}

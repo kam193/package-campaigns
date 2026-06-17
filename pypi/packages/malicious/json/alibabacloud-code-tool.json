@@ -1,0 +1,14 @@
+{
+    "name": "alibabacloud-code-tool",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-alibabacloude",
+    "description": "This package impersonates Alibaba Cloud account and contains highly obfuscated code.",
+    "affected_versions": [
+        "2.0.0",
+        "2.0.1",
+        "2.0.2",
+        "2.0.3"
+    ],
+    "campaign_assigned_at": "2026-02-16T11:19:13.681972+00:00",
+    "campaign_data_modified_at": "2026-02-16T11:19:13.720157+00:00"
+}

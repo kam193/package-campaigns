@@ -1,0 +1,16 @@
+{
+    "name": "theanswre",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5"
+    ],
+    "campaign_assigned_at": "2026-01-29T17:14:53.004927+00:00",
+    "campaign_data_modified_at": "2026-01-29T17:14:53.004950+00:00"
+}

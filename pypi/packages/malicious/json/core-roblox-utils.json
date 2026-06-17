@@ -1,0 +1,10 @@
+{
+    "name": "core-roblox-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.4.0"
+    ],
+    "campaign_assigned_at": "2026-04-28T22:00:06.472151+00:00",
+    "campaign_data_modified_at": "2026-04-28T22:01:08.916133+00:00"
+}

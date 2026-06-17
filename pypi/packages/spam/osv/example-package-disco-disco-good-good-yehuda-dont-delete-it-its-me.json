@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/SCRIPT_KIDDIE-exploring-suspicious-behaviour/example-package-disco-disco-good-good-yehuda-dont-delete-it-its-me",
     "published": "2024-08-30T21:05:03Z",
-    "modified": "2024-08-30T21:05:03Z",
+    "modified": "2026-02-12T02:38:16.536299+00:00",
     "summary": "Spam code in example-package-disco-disco-good-good-yehuda-dont-delete-it-its-me (PyPI)",
     "details": "Generic campaign for packages exploring potentially malicious techniques, e.g. obfuscation, but without any harm behaviour (e.g. printing \"hello world\" from obfuscated code)\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: SCRIPT_KIDDIE-exploring-suspicious-behaviour\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n",
     "affected": [

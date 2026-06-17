@@ -1,0 +1,10 @@
+{
+    "name": "sideload-bat-v0-bin-665e0ed8ad19ca34f873be66",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-sideload",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T19:23:20.333968+00:00",
+    "campaign_data_modified_at": "2026-01-22T19:23:20.333985+00:00"
+}

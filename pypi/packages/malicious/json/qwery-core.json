@@ -1,0 +1,17 @@
+{
+    "name": "qwery-core",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-qwery-core",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6",
+        "1.0.7"
+    ],
+    "campaign_assigned_at": "2026-03-03T19:19:13.698214+00:00",
+    "campaign_data_modified_at": "2026-03-03T19:19:13.730225+00:00"
+}

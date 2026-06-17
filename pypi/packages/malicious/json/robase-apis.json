@@ -1,0 +1,10 @@
+{
+    "name": "robase-apis",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.4.0"
+    ],
+    "campaign_assigned_at": "2026-04-28T21:43:59.081212+00:00",
+    "campaign_data_modified_at": "2026-04-28T21:46:01.662367+00:00"
+}

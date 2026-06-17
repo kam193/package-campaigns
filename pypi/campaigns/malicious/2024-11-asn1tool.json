@@ -10,6 +10,7 @@
         "typosquatting"
     ],
     "packages": [
+        "asciitoart",
         "asn1tool"
     ],
     "created_at": "2024-11-10",

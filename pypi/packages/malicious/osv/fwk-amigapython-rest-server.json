@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-amigapythonupdater/fwk-amigapython-rest-server",
+    "published": "2026-03-02T18:48:10.848868+00:00",
+    "modified": "2026-03-02T18:48:10.873364+00:00",
+    "summary": "Malicious code in fwk-amigapython-rest-server (PyPI)",
+    "details": "During import, only in specific environments, a module containing code disguised as telemetry is imported. This code then exfiltrates sensitive environment variables and cloud tokens to a hardcoded location, as well as starts a job listening for commands to execute. Likely dependency confusion attempts\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-amigapythonupdater\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n\n - exfiltration-env-variables\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - dependency-confusion\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "fwk-amigapython-rest-server",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.13.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/fwk-amigapython-rest-server"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "ips": [
+                "77.91.65.24"
+            ]
+        }
+    }
+}

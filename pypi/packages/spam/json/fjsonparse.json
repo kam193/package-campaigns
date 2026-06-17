@@ -1,0 +1,13 @@
+{
+    "name": "fjsonparse",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-Smann23",
+    "affected_versions": [
+        "0.1.173875380",
+        "0.1.173875734",
+        "0.1.173876095",
+        "0.1.173876434"
+    ],
+    "campaign_assigned_at": "2026-02-15T21:46:50.948492+00:00",
+    "campaign_data_modified_at": "2026-02-15T21:46:50.977362+00:00"
+}

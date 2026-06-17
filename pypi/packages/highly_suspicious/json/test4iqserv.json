@@ -1,0 +1,12 @@
+{
+    "name": "test4iqserv",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The implemented healthcheck contains a way to execute remote commands.",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-12T21:53:18.938376+00:00",
+    "campaign_data_modified_at": "2026-05-12T21:53:19.175036+00:00"
+}

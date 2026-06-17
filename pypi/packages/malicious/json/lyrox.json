@@ -1,0 +1,13 @@
+{
+    "name": "lyrox",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-Lyrox",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.1.1",
+        "1.1.2"
+    ],
+    "campaign_assigned_at": "2026-04-23T00:22:16.381427+00:00",
+    "campaign_data_modified_at": "2026-04-23T00:22:16.415247+00:00"
+}

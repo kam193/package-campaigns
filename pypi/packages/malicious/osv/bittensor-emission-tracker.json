@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-clip-logger/bittensor-emission-tracker",
+    "published": "2026-06-09T21:42:48.522316+00:00",
+    "modified": "2026-06-09T21:42:48.530403+00:00",
+    "summary": "Malicious code in bittensor-emission-tracker (PyPI)",
+    "details": "The package contains code to steal clipboard content to a predefined remote location. If run in the right way, the code will periodically check the clipboard and if the content matches the pattern, exfiltrates it. The targeted data are likely cryptocurrency secret seed phrases.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-clip-logger\n\n\nReasons (based on the campaign):\n\n\n - clipboard-stealing\n\n\n - crypto-related\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "bittensor-emission-tracker",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bittensor-emission-tracker"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

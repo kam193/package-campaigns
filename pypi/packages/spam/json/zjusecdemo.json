@@ -1,0 +1,10 @@
+{
+    "name": "zjusecdemo",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-03-17T22:03:50.227294+00:00",
+    "campaign_data_modified_at": "2026-03-17T22:06:24.265433+00:00"
+}

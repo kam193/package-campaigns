@@ -1,0 +1,10 @@
+{
+    "name": "robase-dnb",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.4.0"
+    ],
+    "campaign_assigned_at": "2026-04-30T00:02:39.361015+00:00",
+    "campaign_data_modified_at": "2026-04-30T00:03:59.135947+00:00"
+}

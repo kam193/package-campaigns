@@ -1,0 +1,10 @@
+{
+    "name": "twrap-toolkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-textwrap-toolkit-stager",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-15T21:52:02.312461+00:00",
+    "campaign_data_modified_at": "2026-06-15T21:52:02.459513+00:00"
+}

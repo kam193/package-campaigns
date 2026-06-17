@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-vectordb-engine",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_executable",
+        "targetted-attack"
+    ],
+    "packages": [
+        "vectordb-engine"
+    ],
+    "created_at": "2026-05-26",
+    "ioc": [
+        "vectordbengine.blob.core.windows.net"
+    ],
+    "references": [],
+    "description": "During installation, in the build step, the code performs machine fingerprinting and only in a highly targeted environment, downloads a likely-malicious shared library. The code seems to actually be incomplete."
+}

@@ -1,0 +1,19 @@
+{
+    "name": "2026-03-old-requests-lite",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "abusing-3rd-api",
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "remote_commands"
+    ],
+    "packages": [
+        "requests-lite"
+    ],
+    "created_at": "2026-03-09",
+    "ioc": [],
+    "references": [],
+    "description": "Clone of a legitimate requests library. The hidden code runs when using the requests functionality and starts a Telegram bot awaiting for remote commands."
+}

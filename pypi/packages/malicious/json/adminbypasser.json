@@ -1,0 +1,18 @@
+{
+    "name": "adminbypasser",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-adminbypasser",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6",
+        "1.0.7",
+        "1.0.8",
+        "2.0.1"
+    ],
+    "campaign_assigned_at": "2026-02-06T01:15:08.735372+00:00",
+    "campaign_data_modified_at": "2026-02-06T01:15:08.735401+00:00"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-old-django-b64-img",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "exfiltration_credentials",
+        "obfuscation"
+    ],
+    "packages": [
+        "django-b64-img"
+    ],
+    "created_at": "2026-05-10",
+    "ioc": [],
+    "references": [],
+    "description": "The package provides a special image-storing field for Django REST Framework based on a legitimate implementation from the Hipo/drf-extra-fields repository. The malicious modification appends the cloud credentials and full `settings` values to the serialized form of specific image types. This way, an attacker can retrieve sensitive values by downloading back once uploaded image."
+}

@@ -1,0 +1,17 @@
+{
+    "name": "socketxio",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-socketxio",
+    "affected_versions": [
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9",
+        "2.0",
+        "2.1",
+        "2.2"
+    ],
+    "campaign_assigned_at": "2026-02-28T10:44:48.469280+00:00",
+    "campaign_data_modified_at": "2026-02-28T10:44:48.494199+00:00"
+}

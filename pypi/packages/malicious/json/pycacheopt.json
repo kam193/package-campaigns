@@ -1,0 +1,16 @@
+{
+    "name": "pycacheopt",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-pycacheopt",
+    "affected_versions": [
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5",
+        "0.2.6",
+        "0.2.7"
+    ],
+    "campaign_assigned_at": "2026-05-07T20:07:37.581399+00:00",
+    "campaign_data_modified_at": "2026-05-07T20:07:37.880286+00:00"
+}

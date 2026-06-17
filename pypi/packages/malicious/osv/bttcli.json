@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-ninja-ssh-proto/bttcli",
+    "published": "2026-05-09T17:13:21.204587+00:00",
+    "modified": "2026-05-09T17:13:21.233660+00:00",
+    "summary": "Malicious code in bttcli (PyPI)",
+    "details": "During installation or import, package silently adds a new authorized SSH key. It's closely related to the 2026-05-ninja-core-utils campaign, but there is no built-in crypto exfiltration.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-ninja-ssh-proto\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "bttcli",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bttcli"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://144.126.142.148:5555/report"
+            ]
+        }
+    }
+}

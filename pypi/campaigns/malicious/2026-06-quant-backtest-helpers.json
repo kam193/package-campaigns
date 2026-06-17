@@ -1,0 +1,21 @@
+{
+    "name": "2026-06-quant-backtest-helpers",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "bt-signal-utils",
+        "quant-backtest-helpers"
+    ],
+    "created_at": "2026-06-02",
+    "ioc": [
+        "https://disrupt-evasive-sterility.ngrok-free.app/e",
+        "https://disrupt-evasive-sterility.ngrok-free.app/c",
+        "disrupt-evasive-sterility.ngrok-free.app"
+    ],
+    "references": [],
+    "description": "During import, package exfiltrates environment variables and cloud tokens to a hardcoded location. "
+}

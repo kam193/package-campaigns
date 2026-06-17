@@ -1,0 +1,11 @@
+{
+    "name": "ighack",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-old-nai",
+    "description": "Instagram hacking tool that besides abusing the Instagram API, also automatically uses user's credentials to follow hardcoded accounts.",
+    "affected_versions": [
+        "3.0"
+    ],
+    "campaign_assigned_at": "2026-03-13T10:47:01.858626+00:00",
+    "campaign_data_modified_at": "2026-03-13T10:47:01.885048+00:00"
+}

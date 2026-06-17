@@ -1,0 +1,12 @@
+{
+    "name": "hello-test-s1",
+    "ecosystem": "pypi",
+    "campaign": "2025-12-aiogram-sever-patch",
+    "affected_versions": [
+        "0.1.0",
+        "0.3.0",
+        "0.3.1"
+    ],
+    "campaign_assigned_at": "2026-06-15T17:39:49.315499+00:00",
+    "campaign_data_modified_at": "2026-06-15T17:41:54.234691+00:00"
+}

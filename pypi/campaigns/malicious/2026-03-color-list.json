@@ -1,0 +1,17 @@
+{
+    "name": "2026-03-color-list",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "through_dependency"
+    ],
+    "packages": [
+        "color-list",
+        "pretty-tabulate"
+    ],
+    "created_at": "2026-03-16",
+    "ioc": [],
+    "references": [],
+    "description": "Malicious code hidden in the color-list package uses the presence of pretty-tabulate as a trigger to load code hidden in likely a third malicious package. Packages were published simultaneously by two accounts not used for about a year, suggesting hijacked access."
+}

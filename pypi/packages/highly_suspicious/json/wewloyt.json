@@ -1,0 +1,14 @@
+{
+    "name": "wewloyt",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4",
+        "0.5"
+    ],
+    "campaign_assigned_at": "2026-05-05T20:08:29.381443+00:00",
+    "campaign_data_modified_at": "2026-05-05T20:08:29.406886+00:00"
+}

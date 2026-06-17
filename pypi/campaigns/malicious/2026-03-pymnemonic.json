@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-pymnemonic",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "crypto-related",
+        "exfiltration_crypto",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "pymnemonic"
+    ],
+    "created_at": "2026-03-15",
+    "ioc": [
+        "https://quantumic.digital/contract/",
+        "quantumic.digital"
+    ],
+    "references": [],
+    "description": "Malicious clone of the legitimate python-utils package, disguised as a crypto-related helper. The malicious code modification exfiltrates sensitive env variables to a hardcoded location."
+}

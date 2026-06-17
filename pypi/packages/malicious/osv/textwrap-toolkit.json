@@ -1,0 +1,47 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-ninja-core-utils/textwrap-toolkit",
+    "published": "2026-05-09T19:14:44.323531+00:00",
+    "modified": "2026-05-09T19:14:44.357761+00:00",
+    "summary": "Malicious code in textwrap-toolkit (PyPI)",
+    "details": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location and places a backdoor through a new authorized SSH key. Information about the placed backdoor is sent back to the attacker, and sshd configuration is adjusted to ensure the successful remote connection.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-ninja-core-utils\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - obfuscation\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "textwrap-toolkit",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.2.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/textwrap-toolkit"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://144.126.142.148:5555/tao",
+                "http://144.126.142.148:5555/report",
+                "https://gist.githubusercontent.com/cdylan320/513f3c21cb33313860aaf22b506d6f19/raw/3b58fb057f92e0a52f90c0a57f3e7a9b48f9d595/config.json"
+            ],
+            "ips": [
+                "144.126.142.148"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "do-not-install-this-package-003",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-do-not-install-this-package-002",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-02-24T15:18:17.749827+00:00",
+    "campaign_data_modified_at": "2026-02-24T15:18:17.776656+00:00"
+}

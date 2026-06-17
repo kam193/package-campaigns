@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-01-old-web3http/web3http",
+    "published": "2026-01-20T23:01:38.146701+00:00",
+    "modified": "2026-01-20T23:01:38.146716+00:00",
+    "summary": "Highly suspicious code in web3http (PyPI)",
+    "details": "Package is a clone of legitimate httpx package. The only difference is that the clone contains an encrypted ZIP archive. The content of the archive is related to cryptocurrencies, but seems not to have any active malicious content.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-01-old-web3http\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - other\n\n\n - clones-real-package\n\n\n - crypto-related\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "web3http",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.17.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/web3http"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

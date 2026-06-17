@@ -1,0 +1,16 @@
+{
+    "name": "2026-04-old-nwin32tls",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "spyware-like"
+    ],
+    "packages": [
+        "nwin32tls",
+        "nwin64tls"
+    ],
+    "created_at": "2026-04-02",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts a loop that listens to key strokes and on every capslock press exfiltrates screenshot to a hardcoded location."
+}

@@ -1,0 +1,10 @@
+{
+    "name": "web3http",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-old-web3http",
+    "affected_versions": [
+        "0.17.0"
+    ],
+    "campaign_assigned_at": "2026-01-20T23:01:38.146701+00:00",
+    "campaign_data_modified_at": "2026-01-20T23:01:38.146716+00:00"
+}

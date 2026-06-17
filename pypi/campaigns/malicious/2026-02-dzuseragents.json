@@ -1,0 +1,24 @@
+{
+    "name": "2026-02-dzuseragents",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "peristence_autorun",
+        "remote_executable",
+        "spyware-like"
+    ],
+    "packages": [
+        "dzuseragents"
+    ],
+    "created_at": "2026-02-14",
+    "ioc": [
+        "https://dzflavors.com/Event%20Service.exe"
+    ],
+    "references": [
+        "https://app.any.run/tasks/5005486d-d1a6-4bd8-9615-ffee3229d3cb",
+        "https://tria.ge/260214-k3mq7af12d",
+        "https://www.virustotal.com/gui/file/41029a95379625eeedc13c2e2a6ea9da8bcff2ed056296c8216ecf77831b99f4/detection",
+        "https://www.pylingual.io/view?identifier=769c0a3900aed0a3dd1bae3a8ab84a94ea353adbfea376d8d50a07957bc7b573"
+    ],
+    "description": "The package downloads an executable and adds it to autostart. The downloaded application then periodically creates a screenshot and sends it to a Discord channel, as well as waits for further instructions "
+}

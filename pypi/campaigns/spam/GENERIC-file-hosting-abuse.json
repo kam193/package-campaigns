@@ -1,0 +1,17 @@
+{
+    "name": "GENERIC-file-hosting-abuse",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "dupc-mcp-demo",
+        "file-share-temp-welkin",
+        "hohem-gw-mcp-server",
+        "myproject234",
+        "ore-can-v022",
+        "package198031985128633"
+    ],
+    "created_at": "2026-04-28",
+    "ioc": [],
+    "references": [],
+    "description": "Package abuses PyPI as a file hosting"
+}

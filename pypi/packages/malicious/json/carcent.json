@@ -1,0 +1,10 @@
+{
+    "name": "carcent",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-soupclaw",
+    "affected_versions": [
+        "2.1.0"
+    ],
+    "campaign_assigned_at": "2026-02-06T15:23:01.766331+00:00",
+    "campaign_data_modified_at": "2026-02-06T15:23:01.766350+00:00"
+}

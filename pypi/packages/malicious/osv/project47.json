@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-old-nai/project47",
+    "published": "2026-03-13T10:54:54.715849+00:00",
+    "modified": "2026-03-13T10:54:54.745505+00:00",
+    "summary": "Malicious code in project47 (PyPI)",
+    "details": "Facebook hacking tool that also forces the user to follow specific accounts\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-old-nai\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-credentials\n\n\n - abusing-3rd-api\n\n\n - action-hidden-in-lib-usage\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "project47",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/project47"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "nasweb.000webhostapp.com"
+            ]
+        }
+    }
+}

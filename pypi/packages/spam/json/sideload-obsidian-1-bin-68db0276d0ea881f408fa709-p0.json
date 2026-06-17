@@ -1,0 +1,10 @@
+{
+    "name": "sideload-obsidian-1-bin-68db0276d0ea881f408fa709-p0",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-sideload",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T19:33:28.610957+00:00",
+    "campaign_data_modified_at": "2026-01-22T19:33:28.610975+00:00"
+}

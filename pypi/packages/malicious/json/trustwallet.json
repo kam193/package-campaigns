@@ -1,0 +1,10 @@
+{
+    "name": "trustwallet",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-pipipipi",
+    "affected_versions": [
+        "2.33.0"
+    ],
+    "campaign_assigned_at": "2026-03-27T16:47:51.735727+00:00",
+    "campaign_data_modified_at": "2026-03-27T16:47:51.759675+00:00"
+}

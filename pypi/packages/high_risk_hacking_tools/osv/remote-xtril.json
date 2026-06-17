@@ -1,0 +1,54 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-remote-xtril/remote-xtril",
+    "published": "2026-02-24T21:52:38.366724+00:00",
+    "modified": "2026-02-24T21:52:38.395034+00:00",
+    "summary": "Malicious code in remote-xtril (PyPI)",
+    "details": "The package is designed to abuse Telegram service by spamming channels with messages. This is its main purpose.\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: 2026-02-remote-xtril\n\n\nReasons (based on the campaign):\n\n\n - other\n\n\n - abusing-3rd-api\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "remote-xtril",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.52",
+                "1.0.53",
+                "1.0.54",
+                "1.0.55",
+                "1.0.56",
+                "1.0.57",
+                "1.0.59",
+                "1.0.60",
+                "1.0.61",
+                "1.0.62",
+                "1.0.63"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/remote-xtril"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://t.me/Mr_ahmadirad",
+                "https://github.com/MohammadAhmadi-R/private-pylib.git",
+                "https://github.com/MohammadAhmadi-R/remote-xtril"
+            ]
+        }
+    }
+}

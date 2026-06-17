@@ -1,0 +1,15 @@
+{
+    "name": "auto-backup-macos",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-auto-backup",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.2",
+        "1.0.3",
+        "1.0.5",
+        "1.0.6",
+        "1.0.7"
+    ],
+    "campaign_assigned_at": "2026-01-05T23:50:38.535099+00:00",
+    "campaign_data_modified_at": "2026-01-28T21:24:03.265826+00:00"
+}

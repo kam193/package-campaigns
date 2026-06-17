@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-modulebuild3240234t",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "infostealer",
+        "obfuscation"
+    ],
+    "packages": [
+        "modulebuild3240234t"
+    ],
+    "created_at": "2026-05-29",
+    "ioc": [
+        "https://discord.com/api/webhooks/1509322846877515958/1lhoM9D4U-eyvVefaufc9TxQbRYBeZiLSUEhnRhS2dGG4jaLXCFc5B4vjqyBGfAWtVjU"
+    ],
+    "references": [],
+    "description": "The package contains an infostealer targeting the Roblox ecosystem."
+}

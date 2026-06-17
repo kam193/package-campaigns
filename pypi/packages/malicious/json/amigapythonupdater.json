@@ -1,0 +1,11 @@
+{
+    "name": "amigapythonupdater",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-amigapythonupdater",
+    "affected_versions": [
+        "3.1.0",
+        "3.1.1"
+    ],
+    "campaign_assigned_at": "2026-03-02T18:49:05.556151+00:00",
+    "campaign_data_modified_at": "2026-03-02T18:49:05.586675+00:00"
+}

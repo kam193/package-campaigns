@@ -1,0 +1,10 @@
+{
+    "name": "instascan-pro",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-instascan-pro",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-24T16:15:55.629125+00:00",
+    "campaign_data_modified_at": "2026-01-24T16:15:55.629141+00:00"
+}

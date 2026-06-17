@@ -1,0 +1,14 @@
+{
+    "name": "unsafefunc",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package provides code that can be used to destroy MBR, but likely really just for educational purposes",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3",
+        "0.4"
+    ],
+    "campaign_assigned_at": "2026-04-02T21:31:38.300663+00:00",
+    "campaign_data_modified_at": "2026-04-02T21:31:38.329100+00:00"
+}

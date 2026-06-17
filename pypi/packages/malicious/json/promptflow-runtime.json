@@ -1,0 +1,11 @@
+{
+    "name": "promptflow-runtime",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-promptflow-runtime",
+    "description": "During import, package collects basic information about the system, performs deep fingerprinting, and reports the data to the remote target. The package description attempts to build an impression it's an official package. The package name refers to the Docker image used by Microsoft's project: https://github.com/microsoft/promptflow/blob/6bfdec06ef16d875ca3b1744a1ef133f08c35340/docs/cloud/azureai/runtime-change-log.md?plain=1#L8",
+    "affected_versions": [
+        "99999999.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-25T14:32:36.680729+00:00",
+    "campaign_data_modified_at": "2026-04-25T14:32:36.714664+00:00"
+}

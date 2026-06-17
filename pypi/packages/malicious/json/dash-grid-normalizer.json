@@ -1,0 +1,14 @@
+{
+    "name": "dash-grid-normalizer",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-acme-widget-layout-utils",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3",
+        "0.0.4",
+        "0.0.5"
+    ],
+    "campaign_assigned_at": "2026-06-13T01:03:41.505979+00:00",
+    "campaign_data_modified_at": "2026-06-13T01:03:43.580551+00:00"
+}

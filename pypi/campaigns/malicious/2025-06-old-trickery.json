@@ -1,0 +1,25 @@
+{
+    "name": "2025-06-old-trickery",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "files_exfiltration",
+        "peristence_autorun",
+        "remote_commands",
+        "remote_script"
+    ],
+    "packages": [
+        "trickery"
+    ],
+    "created_at": "2026-05-13",
+    "ioc": [
+        "https://github.com/cipher234/socioware/raw/main/config.pyw",
+        "https://github.com/cipher234/socioware/raw/main/socio_req",
+        "https://github.com/socioware1/trickery/raw/refs/heads/main/archive/trickery.rar"
+    ],
+    "references": [
+        "https://github.com/socioware1/trickery"
+    ],
+    "description": "Package contains code to install a backdoor - and additionally to a user-controlled backdoor, it also installs the second, with own C2 server. It's not automatically activated. Once started, it can execute commands from C2 and exfiltrate data."
+}

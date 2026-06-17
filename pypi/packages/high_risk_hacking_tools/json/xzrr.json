@@ -1,0 +1,10 @@
+{
+    "name": "xzrr",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.2"
+    ],
+    "campaign_assigned_at": "2026-02-07T13:40:18.226191+00:00",
+    "campaign_data_modified_at": "2026-02-07T13:40:18.226271+00:00"
+}

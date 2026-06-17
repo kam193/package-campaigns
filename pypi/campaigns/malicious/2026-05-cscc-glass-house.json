@@ -1,0 +1,17 @@
+{
+    "name": "2026-05-cscc-glass-house",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "cscc-glass-house"
+    ],
+    "created_at": "2026-05-31",
+    "ioc": [],
+    "references": [],
+    "description": "Package implements exfiltrating credentials from cloud environments to a hardcoded location. Some code parts suggest it may be part of a CTF."
+}

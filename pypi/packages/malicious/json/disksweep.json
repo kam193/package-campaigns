@@ -1,0 +1,10 @@
+{
+    "name": "disksweep",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-syncagents",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-17T21:34:55.544262+00:00",
+    "campaign_data_modified_at": "2026-06-17T21:34:55.578581+00:00"
+}

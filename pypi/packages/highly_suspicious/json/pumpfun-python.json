@@ -1,0 +1,11 @@
+{
+    "name": "pumpfun-python",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0"
+    ],
+    "campaign_assigned_at": "2026-05-30T02:15:37.542995+00:00",
+    "campaign_data_modified_at": "2026-05-30T02:15:38.012930+00:00"
+}

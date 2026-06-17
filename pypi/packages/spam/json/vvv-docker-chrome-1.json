@@ -1,0 +1,11 @@
+{
+    "name": "vvv-docker-chrome-1",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-old-vilame-vvv",
+    "affected_versions": [
+        "0.0.0",
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-01-22T22:56:30.015219+00:00",
+    "campaign_data_modified_at": "2026-01-22T22:56:30.015234+00:00"
+}

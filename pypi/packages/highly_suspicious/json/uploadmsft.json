@@ -1,0 +1,10 @@
+{
+    "name": "uploadmsft",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1"
+    ],
+    "campaign_assigned_at": "2026-02-03T17:22:31.908742+00:00",
+    "campaign_data_modified_at": "2026-02-03T17:22:31.908766+00:00"
+}

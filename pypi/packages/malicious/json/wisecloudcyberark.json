@@ -1,0 +1,10 @@
+{
+    "name": "wisecloudcyberark",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-amigapythonupdater",
+    "affected_versions": [
+        "1.4.0"
+    ],
+    "campaign_assigned_at": "2026-03-02T18:48:31.854904+00:00",
+    "campaign_data_modified_at": "2026-03-02T18:48:31.881365+00:00"
+}

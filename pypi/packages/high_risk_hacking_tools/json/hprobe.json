@@ -1,0 +1,19 @@
+{
+    "name": "hprobe",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.2.1",
+        "0.2.1.post1",
+        "0.2.1.post2",
+        "0.3.0",
+        "0.4.0",
+        "0.4.1",
+        "0.4.1.post1",
+        "0.4.2",
+        "0.5.0",
+        "0.6.0"
+    ],
+    "campaign_assigned_at": "2026-02-16T17:18:46.596859+00:00",
+    "campaign_data_modified_at": "2026-02-16T17:18:46.628176+00:00"
+}

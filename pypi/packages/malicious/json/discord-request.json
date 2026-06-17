@@ -1,0 +1,10 @@
+{
+    "name": "discord-request",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-discord-request",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-04T12:56:18.601852+00:00",
+    "campaign_data_modified_at": "2026-04-04T12:56:18.630299+00:00"
+}

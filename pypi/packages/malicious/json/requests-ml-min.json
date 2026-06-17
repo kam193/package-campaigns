@@ -1,0 +1,10 @@
+{
+    "name": "requests-ml-min",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "affected_versions": [
+        "3.45"
+    ],
+    "campaign_assigned_at": "2026-03-04T17:24:20.507276+00:00",
+    "campaign_data_modified_at": "2026-03-04T17:24:20.539536+00:00"
+}

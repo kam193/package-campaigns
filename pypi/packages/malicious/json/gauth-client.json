@@ -1,0 +1,10 @@
+{
+    "name": "gauth-client",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-gauth-client",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-03T21:26:25.064115+00:00",
+    "campaign_data_modified_at": "2026-05-03T21:26:25.089879+00:00"
+}

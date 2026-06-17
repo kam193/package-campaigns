@@ -1,0 +1,10 @@
+{
+    "name": "myproject-bola",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-isb",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-02-28T20:25:57.892855+00:00",
+    "campaign_data_modified_at": "2026-02-28T20:25:57.919260+00:00"
+}

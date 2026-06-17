@@ -1,0 +1,50 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-04-kraken-trader/kraken-trader",
+    "published": "2026-04-08T20:22:02.752723+00:00",
+    "modified": "2026-04-08T20:22:02.842494+00:00",
+    "summary": "Malicious code in kraken-trader (PyPI)",
+    "details": "The package is a loader of malicious code disguised as remote \"credits\" code. The remote location, built from the parts in the code, delivers highly obfuscated JavaScript code that could be executed by the node.js runner embeded in the package. While all parts are in the package, it lacks the triggering code. As per Socket.dev attribution, it's a dependency used in North Korean fake interviews campaign.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-04-kraken-trader\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "kraken-trader",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://socket.dev/pypi/package/kraken-trader/overview/1.0.1"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/kraken-trader"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "bet.slotgambit.com"
+            ],
+            "urls": [
+                "https://bet.slotgambit.com/icons/112"
+            ]
+        }
+    }
+}

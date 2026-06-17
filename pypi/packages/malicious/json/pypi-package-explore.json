@@ -1,0 +1,16 @@
+{
+    "name": "pypi-package-explore",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-pypi-package-explore",
+    "affected_versions": [
+        "0.0.1a0",
+        "0.0.2a0",
+        "0.0.3a0",
+        "0.0.4a1",
+        "0.0.4a2",
+        "0.0.4a3",
+        "0.0.4a4"
+    ],
+    "campaign_assigned_at": "2026-01-28T17:56:33.813640+00:00",
+    "campaign_data_modified_at": "2026-01-28T17:56:33.813658+00:00"
+}

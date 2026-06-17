@@ -1,0 +1,10 @@
+{
+    "name": "ttssh",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.9.2"
+    ],
+    "campaign_assigned_at": "2026-03-08T22:26:25.337206+00:00",
+    "campaign_data_modified_at": "2026-03-08T22:26:25.361314+00:00"
+}

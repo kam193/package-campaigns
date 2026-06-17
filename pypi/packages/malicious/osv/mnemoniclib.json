@@ -1,0 +1,47 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-mnemoniclib/mnemoniclib",
+    "published": "2026-03-30T12:02:35.586366+00:00",
+    "modified": "2026-03-30T12:02:35.616053+00:00",
+    "summary": "Malicious code in mnemoniclib (PyPI)",
+    "details": "Clone of a legitimate library with added malicious code that runs during generating a new mnemonic. The malicious code collects data related to cryptocurrency wallets and selected other files, and exfiltrate them to a hardcoded location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-mnemoniclib\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - action-hidden-in-lib-usage\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n\n - files-exfiltration\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "mnemoniclib",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.20.1",
+                "0.21.1",
+                "0.22.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/mnemoniclib"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://65.21.205.84:5000/upload"
+            ],
+            "ips": [
+                "65.21.205.84"
+            ]
+        }
+    }
+}

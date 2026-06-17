@@ -1,0 +1,16 @@
+{
+    "name": "2026-05-neuralforge-ml",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "obfuscation"
+    ],
+    "packages": [
+        "neuralforge-ml"
+    ],
+    "created_at": "2026-05-30",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains stub code only imitating real actions. Starting with version 0.9.9, the code contains exfiltration capability activated under specific conditions."
+}

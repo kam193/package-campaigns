@@ -1,0 +1,35 @@
+{
+    "name": "2026-05-solana-wallet-sdk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "crypto-bot-utils",
+        "crypto-kit-pro",
+        "crypto-wallet-utils",
+        "eth-toolkit",
+        "eth-wallet-kit",
+        "eth-web3-utils",
+        "solana-py-sdk",
+        "solana-scanner",
+        "solana-wallet-sdk",
+        "solana-wallet-utils",
+        "tron-energy-sdk",
+        "wallet-scanner-pro",
+        "wallet-utils-pro",
+        "web3-connect",
+        "web3-helper",
+        "web3-tool-sdk"
+    ],
+    "created_at": "2026-05-08",
+    "ioc": [
+        "http://46.225.21.180:3000/api/narrative-accounts",
+        "46.225.21.180"
+    ],
+    "references": [],
+    "description": "The code automatically scans the filesystem looking for BIP-39 seed phrases and data indicating private keys, and exfiltrates them"
+}

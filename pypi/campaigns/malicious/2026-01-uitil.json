@@ -1,0 +1,26 @@
+{
+    "name": "2026-01-uitil",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "remote_commands",
+        "steganography",
+        "through_dependency",
+        "typosquatting"
+    ],
+    "packages": [
+        "uitil"
+    ],
+    "created_at": "2026-01-16",
+    "ioc": [
+        "https://github.com/OR-6/PassCheck/",
+        "https://or-6.github.io",
+        "or-6.github.io"
+    ],
+    "references": [
+        "https://github.com/OR-6/PassCheck/blob/main/main.py#L190",
+        "https://github.com/OR-6/PassCheck/blob/b09b3f1ec5d7345c614b1d956840ee2774f7131b/demo.png"
+    ],
+    "description": "The package implements an undocumented way to execute code hidden in image files, and a function that searches for images in the current directory and attempts to execute the code. \n\nIt's used in the GitHub repository https://github.com/OR-6/PassCheck/blob/main/main.py#L190 to silently execute the command hidden in the image https://github.com/OR-6/PassCheck/blob/b09b3f1ec5d7345c614b1d956840ee2774f7131b/demo.png  when the user interacts with the repository code. The decrypted command attempted to download and execute code from hxxps://or-6.github[.]io, which at the time of analysis didn't host any code."
+}

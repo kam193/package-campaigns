@@ -1,0 +1,10 @@
+{
+    "name": "upgenius",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.16"
+    ],
+    "campaign_assigned_at": "2026-03-10T22:17:31.461773+00:00",
+    "campaign_data_modified_at": "2026-03-10T22:17:31.489062+00:00"
+}

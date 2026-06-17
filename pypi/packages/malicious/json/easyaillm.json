@@ -1,0 +1,12 @@
+{
+    "name": "easyaillm",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "description": "During installation, the obfuscsted code attempts to download and start a malicious executable. The published versions contained issues preventing successful downloading, but it was possible to recover the intended executable during the analysis. ",
+    "affected_versions": [
+        "2.0.15",
+        "2.0.16"
+    ],
+    "campaign_assigned_at": "2026-06-14T01:55:27.979846+00:00",
+    "campaign_data_modified_at": "2026-06-14T01:55:28.017116+00:00"
+}

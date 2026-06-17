@@ -1,0 +1,11 @@
+{
+    "name": "timemcp",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-process-support",
+    "description": "During import, the package automatically downloads and executes code that first acts as an infostealer, and then starts code acting as a RAT. It connects with a hardcoded C2 server and waits for commands, supporting e.g. executing remote commands, exfiltrating files, recording the screen, executing GUI actions through PyAutoGUI.",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-28T18:21:56.514755+00:00",
+    "campaign_data_modified_at": "2026-04-28T18:21:56.542524+00:00"
+}

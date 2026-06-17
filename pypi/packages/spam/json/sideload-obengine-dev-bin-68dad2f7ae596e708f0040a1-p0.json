@@ -1,0 +1,10 @@
+{
+    "name": "sideload-obengine-dev-bin-68dad2f7ae596e708f0040a1-p0",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-sideload",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-01-22T19:24:25.660826+00:00",
+    "campaign_data_modified_at": "2026-01-22T19:24:25.660839+00:00"
+}

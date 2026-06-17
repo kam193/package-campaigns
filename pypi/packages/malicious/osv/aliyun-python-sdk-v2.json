@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-alibabacloude/aliyun-python-sdk-v2",
+    "published": "2026-02-16T11:28:09.814547+00:00",
+    "modified": "2026-02-16T11:28:09.921390+00:00",
+    "summary": "Malicious code in aliyun-python-sdk-v2 (PyPI)",
+    "details": "Series of packages impersonating Alibaba Cloud. Two oldest hide code to run obfuscated code, but are likely to be used as dependency as the obfuscated code is not inside. The newest describe similar functionality, but the inside is highly obfuscated. Package names closely reassemble names of real Alibaba packages\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-alibabacloude\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - impersonation\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "aliyun-python-sdk-v2",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.13.36"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/aliyun-python-sdk-v2"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

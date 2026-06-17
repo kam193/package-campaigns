@@ -1,0 +1,27 @@
+{
+    "name": "2026-05-cryptolock",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "crypto-helper",
+        "cryptolock",
+        "hell-cipher",
+        "obfuscation"
+    ],
+    "created_at": "2026-05-30",
+    "ioc": [
+        "https://github.com/seIfrighteous/x/releases/download/selfrighteous/setup.exe",
+        "https://tmpfiles.org/dl/wVwFfznUQdRr/main.exe",
+        "https://github.com/seIfrighteous/x/releases/download/selfrighteous/NisSrv.exe",
+        "https://github.com/seIfrighteous/x/releases/download/selfrighteous/MpClient.dll"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/0912542c6e3a6b747a5bb30de22c1b79ead35c5a9a6813dcd8a6056cc312b892/detection"
+    ],
+    "description": "During installation, the code tamper with security settings and downloads and executes malicious executable. "
+}

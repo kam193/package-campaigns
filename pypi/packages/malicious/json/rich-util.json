@@ -1,0 +1,10 @@
+{
+    "name": "rich-util",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-py-requests",
+    "affected_versions": [
+        "0.218.10"
+    ],
+    "campaign_assigned_at": "2026-05-13T15:24:25.670213+00:00",
+    "campaign_data_modified_at": "2026-05-13T15:24:25.704041+00:00"
+}

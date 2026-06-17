@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-empty-dependency-confusion/hunter-cli",
+    "published": "2026-04-29T12:06:46.426309+00:00",
+    "modified": "2026-04-29T12:06:46.569863+00:00",
+    "summary": "Spam code in hunter-cli (PyPI)",
+    "details": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/AirtestProject/Poco/blob/2481259f64c9f9fd4c78a611bd57880558144113/poco/drivers/netease/requirements.txt#L1\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-empty-dependency-confusion\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "hunter-cli",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.6.17"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/hunter-cli"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

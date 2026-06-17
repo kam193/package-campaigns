@@ -1,0 +1,66 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/remottxrea",
+    "published": "2026-02-27T21:25:19.786145+00:00",
+    "modified": "2026-02-27T21:25:19.815839+00:00",
+    "summary": "Highly suspicious code in remottxrea (PyPI)",
+    "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "remottxrea",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.64",
+                "1.0.65",
+                "1.0.66",
+                "1.0.67",
+                "1.0.70",
+                "1.0.71",
+                "1.0.72",
+                "1.0.73",
+                "1.0.74",
+                "1.0.75",
+                "1.0.76",
+                "1.0.77",
+                "1.0.79",
+                "1.0.80",
+                "1.0.81",
+                "1.0.82",
+                "1.0.83",
+                "1.0.84",
+                "1.0.85",
+                "1.0.86",
+                "1.0.88",
+                "1.0.89",
+                "1.0.91",
+                "1.0.92",
+                "1.0.93",
+                "1.0.94",
+                "1.0.95",
+                "1.0.96",
+                "1.0.97",
+                "1.0.98",
+                "1.0.99",
+                "1.0.100"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/remottxrea"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

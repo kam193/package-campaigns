@@ -1,0 +1,10 @@
+{
+    "name": "textwrap-toolkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-ninja-core-utils",
+    "affected_versions": [
+        "1.2.2"
+    ],
+    "campaign_assigned_at": "2026-05-09T19:14:44.323531+00:00",
+    "campaign_data_modified_at": "2026-05-09T19:14:44.357761+00:00"
+}

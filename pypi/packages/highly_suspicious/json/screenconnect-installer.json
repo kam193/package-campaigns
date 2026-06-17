@@ -4,5 +4,6 @@
     "campaign": "GENERIC-other-risky",
     "affected_versions": [
         "0.1.0"
-    ]
+    ],
+    "campaign_data_modified_at": "2026-05-10T09:42:46.225672+00:00"
 }

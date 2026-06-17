@@ -1,0 +1,16 @@
+{
+    "name": "lala6992",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.2.0",
+        "0.3.0",
+        "0.4.0",
+        "0.5.0",
+        "1.0.0",
+        "1.1.0",
+        "1.2.0"
+    ],
+    "campaign_assigned_at": "2026-02-11T16:36:29.211227+00:00",
+    "campaign_data_modified_at": "2026-02-12T06:43:41.292240+00:00"
+}

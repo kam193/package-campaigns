@@ -1,0 +1,17 @@
+{
+    "name": "2026-03-thief-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "exfiltration_env_variables",
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "thief-utils"
+    ],
+    "created_at": "2026-03-13",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, package attempts to exfiltrate cloud credentials and sensitive env variables "
+}

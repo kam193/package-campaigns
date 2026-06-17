@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-cicibot-fix-message-naming",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "cicibot-fix-message-naming"
+    ],
+    "created_at": "2026-02-16",
+    "ioc": [
+        "52.77.142.175"
+    ],
+    "references": [],
+    "description": "Importing the module starts a reverse shell"
+}

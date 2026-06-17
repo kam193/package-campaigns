@@ -1,0 +1,18 @@
+{
+    "name": "2026-05-selfservsweeper",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "obfuscation",
+        "persistence",
+        "remote_commands"
+    ],
+    "packages": [
+        "selfservsweeper"
+    ],
+    "created_at": "2026-05-21",
+    "ioc": [],
+    "references": [],
+    "description": "When used, the package executes remote commands disguised as OCR job requests. "
+}

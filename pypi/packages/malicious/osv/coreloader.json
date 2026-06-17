@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-03-coreloader/coreloader",
+    "published": "2026-03-24T20:07:01.639058+00:00",
+    "modified": "2026-03-24T20:07:01.675649+00:00",
+    "summary": "Malicious code in coreloader (PyPI)",
+    "details": "During importing, code starts a malicious script performing exfiltration of sensitive data and credentials from e.g. browsers and Discord clients to a remote location.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-03-coreloader\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - exfiltration-credentials\n\n\n - exfiltration-browser-data\n\n\n - spyware-like\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "coreloader",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/coreloader"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

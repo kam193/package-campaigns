@@ -27,6 +27,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://www.getsafety.com/blog-posts/extrazip-malware-campaign"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/unizip"
         }
     ],

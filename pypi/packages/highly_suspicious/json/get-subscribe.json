@@ -1,0 +1,19 @@
+{
+    "name": "get-subscribe",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.12",
+        "1.0.14",
+        "1.0.17",
+        "1.0.19",
+        "1.0.23",
+        "1.0.25",
+        "1.0.27",
+        "1.0.29",
+        "1.0.31"
+    ],
+    "campaign_assigned_at": "2026-06-05T01:38:34.647601+00:00",
+    "campaign_data_modified_at": "2026-06-05T01:38:34.744647+00:00"
+}

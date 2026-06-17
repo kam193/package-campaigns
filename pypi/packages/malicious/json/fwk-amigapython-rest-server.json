@@ -1,0 +1,10 @@
+{
+    "name": "fwk-amigapython-rest-server",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-amigapythonupdater",
+    "affected_versions": [
+        "2.13.0"
+    ],
+    "campaign_assigned_at": "2026-03-02T18:48:10.848868+00:00",
+    "campaign_data_modified_at": "2026-03-02T18:48:10.873364+00:00"
+}

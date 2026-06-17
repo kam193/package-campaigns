@@ -1,0 +1,10 @@
+{
+    "name": "kube-node-health",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-kube-health-tools",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-01T11:46:16.409449+00:00",
+    "campaign_data_modified_at": "2026-04-01T11:46:16.456425+00:00"
+}

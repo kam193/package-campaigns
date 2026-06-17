@@ -1,0 +1,16 @@
+{
+    "name": "spaysdata",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-spaysrbdata",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.3.0",
+        "0.4.0",
+        "0.4.2",
+        "0.4.4",
+        "0.4.5"
+    ],
+    "campaign_assigned_at": "2026-06-02T20:44:56.769177+00:00",
+    "campaign_data_modified_at": "2026-06-02T20:45:15.575118+00:00"
+}

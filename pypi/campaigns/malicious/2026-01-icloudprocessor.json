@@ -1,0 +1,18 @@
+{
+    "name": "2026-01-icloudprocessor",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "icloudprocessor"
+    ],
+    "created_at": "2026-01-22",
+    "ioc": [
+        "http://84.21.173.202:5000/api/files",
+        "84.21.173.202"
+    ],
+    "references": [],
+    "description": "During importing, the package starts a thread that exfiltrates user's files "
+}

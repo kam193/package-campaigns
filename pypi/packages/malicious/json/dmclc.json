@@ -1,0 +1,19 @@
+{
+    "name": "dmclc",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "description": "In specific environments, during installation, the package attempts to exfiltrate some basic information using DNS requests and then cover tracks by installing a similarly named package from the local private repository",
+    "affected_versions": [
+        "2.1.0",
+        "2.1.1",
+        "2.1.2",
+        "2.1.3",
+        "2.1.5",
+        "2.1.6",
+        "2.1.7",
+        "2.1.9",
+        "2.1.10"
+    ],
+    "campaign_assigned_at": "2026-03-23T14:05:43.527761+00:00",
+    "campaign_data_modified_at": "2026-03-23T14:05:43.559439+00:00"
+}

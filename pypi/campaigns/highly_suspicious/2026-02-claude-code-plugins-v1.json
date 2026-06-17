@@ -1,0 +1,20 @@
+{
+    "name": "2026-02-claude-code-plugins-v1",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "impersonation",
+        "llm-threat"
+    ],
+    "packages": [
+        "claude-code-plugins-v1",
+        "claude-code-plugins-v2",
+        "motd-claude-code-plugins-v2",
+        "motd-claude-code-plugins-v3",
+        "motd-claude-code-plugins-v4"
+    ],
+    "created_at": "2026-02-20",
+    "ioc": [],
+    "references": [],
+    "description": "Packages most likely impersonate Anthropic and provide plugins for Claude Code, also cloning the official README. However, no malicious content has been found at the time of analysis."
+}

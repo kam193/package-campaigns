@@ -1,0 +1,10 @@
+{
+    "name": "qyrm-pipinject3",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "1.0"
+    ],
+    "campaign_assigned_at": "2026-03-21T15:39:40.773660+00:00",
+    "campaign_data_modified_at": "2026-03-21T15:39:40.798846+00:00"
+}

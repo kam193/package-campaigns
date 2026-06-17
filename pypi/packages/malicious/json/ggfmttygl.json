@@ -1,0 +1,10 @@
+{
+    "name": "ggfmttygl",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-ggfmttygl",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-09T17:29:06.035616+00:00",
+    "campaign_data_modified_at": "2026-05-09T17:29:06.065095+00:00"
+}

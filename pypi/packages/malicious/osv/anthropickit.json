@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-anthropickit/anthropickit",
+    "published": "2026-06-14T01:37:46.973763+00:00",
+    "modified": "2026-06-14T01:37:47.165599+00:00",
+    "summary": "Malicious code in anthropickit (PyPI)",
+    "details": "During installation, the package attempts to exfiltrate sensitive env variables and SSH keys.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-anthropickit\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-ssh-keys\n\n\n - exfiltration-env-variables\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "anthropickit",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "999.9.9"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/anthropickit"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

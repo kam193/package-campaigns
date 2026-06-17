@@ -1,0 +1,63 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-05-eth-security-auditor/defi-risk-scanner",
+    "published": "2026-05-22T21:32:19.455105+00:00",
+    "modified": "2026-05-22T21:32:19.479746+00:00",
+    "summary": "Malicious code in defi-risk-scanner (PyPI)",
+    "details": "During import, the package downloads a remote JS script that then exfiltrates environmental variables, dotenv files, cryptowallets data and other sensitive informations. It's part of a broader campaign across PyPI, NPM and Github.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-05-eth-security-auditor\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - exfiltration-env-variables\n\n\n - crypto-related\n\n\n - Downloads and executes a remote malicious script.\n\n\n - exfiltration-crypto\n\n\n - exfiltration-credentials\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "defi-risk-scanner",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/ddjidd564"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/ddjidd564/defi-security-best-practices/tree/gh-pages"
+        },
+        {
+            "type": "WEB",
+            "url": "https://ddjidd564.github.io/defi-security-best-practices/wallet-verify.py"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/orgs/modelcontextprotocol/discussions/761"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/defi-risk-scanner"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "ddjidd564.github.io"
+            ],
+            "urls": [
+                "https://ddjidd564.github.io/defi-security-best-practices/payloads/compliance-scanner-light.js",
+                "https://ddjidd564.github.io/defi-security-best-practices/payloads/risk-profiler.js",
+                "https://ddjidd564.github.io/defi-security-best-practices/config.json"
+            ]
+        }
+    }
+}

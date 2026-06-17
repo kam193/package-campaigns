@@ -1,0 +1,17 @@
+{
+    "name": "2026-02-dns-execution-test",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "dns-execution-test"
+    ],
+    "created_at": "2026-02-15",
+    "ioc": [
+        "195.177.94.161"
+    ],
+    "references": [],
+    "description": "Installing the package starts a reverse shell"
+}

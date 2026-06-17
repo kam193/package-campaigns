@@ -1,0 +1,37 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-old-Smann23/htjson",
+    "published": "2026-02-15T21:46:33.355053+00:00",
+    "modified": "2026-02-15T21:46:33.454676+00:00",
+    "summary": "Spam code in htjson (PyPI)",
+    "details": "Packages depend on a removed one, and each release has 100k to 500k meaningless files (numbers or the same imports). There is no functional code inside.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-old-Smann23\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "htjson",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.173800009",
+                "0.1.173800130",
+                "0.1.173800845"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/htjson"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

@@ -3,7 +3,8 @@
     "ecosystem": "pypi",
     "campaign": "GENERIC-other-risky",
     "affected_versions": [
-        "1.7.2"
+        "1.7.2",
+        "2.0.0"
     ],
-    "campaign_data_modified_at": "2025-10-02T21:28:30.071417+00:00"
+    "campaign_data_modified_at": "2026-03-22T16:35:08.690742+00:00"
 }

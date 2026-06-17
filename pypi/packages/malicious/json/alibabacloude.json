@@ -1,0 +1,11 @@
+{
+    "name": "alibabacloude",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-alibabacloude",
+    "affected_versions": [
+        "2.2.0",
+        "2.13.37"
+    ],
+    "campaign_assigned_at": "2026-02-16T11:20:53.167184+00:00",
+    "campaign_data_modified_at": "2026-02-16T11:20:53.197975+00:00"
+}

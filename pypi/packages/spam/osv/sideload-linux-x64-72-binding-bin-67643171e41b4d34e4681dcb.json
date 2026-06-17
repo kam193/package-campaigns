@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-sideload/sideload-linux-x64-72-binding-bin-67643171e41b4d34e4681dcb",
+    "published": "2026-01-22T19:23:50.624610+00:00",
+    "modified": "2026-01-22T19:23:50.624624+00:00",
+    "summary": "Spam code in sideload-linux-x64-72-binding-bin-67643171e41b4d34e4681dcb (PyPI)",
+    "details": "Packages abuse PyPI infrastructure to transfer big files\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-02-sideload\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "sideload-linux-x64-72-binding-bin-67643171e41b4d34e4681dcb",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/sideload-linux-x64-72-binding-bin-67643171e41b4d34e4681dcb"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

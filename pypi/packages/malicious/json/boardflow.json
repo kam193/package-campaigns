@@ -1,0 +1,11 @@
+{
+    "name": "boardflow",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-boardflow",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-17T21:12:22.931669+00:00",
+    "campaign_data_modified_at": "2026-06-17T21:12:22.966397+00:00"
+}

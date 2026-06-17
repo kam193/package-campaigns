@@ -1,0 +1,11 @@
+{
+    "name": "funkratov-renderkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-renderctx",
+    "description": "Package is prepared to exfiltrate .log and .txt files to the target already associated with exfiltrating sensitive data.",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-01T14:14:02.765965+00:00",
+    "campaign_data_modified_at": "2026-05-01T14:14:02.795024+00:00"
+}

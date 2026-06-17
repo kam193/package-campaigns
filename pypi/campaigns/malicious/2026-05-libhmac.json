@@ -1,0 +1,19 @@
+{
+    "name": "2026-05-libhmac",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_crypto"
+    ],
+    "packages": [
+        "hmacsync",
+        "libhmac"
+    ],
+    "created_at": "2026-05-20",
+    "ioc": [],
+    "references": [],
+    "description": "The package is a loader of an infostealer that modifies browser extensions to intercept credentials and cryptowallet data. The installation is not automatic, the code is intended to be triggered externally, but includes hardcoded exfiltration target. "
+}

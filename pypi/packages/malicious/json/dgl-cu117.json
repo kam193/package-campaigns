@@ -1,0 +1,11 @@
+{
+    "name": "dgl-cu117",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-ariadne-federation",
+    "affected_versions": [
+        "14.6.0",
+        "16.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-15T09:34:51.093079+00:00",
+    "campaign_data_modified_at": "2026-03-15T09:34:51.118743+00:00"
+}

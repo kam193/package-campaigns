@@ -1,0 +1,10 @@
+{
+    "name": "robloxapi-testy",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-robloxapi-testy",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-17T06:44:38.795323+00:00",
+    "campaign_data_modified_at": "2026-03-17T06:44:38.821938+00:00"
+}

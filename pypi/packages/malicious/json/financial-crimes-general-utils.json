@@ -1,0 +1,11 @@
+{
+    "name": "financial-crimes-general-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-urllib-slim",
+    "description": "In specific environments, during installation, the package attempts to exfiltrate some basic information using DNS requests and then cover tracks by installing a similarly named package from the local private repository",
+    "affected_versions": [
+        "3.9.12"
+    ],
+    "campaign_assigned_at": "2026-03-23T13:56:01.890462+00:00",
+    "campaign_data_modified_at": "2026-03-23T13:56:01.921236+00:00"
+}

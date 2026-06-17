@@ -1,0 +1,11 @@
+{
+    "name": "statssol",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-statssol",
+    "affected_versions": [
+        "0.6.0",
+        "0.7.0"
+    ],
+    "campaign_assigned_at": "2026-02-04T19:47:20.172934+00:00",
+    "campaign_data_modified_at": "2026-02-04T19:47:20.172951+00:00"
+}

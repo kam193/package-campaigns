@@ -1,0 +1,10 @@
+{
+    "name": "workingitme",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-thisismytest123",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-31T04:13:44.455827+00:00",
+    "campaign_data_modified_at": "2026-03-31T04:13:44.483060+00:00"
+}

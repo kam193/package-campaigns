@@ -1,0 +1,10 @@
+{
+    "name": "selfservsweeper",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-selfservsweeper",
+    "affected_versions": [
+        "0.1.7"
+    ],
+    "campaign_assigned_at": "2026-05-21T10:28:36.694125+00:00",
+    "campaign_data_modified_at": "2026-05-21T10:28:36.915892+00:00"
+}

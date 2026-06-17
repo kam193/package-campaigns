@@ -1,0 +1,13 @@
+{
+    "name": "onlinecompile",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Allows download a website and put its content to \"compile(...)\"",
+    "affected_versions": [
+        "0.5.0",
+        "0.5.1",
+        "0.5.2"
+    ],
+    "campaign_assigned_at": "2026-02-04T18:36:05.613063+00:00",
+    "campaign_data_modified_at": "2026-02-04T18:36:05.613084+00:00"
+}

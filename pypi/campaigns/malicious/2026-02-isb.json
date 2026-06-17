@@ -1,0 +1,23 @@
+{
+    "name": "2026-02-isb",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "infostealer",
+        "iritating-computer-activity",
+        "peristence_autorun",
+        "spyware-like"
+    ],
+    "packages": [
+        "isb",
+        "myproject-bola"
+    ],
+    "created_at": "2026-02-28",
+    "ioc": [],
+    "references": [],
+    "description": "Starting the module initiates an infostealer with a Telegram bot and RAT-like functionality and hardcoded credentials. The code automatically adds itself to autostart, collects some credentials, and also awaits further commands. The code is capable of exfiltrating browser data, files, taking screenshots, recording audio and modifying some system configurations.  "
+}

@@ -4,5 +4,6 @@
     "campaign": "SCRIPT_KIDDIE-exploring-suspicious-behaviour",
     "affected_versions": [
         "99.99.4"
-    ]
+    ],
+    "campaign_data_modified_at": "2026-02-12T02:38:16.536299+00:00"
 }

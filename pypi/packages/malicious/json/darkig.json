@@ -1,0 +1,12 @@
+{
+    "name": "darkig",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-old-nai",
+    "description": "Instagram hacking tool that also forces the user to follow hardcoded accounts.",
+    "affected_versions": [
+        "1.0",
+        "2.0"
+    ],
+    "campaign_assigned_at": "2026-03-13T10:50:53.195667+00:00",
+    "campaign_data_modified_at": "2026-03-13T10:50:53.220927+00:00"
+}

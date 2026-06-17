@@ -1,0 +1,10 @@
+{
+    "name": "vfat",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-vfat",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-19T06:23:14.476056+00:00",
+    "campaign_data_modified_at": "2026-05-19T06:23:14.602056+00:00"
+}

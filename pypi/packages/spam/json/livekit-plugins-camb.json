@@ -1,0 +1,12 @@
+{
+    "name": "livekit-plugins-camb",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside. Target: https://github.com/skyerider/livekit-agents/blob/93a4fe1c83d424c6da85dad89407799e62f194ae/livekit-plugins/livekit-plugins-camb/pyproject.toml#L6",
+    "affected_versions": [
+        "1.3.13",
+        "2.7.8"
+    ],
+    "campaign_assigned_at": "2026-04-29T11:09:47.433870+00:00",
+    "campaign_data_modified_at": "2026-04-29T11:09:47.469096+00:00"
+}

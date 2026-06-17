@@ -11,6 +11,8 @@
         "aiogrem",
         "formater",
         "graponater",
+        "marshel",
+        "marshl",
         "pycolorom",
         "pyrogrem",
         "pyrogrom",
@@ -21,16 +23,28 @@
         "speed-testing-vps",
         "speedd-testing-bot",
         "telebot-bot",
+        "telebot-infe",
+        "telebot-infee",
+        "telebot-info",
+        "telebot-infoe",
+        "telebot-infoo",
         "telegrem",
-        "telegreph"
+        "telegreph",
+        "urlsser",
+        "urlssser",
+        "urlsssser"
     ],
     "created_at": "2025-10-28",
     "ioc": [
         "https://pastebin.com/raw/xAT1vudj",
         "https://i7trak-id3i.onrender.com",
         "https://pastebin.com/raw/M3Rh68JJ",
-        "https://pastebin.com/raw/77tXxA1d"
+        "https://pastebin.com/raw/77tXxA1d",
+        "https://pastebin.com/raw/PSPYUQTt",
+        "server-unlock-hack.onrender.com"
     ],
-    "references": [],
+    "references": [
+        "https://www.getsafety.com/blog-posts/telegrem-bot-malware"
+    ],
     "description": "The package, distinguished as a speed testing or typosquatted Telegram library, contains a Telegram bot to perform remote control of the computer "
 }

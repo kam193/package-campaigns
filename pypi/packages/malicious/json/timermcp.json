@@ -1,0 +1,10 @@
+{
+    "name": "timermcp",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-process-support",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-05-02T03:14:57.990080+00:00",
+    "campaign_data_modified_at": "2026-05-02T03:15:29.668516+00:00"
+}

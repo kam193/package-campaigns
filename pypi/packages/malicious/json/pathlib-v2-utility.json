@@ -1,0 +1,11 @@
+{
+    "name": "pathlib-v2-utility",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-pathfiles",
+    "affected_versions": [
+        "1.0.4",
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-02-03T09:17:38.260829+00:00",
+    "campaign_data_modified_at": "2026-02-03T09:17:38.260848+00:00"
+}

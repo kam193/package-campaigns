@@ -16,7 +16,7 @@
         "https://store9.gofile.io/download/web/354c4da7-4bcb-4186-9d47-847d7a0553c2/folder.zip"
     ],
     "references": [
-        "URL: https://tria.ge/241228-3gv5jsvqhn/behavioral1"
+        "https://tria.ge/241228-3gv5jsvqhn/behavioral1"
     ],
     "description": "During installation or importing, the package downloads a small executable and register autostart of its. While it's hard to get the full activity of the executable, it does download what appears to be an encrypted data from GitHub repo full of suspicious files, including bitcoin miners. "
 }

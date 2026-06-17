@@ -1,0 +1,12 @@
+{
+    "name": "pokee-data-utils",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "description": "Package demonstrates a supply chain PoC via exploiting locally accessible files and thus abuses the no-security-research policy. The data is not directly exfiltrated, but appears to be made accessible via the service UI.",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-14T21:22:30.189556+00:00",
+    "campaign_data_modified_at": "2026-06-14T21:22:30.242219+00:00"
+}

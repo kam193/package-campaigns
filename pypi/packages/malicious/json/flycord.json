@@ -1,0 +1,10 @@
+{
+    "name": "flycord",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-flycord",
+    "affected_versions": [
+        "1.2.4"
+    ],
+    "campaign_assigned_at": "2026-02-26T15:38:34.464603+00:00",
+    "campaign_data_modified_at": "2026-02-26T15:38:34.491230+00:00"
+}

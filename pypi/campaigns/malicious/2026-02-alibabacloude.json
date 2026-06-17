@@ -1,0 +1,19 @@
+{
+    "name": "2026-02-alibabacloude",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "obfuscation",
+        "typosquatting"
+    ],
+    "packages": [
+        "alibabacloud-code-tool",
+        "alibabacloude",
+        "aliyun-python-sdk-v2"
+    ],
+    "created_at": "2026-02-16",
+    "ioc": [],
+    "references": [],
+    "description": "Series of packages impersonating Alibaba Cloud. Two oldest hide code to run obfuscated code, but are likely to be used as dependency as the obfuscated code is not inside. The newest describe similar functionality, but the inside is highly obfuscated. Package names closely reassemble names of real Alibaba packages"
+}

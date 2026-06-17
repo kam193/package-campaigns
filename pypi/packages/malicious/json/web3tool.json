@@ -1,0 +1,15 @@
+{
+    "name": "web3tool",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-old-ethrpc-keys",
+    "affected_versions": [
+        "6.6.1",
+        "6.6.2",
+        "6.6.3",
+        "6.6.4",
+        "6.6.5",
+        "6.6.6"
+    ],
+    "campaign_assigned_at": "2026-02-19T23:53:33.170155+00:00",
+    "campaign_data_modified_at": "2026-02-19T23:53:33.273996+00:00"
+}

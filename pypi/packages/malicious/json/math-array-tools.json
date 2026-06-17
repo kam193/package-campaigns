@@ -1,0 +1,10 @@
+{
+    "name": "math-array-tools",
+    "ecosystem": "pypi",
+    "campaign": "2025-06-alembic-util",
+    "affected_versions": [
+        "0.250.211"
+    ],
+    "campaign_assigned_at": "2026-05-13T20:07:56.789168+00:00",
+    "campaign_data_modified_at": "2026-05-13T20:11:05.873171+00:00"
+}

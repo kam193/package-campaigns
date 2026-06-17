@@ -1,0 +1,19 @@
+{
+    "name": "pycryptoshuffle",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.6",
+        "1.0.7",
+        "1.0.8",
+        "1.0.9",
+        "1.1.0",
+        "1.1.1"
+    ],
+    "campaign_assigned_at": "2026-05-31T01:14:33.049222+00:00",
+    "campaign_data_modified_at": "2026-05-31T01:14:33.137420+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "request-httpx-4",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-request-httpx-4",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-02-23T12:37:17.576586+00:00",
+    "campaign_data_modified_at": "2026-02-23T12:37:17.706968+00:00"
+}

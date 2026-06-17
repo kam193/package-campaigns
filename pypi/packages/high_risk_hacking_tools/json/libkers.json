@@ -1,0 +1,12 @@
+{
+    "name": "libkers",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.0.1.1",
+        "0.0.2.1",
+        "0.0.2.2"
+    ],
+    "campaign_assigned_at": "2026-02-15T12:40:16.425591+00:00",
+    "campaign_data_modified_at": "2026-02-15T12:40:16.457912+00:00"
+}

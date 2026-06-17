@@ -1,0 +1,26 @@
+{
+    "name": "liblxml3",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "This is a telegram bot to manage Torrent mirror, under a typosquatted name for better cover",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7",
+        "1.8",
+        "1.9",
+        "2.0",
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5",
+        "2.6",
+        "2.7"
+    ],
+    "campaign_assigned_at": "2026-03-21T10:20:51.940673+00:00",
+    "campaign_data_modified_at": "2026-03-21T10:20:51.973733+00:00"
+}

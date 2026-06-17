@@ -1,0 +1,26 @@
+{
+    "name": "2026-02-pywin-simple-gui",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "impersonation",
+        "modify-system-without-consent",
+        "remote_executable"
+    ],
+    "packages": [
+        "easyreg",
+        "pywin-simple-gui"
+    ],
+    "created_at": "2026-02-17",
+    "ioc": [
+        "http://loejfrw2.ignorelist.com/opt/adm/lct/util32X.exe",
+        "http://loejfrw2.ignorelist.com/opt/adm/lct/Mont.txt",
+        "loejfrw2.ignorelist.com"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/1d26323ed3271a04242cb9054eb2ea2c52fb64a971cff9affa38d55e02cd50d2/detection",
+        "https://tria.ge/260217-2y4mksat6h/behavioral1"
+    ],
+    "description": "The package pretends to be a development helper but, in fact, downloads a remote executable. Dynamic analysis reveals actions like disabling Windows Defender and interest in cryptocurrencies as well as using Telegram as C2."
+}

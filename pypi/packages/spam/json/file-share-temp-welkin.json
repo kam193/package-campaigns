@@ -1,0 +1,10 @@
+{
+    "name": "file-share-temp-welkin",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-file-hosting-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-04-28T18:28:04.780317+00:00",
+    "campaign_data_modified_at": "2026-04-28T18:28:04.813649+00:00"
+}

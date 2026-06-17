@@ -8,6 +8,7 @@
         "exfiltration_generic"
     ],
     "packages": [
+        "amazon-boto",
         "aws-enumerate",
         "aws-enumerateiam",
         "enumeratiam",

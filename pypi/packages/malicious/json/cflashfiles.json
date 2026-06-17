@@ -1,0 +1,12 @@
+{
+    "name": "cflashfiles",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-old-cflashfiles",
+    "affected_versions": [
+        "2.1",
+        "2.2",
+        "2.3"
+    ],
+    "campaign_assigned_at": "2026-01-22T20:58:55.732864+00:00",
+    "campaign_data_modified_at": "2026-01-22T21:00:29.269456+00:00"
+}

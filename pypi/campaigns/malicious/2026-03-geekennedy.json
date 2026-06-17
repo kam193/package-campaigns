@@ -1,0 +1,23 @@
+{
+    "name": "2026-03-geekennedy",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "through_dependency"
+    ],
+    "packages": [
+        "gcpipwrap",
+        "indpack",
+        "nspack",
+        "reqpack",
+        "tui-ascii-art"
+    ],
+    "created_at": "2026-03-20",
+    "ioc": [
+        "1r.vc",
+        "gcloudns.net"
+    ],
+    "references": [],
+    "description": "These packages are used as build dependencies of malicious packages in newer waves of the campaign 2026-02-urllib-slim. They are used to split the malicious action between dependencies and are not malicious alone, but are used together to: exfiltrate information through DNS, collect information about the processes and covering tracks by installing packages from local private repositories.\n\nPackage nspack additionally notifies upon importing a domain known for malicious activity with the package and hostname."
+}

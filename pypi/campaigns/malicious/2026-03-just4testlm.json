@@ -1,0 +1,21 @@
+{
+    "name": "2026-03-just4testlm",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "remote_script"
+    ],
+    "packages": [
+        "just4testlm"
+    ],
+    "created_at": "2026-04-09",
+    "ioc": [
+        "https://just4testlm.tos-cn-hongkong.volces.com/run.sh",
+        "just4testlm.tos-cn-hongkong.volces.com",
+        "pipi.8d90982c.cdn.cloudops.ink",
+        "cloudops.ink"
+    ],
+    "references": [],
+    "description": "The package likely tests different malicious techniques and delivering payload in setup.py. Different versions, like 0.1.0, 0.4.0 or 0.9.0 contain malicious payload in setup.py that either run remote script or exfiltrate env variables during installation. The malicious versions are also quickly removed and replaced with versions without malicious code."
+}

@@ -1,0 +1,10 @@
+{
+    "name": "hell-cipher",
+    "ecosystem": "pypi",
+    "campaign": "2026-05-cryptolock",
+    "affected_versions": [
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-05-31T02:13:34.834945+00:00",
+    "campaign_data_modified_at": "2026-05-31T02:13:34.957987+00:00"
+}

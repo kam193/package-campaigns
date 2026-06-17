@@ -1,0 +1,10 @@
+{
+    "name": "trongapy",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-12T07:33:10.807853+00:00",
+    "campaign_data_modified_at": "2026-06-12T07:33:11.043504+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "fetchapi-syncdata-pypi",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-fetch-data-api-syncapi",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-04-28T18:46:19.705615+00:00",
+    "campaign_data_modified_at": "2026-04-28T18:46:19.734363+00:00"
+}

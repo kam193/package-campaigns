@@ -1,0 +1,43 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-01-old-terminalbrush/terminalbrush",
+    "published": "2026-01-21T19:31:32.049030+00:00",
+    "modified": "2026-01-21T19:31:32.049047+00:00",
+    "summary": "Malicious code in terminalbrush (PyPI)",
+    "details": "Package downloads an executable, places it distinguished as a Python binary and starts it. At the time of analysis, the URL was no longer active, so it was not possible to confirm the exact behaviour.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-01-old-terminalbrush\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "terminalbrush",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1",
+                "0.2.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/terminalbrush"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://free-proxies.cloud/download"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "google-search-result",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "2.4.3"
+    ],
+    "campaign_assigned_at": "2026-02-12T23:35:33.503974+00:00",
+    "campaign_data_modified_at": "2026-02-12T23:35:33.504050+00:00"
+}

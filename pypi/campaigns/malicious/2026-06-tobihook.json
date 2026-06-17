@@ -1,0 +1,22 @@
+{
+    "name": "2026-06-tobihook",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "remote_script",
+        "tool:mshta"
+    ],
+    "packages": [
+        "tobihook"
+    ],
+    "created_at": "2026-06-17",
+    "ioc": [
+        "https://quitlag.com",
+        "quitlag.com"
+    ],
+    "references": [
+        "https://urlscan.io/result/019ea71c-9937-7139-a2f7-8ede7361bd72/"
+    ],
+    "description": "Code contains lightly obfuscated commands executing remote scripts using mshta utility. The code does not contain any different functionality and the target URL is already flagged as potentially dangerous. "
+}

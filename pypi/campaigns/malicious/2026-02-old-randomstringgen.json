@@ -1,0 +1,16 @@
+{
+    "name": "2026-02-old-randomstringgen",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "randomstringgen"
+    ],
+    "created_at": "2026-02-28",
+    "ioc": [],
+    "references": [],
+    "description": "Using the provided function results in exfiltrating the current running file (likely the user's script) to the hardcoded location."
+}

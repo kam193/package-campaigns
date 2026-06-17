@@ -1,0 +1,10 @@
+{
+    "name": "solana-api",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-pipipipi",
+    "affected_versions": [
+        "2.33.0"
+    ],
+    "campaign_assigned_at": "2026-03-27T16:44:41.665390+00:00",
+    "campaign_data_modified_at": "2026-03-27T16:44:41.689956+00:00"
+}

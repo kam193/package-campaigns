@@ -1,0 +1,12 @@
+{
+    "name": "python-anchor",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-ariadne-federation",
+    "affected_versions": [
+        "13.3.0",
+        "14.6.0",
+        "15.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-15T09:34:12.321130+00:00",
+    "campaign_data_modified_at": "2026-03-15T09:34:12.352649+00:00"
+}

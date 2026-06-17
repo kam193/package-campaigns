@@ -1,0 +1,20 @@
+{
+    "name": "2026-04-mylib-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "mylib-utils"
+    ],
+    "created_at": "2026-04-18",
+    "ioc": [
+        "https://github.com/mathhosting/rv/releases/download/dfea/scaring.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/8940de7a6d555e91bff304bb1ed30ecd6ee94e9ab231078db51cca95e117e290/detection"
+    ],
+    "description": "During import, a remote executable is automatically started. During analysis, the executable only showed a basic message. It's likely experimenting with malicious techniques to prepare for real malicious action."
+}

@@ -1,0 +1,14 @@
+{
+    "name": "claude-code-plugins-v1",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-claude-code-plugins-v1",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-02-20T11:15:06.475107+00:00",
+    "campaign_data_modified_at": "2026-02-20T11:15:06.580742+00:00"
+}

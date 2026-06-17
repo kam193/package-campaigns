@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/xattn",
+    "published": "2026-04-29T12:37:36.864607+00:00",
+    "modified": "2026-04-29T12:37:36.893010+00:00",
+    "summary": "Highly suspicious code in xattn (PyPI)",
+    "details": "Package appears to be an attempt to mimic a ML function from https://github.com/mit-han-lab/Block-Sparse-Attention/blob/49d6c39e4dc0303442cda3bb758b3925d4399c49/block_sparse_attn/block_sparse_attn_interface.py#L451 and exfiltrate the provided data. While it's unclear what the exact goal is, other packages from the user are dependency confusion attempts.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "xattn",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "5.1.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/xattn"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

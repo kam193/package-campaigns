@@ -1,0 +1,12 @@
+{
+    "name": "fastpi",
+    "ecosystem": "pypi",
+    "campaign": "2026-01-fastpi",
+    "affected_versions": [
+        "0.128.0",
+        "0.128.1",
+        "0.128.2"
+    ],
+    "campaign_assigned_at": "2026-01-30T23:26:42.403413+00:00",
+    "campaign_data_modified_at": "2026-01-30T23:30:09.271290+00:00"
+}

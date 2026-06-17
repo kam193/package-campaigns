@@ -1,0 +1,12 @@
+{
+    "name": "mnemoniclib",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-mnemoniclib",
+    "affected_versions": [
+        "0.20.1",
+        "0.21.1",
+        "0.22.1"
+    ],
+    "campaign_assigned_at": "2026-03-30T12:02:35.586366+00:00",
+    "campaign_data_modified_at": "2026-03-30T12:02:35.616053+00:00"
+}

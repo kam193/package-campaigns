@@ -1,0 +1,13 @@
+{
+    "name": "talebot",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package allows remote command execution through a Telegram bot, but no known usage. Can be used to maintain remote access.",
+    "affected_versions": [
+        "1.0.0",
+        "3.0.0",
+        "3.0.1"
+    ],
+    "campaign_assigned_at": "2026-02-07T21:47:19.622782+00:00",
+    "campaign_data_modified_at": "2026-02-07T21:47:19.622801+00:00"
+}

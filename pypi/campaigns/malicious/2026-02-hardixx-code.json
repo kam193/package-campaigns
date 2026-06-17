@@ -1,0 +1,15 @@
+{
+    "name": "2026-02-hardixx-code",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "hardixx-code"
+    ],
+    "created_at": "2026-02-08",
+    "ioc": [],
+    "references": [],
+    "description": "Version 1.0.2 introduced loading obfuscated code during importing the module. However, distributions uploaded to PyPI lack the necessary file storing the code. It may either be a packaging issue or the dangerous content is supposed to be delivered via another channel to selected targets."
+}

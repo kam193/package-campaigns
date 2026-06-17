@@ -1,0 +1,13 @@
+{
+    "name": "vulndify-mcp-server",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "The provided MCP server allows very risky operations like executing remote code. It seems to be a demonstration of unsafe development",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.3.0"
+    ],
+    "campaign_assigned_at": "2026-05-22T13:04:58.934840+00:00",
+    "campaign_data_modified_at": "2026-05-22T13:04:59.074166+00:00"
+}

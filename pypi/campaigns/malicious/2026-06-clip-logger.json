@@ -1,0 +1,24 @@
+{
+    "name": "2026-06-clip-logger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_stealing",
+        "crypto-related"
+    ],
+    "packages": [
+        "bittensor-burn",
+        "bittensor-burn-alert",
+        "bittensor-burn-message",
+        "bittensor-burn-monitor",
+        "bittensor-burn-watch",
+        "bittensor-emission-tracker",
+        "bt-burn-watch",
+        "clip-logger",
+        "tao-subnet-metrics"
+    ],
+    "created_at": "2026-06-07",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains code to steal clipboard content to a predefined remote location. If run in the right way, the code will periodically check the clipboard and if the content matches the pattern, exfiltrates it. The targeted data are likely cryptocurrency secret seed phrases."
+}

@@ -7,10 +7,11 @@
     ],
     "packages": [
         "paolog-pynecraft",
-        "utils-hex"
+        "utils-hex",
+        "xsolo"
     ],
     "created_at": "2024-11-23",
     "ioc": [],
     "references": [],
-    "description": "Packages that look highly suspicious, with the main concern being the obfuscation and lack of clear signs that they are legit. This makes the false positive rate relatively high."
+    "description": "Package uses obfuscation to hide its behavior. The description suggests potentially risky behavior, like hacking tools or game cheats."
 }

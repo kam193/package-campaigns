@@ -1,0 +1,26 @@
+{
+    "name": "GENERIC-empty-dependency-confusion",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "dependency-confusion",
+        "typosquatting"
+    ],
+    "packages": [
+        "airtest-hunter",
+        "brainpp",
+        "calvin-env",
+        "hunter-cli",
+        "lc-agent",
+        "lc-agent-aiq",
+        "lc-agent-rag-modifiers",
+        "libprotobufffff",
+        "livekit-plugins-camb",
+        "process-stats-exporter",
+        "tensorflow-utils"
+    ],
+    "created_at": "2026-04-29",
+    "ioc": [],
+    "references": [],
+    "description": "Clear dependency confusion / typosquatting against non-PyPI packages without any code inside."
+}

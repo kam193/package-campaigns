@@ -1,0 +1,10 @@
+{
+    "name": "rblx-https",
+    "ecosystem": "pypi",
+    "campaign": "2026-03-roboat-addition",
+    "affected_versions": [
+        "2.4.0"
+    ],
+    "campaign_assigned_at": "2026-04-29T23:24:14.489198+00:00",
+    "campaign_data_modified_at": "2026-04-29T23:25:41.822027+00:00"
+}

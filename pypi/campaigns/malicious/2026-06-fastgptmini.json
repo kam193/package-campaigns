@@ -1,0 +1,24 @@
+{
+    "name": "2026-06-fastgptmini",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "obfuscation",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "fastgptmini"
+    ],
+    "created_at": "2026-06-15",
+    "ioc": [
+        "https://tmpfiles.org/dl/wNwdULF0K8NS/vwchmx.txt",
+        "https://tmpfiles.org/dl/wowPUtiVvUPO/pythoninstallmanager.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/ZjYxZmY4ZjFhNjIxMzI2ZTY1NmUxNThkMWNlYTE0M2M6MTc4MTUyMzQzMw==",
+        "https://www.virustotal.com/gui/file/9e731bb85408c1b34c5f7fd6518b3590983ac5e95793dee0f1af390ac288ed47/detection"
+    ],
+    "description": "During installation, the code downloads an obfuscated script, which attempts to tamper with Defender exclusions paths and then downloads a malicious executable"
+}

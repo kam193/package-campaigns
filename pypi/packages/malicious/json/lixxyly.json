@@ -1,0 +1,10 @@
+{
+    "name": "lixxyly",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-sher-net",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-04-17T10:53:13.904117+00:00",
+    "campaign_data_modified_at": "2026-04-17T10:53:14.030633+00:00"
+}

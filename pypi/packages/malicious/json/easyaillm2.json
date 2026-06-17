@@ -1,0 +1,14 @@
+{
+    "name": "easyaillm2",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "affected_versions": [
+        "2.0.16",
+        "2.0.17",
+        "2.0.18",
+        "2.0.67",
+        "2.0.68"
+    ],
+    "campaign_assigned_at": "2026-06-14T08:18:13.055258+00:00",
+    "campaign_data_modified_at": "2026-06-14T08:18:13.316317+00:00"
+}

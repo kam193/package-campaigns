@@ -1,0 +1,20 @@
+{
+    "name": "2026-01-coolpackage2323",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "coolpackage2323"
+    ],
+    "created_at": "2026-01-21",
+    "ioc": [
+        "https://files.catbox.moe/xizzpo.png"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/87304b42c698bfba120c67d62e9aca6ebde5cfc3dc5dc52475a2e67cea239fde?nocache=1"
+    ],
+    "description": "During installation and importing the module, the package silently downloads malware "
+}

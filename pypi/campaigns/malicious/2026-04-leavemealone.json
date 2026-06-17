@@ -1,0 +1,15 @@
+{
+    "name": "2026-04-leavemealone",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation"
+    ],
+    "packages": [
+        "leavemealone"
+    ],
+    "created_at": "2026-04-20",
+    "ioc": [],
+    "references": [],
+    "description": "During building the package, it executes encrypted code. The content is unclear as the decryption key bases on the local environment variable. Given leaving a \"flag\" file at the end, this package can also be part of a CTF-like exercise, but it's not possible to be sure given the encrypted payload."
+}

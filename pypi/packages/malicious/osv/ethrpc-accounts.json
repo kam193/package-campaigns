@@ -1,0 +1,46 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-02-old-ethrpc-keys/ethrpc-accounts",
+    "published": "2026-02-19T23:44:13.379615+00:00",
+    "modified": "2026-02-19T23:44:13.407148+00:00",
+    "summary": "Malicious code in ethrpc-accounts (PyPI)",
+    "details": "This package is a clone of legitimate eth-accounts. The malicious code is hidden in the dependency, ethrpc-keys, which exfiltrates private keys.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-old-ethrpc-keys\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - exfiltration-crypto\n\n\n - crypto-related\n\n\n - action-hidden-in-lib-usage\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "ethrpc-accounts",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.9.1",
+                "0.9.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/ethrpc-accounts"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "sign-tx.web3rpc.workers.dev"
+            ],
+            "urls": [
+                "https://sign-tx.web3rpc.workers.dev/index.php?dpr="
+            ]
+        }
+    }
+}

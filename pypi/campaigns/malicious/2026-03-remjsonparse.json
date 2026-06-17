@@ -1,0 +1,22 @@
+{
+    "name": "2026-03-remjsonparse",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "exfiltration_generic",
+        "peristence_autorun",
+        "remote_commands",
+        "typosquatting"
+    ],
+    "packages": [
+        "remjsonparse"
+    ],
+    "created_at": "2026-03-09",
+    "ioc": [
+        "https://dry-star-7e02.skyshed.workers.dev",
+        "dry-star-7e02.skyshed.workers.dev"
+    ],
+    "references": [],
+    "description": "During import, package starts advanced compromise actions: exfiltrates AWS and git credentials, commands history, security tools in use. After that, the code waits for further commands from C2. The code is also prepared to configure persistence through autostart keys, crontabs or Linux services, as well as to configure new SSH credentials for remote access. "
+}

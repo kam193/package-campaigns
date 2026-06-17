@@ -1,0 +1,10 @@
+{
+    "name": "bxiucnxcb",
+    "ecosystem": "pypi",
+    "campaign": "2026-04-process-support",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-05-01T00:29:27.022189+00:00",
+    "campaign_data_modified_at": "2026-05-01T00:29:46.859344+00:00"
+}

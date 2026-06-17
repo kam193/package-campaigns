@@ -1,0 +1,22 @@
+{
+    "name": "2026-05-syntaxlogger",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "syntaxlogger"
+    ],
+    "created_at": "2026-05-13",
+    "ioc": [
+        "https://github.com/HokageRegard/excrypto/raw/refs/heads/main/photo_5992346016880986941_y.pngsss",
+        "https://github.com/HokageRegard/excrypto/raw/refs/heads/main/screenshot555.jpgzaza"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/01a722d6122ca15501db6e6c6cddcfb462ec7bc5161ebd482e38b32e283288f4/summary"
+    ],
+    "description": "When using the provided functionality, code silently downloads archives with executables to a location excluded from A scanning, and then executes them. The remote content appears to be a legitimate application manipulated via DLL poisoning to perform malicious actions. "
+}

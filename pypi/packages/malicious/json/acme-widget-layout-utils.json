@@ -1,0 +1,12 @@
+{
+    "name": "acme-widget-layout-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-acme-widget-layout-utils",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3"
+    ],
+    "campaign_assigned_at": "2026-06-11T05:40:39.902700+00:00",
+    "campaign_data_modified_at": "2026-06-11T05:40:39.931561+00:00"
+}

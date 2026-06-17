@@ -1,0 +1,24 @@
+{
+    "name": "2026-05-py-clob-clients",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "crypto-related",
+        "exfiltration_env_variables",
+        "through_dependency",
+        "typosquatting"
+    ],
+    "packages": [
+        "py-clob-clients"
+    ],
+    "created_at": "2026-05-01",
+    "ioc": [
+        "http://135.181.211.196:8787/",
+        "135.181.211.196"
+    ],
+    "references": [
+        "https://github.com/rustyneuron01/Polymarket-Sports-Trading-Bot/blob/8f68304257d2064ddd4e308e16083267e8fe3826/config.py#L9"
+    ],
+    "description": "Package exfiltrates env variables from .env files. It's a typosquatting of a legitimate package and is used in a malicious GitHub repository"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "pcm-python-sdk",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Likely dependency confusion / typosquatting attempt.",
+    "affected_versions": [
+        "0.0.0"
+    ],
+    "campaign_assigned_at": "2026-03-21T19:34:38.455236+00:00",
+    "campaign_data_modified_at": "2026-03-21T19:34:38.483929+00:00"
+}
