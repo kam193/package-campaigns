@@ -5,7 +5,8 @@
     "abuse_categories": [
         "malware",
         "obfuscation",
-        "remote_executable"
+        "remote_executable",
+        "tool:mshta"
     ],
     "packages": [
         "aaaazzzzaz",
