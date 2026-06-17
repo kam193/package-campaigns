@@ -1,0 +1,24 @@
+{
+    "name": "2026-06-pystylish",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "pystylish"
+    ],
+    "created_at": "2026-06-17",
+    "ioc": [
+        "https://goy.mikoz.xyz/boh3.exe",
+        "goy.mikoz.xyz",
+        "mikoz.xyz"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/26486dbb6ee9811ddb3a288554eb80cbe2883069db0fd9f578736c971bcf8db2/detection",
+        "https://hybrid-analysis.com/sample/26486dbb6ee9811ddb3a288554eb80cbe2883069db0fd9f578736c971bcf8db2"
+    ],
+    "description": "Clone of a legitimate package. During import, the code downloads and executes a malicious executable. "
+}

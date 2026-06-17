@@ -1,0 +1,54 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-pystylish/pystylish",
+    "published": "2026-06-17T19:05:58.369009+00:00",
+    "modified": "2026-06-17T19:05:58.408410+00:00",
+    "summary": "Malicious code in pystylish (PyPI)",
+    "details": "Clone of a legitimate package. During import, the code downloads and executes a malicious executable.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-pystylish\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n\n - clones-real-package\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pystylish",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.9"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/26486dbb6ee9811ddb3a288554eb80cbe2883069db0fd9f578736c971bcf8db2/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://hybrid-analysis.com/sample/26486dbb6ee9811ddb3a288554eb80cbe2883069db0fd9f578736c971bcf8db2"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pystylish"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "goy.mikoz.xyz",
+                "mikoz.xyz"
+            ],
+            "urls": [
+                "https://goy.mikoz.xyz/boh3.exe"
+            ]
+        }
+    }
+}
