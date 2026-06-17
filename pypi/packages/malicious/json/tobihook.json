@@ -1,0 +1,10 @@
+{
+    "name": "tobihook",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-tobihook",
+    "affected_versions": [
+        "1.0.4"
+    ],
+    "campaign_assigned_at": "2026-06-17T09:32:21.247901+00:00",
+    "campaign_data_modified_at": "2026-06-17T09:32:21.283072+00:00"
+}
