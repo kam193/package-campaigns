@@ -1,0 +1,22 @@
+{
+    "name": "2026-06-old-randpicker",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "backdoor",
+        "peristence_autorun",
+        "persistence",
+        "remote_commands",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "randpicker"
+    ],
+    "created_at": "2026-06-18",
+    "ioc": [],
+    "references": [
+        "https://opensourcemalware.com/pypi/randpicker"
+    ],
+    "description": "When calling the `Email` function, the code creates a backdoor script and attempts to achieve persistence. The script connects to a Telegram bot and awaits commands to execute."
+}
