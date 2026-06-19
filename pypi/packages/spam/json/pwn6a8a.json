@@ -1,0 +1,10 @@
+{
+    "name": "pwn6a8a",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-19T15:02:14.673370+00:00",
+    "campaign_data_modified_at": "2026-06-19T15:02:14.709258+00:00"
+}
