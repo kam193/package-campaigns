@@ -1,0 +1,24 @@
+{
+    "name": "2026-06-fastercode",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "keylogger",
+        "peristence_autorun",
+        "remote_executable",
+        "spyware-like",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "fastercode"
+    ],
+    "created_at": "2026-06-19",
+    "ioc": [
+        "https://raw.githubusercontent.com/manhhungdev0603/kl.py/refs/heads/main/BackgroundSyncService.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/85b5a4b34b8511367e9c9d230110e55eb811936db0cb6667ced4d25ce2e4d99a/detection"
+    ],
+    "description": "The package contains code to download and run a malicious executable. The executable contains a remote access trojan controlled via Telegram bot, with capabilities like a keylogger, screen recording, command execution. It also attempts to gain persistence via startup registry keys."
+}
