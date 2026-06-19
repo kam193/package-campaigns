@@ -1,0 +1,45 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-django-auth-middleware-plus/django-auth-middleware-plus",
+    "published": "2026-06-19T21:05:32.035116+00:00",
+    "modified": "2026-06-19T21:05:32.071244+00:00",
+    "summary": "Malicious code in django-auth-middleware-plus (PyPI)",
+    "details": "During import, package exfiltrates sensitive enviromental variables, configuration files and establishes persistence via entry in `.bashrc` and similar files.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-django-auth-middleware-plus\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - exfiltration-credentials\n\n\n - exfiltration-env-variables\n\n\n - persistence\n\n\n - files-exfiltration\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "django-auth-middleware-plus",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "99.99.99"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/django-auth-middleware-plus"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "http://4.210.177.128:8080/callback"
+            ],
+            "ips": [
+                "4.210.177.128"
+            ]
+        }
+    }
+}

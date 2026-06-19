@@ -1,0 +1,10 @@
+{
+    "name": "django-auth-middleware-plus",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-django-auth-middleware-plus",
+    "affected_versions": [
+        "99.99.99"
+    ],
+    "campaign_assigned_at": "2026-06-19T21:05:32.035116+00:00",
+    "campaign_data_modified_at": "2026-06-19T21:05:32.071244+00:00"
+}

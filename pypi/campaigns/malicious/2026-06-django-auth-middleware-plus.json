@@ -1,0 +1,22 @@
+{
+    "name": "2026-06-django-auth-middleware-plus",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "files_exfiltration",
+        "persistence"
+    ],
+    "packages": [
+        "django-auth-middleware-plus"
+    ],
+    "created_at": "2026-06-19",
+    "ioc": [
+        "http://4.210.177.128:8080/callback",
+        "4.210.177.128"
+    ],
+    "references": [],
+    "description": "During import, package exfiltrates sensitive enviromental variables, configuration files and establishes persistence via entry in `.bashrc` and similar files. "
+}
