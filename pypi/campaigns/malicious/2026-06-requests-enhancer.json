@@ -1,0 +1,29 @@
+{
+    "name": "2026-06-requests-enhancer",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "obfuscation",
+        "override_install",
+        "remote_commands",
+        "through_dependency"
+    ],
+    "packages": [
+        "requests-enhancer"
+    ],
+    "created_at": "2026-06-20",
+    "ioc": [
+        "https://github.com/codexio-boop/platform_syslib/archive/refs/heads/master.zip",
+        "https://github.com/Hexa-devy/netflow-utils/archive/refs/heads/master.zip",
+        "http://node22.lunes.host:3258/sync?v=",
+        "http://node22.lunes.host:3258/go?n=",
+        "http://node22.lunes.host:22240/update?v="
+    ],
+    "references": [
+        "https://github.com/Hexa-devy/netflow-utils/blob/4f33b53019b11b99889ec860d486d550701f6e9d/pyproject.toml#L35",
+        "https://github.com/codexio-boop/platform_syslib/blob/236340da65e23865eb1a9a6e4ed94d163ae80452/setup.py",
+        "https://github.com/codexio-boop/platform_syslib/blob/236340da65e23865eb1a9a6e4ed94d163ae80452/connkit/__init__.py"
+    ],
+    "description": "Malicious package with a chain of multiple manual dependencies to finally download malicious code. During import, it manually downloads a dependency from GitHub repository \"Hexa-devy/netflow-utils\", which then attempts to download \"codexio-boop/platform_syslib\". The last one contains obfuscated code that during installation connects with node22.lunes[.]host:3258 and downloads encrypted payload. The payload is executed, and it then starts another loop of connections to node22.lunes[.]host:22240 and awaits next payloads to execute. During analysis, this stage did not deliver any payload. On every stage, short-living generated tokens are used."
+}

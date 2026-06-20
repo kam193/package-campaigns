@@ -1,0 +1,10 @@
+{
+    "name": "requests-enhancer",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-requests-enhancer",
+    "affected_versions": [
+        "1.4.2"
+    ],
+    "campaign_assigned_at": "2026-06-20T23:24:02.053879+00:00",
+    "campaign_data_modified_at": "2026-06-20T23:24:02.247136+00:00"
+}
