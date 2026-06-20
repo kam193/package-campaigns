@@ -1,0 +1,20 @@
+{
+    "name": "request-cache-py",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-request-cache-py",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6",
+        "1.0.7",
+        "1.0.8",
+        "1.0.9",
+        "1.1.0"
+    ],
+    "campaign_assigned_at": "2026-06-20T18:47:50.025536+00:00",
+    "campaign_data_modified_at": "2026-06-20T18:49:53.485406+00:00"
+}

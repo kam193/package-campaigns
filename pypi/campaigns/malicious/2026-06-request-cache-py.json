@@ -1,0 +1,27 @@
+{
+    "name": "2026-06-request-cache-py",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys",
+        "impersonation",
+        "infostealer",
+        "sandbox-detection",
+        "through_dependency",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "d0rk3r-telemetry",
+        "request-cache-py"
+    ],
+    "created_at": "2026-06-20",
+    "ioc": [
+        "https://analytics-collector.herokuapp.com/events",
+        "analytics-collector.herokuapp.com"
+    ],
+    "references": [],
+    "description": "During import, package exfiltrates browsers data, SSH keys and other credential files, env variables and other sensitive data."
+}
