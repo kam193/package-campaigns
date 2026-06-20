@@ -1,0 +1,10 @@
+{
+    "name": "fluent-dashboard-panel-metrics",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-acme-widget-layout-utils",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-06-20T01:07:05.696025+00:00",
+    "campaign_data_modified_at": "2026-06-20T01:07:05.776226+00:00"
+}

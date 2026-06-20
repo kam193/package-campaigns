@@ -8,6 +8,7 @@
     "packages": [
         "acme-widget-layout-utils",
         "dash-grid-normalizer",
+        "fluent-dashboard-panel-metrics",
         "fluent-panel-metrics",
         "improvado-layout-panel-metrics"
     ],
