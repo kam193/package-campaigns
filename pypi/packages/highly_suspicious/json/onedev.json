@@ -1,0 +1,11 @@
+{
+    "name": "onedev",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package targets Android devices and ships a Go shared library. On import, it copies itself to `~/.cache/pip/wheels/_cffi_backend.so`. When called with a valid passphrase (verified against a private GitHub C2 repo cr-dex/keylib/keys.md, fetched using an XOR-encrypted PAT), it collects hardware fingerprints (SoC serials, camera fuse IDs, eMMC CIDs, SSAID) and caches them in hidden directories. The fingerprint is also returned to the user. This behaviour is suspicious, but difficult to clearly classify as malicious at the moment (v1.0.0).",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-21T20:09:45.391682+00:00",
+    "campaign_data_modified_at": "2026-06-21T20:09:45.598444+00:00"
+}

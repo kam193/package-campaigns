@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/onedev",
+    "published": "2026-06-21T20:09:45.391682+00:00",
+    "modified": "2026-06-21T20:09:45.598444+00:00",
+    "summary": "Highly suspicious code in onedev (PyPI)",
+    "details": "Package targets Android devices and ships a Go shared library. On import, it copies itself to `~/.cache/pip/wheels/_cffi_backend.so`. When called with a valid passphrase (verified against a private GitHub C2 repo cr-dex/keylib/keys.md, fetched using an XOR-encrypted PAT), it collects hardware fingerprints (SoC serials, camera fuse IDs, eMMC CIDs, SSAID) and caches them in hidden directories. The fingerprint is also returned to the user. This behaviour is suspicious, but difficult to clearly classify as malicious at the moment (v1.0.0).\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "onedev",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/onedev"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
