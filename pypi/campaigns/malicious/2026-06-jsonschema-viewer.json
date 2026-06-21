@@ -1,0 +1,22 @@
+{
+    "name": "2026-06-jsonschema-viewer",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "remote_executable",
+        "remote_script"
+    ],
+    "packages": [
+        "jsonschema-viewer"
+    ],
+    "created_at": "2026-06-21",
+    "ioc": [
+        "49.232.169.67",
+        "http://49.232.169.67:8084/slt"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/bd77582bcc534db6a56f1471f8134296a5f39b90c7ec2761e14e7ccef4667ab4/detection"
+    ],
+    "description": "Package configures an entry point (command line) that executes a remote script. It then downloads a next stage malware, which acts as next dropper for a fileless malware. "
+}
