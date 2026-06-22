@@ -1,0 +1,13 @@
+{
+    "name": "analyticschico",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-analyticschico",
+    "affected_versions": [
+        "0.1.0",
+        "3.0.0",
+        "5.0.1",
+        "5.0.2"
+    ],
+    "campaign_assigned_at": "2026-06-22T16:45:20.139450+00:00",
+    "campaign_data_modified_at": "2026-06-22T16:45:20.262793+00:00"
+}
