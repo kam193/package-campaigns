@@ -1,0 +1,11 @@
+{
+    "name": "inversiones-common",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "99.0.0",
+        "99.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-22T10:56:53.478111+00:00",
+    "campaign_data_modified_at": "2026-06-22T10:56:53.594885+00:00"
+}
