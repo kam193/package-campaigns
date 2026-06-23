@@ -1,0 +1,16 @@
+{
+    "name": "2026-06-ur7",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "native-extension",
+        "remote_executable"
+    ],
+    "packages": [
+        "ur7"
+    ],
+    "created_at": "2026-06-23",
+    "ioc": [],
+    "references": [],
+    "description": "The embeded native module seems to be a loader to execute code hosted on free 42web[.]io hosting. "
+}
