@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-06-ip-rotat/ip-rotat",
-    "published": "2026-06-23T10:23:00.476950+00:00",
-    "modified": "2026-06-23T10:23:00.519394+00:00",
-    "summary": "Malicious code in ip-rotat (PyPI)",
+    "id": "pypi/2026-06-ip-rotat/toorc",
+    "published": "2026-06-23T12:07:57.898363+00:00",
+    "modified": "2026-06-23T12:07:57.927156+00:00",
+    "summary": "Malicious code in toorc (PyPI)",
     "details": "During installation, the package exfiltrates env variables\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-06-ip-rotat\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - exfiltration-env-variables\n\n",
     "affected": [
         {
             "package": {
-                "name": "ip-rotat",
+                "name": "toorc",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -19,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/ip-rotat"
+            "url": "https://bad-packages.kam193.eu/pypi/package/toorc"
         }
     ],
     "credits": [
