@@ -1,0 +1,13 @@
+{
+    "name": "security-alerts-sdk",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-security-alerts-sdk",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3"
+    ],
+    "campaign_assigned_at": "2026-06-23T20:39:38.185932+00:00",
+    "campaign_data_modified_at": "2026-06-23T20:39:38.457304+00:00"
+}
