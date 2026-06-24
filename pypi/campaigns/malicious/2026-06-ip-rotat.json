@@ -4,11 +4,16 @@
     "category": "malicious",
     "abuse_categories": [
         "exfiltration_env_variables",
-        "override_install"
+        "override_install",
+        "typosquatting"
     ],
     "packages": [
+        "ditenv",
         "equest",
+        "fkaks",
+        "gunicorm",
         "ip-rotat",
+        "mcpsever",
         "toorc"
     ],
     "created_at": "2026-06-23",

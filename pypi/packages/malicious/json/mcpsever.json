@@ -1,0 +1,10 @@
+{
+    "name": "mcpsever",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-ip-rotat",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-24T06:39:18.592384+00:00",
+    "campaign_data_modified_at": "2026-06-24T06:39:18.746467+00:00"
+}
