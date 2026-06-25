@@ -1,0 +1,23 @@
+{
+    "name": "2026-06-extra-huggingface",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "infostealer",
+        "native-extension",
+        "persistence",
+        "typosquatting"
+    ],
+    "packages": [
+        "extra-huggingface"
+    ],
+    "created_at": "2026-06-25",
+    "ioc": [
+        "http://91.92.40.212:8080",
+        "91.92.40.212"
+    ],
+    "references": [],
+    "description": "When starting the module, package activates RAT-capabilities, which includes exfiltrating sensitive data. Though the package is claimed to be for educational usage, the name and default actions suggest different intentions. "
+}
