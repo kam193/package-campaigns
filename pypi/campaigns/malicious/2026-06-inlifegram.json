@@ -1,0 +1,21 @@
+{
+    "name": "2026-06-inlifegram",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "action-hidden-in-lib-usage",
+        "backdoor",
+        "clones_real_package",
+        "obfuscation",
+        "remote_commands",
+        "target:telegram"
+    ],
+    "packages": [
+        "inlifegram"
+    ],
+    "created_at": "2026-06-26",
+    "ioc": [],
+    "references": [],
+    "description": "The modified version of a Telegram bot library. The obfuscated code, launched when the user starts their own bot application, attaches malicious backdoor commands to the Telegram bot. They allow hardcoded users to execute any commands in the bot's environment. "
+}

@@ -1,0 +1,11 @@
+{
+    "name": "inlifegram",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-inlifegram",
+    "affected_versions": [
+        "2.1.2.8",
+        "2.1.2.9"
+    ],
+    "campaign_assigned_at": "2026-06-26T10:50:08.882357+00:00",
+    "campaign_data_modified_at": "2026-06-26T10:50:08.993957+00:00"
+}
