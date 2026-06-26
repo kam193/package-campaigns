@@ -1,0 +1,16 @@
+{
+    "name": "2026-06-pdf-converter-pro",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "webhook:telegram"
+    ],
+    "packages": [
+        "pdf-converter-pro"
+    ],
+    "created_at": "2026-06-26",
+    "ioc": [],
+    "references": [],
+    "description": "Package hides code exfiltrating source code files if run as module."
+}

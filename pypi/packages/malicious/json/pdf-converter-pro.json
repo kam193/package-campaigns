@@ -1,0 +1,10 @@
+{
+    "name": "pdf-converter-pro",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-pdf-converter-pro",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-26T20:35:30.244768+00:00",
+    "campaign_data_modified_at": "2026-06-26T20:35:30.274325+00:00"
+}
