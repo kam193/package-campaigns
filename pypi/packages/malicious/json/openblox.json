@@ -1,0 +1,11 @@
+{
+    "name": "openblox",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-easyaillm",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-26T09:19:57.543662+00:00",
+    "campaign_data_modified_at": "2026-06-26T09:19:57.587570+00:00"
+}
