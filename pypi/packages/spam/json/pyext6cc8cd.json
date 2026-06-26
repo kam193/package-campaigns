@@ -1,0 +1,10 @@
+{
+    "name": "pyext6cc8cd",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-06-26T11:46:23.136658+00:00",
+    "campaign_data_modified_at": "2026-06-26T11:46:23.171634+00:00"
+}
