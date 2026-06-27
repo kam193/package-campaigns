@@ -1,0 +1,13 @@
+{
+    "name": "discord-token-generator",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-discord-token-generator",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3"
+    ],
+    "campaign_assigned_at": "2026-06-27T20:52:32.178401+00:00",
+    "campaign_data_modified_at": "2026-06-27T20:52:32.207890+00:00"
+}
