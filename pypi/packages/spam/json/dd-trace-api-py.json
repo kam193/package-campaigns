@@ -1,0 +1,11 @@
+{
+    "name": "dd-trace-api-py",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc-bugbounty",
+    "description": "Package reserves unclaimed name referenced in official documentation. The author clearly defined it as research and identified themselves as a bug bounty hunter.",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-27T21:12:59.997208+00:00",
+    "campaign_data_modified_at": "2026-06-27T21:13:00.036586+00:00"
+}

@@ -6,6 +6,7 @@
         "dependency-confusion"
     ],
     "packages": [
+        "dd-trace-api-py",
         "hex-sl-server",
         "li-pyiceberg",
         "phased-ibd"
