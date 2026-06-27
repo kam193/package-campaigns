@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/vibe-rewards",
     "published": "2026-06-27T17:13:05.570882+00:00",
-    "modified": "2026-06-27T17:13:05.646789+00:00",
+    "modified": "2026-06-27T18:25:29.427821+00:00",
     "summary": "Highly suspicious code in vibe-rewards (PyPI)",
     "details": "Package to add ads to stdout\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -13,7 +13,8 @@
             },
             "versions": [
                 "1.0.0",
-                "1.0.1"
+                "1.0.1",
+                "1.0.2"
             ]
         }
     ],

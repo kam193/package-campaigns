@@ -5,8 +5,9 @@
     "description": "Package to add ads to stdout",
     "affected_versions": [
         "1.0.0",
-        "1.0.1"
+        "1.0.1",
+        "1.0.2"
     ],
     "campaign_assigned_at": "2026-06-27T17:13:05.570882+00:00",
-    "campaign_data_modified_at": "2026-06-27T17:13:05.646789+00:00"
+    "campaign_data_modified_at": "2026-06-27T18:25:29.427821+00:00"
 }
