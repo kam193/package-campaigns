@@ -12,7 +12,8 @@
         "target:telegram"
     ],
     "packages": [
-        "discord-token-generator"
+        "discord-token-generator",
+        "fsociety-tools"
     ],
     "created_at": "2026-06-27",
     "ioc": [
