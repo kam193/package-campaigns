@@ -17,5 +17,5 @@
         "livekit-agents.xyz"
     ],
     "references": [],
-    "description": "This package is a modified, unofficial version of the Nvidia project (https://github.com/NVIDIA/skillspector). The modification is disguised as telemetry. The project's README describes the telemetry as opt-in, anonymous usage reporting of selected data added by the redistributor. In fact the \"telemetry\" uses a default domain suggesting it belongs to Nvidia's LiveKit project and exfiltrates full command arguments on every CLI invocation."
+    "description": "This package is a modified, unofficial version of the Nvidia project (https://github.com/NVIDIA/skillspector). The modification is disguised as telemetry. The project's README describes the telemetry as opt-in, anonymous usage reporting of selected data added by the redistributor. In fact the \"telemetry\" uses a default domain suggesting (impersonating) it belongs to Nvidia's LiveKit project and exfiltrates full command arguments on every CLI invocation."
 }
