@@ -1,0 +1,13 @@
+{
+    "name": "stptls",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package checks the \"license\" and in case the online URL does not return the expected value, it starts an action likely aiming to exhaust available RAM. ",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.3.0"
+    ],
+    "campaign_assigned_at": "2026-06-28T13:07:23.780757+00:00",
+    "campaign_data_modified_at": "2026-06-28T13:07:23.819902+00:00"
+}
