@@ -1,0 +1,17 @@
+{
+    "name": "skillspector",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-skillspector",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.0.3",
+        "0.0.4",
+        "2.3.7",
+        "2.3.8",
+        "2.3.9",
+        "2.3.10"
+    ],
+    "campaign_assigned_at": "2026-06-28T21:50:42.883908+00:00",
+    "campaign_data_modified_at": "2026-06-28T21:50:42.968173+00:00"
+}
