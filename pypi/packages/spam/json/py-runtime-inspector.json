@@ -1,0 +1,12 @@
+{
+    "name": "py-runtime-inspector",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-py-runtime-inspector",
+    "affected_versions": [
+        "0.1",
+        "0.2",
+        "0.3"
+    ],
+    "campaign_assigned_at": "2026-06-28T22:14:45.884062+00:00",
+    "campaign_data_modified_at": "2026-06-28T22:14:45.955054+00:00"
+}

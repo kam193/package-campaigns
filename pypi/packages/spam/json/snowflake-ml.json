@@ -1,0 +1,11 @@
+{
+    "name": "snowflake-ml",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Practically empty dependency confusion against https://pypi.org/project/snowflake-ml-python/",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-28T22:04:57.721251+00:00",
+    "campaign_data_modified_at": "2026-06-28T22:04:57.884919+00:00"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "modelopt-launcher",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "description": "Empty dependency confusion against the Nvidia project not published to PyPI: https://github.com/NVIDIA/Model-Optimizer/blob/f335459dc053895bd7b0a77ecaa47e87c2080ab3/tools/mcp/README.md?plain=1#L82",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-06-28T21:59:34.944149+00:00",
+    "campaign_data_modified_at": "2026-06-28T21:59:35.081919+00:00"
+}

@@ -16,7 +16,9 @@
         "lc-agent-rag-modifiers",
         "libprotobufffff",
         "livekit-plugins-camb",
+        "modelopt-launcher",
         "process-stats-exporter",
+        "snowflake-ml",
         "tensorflow-utils"
     ],
     "created_at": "2026-04-29",

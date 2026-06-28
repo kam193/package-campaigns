@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-empty-dependency-confusion/modelopt-launcher",
+    "published": "2026-06-28T21:59:34.944149+00:00",
+    "modified": "2026-06-28T21:59:35.081919+00:00",
+    "summary": "Spam code in modelopt-launcher (PyPI)",
+    "details": "Empty dependency confusion against the Nvidia project not published to PyPI: https://github.com/NVIDIA/Model-Optimizer/blob/f335459dc053895bd7b0a77ecaa47e87c2080ab3/tools/mcp/README.md?plain=1#L82\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-empty-dependency-confusion\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "modelopt-launcher",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/modelopt-launcher"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

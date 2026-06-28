@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/playweb-node",
     "published": "2026-06-27T15:36:47.639703+00:00",
-    "modified": "2026-06-27T15:36:47.802104+00:00",
+    "modified": "2026-06-28T21:56:55.795421+00:00",
     "summary": "Highly suspicious code in playweb-node (PyPI)",
     "details": "Unknown crypto initiative with high fee split to the network operator.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -12,7 +12,8 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0"
+                "1.0.0",
+                "1.0.2"
             ]
         }
     ],

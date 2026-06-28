@@ -1,0 +1,37 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-py-runtime-inspector/py-runtime-inspector",
+    "published": "2026-06-28T22:14:45.884062+00:00",
+    "modified": "2026-06-28T22:14:45.955054+00:00",
+    "summary": "Spam code in py-runtime-inspector (PyPI)",
+    "details": "The package creates a reverse shell and exfiltrates data from environmental variables. However, the shell target is hardcoded to localhost, suggesting it's a research package.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-06-py-runtime-inspector\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - exfiltration-env-variables\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "py-runtime-inspector",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1",
+                "0.2",
+                "0.3"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/py-runtime-inspector"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-empty-dependency-confusion/snowflake-ml",
+    "published": "2026-06-28T22:04:57.721251+00:00",
+    "modified": "2026-06-28T22:04:57.884919+00:00",
+    "summary": "Spam code in snowflake-ml (PyPI)",
+    "details": "Practically empty dependency confusion against https://pypi.org/project/snowflake-ml-python/\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-empty-dependency-confusion\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "snowflake-ml",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/snowflake-ml"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

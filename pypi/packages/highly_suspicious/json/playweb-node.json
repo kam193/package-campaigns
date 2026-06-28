@@ -4,8 +4,9 @@
     "campaign": "GENERIC-other-risky",
     "description": "Unknown crypto initiative with high fee split to the network operator.",
     "affected_versions": [
-        "1.0.0"
+        "1.0.0",
+        "1.0.2"
     ],
     "campaign_assigned_at": "2026-06-27T15:36:47.639703+00:00",
-    "campaign_data_modified_at": "2026-06-27T15:36:47.802104+00:00"
+    "campaign_data_modified_at": "2026-06-28T21:56:55.795421+00:00"
 }

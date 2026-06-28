@@ -1,0 +1,16 @@
+{
+    "name": "2026-06-py-runtime-inspector",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "revshell"
+    ],
+    "packages": [
+        "py-runtime-inspector"
+    ],
+    "created_at": "2026-06-28",
+    "ioc": [],
+    "references": [],
+    "description": "The package creates a reverse shell and exfiltrates data from environmental variables. However, the shell target is hardcoded to localhost, suggesting it's a research package."
+}
