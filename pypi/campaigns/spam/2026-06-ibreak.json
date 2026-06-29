@@ -1,0 +1,17 @@
+{
+    "name": "2026-06-ibreak",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "ibreak"
+    ],
+    "created_at": "2026-06-29",
+    "ioc": [
+        "yxzmwwye104s9qvr91mx7g8myd44svgk.oastify.com"
+    ],
+    "references": [],
+    "description": "Package attempts to pentest/exploit PyPI itself."
+}
