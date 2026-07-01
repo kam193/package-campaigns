@@ -1,0 +1,11 @@
+{
+    "name": "twrap-tool",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-textwrap-toolkit-stager",
+    "description": "Package is a copy of a previous malicious package, but the remote code URL was not yet active during the analysis. ",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-07-01T21:56:04.712315+00:00",
+    "campaign_data_modified_at": "2026-07-01T21:56:04.748916+00:00"
+}
