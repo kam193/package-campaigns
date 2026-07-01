@@ -1,0 +1,10 @@
+{
+    "name": "testingfetchtime",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-ibreak",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-07-01T21:39:16.827634+00:00",
+    "campaign_data_modified_at": "2026-07-01T21:39:16.971931+00:00"
+}

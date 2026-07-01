@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-06-ibreak/testingfetchtime",
+    "published": "2026-07-01T21:39:16.827634+00:00",
+    "modified": "2026-07-01T21:39:16.971931+00:00",
+    "summary": "Spam code in testingfetchtime (PyPI)",
+    "details": "Package attempts to pentest/exploit PyPI itself.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-06-ibreak\n\n\nReasons (based on the campaign):\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "testingfetchtime",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/testingfetchtime"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "yxzmwwye104s9qvr91mx7g8myd44svgk.oastify.com"
+            ]
+        }
+    }
+}
