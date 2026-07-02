@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "packages": [
+        "aiossh",
         "aliyun-akless-credential-provider-python-sdk",
         "aliyun-akless-idp-python-sdk",
         "amirhoshein",
