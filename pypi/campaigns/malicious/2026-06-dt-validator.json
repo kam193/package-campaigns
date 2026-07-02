@@ -1,0 +1,19 @@
+{
+    "name": "2026-06-dt-validator",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "remote_script"
+    ],
+    "packages": [
+        "dt-validator"
+    ],
+    "created_at": "2026-07-02",
+    "ioc": [
+        "https://file-api.free.beeceptor.com",
+        "file-api.free.beeceptor.com"
+    ],
+    "references": [],
+    "description": "Code contains a function to execute remote code, which at the time of analysis was extracting the \"auth_user\" table from Django DB. The remote code execution is partially documented and disguised with multiple warnings, but a) the 'convenience function' uses a hardcoded endpoint and loads results to the global namespace, b) the warnings are silenced by default. "
+}

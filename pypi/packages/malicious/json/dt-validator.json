@@ -1,0 +1,10 @@
+{
+    "name": "dt-validator",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-dt-validator",
+    "affected_versions": [
+        "0.3.0"
+    ],
+    "campaign_assigned_at": "2026-07-02T17:39:30.567097+00:00",
+    "campaign_data_modified_at": "2026-07-02T17:39:30.601056+00:00"
+}
