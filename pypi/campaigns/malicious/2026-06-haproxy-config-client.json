@@ -1,0 +1,37 @@
+{
+    "name": "2026-06-haproxy-config-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "covering-tracks",
+        "dependency-confusion",
+        "malware",
+        "obfuscation",
+        "other",
+        "override_install",
+        "remote_executable",
+        "targetted-attack"
+    ],
+    "packages": [
+        "haproxy-config-client",
+        "ipa-user-collector"
+    ],
+    "created_at": "2026-07-03",
+    "ioc": [
+        "package-proxy.cf5oobworker.workers.dev",
+        "package-proxy.cf8oobworker.workers.dev",
+        "package-proxy.cf12oobworker.workers.dev",
+        "package-proxy.cf17-ddb.workers.dev",
+        "package-proxy.cf25-6eb.workers.dev",
+        "https://package-proxy.cf5oobworker.workers.dev/pkg/package",
+        "https://package-proxy.cf8oobworker.workers.dev/pkg/package",
+        "https://package-proxy.cf12oobworker.workers.dev/pkg/package",
+        "https://package-proxy.cf17-ddb.workers.dev/pkg/package",
+        "https://package-proxy.cf25-6eb.workers.dev/pkg/package",
+        "c.lin.dl.wel1.ru"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/d47a2d1b96df84b10263a99866b865421b334448432d1b447b82c76253bcbe86/detection"
+    ],
+    "description": "During installation the obfuscated code downloads a malicious executable from a remote location. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from c.lin.dl.wel1[.]ru. This record returns a number, which is then used to iterate over domains in the form <0...n>.lin.dl.wel1[.]r and reconstruct the encoded executable from their TXT records. The executable is finally saved under a partially random name, executed, and removed after execution. The Linux executable contacts a few domains, but there is no more detailed information about its behavior available. "
+}

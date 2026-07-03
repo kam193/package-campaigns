@@ -1,0 +1,10 @@
+{
+    "name": "ipa-user-collector",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-haproxy-config-client",
+    "affected_versions": [
+        "8.5.3"
+    ],
+    "campaign_assigned_at": "2026-07-03T22:45:17.628051+00:00",
+    "campaign_data_modified_at": "2026-07-03T22:45:17.899969+00:00"
+}
