@@ -1,0 +1,15 @@
+{
+    "name": "darkglitch",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5"
+    ],
+    "campaign_assigned_at": "2026-07-03T17:39:06.414390+00:00",
+    "campaign_data_modified_at": "2026-07-03T17:39:06.555286+00:00"
+}
