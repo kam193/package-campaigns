@@ -1,7 +1,7 @@
 {
     "name": "haproxy-config-client",
     "ecosystem": "pypi",
-    "campaign": "2026-06-haproxy-config-client",
+    "campaign": "2026-07-haproxy-config-client",
     "affected_versions": [
         "8.5.3"
     ],

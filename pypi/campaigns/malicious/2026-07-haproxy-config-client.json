@@ -1,5 +1,5 @@
 {
-    "name": "2026-06-haproxy-config-client",
+    "name": "2026-07-haproxy-config-client",
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
