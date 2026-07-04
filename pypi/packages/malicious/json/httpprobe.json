@@ -1,0 +1,10 @@
+{
+    "name": "httpprobe",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-httpprobe",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-07-04T18:05:11.386133+00:00",
+    "campaign_data_modified_at": "2026-07-04T18:05:11.418580+00:00"
+}

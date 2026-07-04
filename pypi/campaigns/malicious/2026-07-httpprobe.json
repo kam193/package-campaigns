@@ -1,0 +1,18 @@
+{
+    "name": "2026-07-httpprobe",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "httpprobe"
+    ],
+    "created_at": "2026-07-04",
+    "ioc": [
+        "http://sytej5umomwukd77aantkxqj4aoke3kfist6eyne2pngavgsakum3iid.onion/mirai_agent.exe"
+    ],
+    "references": [],
+    "description": "If run as a module and during installation, the package attempts to download and start an executable described as a Mirai agent. During analysis, the Onion website hosting executable was not available. Using Onion and localhost fallback suggests the package was not yet ready to deliver malicious actions to the end users."
+}
