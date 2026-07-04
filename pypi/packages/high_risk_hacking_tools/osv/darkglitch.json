@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-risky-hacking-tools/darkglitch",
     "published": "2026-07-03T17:39:06.414390+00:00",
-    "modified": "2026-07-03T20:39:28.710140+00:00",
+    "modified": "2026-07-04T12:40:30.750888+00:00",
     "summary": "Malicious code in darkglitch (PyPI)",
     "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-risky-hacking-tools\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -22,7 +22,8 @@
                 "1.0.7",
                 "1.0.8",
                 "1.0.9",
-                "1.1.0"
+                "1.1.0",
+                "1.1.1"
             ]
         }
     ],

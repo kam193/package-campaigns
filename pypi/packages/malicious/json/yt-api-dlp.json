@@ -1,0 +1,11 @@
+{
+    "name": "yt-api-dlp",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-yt-api-dlp",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-07-04T12:24:12.913454+00:00",
+    "campaign_data_modified_at": "2026-07-04T12:24:13.056870+00:00"
+}

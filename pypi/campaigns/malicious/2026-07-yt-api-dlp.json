@@ -1,0 +1,29 @@
+{
+    "name": "2026-07-yt-api-dlp",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "custom-crypto",
+        "data-from-blockchain",
+        "peristence_autorun",
+        "persistence",
+        "remote_script"
+    ],
+    "packages": [
+        "yt-api-dlp"
+    ],
+    "created_at": "2026-07-04",
+    "ioc": [
+        "https://raw.githubusercontent.com/DreyCode2/assets/refs/heads/main/asset.png",
+        "http://159.223.5.148/api.php",
+        "0xc7c9026a3a7e27ec6ce2d09b19fc1fb4bc978bbb",
+        "159.223.5.148"
+    ],
+    "references": [
+        "https://polygonscan.com/address/0xc7c9026a3a7e27ec6ce2d09b19fc1fb4bc978bbb#readContract#F1",
+        "https://github.com/DreyCode2/youtube-downloader/commit/7ca76c756d5a95f755a8d98cba253704991287b7",
+        "https://www.virustotal.com/gui/file-analysis/YTUzMzk1ZjUzNDMxNjc2MmVhZGY4NDdiOTdmNDVlNzA6MTc4MzE2NzE4Mw=="
+    ],
+    "description": "During import, this malicious copy of a legitimate package downloads an encrypted data disguise as an image. It contains an archive with a next-stage script that uses the Polygon blockchain (contract 0xC7c9026a3a7e27ec6Ce2D09B19FC1FB4bc978BBb) to get the C2 address. The script then communicates with C2 over an encrypted channel to get further commands and ensures persistence. C2 delivers an executable that is executed by loading it into the memory of another process. During analysis, the encryption key and delivered binary contained test data suggesting the author experiments with building a botnet. The package has been briefly used as dependency of a Github project."
+}
