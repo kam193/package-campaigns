@@ -11,7 +11,10 @@
         "through_dependency"
     ],
     "packages": [
-        "procwire"
+        "bytekit",
+        "confighub",
+        "procwire",
+        "schemavault"
     ],
     "created_at": "2026-07-03",
     "ioc": [
@@ -21,5 +24,5 @@
     "references": [
         "https://www.virustotal.com/gui/file-analysis/ZDI5YWM0ZjAzY2VjMjYzYWRiNTA4NDE5ZmQxOWM1OTU6MTc4MzEyMDU0OA=="
     ],
-    "description": "The campaign consists of multiple packages. The trigger sits in the package 'procwire,' which depends on two others. During installation, procwire uses schemavault and bytekit packages. The first one holds the URL holding malware (in two places, once as steganography in the bundled image and once as a fallback just as a list of encoded bytes). The bytekit implements simple custom decoding used to retrieve back the executable. Additionally, procwire is also a dependency of confighub, turning another package into malware. The downloaded executable is run and quickly removed. The executable likely contains an infostealer and contacts the domain 030502[.]xyz"
+    "description": "The campaign consists of multiple packages. The trigger sits in the package 'procwire,' which depends on two others. During installation, procwire uses schemavault and bytekit packages. The first one holds the URL holding malware (in two places, once as steganography in the bundled image and once as a fallback just as a list of encoded bytes). The bytekit implements simple custom decoding used to retrieve back the URL in the fallback method. Additionally, procwire is also a dependency of confighub, turning another package into malware. The downloaded executable is run and quickly removed. The executable likely contains an infostealer and contacts the domain 030502[.]xyz"
 }

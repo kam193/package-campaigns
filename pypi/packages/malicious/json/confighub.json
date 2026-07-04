@@ -1,0 +1,12 @@
+{
+    "name": "confighub",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-procwire",
+    "description": "This package depends on malicious 'procwire', which starts malicious actions during installation. ",
+    "affected_versions": [
+        "7.0.1",
+        "7.0.2"
+    ],
+    "campaign_assigned_at": "2026-07-03T23:44:02.355674+00:00",
+    "campaign_data_modified_at": "2026-07-03T23:44:02.386738+00:00"
+}

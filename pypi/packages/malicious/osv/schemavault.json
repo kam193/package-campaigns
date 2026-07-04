@@ -1,21 +1,19 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-07-procwire/procwire",
-    "published": "2026-07-03T23:38:06.543920+00:00",
-    "modified": "2026-07-03T23:38:06.661131+00:00",
-    "summary": "Malicious code in procwire (PyPI)",
+    "id": "pypi/2026-07-procwire/schemavault",
+    "published": "2026-07-03T23:47:04.534397+00:00",
+    "modified": "2026-07-03T23:47:04.663247+00:00",
+    "summary": "Malicious code in schemavault (PyPI)",
     "details": "The campaign consists of multiple packages. The trigger sits in the package 'procwire,' which depends on two others. During installation, procwire uses schemavault and bytekit packages. The first one holds the URL holding malware (in two places, once as steganography in the bundled image and once as a fallback just as a list of encoded bytes). The bytekit implements simple custom decoding used to retrieve back the URL in the fallback method. Additionally, procwire is also a dependency of confighub, turning another package into malware. The downloaded executable is run and quickly removed. The executable likely contains an infostealer and contacts the domain 030502[.]xyz\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-procwire\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n\n - malware\n\n\n - steganography\n\n",
     "affected": [
         {
             "package": {
-                "name": "procwire",
+                "name": "schemavault",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "5.2.3",
-                "5.2.5",
-                "5.2.6",
-                "5.2.7"
+                "4.1.0",
+                "4.1.1"
             ]
         }
     ],
@@ -26,7 +24,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/procwire"
+            "url": "https://bad-packages.kam193.eu/pypi/package/schemavault"
         }
     ],
     "credits": [

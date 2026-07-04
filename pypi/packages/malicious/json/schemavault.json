@@ -1,0 +1,11 @@
+{
+    "name": "schemavault",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-procwire",
+    "affected_versions": [
+        "4.1.0",
+        "4.1.1"
+    ],
+    "campaign_assigned_at": "2026-07-03T23:47:04.534397+00:00",
+    "campaign_data_modified_at": "2026-07-03T23:47:04.663247+00:00"
+}
