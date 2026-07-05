@@ -4,6 +4,7 @@
     "category": "malicious",
     "abuse_categories": [
         "covering-tracks",
+        "data-stored-in-dns",
         "dependency-confusion",
         "malware",
         "obfuscation",
