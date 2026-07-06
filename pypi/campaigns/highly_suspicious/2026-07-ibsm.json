@@ -1,0 +1,22 @@
+{
+    "name": "2026-07-ibsm",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "remote_executable"
+    ],
+    "packages": [
+        "librariansa"
+    ],
+    "created_at": "2026-07-06",
+    "ioc": [
+        "https://raw.githubusercontent.com/HABS53/jubilant-dollop/main/libpython3.11.so.1.0",
+        "https://github.com/nexlangpy-star/News/raw/refs/heads/main/libpython3.11.so"
+    ],
+    "references": [
+        "https://github.com/nexlangpy-star/News",
+        "https://github.com/HABS53/glowing-nsnsisowne/commit/86f53c9a5f2a45311f616a03123fc11208af6439",
+        "https://github.com/HABS53"
+    ],
+    "description": "Packages related to downloading suspicious libraries from Github repository, but during analysis no malicious behavior has been confirmed."
+}
