@@ -1,0 +1,11 @@
+{
+    "name": "pyllow-pil",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package clones the legitimate Pillow library with the only visible difference being code to decrypt data hidden using steganography.",
+    "affected_versions": [
+        "13.0.0"
+    ],
+    "campaign_assigned_at": "2026-07-06T17:57:50.534710+00:00",
+    "campaign_data_modified_at": "2026-07-06T17:57:50.580794+00:00"
+}
