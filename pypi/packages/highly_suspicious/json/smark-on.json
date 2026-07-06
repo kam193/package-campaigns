@@ -1,0 +1,10 @@
+{
+    "name": "smark-on",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-ibsm",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-07-06T20:21:19.240322+00:00",
+    "campaign_data_modified_at": "2026-07-06T20:21:19.281507+00:00"
+}

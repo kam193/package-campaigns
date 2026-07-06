@@ -6,7 +6,12 @@
         "remote_executable"
     ],
     "packages": [
-        "librariansa"
+        "bvloader",
+        "ibo2ok",
+        "ibsm",
+        "librariansa",
+        "smark",
+        "smark-on"
     ],
     "created_at": "2026-07-06",
     "ioc": [

@@ -1,0 +1,11 @@
+{
+    "name": "bvloader",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-ibsm",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-06T20:21:25.738946+00:00",
+    "campaign_data_modified_at": "2026-07-06T20:21:25.770445+00:00"
+}
