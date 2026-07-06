@@ -5,8 +5,9 @@
     "description": "Package makes it easy to disable Defender protection for specific paths",
     "affected_versions": [
         "0.1.0",
-        "0.2.0"
+        "0.2.0",
+        "0.2.1"
     ],
     "campaign_assigned_at": "2026-07-05T19:23:00.152949+00:00",
-    "campaign_data_modified_at": "2026-07-05T19:23:00.269374+00:00"
+    "campaign_data_modified_at": "2026-07-06T03:19:48.136118+00:00"
 }
