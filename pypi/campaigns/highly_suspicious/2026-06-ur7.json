@@ -7,10 +7,14 @@
         "remote_executable"
     ],
     "packages": [
+        "ar7",
         "ur7"
     ],
     "created_at": "2026-06-23",
-    "ioc": [],
+    "ioc": [
+        "golden.42web.io",
+        "https://golden.42web.io/api/action=read&hash="
+    ],
     "references": [],
     "description": "The embeded native module seems to be a loader to execute code hosted on free 42web[.]io hosting. "
 }
