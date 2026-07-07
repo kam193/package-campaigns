@@ -1,0 +1,10 @@
+{
+    "name": "pyctf-game",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.4"
+    ],
+    "campaign_assigned_at": "2026-07-07T21:31:55.392313+00:00",
+    "campaign_data_modified_at": "2026-07-07T21:31:55.425677+00:00"
+}
