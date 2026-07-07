@@ -19,6 +19,8 @@
     "ioc": [
         "caliber-spinner-finishing.ngrok-free.dev"
     ],
-    "references": [],
+    "references": [
+        "https://socket.dev/blog/npm-pypi-campaign-typosquats-popular-secure-payment-apps"
+    ],
     "description": "When using a provided class, the code exfiltrates basic data and parts of sensitive env variables to a remote host."
 }
