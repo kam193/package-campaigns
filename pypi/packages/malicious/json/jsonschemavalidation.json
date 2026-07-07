@@ -1,0 +1,10 @@
+{
+    "name": "jsonschemavalidation",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-jsonschemavalidation",
+    "affected_versions": [
+        "4.26.0"
+    ],
+    "campaign_assigned_at": "2026-07-07T15:29:07.773956+00:00",
+    "campaign_data_modified_at": "2026-07-07T15:29:07.803542+00:00"
+}

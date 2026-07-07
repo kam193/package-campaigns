@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-jsonschemavalidation/jsonschemavalidation",
+    "published": "2026-07-07T15:29:07.773956+00:00",
+    "modified": "2026-07-07T15:29:07.803542+00:00",
+    "summary": "Malicious code in jsonschemavalidation (PyPI)",
+    "details": "A clone of a legitimate package with an embeded reverse shell. In the published version, the reverse shell was connecting to a private IP address suggesting the package was not yet fully weaponized.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-jsonschemavalidation\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - clones-real-package\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "jsonschemavalidation",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "4.26.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/jsonschemavalidation"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

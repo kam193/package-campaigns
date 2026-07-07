@@ -7,6 +7,9 @@
         "obfuscation",
         "revshell"
     ],
+    "packages": [
+        "jsonschemavalidation"
+    ],
     "created_at": "2026-07-07",
     "ioc": [],
     "references": [],
