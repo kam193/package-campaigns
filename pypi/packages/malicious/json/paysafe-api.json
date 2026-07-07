@@ -1,0 +1,10 @@
+{
+    "name": "paysafe-api",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-paysafe-api",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-07-07T15:21:28.406388+00:00",
+    "campaign_data_modified_at": "2026-07-07T15:21:28.624897+00:00"
+}

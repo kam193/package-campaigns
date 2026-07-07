@@ -1,0 +1,14 @@
+{
+    "name": "2026-07-jsonschemavalidation",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "obfuscation",
+        "revshell"
+    ],
+    "created_at": "2026-07-07",
+    "ioc": [],
+    "references": [],
+    "description": "A clone of a legitimate package with an embeded reverse shell. In the published version, the reverse shell was connecting to a private IP address suggesting the package was not yet fully weaponized. "
+}

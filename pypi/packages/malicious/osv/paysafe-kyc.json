@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-paysafe-api/paysafe-kyc",
+    "published": "2026-07-07T15:22:13.651336+00:00",
+    "modified": "2026-07-07T15:22:13.874808+00:00",
+    "summary": "Malicious code in paysafe-kyc (PyPI)",
+    "details": "When using a provided class, the code exfiltrates basic data and parts of sensitive env variables to a remote host.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-paysafe-api\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - dependency-confusion\n\n\n - action-hidden-in-lib-usage\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "paysafe-kyc",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/paysafe-kyc"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "caliber-spinner-finishing.ngrok-free.dev"
+            ]
+        }
+    }
+}
