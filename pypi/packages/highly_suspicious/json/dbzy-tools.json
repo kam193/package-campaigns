@@ -1,0 +1,11 @@
+{
+    "name": "dbzy-tools",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-08T15:10:33.261582+00:00",
+    "campaign_data_modified_at": "2026-07-08T15:10:33.421600+00:00"
+}
