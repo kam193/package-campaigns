@@ -1,0 +1,11 @@
+{
+    "name": "rarcore",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-yt-api-dlp",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-07-08T12:02:26.110868+00:00",
+    "campaign_data_modified_at": "2026-07-08T12:02:26.145881+00:00"
+}

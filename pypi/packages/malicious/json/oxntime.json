@@ -1,0 +1,13 @@
+{
+    "name": "oxntime",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-oxntime",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.1.post1",
+        "0.0.2",
+        "0.0.3"
+    ],
+    "campaign_assigned_at": "2026-07-08T11:54:08.188264+00:00",
+    "campaign_data_modified_at": "2026-07-08T11:54:08.224049+00:00"
+}

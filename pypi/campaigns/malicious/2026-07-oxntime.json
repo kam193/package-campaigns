@@ -1,0 +1,20 @@
+{
+    "name": "2026-07-oxntime",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "covering-tracks",
+        "obfuscation",
+        "sandbox-detection",
+        "target:android"
+    ],
+    "packages": [
+        "oxntime"
+    ],
+    "created_at": "2026-07-08",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/af85ade822327a06cc91ad28aa6344c745742d613bcd04d09a456367c15b2e87/detection"
+    ],
+    "description": "The package contains obfuscated code and embedded binary that is executed during the import. The embedded binary targets Android and seems to act as a guard for further execution, with some sandbox evasion techniques and time-based actions. "
+}

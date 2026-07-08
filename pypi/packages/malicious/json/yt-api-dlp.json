@@ -2,6 +2,7 @@
     "name": "yt-api-dlp",
     "ecosystem": "pypi",
     "campaign": "2026-07-yt-api-dlp",
+    "description": "During import, this malicious copy of a legitimate package downloads an encrypted data disguise as an image. It contains an archive with a next-stage script that uses the Polygon blockchain (contract 0xC7c9026a3a7e27ec6Ce2D09B19FC1FB4bc978BBb) to get the C2 address. The script then communicates with C2 over an encrypted channel to get further commands and ensures persistence. C2 delivers an executable that is executed by loading it into the memory of another process. During analysis, the encryption key and delivered binary contained test data suggesting the author experiments with building a botnet. The package has been briefly used as dependency of a Github project.",
     "affected_versions": [
         "0.1.0",
         "0.1.1"

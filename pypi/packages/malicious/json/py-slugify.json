@@ -1,0 +1,10 @@
+{
+    "name": "py-slugify",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-yt-api-dlp",
+    "affected_versions": [
+        "0.8.2"
+    ],
+    "campaign_assigned_at": "2026-07-08T12:05:04.680095+00:00",
+    "campaign_data_modified_at": "2026-07-08T12:05:04.872290+00:00"
+}
