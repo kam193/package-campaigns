@@ -3,9 +3,10 @@
     "ecosystem": "pypi",
     "campaign": "GENERIC-other-risky",
     "affected_versions": [
+        "1.0.0",
         "2.1.0",
         "2.2.0"
     ],
     "campaign_assigned_at": "2026-07-02T17:57:42.558238+00:00",
-    "campaign_data_modified_at": "2026-07-02T17:57:42.787050+00:00"
+    "campaign_data_modified_at": "2026-07-08T18:35:27.583720+00:00"
 }
