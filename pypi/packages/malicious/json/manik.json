@@ -1,0 +1,10 @@
+{
+    "name": "manik",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-manik",
+    "affected_versions": [
+        "1.2.1"
+    ],
+    "campaign_assigned_at": "2026-07-08T16:05:51.733870+00:00",
+    "campaign_data_modified_at": "2026-07-08T16:05:51.903791+00:00"
+}

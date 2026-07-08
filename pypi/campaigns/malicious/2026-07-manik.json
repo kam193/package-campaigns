@@ -1,0 +1,17 @@
+{
+    "name": "2026-07-manik",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "override_install"
+    ],
+    "packages": [
+        "manik",
+        "manom"
+    ],
+    "created_at": "2026-07-08",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the package exfiltrates random files."
+}
