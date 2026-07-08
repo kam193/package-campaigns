@@ -1,0 +1,26 @@
+{
+    "name": "2026-07-pyqt6darktheme",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "cryptominer",
+        "malware",
+        "remote_executable"
+    ],
+    "packages": [
+        "pyqt6darktheme"
+    ],
+    "created_at": "2026-07-08",
+    "ioc": [
+        "http://florinn.dev:65534/ins.exe",
+        "http://florinn.dev:65534/kasgjiasjfiw.exe",
+        "http://florinn.dev:65534/kasgjiasjfim.exe",
+        "florinn.dev"
+    ],
+    "references": [
+        "https://tria.ge/260708-eg92psat5t",
+        "https://www.virustotal.com/gui/file/93be0d295af944feef85c8694f88a50b660f106a5ed18300252a72d8b43b69de/detection",
+        "https://www.virustotal.com/gui/file/1f1963b8ccabbb9aaae9ce93b78d91f4f01faf0a21aed8e71b2adece16f8d5e6/detection"
+    ],
+    "description": "Package downloads and runs a remote executable, which was found to downloads further exes and starting coine mining "
+}
