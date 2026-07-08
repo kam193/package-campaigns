@@ -1,0 +1,40 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-oxntime/turbom",
+    "published": "2026-07-08T16:50:17.445572+00:00",
+    "modified": "2026-07-08T16:50:17.620340+00:00",
+    "summary": "Malicious code in turbom (PyPI)",
+    "details": "Starting version 1.0.1, the package contains obfuscated code and embedded binary that is executed during the import, sharing many similarities with package oxntime. The embedded seems to act as a guard for further execution, with some sandbox evasion techniques and time-based actions.\n\nPrior to 1.0.1, the package offered obfuscation techniques.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-oxntime\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - target:android\n\n\n - covering-tracks\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "turbom",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/af85ade822327a06cc91ad28aa6344c745742d613bcd04d09a456367c15b2e87/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/turbom"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "turbom",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-oxntime",
+    "description": "Starting version 1.0.1, the package contains obfuscated code and embedded binary that is executed during the import, sharing many similarities with package oxntime. The embedded seems to act as a guard for further execution, with some sandbox evasion techniques and time-based actions.\n\nPrior to 1.0.1, the package offered obfuscation techniques.",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-08T16:50:17.445572+00:00",
+    "campaign_data_modified_at": "2026-07-08T16:50:17.620340+00:00"
+}

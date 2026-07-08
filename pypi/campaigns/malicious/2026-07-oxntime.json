@@ -10,7 +10,8 @@
     ],
     "packages": [
         "oxntime",
-        "turbod"
+        "turbod",
+        "turbom"
     ],
     "created_at": "2026-07-08",
     "ioc": [],
