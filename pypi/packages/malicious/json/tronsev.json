@@ -1,0 +1,10 @@
+{
+    "name": "tronsev",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-08T22:36:52.124359+00:00",
+    "campaign_data_modified_at": "2026-07-08T22:37:11.541701+00:00"
+}
