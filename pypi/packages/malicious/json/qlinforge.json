@@ -1,0 +1,10 @@
+{
+    "name": "qlinforge",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-qlinforge",
+    "affected_versions": [
+        "0.3.2"
+    ],
+    "campaign_assigned_at": "2026-07-09T17:05:37.526680+00:00",
+    "campaign_data_modified_at": "2026-07-09T17:05:37.574287+00:00"
+}

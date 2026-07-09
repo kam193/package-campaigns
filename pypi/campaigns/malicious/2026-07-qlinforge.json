@@ -1,0 +1,25 @@
+{
+    "name": "2026-07-qlinforge",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "override_install",
+        "persistence",
+        "remote_executable"
+    ],
+    "packages": [
+        "qlinforge"
+    ],
+    "created_at": "2026-07-09",
+    "ioc": [
+        "http://115.190.124.243:9090/payload_windows_amd64.exe",
+        "http://115.190.124.243:9090/payload_linux_amd64",
+        "https://115.190.124.243:8443"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/cc47912f2155de3fb5d618f361d1da1743f969e332a0fc463667167e3f50e12d",
+        "https://www.virustotal.com/gui/file/f785d776c670ae303110984e20990a8d8365ca99f47b668a3e1393ebb9b1bf62/detection"
+    ],
+    "description": "During installation, the package downloads and executes suspicious executables as well as establishes persistence using PTH files. "
+}
