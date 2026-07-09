@@ -5,9 +5,11 @@
     "abuse_categories": [
         "cryptominer",
         "malware",
+        "override_install",
         "remote_executable"
     ],
     "packages": [
+        "playwrightr",
         "pyqt6darktheme"
     ],
     "created_at": "2026-07-08",

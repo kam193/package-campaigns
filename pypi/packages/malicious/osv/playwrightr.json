@@ -1,18 +1,19 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-07-pyqt6darktheme/pyqt6darktheme",
-    "published": "2026-07-08T04:25:06.730323+00:00",
-    "modified": "2026-07-08T04:25:06.972829+00:00",
-    "summary": "Malicious code in pyqt6darktheme (PyPI)",
+    "id": "pypi/2026-07-pyqt6darktheme/playwrightr",
+    "published": "2026-07-09T12:15:39.255207+00:00",
+    "modified": "2026-07-09T12:15:39.382976+00:00",
+    "summary": "Malicious code in playwrightr (PyPI)",
     "details": "Package downloads and runs a remote executable, which was found to downloads further exes and starting coine mining\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-pyqt6darktheme\n\n\nReasons (based on the campaign):\n\n\n - cryptominer\n\n\n - Downloads and executes a remote executable.\n\n\n - malware\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
         {
             "package": {
-                "name": "pyqt6darktheme",
+                "name": "playwrightr",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1.0"
+                "1.0.0",
+                "1.0.1"
             ]
         }
     ],
@@ -31,7 +32,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/pyqt6darktheme"
+            "url": "https://bad-packages.kam193.eu/pypi/package/playwrightr"
         }
     ],
     "credits": [
