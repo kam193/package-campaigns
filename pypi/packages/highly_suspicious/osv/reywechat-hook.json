@@ -1,10 +1,10 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-other-risky/reywechat-hook",
-    "published": "2026-07-10T16:09:49.000171+00:00",
-    "modified": "2026-07-10T16:58:19.840180+00:00",
+    "id": "pypi/2026-07-reyxbo-wechat/reywechat-hook",
+    "published": "2026-07-10T18:00:47.531881+00:00",
+    "modified": "2026-07-10T18:00:47.561636+00:00",
     "summary": "Highly suspicious code in reywechat-hook (PyPI)",
-    "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "details": "Packages using or depending on suspicious embedded DLL, which appear to be obfuscated. However, there is a high chance it's a proprietary way to hook the official WeChat client.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-07-reyxbo-wechat\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
@@ -23,6 +23,10 @@
         }
     ],
     "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/84cdca4854798f8481aed7cff156d453189db876bced2515b08f455de7dc461c/behavior"
+        },
         {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/reywechat-hook"

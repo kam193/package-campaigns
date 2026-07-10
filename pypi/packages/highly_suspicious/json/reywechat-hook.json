@@ -1,7 +1,7 @@
 {
     "name": "reywechat-hook",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky",
+    "campaign": "2026-07-reyxbo-wechat",
     "affected_versions": [
         "1.0.0",
         "1.0.1",
@@ -11,6 +11,6 @@
         "1.0.5",
         "1.0.6"
     ],
-    "campaign_assigned_at": "2026-07-10T16:09:49.000171+00:00",
-    "campaign_data_modified_at": "2026-07-10T16:58:19.840180+00:00"
+    "campaign_assigned_at": "2026-07-10T18:00:47.531881+00:00",
+    "campaign_data_modified_at": "2026-07-10T18:00:47.561636+00:00"
 }
