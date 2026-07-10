@@ -1,0 +1,21 @@
+{
+    "name": "2026-07-turbocalc",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "other"
+    ],
+    "packages": [
+        "turbocalc"
+    ],
+    "created_at": "2026-07-10",
+    "ioc": [
+        "dockfinancial.lu"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/b763d1cb200d885985d0b592323ec8180817da4cc2117092176265d56723d44f/detection",
+        "https://tria.ge/260710-tdnrmaex4s/behavioral1"
+    ],
+    "description": "During import an obfuscated code starts in-memory functions from a binary blob; after that, it communicates with dockfinancial[.]lu, the exact behaviour is unknown."
+}
