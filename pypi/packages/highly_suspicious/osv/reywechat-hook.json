@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/reywechat-hook",
     "published": "2026-07-10T16:09:49.000171+00:00",
-    "modified": "2026-07-10T16:09:49.034883+00:00",
+    "modified": "2026-07-10T16:58:19.840180+00:00",
     "summary": "Highly suspicious code in reywechat-hook (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -15,7 +15,10 @@
                 "1.0.0",
                 "1.0.1",
                 "1.0.2",
-                "1.0.3"
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6"
             ]
         }
     ],
