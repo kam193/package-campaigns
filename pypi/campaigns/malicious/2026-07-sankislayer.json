@@ -1,0 +1,17 @@
+{
+    "name": "2026-07-sankislayer",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abusing-3rd-api",
+        "obfuscation",
+        "target:telegram"
+    ],
+    "packages": [
+        "sankislayer"
+    ],
+    "created_at": "2026-07-10",
+    "ioc": [],
+    "references": [],
+    "description": "Obfuscated code provides a Telegram bot to join a spamming botnet. Centrally controlled bots can be used to spam other Telegram channels (via looped posting, changing photos, or titles)."
+}
