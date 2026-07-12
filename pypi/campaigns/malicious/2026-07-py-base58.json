@@ -1,0 +1,22 @@
+{
+    "name": "2026-07-py-base58",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto",
+        "persistence"
+    ],
+    "packages": [
+        "data-harvester",
+        "defi-tools",
+        "py-base58",
+        "solidity-dev"
+    ],
+    "created_at": "2026-07-12",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/4dd018d84f2f9c35caed7a2c684cff2c1ea3af3a113cceb078a0788eefb93f66/detection"
+    ],
+    "description": "The package embeds an executable stealing cryptocurrency wallets data. During import, code saves the executable under a name suggesting system utility and configures cron to run it periodically. The exfiltrated data is encrypted using embedded RSA code before uploading to file-sharing services or IPFS."
+}
