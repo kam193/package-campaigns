@@ -1,0 +1,16 @@
+{
+    "name": "2026-07-proxy-check-i",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "remote_commands"
+    ],
+    "packages": [
+        "proxy-check-i"
+    ],
+    "created_at": "2026-07-12",
+    "ioc": [],
+    "references": [],
+    "description": "The embedded binary starts a relayed SSH-like server using a hardcoded authorized_key. Thanks to using a relay network, the attacked does not need to directly expose ports from the machine."
+}
