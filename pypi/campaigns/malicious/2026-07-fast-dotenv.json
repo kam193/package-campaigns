@@ -1,0 +1,25 @@
+{
+    "name": "2026-07-fast-dotenv",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "basic_exfiltration",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys"
+    ],
+    "packages": [
+        "fast-dotenv"
+    ],
+    "created_at": "2026-07-12",
+    "ioc": [
+        "c2.fanaccesshub.com"
+    ],
+    "references": [
+        "https://gist.github.com/opensource-crypto/3946ef88aa057c9d10f1a7d80391d164/",
+        "https://github.com/opensource-crypto",
+        "https://gist.github.com/opensource-crypto",
+        "https://github.com/opensource-crypto/env-fast/blob/6c83117d0175fa3d16c3bca6bdb6dbf3528ee061/index.js"
+    ],
+    "description": "When using the library, it schedules a delayed malware activation. Malicious code contacts remote URLs to get C2 location, then performs machine fingerprinting, including looking for sensitive environmental variables and SSH keys. The code seems not to exfiltrate their content in the analyzed version. Additionally, the embeded configuration URLs did not exist, but they led to related C2 configurations from the same GitHub account, which also seems to have created repositories with similar malicious code in other languages."
+}
