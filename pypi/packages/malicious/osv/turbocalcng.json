@@ -1,0 +1,50 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-turbocalc/turbocalcng",
+    "published": "2026-07-13T09:00:16.608457+00:00",
+    "modified": "2026-07-13T09:00:16.798088+00:00",
+    "summary": "Malicious code in turbocalcng (PyPI)",
+    "details": "During import an obfuscated code starts in-memory functions from a binary blob; after that, it communicates with dockfinancial[.]lu, the exact behaviour is unknown.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-turbocalc\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - other\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "turbocalcng",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/b763d1cb200d885985d0b592323ec8180817da4cc2117092176265d56723d44f/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/260710-tdnrmaex4s/behavioral1"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/turbocalcng"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "dockfinancial.lu"
+            ]
+        }
+    }
+}
