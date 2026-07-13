@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-pipspeed/pipspeed",
+    "published": "2026-07-12T23:51:10.710042+00:00",
+    "modified": "2026-07-12T23:51:10.816693+00:00",
+    "summary": "Malicious code in pipspeed (PyPI)",
+    "details": "Fake package with hidden code downloading configuration from a remote location. It defines the next package to install and run. During analysis, the package instructed to install did not exist.\n\nFirst discovered by Amazon Inspector.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-pipspeed\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - action-hidden-in-lib-usage\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "pipspeed",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/pipspeed"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://www.jsonkeeper.com/b/53XMN"
+            ]
+        }
+    }
+}

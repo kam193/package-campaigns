@@ -1,0 +1,10 @@
+{
+    "name": "pipspeed",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-pipspeed",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-07-12T23:51:10.710042+00:00",
+    "campaign_data_modified_at": "2026-07-12T23:51:10.816693+00:00"
+}
