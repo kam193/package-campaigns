@@ -3,8 +3,9 @@
     "ecosystem": "pypi",
     "campaign": "2026-07-turbocalc",
     "affected_versions": [
-        "0.1.0"
+        "0.1.0",
+        "0.2.0"
     ],
     "campaign_assigned_at": "2026-07-13T09:00:16.608457+00:00",
-    "campaign_data_modified_at": "2026-07-13T09:00:16.798088+00:00"
+    "campaign_data_modified_at": "2026-07-13T09:40:53.974986+00:00"
 }
