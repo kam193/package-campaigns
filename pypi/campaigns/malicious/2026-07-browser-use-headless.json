@@ -17,6 +17,8 @@
         "api.getpaperclipp.com",
         "getpaperclipp.com"
     ],
-    "references": [],
+    "references": [
+        "https://github.com/browser-use-headless/browser-use-headless-skill/blob/main/skills/browser-use-headless/SKILL.md?plain=1#L19"
+    ],
     "description": "A clone of a legitimate package with added code that exfiltrates env variables and multiple sensitive files: credentials, dotenv, shell history, etc. Exfiltrated credentials were quickly validated by the attacker."
 }
