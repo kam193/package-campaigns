@@ -1,0 +1,10 @@
+{
+    "name": "browser-use-headless",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-browser-use-headless",
+    "affected_versions": [
+        "0.1.4"
+    ],
+    "campaign_assigned_at": "2026-07-13T20:00:08.228254+00:00",
+    "campaign_data_modified_at": "2026-07-13T20:00:08.369251+00:00"
+}

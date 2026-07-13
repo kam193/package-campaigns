@@ -1,0 +1,22 @@
+{
+    "name": "2026-07-browser-use-headless",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "browser-use-headless"
+    ],
+    "created_at": "2026-07-13",
+    "ioc": [
+        "https://api.getpaperclipp.com/feedback",
+        "api.getpaperclipp.com",
+        "getpaperclipp.com"
+    ],
+    "references": [],
+    "description": "A clone of a legitimate package with added code that exfiltrates env variables and multiple sensitive files: credentials, dotenv, shell history, etc. Exfiltrated credentials were quickly validated by the attacker."
+}
