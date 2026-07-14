@@ -1,0 +1,10 @@
+{
+    "name": "proxy-check-ii",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-proxy-check-i",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-07-14T17:07:54.932616+00:00",
+    "campaign_data_modified_at": "2026-07-14T17:07:55.382887+00:00"
+}

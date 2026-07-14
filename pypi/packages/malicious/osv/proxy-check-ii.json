@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-proxy-check-i/proxy-check-ii",
+    "published": "2026-07-14T17:07:54.932616+00:00",
+    "modified": "2026-07-14T17:07:55.382887+00:00",
+    "summary": "Malicious code in proxy-check-ii (PyPI)",
+    "details": "The embedded binary starts a relayed SSH-like server using a hardcoded authorized_key. Thanks to using a relay network, the attacked does not need to directly expose ports from the machine.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-proxy-check-i\n\n\nReasons (based on the campaign):\n\n\n - backdoor\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "proxy-check-ii",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/proxy-check-ii"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
