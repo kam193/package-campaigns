@@ -1,0 +1,45 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-07-reyxbo-wechat/reycrawler",
+    "published": "2026-07-14T21:36:01.286163+00:00",
+    "modified": "2026-07-14T21:36:01.505951+00:00",
+    "summary": "Highly suspicious code in reycrawler (PyPI)",
+    "details": "Packages using or depending on suspicious embedded DLL, which appear to be obfuscated. However, there is a high chance it's a proprietary way to hook the official WeChat client.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-07-reyxbo-wechat\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "reycrawler",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.7"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/84cdca4854798f8481aed7cff156d453189db876bced2515b08f455de7dc461c/behavior"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/reycrawler"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "packages": [
+        "reycrawler",
         "reykit",
         "reywechat",
         "reywechat-hook"
