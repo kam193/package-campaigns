@@ -1,0 +1,10 @@
+{
+    "name": "kw-structlog-config",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc-bugbounty",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-15T12:47:11.269483+00:00",
+    "campaign_data_modified_at": "2026-07-15T12:47:11.499361+00:00"
+}

@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-local-poc-bugbounty/kw-structlog-config",
+    "published": "2026-07-15T12:47:11.269483+00:00",
+    "modified": "2026-07-15T12:47:11.499361+00:00",
+    "summary": "Spam code in kw-structlog-config (PyPI)",
+    "details": "Dependency confusion attempt without any action. The author clearly defined it as research and identified themselves as a bug bounty hunter.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc-bugbounty\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "kw-structlog-config",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/kw-structlog-config"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
