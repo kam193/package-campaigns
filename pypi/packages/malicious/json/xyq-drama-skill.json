@@ -1,0 +1,12 @@
+{
+    "name": "xyq-drama-skill",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-xyq-drama-skill",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.3.0"
+    ],
+    "campaign_assigned_at": "2026-07-15T14:29:25.666165+00:00",
+    "campaign_data_modified_at": "2026-07-15T14:29:25.838819+00:00"
+}
