@@ -1,0 +1,13 @@
+{
+    "name": "northstart-sdk",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-northstart-sdk",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.2.1",
+        "0.2.2"
+    ],
+    "campaign_assigned_at": "2026-07-15T10:15:13.255306+00:00",
+    "campaign_data_modified_at": "2026-07-15T10:15:13.435134+00:00"
+}

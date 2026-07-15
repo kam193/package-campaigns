@@ -1,0 +1,22 @@
+{
+    "name": "2026-07-northstart-sdk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "revshell",
+        "targetted-attack"
+    ],
+    "packages": [
+        "northstart-sdk"
+    ],
+    "created_at": "2026-07-15",
+    "ioc": [
+        "https://cdn.nlark.com/yuque/0/2026/png/12727464/1778740736364-99396a4c-917b-45a7-badd-0370f3adb537.png",
+        "https://cdn.nlark.com/yuque/0/2026/png/12727464/",
+        "120.26.37.185:4443",
+        "120.26.37.185"
+    ],
+    "references": [],
+    "description": "The package contains encrypted and obfuscated code that starts a custom reverse shell/command execution during module import."
+}
