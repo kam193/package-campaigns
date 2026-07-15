@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-07-reyxbo-wechat/reykit",
     "published": "2026-07-10T18:02:53.831756+00:00",
-    "modified": "2026-07-15T06:42:49.633022+00:00",
+    "modified": "2026-07-15T07:39:50.559722+00:00",
     "summary": "Highly suspicious code in reykit (PyPI)",
     "details": "Packages using or depending on suspicious embedded DLL, which appear to be obfuscated. However, there is a high chance it's a proprietary way to hook the official WeChat client.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-07-reyxbo-wechat\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -191,7 +191,8 @@
                 "1.2.67",
                 "1.2.68",
                 "1.2.69",
-                "1.2.70"
+                "1.2.70",
+                "1.2.71"
             ]
         }
     ],

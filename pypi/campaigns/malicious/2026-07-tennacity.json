@@ -10,6 +10,7 @@
         "typosquatting"
     ],
     "packages": [
+        "ethereum-input-decorder",
         "tennacity"
     ],
     "created_at": "2026-07-14",

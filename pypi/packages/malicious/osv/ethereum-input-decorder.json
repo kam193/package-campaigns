@@ -1,20 +1,19 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-07-tennacity/tennacity",
-    "published": "2026-07-14T10:08:54.308927+00:00",
-    "modified": "2026-07-14T10:08:54.466025+00:00",
-    "summary": "Malicious code in tennacity (PyPI)",
+    "id": "pypi/2026-07-tennacity/ethereum-input-decorder",
+    "published": "2026-07-15T07:23:54.916822+00:00",
+    "modified": "2026-07-15T07:23:55.052647+00:00",
+    "summary": "Malicious code in ethereum-input-decorder (PyPI)",
     "details": "The typosquatted package installs a Mythic/Poseidon C2 framework beacon and ensures persistence. After installation, the beacon communicates with C2 on wegoexchange[.]site for further commands.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-tennacity\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote executable.\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - malware\n\n\n - persistence\n\n",
     "affected": [
         {
             "package": {
-                "name": "tennacity",
+                "name": "ethereum-input-decorder",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.0.0",
-                "1.2.0",
-                "1.2.2"
+                "1.2.2",
+                "1.2.4"
             ]
         }
     ],
@@ -33,7 +32,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/tennacity"
+            "url": "https://bad-packages.kam193.eu/pypi/package/ethereum-input-decorder"
         }
     ],
     "credits": [

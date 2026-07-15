@@ -1,0 +1,11 @@
+{
+    "name": "ethereum-input-decorder",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-tennacity",
+    "affected_versions": [
+        "1.2.2",
+        "1.2.4"
+    ],
+    "campaign_assigned_at": "2026-07-15T07:23:54.916822+00:00",
+    "campaign_data_modified_at": "2026-07-15T07:23:55.052647+00:00"
+}
