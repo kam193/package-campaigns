@@ -11,16 +11,23 @@
     ],
     "packages": [
         "ethereum-input-decorder",
+        "log-guru",
+        "pylogora",
         "tennacity"
     ],
     "created_at": "2026-07-14",
     "ioc": [
         "wegoexchange.site",
         "easyswapnow.pro",
+        "easyswasnow.pro",
         "https://easyswapnow.pro/downloads/lix_amd.bin",
         "https://easyswapnow.pro/downloads/lix_arm.bin",
         "https://easyswapnow.pro/downloads/mac_amd.bin",
         "https://easyswapnow.pro/downloads/mac_arm.bin",
+        "https://easyswasnow.pro/downloads/lix_amd.bin",
+        "https://easyswasnow.pro/downloads/lix_arm.bin",
+        "https://easyswasnow.pro/downloads/mac_amd.bin",
+        "https://easyswasnow.pro/downloads/mac_arm.bin",
         "https://drive.google.com/uc?export=download&id=1d4zF8lnDaYCgzRrEx3WCyLTFZXVD2QBF&confirm=t",
         "http://wegoexchange.site/data"
     ],

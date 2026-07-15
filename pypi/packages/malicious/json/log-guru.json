@@ -1,0 +1,10 @@
+{
+    "name": "log-guru",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-tennacity",
+    "affected_versions": [
+        "0.7.8"
+    ],
+    "campaign_assigned_at": "2026-07-15T17:29:10.884236+00:00",
+    "campaign_data_modified_at": "2026-07-15T17:29:10.915475+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "pylogora",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-tennacity",
+    "affected_versions": [
+        "0.7.8"
+    ],
+    "campaign_assigned_at": "2026-07-15T17:30:11.069408+00:00",
+    "campaign_data_modified_at": "2026-07-15T17:30:11.232386+00:00"
+}

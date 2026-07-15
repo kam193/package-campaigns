@@ -1,19 +1,18 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-07-tennacity/ethereum-input-decorder",
-    "published": "2026-07-15T07:23:54.916822+00:00",
-    "modified": "2026-07-15T07:23:55.052647+00:00",
-    "summary": "Malicious code in ethereum-input-decorder (PyPI)",
+    "id": "pypi/2026-07-tennacity/log-guru",
+    "published": "2026-07-15T17:29:10.884236+00:00",
+    "modified": "2026-07-15T17:29:10.915475+00:00",
+    "summary": "Malicious code in log-guru (PyPI)",
     "details": "The typosquatted package installs a Mythic/Poseidon C2 framework beacon and ensures persistence. After installation, the beacon communicates with C2 on wegoexchange[.]site for further commands.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-07-tennacity\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - Downloads and executes a remote executable.\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - malware\n\n\n - persistence\n\n",
     "affected": [
         {
             "package": {
-                "name": "ethereum-input-decorder",
+                "name": "log-guru",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "1.2.2",
-                "1.2.4"
+                "0.7.8"
             ]
         }
     ],
@@ -32,7 +31,7 @@
         },
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/ethereum-input-decorder"
+            "url": "https://bad-packages.kam193.eu/pypi/package/log-guru"
         }
     ],
     "credits": [
