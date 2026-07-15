@@ -1,0 +1,10 @@
+{
+    "name": "trongridweb",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-15T15:33:11.406040+00:00",
+    "campaign_data_modified_at": "2026-07-15T15:33:27.841566+00:00"
+}
