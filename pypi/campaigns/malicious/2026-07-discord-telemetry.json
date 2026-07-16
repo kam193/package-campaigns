@@ -1,0 +1,23 @@
+{
+    "name": "2026-07-discord-telemetry",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "discord-telemetry"
+    ],
+    "created_at": "2026-07-16",
+    "ioc": [
+        "https://gaming-telemetry.com/v1/beaconafter",
+        "gaming-telemetry.com",
+        "https://gaming-telemetry.com/v1/download"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file-analysis/ZWM2MzcwMWE4NzM5ZjY2MGYzZjBiYTY4NjA0Y2E4YmE6MTc4NDIxMDQzMA=="
+    ],
+    "description": "During installation, the package downloads and executes a remote executable. Before 0.1.5, the code contained local-only tests of malicious behaviour. "
+}
