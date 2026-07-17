@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/aiossh",
     "published": "2026-07-02T17:57:42.558238+00:00",
-    "modified": "2026-07-08T18:35:27.583720+00:00",
+    "modified": "2026-07-17T18:21:42.583509+00:00",
     "summary": "Highly suspicious code in aiossh (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -13,6 +13,7 @@
             },
             "versions": [
                 "1.0.0",
+                "1.1.2",
                 "2.1.0",
                 "2.2.0"
             ]
