@@ -11,7 +11,9 @@
         "airflow-provider-spirit",
         "captcha-solve-api",
         "dde-common",
-        "dwh-kafka-client"
+        "dwh-kafka-client",
+        "python-devplatform-client",
+        "tinkoff-cloud-apis-internal"
     ],
     "created_at": "2026-07-17",
     "ioc": [],
