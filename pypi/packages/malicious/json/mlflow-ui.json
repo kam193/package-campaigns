@@ -1,0 +1,12 @@
+{
+    "name": "mlflow-ui",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-mlflow-ui",
+    "affected_versions": [
+        "2.7.1",
+        "2.7.2",
+        "2.7.3"
+    ],
+    "campaign_assigned_at": "2026-07-18T11:43:51.856616+00:00",
+    "campaign_data_modified_at": "2026-07-18T11:47:23.422223+00:00"
+}

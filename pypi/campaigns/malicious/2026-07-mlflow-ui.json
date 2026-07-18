@@ -1,0 +1,29 @@
+{
+    "name": "2026-07-mlflow-ui",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "dependency-confusion",
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "files_exfiltration",
+        "network-scan",
+        "remote_script"
+    ],
+    "packages": [
+        "mlflow-ui"
+    ],
+    "created_at": "2026-07-18",
+    "ioc": [
+        "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41",
+        "https://webhook.site/a9f5802b-c77e-4226-99dd-bc89d7dc8cca/s2.py",
+        "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/piprecon",
+        "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/s2done",
+        "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/s2start",
+        "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/s2a",
+        "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/s2ports"
+    ],
+    "references": [],
+    "description": "During installation, the package first collects local information, environment variables, and probes connections to typically expected services like databanks. Results are exfiltrated and then, the next stage code is downloaded and executed. It then continues exfiltrating data by looking for credentials to databases, exfiltrating SQLite databases and bruteforcing&exfiltrating other databases reachable from the running environment."
+}
