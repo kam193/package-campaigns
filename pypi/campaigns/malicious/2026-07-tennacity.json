@@ -10,6 +10,7 @@
         "typosquatting"
     ],
     "packages": [
+        "data-parser-utils",
         "ethereum-input-decorder",
         "log-guru",
         "pylogora",
@@ -29,7 +30,8 @@
         "https://easyswasnow.pro/downloads/mac_amd.bin",
         "https://easyswasnow.pro/downloads/mac_arm.bin",
         "https://drive.google.com/uc?export=download&id=1d4zF8lnDaYCgzRrEx3WCyLTFZXVD2QBF&confirm=t",
-        "http://wegoexchange.site/data"
+        "http://wegoexchange.site/data",
+        "https://cdn.jsdelivr.net/gh/cryptonomad411/cool-utils/package.json"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/b60ead7581e0d36d47d2362a6843f6ffa3d5748fe7e3a76eef2942d13b3b0613/detection",

@@ -1,0 +1,11 @@
+{
+    "name": "data-parser-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-tennacity",
+    "description": "If using the provided functionality like `parse_json` or `parse_xml` functions, the package will install a Mythic/Poseidon C2 framework beacon and ensure its persistence. After installation, the beacon communicates with C2 on wegoexchange[.]site for further commands.",
+    "affected_versions": [
+        "2.4.1"
+    ],
+    "campaign_assigned_at": "2026-07-19T19:51:18.240980+00:00",
+    "campaign_data_modified_at": "2026-07-19T19:51:18.396925+00:00"
+}

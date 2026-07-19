@@ -62,7 +62,8 @@
                 "https://easyswasnow.pro/downloads/mac_amd.bin",
                 "https://easyswasnow.pro/downloads/mac_arm.bin",
                 "https://drive.google.com/uc?export=download&id=1d4zF8lnDaYCgzRrEx3WCyLTFZXVD2QBF&confirm=t",
-                "http://wegoexchange.site/data"
+                "http://wegoexchange.site/data",
+                "https://cdn.jsdelivr.net/gh/cryptonomad411/cool-utils/package.json"
             ]
         }
     }
