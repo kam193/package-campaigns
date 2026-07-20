@@ -1,0 +1,17 @@
+{
+    "name": "neroteam-v1",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-neroteam-v1",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6",
+        "1.0.7"
+    ],
+    "campaign_assigned_at": "2026-07-20T08:06:19.312870+00:00",
+    "campaign_data_modified_at": "2026-07-20T08:06:19.358107+00:00"
+}
