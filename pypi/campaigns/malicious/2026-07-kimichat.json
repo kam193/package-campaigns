@@ -6,6 +6,7 @@
         "cryptominer"
     ],
     "packages": [
+        "automatic-octo-invention",
         "kimichat",
         "kimitalk",
         "nemopush",

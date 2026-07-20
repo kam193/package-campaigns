@@ -5,6 +5,7 @@
     "abuse_categories": [
         "abuses-pth",
         "basic_exfiltration",
+        "covering-tracks",
         "data-stored-in-dns",
         "override_install",
         "persistence",
@@ -15,6 +16,7 @@
         "captcha-solve-api",
         "dde-common",
         "dwh-kafka-client",
+        "ml-core-airflow-auth",
         "python-devplatform-client",
         "tinkoff-cloud-apis-internal"
     ],
@@ -29,6 +31,12 @@
         "tin.dl.well1.site",
         "ldr.dl.well1.site"
     ],
-    "references": [],
-    "description": "Package presents little functionality, but excessive fake 'telemetry' module. This fake telemetry is used to download and run malicious executables. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from one of c.*.dl.well1[.]site domains, depending on the system. This record returns a number, which is then used to iterate over domains in the form <0...n>.*.dl.well1[.]site and reconstruct the encoded executable from their TXT records. Using PTH file ensures persistence and run on every Python start. \n\nThis is continuation of the 2026-07-haproxy-config-client campaign. "
+    "references": [
+        "https://www.virustotal.com/gui/file/06f1c2f0c66cf13ab6702414e8dce7c4115939f3e9cf95e9a8baade58961c016/detection",
+        "https://www.virustotal.com/gui/file/230f81f18608800912def92e18999874e004cd9fb4a554f759f77e4dd2030081/detection",
+        "https://www.virustotal.com/gui/file/c98444d6aebfd87f2f4412e1d7aafe8fe3fe080139ca1111049ea83fe828cd1d/detection",
+        "https://www.virustotal.com/gui/file/1360bb7437f5e7790747bc4e31eedcd19f88f23b20362a42368f4179b8b9e27d/detection",
+        "https://tria.ge/260720-teqmlshs6y/behavioral1"
+    ],
+    "description": "Package presents little functionality, but excessive fake 'telemetry' module. This fake telemetry is used to download and run malicious executables. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from one of c.*.dl.well1[.]site domains, depending on the system. This record returns a number, which is then used to iterate over domains in the form <0...n>.*.dl.well1[.]site and reconstruct the encoded executable from their TXT records. The downloaded binary is then executed and removed afterward. Using a PTH file ensures persistence and runs on every Python start. In this campaign, versions 0.0.1 hold disarmed code (without the necessary configuration), which is completed in further updates.\n\nThis is a continuation of the 2026-07-haproxy-config-client campaign. "
 }
