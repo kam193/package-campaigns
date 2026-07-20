@@ -1,0 +1,34 @@
+{
+    "name": "2026-07-andreiiiiiii_i",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "basic_exfiltration",
+        "data-stored-in-dns",
+        "override_install",
+        "persistence",
+        "remote_executable"
+    ],
+    "packages": [
+        "airflow-provider-spirit",
+        "captcha-solve-api",
+        "dde-common",
+        "dwh-kafka-client",
+        "python-devplatform-client",
+        "tinkoff-cloud-apis-internal"
+    ],
+    "created_at": "2026-07-17",
+    "ioc": [
+        "package-proxy.cf8oobworker.workers.dev",
+        "package-proxy.cf5oobworker.workers.dev",
+        "package-proxy.cf25-6eb.workers.dev",
+        "package-proxy.cf17-ddb.workers.dev",
+        "win.dl.well1.site",
+        "tina.dl.well1.site",
+        "tin.dl.well1.site",
+        "ldr.dl.well1.site"
+    ],
+    "references": [],
+    "description": "Package presents little functionality, but excessive fake 'telemetry' module. This fake telemetry is used to download and run malicious executables. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from one of c.*.dl.well1[.]site domains, depending on the system. This record returns a number, which is then used to iterate over domains in the form <0...n>.*.dl.well1[.]site and reconstruct the encoded executable from their TXT records. Using PTH file ensures persistence and run on every Python start. \n\nThis is continuation of the 2026-07-haproxy-config-client campaign. "
+}
