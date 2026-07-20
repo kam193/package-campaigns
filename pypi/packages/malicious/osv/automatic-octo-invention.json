@@ -22,6 +22,10 @@
     "references": [
         {
             "type": "WEB",
+            "url": "https://github.com/newbroughblueogwin/automatic-octo-invention"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/automatic-octo-invention"
         }
     ],
