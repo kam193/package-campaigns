@@ -3,8 +3,10 @@
     "ecosystem": "pypi",
     "campaign": "2026-07-andreiiiiiii_i",
     "affected_versions": [
-        "0.0.1"
+        "0.0.1",
+        "8.5.3",
+        "8.5.4"
     ],
     "campaign_assigned_at": "2026-07-18T14:14:02.837201+00:00",
-    "campaign_data_modified_at": "2026-07-18T14:14:02.952608+00:00"
+    "campaign_data_modified_at": "2026-07-20T14:10:25.659177+00:00"
 }

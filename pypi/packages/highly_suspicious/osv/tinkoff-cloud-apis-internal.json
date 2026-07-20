@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-07-andreiiiiiii_i/tinkoff-cloud-apis-internal",
     "published": "2026-07-18T14:14:02.837201+00:00",
-    "modified": "2026-07-18T14:14:02.952608+00:00",
+    "modified": "2026-07-20T14:10:25.659177+00:00",
     "summary": "Highly suspicious code in tinkoff-cloud-apis-internal (PyPI)",
     "details": "Package presents little functionality, but excessive 'telemetry' module that can be used to exfiltrate basic information. However, the exfiltration target is not given: despite implementing multiple ways to retrieve it, e.g. from DNS records, the code lacks the initial value required to discover the C2. It can be provided via environment variables. Given little functionality and multiple similar packages, the file is likely a preparation for a malicious campaign, but there is no enough information.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-07-andreiiiiiii_i\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to exfiltrate basic data from the system, like IP or username. It has a limited risk.\n\n\n - abuses-pth\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
     "affected": [
@@ -12,7 +12,9 @@
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.0.1"
+                "0.0.1",
+                "8.5.3",
+                "8.5.4"
             ]
         }
     ],
