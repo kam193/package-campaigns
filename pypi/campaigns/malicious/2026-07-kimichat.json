@@ -1,0 +1,17 @@
+{
+    "name": "2026-07-kimichat",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "cryptominer"
+    ],
+    "packages": [
+        "kimichat",
+        "kimitalk",
+        "nemopush"
+    ],
+    "created_at": "2026-07-20",
+    "ioc": [],
+    "references": [],
+    "description": "In this campaign, packages use names similar to popular services (e.g. Kimi AI) to deploy cryptominer. "
+}
