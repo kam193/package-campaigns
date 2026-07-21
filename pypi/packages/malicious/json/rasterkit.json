@@ -1,0 +1,13 @@
+{
+    "name": "rasterkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-textwrap-toolkit-stager",
+    "description": "This package is a clone of Pillow library with malicious code hidden in an image using steganography. The code is the used in a dependant package to install an SSH backdoor. ",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.2",
+        "1.0.4"
+    ],
+    "campaign_assigned_at": "2026-07-21T06:01:48.023903+00:00",
+    "campaign_data_modified_at": "2026-07-21T06:01:48.065059+00:00"
+}

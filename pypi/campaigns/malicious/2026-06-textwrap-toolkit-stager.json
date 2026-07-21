@@ -10,6 +10,7 @@
         "remote_script"
     ],
     "packages": [
+        "rasterkit",
         "rasterkit-demo",
         "textwrap-toolkit-stager",
         "twrap-tool",
