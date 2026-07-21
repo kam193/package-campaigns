@@ -1,0 +1,11 @@
+{
+    "name": "animated-octo-spoon",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-kimichat",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-07-21T15:24:17.247956+00:00",
+    "campaign_data_modified_at": "2026-07-21T15:24:17.282057+00:00"
+}
