@@ -1,0 +1,20 @@
+{
+    "name": "2026-07-colorstack",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "remote_executable"
+    ],
+    "packages": [
+        "colorstack"
+    ],
+    "created_at": "2026-07-21",
+    "ioc": [
+        "https://www.fastsyncapi.com/v1/update",
+        "https://www.fastsyncapi.com/v1/colors",
+        "fastsyncapi.com"
+    ],
+    "references": [],
+    "description": "The package hides code to download and execute a remote executable from a newly created fastsyncapi[.]com domain. It is disguised as a remote 'fast color helper,' as opposed to the local helper, also included in the code, that only mimics any functionality. The malicious part is not immediately active: to download the binary, a key is required, which was not included in the analyzed versions. The downloaded binary is executed, and at least in one case disguised as 'AppHostRegistrationVerifier'. The package is likely prepared for multi-stage infection, but the trigger code using it was not identified."
+}

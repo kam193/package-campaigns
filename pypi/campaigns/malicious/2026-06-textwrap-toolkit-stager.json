@@ -10,6 +10,7 @@
         "remote_script"
     ],
     "packages": [
+        "lebinfmt",
         "rasterkit",
         "rasterkit-demo",
         "textwrap-toolkit-stager",
