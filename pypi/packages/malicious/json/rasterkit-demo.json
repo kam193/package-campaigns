@@ -1,0 +1,11 @@
+{
+    "name": "rasterkit-demo",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-textwrap-toolkit-stager",
+    "description": "During import, the code uses steganography to extract code from an image hidden in the dependency. The code then adds a new authorized SSH key and reports back the IP of the current environment.",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-07-21T05:46:23.205418+00:00",
+    "campaign_data_modified_at": "2026-07-21T05:46:23.232192+00:00"
+}
