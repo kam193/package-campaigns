@@ -1,0 +1,10 @@
+{
+    "name": "reimagined-broccoli",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-kimichat",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-07-21T09:07:25.153752+00:00",
+    "campaign_data_modified_at": "2026-07-21T09:07:25.382748+00:00"
+}
