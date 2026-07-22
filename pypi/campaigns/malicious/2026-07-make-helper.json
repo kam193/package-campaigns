@@ -8,6 +8,7 @@
         "uses-telegram-bot"
     ],
     "packages": [
+        "dev-helper-bg",
         "make-helper"
     ],
     "created_at": "2026-07-22",
