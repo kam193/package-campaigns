@@ -1,0 +1,20 @@
+{
+    "name": "2026-07-make-helper",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "obfuscation",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "make-helper"
+    ],
+    "created_at": "2026-07-22",
+    "ioc": [
+        "https://key-2qfm.vercel.app/api/key",
+        "key-2qfm.vercel.app"
+    ],
+    "references": [],
+    "description": "The package embeds encrypted code that, during import, is decrypted using an externally sourced password. The recovered code is executed and starts a bot capable of exfiltrating local files."
+}
