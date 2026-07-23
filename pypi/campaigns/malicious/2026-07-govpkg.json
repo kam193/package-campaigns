@@ -8,11 +8,14 @@
         "remote_executable"
     ],
     "packages": [
+        "govapkg",
         "govpkg"
     ],
     "created_at": "2026-07-17",
     "ioc": [
-        "https://temp.sh/NBZzm/client"
+        "https://temp.sh/NBZzm/client",
+        "https://teeny-cent.surge.sh/client",
+        "teeny-cent.surge.sh"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/7bd6824cbcb603a4cc79728985557a74c876db2d1e8a71e2120d79e3e507525a/detection",
