@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-risky-hacking-tools/gcli-control",
     "published": "2026-07-21T19:36:10.183158+00:00",
-    "modified": "2026-07-23T01:14:47.008562+00:00",
+    "modified": "2026-07-23T01:26:54.087091+00:00",
     "summary": "Malicious code in gcli-control (PyPI)",
     "details": "Hacking tools with a quite high risk\n\n\n---\n\nCategory: HIGH_RISK_HACKING_TOOLS - Packages that are very likely to be used to build or as part of a malware, in most cases. They are not malicious on their own, but are quite a good indicator of something suspicious\n\n\nCampaign: GENERIC-risky-hacking-tools\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -21,7 +21,8 @@
                 "0.7.0",
                 "0.7.1",
                 "0.8.0",
-                "0.9.0"
+                "0.9.0",
+                "0.10.0"
             ]
         }
     ],
