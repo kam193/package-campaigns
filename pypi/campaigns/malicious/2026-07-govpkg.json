@@ -15,11 +15,13 @@
     "ioc": [
         "https://temp.sh/NBZzm/client",
         "https://teeny-cent.surge.sh/client",
-        "teeny-cent.surge.sh"
+        "teeny-cent.surge.sh",
+        "https://api.telegra.ph/getPage/whisperer-07-22",
+        "http://canarytokens.com/about/8228cmb0ar9ro76fcrvt5v6al/post.jsp"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/7bd6824cbcb603a4cc79728985557a74c876db2d1e8a71e2120d79e3e507525a/detection",
         "https://app.any.run/tasks/0fc6b9f4-8052-435b-9c0a-3d48dfe79018"
     ],
-    "description": "When using the provided functionality, the package silently downloads a malicious executable and ensures its persistence disguised as a system service. The binary connects with telegra[.]ph."
+    "description": "When using the provided functionality, the package silently downloads a malicious executable and ensures its persistence disguised as a system service. The binary connects with telegra[.]ph. It appears that the contacted URL is built from the template https://api.telegra.ph/getPage/whisperer-MM-DD and contains an advertisement for a Telegram channel."
 }
