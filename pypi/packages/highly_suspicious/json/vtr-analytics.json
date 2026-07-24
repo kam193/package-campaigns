@@ -1,0 +1,10 @@
+{
+    "name": "vtr-analytics",
+    "ecosystem": "pypi",
+    "campaign": "2026-06-analyticschico",
+    "affected_versions": [
+        "9.0.6"
+    ],
+    "campaign_assigned_at": "2026-07-24T15:08:29.023744+00:00",
+    "campaign_data_modified_at": "2026-07-24T15:08:29.133180+00:00"
+}

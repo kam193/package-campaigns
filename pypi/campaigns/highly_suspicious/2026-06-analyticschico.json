@@ -3,10 +3,12 @@
     "ecosystem": "pypi",
     "category": "highly_suspicious",
     "packages": [
-        "analyticschico"
+        "analyticschico",
+        "vtr-analytics",
+        "vtranalytic"
     ],
     "created_at": "2026-06-22",
     "ioc": [],
     "references": [],
-    "description": "Disguised as analytics, the package contains capabilities to extract RDP credentials and manage users. The malicious usage has not yet been confirmed."
+    "description": "Disguised as analytics, the package contains capabilities to extract RDP credentials and manage users. The malicious usage has not yet been confirmed. In newer editions, it can also be used to manage Telegram tokens, analyze local files, broadcast messages."
 }

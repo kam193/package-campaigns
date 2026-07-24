@@ -1,28 +1,31 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-06-analyticschico/analyticschico",
-    "published": "2026-06-22T16:45:20.139450+00:00",
-    "modified": "2026-06-22T16:45:20.262793+00:00",
-    "summary": "Highly suspicious code in analyticschico (PyPI)",
+    "id": "pypi/2026-06-analyticschico/vtranalytic",
+    "published": "2026-07-24T15:08:12.523755+00:00",
+    "modified": "2026-07-24T15:08:12.663658+00:00",
+    "summary": "Highly suspicious code in vtranalytic (PyPI)",
     "details": "Disguised as analytics, the package contains capabilities to extract RDP credentials and manage users. The malicious usage has not yet been confirmed. In newer editions, it can also be used to manage Telegram tokens, analyze local files, broadcast messages.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-06-analyticschico\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
         {
             "package": {
-                "name": "analyticschico",
+                "name": "vtranalytic",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.1.0",
-                "3.0.0",
-                "5.0.1",
-                "5.0.2"
+                "8.0.0",
+                "9.0.0",
+                "9.0.1",
+                "9.0.2",
+                "9.0.4",
+                "9.0.5",
+                "9.0.7"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/analyticschico"
+            "url": "https://bad-packages.kam193.eu/pypi/package/vtranalytic"
         }
     ],
     "credits": [
