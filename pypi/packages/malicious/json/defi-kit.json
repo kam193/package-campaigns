@@ -1,0 +1,11 @@
+{
+    "name": "defi-kit",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-roles-royce",
+    "description": "During import, the package exfiltrates sensitive data (env variables, credential files, shell history, cryptocurrency wallet data etc.). It appears to be targeting users of kpk.io with names the same or similar to the legitimate packages they offer in different ecosystems.\n\nFirst discovered by Amazon Inspector.",
+    "affected_versions": [
+        "2.1.1"
+    ],
+    "campaign_assigned_at": "2026-07-24T09:19:51.185212+00:00",
+    "campaign_data_modified_at": "2026-07-24T09:19:51.215862+00:00"
+}

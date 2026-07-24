@@ -1,0 +1,10 @@
+{
+    "name": "karpatkey",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-roles-royce",
+    "affected_versions": [
+        "2.1.1"
+    ],
+    "campaign_assigned_at": "2026-07-24T09:21:35.366444+00:00",
+    "campaign_data_modified_at": "2026-07-24T09:21:35.399632+00:00"
+}
