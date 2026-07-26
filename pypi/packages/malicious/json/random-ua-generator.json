@@ -1,0 +1,10 @@
+{
+    "name": "random-ua-generator",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-random-ua-generator",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-26T19:36:57.302835+00:00",
+    "campaign_data_modified_at": "2026-07-26T19:36:57.324070+00:00"
+}

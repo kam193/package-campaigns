@@ -1,0 +1,19 @@
+{
+    "name": "2026-07-random-ua-generator",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_crypto",
+        "keylogger"
+    ],
+    "packages": [
+        "random-ua-generator"
+    ],
+    "created_at": "2026-07-26",
+    "ioc": [
+        "http://157.254.194.47:5000/keylogger",
+        "http://157.254.194.47:5000/wallets"
+    ],
+    "references": [],
+    "description": "During import, the code starts a keylogger and exfiltrates data from cryptowallets."
+}
