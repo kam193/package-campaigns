@@ -1,0 +1,16 @@
+{
+    "name": "cfgzen",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-cfgzen",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.0.5",
+        "1.0.6"
+    ],
+    "campaign_assigned_at": "2026-07-27T22:02:50.334491+00:00",
+    "campaign_data_modified_at": "2026-07-27T22:02:50.352603+00:00"
+}

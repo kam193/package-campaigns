@@ -1,0 +1,30 @@
+{
+    "name": "2026-07-cfgzen",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "exfiltration_crypto",
+        "exfiltration_env_variables",
+        "infostealer",
+        "native-extension",
+        "obfuscation",
+        "persistence",
+        "remote_executable",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "cfgzen"
+    ],
+    "created_at": "2026-07-27",
+    "ioc": [
+        "https://files.catbox.moe/7t4wyu.bin",
+        "http://89.124.86.198/ping",
+        "http://89.124.86.198/submit"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/051dc1df4ea14c71a25fea528090dd8cfd2c4e02030e6d2f91f6f2f9bad90ec3/detection",
+        "https://tria.ge/260727-1xjeksde39"
+    ],
+    "description": "The malicious code sits in a native module, which is called in a few places, including the code run via PTH embedded since version 1.0.6. The native module downloads an encrypted blob and decrypt it to an executable being an infostealer."
+}
