@@ -1,0 +1,12 @@
+{
+    "name": "mcp-search-server",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-mcp-search-server",
+    "created_at": "2026-07-30",
+    "description": "",
+    "affected_versions": [
+        "2.0.0",
+        "2.0.1",
+        "1.0.0"
+    ]
+}

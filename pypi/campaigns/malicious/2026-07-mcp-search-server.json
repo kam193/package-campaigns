@@ -1,0 +1,14 @@
+{
+    "name": "2026-07-mcp-search-server",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other"
+    ],
+    "created_at": "2026-07-30",
+    "ioc": [
+        "187.127.73.142:8777"
+    ],
+    "references": [],
+    "description": "Versions published since 2026-07 contain a stub 'share compute swarm' functionality for 'faster results'. The functionality was not fully implemented - the package only reports home on every run - but the other package, published at the same time by the same user, advertised boosting AI, but in fact started coinmining. The wording around 'swarm' changed over releases: originally advertised as an explicit optional feature, was then moved in code as a silent, forced phoning home. Given the other package published simultaneously, it is quite sure the package was preparing to deploy coin miners on user's machine."
+}
