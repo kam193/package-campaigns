@@ -1,0 +1,11 @@
+{
+    "name": "ml-data-shared",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-ml-shared",
+    "affected_versions": [
+        "12.0.1",
+        "16.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-30T21:51:01.294879+00:00",
+    "campaign_data_modified_at": "2026-07-30T21:51:01.309278+00:00"
+}

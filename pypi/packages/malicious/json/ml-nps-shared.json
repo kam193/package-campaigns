@@ -1,0 +1,11 @@
+{
+    "name": "ml-nps-shared",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-ml-shared",
+    "affected_versions": [
+        "6.0.3",
+        "8.2.3"
+    ],
+    "campaign_assigned_at": "2026-07-30T21:49:38.758054+00:00",
+    "campaign_data_modified_at": "2026-07-30T21:49:38.772137+00:00"
+}

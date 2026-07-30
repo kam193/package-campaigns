@@ -1,0 +1,21 @@
+{
+    "name": "2026-07-ml-shared",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "ml-data-shared",
+        "ml-fdbk-shared",
+        "ml-nps-shared",
+        "ml-shared"
+    ],
+    "created_at": "2026-07-30",
+    "ioc": [
+        "request-forwarder.a-d-a-m.workers.dev"
+    ],
+    "references": [],
+    "description": "During installation, package exfiltrates basic info and all environmental variables."
+}
