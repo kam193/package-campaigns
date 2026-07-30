@@ -1,0 +1,10 @@
+{
+    "name": "mlflow-skinet",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-30T20:17:23.687870+00:00",
+    "campaign_data_modified_at": "2026-07-30T20:17:23.702274+00:00"
+}
