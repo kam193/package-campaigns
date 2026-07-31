@@ -1,0 +1,26 @@
+{
+    "name": "2026-07-reguestsc",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "infostealer",
+        "malware",
+        "remote_executable",
+        "spyware-like",
+        "typosquatting"
+    ],
+    "packages": [
+        "reguestsc"
+    ],
+    "created_at": "2026-07-31",
+    "ioc": [
+        "http://31.76.101.19:8080/Group.exe"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/db86ed61afec83acb523e8b00558ee7641b2ddc388d542dc0ff2922625da013f/detection",
+        "https://tria.ge/260731-kqvw2aff97/behavioral1",
+        "https://app.any.run/tasks/348751a8-657c-4a3d-bee1-dedae5264036"
+    ],
+    "description": "Clones of a legitimate library with injected code downloading and executing a malicious executable on import. Dynamic analysis identified it as salatstealer."
+}
