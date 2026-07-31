@@ -1,0 +1,16 @@
+{
+    "name": "2026-07-telerape",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "revshell"
+    ],
+    "packages": [
+        "telerape"
+    ],
+    "created_at": "2026-07-31",
+    "ioc": [],
+    "references": [],
+    "description": "Package places a reverse shell in the PTH file. In analyzed versions, the target was on localhost."
+}

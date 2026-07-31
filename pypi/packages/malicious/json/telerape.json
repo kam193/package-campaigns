@@ -1,0 +1,12 @@
+{
+    "name": "telerape",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-telerape",
+    "affected_versions": [
+        "0.0.0.dev0",
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-07-31T22:25:45.895606+00:00",
+    "campaign_data_modified_at": "2026-07-31T22:25:45.932940+00:00"
+}
