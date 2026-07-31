@@ -1,0 +1,30 @@
+{
+    "name": "2026-07-cognikit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "clipboard_modify",
+        "crypto-related",
+        "exfiltration_browser_data",
+        "keylogger",
+        "persistence",
+        "remote_commands",
+        "through_dependency"
+    ],
+    "packages": [
+        "aiassistcore",
+        "aichannel",
+        "catalogai",
+        "cognikit"
+    ],
+    "created_at": "2026-07-31",
+    "ioc": [
+        "http://45.95.186.237:8000/address",
+        "45.95.186.237"
+    ],
+    "references": [
+        "https://x.com/L0Psec/status/2066540845893861386"
+    ],
+    "description": "In this campaign, some packages (e.g. cognikit, aiassistcore) are pulled as dependencies and contain the C2 configuration and the malicious functionality, while others (like aichannel) provide fake functionality and silently execute malicious actions from dependencies. The malicious functionality is oriented to replace the copied cryptocurrency wallet addresses with these controlled by the attacker and downloaded from the C2 server, exfiltrating browser data, establishing a remote control over the device, placing malicious extensions in browsers. \n\nIoCs are consistent with those previously attributed to North Korea's \"Contagious Interview\" campaign. The known TTP suggest these packages are used as dependencies in malicious interview assessments or cryptocurrency projects."
+}
