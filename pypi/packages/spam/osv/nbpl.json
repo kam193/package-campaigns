@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-07-nbpl/nbpl",
     "published": "2026-08-01T14:42:18.465811+00:00",
-    "modified": "2026-08-01T14:42:18.488279+00:00",
+    "modified": "2026-08-01T14:55:20.220342+00:00",
     "summary": "Spam code in nbpl (PyPI)",
     "details": "Once installed, the code placed in sitecustomize.py runs on every script run and opens a Youtube video for any run Python script.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: 2026-07-nbpl\n\n\nReasons (based on the campaign):\n\n\n - iritating-computer-activity\n\n\n - abuses-pth\n\n",
     "affected": [
@@ -13,7 +13,8 @@
             },
             "versions": [
                 "0.1.0",
-                "0.1.1"
+                "0.1.1",
+                "0.1.2"
             ]
         }
     ],
