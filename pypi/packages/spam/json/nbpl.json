@@ -1,0 +1,11 @@
+{
+    "name": "nbpl",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-nbpl",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-08-01T14:42:18.465811+00:00",
+    "campaign_data_modified_at": "2026-08-01T14:42:18.488279+00:00"
+}
