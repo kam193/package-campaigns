@@ -1,0 +1,10 @@
+{
+    "name": "instalogin1234",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-instalogin1234",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-03T20:34:47.121687+00:00",
+    "campaign_data_modified_at": "2026-08-03T20:34:47.160662+00:00"
+}

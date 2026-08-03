@@ -1,0 +1,17 @@
+{
+    "name": "2026-08-instalogin1234",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials"
+    ],
+    "packages": [
+        "instalogin1234"
+    ],
+    "created_at": "2026-08-03",
+    "ioc": [
+        "https://discord.com/api/v9/channels/1246456414843437101/messages"
+    ],
+    "references": [],
+    "description": "The package promises to be an Instagram CLI and offers \"login\". Entered credentials are sent to a Discord channel, and the user is presented with the Instagram website just opened in the browser."
+}
