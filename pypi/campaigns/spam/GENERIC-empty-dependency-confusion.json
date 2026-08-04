@@ -19,6 +19,7 @@
         "modelopt-launcher",
         "process-stats-exporter",
         "snowflake-ml",
+        "szn-a1-dnsmanagement",
         "tensorflow-utils"
     ],
     "created_at": "2026-04-29",
