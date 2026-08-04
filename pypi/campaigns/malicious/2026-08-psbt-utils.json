@@ -1,0 +1,29 @@
+{
+    "name": "2026-08-psbt-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_stealing",
+        "crypto-related",
+        "exfiltration_browser_data",
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "exfiltration_ssh_keys",
+        "files_exfiltration",
+        "infostealer",
+        "obfuscation",
+        "persistence",
+        "remote_script"
+    ],
+    "packages": [
+        "psbt-utils"
+    ],
+    "created_at": "2026-08-04",
+    "ioc": [
+        "https://curly-violet-87a9.ricardorichp.workers.dev/firmware",
+        "curly-violet-87a9.ricardorichp.workers.dev"
+    ],
+    "references": [],
+    "description": "The code advertised as a firmware upgrader for hardware wallets in fact downloads an infostealer. The stealer searches the machine for cryptocurrency sensitive data (wallet files, seeds), browser data (passwords, cookies), all kinds of credentials (including tokens, passwords, SSH keys, TOTP seeds etc.), other sensitive files and current clipboard content. Data are exfiltrated, and the stealer configures persistence via scheduled tasks or LaunchAgent. The code deliberatly doesn't start in CI environments and checks if the system looks real.\n\nContinuation of 2026-08-coldcard-helpers campaign."
+}
