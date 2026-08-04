@@ -1,0 +1,11 @@
+{
+    "name": "hacker-king-sog",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-04T10:34:58.290021+00:00",
+    "campaign_data_modified_at": "2026-08-04T10:36:52.370318+00:00"
+}
