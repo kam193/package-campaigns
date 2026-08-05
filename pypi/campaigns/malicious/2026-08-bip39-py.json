@@ -16,7 +16,9 @@
         "bip39-py",
         "bitcoinlib-py",
         "crypto-trading-toolkit",
-        "crypto-wallet-sdk"
+        "crypto-wallet-sdk",
+        "defi-sdk-py",
+        "mnemonic-py"
     ],
     "created_at": "2026-08-05",
     "ioc": [
