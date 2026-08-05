@@ -1,0 +1,10 @@
+{
+    "name": "eth-account-wallet",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-bip39-py",
+    "affected_versions": [
+        "0.11.2"
+    ],
+    "campaign_assigned_at": "2026-08-05T17:48:56.267556+00:00",
+    "campaign_data_modified_at": "2026-08-05T17:48:56.282099+00:00"
+}

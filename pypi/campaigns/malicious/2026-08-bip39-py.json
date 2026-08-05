@@ -18,7 +18,9 @@
         "crypto-trading-toolkit",
         "crypto-wallet-sdk",
         "defi-sdk-py",
-        "mnemonic-py"
+        "eth-account-wallet",
+        "mnemonic-py",
+        "solana-sniper-bot"
     ],
     "created_at": "2026-08-05",
     "ioc": [
