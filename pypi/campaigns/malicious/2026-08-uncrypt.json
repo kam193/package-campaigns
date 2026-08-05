@@ -1,0 +1,24 @@
+{
+    "name": "2026-08-uncrypt",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_browser_data",
+        "obfuscation",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "uncrypt"
+    ],
+    "created_at": "2026-08-05",
+    "ioc": [
+        "abxcefpl20w.xsint-intelligence.com"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/9d48d08eec66438969bb580ddaed8b329e10df75a63aacb3257f2464bf6f89bd/detection",
+        "https://tria.ge/260805-scwkeaan2x",
+        "https://www.virustotal.com/gui/file/d1fbef0e9364f498b25ecd3e5c6adc34ac5d643ec3180753efc48379f4cc5a1f/detection"
+    ],
+    "description": "During import, the package silently starts the embedded executable which existence is not disclosed to the user. Dynamic analysis suggests the code harvests browser data and communicates with an external domain."
+}
