@@ -1,0 +1,21 @@
+{
+    "name": "2026-08-alphalend-layouts",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "crypto-related",
+        "exfiltration_crypto",
+        "files_exfiltration",
+        "obfuscation"
+    ],
+    "packages": [
+        "alphalend-layouts"
+    ],
+    "created_at": "2026-08-06",
+    "ioc": [
+        "https://github.com/futongwan/alphalend-layouts"
+    ],
+    "references": [],
+    "description": "During import, the package exfiltrates sensitive files with SUI private keys to a private GitHub repository. "
+}
