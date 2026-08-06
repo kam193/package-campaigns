@@ -1,0 +1,12 @@
+{
+    "name": "alphalend-abi",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-alphalend-layouts",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.1.0"
+    ],
+    "campaign_assigned_at": "2026-08-06T16:13:58.218823+00:00",
+    "campaign_data_modified_at": "2026-08-06T16:13:58.234649+00:00"
+}
