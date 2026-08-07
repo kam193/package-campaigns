@@ -1,0 +1,10 @@
+{
+    "name": "fast-hashes",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-flasq",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-08-07T09:25:16.317547+00:00",
+    "campaign_data_modified_at": "2026-08-07T09:25:16.339161+00:00"
+}
