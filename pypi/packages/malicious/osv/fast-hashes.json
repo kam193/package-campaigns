@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-08-flasq/fast-hashes",
     "published": "2026-08-07T09:25:16.317547+00:00",
-    "modified": "2026-08-07T09:25:16.339161+00:00",
+    "modified": "2026-08-07T09:36:39.060115+00:00",
     "summary": "Malicious code in fast-hashes (PyPI)",
     "details": "Package imitates name of a popula library. During installation, obfuscated code downloads a malicious executable and starts it. It then exfiltrates at least cryptocurrency wallet data, probably more.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-flasq\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - exfiltration-generic\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - exfiltration-crypto\n\n",
     "affected": [
@@ -37,7 +37,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "ANALYST"
+            "type": "REPORTER"
         }
     ],
     "database_specific": {
