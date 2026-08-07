@@ -1,0 +1,29 @@
+{
+    "name": "2026-08-flasq",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_crypto",
+        "exfiltration_generic",
+        "obfuscation",
+        "override_install",
+        "remote_executable",
+        "typosquatting"
+    ],
+    "packages": [
+        "fastapii",
+        "flasq",
+        "idnna",
+        "pydanticc"
+    ],
+    "created_at": "2026-08-07",
+    "ioc": [
+        "https://github.com/totti2188/8gp1Q7iZD3h4VW/releases/download/v1.3A/something",
+        "193.70.34.101:20099",
+        "193.70.34.101"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/425f5336182e359211b5d751786d2ce1d31a673ea9c82107358a888803742649/detection"
+    ],
+    "description": "Package imitates name of a popula library. During installation, obfuscated code downloads a malicious executable and starts it. It then exfiltrates at least cryptocurrency wallet data, probably more. "
+}
