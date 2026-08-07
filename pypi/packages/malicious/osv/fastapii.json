@@ -25,6 +25,10 @@
             "url": "https://www.virustotal.com/gui/file/425f5336182e359211b5d751786d2ce1d31a673ea9c82107358a888803742649/detection"
         },
         {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/260807-fkycrazzg1/behavioral1"
+        },
+        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/fastapii"
         }

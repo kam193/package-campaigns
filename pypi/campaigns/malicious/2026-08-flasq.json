@@ -23,7 +23,8 @@
         "193.70.34.101"
     ],
     "references": [
-        "https://www.virustotal.com/gui/file/425f5336182e359211b5d751786d2ce1d31a673ea9c82107358a888803742649/detection"
+        "https://www.virustotal.com/gui/file/425f5336182e359211b5d751786d2ce1d31a673ea9c82107358a888803742649/detection",
+        "https://tria.ge/260807-fkycrazzg1/behavioral1"
     ],
     "description": "Package imitates name of a popula library. During installation, obfuscated code downloads a malicious executable and starts it. It then exfiltrates at least cryptocurrency wallet data, probably more. "
 }
