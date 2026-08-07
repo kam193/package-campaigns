@@ -15,7 +15,8 @@
         "fastapii",
         "flasq",
         "idnna",
-        "pydanticc"
+        "pydanticc",
+        "speed-hashes"
     ],
     "created_at": "2026-08-07",
     "ioc": [
