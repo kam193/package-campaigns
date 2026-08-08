@@ -10,6 +10,8 @@
         "airtest-hunter",
         "brainpp",
         "calvin-env",
+        "datadog-agent-metrics",
+        "datadog-kubernetes",
         "hunter-cli",
         "lc-agent",
         "lc-agent-aiq",

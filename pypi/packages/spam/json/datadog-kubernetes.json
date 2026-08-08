@@ -1,0 +1,10 @@
+{
+    "name": "datadog-kubernetes",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-empty-dependency-confusion",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-08T14:59:08.246914+00:00",
+    "campaign_data_modified_at": "2026-08-08T14:59:08.261445+00:00"
+}
