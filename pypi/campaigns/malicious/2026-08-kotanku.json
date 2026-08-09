@@ -1,0 +1,16 @@
+{
+    "name": "2026-08-kotanku",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_crypto",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "kotanku"
+    ],
+    "created_at": "2026-08-09",
+    "ioc": [],
+    "references": [],
+    "description": "During import, the package exfiltrates cryptocurrency wallet files."
+}
