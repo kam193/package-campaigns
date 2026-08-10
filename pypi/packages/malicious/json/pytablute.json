@@ -1,0 +1,10 @@
+{
+    "name": "pytablute",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "affected_versions": [
+        "1.0.3"
+    ],
+    "campaign_assigned_at": "2026-08-10T08:37:18.926045+00:00",
+    "campaign_data_modified_at": "2026-08-10T08:37:33.758176+00:00"
+}
