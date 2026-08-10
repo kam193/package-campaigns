@@ -3,15 +3,19 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "RAT",
         "clipboard_modify",
         "clipboard_stealing",
         "crypto-related",
         "dependency-confusion",
         "exfiltration_browser_data",
         "exfiltration_crypto",
+        "exfiltration_ssh_keys",
+        "files_exfiltration",
         "infostealer",
         "keylogger",
-        "persistence"
+        "persistence",
+        "remote_commands"
     ],
     "packages": [
         "chaintest"
@@ -22,5 +26,5 @@
         "204.168.151.58"
     ],
     "references": [],
-    "description": "The package contains a cryptocurrency infostealer that exfiltrates information from browsers (including cryptowallet extensions, synced extensions, local storage) and standalone applications (password managers, cryptowallets). The code achieves persistence via different methods on different platforms, and runs a keylogger that modifies the copied cryptocurrency addresses with addresses controlled by the attacker. The code shares some similarities with campaign 2026-07-cognikit attributed to the DPRK \"Contagious Interview\" campaign."
+    "description": "The package contains a cryptocurrency infostealer that exfiltrates information from browsers (including cryptowallet extensions, synced extensions, local storage) and standalone applications (password managers, cryptowallets). The code achieves persistence via different methods on different platforms, and runs a keylogger that modifies the copied cryptocurrency addresses with addresses controlled by the attacker. Malicious code is also prepared to retrieve commands to execute from C2, exfiltrate SSH keys, and install malicious extensions in browsers.\n\nThe code shares some similarities with campaign 2026-07-cognikit attributed to the DPRK \"Contagious Interview\" campaign."
 }
