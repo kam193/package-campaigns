@@ -1,0 +1,26 @@
+{
+    "name": "2026-08-chaintest",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clipboard_modify",
+        "clipboard_stealing",
+        "crypto-related",
+        "dependency-confusion",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "keylogger",
+        "persistence"
+    ],
+    "packages": [
+        "chaintest"
+    ],
+    "created_at": "2026-08-10",
+    "ioc": [
+        "ephmral.info",
+        "204.168.151.58"
+    ],
+    "references": [],
+    "description": "The package contains a cryptocurrency infostealer that exfiltrates information from browsers (including cryptowallet extensions, synced extensions, local storage) and standalone applications (password managers, cryptowallets). The code achieves persistence via different methods on different platforms, and runs a keylogger that modifies the copied cryptocurrency addresses with addresses controlled by the attacker. The code shares some similarities with campaign 2026-07-cognikit attributed to the DPRK \"Contagious Interview\" campaign."
+}
