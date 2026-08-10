@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-08-bigtime/bigtime",
+    "published": "2026-08-10T21:22:19.362474+00:00",
+    "modified": "2026-08-10T21:22:22.528955+00:00",
+    "summary": "Malicious code in bigtime (PyPI)",
+    "details": "The package contains hidden code to overwrite the built-in \"open\" function and exfiltrate every write to opened files. Exfiltration watcher is also attached to other files in user's home directory.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-bigtime\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "bigtime",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/bigtime"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

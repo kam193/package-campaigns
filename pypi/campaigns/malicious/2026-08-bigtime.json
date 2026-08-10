@@ -1,0 +1,15 @@
+{
+    "name": "2026-08-bigtime",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration"
+    ],
+    "packages": [
+        "bigtime"
+    ],
+    "created_at": "2026-08-10",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains hidden code to overwrite the built-in \"open\" function and exfiltrate every write to opened files. Exfiltration watcher is also attached to other files in user's home directory."
+}
