@@ -1,0 +1,31 @@
+{
+    "name": "2026-08-neutrl-core",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "crypto-related",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys",
+        "files_exfiltration",
+        "remote_commands",
+        "through_dependency"
+    ],
+    "packages": [
+        "neutrl-contracts",
+        "neutrl-core",
+        "plp-contract"
+    ],
+    "created_at": "2026-08-10",
+    "ioc": [
+        "https://chainrpc-pool.com/v1/mainnet",
+        "chainrpc-pool.com"
+    ],
+    "references": [
+        "https://github.com/mhoonumabaamercy-hub/neutrl-core/blob/main/src/neutrl_core/config.py",
+        "https://github.com/mhoonumabaamercy-hub"
+    ],
+    "description": "This campaign exfiltrates sensitive environment variables, SSH keys, dotenv files and other credentials. The malicious code is hidden in a dependency package (e.g. neutrl-core) in a function disguised as telemetry, and requires activates once the attacker-controlled endpoint delivers the command. While the user can provide their blockchain endpoints, the code makes sure the malicious endpoint is always included in the configuration. In analyzed versions, the dependent packages did not use the malicious code but were clearly prepared for the supply chain attack. The related GitHub account faked the activity by publishing repositories with backdated commits (the account was created after any of the commits)."
+}

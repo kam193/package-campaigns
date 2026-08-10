@@ -1,0 +1,13 @@
+{
+    "name": "neutrl-contracts",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-neutrl-core",
+    "description": "This package intentionally depends on a malicious package.\n\nThis campaign exfiltrates sensitive environment variables, SSH keys, dotenv files and other credentials. The malicious code is hidden in a dependency package (e.g. neutrl-core) in a function disguised as telemetry, and requires activates once the attacker-controlled endpoint delivers the command. While the user can provide their blockchain endpoints, the code makes sure the malicious endpoint is always included in the configuration. In analyzed versions, the dependent packages did not use the malicious code but were clearly prepared for the supply chain attack.",
+    "affected_versions": [
+        "2.0.0",
+        "2.0.1",
+        "2.0.2"
+    ],
+    "campaign_assigned_at": "2026-08-10T19:49:11.172168+00:00",
+    "campaign_data_modified_at": "2026-08-10T19:49:11.187921+00:00"
+}
