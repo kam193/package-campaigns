@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-08-dlmm/dlmm-sdk",
-    "published": "2026-08-11T06:21:47.170517+00:00",
-    "modified": "2026-08-11T06:21:47.186449+00:00",
-    "summary": "Malicious code in dlmm-sdk (PyPI)",
+    "id": "pypi/2026-08-dlmm/morpho-sdk",
+    "published": "2026-08-11T10:59:38.809457+00:00",
+    "modified": "2026-08-11T10:59:38.824150+00:00",
+    "summary": "Malicious code in morpho-sdk (PyPI)",
     "details": "During import the package exfiltrates sensitive env variables and credential files. In addition, listings of cryptocurrency wallet directories are collected.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-dlmm\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - dependency-confusion\n\n\n - crypto-related\n\n\n - exfiltration-credentials\n\n",
     "affected": [
         {
             "package": {
-                "name": "dlmm-sdk",
+                "name": "morpho-sdk",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -19,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/dlmm-sdk"
+            "url": "https://bad-packages.kam193.eu/pypi/package/morpho-sdk"
         }
     ],
     "credits": [

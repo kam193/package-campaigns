@@ -10,10 +10,14 @@
     ],
     "packages": [
         "dlmm",
-        "dlmm-sdk"
+        "dlmm-sdk",
+        "euler-sdk",
+        "morpho-sdk"
     ],
     "created_at": "2026-08-11",
-    "ioc": [],
+    "ioc": [
+        "https://webhook.site/326b0891-2093-4800-a4c1-686ce3e07b09"
+    ],
     "references": [],
     "description": "During import the package exfiltrates sensitive env variables and credential files. In addition, listings of cryptocurrency wallet directories are collected. "
 }
