@@ -1,0 +1,19 @@
+{
+    "name": "2026-08-dlmm",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "dependency-confusion",
+        "exfiltration_credentials",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "dlmm",
+        "dlmm-sdk"
+    ],
+    "created_at": "2026-08-11",
+    "ioc": [],
+    "references": [],
+    "description": "During import the package exfiltrates sensitive env variables and credential files. In addition, listings of cryptocurrency wallet directories are collected. "
+}

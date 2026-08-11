@@ -1,0 +1,10 @@
+{
+    "name": "dlmm-sdk",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-dlmm",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-08-11T06:21:47.170517+00:00",
+    "campaign_data_modified_at": "2026-08-11T06:21:47.186449+00:00"
+}

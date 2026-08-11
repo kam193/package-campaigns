@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-08-dlmm/dlmm-sdk",
+    "published": "2026-08-11T06:21:47.170517+00:00",
+    "modified": "2026-08-11T06:21:47.186449+00:00",
+    "summary": "Malicious code in dlmm-sdk (PyPI)",
+    "details": "During import the package exfiltrates sensitive env variables and credential files. In addition, listings of cryptocurrency wallet directories are collected.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-dlmm\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - dependency-confusion\n\n\n - exfiltration-credentials\n\n\n - crypto-related\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "dlmm-sdk",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/dlmm-sdk"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
