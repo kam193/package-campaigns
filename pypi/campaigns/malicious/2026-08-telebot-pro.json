@@ -1,0 +1,18 @@
+{
+    "name": "2026-08-telebot-pro",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "files_exfiltration",
+        "target:telegram",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "telebot-pro"
+    ],
+    "created_at": "2026-08-11",
+    "ioc": [],
+    "references": [],
+    "description": "When using the provided bot class, the code starts a hidden exfiltration thread that collects Telegram session files, pictures and information about the machine, like connected WiFi networks."
+}

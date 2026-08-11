@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-08-telebot-pro/telebot-pro",
+    "published": "2026-08-11T19:26:37.512946+00:00",
+    "modified": "2026-08-11T19:26:38.020395+00:00",
+    "summary": "Malicious code in telebot-pro (PyPI)",
+    "details": "When using the provided bot class, the code starts a hidden exfiltration thread that collects Telegram session files, pictures and information about the machine, like connected WiFi networks.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-telebot-pro\n\n\nReasons (based on the campaign):\n\n\n - uses-telegram-bot\n\n\n - action-hidden-in-lib-usage\n\n\n - files-exfiltration\n\n\n - target:telegram\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "telebot-pro",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.3.7",
+                "2.3.8"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/telebot-pro"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
