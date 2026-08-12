@@ -4,7 +4,7 @@
     "published": "2026-08-11T06:21:29.450686+00:00",
     "modified": "2026-08-11T06:21:29.466082+00:00",
     "summary": "Malicious code in dlmm (PyPI)",
-    "details": "During import the package exfiltrates sensitive env variables and credential files. In addition, listings of cryptocurrency wallet directories are collected.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-dlmm\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - dependency-confusion\n\n\n - crypto-related\n\n\n - exfiltration-credentials\n\n",
+    "details": "During import the package exfiltrates sensitive env variables (e.g. related to cloud providers, cryptocurrencies, package registries), credential files (including SSH keys, cloud credentials, package registry configuration) and dotenv files. In addition, listings of some directories, e.g. cryptocurrency wallets and cloud CLI configuration, are collected.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-dlmm\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - dependency-confusion\n\n\n - crypto-related\n\n\n - exfiltration-credentials\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {

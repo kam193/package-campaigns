@@ -6,7 +6,8 @@
         "crypto-related",
         "dependency-confusion",
         "exfiltration_credentials",
-        "exfiltration_env_variables"
+        "exfiltration_env_variables",
+        "files_exfiltration"
     ],
     "packages": [
         "dlmm",
@@ -19,5 +20,5 @@
         "https://webhook.site/326b0891-2093-4800-a4c1-686ce3e07b09"
     ],
     "references": [],
-    "description": "During import the package exfiltrates sensitive env variables and credential files. In addition, listings of cryptocurrency wallet directories are collected. "
+    "description": "During import the package exfiltrates sensitive env variables (e.g. related to cloud providers, cryptocurrencies, package registries), credential files (including SSH keys, cloud credentials, package registry configuration) and dotenv files. In addition, listings of some directories, e.g. cryptocurrency wallets and cloud CLI configuration, are collected. "
 }
