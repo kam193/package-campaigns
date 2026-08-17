@@ -1,0 +1,17 @@
+{
+    "name": "2026-08-socks5901",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "target:android",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "socks5901"
+    ],
+    "created_at": "2026-08-17",
+    "ioc": [],
+    "references": [],
+    "description": "During import, package exfiltrates all files from \"/sdcard/\""
+}
