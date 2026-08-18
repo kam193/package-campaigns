@@ -1,0 +1,21 @@
+{
+    "name": "2026-08-httpz-requests",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "files_exfiltration",
+        "native-extension",
+        "obfuscation",
+        "persistence",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "httpz-requests",
+        "infogram-bot"
+    ],
+    "created_at": "2026-08-18",
+    "ioc": [],
+    "references": [],
+    "description": "The package provides Telegram-based remote access to the machine it runs on. It was deliberately created and used to hack other machines, exfiltrate files and credentials."
+}
