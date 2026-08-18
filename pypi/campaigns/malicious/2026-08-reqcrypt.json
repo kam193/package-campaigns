@@ -1,0 +1,15 @@
+{
+    "name": "2026-08-reqcrypt",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor"
+    ],
+    "packages": [
+        "reqcrypt"
+    ],
+    "created_at": "2026-08-18",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains a hidden backdoor. The promised functionality is an HTTP request library with some additional functions. On every usage, code secretly checks for the presence of specific fields in the response, and if they are found, their content is secretly executed."
+}

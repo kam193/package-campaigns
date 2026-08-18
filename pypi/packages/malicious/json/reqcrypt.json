@@ -1,0 +1,10 @@
+{
+    "name": "reqcrypt",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-reqcrypt",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-08-18T22:01:25.231510+00:00",
+    "campaign_data_modified_at": "2026-08-18T22:01:25.251379+00:00"
+}
