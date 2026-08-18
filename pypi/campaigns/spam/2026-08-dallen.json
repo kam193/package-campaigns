@@ -1,0 +1,21 @@
+{
+    "name": "2026-08-dallen",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "ai-interior-design-info",
+        "copilot3d-info",
+        "deepseek-video-info",
+        "gemini-omni-ai",
+        "omnivideo-ai",
+        "qualityenhancer-ai",
+        "riffusion-ai",
+        "trellis2-3d-info",
+        "video2x-ai",
+        "vishalo-ai-info"
+    ],
+    "created_at": "2026-08-18",
+    "ioc": [],
+    "references": [],
+    "description": "Packages are used only to advertise online services, no real code functionality."
+}
