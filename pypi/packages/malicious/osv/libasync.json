@@ -1,0 +1,57 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-08-libasync/libasync",
+    "published": "2026-08-19T22:38:13.899834+00:00",
+    "modified": "2026-08-19T22:38:13.936883+00:00",
+    "summary": "Malicious code in libasync (PyPI)",
+    "details": "During import, the code obfuscated in native extension downloads malicious remote executable and establishes persistence via registry keys. Downloaded binary seems to be used for cryptomining.\n\n Attacker infrastructure corresponds with the campaign 2026-07-pyqt6darktheme.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-libasync\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - native-extension\n\n\n - persistence\n\n\n - cryptominer\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "libasync",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/b7e770b71209bbc615ae928de01b04aef48295bf6548fd5f6d6cfffce531c0d0/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/260819-145amavbkc/behavioral1"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/11d7c6bd095b62206bc5b49b6749dfc73ea21e9b5b0b268c84ef4cadd1cba278/detection"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/libasync"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "florinn.dev"
+            ],
+            "urls": [
+                "https://florinn.dev/files/i.bin"
+            ]
+        }
+    }
+}

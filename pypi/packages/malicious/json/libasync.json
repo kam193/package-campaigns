@@ -1,0 +1,10 @@
+{
+    "name": "libasync",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-libasync",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-08-19T22:38:13.899834+00:00",
+    "campaign_data_modified_at": "2026-08-19T22:38:13.936883+00:00"
+}
