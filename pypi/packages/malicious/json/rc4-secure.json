@@ -1,0 +1,10 @@
+{
+    "name": "rc4-secure",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-rc4-secure",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-08-19T20:31:43.035204+00:00",
+    "campaign_data_modified_at": "2026-08-19T20:31:43.055814+00:00"
+}
