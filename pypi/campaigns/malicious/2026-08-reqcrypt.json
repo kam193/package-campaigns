@@ -6,7 +6,8 @@
         "backdoor"
     ],
     "packages": [
-        "reqcrypt"
+        "reqcrypt",
+        "reqcrypt-dev"
     ],
     "created_at": "2026-08-18",
     "ioc": [],
