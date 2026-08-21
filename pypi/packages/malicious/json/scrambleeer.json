@@ -1,0 +1,11 @@
+{
+    "name": "scrambleeer",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-scrambleeer",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-08-21T09:31:52.789747+00:00",
+    "campaign_data_modified_at": "2026-08-21T09:31:52.813890+00:00"
+}
