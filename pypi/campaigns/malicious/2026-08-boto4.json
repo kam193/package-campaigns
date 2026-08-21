@@ -1,0 +1,21 @@
+{
+    "name": "2026-08-boto4",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "cryptominer",
+        "network-scan",
+        "persistence",
+        "remote_commands",
+        "uses-telegram-bot",
+        "worm"
+    ],
+    "packages": [
+        "boto4"
+    ],
+    "created_at": "2026-08-21",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, package executes an embedded executable. The executable is capable of executing remote commands, establishing persistence, cryptomining, exfiltrating basic data, further network scanning and worm-style propagation. Actions are controlled via a Telegram bot. "
+}
