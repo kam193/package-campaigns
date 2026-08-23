@@ -1,0 +1,24 @@
+{
+    "name": "2026-08-mlflow-otel-instrumentor",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "cryptominer",
+        "network-scan",
+        "persistence",
+        "remote_executable",
+        "typosquatting",
+        "worm"
+    ],
+    "packages": [
+        "mlflow-otel-instrumentor"
+    ],
+    "created_at": "2026-08-23",
+    "ioc": [
+        "https://file.freestorage-04.bond/files/2026/8/23/10fef88e-73a5-4262-90b8-6585724390e6/boto3_utils.elf?srl=3wyvEAZhXsu6vRNBWi1bug&exp=1787506002"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/051f87046f4904a6b9a479153e14b1e3c3eb7d9aed7ef2b9360c6bbc081112e9/detection"
+    ],
+    "description": "During installation package downloads and executes an executable. The remote executable appears to be broken but suggests intentions for persistence via systemd services, cryptocurrency mining and propagating over the network.  Campaign shows some similarities with 2026-08-boto4"
+}
