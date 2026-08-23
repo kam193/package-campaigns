@@ -4,7 +4,7 @@
     "published": "2026-08-23T21:37:06.590779+00:00",
     "modified": "2026-08-23T21:37:06.612848+00:00",
     "summary": "Malicious code in envprovision (PyPI)",
-    "details": "Exported functions hide the malicious functionality. On Windows, it downloads and installs a malicious executable, and disguises it as a system utility. After installation, the code attempts to cover its tracks by cleaning logs and removing downloaded files. The installed executable is a heavily obfuscated malware with multiple sandbox evasion techniques, finally running an infostealer identifying itself as \"Snow Stealer\". It collects at least browser data and modifies cryptowallet applications.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-envprovision\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - action-hidden-in-lib-usage\n\n\n - covering-tracks\n\n\n - persistence\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - obfuscation\n\n\n - malware\n\n\n - infostealer\n\n\n - exfiltration-browser-data\n\n\n - exfiltration-crypto\n\n",
+    "details": "Exported functions hide the malicious functionality. On Windows, it downloads and installs a malicious executable, and disguises it as a system utility. After installation, the code attempts to cover its tracks by cleaning logs and removing downloaded files. The installed executable is a heavily obfuscated malware with multiple sandbox evasion techniques, finally running an infostealer identifying itself as \"Snow Stealer\". It collects at least browser data and modifies cryptowallet applications.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-08-envprovision\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - Downloads and executes a remote executable.\n\n\n - obfuscation\n\n\n - action-hidden-in-lib-usage\n\n\n - exfiltration-browser-data\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - exfiltration-crypto\n\n\n - malware\n\n\n - covering-tracks\n\n\n - persistence\n\n",
     "affected": [
         {
             "package": {
@@ -45,7 +45,8 @@
     "database_specific": {
         "iocs": {
             "domains": [
-                "env-metadata.up.railway.app"
+                "env-metadata.up.railway.app",
+                "ivahook.online"
             ],
             "urls": [
                 "https://env-metadata.up.railway.app/vbv_a8F3kL92xQ/manifest.json",
