@@ -1,0 +1,12 @@
+{
+    "name": "python-walletlibr-v",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "description": "The package appears to be used only for testing how to execute code during installation, while the name suggests a cryptowallet usage. ",
+    "affected_versions": [
+        "0.7.8",
+        "0.7.9"
+    ],
+    "campaign_assigned_at": "2026-08-23T12:09:58.226917+00:00",
+    "campaign_data_modified_at": "2026-08-23T12:09:58.246454+00:00"
+}

@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-local-poc/python-walletlibr-v",
+    "published": "2026-08-23T12:09:58.226917+00:00",
+    "modified": "2026-08-23T12:09:58.246454+00:00",
+    "summary": "Spam code in python-walletlibr-v (PyPI)",
+    "details": "The package appears to be used only for testing how to execute code during installation, while the name suggests a cryptowallet usage.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "python-walletlibr-v",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.7.8",
+                "0.7.9"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/python-walletlibr-v"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
