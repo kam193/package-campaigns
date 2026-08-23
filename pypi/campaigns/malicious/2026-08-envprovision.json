@@ -1,0 +1,32 @@
+{
+    "name": "2026-08-envprovision",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "covering-tracks",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "malware",
+        "obfuscation",
+        "persistence",
+        "remote_executable",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "envprovision"
+    ],
+    "created_at": "2026-08-23",
+    "ioc": [
+        "https://env-metadata.up.railway.app/vbv_a8F3kL92xQ/manifest.json",
+        "env-metadata.up.railway.app",
+        "https://env-metadata.up.railway.app/vbv_a8F3kL92xQ/appsetupw.exe",
+        "https://energy-total.up.railway.app/vbv_a8F3kL92xQ/manifest.json"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/d49fa53949d9350ee34c4e1279ee72e6fafc294ae338825f66c33c7f188b878c/details",
+        "https://www.virustotal.com/gui/file-analysis/MGQ3ZGViMWFhYzU0YjY3ODllZWI1ZGJkMDY4Nzk3NGM6MTc4NzUxODgyOQ=="
+    ],
+    "description": "Exported functions hide the malicious functionality. On Windows, it downloads and installs a malicious executable, and disguises it as a system utility. After installation, the code attempts to cover its tracks by cleaning logs and removing downloaded files. The installed executable is a heavily obfuscated malware with multiple sandbox evasion techniques, finally running an infostealer identifying itself as \"Snow Stealer\". It collects at least browser data and modifies cryptowallet applications. "
+}
