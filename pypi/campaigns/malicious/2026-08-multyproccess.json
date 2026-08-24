@@ -1,0 +1,25 @@
+{
+    "name": "2026-08-multyproccess",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "obfuscation",
+        "override_install",
+        "persistence",
+        "sandbox-detection",
+        "typosquatting"
+    ],
+    "packages": [
+        "multyproccess"
+    ],
+    "created_at": "2026-08-24",
+    "ioc": [
+        "recloud-blush.vercel.app"
+    ],
+    "references": [],
+    "description": "During installation, package executes an infostealer that e.g. exfiltrates browsers and crypto wallets data, establishes persistence, monitors clipboard. "
+}
