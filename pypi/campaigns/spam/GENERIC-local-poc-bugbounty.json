@@ -6,7 +6,9 @@
         "dependency-confusion"
     ],
     "packages": [
+        "buildingcontrolssimulator",
         "dd-trace-api-py",
+        "ebapi",
         "hex-sl-server",
         "kw-json",
         "kw-structlog-config",

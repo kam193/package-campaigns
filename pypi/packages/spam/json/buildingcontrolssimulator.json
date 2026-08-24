@@ -1,0 +1,11 @@
+{
+    "name": "buildingcontrolssimulator",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc-bugbounty",
+    "affected_versions": [
+        "0.0.0",
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-24T17:56:07.535075+00:00",
+    "campaign_data_modified_at": "2026-08-24T17:56:07.556039+00:00"
+}
