@@ -1,0 +1,18 @@
+{
+    "name": "2026-08-minecraft-ytreceiver",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "keylogger",
+        "spyware-like",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "minecraft-ytreceiver"
+    ],
+    "created_at": "2026-08-25",
+    "ioc": [],
+    "references": [],
+    "description": "The package hides code for exfiltrating files, recordings from the webcam, screenshots, keylogging. "
+}
