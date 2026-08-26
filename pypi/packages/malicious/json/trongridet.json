@@ -1,0 +1,10 @@
+{
+    "name": "trongridet",
+    "ecosystem": "pypi",
+    "campaign": "2025-04-tronix",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-26T19:13:45.744335+00:00",
+    "campaign_data_modified_at": "2026-08-26T19:14:20.024362+00:00"
+}
