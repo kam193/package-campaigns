@@ -1,0 +1,10 @@
+{
+    "name": "pybitjs",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-pybitjs",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-08-26T19:21:41.118260+00:00",
+    "campaign_data_modified_at": "2026-08-26T19:21:41.139540+00:00"
+}
