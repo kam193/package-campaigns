@@ -1,0 +1,14 @@
+{
+    "name": "zerocheck",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "description": "The package provides functionality to validate collected cookies against some popular services, like Spotify, Netflix.",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1",
+        "1.1.0",
+        "1.1.1"
+    ],
+    "campaign_assigned_at": "2026-08-26T21:57:57.654377+00:00",
+    "campaign_data_modified_at": "2026-08-26T21:57:59.992983+00:00"
+}
