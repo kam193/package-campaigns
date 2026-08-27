@@ -1,0 +1,10 @@
+{
+    "name": "sap-quarterly-report",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-ekx-report-utils",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-08-27T13:01:04.890633+00:00",
+    "campaign_data_modified_at": "2026-08-27T13:09:51.358876+00:00"
+}

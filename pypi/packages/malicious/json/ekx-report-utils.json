@@ -1,0 +1,13 @@
+{
+    "name": "ekx-report-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-ekx-report-utils",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.3.0",
+        "0.4.0"
+    ],
+    "campaign_assigned_at": "2026-08-27T12:59:21.084062+00:00",
+    "campaign_data_modified_at": "2026-08-27T12:59:36.917284+00:00"
+}

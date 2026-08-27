@@ -8,6 +8,7 @@
     ],
     "packages": [
         "alexsecdemo",
+        "calcboxlite",
         "chunqiuwestj-pkg-westj137",
         "comment-filter",
         "cuda1",
