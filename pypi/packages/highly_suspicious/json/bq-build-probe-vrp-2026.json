@@ -1,0 +1,14 @@
+{
+    "name": "bq-build-probe-vrp-2026",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-research-only-local",
+    "description": "The package seems to be leveraging PyPI to perform a security research on 3rd party service, and has no other purpose. The collected data are exposed just locally.",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.3.0",
+        "0.4.0"
+    ],
+    "campaign_assigned_at": "2026-08-27T09:54:25.069108+00:00",
+    "campaign_data_modified_at": "2026-08-27T09:54:25.085056+00:00"
+}

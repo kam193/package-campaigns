@@ -1,0 +1,11 @@
+{
+    "name": "bq-sdist-probe-vrp",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-research-only-local",
+    "description": "The package seems to be leveraging PyPI to perform a security research on 3rd party service, and has no other purpose. The collected data are exposed just locally.",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-27T10:02:37.291754+00:00",
+    "campaign_data_modified_at": "2026-08-27T10:02:37.314778+00:00"
+}
