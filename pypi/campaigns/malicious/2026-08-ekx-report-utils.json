@@ -9,7 +9,8 @@
     ],
     "packages": [
         "ekx-report-utils",
-        "sap-quarterly-report"
+        "sap-quarterly-report",
+        "yaml-report-formatter"
     ],
     "created_at": "2026-08-27",
     "ioc": [],
