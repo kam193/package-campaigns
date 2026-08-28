@@ -1,0 +1,10 @@
+{
+    "name": "pygame-renderkit",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-pygame-renderkit",
+    "affected_versions": [
+        "1.2.0"
+    ],
+    "campaign_assigned_at": "2026-08-28T09:55:47.202771+00:00",
+    "campaign_data_modified_at": "2026-08-28T09:55:47.226508+00:00"
+}

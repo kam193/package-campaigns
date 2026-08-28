@@ -1,0 +1,21 @@
+{
+    "name": "2026-08-pygame-renderkit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "files_exfiltration",
+        "override_install",
+        "persistence",
+        "revshell"
+    ],
+    "packages": [
+        "pygame-renderkit"
+    ],
+    "created_at": "2026-08-28",
+    "ioc": [
+        "5uj0a8ziyu.localto.net"
+    ],
+    "references": [],
+    "description": "During installation, the package attempts to exfiltrate sensitive environment variables and files, establish persistence and open reverse shell."
+}
