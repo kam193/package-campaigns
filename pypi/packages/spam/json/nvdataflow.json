@@ -1,0 +1,11 @@
+{
+    "name": "nvdataflow",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.0.1.dev1",
+        "0.0.2"
+    ],
+    "campaign_assigned_at": "2026-08-29T07:27:21.805464+00:00",
+    "campaign_data_modified_at": "2026-08-29T07:27:21.820312+00:00"
+}

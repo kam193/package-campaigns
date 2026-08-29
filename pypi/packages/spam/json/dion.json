@@ -1,0 +1,10 @@
+{
+    "name": "dion",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-08-29T07:25:30.750339+00:00",
+    "campaign_data_modified_at": "2026-08-29T07:25:30.765316+00:00"
+}
