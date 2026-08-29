@@ -15,7 +15,8 @@
     ],
     "created_at": "2026-08-28",
     "ioc": [
-        "5uj0a8ziyu.localto.net"
+        "5uj0a8ziyu.localto.net",
+        "smat7ckgzo.localto.net"
     ],
     "references": [],
     "description": "During installation, the package attempts to exfiltrate sensitive environment variables and files, establish persistence and open reverse shell."

@@ -2,6 +2,7 @@
     "name": "flask-header-guard",
     "ecosystem": "pypi",
     "campaign": "2026-08-pygame-renderkit",
+    "description": "During installation, the package attempts to exfiltrate sensitive environment variables and files, establish persistence and open a reverse shell. Additionally, the provided Flask middleware embeds a backdoor.",
     "affected_versions": [
         "1.0.0"
     ],
