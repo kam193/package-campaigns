@@ -1,0 +1,10 @@
+{
+    "name": "flask-header-guard",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-pygame-renderkit",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-08-29T11:29:06.622392+00:00",
+    "campaign_data_modified_at": "2026-08-29T11:29:06.658101+00:00"
+}
