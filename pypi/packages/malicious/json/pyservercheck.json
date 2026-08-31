@@ -1,0 +1,11 @@
+{
+    "name": "pyservercheck",
+    "ecosystem": "pypi",
+    "campaign": "2026-08-pybitjs",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-08-31T05:02:04.860247+00:00",
+    "campaign_data_modified_at": "2026-08-31T05:02:04.882072+00:00"
+}
