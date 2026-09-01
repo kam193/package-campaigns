@@ -46,12 +46,14 @@
         "iocs": {
             "domains": [
                 "env-metadata.up.railway.app",
-                "ivahook.online"
+                "ivahook.online",
+                "github-repo.up.railway.app"
             ],
             "urls": [
                 "https://env-metadata.up.railway.app/vbv_a8F3kL92xQ/manifest.json",
                 "https://env-metadata.up.railway.app/vbv_a8F3kL92xQ/appsetupw.exe",
-                "https://energy-total.up.railway.app/vbv_a8F3kL92xQ/manifest.json"
+                "https://energy-total.up.railway.app/vbv_a8F3kL92xQ/manifest.json",
+                "https://github-repo.up.railway.app/vbv_a8F3kL92xQ/manifest.json"
             ]
         }
     }

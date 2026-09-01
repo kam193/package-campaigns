@@ -2,6 +2,7 @@
     "name": "syswatch",
     "ecosystem": "pypi",
     "campaign": "2026-08-envprovision",
+    "description": "During import, malicious code is started in the background. On Windows, it downloads and installs a malicious executable, and disguises it as a system utility. After installation, the code attempts to cover its tracks by cleaning logs and removing downloaded files. The installed executable is a heavily obfuscated malware with multiple sandbox evasion techniques, finally running an infostealer identifying itself as \"Snow Stealer\". It collects at least browser data and modifies cryptowallet applications.",
     "affected_versions": [
         "1.0.0"
     ],
