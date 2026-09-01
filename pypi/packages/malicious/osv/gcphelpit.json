@@ -21,6 +21,10 @@
     "references": [
         {
             "type": "WEB",
+            "url": "https://github.com/EliyaS-123/gcphelpit-cli/commit/0f330a199020f1f2e896c7bde9d35adbe8aa8fb5"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/gcphelpit"
         }
     ],

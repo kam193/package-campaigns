@@ -10,6 +10,8 @@
     ],
     "created_at": "2026-09-01",
     "ioc": [],
-    "references": [],
+    "references": [
+        "https://github.com/EliyaS-123/gcphelpit-cli/commit/0f330a199020f1f2e896c7bde9d35adbe8aa8fb5"
+    ],
     "description": "During initialization of the CLI, the package exfiltrates sensitive files. Prior version 0.1.2 the code was launching a calculator as PoC instead of exfiltrating data. "
 }
