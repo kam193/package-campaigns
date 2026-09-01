@@ -15,7 +15,8 @@
         "sandbox-detection"
     ],
     "packages": [
-        "envprovision"
+        "envprovision",
+        "syswatch"
     ],
     "created_at": "2026-08-23",
     "ioc": [
