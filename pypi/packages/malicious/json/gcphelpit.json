@@ -1,0 +1,12 @@
+{
+    "name": "gcphelpit",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-gcphelpit",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-09-01T16:19:02.665804+00:00",
+    "campaign_data_modified_at": "2026-09-01T16:19:02.685503+00:00"
+}
