@@ -1,0 +1,20 @@
+{
+    "name": "2026-09-telemetry-helper",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "through_dependency"
+    ],
+    "packages": [
+        "env-validator-tool",
+        "telemetry-helper"
+    ],
+    "created_at": "2026-09-03",
+    "ioc": [
+        "https://real-router.duckdns.org/collect",
+        "real-router.duckdns.org"
+    ],
+    "references": [],
+    "description": "In this campaign, one package contains malicious code exfiltrating environment variables during import (telemetry-helper), and another one intentionally installs it as a dependency. "
+}

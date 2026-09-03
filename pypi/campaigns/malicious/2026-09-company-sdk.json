@@ -1,0 +1,18 @@
+{
+    "name": "2026-09-company-sdk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys",
+        "files_exfiltration"
+    ],
+    "packages": [
+        "company-sdk"
+    ],
+    "created_at": "2026-09-03",
+    "ioc": [],
+    "references": [],
+    "description": "During import, package exfiltrates sensitive files, credentials and env variables to a private GitHub Gist. "
+}
