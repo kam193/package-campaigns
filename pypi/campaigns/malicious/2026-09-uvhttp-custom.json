@@ -1,0 +1,22 @@
+{
+    "name": "2026-09-uvhttp-custom",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "uvhttp-custom"
+    ],
+    "created_at": "2026-09-03",
+    "ioc": [
+        "https://cdn.discordapp.com/attachments/1532996358427115552/1539384056284717066/enlisted_launcher_1.0.3.190-movn8hpfe.exe?ex=6a9a8ddf&is=6a993c5f&hm=d72b04bfaae5a032ff238b3447b0922b3aed5aaf4a6272518ea764f8424e49a4&"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/100dddbee0589f1f78f7b78c9ec2b4c40d408ee01e6219a269e877940c992142/detection",
+        "https://app.any.run/tasks/980277ac-35c0-4d8a-ae88-d00702c16fcc"
+    ],
+    "description": "During installation, obfuscated code downloads and executes an executable. It appears to be a game launcher."
+}

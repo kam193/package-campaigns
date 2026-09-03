@@ -1,0 +1,12 @@
+{
+    "name": "uvhttp-custom",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-uvhttp-custom",
+    "affected_versions": [
+        "1.7.9",
+        "1.8.1",
+        "1.9.9"
+    ],
+    "campaign_assigned_at": "2026-09-03T16:52:46.812937+00:00",
+    "campaign_data_modified_at": "2026-09-03T16:52:48.793402+00:00"
+}
