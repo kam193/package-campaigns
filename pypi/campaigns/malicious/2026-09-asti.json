@@ -1,0 +1,17 @@
+{
+    "name": "2026-09-asti",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "files_exfiltration",
+        "target:android"
+    ],
+    "packages": [
+        "asti"
+    ],
+    "created_at": "2026-09-03",
+    "ioc": [],
+    "references": [],
+    "description": "The provided functionality hides code that exfiltrates files to a remote location."
+}
