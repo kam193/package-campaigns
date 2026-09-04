@@ -1,0 +1,21 @@
+{
+    "name": "2026-09-amirgo4496",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "dependency-confusion",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "olympuslib",
+        "pymaas",
+        "tpu-raiden-jax"
+    ],
+    "created_at": "2026-09-04",
+    "ioc": [
+        "vuorblucjega.dssldrf.net"
+    ],
+    "references": [],
+    "description": "During import, the package exfiltrates environment variables. "
+}
