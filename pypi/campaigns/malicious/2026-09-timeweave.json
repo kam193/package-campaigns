@@ -1,0 +1,22 @@
+{
+    "name": "2026-09-timeweave",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "infostealer",
+        "remote_executable"
+    ],
+    "packages": [
+        "timeweave"
+    ],
+    "created_at": "2026-09-04",
+    "ioc": [
+        "https://timezone.api.globaltimedata.com/latest/db.json",
+        "globaltimedata.com"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/59c933a201585a97d29ae1c4b945000630acedd97ecdbfd295ae5bc6f2255c60/detection"
+    ],
+    "description": "The functionality disguised as a database update downloads C2 instructions from a domain typosquatting a legitimate time synchronization service. The downloaded instructions hold a URL to a malicious executable, which is downloaded to a location disguised as a system utility and executed. The executable appears to be a heavily obfuscated infostealer.\n\nCampaign first discovered by Amazon Inspector. It shares similarities with the campaign 2026-08-envprovision."
+}
