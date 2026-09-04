@@ -3,6 +3,7 @@
     "ecosystem": "pypi",
     "category": "high_risk_hacking_tools",
     "packages": [
+        "1garuda",
         "admincontrol",
         "adscan",
         "advancedpythonmalware",
@@ -30,6 +31,7 @@
         "natazc",
         "natazx",
         "npytools",
+        "ogaruda",
         "password-cracker-do-not-use",
         "pccontrol",
         "pyhack",
