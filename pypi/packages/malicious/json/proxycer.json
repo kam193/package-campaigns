@@ -1,0 +1,10 @@
+{
+    "name": "proxycer",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-asti",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-09-05T11:57:41.685879+00:00",
+    "campaign_data_modified_at": "2026-09-05T11:57:41.704885+00:00"
+}
