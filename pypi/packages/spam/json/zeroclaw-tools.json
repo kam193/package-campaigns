@@ -1,0 +1,11 @@
+{
+    "name": "zeroclaw-tools",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc-bugbounty",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2"
+    ],
+    "campaign_assigned_at": "2026-09-07T19:20:29.560071+00:00",
+    "campaign_data_modified_at": "2026-09-07T19:20:29.580105+00:00"
+}
