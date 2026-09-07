@@ -1,0 +1,11 @@
+{
+    "name": "telegram-helper",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-telegram-helper",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-09-07T21:17:35.319371+00:00",
+    "campaign_data_modified_at": "2026-09-07T21:17:35.335618+00:00"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "2026-09-telegram-helper",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "files_exfiltration",
+        "remote_commands",
+        "target:telegram",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "telegram-helper"
+    ],
+    "created_at": "2026-09-07",
+    "ioc": [],
+    "references": [],
+    "description": "The package hides code that starts a Telegram bot to exfiltrate sensitive session files and cookies"
+}
