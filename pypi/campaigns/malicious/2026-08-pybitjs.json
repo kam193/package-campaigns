@@ -20,7 +20,8 @@
     ],
     "references": [
         "https://github.com/stamparm/maltrail/blob/12360952bc81865dc973e33e5033cea6e1fcc342/trails/static/malware/apt_lazarus.txt#L7414",
-        "https://etherscan.io/address/0xa322E5f3D311D3080e6f0121063e9aDC2490Ef1a"
+        "https://etherscan.io/address/0xa322E5f3D311D3080e6f0121063e9aDC2490Ef1a",
+        "https://blog.deception.pro/blog/hok-dprk-polinrider-sep-2026"
     ],
     "description": "Package embeds obfuscated, JS-based malware downloading further remote stages. The code is triggered during building the package and on every Python startup (via PTH file). The next-stage IP is delivered via a blockchain. \n\nThe payload and embedded IoCs are consistent with campaigns attributed to Lazarus APT/PolinRider."
 }
