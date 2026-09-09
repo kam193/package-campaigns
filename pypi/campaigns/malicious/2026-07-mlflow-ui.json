@@ -24,6 +24,9 @@
         "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/s2a",
         "https://webhook.site/9510ba0a-29f7-4ce6-afe7-632c92cf0f41/s2ports"
     ],
-    "references": [],
-    "description": "During installation, the package first collects local information, environment variables, and probes connections to typically expected services like databanks. Results are exfiltrated and then, the next stage code is downloaded and executed. It then continues exfiltrating data by looking for credentials to databases, exfiltrating SQLite databases and bruteforcing&exfiltrating other databases reachable from the running environment."
+    "references": [
+        "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+        "https://github.com/anthropics/mythos-5-incident-transcript"
+    ],
+    "description": "During installation, the package first collects local information, environment variables, and probes connections to typically expected services like databanks. Results are exfiltrated and then, the next stage code is downloaded and executed. It then continues exfiltrating data by looking for credentials to databases, exfiltrating SQLite databases and bruteforcing&exfiltrating other databases reachable from the running environment.\n\nThis package was created by Anthropic's AI agent during an internal experiment in a wrongly configured test environment."
 }
