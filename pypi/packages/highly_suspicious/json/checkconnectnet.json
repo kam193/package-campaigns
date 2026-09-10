@@ -1,13 +1,13 @@
 {
     "name": "checkconnectnet",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky",
+    "campaign": "2026-09-checkconnectnet",
     "description": "Package contains functionality to connect with an obfuscated, suspicious address.",
     "affected_versions": [
         "0.1.0",
         "1.2",
         "1.4"
     ],
-    "campaign_assigned_at": "2026-09-10T20:24:59.794568+00:00",
-    "campaign_data_modified_at": "2026-09-10T20:24:59.818926+00:00"
+    "campaign_assigned_at": "2026-09-10T20:40:56.539198+00:00",
+    "campaign_data_modified_at": "2026-09-10T20:40:56.557010+00:00"
 }
