@@ -1,0 +1,11 @@
+{
+    "name": "lucy-python-script-2030",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-lucy-python-script-2030",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-09-10T20:14:14.665516+00:00",
+    "campaign_data_modified_at": "2026-09-10T20:14:14.693093+00:00"
+}

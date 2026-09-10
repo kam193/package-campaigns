@@ -1,0 +1,21 @@
+{
+    "name": "2026-09-lucy-python-script-2030",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_cloud_tokens",
+        "files_exfiltration",
+        "infostealer",
+        "persistence",
+        "sandbox-detection",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "lucy-python-script-2030"
+    ],
+    "created_at": "2026-09-10",
+    "ioc": [],
+    "references": [],
+    "description": "Starting version 0.1.1, the package contains an infostealer attempting to exfiltrate during import various sensitive data, like browser data, sensitive files, cloud credentials and others. In analyzed versions, the code contained mistakes effectievly disarming the functionality."
+}
