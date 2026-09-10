@@ -1,0 +1,15 @@
+{
+    "name": "2026-09-pylever",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer"
+    ],
+    "packages": [
+        "pylever"
+    ],
+    "created_at": "2026-09-10",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains a stealer exfiltrating Discord tokens to a hardcoded location. "
+}
