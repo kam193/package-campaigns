@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-09-web3-eth-account/eth-account-web3",
+    "published": "2026-09-11T14:15:34.961208+00:00",
+    "modified": "2026-09-11T14:15:34.980601+00:00",
+    "summary": "Malicious code in eth-account-web3 (PyPI)",
+    "details": "A clone of a legitimate package with import-time malicious code activating if specific env variables are set. Once activated, it queries the blockchain to retrieve the next stage URL stored in a smart contract. The payload from the URL is then downloaded and executed. The address of the smart contract is not included in the package.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-web3-eth-account\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - clones-real-package\n\n\n - c2-in-blockchain\n\n\n - Downloads and executes a remote malicious script.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "eth-account-web3",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.14.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/eth-account-web3"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

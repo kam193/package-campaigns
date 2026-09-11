@@ -1,0 +1,10 @@
+{
+    "name": "eth-account-web3",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-web3-eth-account",
+    "affected_versions": [
+        "0.14.0"
+    ],
+    "campaign_assigned_at": "2026-09-11T14:15:34.961208+00:00",
+    "campaign_data_modified_at": "2026-09-11T14:15:34.980601+00:00"
+}
