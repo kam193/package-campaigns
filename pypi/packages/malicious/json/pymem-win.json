@@ -1,0 +1,14 @@
+{
+    "name": "pymem-win",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-pymem-win",
+    "affected_versions": [
+        "1.14.0",
+        "1.14.1",
+        "1.14.4",
+        "1.14.5",
+        "1.14.6"
+    ],
+    "campaign_assigned_at": "2026-09-11T14:47:19.105377+00:00",
+    "campaign_data_modified_at": "2026-09-11T14:47:19.131787+00:00"
+}
