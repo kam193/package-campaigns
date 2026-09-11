@@ -4,7 +4,7 @@
     "published": "2026-09-11T15:22:35.044414+00:00",
     "modified": "2026-09-11T15:22:35.068345+00:00",
     "summary": "Malicious code in aitextkit-py (PyPI)",
-    "details": "The package hides code downloading script, which then downloads and executes a heavily obfuscated final stage. The remote stages are hosted on a domain presenting a suspicious-looking corporate website. The downloaded code establishes persistence e.g. as \"anymeetly-cameradriver\" systemd service.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-aitextkit-py\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - Downloads and executes a remote malicious script.\n\n\n - persistence\n\n",
+    "details": "The package hides code downloading script, which then downloads and executes a heavily obfuscated final stage. The remote stages are hosted on a domain presenting a suspicious-looking corporate website. The downloaded code establishes persistence e.g. as \"anymeetly-cameradriver\" systemd service. The discovered artifacts suggest strongly it acts as an infostealer and RAT.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-aitextkit-py\n\n\nReasons (based on the campaign):\n\n\n - obfuscation\n\n\n - Downloads and executes a remote malicious script.\n\n\n - persistence\n\n\n - infostealer\n\n\n - exfiltration-browser-data\n\n\n - rat\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n",
     "affected": [
         {
             "package": {

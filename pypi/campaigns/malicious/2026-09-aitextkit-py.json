@@ -3,8 +3,12 @@
     "ecosystem": "pypi",
     "category": "malicious",
     "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "infostealer",
         "obfuscation",
         "persistence",
+        "remote_commands",
         "remote_script"
     ],
     "packages": [
@@ -23,5 +27,5 @@
     "references": [
         "https://www.linkedin.com/company/ssbeatech/"
     ],
-    "description": "The package hides code downloading script, which then downloads and executes a heavily obfuscated final stage. The remote stages are hosted on a domain presenting a suspicious-looking corporate website. The downloaded code establishes persistence e.g. as \"anymeetly-cameradriver\" systemd service."
+    "description": "The package hides code downloading script, which then downloads and executes a heavily obfuscated final stage. The remote stages are hosted on a domain presenting a suspicious-looking corporate website. The downloaded code establishes persistence e.g. as \"anymeetly-cameradriver\" systemd service. The discovered artifacts suggest strongly it acts as an infostealer and RAT."
 }
