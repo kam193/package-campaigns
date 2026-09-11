@@ -1,0 +1,32 @@
+{
+    "name": "2026-09-openaii",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "covering-tracks",
+        "cryptominer",
+        "exfiltration_credentials",
+        "exfiltration_ssh_keys",
+        "files_exfiltration",
+        "infostealer",
+        "obfuscation",
+        "persistence",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "langgrap",
+        "ollamaa",
+        "openaii",
+        "transfomers"
+    ],
+    "created_at": "2026-09-11",
+    "ioc": [
+        "167.86.108.190",
+        "http://167.86.108.190:7788/stage1.py",
+        "http://167.86.108.190:7788/.lurves-agent.py"
+    ],
+    "references": [],
+    "description": "Typosquatting package planting a malicious PTH file that during loading Python downloads the next stage. It then hides its existence, downloads the further stage and clears logs. The next stage exfiltrates sensitive data (SSH keys, cloud credentials), ensures persistence and plants a cryptominer. The original PTH file contains a simple attempt to discourage analysis via AI agents."
+}
