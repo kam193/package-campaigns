@@ -1,0 +1,12 @@
+{
+    "name": "aitextutils-py",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-aitextkit-py",
+    "description": "This package executes code from malicious dependency, which hides code downloading script, which then downloads and executes a heavily obfuscated final stage. The remote stages are hosted on a domain presenting a suspicious-looking corporate website. The downloaded code establishes persistence e.g. as \"anymeetly-cameradriver\" systemd service.",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-09-11T15:24:15.045338+00:00",
+    "campaign_data_modified_at": "2026-09-11T15:24:15.064107+00:00"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "aitextkit-py",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-aitextkit-py",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-09-11T15:22:35.044414+00:00",
+    "campaign_data_modified_at": "2026-09-11T15:22:35.068345+00:00"
+}
