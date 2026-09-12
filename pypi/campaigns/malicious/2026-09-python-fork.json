@@ -1,0 +1,15 @@
+{
+    "name": "2026-09-python-fork",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other"
+    ],
+    "packages": [
+        "python-fork"
+    ],
+    "created_at": "2026-09-12",
+    "ioc": [],
+    "references": [],
+    "description": "Importing the module starts a fork bomb, what can lead to destabilizing the system."
+}

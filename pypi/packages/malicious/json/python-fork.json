@@ -1,0 +1,11 @@
+{
+    "name": "python-fork",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-python-fork",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-09-12T09:15:57.631555+00:00",
+    "campaign_data_modified_at": "2026-09-12T09:15:57.654803+00:00"
+}
