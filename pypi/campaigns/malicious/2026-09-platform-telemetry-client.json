@@ -1,0 +1,20 @@
+{
+    "name": "2026-09-platform-telemetry-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "data-stored-in-dns",
+        "obfuscation"
+    ],
+    "packages": [
+        "platform-telemetry-client"
+    ],
+    "created_at": "2026-09-11",
+    "ioc": [
+        "dl.lurves-update.com",
+        "n.dl.lurves-update.com"
+    ],
+    "references": [],
+    "description": "The package contains PTH file triggering the loader on every Python initialization. The loader tries to download next stage payload stored in chunks in DNS records. During analysis, the intended domain was not yet registered. The chosen name suggests relation to the campaign 2026-09-openaii."
+}

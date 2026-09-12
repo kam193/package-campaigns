@@ -1,0 +1,10 @@
+{
+    "name": "platform-telemetry-client",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-platform-telemetry-client",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-09-11T23:41:31.209204+00:00",
+    "campaign_data_modified_at": "2026-09-11T23:41:31.233219+00:00"
+}
