@@ -16,6 +16,7 @@
         "typosquatting"
     ],
     "packages": [
+        "chroma-client",
         "langgrap",
         "ollamaa",
         "openaii",

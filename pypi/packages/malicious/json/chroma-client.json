@@ -1,0 +1,11 @@
+{
+    "name": "chroma-client",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-openaii",
+    "description": "This package does not carry any malicious payload yet, but uses exactly the same technique as other packages from the campaign aiming to mislead LLM security tools.",
+    "affected_versions": [
+        "0.5.7"
+    ],
+    "campaign_assigned_at": "2026-09-13T16:12:34.786354+00:00",
+    "campaign_data_modified_at": "2026-09-13T16:12:34.814684+00:00"
+}
