@@ -1,0 +1,10 @@
+{
+    "name": "anduril-lattice-sdk-bufbuild-py",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.0.0.dev0"
+    ],
+    "campaign_assigned_at": "2026-09-15T22:41:37.041383+00:00",
+    "campaign_data_modified_at": "2026-09-15T22:41:37.058870+00:00"
+}
