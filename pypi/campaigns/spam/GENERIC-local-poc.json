@@ -9,6 +9,7 @@
     "packages": [
         "alexsecdemo",
         "anduril-lattice-sdk-bufbuild-py",
+        "anduril-lattice-sdk-connectrpc-py",
         "calcboxlite",
         "chunqiuwestj-pkg-westj137",
         "comment-filter",

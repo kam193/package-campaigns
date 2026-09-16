@@ -1,14 +1,14 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-local-poc/anduril-lattice-sdk-bufbuild-py",
-    "published": "2026-09-15T22:41:37.041383+00:00",
-    "modified": "2026-09-15T22:41:37.058870+00:00",
-    "summary": "Spam code in anduril-lattice-sdk-bufbuild-py (PyPI)",
+    "id": "pypi/GENERIC-local-poc/anduril-lattice-sdk-connectrpc-py",
+    "published": "2026-09-16T06:58:24.338875+00:00",
+    "modified": "2026-09-16T06:58:24.355893+00:00",
+    "summary": "Spam code in anduril-lattice-sdk-connectrpc-py (PyPI)",
     "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
         {
             "package": {
-                "name": "anduril-lattice-sdk-bufbuild-py",
+                "name": "anduril-lattice-sdk-connectrpc-py",
                 "ecosystem": "PyPI"
             },
             "versions": [
@@ -19,7 +19,7 @@
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/anduril-lattice-sdk-bufbuild-py"
+            "url": "https://bad-packages.kam193.eu/pypi/package/anduril-lattice-sdk-connectrpc-py"
         }
     ],
     "credits": [
