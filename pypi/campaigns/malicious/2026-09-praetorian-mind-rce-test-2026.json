@@ -1,0 +1,19 @@
+{
+    "name": "2026-09-praetorian-mind-rce-test-2026",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_cloud_tokens",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "praetorian-mind-rce-test-2026"
+    ],
+    "created_at": "2026-09-16",
+    "ioc": [
+        "5h6gijnewx787zu6.ixx.sh"
+    ],
+    "references": [],
+    "description": "During installation, package exfiltrates environment variables, tokens from cloud environments and fingerprints the environment. It identifies itself as a security testing engagement. "
+}
