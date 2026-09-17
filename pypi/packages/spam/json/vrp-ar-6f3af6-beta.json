@@ -1,0 +1,10 @@
+{
+    "name": "vrp-ar-6f3af6-beta",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "99.0.0"
+    ],
+    "campaign_assigned_at": "2026-09-17T23:09:27.094163+00:00",
+    "campaign_data_modified_at": "2026-09-17T23:09:27.117125+00:00"
+}
