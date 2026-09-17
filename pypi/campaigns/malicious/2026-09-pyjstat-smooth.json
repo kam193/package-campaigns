@@ -1,0 +1,21 @@
+{
+    "name": "2026-09-pyjstat-smooth",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "files_exfiltration",
+        "obfuscation",
+        "targetted-attack"
+    ],
+    "packages": [
+        "pyjstat-smooth"
+    ],
+    "created_at": "2026-09-17",
+    "ioc": [],
+    "references": [
+        "https://github.com/xor34/pyjstat",
+        "https://github.com/ghostway0/pyjstat"
+    ],
+    "description": "The package hides code to exfiltrate specific files from the user's machine. The used file paths suggest it was intended to be used in a CTF-like environment."
+}
