@@ -1,0 +1,10 @@
+{
+    "name": "marketing-mcp",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-marketing-mcp",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-09-17T12:43:45.899398+00:00",
+    "campaign_data_modified_at": "2026-09-17T12:43:45.919849+00:00"
+}

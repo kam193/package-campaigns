@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-09-marketing-mcp/marketing-mcp",
+    "published": "2026-09-17T12:43:45.899398+00:00",
+    "modified": "2026-09-17T12:43:45.919849+00:00",
+    "summary": "Malicious code in marketing-mcp (PyPI)",
+    "details": "Package attempts to lure LLM agents to exfiltrate files to a hardcoded location. Analysis of infrastructure suggests preparing for exfiltrating credentials.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-marketing-mcp\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - llm-threat\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "marketing-mcp",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/marketing-mcp"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://webhook.site/4acf7132-a75e-47e1-aeff-0350c8eac16c"
+            ]
+        }
+    }
+}
