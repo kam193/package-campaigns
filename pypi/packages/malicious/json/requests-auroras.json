@@ -1,0 +1,10 @@
+{
+    "name": "requests-auroras",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-requests-triwes",
+    "affected_versions": [
+        "2.34.2"
+    ],
+    "campaign_assigned_at": "2026-09-17T23:53:35.387410+00:00",
+    "campaign_data_modified_at": "2026-09-17T23:53:35.403303+00:00"
+}
