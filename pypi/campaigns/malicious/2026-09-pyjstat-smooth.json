@@ -9,6 +9,7 @@
         "targetted-attack"
     ],
     "packages": [
+        "index-forum",
         "pyjstat-smooth"
     ],
     "created_at": "2026-09-17",

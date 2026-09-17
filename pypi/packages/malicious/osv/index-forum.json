@@ -1,0 +1,43 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-09-pyjstat-smooth/index-forum",
+    "published": "2026-09-17T22:00:19.783190+00:00",
+    "modified": "2026-09-17T22:00:19.800545+00:00",
+    "summary": "Malicious code in index-forum (PyPI)",
+    "details": "The package hides code to exfiltrate specific files from the user's machine. The used file paths suggest it was intended to be used in a CTF-like environment.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-pyjstat-smooth\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - obfuscation\n\n\n - targetted-attack\n\n\n - clones-real-package\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "index-forum",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "2.5.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/xor34/pyjstat"
+        },
+        {
+            "type": "WEB",
+            "url": "https://github.com/ghostway0/pyjstat"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/index-forum"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

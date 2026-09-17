@@ -1,0 +1,10 @@
+{
+    "name": "index-forum",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-pyjstat-smooth",
+    "affected_versions": [
+        "2.5.4"
+    ],
+    "campaign_assigned_at": "2026-09-17T22:00:19.783190+00:00",
+    "campaign_data_modified_at": "2026-09-17T22:00:19.800545+00:00"
+}
