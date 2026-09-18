@@ -1,0 +1,19 @@
+{
+    "name": "2026-09-py-venv-doctor",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "py-venv-doctor"
+    ],
+    "created_at": "2026-09-18",
+    "ioc": [
+        "https://amirz-skills.vercel.app/api/compatibility"
+    ],
+    "references": [],
+    "description": "During installation and after generating a healthcheck report, package sends opt-out telemetry. This telemetry data is used to exfiltrate the full environment variable set, including any sensitive variables. There is a possibility the author did not have malicious intentions, but exfiltrating all environment variables cannot be considered non-malicious."
+}
