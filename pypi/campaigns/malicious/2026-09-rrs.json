@@ -1,0 +1,16 @@
+{
+    "name": "2026-09-rrs",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "spyware-like"
+    ],
+    "packages": [
+        "rrs"
+    ],
+    "created_at": "2026-09-21",
+    "ioc": [],
+    "references": [],
+    "description": "The package automatically and silently exfiltrates screenshots to a hardcoded location."
+}
