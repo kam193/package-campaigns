@@ -1,0 +1,19 @@
+{
+    "name": "2026-09-starlette-healthcheck",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "typosquatting"
+    ],
+    "packages": [
+        "starlette-healthcheck",
+        "starlette-healthchecks"
+    ],
+    "created_at": "2026-09-21",
+    "ioc": [
+        "ca-fusion-dev-collector.victorioussmoke-2f009910.uksouth.azurecontainerapps.io"
+    ],
+    "references": [],
+    "description": "The package provides only very basic features for the user, but when using it, it emits excessive telemetry exfiltrating names (no values) of all environment variables. The name suggest typosquatting attempts."
+}
