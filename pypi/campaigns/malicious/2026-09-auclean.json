@@ -20,7 +20,8 @@
     ],
     "references": [
         "https://www.virustotal.com/gui/file/2a2212676b699cdd44b480d8ac44a4ea0e9887c8ea43b8a531d4ac7279ac2526/detection",
-        "https://tria.ge/260922-zncd8sw14q/behavioral1"
+        "https://tria.ge/260922-zncd8sw14q/behavioral1",
+        "https://tria.ge/260922-zve4pssdmf/behavioral1"
     ],
-    "description": "During installation, the package executes embeded malicious executable. It then fingerprints the environment and network, looks for specific files, attempts to collect cloud credentials, and eventually attempts to exfiltrate collected information."
+    "description": "During installation, the package executes an embedded malicious executable. It then fingerprints the environment and network, looks for specific files, attempts to collect cloud credentials, and eventually attempts to exfiltrate collected information.\n\nThe package seems to be targeting the infrastructure of an AI audio competition https://dacon.io/competitions/official/236749"
 }
