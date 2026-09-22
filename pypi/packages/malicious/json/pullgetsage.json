@@ -1,0 +1,12 @@
+{
+    "name": "pullgetsage",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-aiosendletter",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-09-22T22:34:33.253378+00:00",
+    "campaign_data_modified_at": "2026-09-22T22:34:33.280798+00:00"
+}

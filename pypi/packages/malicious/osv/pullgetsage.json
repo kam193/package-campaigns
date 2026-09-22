@@ -1,33 +1,27 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/2026-09-aiosendletter/aiosendletter",
-    "published": "2026-09-17T19:40:07.377556+00:00",
-    "modified": "2026-09-17T19:40:07.407033+00:00",
-    "summary": "Malicious code in aiosendletter (PyPI)",
+    "id": "pypi/2026-09-aiosendletter/pullgetsage",
+    "published": "2026-09-22T22:34:33.253378+00:00",
+    "modified": "2026-09-22T22:34:33.280798+00:00",
+    "summary": "Malicious code in pullgetsage (PyPI)",
     "details": "Package hides code to exfiltrate files. Most releases target unclear files, but some reveal the goal to exfiltrate sensitive Telegram data.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-aiosendletter\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - target:telegram\n\n",
     "affected": [
         {
             "package": {
-                "name": "aiosendletter",
+                "name": "pullgetsage",
                 "ecosystem": "PyPI"
             },
             "versions": [
-                "0.2.0",
-                "3.7",
-                "3.8",
-                "3.9",
-                "4.0",
-                "4.1",
-                "4.3",
-                "4.5",
-                "4.6"
+                "0.1.0",
+                "0.1.1",
+                "0.1.2"
             ]
         }
     ],
     "references": [
         {
             "type": "WEB",
-            "url": "https://bad-packages.kam193.eu/pypi/package/aiosendletter"
+            "url": "https://bad-packages.kam193.eu/pypi/package/pullgetsage"
         }
     ],
     "credits": [
@@ -37,7 +31,7 @@
                 "https://github.com/kam193",
                 "https://bad-packages.kam193.eu/"
             ],
-            "type": "REPORTER"
+            "type": "ANALYST"
         }
     ],
     "database_specific": {
