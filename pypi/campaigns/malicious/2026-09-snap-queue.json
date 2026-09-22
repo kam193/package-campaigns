@@ -1,0 +1,17 @@
+{
+    "name": "2026-09-snap-queue",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install"
+    ],
+    "packages": [
+        "crypto-trader-py",
+        "poly-check-b",
+        "snap-queue"
+    ],
+    "created_at": "2026-09-22",
+    "ioc": [],
+    "references": [],
+    "description": "During installation, the package attempts to silently execute code. In analyzed versions, the payload file was missing. "
+}
