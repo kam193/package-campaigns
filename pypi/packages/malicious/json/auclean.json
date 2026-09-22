@@ -1,0 +1,12 @@
+{
+    "name": "auclean",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-auclean",
+    "affected_versions": [
+        "0.4.2",
+        "0.4.3",
+        "0.4.4"
+    ],
+    "campaign_assigned_at": "2026-09-22T20:59:00.762024+00:00",
+    "campaign_data_modified_at": "2026-09-22T20:59:00.784279+00:00"
+}

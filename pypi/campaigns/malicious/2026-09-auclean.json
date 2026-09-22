@@ -1,0 +1,26 @@
+{
+    "name": "2026-09-auclean",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "malware",
+        "network-scan",
+        "override_install",
+        "targetted-attack"
+    ],
+    "packages": [
+        "auclean"
+    ],
+    "created_at": "2026-09-22",
+    "ioc": [
+        "auclean-cdn.alcoholpepsi.workers.dev"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/2a2212676b699cdd44b480d8ac44a4ea0e9887c8ea43b8a531d4ac7279ac2526/detection",
+        "https://tria.ge/260922-zncd8sw14q/behavioral1"
+    ],
+    "description": "During installation, the package executes embeded malicious executable. It then fingerprints the environment and network, looks for specific files, attempts to collect cloud credentials, and eventually attempts to exfiltrate collected information."
+}
