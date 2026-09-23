@@ -10,6 +10,7 @@
         "alexsecdemo",
         "anduril-lattice-sdk-bufbuild-py",
         "anduril-lattice-sdk-connectrpc-py",
+        "bfox-build-utils",
         "calcboxlite",
         "chunqiuwestj-pkg-westj137",
         "comment-filter",

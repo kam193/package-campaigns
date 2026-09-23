@@ -1,0 +1,15 @@
+{
+    "name": "scrapetools2",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.0.1",
+        "0.0.2",
+        "0.2.0",
+        "0.2.1",
+        "1.2.0",
+        "1.2.1"
+    ],
+    "campaign_assigned_at": "2026-09-23T22:01:21.818319+00:00",
+    "campaign_data_modified_at": "2026-09-23T22:01:21.845862+00:00"
+}
