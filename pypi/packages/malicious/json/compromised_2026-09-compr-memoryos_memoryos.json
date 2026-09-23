@@ -1,0 +1,10 @@
+{
+    "name": "memoryos",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-compr-memoryos",
+    "created_at": "2026-09-23",
+    "description": "",
+    "affected_versions": [
+        "2.0.34"
+    ]
+}
