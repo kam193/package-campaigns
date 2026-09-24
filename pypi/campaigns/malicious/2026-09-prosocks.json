@@ -1,0 +1,19 @@
+{
+    "name": "2026-09-prosocks",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other",
+        "peristence_autorun",
+        "persistence"
+    ],
+    "packages": [
+        "prosocks"
+    ],
+    "created_at": "2026-09-24",
+    "ioc": [
+        "kalnetz.store"
+    ],
+    "references": [],
+    "description": "The package automatically joins the machine to a proxy network. Depending on the version, it can happen during the package installation or when importing the module."
+}
