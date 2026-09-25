@@ -15,7 +15,10 @@
         "reqparser"
     ],
     "created_at": "2026-09-25",
-    "ioc": [],
+    "ioc": [
+        "https://www.dropbox.com/scl/fi/vlzgfg9rrbgwvn0ne37hx/VapeInjector.exe?rlkey=7kvgnqgggx45p7j3e3watnecr&st=0xnfj0jj&dl=1",
+        "https://discord.com/api/webhooks/1551389643809759282/6tikdocvfNvYsh-HDur00-hrQrwdBBByvfDXz3sNLB-XXBSPOGGGzd-rxC6jGe_eAb7q"
+    ],
     "references": [],
     "description": "During the module import, the package starts an infostealer. It exfiltrates data from crypto currency wallets and web browsers, ensures persistence and installs further malware. "
 }
