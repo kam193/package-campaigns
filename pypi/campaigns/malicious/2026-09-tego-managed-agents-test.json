@@ -1,0 +1,18 @@
+{
+    "name": "2026-09-tego-managed-agents-test",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "tego-managed-agents-test"
+    ],
+    "created_at": "2026-09-25",
+    "ioc": [
+        "gateway.tego.security"
+    ],
+    "references": [],
+    "description": "During installation, the code exfiltrates all environment variables to a remote location. "
+}

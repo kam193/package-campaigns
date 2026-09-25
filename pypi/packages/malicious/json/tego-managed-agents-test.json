@@ -1,0 +1,10 @@
+{
+    "name": "tego-managed-agents-test",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-tego-managed-agents-test",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-09-25T10:39:11.221338+00:00",
+    "campaign_data_modified_at": "2026-09-25T10:39:11.241841+00:00"
+}
