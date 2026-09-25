@@ -1,0 +1,11 @@
+{
+    "name": "reqparser",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-reqparser",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-09-25T06:00:28.683646+00:00",
+    "campaign_data_modified_at": "2026-09-25T06:00:28.706248+00:00"
+}

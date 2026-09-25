@@ -1,0 +1,21 @@
+{
+    "name": "2026-09-reqparser",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_crypto",
+        "infostealer",
+        "keylogger",
+        "malware",
+        "persistence",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "reqparser"
+    ],
+    "created_at": "2026-09-25",
+    "ioc": [],
+    "references": [],
+    "description": "During the module import, the package starts an infostealer. It exfiltrates data from crypto currency wallets and web browsers, ensures persistence and installs further malware. "
+}

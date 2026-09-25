@@ -1,0 +1,36 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-09-reqparser/reqparser",
+    "published": "2026-09-25T06:00:28.683646+00:00",
+    "modified": "2026-09-25T06:00:28.706248+00:00",
+    "summary": "Malicious code in reqparser (PyPI)",
+    "details": "During the module import, the package starts an infostealer. It exfiltrates data from crypto currency wallets and web browsers, ensures persistence and installs further malware.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-09-reqparser\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - persistence\n\n\n - exfiltration-crypto\n\n\n - exfiltration-browser-data\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - infostealer\n\n\n - keylogger\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "reqparser",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "1.0.1"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/reqparser"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
