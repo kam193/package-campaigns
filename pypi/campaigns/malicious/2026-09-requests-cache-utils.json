@@ -1,0 +1,24 @@
+{
+    "name": "2026-09-requests-cache-utils",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "infostealer",
+        "malware",
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "requests-cache-utils"
+    ],
+    "created_at": "2026-09-26",
+    "ioc": [
+        "http://104.234.65.75:700/setup.exe",
+        "104.234.65.75"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/274c2b93e3c6ca726f21d02f6a8e3602853dbe775a122f5510c42f1d491995a3/"
+    ],
+    "description": "During installation and importing the module, the code downloads and executes an infostealer. "
+}
