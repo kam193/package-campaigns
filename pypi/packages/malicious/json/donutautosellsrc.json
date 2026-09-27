@@ -1,0 +1,12 @@
+{
+    "name": "donutautosellsrc",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-donutautosellsrc",
+    "affected_versions": [
+        "0.3.7",
+        "0.3.8",
+        "0.3.9"
+    ],
+    "campaign_assigned_at": "2026-09-27T00:09:55.669560+00:00",
+    "campaign_data_modified_at": "2026-09-27T00:15:18.839927+00:00"
+}
