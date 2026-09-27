@@ -13,6 +13,7 @@
         "steganography"
     ],
     "packages": [
+        "aseity",
         "claudedashbord",
         "coinscan",
         "donutautosellsrc",

@@ -1,0 +1,10 @@
+{
+    "name": "aseity",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-donutautosellsrc",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-09-27T14:15:46.100425+00:00",
+    "campaign_data_modified_at": "2026-09-27T14:15:46.125923+00:00"
+}

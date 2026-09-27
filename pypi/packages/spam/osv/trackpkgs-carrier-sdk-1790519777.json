@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-advertisement-abuse/trackpkgs-carrier-sdk-1790519777",
+    "published": "2026-09-27T14:40:40.746136+00:00",
+    "modified": "2026-09-27T14:40:52.282437+00:00",
+    "summary": "Spam code in trackpkgs-carrier-sdk-1790519777 (PyPI)",
+    "details": "The package was created for advertisement only and its content has nothing to do with any useful Python code.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-advertisement-abuse\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "trackpkgs-carrier-sdk-1790519777",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/trackpkgs-carrier-sdk-1790519777"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

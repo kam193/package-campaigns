@@ -1,0 +1,14 @@
+{
+    "name": "GENERIC-advertisement-abuse",
+    "ecosystem": "pypi",
+    "category": "spam",
+    "packages": [
+        "trackpkgs-carrier-sdk-1790519777"
+    ],
+    "created_at": "2026-09-27",
+    "ioc": [
+        "https://trackpkgs.com/api/v1/track?q="
+    ],
+    "references": [],
+    "description": "The package was created for advertisement only and its content has nothing to do with any useful Python code."
+}

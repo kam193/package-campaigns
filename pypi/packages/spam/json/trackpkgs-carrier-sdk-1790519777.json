@@ -1,0 +1,10 @@
+{
+    "name": "trackpkgs-carrier-sdk-1790519777",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-09-27T14:40:40.746136+00:00",
+    "campaign_data_modified_at": "2026-09-27T14:40:52.282437+00:00"
+}
