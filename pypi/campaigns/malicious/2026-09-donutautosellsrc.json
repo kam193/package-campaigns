@@ -9,14 +9,18 @@
         "native-extension",
         "obfuscation",
         "remote_executable",
+        "sandbox-detection",
         "steganography"
     ],
     "packages": [
-        "donutautosellsrc"
+        "claudedashbord",
+        "donutautosellsrc",
+        "donutpromotion"
     ],
     "created_at": "2026-09-27",
     "ioc": [
         "https://thisisafalsepositive.st/cdn/v2/9f4e7a2c1b8d.png",
+        "https://thisisafalsepositive.st/cdn/v2/promotion/manifest.json",
         "thisisafalsepositive.st",
         "sltnnt.ru"
     ],
@@ -24,5 +28,5 @@
         "https://www.virustotal.com/gui/file/d03c42c275f0dbc617428441508c49ae1adcbbc95af4eeb094bca4e4f8943f3e/detection",
         "https://polygonscan.com/address/0x9c0a507300fd902787bb193d80fca5ce6e1bff9a"
     ],
-    "description": "During installation package fetches code hidden in an image containing a Python application with a native extension module. This module holds an obfuscated infostealer which collects sensitive data and exfiltrates them to a C2 server retrieved from transaction history in Polygon blockchain."
+    "description": "During installation, obfuscated code is used to fetch code hidden in an image containing a Python application with a native extension module. This module holds an obfuscated infostealer which collects sensitive data and exfiltrates them to a C2 server retrieved from transaction history in the Polygon blockchain."
 }

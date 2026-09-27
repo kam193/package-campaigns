@@ -2,6 +2,7 @@
     "name": "donutautosellsrc",
     "ecosystem": "pypi",
     "campaign": "2026-09-donutautosellsrc",
+    "description": "During installation package fetches code hidden in an image containing a Python application with a native extension module. This module holds an obfuscated infostealer which collects sensitive data and exfiltrates them to a C2 server retrieved from transaction history in the Polygon blockchain.",
     "affected_versions": [
         "0.3.7",
         "0.3.8",
