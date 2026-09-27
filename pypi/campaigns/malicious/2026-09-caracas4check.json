@@ -1,0 +1,23 @@
+{
+    "name": "2026-09-caracas4check",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "obfuscation",
+        "override_install",
+        "remote_executable",
+        "targetted-attack"
+    ],
+    "packages": [
+        "caracas4check"
+    ],
+    "created_at": "2026-09-27",
+    "ioc": [
+        "185.241.208.139",
+        "https://185.241.208.139/fbe1286357a09e81b12243baad454c0b544c6cf3c4d6245e56e13581b4b33709/x"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/296b5205b6a5c48ab5dcdbf4abf34818991f1202e560137ee480c075135f63ec/detection"
+    ],
+    "description": "During installation, the code downloads a malicious executable from a remote location. The malicious action is triggered only on specific hosts."
+}
