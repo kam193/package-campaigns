@@ -4,9 +4,11 @@
     "campaign": "GENERIC-local-poc",
     "affected_versions": [
         "1.0.0",
+        "1.0.997",
+        "1.0.998",
         "1.0.999",
         "1.999.0"
     ],
     "campaign_assigned_at": "2026-09-23T22:02:25.201452+00:00",
-    "campaign_data_modified_at": "2026-09-28T20:10:26.069282+00:00"
+    "campaign_data_modified_at": "2026-09-28T20:19:32.184856+00:00"
 }

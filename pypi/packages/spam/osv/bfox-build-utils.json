@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-local-poc/bfox-build-utils",
     "published": "2026-09-23T22:02:25.201452+00:00",
-    "modified": "2026-09-28T20:10:26.069282+00:00",
+    "modified": "2026-09-28T20:19:32.184856+00:00",
     "summary": "Spam code in bfox-build-utils (PyPI)",
     "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
@@ -13,6 +13,8 @@
             },
             "versions": [
                 "1.0.0",
+                "1.0.997",
+                "1.0.998",
                 "1.0.999",
                 "1.999.0"
             ]
