@@ -1,0 +1,16 @@
+{
+    "name": "2026-09-queeuees",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "modify-system-without-consent",
+        "obfuscation"
+    ],
+    "packages": [
+        "queeuees"
+    ],
+    "created_at": "2026-09-29",
+    "ioc": [],
+    "references": [],
+    "description": "Obfuscated code iterates over files in the system and adds a comment to every .py file found."
+}
