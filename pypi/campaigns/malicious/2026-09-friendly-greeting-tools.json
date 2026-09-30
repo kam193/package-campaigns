@@ -1,0 +1,16 @@
+{
+    "name": "2026-09-friendly-greeting-tools",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_generic",
+        "obfuscation"
+    ],
+    "packages": [
+        "friendly-greeting-tools"
+    ],
+    "created_at": "2026-09-30",
+    "ioc": [],
+    "references": [],
+    "description": "The package contains obfuscated code to exfiltrate data from the environment, targeting primarily Snowflake databases and credentials to them. Some tracks suggest it may be part of a pentest."
+}
