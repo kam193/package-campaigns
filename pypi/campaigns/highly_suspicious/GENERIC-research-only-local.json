@@ -8,6 +8,7 @@
     "packages": [
         "anduril-lattice-sdk-protocolbuffers-pyi",
         "anduril-lattice-sdk-protocolbuffers-python",
+        "beacon-demo-pkg",
         "bfixsecdemo",
         "bq-build-probe-vrp-2026",
         "bq-sdist-probe-vrp",
