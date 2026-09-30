@@ -1,0 +1,12 @@
+{
+    "name": "beautifytext",
+    "ecosystem": "pypi",
+    "campaign": "2026-07-beautifytext",
+    "affected_versions": [
+        "1.0.3",
+        "1.0.4",
+        "1.0.7"
+    ],
+    "campaign_assigned_at": "2026-09-30T19:15:23.468891+00:00",
+    "campaign_data_modified_at": "2026-09-30T19:15:23.492694+00:00"
+}

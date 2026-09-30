@@ -1,0 +1,18 @@
+{
+    "name": "2026-07-beautifytext",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "remote_commands"
+    ],
+    "packages": [
+        "beautifytext"
+    ],
+    "created_at": "2026-09-30",
+    "ioc": [
+        "bleood.wisp.uno"
+    ],
+    "references": [],
+    "description": "During import, the package silently spans a separate process that waits for and executes remote commands."
+}
