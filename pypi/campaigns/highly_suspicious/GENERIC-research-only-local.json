@@ -11,6 +11,7 @@
         "bfixsecdemo",
         "bq-build-probe-vrp-2026",
         "bq-sdist-probe-vrp",
+        "emulation-compat-shim",
         "extra-index-url",
         "werkzeug-compat-shim"
     ],
