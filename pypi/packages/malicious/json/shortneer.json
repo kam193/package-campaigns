@@ -1,0 +1,10 @@
+{
+    "name": "shortneer",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-sherpy",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-01T21:00:49.947390+00:00",
+    "campaign_data_modified_at": "2026-10-01T21:00:49.972775+00:00"
+}
