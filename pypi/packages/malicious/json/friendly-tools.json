@@ -1,0 +1,11 @@
+{
+    "name": "friendly-tools",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-friendly-greeting-tools",
+    "affected_versions": [
+        "0.1",
+        "0.2"
+    ],
+    "campaign_assigned_at": "2026-10-01T12:08:07.747095+00:00",
+    "campaign_data_modified_at": "2026-10-01T12:08:07.778244+00:00"
+}

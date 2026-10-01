@@ -7,7 +7,8 @@
         "obfuscation"
     ],
     "packages": [
-        "friendly-greeting-tools"
+        "friendly-greeting-tools",
+        "friendly-tools"
     ],
     "created_at": "2026-09-30",
     "ioc": [],
