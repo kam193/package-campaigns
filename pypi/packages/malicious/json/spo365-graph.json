@@ -1,0 +1,13 @@
+{
+    "name": "spo365-graph",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-spo365-graph",
+    "affected_versions": [
+        "1.0.0",
+        "1.1.0",
+        "1.1.1",
+        "1.1.2"
+    ],
+    "campaign_assigned_at": "2026-10-01T18:58:14.788954+00:00",
+    "campaign_data_modified_at": "2026-10-01T18:58:14.816166+00:00"
+}

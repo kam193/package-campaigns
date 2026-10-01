@@ -1,0 +1,20 @@
+{
+    "name": "2026-10-spo365-graph",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_cloud_tokens",
+        "exfiltration_credentials",
+        "override_install",
+        "targetted-attack"
+    ],
+    "packages": [
+        "spo365-graph"
+    ],
+    "created_at": "2026-10-01",
+    "ioc": [
+        "https://catdig-azdo-cfn-platform-bravo-prod-us-east-2.s3.amazonaws.com/cfn-artifacts/platform-bravo-api-health-check.json"
+    ],
+    "references": [],
+    "description": "During installation, the package deploys a rogue AWS Lambda function to collect credentials from Secret Manager as well as collect other data. Data are then exfiltrated. The malicious code was introduced in version 1.1.2."
+}
