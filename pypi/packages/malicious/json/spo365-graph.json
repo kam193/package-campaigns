@@ -2,6 +2,7 @@
     "name": "spo365-graph",
     "ecosystem": "pypi",
     "campaign": "2026-10-spo365-graph",
+    "description": "During installation, the package deploys a rogue AWS Lambda function to collect credentials from Secret Manager as well as collect other data. Data are then exfiltrated. The malicious code was introduced in version 1.1.2.",
     "affected_versions": [
         "1.0.0",
         "1.1.0",
