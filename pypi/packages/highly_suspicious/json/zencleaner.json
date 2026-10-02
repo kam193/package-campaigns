@@ -1,0 +1,11 @@
+{
+    "name": "zencleaner",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-10-02T15:44:13.449441+00:00",
+    "campaign_data_modified_at": "2026-10-02T15:44:13.477471+00:00"
+}
