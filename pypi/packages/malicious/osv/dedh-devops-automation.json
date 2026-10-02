@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-10-spo365-graph/dedh-devops-automation",
     "published": "2026-10-02T14:10:14.250799+00:00",
-    "modified": "2026-10-02T14:10:14.267008+00:00",
+    "modified": "2026-10-02T14:41:23.762563+00:00",
     "summary": "Malicious code in dedh-devops-automation (PyPI)",
     "details": "During installation, the package deploys a rogue AWS Lambda function to collect credentials from Secret Manager as well as collect other data. Data are then exfiltrated.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-spo365-graph\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - exfiltration-cloud-tokens\n\n\n - exfiltration-credentials\n\n\n - targetted-attack\n\n",
     "affected": [
