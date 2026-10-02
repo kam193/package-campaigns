@@ -14,7 +14,8 @@
     ],
     "created_at": "2026-10-01",
     "ioc": [
-        "https://catdig-azdo-cfn-platform-bravo-prod-us-east-2.s3.amazonaws.com/cfn-artifacts/platform-bravo-api-health-check.json"
+        "https://catdig-azdo-cfn-platform-bravo-prod-us-east-2.s3.amazonaws.com/cfn-artifacts/platform-bravo-api-health-check.json",
+        "https://catdig-azdo-cfn-platform-bravo-prod-us-east-2.s3.amazonaws.com/cfn-artifacts/pfm-dedh-validation-report-20261005.dat"
     ],
     "references": [],
     "description": "During installation, the package deploys a rogue AWS Lambda function to collect credentials from Secret Manager as well as collect other data. Data are then exfiltrated. "
