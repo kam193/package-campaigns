@@ -1,0 +1,10 @@
+{
+    "name": "voxcpmeval",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voxeval",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-03T13:18:34.668552+00:00",
+    "campaign_data_modified_at": "2026-10-03T13:18:53.189511+00:00"
+}
