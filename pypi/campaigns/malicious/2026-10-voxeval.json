@@ -6,6 +6,7 @@
         "cryptominer"
     ],
     "packages": [
+        "infrabench",
         "voxcpmeval",
         "voxcpmintel",
         "voxcpmkit",
