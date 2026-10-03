@@ -6,6 +6,7 @@
         "cryptominer"
     ],
     "packages": [
+        "voxel-tts",
         "voxeval"
     ],
     "created_at": "2026-10-02",

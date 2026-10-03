@@ -1,0 +1,11 @@
+{
+    "name": "voxel-tts",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voxeval",
+    "affected_versions": [
+        "0.5.0",
+        "0.5.1"
+    ],
+    "campaign_assigned_at": "2026-10-03T04:38:14.597543+00:00",
+    "campaign_data_modified_at": "2026-10-03T04:38:14.625954+00:00"
+}
