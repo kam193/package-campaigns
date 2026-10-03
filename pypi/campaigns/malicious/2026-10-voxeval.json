@@ -7,6 +7,7 @@
     ],
     "packages": [
         "voxcpmtts3",
+        "voxcpmui3",
         "voxel-tts",
         "voxeval"
     ],
