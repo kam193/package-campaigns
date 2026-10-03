@@ -6,6 +6,7 @@
         "cryptominer"
     ],
     "packages": [
+        "voxcpmtts3",
         "voxel-tts",
         "voxeval"
     ],
