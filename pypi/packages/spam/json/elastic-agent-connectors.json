@@ -1,0 +1,10 @@
+{
+    "name": "elastic-agent-connectors",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-03T15:49:47.489870+00:00",
+    "campaign_data_modified_at": "2026-10-03T15:50:58.156607+00:00"
+}

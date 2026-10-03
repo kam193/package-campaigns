@@ -1,0 +1,10 @@
+{
+    "name": "elastic-ingest",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "0.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-03T15:48:50.631139+00:00",
+    "campaign_data_modified_at": "2026-10-03T15:48:50.647678+00:00"
+}
