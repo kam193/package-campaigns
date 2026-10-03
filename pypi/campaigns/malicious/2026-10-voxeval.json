@@ -6,6 +6,7 @@
         "cryptominer"
     ],
     "packages": [
+        "voxcpmkit",
         "voxcpmtts3",
         "voxcpmui3",
         "voxcpmui4",
