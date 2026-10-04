@@ -1,0 +1,47 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-10-anthropic-sdk/anthropic-sdk",
+    "published": "2026-10-04T19:09:32.647052+00:00",
+    "modified": "2026-10-04T19:09:32.670665+00:00",
+    "summary": "Malicious code in anthropic-sdk (PyPI)",
+    "details": "During import, package downloads a remote script, fingerprints the environment looking for sandbox signs, and after a delay exfiltrates sensitive data: credentials, env variables, AI chat files, SSH keys and so on. If exfiltration via HTTPS fails, it attempts DNS-based exfiltration. Additionally, package uses DNS to centrally hold execution.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-anthropic-sdk\n\n\nReasons (based on the campaign):\n\n\n - impersonation\n\n\n - Downloads and executes a remote malicious script.\n\n\n - The package contains code to detect if it is running in a sandbox environment.\n\n\n - obfuscation\n\n\n - exfiltration-credentials\n\n\n - files-exfiltration\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-ssh-keys\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "anthropic-sdk",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/anthropic-sdk"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "telemetry-edge.net",
+                "x.telemetry-edge.net"
+            ],
+            "urls": [
+                "https://telemetry-edge.net/api/v2/ingest",
+                "https://cdn.jsdelivr.net/gh/shred0day/payload@main/payload.py"
+            ]
+        }
+    }
+}

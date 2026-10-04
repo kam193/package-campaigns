@@ -1,0 +1,10 @@
+{
+    "name": "anthropic-sdk",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-anthropic-sdk",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-04T19:09:32.647052+00:00",
+    "campaign_data_modified_at": "2026-10-04T19:09:32.670665+00:00"
+}

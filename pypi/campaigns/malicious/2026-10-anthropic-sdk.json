@@ -1,0 +1,28 @@
+{
+    "name": "2026-10-anthropic-sdk",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "exfiltration_env_variables",
+        "exfiltration_ssh_keys",
+        "files_exfiltration",
+        "impersonation",
+        "obfuscation",
+        "remote_script",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "anthropic-sdk"
+    ],
+    "created_at": "2026-10-04",
+    "ioc": [
+        "https://telemetry-edge.net/api/v2/ingest",
+        "telemetry-edge.net",
+        "x.telemetry-edge.net",
+        "https://cdn.jsdelivr.net/gh/shred0day/payload@main/payload.py",
+        "_ks.telemetry-edge.net"
+    ],
+    "references": [],
+    "description": "During import, package downloads a remote script, fingerprints the environment looking for sandbox signs, and after a delay exfiltrates sensitive data: credentials, env variables, AI chat files, SSH keys and so on. If exfiltration via HTTPS fails, it attempts DNS-based exfiltration. Additionally, package uses DNS to centrally hold execution."
+}
