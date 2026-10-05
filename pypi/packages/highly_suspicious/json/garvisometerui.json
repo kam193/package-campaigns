@@ -1,0 +1,10 @@
+{
+    "name": "garvisometerui",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-05T20:37:16.343511+00:00",
+    "campaign_data_modified_at": "2026-10-05T20:37:16.361309+00:00"
+}
