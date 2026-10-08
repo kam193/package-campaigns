@@ -1,0 +1,11 @@
+{
+    "name": "claudecord",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "created_at": "2026-10-08",
+    "description": "Two versions of claudecord were generated from a repository with compromised CI/CD infrastructure, but no malicious code was found in the releases themselves.",
+    "affected_versions": [
+        "0.3.2",
+        "0.3.1"
+    ]
+}
