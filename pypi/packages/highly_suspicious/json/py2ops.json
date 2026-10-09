@@ -1,0 +1,11 @@
+{
+    "name": "py2ops",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "2.2",
+        "2.2.1"
+    ],
+    "campaign_assigned_at": "2026-10-09T19:00:26.559580+00:00",
+    "campaign_data_modified_at": "2026-10-09T19:00:26.576491+00:00"
+}
