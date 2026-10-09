@@ -1,0 +1,10 @@
+{
+    "name": "ig-gox",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-ig-gox",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-09T09:21:11.240427+00:00",
+    "campaign_data_modified_at": "2026-10-09T09:21:11.264724+00:00"
+}

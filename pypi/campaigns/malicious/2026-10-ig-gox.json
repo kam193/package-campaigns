@@ -1,0 +1,20 @@
+{
+    "name": "2026-10-ig-gox",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abusing-3rd-api",
+        "obfuscation",
+        "remote_script",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "ig-gox"
+    ],
+    "created_at": "2026-10-09",
+    "ioc": [
+        "goxtools.shop"
+    ],
+    "references": [],
+    "description": "Package hides obfuscated code aimed to avoid analysis and downloading the remote stage. The remote code is used to abuse Instagram service for mass fake account registration."
+}
