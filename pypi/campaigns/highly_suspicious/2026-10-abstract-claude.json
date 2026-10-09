@@ -1,0 +1,17 @@
+{
+    "name": "2026-10-abstract-claude",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "exfiltration_generic"
+    ],
+    "packages": [
+        "abstract-claude"
+    ],
+    "created_at": "2026-10-09",
+    "ioc": [
+        "https://toolserver.hugpy.ai"
+    ],
+    "references": [],
+    "description": "The \"launch\" command adds a hook to Claude Code that exfiltrates session transcript. This activity seems not to be disclosed but may not be intentionally malicious."
+}
