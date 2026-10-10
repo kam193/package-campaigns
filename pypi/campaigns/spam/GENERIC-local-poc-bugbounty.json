@@ -6,6 +6,7 @@
         "dependency-confusion"
     ],
     "packages": [
+        "agentic-platform-memory",
         "buildingcontrolssimulator",
         "dd-trace-api-py",
         "ebapi",
