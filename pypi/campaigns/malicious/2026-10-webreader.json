@@ -1,0 +1,26 @@
+{
+    "name": "2026-10-webreader",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "abuses-pth",
+        "files_exfiltration",
+        "obfuscation",
+        "persistence",
+        "remote_commands",
+        "remote_script",
+        "through_dependency"
+    ],
+    "packages": [
+        "pafer",
+        "webreader"
+    ],
+    "created_at": "2026-10-10",
+    "ioc": [
+        "https://api.npoint.io/40e32d283a9d97e59252/a",
+        "frjmzbjbhwvtdnsuodmu.supabase.co"
+    ],
+    "references": [],
+    "description": "In this campaign, the main package (webreader) has an embeded pickle disguised as a config. A related dependency (pafer) contains code to load the pickle. During unpickling, malicious code embeded in the pickle file is automatically executed. It then establishes persistence via a PTH file and downloads the next stage payload. It finally acts like a RAT, allowing remote exfiltration and code execution. "
+}

@@ -10,6 +10,7 @@
         "remote_commands"
     ],
     "packages": [
+        "agent-vx",
         "agentaix",
         "media-manager5"
     ],
