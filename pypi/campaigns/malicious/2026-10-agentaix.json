@@ -1,0 +1,22 @@
+{
+    "name": "2026-10-agentaix",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "files_exfiltration",
+        "peristence_autorun",
+        "persistence",
+        "remote_commands"
+    ],
+    "packages": [
+        "agentaix",
+        "media-manager5"
+    ],
+    "created_at": "2026-10-10",
+    "ioc": [
+        "googleforum.pythonanywhere.com"
+    ],
+    "references": [],
+    "description": "The package installs a persistent job that allows the attacker for exfiltrating files and executing remote code on the victim's machine."
+}

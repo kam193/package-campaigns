@@ -1,0 +1,10 @@
+{
+    "name": "media-manager5",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-agentaix",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-10T08:02:44.624233+00:00",
+    "campaign_data_modified_at": "2026-10-10T08:02:44.659478+00:00"
+}

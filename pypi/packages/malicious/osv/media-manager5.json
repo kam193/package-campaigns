@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-10-agentaix/media-manager5",
+    "published": "2026-10-10T08:02:44.624233+00:00",
+    "modified": "2026-10-10T08:02:44.659478+00:00",
+    "summary": "Malicious code in media-manager5 (PyPI)",
+    "details": "The package installs a persistent job that allows the attacker for exfiltrating files and executing remote code on the victim's machine.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-agentaix\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - peristence-autorun\n\n\n - The package contains code to execute remote commands (probably limited to a specific set) on the victim's machine.\n\n\n - rat\n\n\n - persistence\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "media-manager5",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/media-manager5"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "googleforum.pythonanywhere.com"
+            ]
+        }
+    }
+}
