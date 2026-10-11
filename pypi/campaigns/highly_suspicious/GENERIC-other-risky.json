@@ -4,7 +4,6 @@
     "category": "highly_suspicious",
     "packages": [
         "aiossh",
-        "akashcli",
         "aliyun-akless-credential-provider-python-sdk",
         "aliyun-akless-idp-python-sdk",
         "amirhoshein",
