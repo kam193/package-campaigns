@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/akashcli",
     "published": "2026-10-10T21:49:07.980684+00:00",
-    "modified": "2026-10-11T04:59:31.785591+00:00",
+    "modified": "2026-10-11T05:45:46.652971+00:00",
     "summary": "Highly suspicious code in akashcli (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -25,7 +25,8 @@
                 "4.5.0",
                 "4.5.1",
                 "4.5.2",
-                "4.5.3"
+                "4.5.3",
+                "4.5.4"
             ]
         }
     ],
