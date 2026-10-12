@@ -1,0 +1,21 @@
+{
+    "name": "2026-10-minecraftaccfinder",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "infostealer",
+        "keylogger",
+        "persistence",
+        "remote_commands",
+        "spyware-like"
+    ],
+    "packages": [
+        "minecraftaccfinder"
+    ],
+    "created_at": "2026-10-12",
+    "ioc": [],
+    "references": [],
+    "description": "During import, the code installs a persistent inforstealer / RAT. The code first exfiltrates multiple credentials (targeting especially Gmail, Roblox, Discord, and Minecraft) and then opens a port and listens for further C2 commands. It also includes a keylogger, periodic screenshot sending, advanced extracting credentials from browsers, and some detection evasion techniques. In multiple versions the code seems not to be fully functional"
+}
