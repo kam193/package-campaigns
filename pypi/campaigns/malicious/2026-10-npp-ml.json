@@ -1,0 +1,16 @@
+{
+    "name": "2026-10-npp-ml",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "impersonation",
+        "other"
+    ],
+    "packages": [
+        "npp-ml"
+    ],
+    "created_at": "2026-10-12",
+    "ioc": [],
+    "references": [],
+    "description": "The package claims to provide a Notepad++ distribution, but in fact delivers ADExplorer, an Active Directory analysis tool."
+}
