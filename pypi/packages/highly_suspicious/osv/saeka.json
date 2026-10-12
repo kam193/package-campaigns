@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/saeka",
     "published": "2026-09-07T21:48:15.259713+00:00",
-    "modified": "2026-10-12T17:36:03.790078+00:00",
+    "modified": "2026-10-12T18:10:20.719277+00:00",
     "summary": "Highly suspicious code in saeka (PyPI)",
     "details": "Package is used to bootstrap a proxy server and join a proxy network\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -25,7 +25,11 @@
                 "1.8.0",
                 "1.8.1",
                 "1.8.2",
-                "2.0"
+                "2.0",
+                "4.0",
+                "5.0",
+                "6.0",
+                "7.0"
             ]
         }
     ],
