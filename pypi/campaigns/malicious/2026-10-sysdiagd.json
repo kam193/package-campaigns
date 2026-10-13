@@ -1,0 +1,21 @@
+{
+    "name": "2026-10-sysdiagd",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "files_exfiltration",
+        "infostealer",
+        "persistence",
+        "spyware-like"
+    ],
+    "packages": [
+        "sysdiagd"
+    ],
+    "created_at": "2026-10-13",
+    "ioc": [],
+    "references": [],
+    "description": "Disguised as a system monitoring tool, the package delivers a Discord bot acting as an infostealer exfiltrating credentials, browser data, files and recording audio, screenshots and video. The code requires providing bot credentials, it is not functional without providing them."
+}

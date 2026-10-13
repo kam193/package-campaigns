@@ -1,0 +1,12 @@
+{
+    "name": "sysdiagd",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-sysdiagd",
+    "affected_versions": [
+        "1.2.1",
+        "1.2.2",
+        "1.2.3"
+    ],
+    "campaign_assigned_at": "2026-10-13T18:40:17.533101+00:00",
+    "campaign_data_modified_at": "2026-10-13T18:40:17.559400+00:00"
+}
