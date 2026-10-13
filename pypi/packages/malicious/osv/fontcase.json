@@ -1,0 +1,54 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-10-fontcase/fontcase",
+    "published": "2026-10-13T19:30:53.120662+00:00",
+    "modified": "2026-10-13T19:30:53.143863+00:00",
+    "summary": "Malicious code in fontcase (PyPI)",
+    "details": "During import, the package downloads and executes an infostealer.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-fontcase\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - Downloads and executes a remote executable.\n\n\n - uses-telegram-bot\n\n\n - exfiltration-browser-data\n\n\n - exfiltration-credentials\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "fontcase",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/08c3367965ba26fd0c2ed4ecac2fe831cf8fe517af59ce6947ae18b4fa30e20f/detection"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/261013-x3rflayz4j"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/fontcase"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://github.com/unicodeces/font-atlas/raw/main/fonts/serif-didone/rufina/process-manager.exe",
+                "https://raw.githubusercontent.com/unicodeces/font-atlas/main/fonts/serif-didone/rufina/process-manager.exe",
+                "https://github.com/unicodeces/font-atlas"
+            ]
+        }
+    }
+}

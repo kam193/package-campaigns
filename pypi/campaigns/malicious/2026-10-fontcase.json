@@ -1,0 +1,26 @@
+{
+    "name": "2026-10-fontcase",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "infostealer",
+        "remote_executable",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "fontcase"
+    ],
+    "created_at": "2026-10-13",
+    "ioc": [
+        "https://github.com/unicodeces/font-atlas/raw/main/fonts/serif-didone/rufina/process-manager.exe",
+        "https://raw.githubusercontent.com/unicodeces/font-atlas/main/fonts/serif-didone/rufina/process-manager.exe",
+        "https://github.com/unicodeces/font-atlas"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/08c3367965ba26fd0c2ed4ecac2fe831cf8fe517af59ce6947ae18b4fa30e20f/detection",
+        "https://tria.ge/261013-x3rflayz4j"
+    ],
+    "description": "During import, the package downloads and executes an infostealer."
+}
