@@ -1,8 +1,8 @@
 {
     "name": "saeka",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky",
-    "description": "Package is used to bootstrap a proxy server and join a proxy network",
+    "campaign": "2026-10-saeka",
+    "description": "",
     "affected_versions": [
         "1.0.0",
         "1.2.0",
@@ -31,6 +31,6 @@
         "11.9",
         "15.0"
     ],
-    "campaign_assigned_at": "2026-09-07T21:48:15.259713+00:00",
-    "campaign_data_modified_at": "2026-10-14T01:34:47.275621+00:00"
+    "campaign_assigned_at": "2026-10-14T21:33:49.252548+00:00",
+    "campaign_data_modified_at": "2026-10-14T21:33:49.279531+00:00"
 }

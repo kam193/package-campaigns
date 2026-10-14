@@ -1,0 +1,15 @@
+{
+    "name": "2026-10-saeka",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abusing-3rd-api"
+    ],
+    "packages": [
+        "saeka"
+    ],
+    "created_at": "2026-10-14",
+    "ioc": [],
+    "references": [],
+    "description": "The package is a mass credit card checker: it checks if credit card data are real and active by abusing real online retail services."
+}
