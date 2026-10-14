@@ -1,0 +1,11 @@
+{
+    "name": "rudin-osher-fatemi",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-rudin-osher-fatemi",
+    "affected_versions": [
+        "0.1.0",
+        "3.1.2"
+    ],
+    "campaign_assigned_at": "2026-10-14T19:44:32.814697+00:00",
+    "campaign_data_modified_at": "2026-10-14T19:44:32.841862+00:00"
+}
