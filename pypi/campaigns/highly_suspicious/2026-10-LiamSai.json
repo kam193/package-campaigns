@@ -1,0 +1,22 @@
+{
+    "name": "2026-10-LiamSai",
+    "ecosystem": "pypi",
+    "category": "highly_suspicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "remote_script"
+    ],
+    "packages": [
+        "py2ops",
+        "pyyi",
+        "seapy-ops",
+        "verity-cli"
+    ],
+    "created_at": "2026-10-14",
+    "ioc": [
+        "b196q82k8891-d.space-z.ai",
+        "preview-chat-960504a9-b4e0-4b69-bc80-6ac3d4fa4ae0.space-z.ai"
+    ],
+    "references": [],
+    "description": "Packages hide a gated execution of a remote code or send over local files. The code masks itself as a legitimate tool, e.g. python2 command, and requires knowing a password to get remote code for execution. Some versions suggest the intention is a tool for cheating on tests, but it could also be used to mask malicious actions."
+}

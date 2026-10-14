@@ -1,0 +1,12 @@
+{
+    "name": "pyyi",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-LiamSai",
+    "affected_versions": [
+        "2.4",
+        "2.4.1",
+        "2.4.2"
+    ],
+    "campaign_assigned_at": "2026-10-14T20:36:43.545657+00:00",
+    "campaign_data_modified_at": "2026-10-14T20:36:43.586073+00:00"
+}

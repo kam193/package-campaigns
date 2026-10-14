@@ -1,10 +1,10 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-other-risky/seapy-ops",
-    "published": "2026-10-07T21:40:47.772715+00:00",
-    "modified": "2026-10-09T15:16:33.274764+00:00",
+    "id": "pypi/2026-10-LiamSai/seapy-ops",
+    "published": "2026-10-14T20:34:49.661561+00:00",
+    "modified": "2026-10-14T20:34:49.686761+00:00",
     "summary": "Highly suspicious code in seapy-ops (PyPI)",
-    "details": "The package implements hidden communication with AI, likely intended for cheating during tests.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "details": "The package implements hidden communication with AI, likely intended for cheating during tests.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-10-LiamSai\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {
@@ -39,5 +39,13 @@
             ],
             "type": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "b196q82k8891-d.space-z.ai",
+                "preview-chat-960504a9-b4e0-4b69-bc80-6ac3d4fa4ae0.space-z.ai"
+            ]
+        }
+    }
 }

@@ -1,7 +1,7 @@
 {
     "name": "seapy-ops",
     "ecosystem": "pypi",
-    "campaign": "GENERIC-other-risky",
+    "campaign": "2026-10-LiamSai",
     "description": "The package implements hidden communication with AI, likely intended for cheating during tests.",
     "affected_versions": [
         "1.0.0",
@@ -14,6 +14,6 @@
         "1.2.1",
         "1.2.2"
     ],
-    "campaign_assigned_at": "2026-10-07T21:40:47.772715+00:00",
-    "campaign_data_modified_at": "2026-10-09T15:16:33.274764+00:00"
+    "campaign_assigned_at": "2026-10-14T20:34:49.661561+00:00",
+    "campaign_data_modified_at": "2026-10-14T20:34:49.686761+00:00"
 }

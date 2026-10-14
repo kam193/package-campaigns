@@ -1,10 +1,10 @@
 {
     "schema_version": "1.7.4",
-    "id": "pypi/GENERIC-other-risky/verity-cli",
-    "published": "2026-10-07T21:42:47.038291+00:00",
-    "modified": "2026-10-07T21:42:47.054268+00:00",
+    "id": "pypi/2026-10-LiamSai/verity-cli",
+    "published": "2026-10-14T20:35:05.464004+00:00",
+    "modified": "2026-10-14T20:35:05.489181+00:00",
     "summary": "Highly suspicious code in verity-cli (PyPI)",
-    "details": "The package implements hidden communication with AI, likely intended for cheating during tests.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "details": "The package implements hidden communication with AI, likely intended for cheating during tests.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-10-LiamSai\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - files-exfiltration\n\n",
     "affected": [
         {
             "package": {
@@ -32,5 +32,13 @@
             ],
             "type": "ANALYST"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "b196q82k8891-d.space-z.ai",
+                "preview-chat-960504a9-b4e0-4b69-bc80-6ac3d4fa4ae0.space-z.ai"
+            ]
+        }
+    }
 }
