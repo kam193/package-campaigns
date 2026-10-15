@@ -1,0 +1,51 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-10-getpubip/getpubip",
+    "published": "2026-10-15T10:13:20.088962+00:00",
+    "modified": "2026-10-15T10:13:20.123974+00:00",
+    "summary": "Malicious code in getpubip (PyPI)",
+    "details": "During import, obfuscated code downloads and executes an infostealer. Campaign shares some similarities with the campaign 2026-10-fontcase.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-getpubip\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote executable.\n\n\n - infostealer\n\n\n - exfiltration-browser-data\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "getpubip",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0",
+                "0.1.1",
+                "0.1.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "EVIDENCE",
+            "url": "https://tria.ge/261015-hppmhsgx51"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/getpubip"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "domains": [
+                "api-bsx.pages.dev"
+            ],
+            "urls": [
+                "https://api-bsx.pages.dev/download"
+            ]
+        }
+    }
+}
