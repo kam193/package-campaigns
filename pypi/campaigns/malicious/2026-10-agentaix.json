@@ -15,7 +15,8 @@
         "agentaix",
         "media-manager5",
         "py-sock2",
-        "py-worm"
+        "py-worm",
+        "py-wormgpt"
     ],
     "created_at": "2026-10-10",
     "ioc": [

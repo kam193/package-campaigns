@@ -1,0 +1,10 @@
+{
+    "name": "proxyrubika",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-proxyrubika",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-15T10:35:36.378248+00:00",
+    "campaign_data_modified_at": "2026-10-15T10:35:36.408693+00:00"
+}
