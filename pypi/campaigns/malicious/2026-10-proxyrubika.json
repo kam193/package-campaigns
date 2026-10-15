@@ -7,6 +7,7 @@
         "target:android"
     ],
     "packages": [
+        "proxy-rubikis",
         "proxyrubika"
     ],
     "created_at": "2026-10-15",
