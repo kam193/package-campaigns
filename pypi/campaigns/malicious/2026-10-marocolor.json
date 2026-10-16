@@ -1,0 +1,17 @@
+{
+    "name": "2026-10-marocolor",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "destructive-actions",
+        "files_exfiltration",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "marocolor"
+    ],
+    "created_at": "2026-10-16",
+    "ioc": [],
+    "references": [],
+    "description": "Package is intended for stealing files to a hardcoded location and performing a DoS on the victim's machine."
+}
