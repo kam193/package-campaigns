@@ -1,0 +1,22 @@
+{
+    "name": "2026-10-fromthehotel-poems",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "llm-threat",
+        "remote_script"
+    ],
+    "packages": [
+        "fromthehotel-poems"
+    ],
+    "created_at": "2026-10-16",
+    "ioc": [
+        "https://login.fromthehotel.com/api/poems/code",
+        "https://login.fromthehotel.com/api/art/downloads/art_fromthehotel-0.1.0-py3-none-any.whl",
+        "login.fromthehotel.com",
+        "https://login.fromthehotel.com/muse"
+    ],
+    "references": [],
+    "description": "One of the provided functions hides executing remote code from a newly created domain. During analysis, the remote code did not contain any malicious action. The description and other endpoints clearly suggest it's an attempt to exploit LLM agent like Muse. In one of the hosted instructions, the agent is instructed to download a self-hosted package depending on published code and trigger the code execution action. "
+}
