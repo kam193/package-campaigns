@@ -1,0 +1,11 @@
+{
+    "name": "webrunc",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "description": "Package allows executing remote code.",
+    "affected_versions": [
+        "0.0.1"
+    ],
+    "campaign_assigned_at": "2026-10-16T14:13:50.906822+00:00",
+    "campaign_data_modified_at": "2026-10-16T14:13:50.944614+00:00"
+}
