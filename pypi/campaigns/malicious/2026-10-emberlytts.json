@@ -1,0 +1,23 @@
+{
+    "name": "2026-10-emberlytts",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other",
+        "remote_script"
+    ],
+    "packages": [
+        "driftwavets",
+        "emberlytts",
+        "glassbeakasr",
+        "novalithtts",
+        "pyrechoasr",
+        "quasitonnts",
+        "tonemaptts",
+        "voltswannts"
+    ],
+    "created_at": "2026-10-17",
+    "ioc": [],
+    "references": [],
+    "description": "The package belongs to a series of packages falsely advertising 'audio-analysis profiles' loader. In fact, the only purpose is to execute remote code, but the URL is not embedded in the package. It is likely a continuation of the coin-mining campaign 2026-10-voxeval which used similar wording."
+}

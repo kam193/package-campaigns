@@ -1,0 +1,16 @@
+{
+    "name": "2026-10-ukraine69",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "covering-tracks",
+        "destructive-actions"
+    ],
+    "packages": [
+        "ukraine69"
+    ],
+    "created_at": "2026-10-17",
+    "ioc": [],
+    "references": [],
+    "description": "During import, package performs actions intended to escape sandbox, find Telegram-bot session files and initiate malicious account deletion."
+}

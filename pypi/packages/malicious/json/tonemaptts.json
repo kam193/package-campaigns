@@ -1,0 +1,10 @@
+{
+    "name": "tonemaptts",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-emberlytts",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-17T17:06:12.593769+00:00",
+    "campaign_data_modified_at": "2026-10-17T17:06:12.628738+00:00"
+}

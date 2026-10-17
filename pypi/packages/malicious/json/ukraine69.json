@@ -1,0 +1,17 @@
+{
+    "name": "ukraine69",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-ukraine69",
+    "affected_versions": [
+        "1.2.0",
+        "1.2.1",
+        "1.2.2",
+        "1.2.3",
+        "1.2.5",
+        "1.2.6",
+        "1.2.7",
+        "1.2.8"
+    ],
+    "campaign_assigned_at": "2026-10-17T16:53:55.628623+00:00",
+    "campaign_data_modified_at": "2026-10-17T16:53:55.661733+00:00"
+}
