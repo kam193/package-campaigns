@@ -1,0 +1,21 @@
+{
+    "name": "2026-10-leakdeep",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clipboard_stealing",
+        "exfiltration_browser_data",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "infostealer",
+        "spyware-like"
+    ],
+    "packages": [
+        "leakdeep"
+    ],
+    "created_at": "2026-10-18",
+    "ioc": [],
+    "references": [],
+    "description": "When using the provided command, the code exfiltrates multiple data (browser credentials, cryptowallets, etc.), clipboard content, screenshots and webcam frames."
+}
