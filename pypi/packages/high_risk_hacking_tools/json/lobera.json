@@ -1,0 +1,10 @@
+{
+    "name": "lobera",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "0.2.0"
+    ],
+    "campaign_assigned_at": "2026-10-18T20:23:27.953128+00:00",
+    "campaign_data_modified_at": "2026-10-18T20:23:27.971492+00:00"
+}
