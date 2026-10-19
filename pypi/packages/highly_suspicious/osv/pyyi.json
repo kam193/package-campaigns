@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-10-LiamSai/pyyi",
     "published": "2026-10-14T20:36:43.545657+00:00",
-    "modified": "2026-10-14T20:36:43.586073+00:00",
+    "modified": "2026-10-19T10:24:56.307467+00:00",
     "summary": "Highly suspicious code in pyyi (PyPI)",
     "details": "Packages hide a gated execution of a remote code or send over local files. The code masks itself as a legitimate tool, e.g. python2 command, and requires knowing a password to get remote code for execution. Some versions suggest the intention is a tool for cheating on tests, but it could also be used to mask malicious actions.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-10-LiamSai\n\n\nReasons (based on the campaign):\n\n\n - Downloads and executes a remote malicious script.\n\n\n - files-exfiltration\n\n",
     "affected": [
@@ -14,7 +14,8 @@
             "versions": [
                 "2.4",
                 "2.4.1",
-                "2.4.2"
+                "2.4.2",
+                "2.5.0"
             ]
         }
     ],
