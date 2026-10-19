@@ -1,0 +1,10 @@
+{
+    "name": "asurion-drive",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc-bugbounty",
+    "affected_versions": [
+        "99.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-19T21:21:25.152184+00:00",
+    "campaign_data_modified_at": "2026-10-19T21:21:25.171072+00:00"
+}

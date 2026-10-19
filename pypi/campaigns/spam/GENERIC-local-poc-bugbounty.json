@@ -7,6 +7,8 @@
     ],
     "packages": [
         "agentic-platform-memory",
+        "asurion-drive",
+        "asurion-photos",
         "buildingcontrolssimulator",
         "dd-trace-api-py",
         "ebapi",
@@ -14,6 +16,7 @@
         "kw-json",
         "kw-structlog-config",
         "li-pyiceberg",
+        "memories-core",
         "phased-ibd",
         "zeroclaw-tools"
     ],
