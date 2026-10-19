@@ -1,0 +1,10 @@
+{
+    "name": "il-supply-chain-security",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "999.999.9999"
+    ],
+    "campaign_assigned_at": "2026-10-19T22:07:45.107255+00:00",
+    "campaign_data_modified_at": "2026-10-19T22:07:45.139147+00:00"
+}
