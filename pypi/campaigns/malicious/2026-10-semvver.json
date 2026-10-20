@@ -8,10 +8,14 @@
         "typosquatting"
     ],
     "packages": [
+        "debbug",
+        "deebug",
+        "semer",
         "semmver",
         "semveer",
         "semverr",
-        "semvver"
+        "semvver",
+        "ssemver"
     ],
     "created_at": "2026-10-20",
     "ioc": [

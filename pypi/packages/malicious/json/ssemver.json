@@ -1,0 +1,10 @@
+{
+    "name": "ssemver",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-semvver",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-20T23:02:41.398341+00:00",
+    "campaign_data_modified_at": "2026-10-20T23:02:41.419629+00:00"
+}
