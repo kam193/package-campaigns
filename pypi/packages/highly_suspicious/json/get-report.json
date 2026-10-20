@@ -1,0 +1,15 @@
+{
+    "name": "get-report",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.4.0",
+        "0.4.1",
+        "0.5.0",
+        "0.5.1"
+    ],
+    "campaign_assigned_at": "2026-10-20T21:10:05.387316+00:00",
+    "campaign_data_modified_at": "2026-10-20T21:10:05.411713+00:00"
+}
