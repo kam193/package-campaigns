@@ -1,0 +1,17 @@
+{
+    "name": "2026-10-test-workalendar-internal",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "override_install"
+    ],
+    "packages": [
+        "test-workalendar-internal",
+        "workcalender"
+    ],
+    "created_at": "2026-10-20",
+    "ioc": [],
+    "references": [],
+    "description": "During build, the package creates a web-sharable terminal session and exposes it via a Cloudflare tunnel to the attacker. "
+}

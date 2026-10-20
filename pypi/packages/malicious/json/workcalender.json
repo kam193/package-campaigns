@@ -1,0 +1,11 @@
+{
+    "name": "workcalender",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-test-workalendar-internal",
+    "description": "This package contains a stub build-time helper, which in another package of the same uploader was already turned into a backdoor installation. While this package does not yet contain malicious code, it is clear it was uploaded with such intention and likely exploits dependency confusion.",
+    "affected_versions": [
+        "17.1.0.dev0"
+    ],
+    "campaign_assigned_at": "2026-10-20T13:05:17.474513+00:00",
+    "campaign_data_modified_at": "2026-10-20T13:05:17.498518+00:00"
+}
