@@ -1,0 +1,19 @@
+{
+    "name": "2026-10-omeraf",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "basic_exfiltration",
+        "exfiltration_cloud_tokens",
+        "other"
+    ],
+    "packages": [
+        "research-probe-6150c1c915",
+        "security-research-startup-snapshot-810764b303"
+    ],
+    "created_at": "2026-10-20",
+    "ioc": [],
+    "references": [],
+    "description": "The package is most likely a reconnaissance of a shared infrastructure, collecting potentially sensitive data from cloud endpoints, activated via a PTH file on every Python loading. Collected data are stored in a local filesystem, suggesting the operator has to have some degree of control of the environment."
+}
