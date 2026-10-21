@@ -1,0 +1,10 @@
+{
+    "name": "journey-test-helloshell",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-journey-test-helloshell",
+    "affected_versions": [
+        "0.2.0"
+    ],
+    "campaign_assigned_at": "2026-10-21T18:30:25.329941+00:00",
+    "campaign_data_modified_at": "2026-10-21T18:30:25.356628+00:00"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "2026-10-journey-test-helloshell",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "revshell",
+        "targetted-attack"
+    ],
+    "packages": [
+        "journey-test-helloshell"
+    ],
+    "created_at": "2026-10-21",
+    "ioc": [
+        "http://137.131.233.62:443/shell-beacon",
+        "137.131.233.62"
+    ],
+    "references": [],
+    "description": "In specific environments, package starts a reverse shell during installation."
+}
