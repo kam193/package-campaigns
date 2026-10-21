@@ -1,0 +1,33 @@
+{
+    "name": "2026-10-voice-synthesis-profiles",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "other",
+        "remote_script"
+    ],
+    "packages": [
+        "aurenatts",
+        "batchspar",
+        "brummatts",
+        "codecraze",
+        "crenelatts",
+        "dictanovaasr",
+        "grommatts",
+        "melcuratts",
+        "orchestril",
+        "phonoviatts",
+        "prosodinetts",
+        "quillonatts",
+        "shellgrip",
+        "solivoxtts",
+        "tessivatts",
+        "vellutts",
+        "voxilaratts",
+        "zennittts"
+    ],
+    "created_at": "2026-10-21",
+    "ioc": [],
+    "references": [],
+    "description": "This campaign consists of similar loader packages, which provide executing code from a given URL. While they do not contain the malicious payload and the usage remains unknown, they are clearly a coordinated campaign to place multiple deceptive ways to load malicious code."
+}

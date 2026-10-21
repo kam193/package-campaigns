@@ -1,0 +1,10 @@
+{
+    "name": "brummatts",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-21T23:04:14.910364+00:00",
+    "campaign_data_modified_at": "2026-10-21T23:04:14.934410+00:00"
+}
