@@ -1,0 +1,18 @@
+{
+    "name": "2026-10-iterquarry",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "obfuscation",
+        "through_dependency"
+    ],
+    "packages": [
+        "iterquarry",
+        "libseal"
+    ],
+    "created_at": "2026-10-21",
+    "ioc": [],
+    "references": [],
+    "description": "In this campaign, one package (iterquarry) holds an encrypted payload, while another one (libseal) provides algorithms to decrypt and execute it. In earlier versions, the code used an embedded key and the payload was contacting a Discord bot. Starting with iterquarry 2.2.0, the key to the encrypted payload is not embedded and the payload remains unknown."
+}
