@@ -22,7 +22,8 @@
     "created_at": "2026-10-20",
     "ioc": [
         "https://c2-worker.crawlnet-claim.workers.dev/dl/pyupd",
-        "c2-worker.crawlnet-claim.workers.dev"
+        "c2-worker.crawlnet-claim.workers.dev",
+        "https://c2-worker.crawlnet-claim.workers.dev/dl/macupd"
     ],
     "references": [
         "https://www.virustotal.com/gui/file/e6d96b5500b232bea67f6f9046cfbc22d29a515c42d2af9523a15ebe8a7c4ab7/"
