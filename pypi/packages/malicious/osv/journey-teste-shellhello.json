@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-10-journey-test-helloshell/journey-teste-shellhello",
     "published": "2026-10-22T21:16:34.868970+00:00",
-    "modified": "2026-10-22T21:16:34.904411+00:00",
+    "modified": "2026-10-22T21:38:11.544626+00:00",
     "summary": "Malicious code in journey-teste-shellhello (PyPI)",
     "details": "In specific environments, package starts a reverse shell during installation.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-journey-test-helloshell\n\n\nReasons (based on the campaign):\n\n\n - The package contains code to create a reverse shell, allowing an attacker to execute any commands on the victim's machine.\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - targetted-attack\n\n",
     "affected": [
