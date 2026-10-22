@@ -1,0 +1,10 @@
+{
+    "name": "voxweaver",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-22T00:30:04.141550+00:00",
+    "campaign_data_modified_at": "2026-10-22T00:35:09.071643+00:00"
+}

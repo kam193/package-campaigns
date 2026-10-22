@@ -1,0 +1,10 @@
+{
+    "name": "voicekit",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-22T00:33:57.360943+00:00",
+    "campaign_data_modified_at": "2026-10-22T00:33:57.385616+00:00"
+}
