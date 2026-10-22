@@ -8,6 +8,8 @@
         "typosquatting"
     ],
     "packages": [
+        "1h1",
+        "aanthropic",
         "debbug",
         "deebug",
         "semer",
