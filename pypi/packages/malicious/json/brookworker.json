@@ -1,0 +1,10 @@
+{
+    "name": "brookworker",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-23T15:53:10.211825+00:00",
+    "campaign_data_modified_at": "2026-10-23T15:53:10.238156+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "reedworker",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-23T16:04:13.357733+00:00",
+    "campaign_data_modified_at": "2026-10-23T16:04:13.391202+00:00"
+}
