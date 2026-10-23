@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-10-proxyrubika/onsokets",
+    "published": "2026-10-23T12:42:59.898867+00:00",
+    "modified": "2026-10-23T12:42:59.934310+00:00",
+    "summary": "Malicious code in onsokets (PyPI)",
+    "details": "The package contains code for automated files exfiltration.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-10-proxyrubika\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - target:android\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "onsokets",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.1.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/onsokets"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
