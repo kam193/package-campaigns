@@ -41,11 +41,12 @@ _Campaign information may not always be 100% accurate for every related package.
 ## Look up in other services
 
 <div class="annotate" markdown>
-* Check metadata in [:material-open-in-new: pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ package["name"][0] }}/{{ package["name"][1] }}/{{ package["name"] }}.json) (1)
-* Search for the package in [ :material-open-in-new: deps.dev](https://deps.dev/pypi/{{ package["name"] }})(2)
-* Search for the package in [ :material-open-in-new: socket.dev](https://socket.dev/pypi/package/{{ package["name"] }}) (3)
-* Search for the package in [ :material-open-in-new: secure.software](https://secure.software/pypi/packages/{{ package["name"] }}) (4)
-* Search for the package in [ :material-open-in-new: Snyk Advisor](https://snyk.io/advisor/python/{{ package["name"] }}) (5)
+* Check metadata in [:material-open-in-new: pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ package["name"][0] }}/{{ package["name"][1] }}/{{ package["name"] }}.json){ target="_blank" rel="noopener" } (1)
+* Search for the package in [ :material-open-in-new: deps.dev](https://deps.dev/pypi/{{ package["name"] }}){ target="_blank" rel="noopener" } (2)
+* Search for the package in [ :material-open-in-new: socket.dev](https://socket.dev/pypi/package/{{ package["name"] }}){ target="_blank" rel="noopener" } (3)
+* Search for the package in [ :material-open-in-new: secure.software](https://secure.software/pypi/packages/{{ package["name"] }}){ target="_blank" rel="noopener" } (4)
+* Search for the package in [ :material-open-in-new: Snyk DB](https://security.snyk.io/package/pip/{{ package["name"] }}){ target="_blank" rel="noopener" } (5)
+* Search for the package in [ :material-open-in-new: Aikido](https://app.aikido.dev/reports/malware/software-supply-chain-attacks?search={{ package["name"] }}&ecosystem=pypi){ target="_blank" rel="noopener" } (6)
 </div>
 
 1. May not be available. See more in [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repository.
@@ -53,3 +54,4 @@ _Campaign information may not always be 100% accurate for every related package.
 3. Service from Socket.dev, a cybersecurity company.
 4. Spectra Assure Community, a service from ReversingLabs, a cybersecurity company.
 5. Service from Snyk, a cybersecurity company.
+6. Service from Aikido Security, a cybersecurity company. May require login.

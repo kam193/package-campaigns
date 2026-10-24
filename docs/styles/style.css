@@ -2,3 +2,13 @@
     font-size: 70%;
     padding: 0.25em 0.5em;
 }
+
+[data-md-color-primary=orange] {
+    --md-primary-fg-color: #b37519;
+    --md-primary-fg-color--light: #b37519;
+    --md-primary-fg-color--dark: #af6000;
+}
+
+[data-md-color-primary=orange]:not([data-md-color-scheme=slate]) {
+    --md-typeset-a-color: #a16100;
+}

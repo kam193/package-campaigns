@@ -140,5 +140,20 @@
     "abuses-pth": {
         "theme": "warning",
         "description": "The package uses `.pth` files, `sitecustomize` or `usercustomize` modules to execute malicious code during Python startup, even without importing the package code manually."
-    }
+    },
+    "abusing-3rd-api": {},
+    "spyware-like": {},
+    "persistence": {},
+    "targetted-attack": {},
+    "c2-in-blockchain": {},
+    "data-stored-in-dns": {},
+    "geo-restricted": {},
+    "compromised-package": {},
+    "exploited-ci-vulnerability": {},
+    "ransomware": {},
+    "uses:IPFS": {},
+    "network-scan": {},
+    "worm": {},
+    "custom-crypto": {},
+    "data-from-blockchain": {}
 }

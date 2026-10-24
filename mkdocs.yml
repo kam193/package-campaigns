@@ -8,11 +8,14 @@ copyright: |
 
 theme:
   name: material
+  variant: modern
   custom_dir: overrides
+  favicon: assets/favicon.svg
   icon:
     logo: material/package-variant-closed-remove
   features:
     - navigation.indexes
+    - navigation.prune
     - navigation.top
     - search.suggest
     - search.highlight
@@ -31,6 +34,10 @@ plugins:
   - search
   - tags
   - awesome-nav
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
 
 extra:
   social:
@@ -51,10 +58,9 @@ markdown_extensions:
       title: On this page
   - attr_list
   - md_in_html
-  - tables
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:zensical.extensions.emoji.twemoji
+      emoji_generator: !!python/name:zensical.extensions.emoji.to_svg
 
 extra_css:
   - styles/style.css

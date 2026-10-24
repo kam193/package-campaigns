@@ -1,0 +1,6 @@
+rules:
+  forbidden-uses:
+    config:
+      allow:
+        - actions/*
+        - zizmorcore/*
