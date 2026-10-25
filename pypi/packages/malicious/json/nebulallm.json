@@ -1,0 +1,10 @@
+{
+    "name": "nebulallm",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-nebulallm",
+    "affected_versions": [
+        "1.4.3"
+    ],
+    "campaign_assigned_at": "2026-10-25T20:15:01.484876+00:00",
+    "campaign_data_modified_at": "2026-10-25T20:15:01.505195+00:00"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "2026-10-nebulallm",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "override_install",
+        "remote_executable",
+        "remote_script",
+        "typosquatting"
+    ],
+    "packages": [
+        "nebulallm"
+    ],
+    "created_at": "2026-10-25",
+    "ioc": [
+        "http://akinomoreno.pythonanywhere.com/krat.dll",
+        "https://akinomoreno.pythonanywhere.com/faye",
+        "akinomoreno.pythonanywhere.com",
+        "45.38.20.86"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/ccdd8b191818222bfbbe20816d7448b0f42745924e122849b2e06c3511a76c7d/detection",
+        "https://tria.ge/261025-yy5yvshy4v"
+    ],
+    "description": "During installation package first downloads a JScript script, which then downloads the next malicious DLL."
+}
