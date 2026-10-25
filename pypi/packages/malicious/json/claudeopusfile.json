@@ -1,0 +1,11 @@
+{
+    "name": "claudeopusfile",
+    "ecosystem": "pypi",
+    "campaign": "2026-09-donutautosellsrc",
+    "affected_versions": [
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-10-25T23:35:59.169209+00:00",
+    "campaign_data_modified_at": "2026-10-25T23:37:39.662422+00:00"
+}

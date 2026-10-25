@@ -51,7 +51,10 @@
             ],
             "urls": [
                 "https://thisisafalsepositive.st/cdn/v2/9f4e7a2c1b8d.png",
-                "https://thisisafalsepositive.st/cdn/v2/promotion/manifest.json"
+                "https://thisisafalsepositive.st/cdn/v2/promotion/manifest.json",
+                "https://thisisafalsepositive.st/shard/submitData",
+                "https://thisisafalsepositive.st/shard/submitLogs",
+                "https://thisisafalsepositive.st/shard/submitFile"
             ]
         }
     }
