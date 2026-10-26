@@ -1,0 +1,10 @@
+{
+    "name": "dictmerge-lite",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-dictmerge-lite",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-26T00:00:52.807841+00:00",
+    "campaign_data_modified_at": "2026-10-26T00:00:52.829727+00:00"
+}
