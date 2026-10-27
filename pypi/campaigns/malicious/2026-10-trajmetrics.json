@@ -1,0 +1,20 @@
+{
+    "name": "2026-10-trajmetrics",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "native-extension"
+    ],
+    "packages": [
+        "trajmetrics"
+    ],
+    "created_at": "2026-10-27",
+    "ioc": [
+        "https://109-94-169-196.sslip.io:8443"
+    ],
+    "references": [
+        "https://github.com/hehesama527/data-analising"
+    ],
+    "description": "When starting as a module, the package scans the whole system and exfiltrates selected files by type. If following the README instruction, it starts a background job constantly monitoring the system and exfiltrating files as soon as they change."
+}

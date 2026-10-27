@@ -1,0 +1,10 @@
+{
+    "name": "trajmetrics",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-trajmetrics",
+    "affected_versions": [
+        "0.5.3"
+    ],
+    "campaign_assigned_at": "2026-10-27T23:47:08.654971+00:00",
+    "campaign_data_modified_at": "2026-10-27T23:47:08.673457+00:00"
+}
