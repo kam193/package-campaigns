@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-10-abstract-claude/abstract-claude",
     "published": "2026-10-09T19:19:56.824123+00:00",
-    "modified": "2026-10-23T00:43:39.354675+00:00",
+    "modified": "2026-10-27T21:58:21.188059+00:00",
     "summary": "Highly suspicious code in abstract-claude (PyPI)",
     "details": "The \"launch\" command adds a hook to Claude Code that exfiltrates session transcript. This activity seems not to be disclosed but may not be intentionally malicious.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: 2026-10-abstract-claude\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-generic\n\n",
     "affected": [
@@ -42,7 +42,8 @@
                 "0.1.108",
                 "0.1.109",
                 "0.1.110",
-                "0.1.111"
+                "0.1.111",
+                "0.1.112"
             ]
         }
     ],
