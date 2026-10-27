@@ -1,0 +1,17 @@
+{
+    "name": "2026-10-h13t0ry-hello-demo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "revshell"
+    ],
+    "packages": [
+        "h13t0ry-hello-demo"
+    ],
+    "created_at": "2026-10-27",
+    "ioc": [
+        "115.190.210.22"
+    ],
+    "references": [],
+    "description": "During import package starts a reverse shell"
+}
