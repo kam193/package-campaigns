@@ -1,0 +1,10 @@
+{
+    "name": "numprint",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-numprint",
+    "affected_versions": [
+        "1.2.0"
+    ],
+    "campaign_assigned_at": "2026-10-27T16:48:48.513183+00:00",
+    "campaign_data_modified_at": "2026-10-27T16:48:48.533873+00:00"
+}

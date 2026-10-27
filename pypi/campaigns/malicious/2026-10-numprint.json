@@ -1,0 +1,19 @@
+{
+    "name": "2026-10-numprint",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "override_install",
+        "remote_commands"
+    ],
+    "packages": [
+        "numprint"
+    ],
+    "created_at": "2026-10-27",
+    "ioc": [
+        "https://api.github.com/gists/3775fd9235aa6ef29e96eb96274a0e34"
+    ],
+    "references": [],
+    "description": "During installation the package starts a background process executing commands provided by the attacker. The C2 communication happens through a GitHub Gist. "
+}
