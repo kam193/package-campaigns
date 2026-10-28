@@ -1,0 +1,11 @@
+{
+    "name": "poc-revshell",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-research-only-local",
+    "description": "Package contains a reverse shell, but it connects to a localhost only. ",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-10-28T16:46:41.905698+00:00",
+    "campaign_data_modified_at": "2026-10-28T16:46:41.922592+00:00"
+}
