@@ -46,7 +46,8 @@
             "domains": [
                 "dothebest.store",
                 "searchbox.info",
-                "updatenet.work"
+                "updatenet.work",
+                "kmizar.com"
             ],
             "urls": [
                 "https://dothebest.store/allow/inform.php",
@@ -54,7 +55,9 @@
                 "https://searchbox.info/prefer.php",
                 "https://updatenet.work/settings/history.php",
                 "https://dothebest.store/allow",
-                "https://dothebest.store/k/bag.php"
+                "https://dothebest.store/k/bag.php",
+                "https://dothebest.store/microsoft/helper.php",
+                "https://kmizar.com/prefer.php"
             ]
         }
     }
