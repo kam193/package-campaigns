@@ -1,0 +1,17 @@
+{
+    "name": "2026-10-test-01-rafamarrara-learning-dc",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "backdoor",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "test-01-rafamarrara-learning-dc",
+        "twitter-request-diagnostics"
+    ],
+    "created_at": "2026-10-29",
+    "ioc": [],
+    "references": [],
+    "description": "Package offers a middleware adding allegedly diagnostic endpoint to a web app. Besides allowing for env variable exfiltration, it also contains a hidden functionality allowing executing sent commands."
+}

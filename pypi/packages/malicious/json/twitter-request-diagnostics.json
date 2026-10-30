@@ -1,0 +1,10 @@
+{
+    "name": "twitter-request-diagnostics",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-test-01-rafamarrara-learning-dc",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-10-29T23:44:17.210423+00:00",
+    "campaign_data_modified_at": "2026-10-29T23:44:17.225451+00:00"
+}
