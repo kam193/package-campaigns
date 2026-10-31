@@ -1,0 +1,13 @@
+{
+    "name": "skills-analyzer",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-is-it-ai",
+    "description": "In this campaign, specific versions of involved affected packages hide malicious actions. The malicious code is hidden in specific versions of a dependency (is-it-ai), intentionally pinned by specific versions of dependent packages. All package versions were uploaded with malicious intention; the ones without malicious references are clearly intendent only to hide a cover for the rest. When triggered, the malicious action fingerprints the environment and contacts the remote server. If it responds with an URL, it will be downloaded and executed.\n\nThe malicious code is in 0.1.1, other releases are just to cover it.",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2"
+    ],
+    "campaign_assigned_at": "2026-10-31T12:55:07.179467+00:00",
+    "campaign_data_modified_at": "2026-10-31T12:55:07.206003+00:00"
+}

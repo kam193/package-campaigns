@@ -1,0 +1,22 @@
+{
+    "name": "2026-10-is-it-ai",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "remote_executable",
+        "targetted-attack",
+        "through_dependency"
+    ],
+    "packages": [
+        "is-it-ai",
+        "skills-analyzer"
+    ],
+    "created_at": "2026-10-31",
+    "ioc": [
+        "cdn-9zp0pi12ck0dmfig-3ozmpyh7ja-uc.a.run.app",
+        "https://cdn-9zp0pi12ck0dmfig-3ozmpyh7ja-uc.a.run.app/v1/session/info"
+    ],
+    "references": [],
+    "description": "In this campaign, specific versions of involved affected packages hide malicious actions. The malicious code is hidden in specific versions of a dependency (is-it-ai), intentionally pinned by specific versions of dependent packages. All package versions were uploaded with malicious intention; the ones without malicious references are clearly intendent only to hide a cover for the rest. When triggered, the malicious action fingerprints the environment and contacts the remote server. If it responds with an URL, it will be downloaded and executed."
+}
