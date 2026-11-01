@@ -1,0 +1,10 @@
+{
+    "name": "yy22ff",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-risky-hacking-tools",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-01T00:31:03.625163+00:00",
+    "campaign_data_modified_at": "2026-11-01T00:31:03.678494+00:00"
+}
