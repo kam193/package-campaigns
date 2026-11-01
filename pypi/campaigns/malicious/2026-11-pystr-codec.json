@@ -1,0 +1,27 @@
+{
+    "name": "2026-11-pystr-codec",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "backdoor",
+        "destructive-actions",
+        "exfiltration_credentials",
+        "infostealer",
+        "obfuscation",
+        "persistence",
+        "worm"
+    ],
+    "packages": [
+        "pystr-codec"
+    ],
+    "created_at": "2026-11-01",
+    "ioc": [
+        "https://paleasbest.top/v1/api",
+        "paleasbest.top"
+    ],
+    "references": [
+        "https://safedep.io/testmetest-npm-worm-miasma-variant/"
+    ],
+    "description": "Package embeds a malicious PTH file that on every Python startup executes obfuscated JavaScript code, using a Bun engine. It then exfiltrates credentials to a public Github repository, establishes persistence awaiting remote commands, attempts spreading using discovered credentials as well as periodically checks if discovered credentials are valid. Once they are invalidated, it performs destructive actions on the local machine. It seems to be part of the Miasma-family worm (also known under testmetest)."
+}
