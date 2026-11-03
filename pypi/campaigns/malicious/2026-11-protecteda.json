@@ -1,0 +1,19 @@
+{
+    "name": "2026-11-protecteda",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "infostealer",
+        "malware"
+    ],
+    "packages": [
+        "protecteda"
+    ],
+    "created_at": "2026-11-03",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/2444b8efc91ad48ae8bc21a5492ca99fe0661508b04f5c346d562f580015ca2c/detection",
+        "https://tria.ge/261103-2nalrazz3k"
+    ],
+    "description": "When started as a module, package runs an embedded executable identified as an infostealer. "
+}

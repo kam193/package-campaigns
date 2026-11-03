@@ -1,0 +1,12 @@
+{
+    "name": "ln9qw38745g",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-filipt",
+    "description": "Package ships an embedded executable identified as malware by AV vendors, and is related to a previously discovered package that after a few releases swapt benign exe with a malicious RAT.",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-11-03T22:54:18.841457+00:00",
+    "campaign_data_modified_at": "2026-11-03T22:54:18.868229+00:00"
+}

@@ -39,6 +39,10 @@
             "url": "https://www.virustotal.com/gui/file/c8ecde6b3840ab32ceace277f7fd1bfc63eb87344ab9147651e3c4c11dbbac93/detection"
         },
         {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/f511eff8b0cec4854856e3686a3eded0decf5fa3b04d585f9f2e951b7d13c295/detection"
+        },
+        {
             "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/filipt"
         }
