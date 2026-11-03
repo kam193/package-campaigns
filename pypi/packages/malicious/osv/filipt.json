@@ -4,7 +4,7 @@
     "published": "2026-11-03T19:28:17.098003+00:00",
     "modified": "2026-11-03T19:28:17.117194+00:00",
     "summary": "Malicious code in filipt (PyPI)",
-    "details": "The package ships a malicious executable started during the building of a wheel/installation. It has been identified as Overlord RAT.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-filipt\n\n\nReasons (based on the campaign):\n\n\n - malware\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - rat\n\n",
+    "details": "The package ships a malicious executable started during the building of a wheel/installation. It has been identified as malicious by multiple vendors.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-filipt\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - malware\n\n\n - rat\n\n",
     "affected": [
         {
             "package": {
@@ -33,6 +33,10 @@
         {
             "type": "EVIDENCE",
             "url": "https://tria.ge/261103-xxcp9aez3r"
+        },
+        {
+            "type": "EVIDENCE",
+            "url": "https://www.virustotal.com/gui/file/c8ecde6b3840ab32ceace277f7fd1bfc63eb87344ab9147651e3c4c11dbbac93/detection"
         },
         {
             "type": "WEB",

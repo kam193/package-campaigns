@@ -8,14 +8,16 @@
         "override_install"
     ],
     "packages": [
-        "filipt"
+        "filipt",
+        "zyto"
     ],
     "created_at": "2026-11-03",
     "ioc": [],
     "references": [
         "https://www.virustotal.com/gui/file/e5a585e03e1725d5030fd4854805933d53aa86cfbbb0b3808dffcc63782ddf38/detection",
         "https://www.virustotal.com/gui/file/1a89eb45ed45780f16499b0f87ff3dd17db4be0988f7befbfa88224d83fccae2/detection",
-        "https://tria.ge/261103-xxcp9aez3r"
+        "https://tria.ge/261103-xxcp9aez3r",
+        "https://www.virustotal.com/gui/file/c8ecde6b3840ab32ceace277f7fd1bfc63eb87344ab9147651e3c4c11dbbac93/detection"
     ],
-    "description": "The package ships a malicious executable started during the building of a wheel/installation. It has been identified as Overlord RAT."
+    "description": "The package ships a malicious executable started during the building of a wheel/installation. It has been identified as malicious by multiple vendors."
 }

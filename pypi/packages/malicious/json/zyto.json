@@ -1,0 +1,14 @@
+{
+    "name": "zyto",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-filipt",
+    "description": "The package ships an executable started during the building of a wheel/installation. It has been identified as malicious by some AV vendors, but primarily it is a preparation to embed a RAT as in another campaign's package.",
+    "affected_versions": [
+        "0.2.0",
+        "0.2.1",
+        "0.2.2",
+        "0.2.3"
+    ],
+    "campaign_assigned_at": "2026-11-03T21:46:44.482938+00:00",
+    "campaign_data_modified_at": "2026-11-03T21:46:44.508623+00:00"
+}
