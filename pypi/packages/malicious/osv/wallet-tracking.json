@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2025-11-wallet-tracking/wallet-tracking",
+    "published": "2025-11-16T16:22:41.638865+00:00",
+    "modified": "2025-11-24T06:00:27.146186+00:00",
+    "summary": "Malicious code in wallet-tracking (PyPI)",
+    "details": "Package is prepared to send notifications with sensitive data. Update 2026-11-03: reclassified as malicious. The package is used as a dependency in a GitHub project to exfiltrate users' private keys https://github.com/miracle709/solana-copytrading-telegram-bot/blob/775b731d39abe5655379a5d27b0786c3952d014f/handlers/telegram_handlers.py#L543\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2025-11-wallet-tracking\n\n\nReasons (based on the campaign):\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n\n - The malicious code is intentionally included in a dependency of the package\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "wallet-tracking",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://github.com/miracle709/solana-copytrading-telegram-bot"
+        },
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/wallet-tracking"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

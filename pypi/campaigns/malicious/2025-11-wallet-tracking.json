@@ -1,0 +1,19 @@
+{
+    "name": "2025-11-wallet-tracking",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_crypto",
+        "through_dependency"
+    ],
+    "packages": [
+        "wallet-tracking"
+    ],
+    "created_at": "2025-11-16",
+    "ioc": [],
+    "references": [
+        "https://github.com/miracle709/solana-copytrading-telegram-bot"
+    ],
+    "description": "Package is prepared to send notifications with sensitive data. Update 2026-11-03: reclassified as malicious. The package is used as a dependency in a GitHub project to exfiltrate users' private keys https://github.com/miracle709/solana-copytrading-telegram-bot/blob/775b731d39abe5655379a5d27b0786c3952d014f/handlers/telegram_handlers.py#L543"
+}
