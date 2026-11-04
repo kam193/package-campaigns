@@ -1,0 +1,10 @@
+{
+    "name": "extera-runtime",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-extera-plugin-runtime",
+    "affected_versions": [
+        "1.1.0"
+    ],
+    "campaign_assigned_at": "2026-11-04T17:18:25.632165+00:00",
+    "campaign_data_modified_at": "2026-11-04T17:18:25.657325+00:00"
+}
