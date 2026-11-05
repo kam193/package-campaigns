@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-local-poc/crowdsentinel-mcp-server-es7",
     "published": "2026-11-05T11:51:54.544978+00:00",
-    "modified": "2026-11-05T11:51:54.571045+00:00",
+    "modified": "2026-11-05T12:13:56.629236+00:00",
     "summary": "Spam code in crowdsentinel-mcp-server-es7 (PyPI)",
     "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
     "affected": [
