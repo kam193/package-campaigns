@@ -4,7 +4,7 @@
     "published": "2026-09-15T22:41:37.041383+00:00",
     "modified": "2026-09-15T22:41:37.058870+00:00",
     "summary": "Spam code in anduril-lattice-sdk-bufbuild-py (PyPI)",
-    "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - dependency-confusion\n\n\n - typosquatting\n\n",
+    "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - dependency-confusion\n\n",
     "affected": [
         {
             "package": {
