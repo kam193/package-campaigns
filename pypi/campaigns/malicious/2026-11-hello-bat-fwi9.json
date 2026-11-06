@@ -1,0 +1,22 @@
+{
+    "name": "2026-11-hello-bat-fwi9",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "abuses-pth",
+        "malware",
+        "obfuscation"
+    ],
+    "packages": [
+        "hello-bat-fwi9"
+    ],
+    "created_at": "2026-11-06",
+    "ioc": [
+        "r931vmql.free.tryportwarp.cc"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/cac4edbef72bbcb23fe55258b4f4a941235a24bc688f701afbbb125370451223/detection"
+    ],
+    "description": "The package delivers an obfuscated .bat file delivering a RAT, with the help of its own Python runtime and PTH files. The code requires manually triggering the malicious action. This is most likely a continuation of the campaign 2026-11-filipt."
+}
