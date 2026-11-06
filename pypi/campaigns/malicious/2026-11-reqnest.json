@@ -1,0 +1,20 @@
+{
+    "name": "2026-11-reqnest",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "target:telegram",
+        "typosquatting"
+    ],
+    "packages": [
+        "ajfhiuqhfqgwerhuqnfqh",
+        "fhqiouhq",
+        "reqnest",
+        "reqnests"
+    ],
+    "created_at": "2026-11-06",
+    "ioc": [],
+    "references": [],
+    "description": "During import, package exfiltrates sensitive Telegram files to a remote location."
+}
