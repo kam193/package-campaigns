@@ -1,0 +1,16 @@
+{
+    "name": "2026-11-gcp-log-poc",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "gcp-log-poc"
+    ],
+    "created_at": "2026-11-07",
+    "ioc": [],
+    "references": [],
+    "description": "During import, package exfiltrates information about the environment, including potentially sensitive environment variables."
+}
