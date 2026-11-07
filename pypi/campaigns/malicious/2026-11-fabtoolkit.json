@@ -1,0 +1,21 @@
+{
+    "name": "2026-11-fabtoolkit",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "exfiltration_generic",
+        "remote_commands",
+        "revshell"
+    ],
+    "packages": [
+        "fabdeploycheck",
+        "fabtoolkit"
+    ],
+    "created_at": "2026-11-07",
+    "ioc": [
+        "https://transfer.archivete.am/H2Uxm/fabdeploycheck-config.json"
+    ],
+    "references": [],
+    "description": "Package hides code that starts malicious actions: it downloads a C2 configuration and executes commands from it. It supports exfiltrating files, running commands, and starting a reverse shell."
+}

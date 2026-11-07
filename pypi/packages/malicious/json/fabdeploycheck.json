@@ -1,0 +1,10 @@
+{
+    "name": "fabdeploycheck",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-fabtoolkit",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-11-07T23:28:38.084954+00:00",
+    "campaign_data_modified_at": "2026-11-07T23:28:38.111587+00:00"
+}
