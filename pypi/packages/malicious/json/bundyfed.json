@@ -1,0 +1,11 @@
+{
+    "name": "bundyfed",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-bundyfed",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-11-08T21:22:06.119185+00:00",
+    "campaign_data_modified_at": "2026-11-08T21:22:06.144275+00:00"
+}

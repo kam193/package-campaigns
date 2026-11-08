@@ -1,0 +1,20 @@
+{
+    "name": "2026-11-bundyfed",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "override_install",
+        "remote_executable"
+    ],
+    "packages": [
+        "bundyfed"
+    ],
+    "created_at": "2026-11-08",
+    "ioc": [
+        "veled.com.tr"
+    ],
+    "references": [
+        "https://tria.ge/261108-zrct6s1w2p"
+    ],
+    "description": "During installation, the package downloads a malicious executable holding an infostealer. "
+}
