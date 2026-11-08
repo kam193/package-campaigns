@@ -24,6 +24,7 @@
         "dabrius-mac-os",
         "depconfusiontest",
         "dion",
+        "dummypy-itsec",
         "elastic-agent-connectors",
         "elastic-evals",
         "elastic-ingest",
