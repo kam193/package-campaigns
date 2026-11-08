@@ -1,0 +1,19 @@
+{
+    "name": "2026-11-parseyaml",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_script",
+        "through_dependency"
+    ],
+    "packages": [
+        "extrahtml",
+        "parseyaml"
+    ],
+    "created_at": "2026-11-08",
+    "ioc": [
+        "https://plainraw.com/raw/99b69bda4246"
+    ],
+    "references": [],
+    "description": "In this campaign, remote code is executed via a dependency pretending to be a YAML loader but embedding a special loader executing code from a provided file. During analysis, the code was just a stub."
+}
