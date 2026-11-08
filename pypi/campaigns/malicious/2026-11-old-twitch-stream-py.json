@@ -1,0 +1,22 @@
+{
+    "name": "2026-11-old-twitch-stream-py",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "clones_real_package",
+        "obfuscation",
+        "remote_script"
+    ],
+    "packages": [
+        "twitch-stream-py"
+    ],
+    "created_at": "2026-11-07",
+    "ioc": [
+        "https://darkseagreenthornygraduate.wekimi5565.repl.co/script.py"
+    ],
+    "references": [
+        "https://github.com/ossf/malicious-packages/pull/1749"
+    ],
+    "description": "Clone of a legitimate package with injected code that downloads and executes a script from a remote location. During analysis, the remote code was no longer accessible. The campaign was originally discovered by Threx-code."
+}

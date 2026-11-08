@@ -1,0 +1,10 @@
+{
+    "name": "pyuserfox",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-old-pyuserfox",
+    "affected_versions": [
+        "0.0.2"
+    ],
+    "campaign_assigned_at": "2026-11-07T23:44:24.821891+00:00",
+    "campaign_data_modified_at": "2026-11-07T23:44:24.849195+00:00"
+}

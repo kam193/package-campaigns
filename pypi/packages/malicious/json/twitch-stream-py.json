@@ -1,0 +1,21 @@
+{
+    "name": "twitch-stream-py",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-old-twitch-stream-py",
+    "affected_versions": [
+        "1.0.2rc0",
+        "1.0.3rc0",
+        "1.0.4rc0",
+        "1.0.4rc2",
+        "1.0.5rc2",
+        "1.0.6",
+        "1.0.7",
+        "1.0.8",
+        "1.0.9",
+        "1.1.0",
+        "1.1.1",
+        "1.1.2"
+    ],
+    "campaign_assigned_at": "2026-11-07T23:53:30.415666+00:00",
+    "campaign_data_modified_at": "2026-11-07T23:53:30.440096+00:00"
+}

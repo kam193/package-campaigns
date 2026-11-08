@@ -1,0 +1,20 @@
+{
+    "name": "2026-11-old-pyuserfox",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "remote_script"
+    ],
+    "packages": [
+        "pyuserfox",
+        "pyuserox"
+    ],
+    "created_at": "2026-11-07",
+    "ioc": [
+        "https://dark.devsecwise.com/xmnp.sh"
+    ],
+    "references": [
+        "https://github.com/ossf/malicious-packages/pull/1749"
+    ],
+    "description": "During import, package silently download and executes remote code. There is no other action. During analysis, the remote code was no longer accessible. The campaign was originally discovered by Threx-code."
+}
