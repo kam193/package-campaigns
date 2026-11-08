@@ -1,0 +1,13 @@
+{
+    "name": "supercolor-tui",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-chromacli",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.1",
+        "0.1.2",
+        "0.1.4"
+    ],
+    "campaign_assigned_at": "2026-11-08T11:31:04.431033+00:00",
+    "campaign_data_modified_at": "2026-11-08T11:33:17.456393+00:00"
+}
