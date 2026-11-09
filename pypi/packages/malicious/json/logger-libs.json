@@ -1,0 +1,15 @@
+{
+    "name": "logger-libs",
+    "ecosystem": "pypi",
+    "campaign": "2025-11-spellcheckers",
+    "description": "In this new incarnation of the campaign, the payload is spread between multiple files and reconstructed in runtime. It then downloads and executes malicious code from a remote location. ",
+    "affected_versions": [
+        "0.4.1",
+        "0.4.2",
+        "0.4.3",
+        "0.4.5",
+        "0.4.6"
+    ],
+    "campaign_assigned_at": "2026-11-09T08:18:27.091323+00:00",
+    "campaign_data_modified_at": "2026-11-09T08:18:27.126076+00:00"
+}
