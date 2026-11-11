@@ -1,0 +1,16 @@
+{
+    "name": "braselfeb",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-other-risky",
+    "affected_versions": [
+        "1.0.1",
+        "1.0.2",
+        "1.0.3",
+        "1.0.4",
+        "1.1.0",
+        "1.1.2",
+        "2.0"
+    ],
+    "campaign_assigned_at": "2026-11-11T20:31:40.567577+00:00",
+    "campaign_data_modified_at": "2026-11-11T20:31:40.584197+00:00"
+}

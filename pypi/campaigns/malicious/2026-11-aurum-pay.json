@@ -1,0 +1,29 @@
+{
+    "name": "2026-11-aurum-pay",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "action-hidden-in-lib-usage",
+        "obfuscation",
+        "persistence",
+        "remote_executable",
+        "remote_script"
+    ],
+    "packages": [
+        "aurum-pay"
+    ],
+    "created_at": "2026-11-11",
+    "ioc": [
+        "aurum-casino.com",
+        "https://aurum-casino.com/sdk/ping",
+        "https://www.dropbox.com/scl/fi/ovn8wxlle1eev6fapq8kv/rcmd-agent?rlkey=mzlx4zi0peodkv8vwdv4tr0v7&st=vv80smtk&dl=1",
+        "https://www.dropbox.com/scl/fi/matkw0atxpw24psgn19b8/py.zip?rlkey=w751am7kt5lwi0tmqubj3ozve&st=yafdtm4z&dl=1",
+        "http://209.99.188.130:8447",
+        "209.99.188.130"
+    ],
+    "references": [
+        "https://www.virustotal.com/gui/file/c119af2c72f0e68556fc0c7ca0c858845a04b5f46ebb31b614414a5bf470e414/detection"
+    ],
+    "description": "When using the library, it silently executes remote commands and installs the next-stage payload. On linux, the payload is a binary. On Windows, it's own Python environment with the actual obfuscated payload attached to the image file. Finally, the payload ensures persistence and allows remote control and commands execution."
+}
