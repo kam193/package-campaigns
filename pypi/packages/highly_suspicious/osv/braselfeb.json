@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/GENERIC-other-risky/braselfeb",
     "published": "2026-11-11T20:31:40.567577+00:00",
-    "modified": "2026-11-12T18:59:58.118894+00:00",
+    "modified": "2026-11-12T19:34:15.686099+00:00",
     "summary": "Highly suspicious code in braselfeb (PyPI)",
     "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
     "affected": [
@@ -21,7 +21,8 @@
                 "2.0",
                 "2.1",
                 "2.2",
-                "2.3"
+                "2.3",
+                "2.4"
             ]
         }
     ],
