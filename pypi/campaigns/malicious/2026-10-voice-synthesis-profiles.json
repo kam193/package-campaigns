@@ -9,6 +9,7 @@
     "packages": [
         "acoustichub",
         "acousticpack",
+        "acustoviasr",
         "asrdock",
         "asrloom",
         "audiokit",
