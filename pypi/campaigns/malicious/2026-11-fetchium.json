@@ -1,0 +1,22 @@
+{
+    "name": "2026-11-fetchium",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "malware",
+        "obfuscation",
+        "peristence_autorun",
+        "persistence",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "fetchium"
+    ],
+    "created_at": "2026-11-13",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/9ec3cecefe6abf353b8c6ba85dacd48afb8440c0855fb9060d7a5c6a832d6dc2/detection",
+        "https://tria.ge/261113-ancybsdz7x"
+    ],
+    "description": "During import package runs an embedded malicious executable."
+}
