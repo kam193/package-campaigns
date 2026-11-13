@@ -1,0 +1,26 @@
+{
+    "name": "2026-11-testing1345",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "override_install",
+        "remote_script"
+    ],
+    "packages": [
+        "testing1345"
+    ],
+    "created_at": "2026-11-13",
+    "ioc": [
+        "https://helper-exe.vercel.app/hello.bat",
+        "helper-exe.vercel.app",
+        "https://file.garden/autlsl_4glu4x2U5/c_b8a1b1.zip",
+        "https://file.garden/autlsl_4glu4x2U5/m_7cf722",
+        "https://pomf2.lain.la/f/qj4sh0sj.png"
+    ],
+    "references": [
+        "https://tria.ge/261113-wal5qset2s",
+        "https://www.virustotal.com/gui/file/ce97b675a86bfff5e73e218e8d9d17458857d2328b1b55acd87f644001ca865f/detection"
+    ],
+    "description": "During installation, the package downloads and executes a script from a remote location. The server delivers different payload versions, some of them being benign, and others containing next-stage installation. The final payload is a RAT."
+}
