@@ -1,0 +1,10 @@
+{
+    "name": "garvisometerui",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-11-13T01:24:55.845490+00:00",
+    "campaign_data_modified_at": "2026-11-13T01:24:55.862298+00:00"
+}
