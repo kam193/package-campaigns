@@ -1,0 +1,11 @@
+{
+    "name": "qap793gl4l",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-testing1345",
+    "description": "Continuation of a campaign executing remote code. During analysis of this package, the remote Github repository did not yet host the malicious code.",
+    "affected_versions": [
+        "0.1.1"
+    ],
+    "campaign_assigned_at": "2026-11-13T19:47:37.702011+00:00",
+    "campaign_data_modified_at": "2026-11-13T19:47:37.731285+00:00"
+}
