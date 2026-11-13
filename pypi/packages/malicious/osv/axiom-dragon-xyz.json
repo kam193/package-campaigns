@@ -1,0 +1,42 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-11-axiom-dragon-xyz/axiom-dragon-xyz",
+    "published": "2026-11-13T20:29:40.787792+00:00",
+    "modified": "2026-11-13T20:29:40.811338+00:00",
+    "summary": "Malicious code in axiom-dragon-xyz (PyPI)",
+    "details": "During installation package exfiltrates sensitive files used by cryptocurrency wallets and storing cloud credentials.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-axiom-dragon-xyz\n\n\nReasons (based on the campaign):\n\n\n - infostealer\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - exfiltration-crypto\n\n\n - exfiltration-credentials\n\n\n - obfuscation\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "axiom-dragon-xyz",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.4"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/axiom-dragon-xyz"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://discord.com/api/webhooks/1570872953443455097/oXZEvN0r58Yg_DfQb9DKHDs0S9dlaRaN8bLEU7LyTRlTsCzX7Ore8p-DyrtRq_n7lekK"
+            ]
+        }
+    }
+}

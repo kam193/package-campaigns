@@ -1,0 +1,21 @@
+{
+    "name": "2026-11-axiom-dragon-xyz",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "infostealer",
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "axiom-dragon-xyz"
+    ],
+    "created_at": "2026-11-13",
+    "ioc": [
+        "https://discord.com/api/webhooks/1570872953443455097/oXZEvN0r58Yg_DfQb9DKHDs0S9dlaRaN8bLEU7LyTRlTsCzX7Ore8p-DyrtRq_n7lekK"
+    ],
+    "references": [],
+    "description": "During installation package exfiltrates sensitive files used by cryptocurrency wallets and storing cloud credentials."
+}
