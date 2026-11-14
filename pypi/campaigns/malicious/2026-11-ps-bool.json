@@ -1,0 +1,18 @@
+{
+    "name": "2026-11-ps-bool",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "obfuscation",
+        "target:android",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "ps-bool"
+    ],
+    "created_at": "2026-11-14",
+    "ioc": [],
+    "references": [],
+    "description": "During import, obfuscated code exfiltrates photos and documents to a Telegram bot. It targets Android devices."
+}

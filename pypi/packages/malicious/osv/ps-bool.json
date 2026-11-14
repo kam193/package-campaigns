@@ -1,0 +1,39 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-11-ps-bool/ps-bool",
+    "published": "2026-11-14T15:28:36.214182+00:00",
+    "modified": "2026-11-14T15:29:58.760190+00:00",
+    "summary": "Malicious code in ps-bool (PyPI)",
+    "details": "During import, obfuscated code exfiltrates photos and documents to a Telegram bot. It targets Android devices.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-ps-bool\n\n\nReasons (based on the campaign):\n\n\n - files-exfiltration\n\n\n - obfuscation\n\n\n - uses-telegram-bot\n\n\n - target:android\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "ps-bool",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "0.2.0",
+                "0.2.1",
+                "0.2.3",
+                "0.2.4",
+                "0.2.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/ps-bool"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "ps-bool",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-ps-bool",
+    "affected_versions": [
+        "0.2.0",
+        "0.2.1",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5"
+    ],
+    "campaign_assigned_at": "2026-11-14T15:28:36.214182+00:00",
+    "campaign_data_modified_at": "2026-11-14T15:29:58.760190+00:00"
+}
