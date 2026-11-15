@@ -1,0 +1,10 @@
+{
+    "name": "gateio-v4",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-questionable-pentest",
+    "affected_versions": [
+        "99.99.1"
+    ],
+    "campaign_assigned_at": "2026-11-15T02:00:56.508666+00:00",
+    "campaign_data_modified_at": "2026-11-15T02:00:56.535096+00:00"
+}
