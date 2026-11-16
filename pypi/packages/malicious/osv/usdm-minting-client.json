@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-11-usdm-minting-client/usdm-minting-client",
     "published": "2026-11-16T09:21:14.233880+00:00",
-    "modified": "2026-11-16T09:21:14.591147+00:00",
+    "modified": "2026-11-16T09:33:18.743412+00:00",
     "summary": "Malicious code in usdm-minting-client (PyPI)",
     "details": "During installation the package exfiltrates credential files and environment variables, focusing on cryptocurrency- and cloud-related entries. The package seems to be targeting users of a package from GitHub (https://github.com/ethena-labs/usdm-minting-client) which has not been published to PyPI.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-usdm-minting-client\n\n\nReasons (based on the campaign):\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n\n - exfiltration-env-variables\n\n\n - crypto-related\n\n\n - exfiltration-crypto\n\n\n - exfiltration-credentials\n\n",
     "affected": [
@@ -34,5 +34,12 @@
             ],
             "type": "REPORTER"
         }
-    ]
+    ],
+    "database_specific": {
+        "iocs": {
+            "urls": [
+                "https://tag-pace-ham-stylus.trycloudflare.com/collect"
+            ]
+        }
+    }
 }

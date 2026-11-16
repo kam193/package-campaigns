@@ -6,11 +6,13 @@
         "revshell"
     ],
     "packages": [
-        "my-poc-sandbox"
+        "my-poc-sandbox",
+        "my-signature"
     ],
     "created_at": "2026-11-16",
     "ioc": [
-        "mcwxz-13-205-45-209.run.pinggy-free.link"
+        "mcwxz-13-205-45-209.run.pinggy-free.link",
+        "ahqbb-13-205-45-209.run.pinggy-free.link"
     ],
     "references": [],
     "description": "During import, the package attempts to start a reverse shell."

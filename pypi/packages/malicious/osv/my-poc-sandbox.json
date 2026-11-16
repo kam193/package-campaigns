@@ -37,7 +37,8 @@
     "database_specific": {
         "iocs": {
             "domains": [
-                "mcwxz-13-205-45-209.run.pinggy-free.link"
+                "mcwxz-13-205-45-209.run.pinggy-free.link",
+                "ahqbb-13-205-45-209.run.pinggy-free.link"
             ]
         }
     }
