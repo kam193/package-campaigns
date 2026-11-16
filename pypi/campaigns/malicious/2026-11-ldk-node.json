@@ -1,0 +1,17 @@
+{
+    "name": "2026-11-ldk-node",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "basic_exfiltration",
+        "dependency-confusion",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "ldk-node"
+    ],
+    "created_at": "2026-11-16",
+    "ioc": [],
+    "references": [],
+    "description": "During import, the package exfiltrates basic environment information as well as all LDK* environment variables. It pretends to be a compatibility wrapper for a non-Python package."
+}
