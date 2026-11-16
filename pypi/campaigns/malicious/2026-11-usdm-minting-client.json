@@ -1,0 +1,19 @@
+{
+    "name": "2026-11-usdm-minting-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "exfiltration_credentials",
+        "exfiltration_crypto",
+        "exfiltration_env_variables",
+        "override_install"
+    ],
+    "packages": [
+        "usdm-minting-client"
+    ],
+    "created_at": "2026-11-16",
+    "ioc": [],
+    "references": [],
+    "description": "During installation the package exfiltrates credential files and environment variables, focusing on cryptocurrency- and cloud-related entries. The package seems to be targeting users of a package from GitHub (https://github.com/ethena-labs/usdm-minting-client) which has not been published to PyPI."
+}
