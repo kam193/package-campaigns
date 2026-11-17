@@ -1,0 +1,19 @@
+{
+    "name": "2026-11-mcp-aevo-server",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "crypto-related",
+        "dependency-confusion",
+        "exfiltration_env_variables",
+        "remote_commands",
+        "uses-telegram-bot"
+    ],
+    "packages": [
+        "mcp-aevo-server"
+    ],
+    "created_at": "2026-11-17",
+    "ioc": [],
+    "references": [],
+    "description": "Package targets users ribbon-finance/aevo-trading-skills, which referred to an unclaimed name in PyPI. The package exfiltrates the user's credentials from environment variables and starts a thread listening for remote commands to execute."
+}

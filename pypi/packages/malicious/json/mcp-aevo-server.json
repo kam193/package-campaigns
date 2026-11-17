@@ -1,0 +1,15 @@
+{
+    "name": "mcp-aevo-server",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-mcp-aevo-server",
+    "affected_versions": [
+        "0.2.0",
+        "0.2.0.post1",
+        "0.2.0.post2",
+        "0.2.0.post3",
+        "0.2.0.post4",
+        "0.2.0.post6"
+    ],
+    "campaign_assigned_at": "2026-11-17T14:45:00.113607+00:00",
+    "campaign_data_modified_at": "2026-11-17T14:45:00.176673+00:00"
+}
