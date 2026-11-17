@@ -1,0 +1,10 @@
+{
+    "name": "gguf-accelerator",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-gguf-accelerator",
+    "affected_versions": [
+        "0.1.0"
+    ],
+    "campaign_assigned_at": "2026-11-17T22:05:00.027267+00:00",
+    "campaign_data_modified_at": "2026-11-17T22:05:00.177870+00:00"
+}
