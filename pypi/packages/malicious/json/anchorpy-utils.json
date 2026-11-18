@@ -1,0 +1,10 @@
+{
+    "name": "anchorpy-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-solana-utils-terminalmoney1",
+    "affected_versions": [
+        "1.98.2"
+    ],
+    "campaign_assigned_at": "2026-11-18T20:42:28.212687+00:00",
+    "campaign_data_modified_at": "2026-11-18T20:42:28.240773+00:00"
+}

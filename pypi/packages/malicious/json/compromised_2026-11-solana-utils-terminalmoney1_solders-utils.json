@@ -1,0 +1,10 @@
+{
+    "name": "solders-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-solana-utils-terminalmoney1",
+    "created_at": "2026-11-18",
+    "description": "",
+    "affected_versions": [
+        "1.98.2"
+    ]
+}

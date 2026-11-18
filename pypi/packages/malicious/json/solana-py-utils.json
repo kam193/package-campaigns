@@ -1,0 +1,11 @@
+{
+    "name": "solana-py-utils",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-solana-utils-terminalmoney1",
+    "affected_versions": [
+        "1.98.2",
+        "1.98.3"
+    ],
+    "campaign_assigned_at": "2026-11-18T20:38:00.852732+00:00",
+    "campaign_data_modified_at": "2026-11-18T20:38:00.877819+00:00"
+}

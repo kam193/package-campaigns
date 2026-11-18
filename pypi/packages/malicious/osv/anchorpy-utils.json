@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/2026-11-solana-utils-terminalmoney1/anchorpy-utils",
+    "published": "2026-11-18T20:42:28.212687+00:00",
+    "modified": "2026-11-18T20:42:28.240773+00:00",
+    "summary": "Malicious code in anchorpy-utils (PyPI)",
+    "details": "During installation package exfiltrates sensitive environment variables, files and data from browser extensions, focusing on cryptocurrency-related informations.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-solana-utils-terminalmoney1\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-credentials\n\n\n - exfiltration-browser-data\n\n\n - exfiltration-crypto\n\n\n - crypto-related\n\n\n - typosquatting\n\n\n - The package overrides the install command in setup.py to execute malicious code during installation.\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "anchorpy-utils",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.98.2"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/anchorpy-utils"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}
