@@ -1,0 +1,19 @@
+{
+    "name": "2026-11-certify-web",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "abuses-pth",
+        "persistence"
+    ],
+    "packages": [
+        "certify-web"
+    ],
+    "created_at": "2026-11-19",
+    "ioc": [],
+    "references": [
+        "https://www.ninjaone.com/rmm/"
+    ],
+    "description": "Package installs a PTH file that during every Python startup installs a NinjaOne (legitimate remote management tool) agent tied to the attacker-controlled account and ensures its persistence. As such, the attacker gains full control over the machine."
+}
