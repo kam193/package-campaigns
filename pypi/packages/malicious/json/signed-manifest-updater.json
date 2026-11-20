@@ -1,0 +1,11 @@
+{
+    "name": "signed-manifest-updater",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-testing1345",
+    "description": "During installation, the package downloads and executes a script from a remote location. During analysis, the code was benign, but the package is clearly part of campaign which previously delivered a RAT",
+    "affected_versions": [
+        "0.1.5"
+    ],
+    "campaign_assigned_at": "2026-11-20T21:37:46.857555+00:00",
+    "campaign_data_modified_at": "2026-11-20T21:37:46.881424+00:00"
+}

@@ -28,6 +28,10 @@
         },
         {
             "type": "WEB",
+            "url": "https://github.com/misdry01/g/"
+        },
+        {
+            "type": "WEB",
             "url": "https://bad-packages.kam193.eu/pypi/package/testing1345py"
         }
     ],
@@ -51,7 +55,8 @@
                 "https://file.garden/autlsl_4glu4x2U5/c_b8a1b1.zip",
                 "https://file.garden/autlsl_4glu4x2U5/m_7cf722",
                 "https://pomf2.lain.la/f/qj4sh0sj.png",
-                "https://raw.githubusercontent.com/misdry01/bookish-octo-lamp/refs/heads/main/hello.bat"
+                "https://raw.githubusercontent.com/misdry01/bookish-octo-lamp/refs/heads/main/hello.bat",
+                "https://raw.githubusercontent.com/misdry01/g/refs/heads/main/test.bat"
             ]
         }
     }

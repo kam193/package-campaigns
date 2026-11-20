@@ -9,6 +9,7 @@
     ],
     "packages": [
         "qap793gl4l",
+        "signed-manifest-updater",
         "testing1345",
         "testing1345py"
     ],
@@ -19,11 +20,13 @@
         "https://file.garden/autlsl_4glu4x2U5/c_b8a1b1.zip",
         "https://file.garden/autlsl_4glu4x2U5/m_7cf722",
         "https://pomf2.lain.la/f/qj4sh0sj.png",
-        "https://raw.githubusercontent.com/misdry01/bookish-octo-lamp/refs/heads/main/hello.bat"
+        "https://raw.githubusercontent.com/misdry01/bookish-octo-lamp/refs/heads/main/hello.bat",
+        "https://raw.githubusercontent.com/misdry01/g/refs/heads/main/test.bat"
     ],
     "references": [
         "https://tria.ge/261113-wal5qset2s",
-        "https://www.virustotal.com/gui/file/ce97b675a86bfff5e73e218e8d9d17458857d2328b1b55acd87f644001ca865f/detection"
+        "https://www.virustotal.com/gui/file/ce97b675a86bfff5e73e218e8d9d17458857d2328b1b55acd87f644001ca865f/detection",
+        "https://github.com/misdry01/g/"
     ],
     "description": "During installation, the package downloads and executes a script from a remote location. The server delivers different payload versions, some of them being benign, and others containing next-stage installation. The final payload is a RAT."
 }
