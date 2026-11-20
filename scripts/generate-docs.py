@@ -111,6 +111,7 @@ def generate_packages(campaigns: dict, limit=None):
     with open(CATEGORIES_JSON, "r") as f:
         categories = json.load(f)
 
+    entries = {}
     generated = 0
     for root, dirs, files in os.walk(PACKAGE_JSON):
         for file in files:
@@ -122,20 +123,13 @@ def generate_packages(campaigns: dict, limit=None):
                     package = json.load(f)
                     campaign_name = package.get("campaign", "").strip()
                     if campaign_name in campaigns:
-                        # Generate the package page
-                        output = template.render(
-                            package=package,
-                            campaign=campaigns[campaign_name],
-                            abuse_categories=abuse_categories,
-                            categories=categories,
+                        entries.setdefault(package["name"].strip(), []).append(
+                            {
+                                "package": package,
+                                "campaign": campaigns[campaign_name],
+                                "compromised": file.startswith("compromised_"),
+                            }
                         )
-                        # Write the output to a file
-                        output_file = os.path.join(
-                            PACKAGE_PAGES, f"{package['name'].strip()}.md"
-                        )
-                        os.makedirs(os.path.dirname(output_file), exist_ok=True)
-                        with open(output_file, "w") as out_f:
-                            out_f.write(output)
                         STATS["categories"][campaigns[campaign_name]["category"]][
                             "packages"
                         ] += 1
@@ -148,6 +142,21 @@ def generate_packages(campaigns: dict, limit=None):
                                     campaigns[campaign_name]["category"],
                                 )
                             )
+
+    os.makedirs(PACKAGE_PAGES, exist_ok=True)
+    for name, package_entries in entries.items():
+        package_entries.sort(
+            key=lambda e: e["package"].get("created_at", ""), reverse=True
+        )
+        package_entries.sort(key=lambda e: e["compromised"])
+        output = template.render(
+            name=name,
+            entries=package_entries,
+            abuse_categories=abuse_categories,
+            categories=categories,
+        )
+        with open(os.path.join(PACKAGE_PAGES, f"{name}.md"), "w") as out_f:
+            out_f.write(output)
 
 
 def generate_pypi_index():

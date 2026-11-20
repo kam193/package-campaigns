@@ -1,15 +1,10 @@
----
-title: {{ package["name"] }}
-tags:
-    - campaign:{{ campaign["name"] | trim }}
----
-**{{ campaign["category"] | upper }}** (1) package from Python Package Index.
+{% macro category_line(campaign, suffix) %}**{{ campaign["category"] | upper }}** (1) {{ suffix }}
 {.annotate }
 
 1. {% if campaign["category"] in categories %}{{ categories[campaign["category"]] }}{% else %}{{ campaign["category"] }}{% endif %}
+{% endmacro -%}
 
-# {{ package["name"] }}
-
+{%- macro entry_body(e, h) %}{% set package = e["package"] %}{% set campaign = e["campaign"] %}
 {% if "affected_versions" not in package or not package["affected_versions"] %}
 <div class="annotate" markdown>
 _Affected versions:_ unspecified (1)
@@ -26,7 +21,7 @@ _Affected versions:_ (1) {{ package["affected_versions"] | join(", ") }}
 
 {% if "description" in package.keys() %}{{ package["description"] }}{% endif %}
 
-## Campaign data
+{{ h }} Campaign data
 _Campaign information may not always be 100% accurate for every related package._
 !!! info "Campaign description"
     {{ campaign.get("description", "") | indent(4) }}
@@ -37,16 +32,44 @@ _Campaign information may not always be 100% accurate for every related package.
 ??? {{ info.get("theme", "danger") }} "{{ abuse }}"
     {% if "description" in info.keys() %}{{ info["description"] | indent(4) }}{% else %}Campaign targets {{ abuse }}.{% endif %}
 {% endif %}{% endfor %}
+{% endmacro -%}
+---
+title: {{ name }}
+tags:
+{%- for e in entries %}
+    - campaign:{{ e["campaign"]["name"] | trim }}
+{%- endfor %}
+---
+{% if entries | length == 1 %}
+{{- category_line(entries[0]["campaign"], "package from Python Package Index.") }}
+# {{ name }}
+{{ entry_body(entries[0], "##") }}
+{%- else %}
+Package from Python Package Index linked to {{ entries | length }} campaigns.
 
+# {{ name }}
+
+Related campaigns:
+{% for e in entries %}
+* [{{ e["campaign"]["name"] | trim }}](#{{ e["campaign"]["name"] | trim }}) ({{ (e["package"].get("affected_versions") or []) | join(", ") or "unspecified versions" }})
+{%- endfor %}
+
+{% for e in entries %}
+## Campaign: {{ e["campaign"]["name"] | trim }} { #{{ e["campaign"]["name"] | trim }} }
+
+{{ category_line(e["campaign"], "campaign.") }}
+{{ entry_body(e, "###") }}
+{% endfor %}
+{%- endif %}
 ## Look up in other services
 
 <div class="annotate" markdown>
-* Check metadata in [:material-open-in-new: pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ package["name"][0] }}/{{ package["name"][1] }}/{{ package["name"] }}.json){ target="_blank" rel="noopener" } (1)
-* Search for the package in [ :material-open-in-new: deps.dev](https://deps.dev/pypi/{{ package["name"] }}){ target="_blank" rel="noopener" } (2)
-* Search for the package in [ :material-open-in-new: socket.dev](https://socket.dev/pypi/package/{{ package["name"] }}){ target="_blank" rel="noopener" } (3)
-* Search for the package in [ :material-open-in-new: secure.software](https://secure.software/pypi/packages/{{ package["name"] }}){ target="_blank" rel="noopener" } (4)
-* Search for the package in [ :material-open-in-new: Snyk DB](https://security.snyk.io/package/pip/{{ package["name"] }}){ target="_blank" rel="noopener" } (5)
-* Search for the package in [ :material-open-in-new: Aikido](https://app.aikido.dev/reports/malware/software-supply-chain-attacks?search={{ package["name"] }}&ecosystem=pypi){ target="_blank" rel="noopener" } (6)
+* Check metadata in [:material-open-in-new: pypi-data project](https://github.com/pypi-data/pypi-json-data/blob/main/release_data/{{ name[0] }}/{{ name[1] }}/{{ name }}.json){ target="_blank" rel="noopener" } (1)
+* Search for the package in [ :material-open-in-new: deps.dev](https://deps.dev/pypi/{{ name }}){ target="_blank" rel="noopener" } (2)
+* Search for the package in [ :material-open-in-new: socket.dev](https://socket.dev/pypi/package/{{ name }}){ target="_blank" rel="noopener" } (3)
+* Search for the package in [ :material-open-in-new: secure.software](https://secure.software/pypi/packages/{{ name }}){ target="_blank" rel="noopener" } (4)
+* Search for the package in [ :material-open-in-new: Snyk DB](https://security.snyk.io/package/pip/{{ name }}){ target="_blank" rel="noopener" } (5)
+* Search for the package in [ :material-open-in-new: Aikido](https://app.aikido.dev/reports/malware/software-supply-chain-attacks?search={{ name }}&ecosystem=pypi){ target="_blank" rel="noopener" } (6)
 </div>
 
 1. May not be available. See more in [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repository.
