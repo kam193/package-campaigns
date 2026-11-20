@@ -14,6 +14,7 @@
         "bq-sdist-probe-vrp",
         "emulation-compat-shim",
         "extra-index-url",
+        "gpuproof",
         "poc-revshell",
         "werkzeug-compat-shim"
     ],
