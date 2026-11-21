@@ -1,0 +1,12 @@
+{
+    "name": "instantscrape",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-instantscrape",
+    "affected_versions": [
+        "0.1.0",
+        "0.1.5",
+        "0.1.8"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:53:10.870949+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:53:10.895746+00:00"
+}

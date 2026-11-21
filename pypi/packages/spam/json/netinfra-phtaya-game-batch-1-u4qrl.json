@@ -1,0 +1,10 @@
+{
+    "name": "netinfra-phtaya-game-batch-1-u4qrl",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:41:51.239458+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:41:51.256448+00:00"
+}

@@ -1,0 +1,10 @@
+{
+    "name": "netinfra-free100bonus-batch-1-dcwyv",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:37:32.840771+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:37:32.863428+00:00"
+}

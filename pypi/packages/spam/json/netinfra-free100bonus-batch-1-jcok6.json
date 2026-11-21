@@ -1,0 +1,10 @@
+{
+    "name": "netinfra-free100bonus-batch-1-jcok6",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:41:08.653251+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:41:08.674131+00:00"
+}

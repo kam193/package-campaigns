@@ -1,0 +1,10 @@
+{
+    "name": "netinfra-phfree100-category-b-2076b",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:40:59.936535+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:40:59.958663+00:00"
+}

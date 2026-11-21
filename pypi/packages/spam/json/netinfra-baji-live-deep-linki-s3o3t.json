@@ -1,0 +1,10 @@
+{
+    "name": "netinfra-baji-live-deep-linki-s3o3t",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:41:37.317053+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:41:37.334169+00:00"
+}

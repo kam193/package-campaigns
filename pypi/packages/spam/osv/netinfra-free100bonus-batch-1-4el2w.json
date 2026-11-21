@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-advertisement-abuse/netinfra-free100bonus-batch-1-4el2w",
+    "published": "2026-11-21T11:41:13.153220+00:00",
+    "modified": "2026-11-21T11:41:13.172236+00:00",
+    "summary": "Spam code in netinfra-free100bonus-batch-1-4el2w (PyPI)",
+    "details": "The package was created for advertisement only and its content has nothing to do with any useful Python code.\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-advertisement-abuse\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "netinfra-free100bonus-batch-1-4el2w",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/netinfra-free100bonus-batch-1-4el2w"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}

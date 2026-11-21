@@ -1,0 +1,10 @@
+{
+    "name": "netinfra-phtaya-official-phil-skd2m",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-advertisement-abuse",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-21T11:41:58.949730+00:00",
+    "campaign_data_modified_at": "2026-11-21T11:41:58.967428+00:00"
+}

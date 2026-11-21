@@ -1,0 +1,21 @@
+{
+    "name": "2026-11-instantscrape",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "files_exfiltration",
+        "infostealer",
+        "obfuscation",
+        "override_install"
+    ],
+    "packages": [
+        "instantscrape"
+    ],
+    "created_at": "2026-11-21",
+    "ioc": [],
+    "references": [
+        "https://www.virustotal.com/gui/file/3800ce32ef2a665826b22f98d22f7767b27d53662b9c1a634f768ec5d78f56fa/detection",
+        "https://tria.ge/261121-nyg7paey4t/behavioral1"
+    ],
+    "description": "During installation or import, package executes an embedded malicious executable acting as an infostealer. "
+}

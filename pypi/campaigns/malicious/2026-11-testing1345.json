@@ -9,6 +9,7 @@
     ],
     "packages": [
         "qap793gl4l",
+        "signed-manifest-guard",
         "signed-manifest-updater",
         "testing1345",
         "testing1345py"
