@@ -1,0 +1,12 @@
+{
+    "name": "solblock",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-testing1345",
+    "description": "Package is prepared to deliver remote malicious code. During analysis, the remote code from GitHub is benign, but the same repository already holds a RAT executable and was used in previous attempts. ",
+    "affected_versions": [
+        "0.2.2",
+        "0.2.3"
+    ],
+    "campaign_assigned_at": "2026-11-22T17:46:47.597852+00:00",
+    "campaign_data_modified_at": "2026-11-22T17:52:20.462685+00:00"
+}
