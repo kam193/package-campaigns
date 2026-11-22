@@ -1,0 +1,10 @@
+{
+    "name": "devready-doctor",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-devready-doctor",
+    "affected_versions": [
+        "1.0.0"
+    ],
+    "campaign_assigned_at": "2026-11-22T22:57:47.776707+00:00",
+    "campaign_data_modified_at": "2026-11-22T22:57:47.805816+00:00"
+}
