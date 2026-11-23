@@ -1,0 +1,10 @@
+{
+    "name": "torchserve-cu124-nightly",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-torchserve-cu124-nightly",
+    "affected_versions": [
+        "0.12.1.dev20241119"
+    ],
+    "campaign_assigned_at": "2026-11-23T18:25:38.058189+00:00",
+    "campaign_data_modified_at": "2026-11-23T18:25:38.084353+00:00"
+}
