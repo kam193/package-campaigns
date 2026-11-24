@@ -1,0 +1,18 @@
+{
+    "name": "caspian-client",
+    "ecosystem": "pypi",
+    "campaign": "2026-11-caspian-client",
+    "affected_versions": [
+        "2.9.9",
+        "2.9.10",
+        "2.9.11",
+        "2.9.12",
+        "2.9.13",
+        "2.9.15",
+        "2.9.16",
+        "2.9.17",
+        "2.9.18"
+    ],
+    "campaign_assigned_at": "2026-11-24T19:53:35.010944+00:00",
+    "campaign_data_modified_at": "2026-11-24T19:53:35.036758+00:00"
+}

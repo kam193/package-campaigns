@@ -4,7 +4,7 @@
     "published": "2026-11-17T22:12:19Z",
     "modified": "2026-11-17T22:12:19Z",
     "summary": "Malicious code in agent-framework (PyPI)",
-    "details": "Versions 1.26.1, 1.26.2 were compromised.\n\n\nCompromised versions use PTH file to trigger malicious actions on every Python process startup. It then exfiltrates environment variables, credential files and tokens from cloud metadata endpoints.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-compr-agent-framework\n\n\nReasons (based on the campaign):\n\n\n - exfiltration-env-variables\n\n\n - obfuscation\n\n\n - exfiltration-cloud-tokens\n\n\n - exfiltration-credentials\n\n\n - compromised-package\n\n\n - abuses-pth\n\n",
+    "details": "Versions 1.26.1, 1.26.2 were compromised.\n\n\nCompromised versions use PTH file to trigger malicious actions on every Python process startup. It then exfiltrates environment variables, credential files and tokens from cloud metadata endpoints.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-11-compr-agent-framework\n\n\nReasons (based on the campaign):\n\n\n - compromised-package\n\n\n - abuses-pth\n\n\n - obfuscation\n\n\n - exfiltration-env-variables\n\n\n - exfiltration-credentials\n\n\n - exfiltration-cloud-tokens\n\n",
     "affected": [
         {
             "package": {

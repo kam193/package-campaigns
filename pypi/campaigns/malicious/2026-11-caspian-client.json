@@ -1,0 +1,22 @@
+{
+    "name": "2026-11-caspian-client",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "exfiltration_env_variables",
+        "files_exfiltration",
+        "remote_script"
+    ],
+    "packages": [
+        "caspian-client"
+    ],
+    "created_at": "2026-11-24",
+    "ioc": [
+        "http://201.79.44.36:8765/poll",
+        "https://ff61f3a18ab73e4a540a6a1cfc9e9c25@o4512443838169088.ingest.us.sentry.io/4512443881684992",
+        "201.79.44.36"
+    ],
+    "references": [],
+    "description": "During starting the Python environment, the package exfiltrates env variables and files, and starts a background process awaiting a remote script to execute."
+}
