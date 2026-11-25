@@ -1,0 +1,55 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-other-risky/plusinpath",
+    "published": "2026-11-25T22:08:45.330104+00:00",
+    "modified": "2026-11-25T22:08:45.364037+00:00",
+    "summary": "Highly suspicious code in plusinpath (PyPI)",
+    "details": "Packages that seem to be risky or a part of potential malicious activity, but without any confirmed malicious usage.\n\n\n---\n\nCategory: HIGHLY_SUSPICIOUS - Packages that are likely malicious, but due to the obfuscation level, lack of time or clear indicators it's hard to say what exactly they do; the highest risk of false positives.\n\n\nCampaign: GENERIC-other-risky\n\n\nReasons (based on the campaign):\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "plusinpath",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "1.0.0",
+                "1.0.1",
+                "1.0.2",
+                "1.0.3",
+                "1.0.4",
+                "1.0.5",
+                "1.0.6",
+                "1.0.7",
+                "1.0.8",
+                "1.0.9",
+                "1.0.10",
+                "1.0.11",
+                "2.0.0",
+                "2.1.0",
+                "2.2.0",
+                "2.2.1",
+                "2.2.2",
+                "2.3.0",
+                "2.3.1",
+                "2.4.0",
+                "2.4.5"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/plusinpath"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "ANALYST"
+        }
+    ]
+}
