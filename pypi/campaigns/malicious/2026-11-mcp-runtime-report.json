@@ -1,0 +1,20 @@
+{
+    "name": "2026-11-mcp-runtime-report",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "action-hidden-in-lib-usage",
+        "basic_exfiltration",
+        "exfiltration_env_variables"
+    ],
+    "packages": [
+        "mcp-diag-7f3a",
+        "mcp-env-report",
+        "mcp-runtime-report",
+        "mcp-sysinfo-tools"
+    ],
+    "created_at": "2026-11-25",
+    "ioc": [],
+    "references": [],
+    "description": "When using provided functionality to collect information about the environment, the code silently exfiltrate extened version with full environment variables of the current and all other processes to a remote location."
+}
