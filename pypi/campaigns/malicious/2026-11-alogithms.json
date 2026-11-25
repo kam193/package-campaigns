@@ -1,0 +1,16 @@
+{
+    "name": "2026-11-alogithms",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "abuses-pth",
+        "obfuscation"
+    ],
+    "packages": [
+        "alogithms"
+    ],
+    "created_at": "2026-11-25",
+    "ioc": [],
+    "references": [],
+    "description": "Disguised as a math library, package adds a PTH file that imports it while hiding standard input/output during every Python startup, and provides obfuscated functionality to execute commands and encrypted communication."
+}
