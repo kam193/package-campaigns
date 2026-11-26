@@ -1,0 +1,22 @@
+{
+    "name": "2026-11-denowrap",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "RAT",
+        "malware",
+        "obfuscation",
+        "override_install",
+        "sandbox-detection"
+    ],
+    "packages": [
+        "denowrap"
+    ],
+    "created_at": "2026-11-26",
+    "ioc": [],
+    "references": [
+        "https://tria.ge/261126-pa16bsch72",
+        "https://www.virustotal.com/gui/file/e03b34f1670d212cd0d080416e90c3e30338417f8fe0f2c78b70a812adff3de3/detection"
+    ],
+    "description": "During import or installation, package starts as an embedded executable. It is identified as a RAT from the Quasar/PulsarRAT family."
+}
