@@ -1,0 +1,11 @@
+{
+    "name": "bigmathix",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-graphalgo",
+    "affected_versions": [
+        "1.0.0",
+        "1.0.1"
+    ],
+    "campaign_assigned_at": "2026-11-26T23:37:41.313841+00:00",
+    "campaign_data_modified_at": "2026-11-26T23:37:41.362407+00:00"
+}

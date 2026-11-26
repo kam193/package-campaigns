@@ -1,0 +1,13 @@
+{
+    "name": "graphex",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-graphalgo",
+    "affected_versions": [
+        "3.5.7",
+        "3.5.8",
+        "3.5.9",
+        "3.5.10"
+    ],
+    "campaign_assigned_at": "2026-11-26T23:36:34.131153+00:00",
+    "campaign_data_modified_at": "2026-11-26T23:36:34.180666+00:00"
+}

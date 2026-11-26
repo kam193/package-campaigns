@@ -1,0 +1,12 @@
+{
+    "name": "graphlibx",
+    "ecosystem": "pypi",
+    "campaign": "2026-02-graphalgo",
+    "affected_versions": [
+        "3.5.10",
+        "3.5.11",
+        "3.5.12"
+    ],
+    "campaign_assigned_at": "2026-11-26T23:36:43.879102+00:00",
+    "campaign_data_modified_at": "2026-11-26T23:36:43.911595+00:00"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "2026-02-graphalgo",
+    "ecosystem": "pypi",
+    "category": "malicious",
+    "abuse_categories": [
+        "clones_real_package",
+        "remote_script"
+    ],
+    "packages": [
+        "bigmathex",
+        "bigmathix",
+        "bigmathutils",
+        "graphalgo",
+        "graphex",
+        "graphflux",
+        "graphlibx"
+    ],
+    "created_at": "2026-11-26",
+    "ioc": [],
+    "references": [
+        "https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs"
+    ],
+    "description": "The package is part of the \"graphalgo\" campaign and not included in other related campaigns (e.g. 2026-10-netweavex, 2025-07-graphdict). Collected based on the ReversingLabs blogpost."
+}
