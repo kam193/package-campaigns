@@ -20,5 +20,27 @@
     "references": [
         "https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs"
     ],
-    "description": "The package is part of the \"graphalgo\" campaign and not included in other related campaigns (e.g. 2026-10-netweavex, 2025-07-graphdict). Collected based on the ReversingLabs blogpost."
+    "description": "The package is part of the \"graphalgo\" campaign and not included in other related campaigns (e.g. 2026-10-netweavex, 2025-07-graphdict). Collected based on the ReversingLabs blogpost.",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2025-07-graphdict",
+            "confidence": "high"
+        },
+        {
+            "type": "campaign",
+            "name": "2025-12-graphnode",
+            "confidence": "high"
+        },
+        {
+            "type": "campaign",
+            "name": "2026-10-netweavex",
+            "confidence": "high"
+        },
+        {
+            "type": "cluster",
+            "name": "Graphalgo",
+            "confidence": "high"
+        }
+    ]
 }

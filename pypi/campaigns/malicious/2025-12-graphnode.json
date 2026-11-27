@@ -27,5 +27,17 @@
     "references": [
         "https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs"
     ],
-    "description": "This is a malicious copy of the networkx package. It contains an obfuscated script that downloads and runs further scripts from one of multiple locations, and perform covering tracks by removing the modified code and all references to it. During the analysis, most of remote URLs did not serve any meaningful content, so the final goal is unknown."
+    "description": "This is a malicious copy of the networkx package. It contains an obfuscated script that downloads and runs further scripts from one of multiple locations, and perform covering tracks by removing the modified code and all references to it. During the analysis, most of remote URLs did not serve any meaningful content, so the final goal is unknown.",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-02-graphalgo",
+            "confidence": "high"
+        },
+        {
+            "type": "cluster",
+            "name": "Graphalgo",
+            "confidence": "high"
+        }
+    ]
 }

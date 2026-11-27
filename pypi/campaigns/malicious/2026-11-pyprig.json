@@ -14,5 +14,17 @@
     "references": [
         "https://github.com/PyPrig/pyprig-validation-toolkit"
     ],
-    "description": "Clone of a legitimate Pydantic package with the added downloading of a remote code. The remote code is delivered from the GitHub repository and unpacked as a new module and then called during initialization of any models (runner injected into cloned Pydantic code). During analysis, the remote code was just a placeholder."
+    "description": "Clone of a legitimate Pydantic package with the added downloading of a remote code. The remote code is delivered from the GitHub repository and unpacked as a new module and then called during initialization of any models (runner injected into cloned Pydantic code). During analysis, the remote code was just a placeholder.",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-10-netweavex",
+            "confidence": "high"
+        },
+        {
+            "type": "cluster",
+            "name": "Graphalgo",
+            "confidence": "high"
+        }
+    ]
 }

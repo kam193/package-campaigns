@@ -18,5 +18,17 @@
     "references": [
         "https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs"
     ],
-    "description": "Malicious clone of legitimate networkx package with added hidden encrypted code. The exact behaviour unclear as it uses decryption key based on the arguments and config files"
+    "description": "Malicious clone of legitimate networkx package with added hidden encrypted code. The exact behaviour unclear as it uses decryption key based on the arguments and config files",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-02-graphalgo",
+            "confidence": "high"
+        },
+        {
+            "type": "cluster",
+            "name": "Graphalgo",
+            "confidence": "high"
+        }
+    ]
 }

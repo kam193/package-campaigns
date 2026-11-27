@@ -19,5 +19,27 @@
     "references": [
         "https://github.com/jerryjohnston91/helper-library"
     ],
-    "description": "Clone of a legitimated package. During import package executes obfuscated code that downloads code from a GitHub repository. During analysis, the code was just a placeholder."
+    "description": "Clone of a legitimated package. During import package executes obfuscated code that downloads code from a GitHub repository. During analysis, the code was just a placeholder.",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-02-graphalgo",
+            "confidence": "high"
+        },
+        {
+            "type": "campaign",
+            "name": "2026-11-dashloom",
+            "confidence": "high"
+        },
+        {
+            "type": "campaign",
+            "name": "2026-11-pyprig",
+            "confidence": "high"
+        },
+        {
+            "type": "cluster",
+            "name": "Graphalgo",
+            "confidence": "high"
+        }
+    ]
 }
