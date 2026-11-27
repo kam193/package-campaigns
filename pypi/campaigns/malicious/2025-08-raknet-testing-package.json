@@ -17,5 +17,13 @@
         "https://pastebin.com/raw/hEF5HaFc"
     ],
     "references": [],
-    "description": "During installation, the package attempts to install the own MITM proxy without user's consent and hijack all requests"
+    "description": "During installation, the package attempts to install the own MITM proxy without user's consent and hijack all requests",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-06-easyaillm",
+            "confidence": "medium",
+            "kind": "IoC"
+        }
+    ]
 }

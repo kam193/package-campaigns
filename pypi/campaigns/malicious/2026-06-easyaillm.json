@@ -45,5 +45,13 @@
         "https://www.virustotal.com/gui/file/0649f50ead3695f41c1243883200bdb775410bcd8c8fb88277740a625a154e25",
         "https://www.virustotal.com/gui/file/926e8f1a7f349ff1eef31f89fa8ffe265c30b92e310e8bea19962d38f8c32129"
     ],
-    "description": "During installation, the code attempts to download and start a malicious executable.\n\nLikely related to 2025-08-raknet-testing-package. "
+    "description": "During installation, the code attempts to download and start a malicious executable.\n\nLikely related to 2025-08-raknet-testing-package. ",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2025-08-raknet-testing-package",
+            "confidence": "medium",
+            "kind": "IoC"
+        }
+    ]
 }

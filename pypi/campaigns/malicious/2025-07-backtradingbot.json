@@ -21,5 +21,13 @@
     "references": [
         "https://bad-packages.kam193.eu/pypi/campaign/2025-07-db-indicator/"
     ],
-    "description": "Running the installed entry point downloads and executes remote code. During the analysis, the code was switching to websockets, adding a startup script and downloading next stages, which finally looked for browser and crypto wallet data. Currently, they seem not to attempt exfiltration of very sensitive data but rather a presence of different webbrowsers and wallets.\n\nIt uses the same remote domain as campaign 2025-07-db-indicator, but significantly different payload."
+    "description": "Running the installed entry point downloads and executes remote code. During the analysis, the code was switching to websockets, adding a startup script and downloading next stages, which finally looked for browser and crypto wallet data. Currently, they seem not to attempt exfiltration of very sensitive data but rather a presence of different webbrowsers and wallets.\n\nIt uses the same remote domain as campaign 2025-07-db-indicator, but significantly different payload.",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2025-07-db-indicator",
+            "confidence": "high",
+            "kind": "IoC"
+        }
+    ]
 }
