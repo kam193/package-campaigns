@@ -1,0 +1,10 @@
+{
+    "name": "qwenvox-tts-3",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.3.0"
+    ],
+    "campaign_assigned_at": "2026-11-27T19:38:56.845528+00:00",
+    "campaign_data_modified_at": "2026-11-27T19:38:56.847789+00:00"
+}
