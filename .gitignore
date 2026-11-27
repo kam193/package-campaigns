@@ -1,6 +1,8 @@
 .cache/
 docs/pypi/campaign/
 !docs/pypi/campaign/.gitkeep
+docs/pypi/cluster/
+!docs/pypi/cluster/.gitkeep
 docs/pypi/package/
 !docs/pypi/package/.gitkeep
 docs/pypi/abuse_category/

@@ -7,10 +7,12 @@ CAMPAIGN_PAGES = "docs/pypi/campaign"
 CAMPAIGN_PAGES_TEMPLATE = "templates/pypi-campaign.md.j2"
 ABUSE_PAGES = "docs/pypi/abuse_category"
 PACKAGE_PAGES = "docs/pypi/package"
+CLUSTER_PAGES = "docs/pypi/cluster"
 PYPI_INDEX = "docs/pypi/index.md"
 
 CAMPAIGN_JSONS = "pypi/campaigns"
 PACKAGE_JSON = "pypi/packages"
+CLUSTER_JSONS = "pypi/clusters"
 
 ABUSE_JSON = "scripts/abuse.json"
 CATEGORIES_JSON = "scripts/categories.json"
@@ -159,6 +161,109 @@ def generate_packages(campaigns: dict, limit=None):
             out_f.write(output)
 
 
+def build_cluster_graph(cluster, members, campaigns):
+    nodes = {}
+    edges = []
+
+    def node(kind, name, url, optional=False, packages=None):
+        node_id = f"{kind}:{name}"
+        nodes.setdefault(
+            node_id,
+            {
+                "data": {"id": node_id, "kind": kind, "label": name, "url": url}
+                | ({"packages": packages} if packages is not None else {}),
+                "classes": "optional" if optional else "",
+            },
+        )
+        return node_id
+
+    def edge(source, target, relation):
+        edges.append(
+            {
+                "data": {
+                    "source": source,
+                    "target": target,
+                    "confidence": relation["confidence"],
+                    "label": relation.get("kind", ""),
+                }
+            }
+        )
+
+    root = node("CLUSTER", cluster["name"], "")
+    for related in cluster.get("clusters", []):
+        edge(root, node("CLUSTER", related["name"], f"../{related['name']}/"), related)
+    for member in members:
+        name = member["name"]
+        campaign_id = node(
+            "CAMPAIGN",
+            name,
+            f"../../campaign/{name}/",
+            packages=len(campaigns[name].get("packages", [])),
+        )
+        edge(root, campaign_id, member)
+        campaign = campaigns[name]
+        for relation in campaign.get("relations", []):
+            if relation["type"] == "cluster":
+                continue
+            target = relation["name"]
+            if target in campaigns and target != name:
+                target_id = node(
+                    "CAMPAIGN",
+                    target,
+                    f"../../campaign/{target}/",
+                    packages=len(campaigns[target].get("packages", [])),
+                )
+                if not any(
+                    {e["data"]["source"], e["data"]["target"]}
+                    == {campaign_id, target_id}
+                    for e in edges
+                ):
+                    edge(campaign_id, target_id, relation)
+        for package in campaign.get("packages", []):
+            package = package.strip()
+            edge(
+                campaign_id,
+                node("PACKAGE", package, f"../../package/{package}/", True),
+                {"confidence": "high"},
+            )
+        for abuse in campaign.get("abuse_categories", []):
+            if abuse:
+                edge(
+                    campaign_id,
+                    node("ABUSE", abuse, f"../../abuse_category/{abuse}/", True),
+                    {"confidence": "high"},
+                )
+    return list(nodes.values()) + edges
+
+
+def generate_cluster_pages(campaigns: dict):
+    """Generate cluster pages from JSON files."""
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath="."))
+    template = env.get_template("templates/pypi-cluster.md.j2")
+    os.makedirs(CLUSTER_PAGES, exist_ok=True)
+    for file in sorted(os.listdir(CLUSTER_JSONS)) if os.path.isdir(CLUSTER_JSONS) else []:
+        if not file.endswith(".json"):
+            continue
+        with open(os.path.join(CLUSTER_JSONS, file), "r") as f:
+            cluster = json.load(f)
+        members = [c for c in cluster.get("campaigns", []) if c["name"] in campaigns]
+        if not members:
+            continue
+        references = [
+            (c["name"], campaigns[c["name"]]["references"])
+            for c in members
+            if campaigns[c["name"]].get("references")
+        ]
+        output = template.render(
+            cluster=cluster,
+            members=members,
+            references=references,
+            graph=build_cluster_graph(cluster, members, campaigns),
+        )
+        with open(os.path.join(CLUSTER_PAGES, f"{cluster['name']}.md"), "w") as out_f:
+            out_f.write(output)
+
+
 def generate_pypi_index():
     newest_campaigns = sorted(STATS["campaigns"], key=lambda x: x[0], reverse=True)[:10]
     category_stats = sorted(
@@ -185,4 +290,5 @@ def generate_pypi_index():
 if __name__ == "__main__":
     cpgs = generate_campaign_pages(limit=20 if "--test" in sys.argv else None)
     generate_packages(cpgs, limit=20 if "--test" in sys.argv else None)
+    generate_cluster_pages(cpgs)
     generate_pypi_index()

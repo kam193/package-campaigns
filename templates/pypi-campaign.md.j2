@@ -1,4 +1,4 @@
----
+{% from "templates/_references.md.j2" import render_references %}---
 title: {{ campaign["name"] | trim }}
 tags:
     - {{ campaign["category"] | upper }}
@@ -30,25 +30,20 @@ tags:
 _Referenced resources may include blog posts about the campaign,
 malware analysis, sandbox reports, or other relevant information._
 
-{% for reference in campaign["references"] %}{% if reference %}
-{% if reference.startswith("https://www.virustotal.com/gui/file/") %}
-  - [:simple-virustotal: VirusTotal results]({{ reference }})
-{% elif reference.startswith("https://tria.ge") %}
-  - [:fontawesome-solid-box-open: tria.ge report]({{ reference }})
-{% elif reference.startswith("https://www.hybrid-analysis.com/sample/") %}
-  - [:fontawesome-solid-box-open: Hybrid Analysis report]({{ reference }})
-{% elif reference.startswith("https://app.any.run/") %}
-  - [:fontawesome-solid-box-open: ANY.RUN report]({{ reference }})
-{% elif reference.startswith("https://www.cert.at/") %}
-  - [:material-sticker-text-outline: CERT.at blog/information]({{ reference }})
-{% else %}
-  - [{{ reference }}]({{ reference }})
-{% endif %}{% endif %}{% endfor %}{% endif %}{% if "ioc" in campaign.keys() and campaign["ioc"] %}
+{{ render_references(campaign["references"]) }}{% endif %}{% if "ioc" in campaign.keys() and campaign["ioc"] %}
 ## IoCs & related URLs
 _URLs with payloads, characteristic domains, C&C IPs, repositories with malicious code, etc._
 
 {% for ioc in campaign["ioc"] %}
 * `{{ ioc | replace("https://", "hxxps://") | replace("http://", "hxxp://") }}`
+{% endfor %}{% endif %}
+
+{% if campaign.get("relations") %}
+## Related campaigns & clusters
+
+{% for relation in campaign["relations"] %}
+- {{ relation["type"] }} [{{ relation["name"] }}]({% if relation["type"] == "cluster" %}../cluster/{% endif %}{{ relation["name"] }}.md) – {{ relation["confidence"] }} confidence{% if relation.get("kind") %}, {{ relation["kind"] }}{% endif %}{% if relation.get("comment") %}: {{ relation["comment"] }}{% endif %}
+
 {% endfor %}{% endif %}
 
 ## Packages in the campaign

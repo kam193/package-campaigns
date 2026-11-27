@@ -1,0 +1,33 @@
+{% from "templates/_references.md.j2" import render_references %}---
+title: {{ cluster["name"] }}
+---
+
+# {{ cluster["name"] }}
+
+{{ cluster.get("description", "") }}
+
+## Graph
+
+<div class="cluster-graph" data-graph='{{ graph | tojson | forceescape }}'></div>
+
+## Campaigns
+
+{% for campaign in members %}
+- [{{ campaign["name"] }}](../campaign/{{ campaign["name"] }}.md) – {{ campaign["confidence"] }} confidence{% if campaign.get("kind") %}, {{ campaign["kind"] }}{% endif %}{% if campaign.get("comment") %}: {{ campaign["comment"] }}{% endif %}
+
+{% endfor %}
+{% if cluster.get("clusters") %}
+## Related clusters
+
+{% for related in cluster["clusters"] %}
+- [{{ related["name"] }}]({{ related["name"] }}.md) – {{ related["confidence"] }} confidence{% if related.get("kind") %}, {{ related["kind"] }}{% endif %}{% if related.get("comment") %}: {{ related["comment"] }}{% endif %}
+
+{% endfor %}{% endif %}
+{% if references %}
+## References
+{% for name, refs in references %}
+
+### [{{ name }}](../campaign/{{ name }}.md)
+
+{{ render_references(refs) }}
+{% endfor %}{% endif %}

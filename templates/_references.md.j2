@@ -1,0 +1,16 @@
+{% macro render_references(references) %}
+{% for reference in references %}{% if reference %}
+{% if reference.startswith("https://www.virustotal.com/gui/file/") %}
+  - [:simple-virustotal: VirusTotal results]({{ reference }})
+{% elif reference.startswith("https://tria.ge") %}
+  - [:fontawesome-solid-box-open: tria.ge report]({{ reference }})
+{% elif reference.startswith("https://www.hybrid-analysis.com/sample/") %}
+  - [:fontawesome-solid-box-open: Hybrid Analysis report]({{ reference }})
+{% elif reference.startswith("https://app.any.run/") %}
+  - [:fontawesome-solid-box-open: ANY.RUN report]({{ reference }})
+{% elif reference.startswith("https://www.cert.at/") %}
+  - [:material-sticker-text-outline: CERT.at blog/information]({{ reference }})
+{% else %}
+  - [{{ reference }}]({{ reference }})
+{% endif %}{% endif %}{% endfor %}
+{% endmacro %}

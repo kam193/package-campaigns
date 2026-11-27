@@ -3,6 +3,7 @@ nav:
   - index.md
   - abuse_category
   - campaign
+  - cluster
   - campaign_category
   - Package:
     - "0-9":
