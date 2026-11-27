@@ -27,16 +27,6 @@
             "confidence": "high"
         },
         {
-            "type": "campaign",
-            "name": "2026-11-dashloom",
-            "confidence": "high"
-        },
-        {
-            "type": "campaign",
-            "name": "2026-11-pyprig",
-            "confidence": "high"
-        },
-        {
             "type": "cluster",
             "name": "Graphalgo",
             "confidence": "high"
