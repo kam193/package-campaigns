@@ -1,0 +1,12 @@
+{
+    "name": "audiostint",
+    "ecosystem": "pypi",
+    "campaign": "2026-10-voice-synthesis-profiles",
+    "affected_versions": [
+        "0.1.0",
+        "0.2.0",
+        "0.2.1"
+    ],
+    "campaign_assigned_at": "2026-11-27T17:38:37.561177+00:00",
+    "campaign_data_modified_at": "2026-11-27T17:40:34.445070+00:00"
+}
