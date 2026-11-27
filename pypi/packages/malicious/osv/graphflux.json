@@ -2,7 +2,7 @@
     "schema_version": "1.7.4",
     "id": "pypi/2026-02-graphalgo/graphflux",
     "published": "2026-11-26T23:37:02.537943+00:00",
-    "modified": "2026-11-26T23:37:02.566751+00:00",
+    "modified": "2026-11-27T12:44:21.561336+00:00",
     "summary": "Malicious code in graphflux (PyPI)",
     "details": "The package is part of the \"graphalgo\" campaign and not included in other related campaigns (e.g. 2026-10-netweavex, 2025-07-graphdict). Collected based on the ReversingLabs blogpost.\n\n\n---\n\nCategory: MALICIOUS - The campaign has clearly malicious intent, like infostealers.\n\n\nCampaign: 2026-02-graphalgo\n\n\nReasons (based on the campaign):\n\n\n - clones-real-package\n\n\n - Downloads and executes a remote malicious script.\n\n",
     "affected": [
