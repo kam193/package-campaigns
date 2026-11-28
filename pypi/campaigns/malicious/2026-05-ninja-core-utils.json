@@ -25,5 +25,18 @@
         "https://gist.githubusercontent.com/cdylan320/513f3c21cb33313860aaf22b506d6f19/raw/3b58fb057f92e0a52f90c0a57f3e7a9b48f9d595/config.json"
     ],
     "references": [],
-    "description": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location and places a backdoor through a new authorized SSH key. Information about the placed backdoor is sent back to the attacker, and sshd configuration is adjusted to ensure the successful remote connection."
+    "description": "During installation, obfuscated code exfiltrates cryptocurrency wallet data to a hardcoded location and places a backdoor through a new authorized SSH key. Information about the placed backdoor is sent back to the attacker, and sshd configuration is adjusted to ensure the successful remote connection.",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-05-ninja-ssh-proto",
+            "confidence": "high",
+            "kind": "IoC"
+        },
+        {
+            "type": "cluster",
+            "name": "Ninja-backdoor",
+            "confidence": "high"
+        }
+    ]
 }

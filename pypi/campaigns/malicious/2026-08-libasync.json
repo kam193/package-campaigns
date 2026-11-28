@@ -30,6 +30,11 @@
             "name": "2026-07-pyqt6darktheme",
             "confidence": "high",
             "kind": "IoC"
+        },
+        {
+            "type": "cluster",
+            "name": "Florinn",
+            "confidence": "high"
         }
     ]
 }

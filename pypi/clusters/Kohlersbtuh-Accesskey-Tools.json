@@ -1,0 +1,15 @@
+{
+    "name": "Kohlersbtuh-Accesskey-Tools",
+    "campaigns": [
+        {
+            "type": "campaign",
+            "name": "2025-02-alicloud-client",
+            "confidence": "high"
+        },
+        {
+            "type": "campaign",
+            "name": "2025-08-aws-enumerate",
+            "confidence": "high"
+        }
+    ]
+}

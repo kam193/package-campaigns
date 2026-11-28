@@ -1,0 +1,15 @@
+{
+    "name": "Florinn",
+    "campaigns": [
+        {
+            "type": "campaign",
+            "name": "2026-07-pyqt6darktheme",
+            "confidence": "high"
+        },
+        {
+            "type": "campaign",
+            "name": "2026-08-libasync",
+            "confidence": "high"
+        }
+    ]
+}
