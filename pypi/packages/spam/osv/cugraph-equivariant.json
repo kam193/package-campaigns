@@ -1,0 +1,35 @@
+{
+    "schema_version": "1.7.4",
+    "id": "pypi/GENERIC-local-poc/cugraph-equivariant",
+    "published": "2026-11-28T11:40:43.363459+00:00",
+    "modified": "2026-11-28T11:40:43.378761+00:00",
+    "summary": "Spam code in cugraph-equivariant (PyPI)",
+    "details": "Package is used only to demonstrate dependency confusion without any exfiltration attempts, and there is no other usage\n\n\n---\n\nCategory: SPAM - advertisements, spam packages etc.\n\n\nCampaign: GENERIC-local-poc\n\n\nReasons (based on the campaign):\n\n\n - typosquatting\n\n\n - dependency-confusion\n\n",
+    "affected": [
+        {
+            "package": {
+                "name": "cugraph-equivariant",
+                "ecosystem": "PyPI"
+            },
+            "versions": [
+                "24.4.0"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "type": "WEB",
+            "url": "https://bad-packages.kam193.eu/pypi/package/cugraph-equivariant"
+        }
+    ],
+    "credits": [
+        {
+            "name": "Kamil Ma\u0144kowski (kam193)",
+            "contact": [
+                "https://github.com/kam193",
+                "https://bad-packages.kam193.eu/"
+            ],
+            "type": "REPORTER"
+        }
+    ]
+}

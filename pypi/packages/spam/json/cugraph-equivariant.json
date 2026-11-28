@@ -1,0 +1,10 @@
+{
+    "name": "cugraph-equivariant",
+    "ecosystem": "pypi",
+    "campaign": "GENERIC-local-poc",
+    "affected_versions": [
+        "24.4.0"
+    ],
+    "campaign_assigned_at": "2026-11-28T11:40:43.363459+00:00",
+    "campaign_data_modified_at": "2026-11-28T11:40:43.378761+00:00"
+}
