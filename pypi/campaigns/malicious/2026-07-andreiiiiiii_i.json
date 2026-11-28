@@ -38,5 +38,13 @@
         "https://www.virustotal.com/gui/file/1360bb7437f5e7790747bc4e31eedcd19f88f23b20362a42368f4179b8b9e27d/detection",
         "https://tria.ge/260720-teqmlshs6y/behavioral1"
     ],
-    "description": "Package presents little functionality, but excessive fake 'telemetry' module. This fake telemetry is used to download and run malicious executables. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from one of c.*.dl.well1[.]site domains, depending on the system. This record returns a number, which is then used to iterate over domains in the form <0...n>.*.dl.well1[.]site and reconstruct the encoded executable from their TXT records. The downloaded binary is then executed and removed afterward. Using a PTH file ensures persistence and runs on every Python start. In this campaign, versions 0.0.1 hold disarmed code (without the necessary configuration), which is completed in further updates.\n\nThis is a continuation of the 2026-07-haproxy-config-client campaign. "
+    "description": "Package presents little functionality, but excessive fake 'telemetry' module. This fake telemetry is used to download and run malicious executables. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from one of c.*.dl.well1[.]site domains, depending on the system. This record returns a number, which is then used to iterate over domains in the form <0...n>.*.dl.well1[.]site and reconstruct the encoded executable from their TXT records. The downloaded binary is then executed and removed afterward. Using a PTH file ensures persistence and runs on every Python start. In this campaign, versions 0.0.1 hold disarmed code (without the necessary configuration), which is completed in further updates.\n\nThis is a continuation of the 2026-07-haproxy-config-client campaign. ",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-07-haproxy-config-client",
+            "confidence": "high",
+            "kind": "IoC"
+        }
+    ]
 }

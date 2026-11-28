@@ -34,5 +34,13 @@
     "references": [
         "https://www.virustotal.com/gui/file/d47a2d1b96df84b10263a99866b865421b334448432d1b447b82c76253bcbe86/detection"
     ],
-    "description": "During installation the obfuscated code downloads a malicious executable from a remote location. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from c.lin.dl.wel1[.]ru. This record returns a number, which is then used to iterate over domains in the form <0...n>.lin.dl.wel1[.]r and reconstruct the encoded executable from their TXT records. The executable is finally saved under a partially random name, executed, and removed after execution. The Linux executable contacts a few domains, but there is no more detailed information about its behavior available. "
+    "description": "During installation the obfuscated code downloads a malicious executable from a remote location. Code is designed to survive different blocks: first, there is an attempt to download the executable from one of five Cloudflare Workers. If it's not successful, the code falls back to download using DNS: first, it gets a TXT record from c.lin.dl.wel1[.]ru. This record returns a number, which is then used to iterate over domains in the form <0...n>.lin.dl.wel1[.]r and reconstruct the encoded executable from their TXT records. The executable is finally saved under a partially random name, executed, and removed after execution. The Linux executable contacts a few domains, but there is no more detailed information about its behavior available. ",
+    "relations": [
+        {
+            "type": "campaign",
+            "name": "2026-07-andreiiiiiii_i",
+            "confidence": "high",
+            "kind": "IoC"
+        }
+    ]
 }
